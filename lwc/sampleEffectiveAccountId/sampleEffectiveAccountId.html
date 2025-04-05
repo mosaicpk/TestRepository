@@ -1,0 +1,35 @@
+<template>
+    <lightning-card title="Quote Details" icon-name="standard:quote">
+        <template if:true={quoteData}>
+            <div class="slds-p-around_medium">
+                <p><b>Quote Name:</b> {quoteData.Name}</p>
+                <p><b>Currency:</b> {quoteData.CurrencyIsoCode}</p>
+                <p><b>Expiration Date:</b> {quoteData.PMC_CPQ_ExpirationDate__c}</p>
+                <p><b>Notes:</b></p>
+                <template for:each={quoteData.Notes} for:item="note">
+                    <p key={note.Id}><b>Created By:</b> {note.CreatedBy.Name}: {note.Title} {note.Body}</p>
+                </template>
+                
+                
+            </div>
+        </template>
+        <p><b>Account Manager: {accountManagerName}</b></p>
+        <template if:false={quoteData}>
+            <div class="slds-p-around_medium">
+                No quote data found.
+            </div>
+        </template>
+    </lightning-card>
+
+    <lightning-button 
+      variant="base"
+      label="Create Notes & Attachment" 
+      onclick={handleNotes} 
+    ></lightning-button>
+    <lightning-button 
+      variant="base"
+      label="Get Nav Menu" 
+      onclick={getNavMenuItems} 
+    ></lightning-button>
+    
+</template>

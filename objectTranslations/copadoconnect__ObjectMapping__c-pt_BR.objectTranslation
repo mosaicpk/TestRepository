@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Object Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Object Mapping --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Mapeamentos de objetos</label>
+        <name>copadoconnect__Objects_Mappings</name>
+    </fieldSets>
+    <fields>
+        <label>Integração do Copado</label>
+        <name>copadoconnect__Copado_Integration__c</name>
+        <relationshipLabel>Mapeamentos de objetos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objeto do provedor</label>
+        <name>copadoconnect__External_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de provedor</label>
+        <name>copadoconnect__External_Object_Record_Type_Label__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de provedor</label>
+        <name>copadoconnect__External_Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>Credencial nomeada</label>
+        <name>copadoconnect__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Provedor</label>
+        <name>copadoconnect__Provider__c</name>
+    </fields>
+    <fields>
+        <label>Objeto Copado</label>
+        <name>copadoconnect__Salesforce_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de registro Copado</label>
+        <name>copadoconnect__Salesforce_Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copadoconnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapped</masterLabel>
+            <translation>Mapeado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sincronizado?</label>
+        <name>copadoconnect__Synced__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Object Mapping Name --></nameFieldLabel>
+</CustomObjectTranslation>

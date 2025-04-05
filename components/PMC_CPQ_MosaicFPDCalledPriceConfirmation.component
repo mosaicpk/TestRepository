@@ -1,0 +1,19 @@
+<apex:component controller="PMC_CPQ_PriceConfirmationController" access="global">
+    
+    <apex:slds />
+    
+    <apex:attribute name="quote" description="quote id" assignTo="{!quoteId}" type="String"/>
+    
+    <apex:outputPanel >
+        Hello &nbsp;<apex:outputText value="{!approvalRecord.Quote__r.PMC_CPQ_PrimaryContact__r.FirstName}" />, <br/>
+        The following FPD orders have been priced as requested. <br/>
+        {!approvalRecord.OrderItem__r.SBQQ__Contract__r.ContractNumber} <br/>
+        <apex:repeat value="{!itemList}" var="line">
+            FPD Order &nbsp;<apex:outputText value="{!line.Order.OrderNumber}"/>-<apex:outputText value="{!line.OrderItemNumber}"/> has been priced at $<apex:outputText value="{0, number, ###,###,###,##0.00}"><apex:param value="{!line.TotalPrice}" /></apex:outputText> as requested for&nbsp;<apex:outputText value="{!line.PMC_CPQ_ShipTo__r.Name }"/> <br/>
+        </apex:repeat>
+        <br/> Please let us know if you have any questions. <br/>
+        Thank you, <br/>
+        {!approvalRecord.CreatedBy.Name} <br/>
+    </apex:outputPanel>
+    
+</apex:component>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Envio acionado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Envios acionados</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>et4ae5__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>et4ae5__Active__c</name>
+    </fields>
+    <fields>
+        <label>Data/hora do fluxo de trabalho de backup</label>
+        <name>et4ae5__BackupWorkflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bounce Rate --></label>
+        <name>et4ae5__Bounce_Rate_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>et4ae5__Business_Unit__c</name>
+        <relationshipLabel><!-- Triggered Sends --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Click Through Rate --></label>
+        <name>et4ae5__Click_Through_Rate__c</name>
+    </fields>
+    <fields>
+        <help>O campo Contato/Lead é usado para identificar o destinatário pretendido do e-mail. Esse deve ser um campo de pesquisa para o objeto de contato ou de lead para o respectivo objeto usado na definição de envio acionado. Se estiver criando um acionamento de envio no contato ou lead</help>
+        <label>Campo de contato/líder</label>
+        <name>et4ae5__Contact_Lead_FIeld__c</name>
+    </fields>
+    <fields>
+        <label>Identificação da conversa</label>
+        <name>et4ae5__ConversationId__c</name>
+    </fields>
+    <fields>
+        <label>ID da extensão de dados</label>
+        <name>et4ae5__Data_Extension_Id__c</name>
+    </fields>
+    <fields>
+        <label>Nome da extensão de dados</label>
+        <name>et4ae5__Data_Extension_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent --></label>
+        <name>et4ae5__DateSent__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime --></label>
+        <name>et4ae5__DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>et4ae5__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliverability Rate --></label>
+        <name>et4ae5__Deliverability_Rate__c</name>
+    </fields>
+    <fields>
+        <label>E-mail ID do ativo</label>
+        <name>et4ae5__EmailAssetId__c</name>
+    </fields>
+    <fields>
+        <label>ID do e-mail</label>
+        <name>et4ae5__EmailId__c</name>
+    </fields>
+    <fields>
+        <label>Nome do e-mail</label>
+        <name>et4ae5__EmailName__c</name>
+    </fields>
+    <fields>
+        <help>Os critérios de campo podem ser usados para refinar ainda mais se um envio acionado deve ser enviado.  Os critérios são avaliados quando ocorre o evento de objeto selecionado</help>
+        <label><!-- Field Criteria --></label>
+        <name>et4ae5__Filter__c</name>
+    </fields>
+    <fields>
+        <label>E-mail de</label>
+        <name>et4ae5__FromEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nome de</label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Delayed --></label>
+        <name>et4ae5__Hours_Delayed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Tracking Disabled --></label>
+        <name>et4ae5__Individual_Tracking_Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- MemberId --></label>
+        <name>et4ae5__MemberId__c</name>
+    </fields>
+    <fields>
+        <label>destinatários da notificaçã</label>
+        <name>et4ae5__NotificationRecipients__c</name>
+    </fields>
+    <fields>
+        <label>Notificar o proprietário em case de erro</label>
+        <name>et4ae5__Notify_Owner_On_Error__c</name>
+    </fields>
+    <fields>
+        <label>Notificar usuário execução em caso erro</label>
+        <name>et4ae5__Notify_Running_User_On_Error__c</name>
+    </fields>
+    <fields>
+        <label>Número não clicado</label>
+        <name>et4ae5__NumberNotClicked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Sent --></label>
+        <name>et4ae5__NumberSent__c</name>
+    </fields>
+    <fields>
+        <label>Número de não inscritos</label>
+        <name>et4ae5__NumberUnsubscribed__c</name>
+    </fields>
+    <fields>
+        <label>Número de devoluções</label>
+        <name>et4ae5__Number_Bounced__c</name>
+    </fields>
+    <fields>
+        <label>Número entregue</label>
+        <name>et4ae5__Number_Delivered__c</name>
+    </fields>
+    <fields>
+        <label>Número não aberto</label>
+        <name>et4ae5__Number_Not_Opened__c</name>
+    </fields>
+    <fields>
+        <label>Número de pendências existentes</label>
+        <name>et4ae5__NumberofExistingUndeliverables__c</name>
+    </fields>
+    <fields>
+        <label>Cancelamentos existentes</label>
+        <name>et4ae5__NumberofExistingUnsubscribes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Hard Bounces --></label>
+        <name>et4ae5__NumberofHardBounces__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Soft Bounces --></label>
+        <name>et4ae5__NumberofSoftBounces__c</name>
+    </fields>
+    <fields>
+        <label>Número de assinantes Encaminhamento</label>
+        <name>et4ae5__NumberofSubscribersForwardingEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Total Clicks --></label>
+        <name>et4ae5__NumberofTotalClicks__c</name>
+    </fields>
+    <fields>
+        <label>Número de aberturas totais</label>
+        <name>et4ae5__NumberofTotalOpens__c</name>
+    </fields>
+    <fields>
+        <label>Número de cliques únicos</label>
+        <name>et4ae5__NumberofUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <label>Número de aberturas exclusivas</label>
+        <name>et4ae5__NumberofUniqueOpens__c</name>
+    </fields>
+    <fields>
+        <help>Objeto no qual o envio acionado se baseia</help>
+        <label><!-- Object --></label>
+        <name>et4ae5__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Rate --></label>
+        <name>et4ae5__Open_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Valor de campo selecionado que procura contas pessoais.</help>
+        <label>Campo de pesquisa de conta de pessoa</label>
+        <name>et4ae5__Person_Account_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <help>A cadeia de texto usada para aparecer no pré-cabeçalho do e-mail. Observação: Esse texto contém barras invertidas (\) antes de todas as aspas simples (&apos;) para garantir uma experiência segura. No entanto, essas barras invertidas não aparecem no e-mail enviado.</help>
+        <label><!-- Preheader --></label>
+        <name>et4ae5__Preheader__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecipientsOptedIn --></label>
+        <name>et4ae5__RecipientsOptedIn__c</name>
+    </fields>
+    <fields>
+        <label>Enviar ID de classificação</label>
+        <name>et4ae5__SendClassificationId__c</name>
+    </fields>
+    <fields>
+        <label>Enviar nome da classificação</label>
+        <name>et4ae5__SendClassificationName__c</name>
+    </fields>
+    <fields>
+        <label>Identificação do perfil do remetente</label>
+        <name>et4ae5__SenderProfileId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubjectBlob --></label>
+        <name>et4ae5__SubjectBlob__c</name>
+    </fields>
+    <fields>
+        <help>A cadeia de texto usada para aparecer na linha de assunto do e-mail. Observação: Esse texto contém barras invertidas (\) antes de todas as aspas simples (&apos;) para garantir uma experiência segura. No entanto, essas barras invertidas não aparecem no e-mail enviado.</help>
+        <label><!-- Subject --></label>
+        <name>et4ae5__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Inscrito para rastreamento</label>
+        <name>et4ae5__Subscribed_For_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscriber Field --></label>
+        <name>et4ae5__Subscriber_Field__c</name>
+    </fields>
+    <fields>
+        <label>Somente rastreamento</label>
+        <name>et4ae5__TrackingOnly__c</name>
+    </fields>
+    <fields>
+        <help>Evento de objeto que acionará a avaliação do Envio Acionado.  As opções são para quando um novo registro para o respectivo objeto é criado, o registro existente é atualizado ou ambos são criados e atualizados</help>
+        <label>Acionar o envio quando</label>
+        <name>et4ae5__Trigger_send_when__c</name>
+    </fields>
+    <fields>
+        <label>Taxa de cancelamento de inscrição</label>
+        <name>et4ae5__Unsubscribe_Rate__c</name>
+    </fields>
+    <fields>
+        <label>Usar a lista de todos os assinantes</label>
+        <name>et4ae5__Use_All_Subscribers_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriggeredSendDefId --></label>
+        <name>et4ae5__etTriggeredSendDefId__c</name>
+    </fields>
+    <fields>
+        <label><!-- hasDelayedSends --></label>
+        <name>et4ae5__hasDelayedSends__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do Envio acionado</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Active --></label>
+        <name>et4ae5__Active</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inactive --></label>
+        <name>et4ae5__Inactive</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>As horas atrasadas não podem exceder 720.</errorMessage>
+        <name>et4ae5__HoursDelayedMax</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Activate --></label>
+        <name>et4ae5__Activate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deactivate --></label>
+        <name>et4ae5__Deactivate</name>
+    </webLinks>
+</CustomObjectTranslation>

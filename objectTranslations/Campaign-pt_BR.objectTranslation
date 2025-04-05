@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Tática de campanha de DB</label>
+        <name>DB_Campaign_Tactic__c</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation>Mala Direta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>E-mail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Seminars</masterLabel>
+            <translation>Seminários de aplicação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Website</masterLabel>
+            <translation>Site interno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunches</masterLabel>
+            <translation>Lançamentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Banners/Ads</masterLabel>
+            <translation>Banners/anúncios on-line</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation>Parceiros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Advertisement</masterLabel>
+            <translation>Anúncio impresso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation>Relações públicas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation>Programa de indicação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Call Down</masterLabel>
+            <translation>Chamada de vendas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinars</masterLabel>
+            <translation>Webinários</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Produto</label>
+        <name>PMC_SS_Product__c</name>
+        <relationshipLabel>Campanhas</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UTM Content --></label>
+        <name>campaign_utm_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Medium --></label>
+        <name>campaign_utm_medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Source --></label>
+        <name>campaign_utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Term --></label>
+        <name>campaign_utm_term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Import Id --></label>
+        <name>import_id__c</name>
+    </fields>
+    <webLinks>
+        <label>Exibir todos os membros da campanha</label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label>Exibir relatório de influência de campanha</label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar e-mail do Marketing Cloud</label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label>Exibir relatório de influência de campanha</label>
+        <name>et4ae5__ViewCampaignInfluenceReport</name>
+    </webLinks>
+</CustomObjectTranslation>

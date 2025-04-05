@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transportation Zone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transportation Zones</value>
+    </caseValues>
+    <fields>
+        <help><!-- Transportation Zone Location --></help>
+        <label><!-- Location --></label>
+        <name>PMC_SS_TZ_Location__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

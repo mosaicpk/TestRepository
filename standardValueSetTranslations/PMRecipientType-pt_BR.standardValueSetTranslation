@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Anonymous</masterLabel>
+        <translation>Anônimo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Program Enrollment</masterLabel>
+        <translation>Inscrição no Programa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Walk-in</masterLabel>
+        <translation>Sem Agendamento</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

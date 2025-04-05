@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Subscribed Quote Line --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Subscribed Quote Line --></value>
+    </caseValues>
+    <fields>
+        <help>Indica si el registro de activos suscrito está activo.</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad cotizada en la Línea de presupuesto de Activos.</help>
+        <label>Cantidad líneas presupuesto activos</label>
+        <name>SBQQ__AssetQuoteLineQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Línea de presupuesto de activos cubierta por una línea de presupuesto de suscripción.</help>
+        <label>Línea de presupuesto de activos</label>
+        <name>SBQQ__AssetQuoteLine__c</name>
+        <relationshipLabel>Líneas de presupuesto de activos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Identifica el presupuesto para las quoteLines.</help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Presupuesto</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Precio unitario utilizado en el cálculo del Porcentaje del Total.</help>
+        <label>Precio base de suscripción</label>
+        <name>SBQQ__SubscriptionBasePrice__c</name>
+    </fields>
+    <fields>
+        <help>Total neto de la Línea de presupuesto de Suscripción.</help>
+        <label>Total neto de Suscripción</label>
+        <name>SBQQ__SubscriptionNetTotal__c</name>
+    </fields>
+    <fields>
+        <help>Línea de presupuesto de suscripción que cubre la línea de presupuesto del activo.</help>
+        <label>Línea de presupuesto de suscripciones</label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel>Líneas de presupuesto suscritas (Línea de presupuesto de suscripciones)</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Subscribed Quote Line# --></nameFieldLabel>
+</CustomObjectTranslation>

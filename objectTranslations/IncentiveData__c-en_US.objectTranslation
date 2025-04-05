@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Incentive Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Incentive Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Custom Sales Agreement --></label>
+        <name>CustomSalesAgreement__c</name>
+        <relationshipLabel><!-- Incentive Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Forecast Tons --></label>
+        <name>ForecastTons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Growth Incentive $/ST --></label>
+        <name>Growth_Incentive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Incentive $/ST --></label>
+        <name>IndividualIncentive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Incentives $/ST --></label>
+        <name>PortfolioIncentives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Growth Incentive --></label>
+        <name>Potential_Growth_Incentive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Individual Incentive --></label>
+        <name>Potential_Individual_Incentive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Portfolio Incentive --></label>
+        <name>Potential_Portfolio_Incentive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threshold --></label>
+        <name>Threshold__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

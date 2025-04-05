@@ -1,0 +1,111 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ {
+    "componentName" : "commerce_data_provider:splitShipmentDataProvider",
+    "componentAttributes" : {
+      "sfdcExpressionKey" : "SplitShipment"
+    }
+  } ],
+  "id" : "74969eb1-911e-486a-97f3-51cd200e70d1",
+  "label" : "Split Shipment",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "componentSpacerSize" : "",
+        "maxContentWidth" : "",
+        "sectionColumnGutterWidth" : "",
+        "sectionConfig" : "{\"UUID\":\"7cb97f5e-e467-4b59-ad5f-e6c41e76d924\",\"columns\":[{\"UUID\":\"75061a58-a08e-4274-82ff-fcf9c0d80abf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "7cb97f5e-e467-4b59-ad5f-e6c41e76d924",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "commerce_builder:splitShipmentHeader",
+          "id" : "e66cc97a-0120-4926-93c8-ab55c7e2e7ac",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Split Shipment",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\": true}",
+                "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "a400c952-35e9-4e69-aeb2-d91e5ec843aa",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "c365f86e-cfc5-4d97-a2a1-b0fb32db879d",
+            "regionName" : "splitShipmentTitle",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "size" : "standard",
+                "text" : "Save & Checkout",
+                "variant" : "primary",
+                "width" : "stretch"
+              },
+              "componentName" : "commerce_builder:actionButton",
+              "id" : "198da327-9084-448a-a6bf-8547752cf2c4",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "97a0cbf1-ff0f-4471-b104-011978dd9354",
+            "regionName" : "saveAndCheckoutButton",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "addresses" : "{!SplitShipment.Addresses.items}",
+            "deliveryGroups" : "{!SplitShipment.DeliveryGroups.items}",
+            "incrementValueGuideText" : "Sold in increments of {0}",
+            "maximumValueGuideText" : "Maximum quantity is {0}",
+            "minimumValueGuideText" : "Minimum quantity is {0}",
+            "priceTextSize" : "small",
+            "products" : "{!SplitShipment.Cart.items}",
+            "showProductImage" : true,
+            "showProductVariants" : true,
+            "showSku" : false,
+            "skuLabel" : "SKU# {0}",
+            "splitShipPagination" : "{!SplitShipment.Cart.pagination}"
+          },
+          "componentName" : "commerce_builder:splitShipmentCartContents",
+          "id" : "a7aac9d3-d625-4bc0-8f57-3e9187ff0213",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "75061a58-a08e-4274-82ff-fcf9c0d80abf",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c0a74b48-8132-42ce-b394-5e4c82286075",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Checkout",
+  "type" : "view",
+  "viewType" : "split-shipment"
+}

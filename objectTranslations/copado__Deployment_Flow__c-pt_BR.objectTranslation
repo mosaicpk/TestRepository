@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pipeline --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Pipeline --></value>
+    </caseValues>
+    <fields>
+        <help>Se marcada, todos os recursos do Branch Management serão ativados no Deployment Flow.</help>
+        <label>Ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <help>Use essa opção se quiser que as histórias de usuário que já foram promovidas em seu pipeline do Copado se apliquem aos comportamentos de conexão para promoções posteriores que você criar no Copado Continuous Delivery</help>
+        <label><!-- Apply Connection Behaviors to All --></label>
+        <name>copado__Apply_Connection_Behaviours_to_existing__c</name>
+    </fields>
+    <fields>
+        <help>Se marcada, não será permitido fazer alterações nas histórias de usuário vinculadas a esse pipeline</help>
+        <label>Bloquear confirmações</label>
+        <name>copado__Block_Commits__c</name>
+    </fields>
+    <fields>
+        <label>Coordenações de gerenciamento de filiais</label>
+        <name>copado__Branch_Management_Coordinates__c</name>
+    </fields>
+    <fields>
+        <help>Se Branch for selecionado, a página Branch Management funcionará como antes; se User Story for selecionado, o cálculo e o resultado serão baseados em User Stories.</help>
+        <label>Calcular com base em</label>
+        <name>copado__Calculate_Based_on__c</name>
+        <picklistValues>
+            <masterLabel>Branch</masterLabel>
+            <translation>Ramo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Story</masterLabel>
+            <translation>História do usuário</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Configuração de entrega contínua Json</label>
+        <name>copado__Continuous_Delivery_Configuration_Json__c</name>
+    </fields>
+    <fields>
+        <label>Habilitado para entrega contínua</label>
+        <name>copado__Continuous_Delivery_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>O modo DX selecionado determinará as fontes de metadados de raspagem.</help>
+        <label><!-- Copado DX Mode --></label>
+        <name>copado__Copado_DX_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Branches</masterLabel>
+            <translation>Filiais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Git Package</masterLabel>
+            <translation>Pacote Git</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Org Metadata</masterLabel>
+            <translation>Metadados da organização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Package</masterLabel>
+            <translation><!-- Salesforce Package --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se marcada, as validações das práticas recomendadas das etapas do Deployment Flow serão desativadas.</help>
+        <label>Desativar validações</label>
+        <name>copado__Disable_Validations__c</name>
+    </fields>
+    <fields>
+        <label>Ativar o Copado DX</label>
+        <name>copado__Enable_Copado_DX__c</name>
+    </fields>
+    <fields>
+        <help>Se desmarcada, o Copado deixará de aplicar a resolução inteligente de conflitos durante o processo de promoção e os usuários terão que resolver manualmente os conflitos novamente em cada promoção subsequente.</help>
+        <label><!-- Enable Smart Conflict Resolution --></label>
+        <name>copado__Enable_Smart_Conflict_Resolution__c</name>
+    </fields>
+    <fields>
+        <help>Se marcada, os nomes dos ambientes devem ser iguais às ramificações correspondentes nas etapas do fluxo de implantação.</help>
+        <label><!-- Enforce branch/env naming convention --></label>
+        <name>copado__Equal_Branch_Environment_Name__c</name>
+    </fields>
+    <fields>
+        <help>Os conflitos encontrados nos tipos de metadados selecionados não são resolvidos automaticamente pelo Copado ao mesclar ramificações de recursos na ramificação de promoção. Os conflitos podem ser resolvidos manualmente usando o Copado.</help>
+        <label>Excluir da resolução automática</label>
+        <name>copado__Exclude_From_Auto_Resolve__c</name>
+    </fields>
+    <fields>
+        <label>Coordenadas da etapa de fluxo</label>
+        <name>copado__Flow_Step_Coordinates__c</name>
+    </fields>
+    <fields>
+        <help>Repositório Git vinculado ao Deployment Flow. Todas as ramificações das etapas do Deployment Flow devem existir nesse repositório Git.</help>
+        <label>Repositório Git</label>
+        <name>copado__Git_Repository__c</name>
+        <relationshipLabel><!-- Pipelines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Guias a serem ocultadas na janela de detalhes do Gerenciamento de filiais</help>
+        <label>Ocultar guias</label>
+        <name>copado__Hide_Tabs__c</name>
+        <picklistValues>
+            <masterLabel>Auto Resolved Conflicts</masterLabel>
+            <translation>Conflitos resolvidos automaticamente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commits Ahead</masterLabel>
+            <translation>Compromissos futuros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commits Behind</masterLabel>
+            <translation>Compromissos Anteriores</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance Scan Results</masterLabel>
+            <translation>Resultados da verificação de conformidade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment Error</masterLabel>
+            <translation>Erro de implantação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File Differences</masterLabel>
+            <translation>Diferenças de arquivos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merged Files</masterLabel>
+            <translation>Arquivos mesclados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selenium Test Groups</masterLabel>
+            <translation>Grupos de teste Selenium</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Filial principal do repositório Git selecionado (por exemplo, master).</help>
+        <label>Filial principal</label>
+        <name>copado__Main_Branch__c</name>
+    </fields>
+    <fields>
+        <help>Link para abrir o Gerenciador de pipeline para promover e voltar a promover histórias de usuário.</help>
+        <label>Gerenciar liberações</label>
+        <name>copado__Manage_Branches__c</name>
+    </fields>
+    <fields>
+        <help>Quando um arquivo em conflito não pode ser mesclado semanticamente durante uma resolução automática, o arquivo inteiro é substituído por padrão. Você pode optar por substituir apenas as linhas conflitantes e mesclar as linhas mescláveis; o Copado usa a estratégia de mesclagem &quot;deles&quot; do git.</help>
+        <label>Estratégia de conflito do Auto Resolve</label>
+        <name>copado__Merge_Strategy__c</name>
+        <picklistValues>
+            <masterLabel>Overwrite conflicting lines only</masterLabel>
+            <translation>Substituir somente as linhas conflitantes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overwrite file</masterLabel>
+            <translation>Substituir arquivo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Preencha esse campo somente se quiser alterar a ordem das histórias de usuário selecionadas na implantação.
+Esse valor preencherá previamente o campo order by na criação do registro da Promoção relacionada, se definido. (exp. de uso: name asc)</help>
+        <label>Solicite histórias de usuário por</label>
+        <name>copado__Order_by__c</name>
+    </fields>
+    <fields>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Configurações de análise de código estático usadas sempre que a análise for executada em ambientes ou histórias de usuário vinculadas ao fluxo de implementação.</help>
+        <label><!-- Static Code Analysis Settings --></label>
+        <name>copado__Static_Code_Analysis_Settings__c</name>
+        <relationshipLabel><!-- Pipelines --></relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Pipeline Name --></nameFieldLabel>
+    <webLinks>
+        <label>Editor de regras de localização e substituição</label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerenciar liberações</label>
+        <name>copado__Manage_Branches</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerenciar variáveis de ambiente</label>
+        <name>copado__Manage_Environment_Variables</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerenciar testes de regressão</label>
+        <name>copado__Manage_Regression_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label>Iniciar o assistente de pipeline</label>
+        <name>copado__Pipeline_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label>Selecione a filial principal</label>
+        <name>copado__Select_Main_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,336 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "4c2ace4f-f232-49af-a9d2-15ae2d6c59e1",
+  "label" : "Nuestras Accionistas",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e055c4be-0980-4d86-b459-443f95072df3",
+          "columns" : [ {
+            "UUID" : "a743e09c-ebe8-413b-94e5-fc2863e74601",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e055c4be-0980-4d86-b459-443f95072df3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Banner_Test"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0.4)",
+                  "showButton" : false,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "bottom center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.altText}",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "de0cbbb4-5e13-48fb-a82e-5c0bb3546660",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a743e09c-ebe8-413b-94e5-fc2863e74601",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b3f11f20-5127-4d64-acb7-e81d4013ba77",
+          "columns" : [ {
+            "UUID" : "589c2675-f87a-400c-bb53-c6c0ba4d3b45",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b3f11f20-5127-4d64-acb7-e81d4013ba77",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(230, 0, 0);\">Nuestros accionistas</span></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ca3ad347-2f50-4f35-ab13-4b5e461114ca",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "589c2675-f87a-400c-bb53-c6c0ba4d3b45",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "296d2df6-cf27-48f1-8626-ce21bc79f8bc",
+          "columns" : [ {
+            "UUID" : "5d0869bf-0307-472c-a0a5-58755bdff97f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "85e7682c-20e3-4b9d-83cb-f0a6dcfbcab0",
+            "columnKey" : "83d48",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "296d2df6-cf27-48f1-8626-ce21bc79f8bc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 18px;\">Mosaic Company</span></h2><p><span style=\"font-size: 18px;\">Mosaic (NYSE:MOS) es el mayor productor de Potasa y fosfatos, dos nutrientes vitales para la agricultura. Su misión es “Ayudar al mundo a producir los alimentos que necesita”. Cuenta con una capacidad operativa de 25 millones de toneladas de producción de concentrado de fosfato y potasa.</span></p><p><span style=\"font-size: 18px;\">Es el mayor productor de concentrado de fosfato en el mundo. Y está posicionado entre los mayores productores mundiales de potasa de capacidad operacional.</span></p><p><span style=\"font-size: 18px;\">En el 2018, Mosaic adquirió Vale fertilizantes de Vale S.A. y se convirtió en el principal accionista de Miski Mayo, asumiendo el 75% de las acciones.</span></p><p><span style=\"font-size: 18px;\">Si deseas más información sobre Mosaic, ingresa a&nbsp;</span><a href=\"https://www.mosaicco.com/\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(220, 68, 51); background-color: rgb(255, 255, 255); font-size: 18px;\">The Mosaic Company | Potash Mining | Phosphate Mining | Mining Company</a></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ed85b750-fed3-4e81-b28d-2f649be8344d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5d0869bf-0307-472c-a0a5-58755bdff97f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e2f6d7b2-542d-4ed6-bc39-e256949b1223",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "85e7682c-20e3-4b9d-83cb-f0a6dcfbcab0",
+        "regionLabel" : "Column 2",
+        "regionName" : "83d48",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "59791340-9313-47ac-955e-146b1c9ee7a8",
+          "columns" : [ {
+            "UUID" : "a2d79a35-6005-42ef-b07c-ddb07f1255e4",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "c32a6cd1-188b-4d71-8b24-fd96adc76e1a",
+            "columnKey" : "45774",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "59791340-9313-47ac-955e-146b1c9ee7a8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 18px;\">Mitsui &amp;CO</span></h2><p><span style=\"font-size: 18px;\">Mitsui &amp; Co. es una compañía global de comercio e inversión con presencia en más de 60 países y una cartera diversa de negocios con una amplia gama de industrias.&nbsp;La empresa identifica, desarrolla y hace crecer sus negocios en colaboración con una red global de socios de confianza, entre los que se encuentran empresas líderes mundiales, para crear valor sostenible a largo plazo para sus partes interesadas. ​</span></p><p><span style=\"font-size: 18px;\">Mitsui ha establecido tres iniciativas estratégicas para su Plan de Gestión a Mediano Plazo: apoyar a las industrias para que crezcan con suministros estables de recursos y materiales, y proporcionando infraestructuras; promover una transición global hacia energías renovables y bajas en carbono; y empoderar a las personas para que lleven una vida sana mediante una atención sanitaria de calidad y el acceso a una buena nutrición. ​</span></p><p><span style=\"font-size: 18px;\">Junto con Mosaic,&nbsp;Mitsui &amp;Co. es accionista de Miski Mayo con el 25% de las acciones.</span></p><p><span style=\"font-size: 18px;\">Visita</span><a href=\"https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.mitsui.com%2F&amp;data=05%7C02%7CWENDY.ROJAS%40miskimayo.com%7Cb907df8894f34a84698908dcbbb76a79%7C1273caf713b74a89b44a3967d45ba0a9%7C0%7C0%7C638591643650117663%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=XggGW57o6IGK4haeEmoIpVGwHds6s3X2cq7gmG8FSUE%3D&amp;reserved=0\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(0, 123, 255); font-size: 18px;\">&nbsp;www.mitsui.com</a><span style=\"font-size: 18px;\">&nbsp;para más información.​</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e153ed92-f43d-405e-bb66-9e1d7ee5bb3d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a2d79a35-6005-42ef-b07c-ddb07f1255e4",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f52c3f37-ff8e-47e4-9f84-7290d3c6015f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c32a6cd1-188b-4d71-8b24-fd96adc76e1a",
+        "regionLabel" : "Column 2",
+        "regionName" : "45774",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d887e98-8230-4520-81b5-eeed3d41103c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nuestras Accionistas"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "306871b5-d9f7-4d2a-a4ab-411a918dc53a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c8b19f1c-173e-467f-8887-86fc9ef3f04b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nuestras-accionistas"
+}

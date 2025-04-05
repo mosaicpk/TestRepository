@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Master Data Team</name>
+    <queueMembers>
+        <users>
+            <user>master_datateam_na@deloitte.com</user>
+            <user>nadey@deloitte.com</user>
+            <user>sbaragali@deloitte.com</user>
+            <user>vkiranghadyalji@deloitte.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

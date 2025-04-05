@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Connection Behavior --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Connection Behavior --></value>
+    </caseValues>
+    <fields>
+        <help>Como as histórias de usuário devem ser transferidas de ambientes superiores (produção/teste) para ambientes inferiores (teste/dev)?</help>
+        <label>Execução da retropropagação</label>
+        <name>copado__Back_Promotion_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Automated</masterLabel>
+            <translation>Automatizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>Desativado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Somente as histórias de usuários que atenderem a esse critério estarão qualificadas para serem automaticamente promovidas de volta.</help>
+        <label>Critérios de promoção retroativa</label>
+        <name>copado__Back_Promotion_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>A programação para promoções retroativas (se houver programação)</help>
+        <label>Cronograma de promoções anteriores</label>
+        <name>copado__Back_Promotion_Schedule__c</name>
+    </fields>
+    <fields>
+        <help>O ID do trabalho programado do Salesforce associado aos trabalhos programados de promoção de retorno</help>
+        <label><!-- Back-Promotion Scheduled Job ID --></label>
+        <name>copado__Back_Promotion_Scheduled_Job_ID__c</name>
+    </fields>
+    <fields>
+        <help>Um resumo do comportamento dessa conexão</help>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>Desativar a ramificação de ambiente</label>
+        <name>copado__DisableEnvironmentBranch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execute back-promotions in parallel --></label>
+        <name>copado__Execute_back_promotions_in_parallel__c</name>
+    </fields>
+    <fields>
+        <label>Executar promoções em paralelo</label>
+        <name>copado__Execute_promotions_in_parallel__c</name>
+    </fields>
+    <fields>
+        <help>Defina como 1 para implantar cada história individualmente. As implementações em lote aceleram o processo, mas fazem com que todas as histórias em um lote sejam bem-sucedidas ou fracassem juntas. Isso pode atrasar a implementação de algumas histórias e dificultar a identificação da causa dos erros.</help>
+        <label><!-- Scheduled Back-Promotion US Group Size --></label>
+        <name>copado__Max_Scheduled_Back_Promotion_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help>Defina como 1 para implantar cada história individualmente. As implementações em lote aceleram o processo, mas fazem com que todas as histórias em um lote sejam bem-sucedidas ou fracassem juntas. Isso pode atrasar a implementação de algumas histórias e dificultar a identificação da causa dos erros.</help>
+        <label><!-- Scheduled Promotion US Group Size --></label>
+        <name>copado__Max_Scheduled_Promotion_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help>Como as histórias de usuário devem ser implementadas de ambientes inferiores (desenvolvimento/teste) para ambientes superiores (teste/produção)?</help>
+        <label>Execução da promoção</label>
+        <name>copado__Promotion_Behavior__c</name>
+    </fields>
+    <fields>
+        <help>Somente as histórias de usuários que atenderem a esse critério estarão qualificadas para serem promovidas automaticamente.</help>
+        <label>Critérios de promoção</label>
+        <name>copado__Promotion_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>A programação das implantações (se estiverem programadas)</help>
+        <label>Cronograma de promoções</label>
+        <name>copado__Promotion_Schedule__c</name>
+    </fields>
+    <fields>
+        <help>O ID do trabalho agendado do Salesforce associado aos trabalhos de implantação agendados</help>
+        <label>ID do trabalho agendado de implantação</label>
+        <name>copado__Promotion_Scheduled_Job_ID__c</name>
+    </fields>
+    <fields>
+        <help>Um link de ação para agendar promoções retroativas</help>
+        <label>Programar promoções retroativas</label>
+        <name>copado__Schedule_Back_Promotion__c</name>
+    </fields>
+    <fields>
+        <help>Um link de ação para agendar implementações</help>
+        <label>Promoção de cronograma</label>
+        <name>copado__Schedule_Promotion__c</name>
+    </fields>
+    <fields>
+        <help>Qual status deve ser definido para as histórias de usuário depois que elas forem implantadas com sucesso?</help>
+        <label><!-- User Story Status After Promotion --></label>
+        <name>copado__Story_Status_After_Deployment__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Connection Behavior Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Os campos Batch Size (Tamanho do lote) para Promoção ou Promoção retroativa precisam estar entre 1 e 2000</errorMessage>
+        <name>copado__Batch_Size_Valid_Interval</name>
+    </validationRules>
+</CustomObjectTranslation>

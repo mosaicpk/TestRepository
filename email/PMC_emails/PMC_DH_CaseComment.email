@@ -1,0 +1,4 @@
+<messaging:emailTemplate subject="Email for new case comment" recipientType="Contact" relatedToType="Network" renderUsingSystemContextWithoutSharing="True">
+<messaging:plainTextEmailBody >Hi! New Case Comment</messaging:plainTextEmailBody>
+<messaging:htmlEmailBody ></messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>ProgramRebateTypeRecordPage</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>ProgramRebateTypeRecordPage</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccrualRate</fullName>
+        <description>The rate you want to accrue at for the rebate program member. This rate is in the same units as the specified measure type, for example percent or amount. This field is available in API version 52.0 and later.</description>
+        <inlineHelpText>The rate of accrual based on the value selected in the Measure Type field. For example, when the measure type is percent and you enter 10, the accrual rate is 10%.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AggregateObjectName</fullName>
+        <description>Name of the custom aggregation entity. For example, RebateMemberProductAggregate.</description>
+        <inlineHelpText>The object that stores the aggregation results.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BenefitQualifierField</fullName>
+        <description>Represents an attribute in the aggregate object whose value will be used, in conjunction with Aggregate Field and Rebate Type Benefit Field attributes from the PgmRebateTypBnftMapping entity, to determine the Benefit Value from the ProgramRebateTypeBenefit entity.</description>
+        <inlineHelpText>The aggregation object field to use as the basis for calculating minimum and maximum qualifying benefit values.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CalcObjectId</fullName>
+        <description>Specifies the data processing engine definition used for the calculation. Only active data processing engine definitions can be used.</description>
+        <inlineHelpText>Calculation definitions are managed in the Data Processing Engine.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CalculationBasis</fullName>
+        <description>Specify the basis for rebate amount calculation.</description>
+        <inlineHelpText>Specify the basis for rebate amount calculation.Payout calculates the payout amount based on the benefit setup. Accrual calculates payouts based on the accrual rate, when provided, or the benefit setup. Payout and Accrual uses both methods to calculate the payout.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CalculationMethod</fullName>
+        <description>Specifies the rule for calculating rebate benefits.</description>
+        <inlineHelpText>Applies to tiered benefits with Measure Type of Percent of Revenue and Amount per unit. Use Stepped to apportion the payout based on tiers and Retrospective to apply full benefit on the amount/quantity.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CalculationType</fullName>
+        <description>Type of calculation for the rebate type.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FilterAction</fullName>
+        <description>Contains the filter action options that are offered</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FilterLogic</fullName>
+        <description>Contains the filter criteria options that are offered - AND, OR, Custom.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Formula</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsIntegratable</fullName>
+        <description>This field determines if the rebate type record is of type template or not, based on which the record can be associated with an opportunity,contract, quote, or any other eligible object.</description>
+        <inlineHelpText>When selected, this rebate type appears in the list of rebate types that can be applied to records like orders, quotes, or opportunities.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MeasureField</fullName>
+        <description>Stores the reference to the aggregate object that will be used for rebate amount calculations based on the measure type selected and the benefit value fetched.</description>
+        <inlineHelpText>The aggregation object field used with measure type and benefit value to calculate the rebate amount. This is required for the Amount per Unit and Percentage of Revenue measure types.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <description>Name of the program rebate type.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <description>Specifies the owner of the Rebate Program</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_ParentRebateProgramOrder__c</fullName>
+        <description>Backend Field Used by the CLM system to associate Rebate Programs Calculation fields with the correct Rebate Program data</description>
+        <externalId>false</externalId>
+        <formula>RebateProgram.PMC_CLM_RebateProgramOrder__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ParentRebateProgramOrder</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Forecasted_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecasted Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_ProductFamily__c</fullName>
+        <description>Captures Product Family to cater towards the SAP integration</description>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_SS_ProductFamilies</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Projected_Incentive__c</fullName>
+        <label>Projected Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Type__c</fullName>
+        <label>Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>ZRS6</fullName>
+                    <default>false</default>
+                    <label>Blended</label>
+                </value>
+                <value>
+                    <fullName>Cultivar - Performa</fullName>
+                    <default>false</default>
+                    <label>Cultivar - Performa</label>
+                </value>
+                <value>
+                    <fullName>Cultivar - Performa Bio</fullName>
+                    <default>false</default>
+                    <label>Cultivar - Performa Bio</label>
+                </value>
+                <value>
+                    <fullName>Cultivar - Performance</fullName>
+                    <default>false</default>
+                    <label>Cultivar - Performance</label>
+                </value>
+                <value>
+                    <fullName>Cultivar - Volume</fullName>
+                    <default>false</default>
+                    <label>Cultivar - Volume</label>
+                </value>
+                <value>
+                    <fullName>ZRS3</fullName>
+                    <default>false</default>
+                    <label>Growth</label>
+                </value>
+                <value>
+                    <fullName>ZRS1</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>ZRS2</fullName>
+                    <default>false</default>
+                    <label>Portfolio</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProductFilterType</fullName>
+        <description>The criteria to be applied for the products present in the Included or Excluded Products list.</description>
+        <inlineHelpText>Select the criteria to be applied to the products in the Included or Excluded Products list.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RebateMeasureType</fullName>
+        <description>Type of rebate.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RebateProgramId</fullName>
+        <description>Reference to the rebate program.</description>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <description>Status of the rebate type.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UnitOfMeasureId</fullName>
+        <description>The unit of measure associated with the program rebate type. This field is available in API version 52.0 and later.</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>All_ProgramRebateTypes</fullName>
+        <filterScope>Everything</filterScope>
+        <label>AllProgramRebateTypes</label>
+    </listViews>
+    <listViews>
+        <fullName>My_ProgramRebateTypes</fullName>
+        <filterScope>Mine</filterScope>
+        <label>MyProgramRebateTypes</label>
+    </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Exclusive_Space</fullName>
+        <active>true</active>
+        <label>Exclusive Space</label>
+        <picklistValues>
+            <picklist>PMC_SS_ProductFamily__c</picklist>
+            <values>
+                <fullName>ASPIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ATHOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BIOSCIENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BORON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO-PRODUCT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAP-MAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXCELLEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUOSILIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GRAVEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GYPSUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K-MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIMESTONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIQUID FERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MICRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MPASTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NITROGEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P FERTILIZER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOSPHORIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROCK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SERVICES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOIL HEALTH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULFURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULPHUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SWEEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRUMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WATER SOFTENER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSF</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_Type__c</picklist>
+            <values>
+                <fullName>Cultivar - Performa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Performa Bio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Volume</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_Brazil</fullName>
+        <active>true</active>
+        <label>Brazil</label>
+        <picklistValues>
+            <picklist>PMC_SS_ProductFamily__c</picklist>
+            <values>
+                <fullName>ASPIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ATHOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BIOSCIENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BORON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO-PRODUCT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAP-MAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXCELLEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUOSILIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GRAVEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GYPSUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K-MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIMESTONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIQUID FERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MICRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MPASTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NITROGEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P FERTILIZER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOSPHORIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROCK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SERVICES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOIL HEALTH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULFURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULPHUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SWEEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRUMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WATER SOFTENER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSF</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_Type__c</picklist>
+            <values>
+                <fullName>Cultivar - Performa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Performa Bio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Volume</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_NorthAmerica</fullName>
+        <active>true</active>
+        <label>North America</label>
+        <picklistValues>
+            <picklist>PMC_SS_ProductFamily__c</picklist>
+            <values>
+                <fullName>ASPIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ATHOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BIOSCIENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BORON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO-PRODUCT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAP-MAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXCELLEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUOSILIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GRAVEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GYPSUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K-MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIMESTONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIQUID FERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MICRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MPASTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NITROGEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P FERTILIZER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOSPHORIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROCK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SERVICES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOIL HEALTH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULFURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULPHUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SWEEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRUMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WATER SOFTENER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSF</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_Type__c</picklist>
+            <values>
+                <fullName>ZRS1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Program_Rebate_Type</fullName>
+        <active>true</active>
+        <label>Program Rebate Type</label>
+        <picklistValues>
+            <picklist>PMC_SS_ProductFamily__c</picklist>
+            <values>
+                <fullName>ASPIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ATHOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BIOSCIENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BORON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO-PRODUCT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAP-MAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXCELLEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUOSILIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GRAVEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GYPSUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K-MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIMESTONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIQUID FERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MICRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MPASTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NITROGEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P FERTILIZER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOSPHORIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROCK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SERVICES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOIL HEALTH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULFURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULPHUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SWEEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRUMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WATER SOFTENER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSF</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_Type__c</picklist>
+            <values>
+                <fullName>Cultivar - Performa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Performa Bio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cultivar - Volume</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZRS6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>RebateProgram</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RebateMeasureType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CalculationType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>RebateProgram</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RebateMeasureType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CalculationType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_RestrictRebateTypeEdit</fullName>
+        <active>true</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Type for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT(
+OR(
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Active&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+),
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Inactive&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;)
+)
+)
+),
+
+NOT(ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR( ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Approved&apos;),
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Under Revision&apos;) ),
+
+
+
+OR((PRIORVALUE( PMC_SS_Projected_Incentive__c ) = PMC_SS_Projected_Incentive__c) ,ISBLANK(PMC_SS_Projected_Incentive__c)),
+
+OR((PRIORVALUE( PMC_SS_Forecasted_Quantity__c ) = PMC_SS_Forecasted_Quantity__c) ,ISBLANK(PMC_SS_Forecasted_Quantity__c))
+
+
+)</errorConditionFormula>
+        <errorMessage>Rebate Type can’t be created/edited at this stage. Please Amend the Sales Agreement to make revisions to Rebate Type.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictRebateTypeModification</fullName>
+        <active>true</active>
+        <description>This Validation rule will not allow create/update on Program Rebate Type once the Rebate program is Inactive.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+OR(
+ISPICKVAL( PRIORVALUE( Status ) , &apos;Inactive&apos;),
+ISNEW()
+),
+ISPICKVAL( RebateProgram.Status , &apos;Inactive&apos;)
+)</errorConditionFormula>
+        <errorMessage>Cannot create/update Program Rebate Type once Rebate Program is Inactive</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictTest</fullName>
+        <active>false</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Type for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT(
+OR(
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Active&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+),
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Inactive&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;)
+)
+)
+),
+
+NOT(ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR( ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Approved&apos;),
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Under Revision&apos;) )
+
+
+
+
+
+)</errorConditionFormula>
+        <errorMessage>TEST Rebate Type can’t be edited at this stage. Please Amend the Sales Agreement to make revisions to Rebate Type.</errorMessage>
+    </validationRules>
+</CustomObject>

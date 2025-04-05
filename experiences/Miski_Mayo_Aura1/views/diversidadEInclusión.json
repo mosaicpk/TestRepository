@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f9e829ea-aa48-4ed4-ba26-4d4a62e6559d",
+  "label" : "Diversidad e inclusión",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1a76b5a3-8956-4164-b454-4399bec2c5d9",
+          "columns" : [ {
+            "UUID" : "938a9360-f57e-423d-b6ba-4bed07ec8cd8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1a76b5a3-8956-4164-b454-4399bec2c5d9",
+      "regions" : [ {
+        "id" : "938a9360-f57e-423d-b6ba-4bed07ec8cd8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a9d141f-8a2f-44b4-9d57-966532e7e30f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Diversidad e inclusión"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "182a873f-493c-4fe5-b22e-970f8a0e0b86",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6671ea2a-d4b1-4803-871f-d5a6029d0dd8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-diversidad-e-inclusin"
+}

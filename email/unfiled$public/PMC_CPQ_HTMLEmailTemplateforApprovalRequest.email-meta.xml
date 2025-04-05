@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Created as a part of Advance approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>PMC_CPQ_ApprovalRequestLetterHead</letterhead>
+    <name>HTML Email Template for Approval Request</name>
+    <style>freeForm</style>
+    <subject>Approval has been requested for Quote</subject>
+    <textOnly>Approval Request has been received.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

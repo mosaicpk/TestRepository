@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Deal Desk --></label>
+        <name>sbaa__DealDesk</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Mode of Transportation --></label>
+        <name>PMC_CPQ_ModeofTransportation__c</name>
+        <picklistValues>
+            <masterLabel>Barge</masterLabel>
+            <translation><!-- Barge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation><!-- Container --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase in Place</masterLabel>
+            <translation><!-- Purchase in Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation><!-- Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Line Item Id --></label>
+        <name>PMC_CPQ_OpportunityLineItemId__c</name>
+    </fields>
+    <fields>
+        <help>この商品のバンドルからの商談商品の ID。</help>
+        <label><!-- Parent ID --></label>
+        <name>SBQQ__ParentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>契約の価格設定を決定するサブスクリプション種別を示します。</help>
+        <label><!-- Subscription Type --></label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>sbaa__ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>待機中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>取り消し済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下済み</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

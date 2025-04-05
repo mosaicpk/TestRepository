@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>MFG_AccountManagerPeriodicTargetDistribution</dataset>
+    <dates>
+        <alias>Period.StartDate</alias>
+        <dateFieldDay>Period.StartDate_Day</dateFieldDay>
+        <dateFieldEpochDay>Period.StartDate_day_epoch</dateFieldEpochDay>
+        <dateFieldEpochSecond>Period.StartDate_sec_epoch</dateFieldEpochSecond>
+        <dateFieldFullYear>Period.StartDate</dateFieldFullYear>
+        <dateFieldHour>Period.StartDate_Hour</dateFieldHour>
+        <dateFieldMinute>Period.StartDate_Minute</dateFieldMinute>
+        <dateFieldMonth>Period.StartDate_Month</dateFieldMonth>
+        <dateFieldQuarter>Period.StartDate_Quarter</dateFieldQuarter>
+        <dateFieldSecond>Period.StartDate_Second</dateFieldSecond>
+        <dateFieldWeek>Period.StartDate_Week</dateFieldWeek>
+        <dateFieldYear>Period.StartDate_Year</dateFieldYear>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>3</fiscalMonthOffset>
+        <label>Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>AcctMgrTargetDstr.Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AcctMgrTargetDstr.Product.Name</field>
+        <isDerived>false</isDerived>
+        <label>Product Name</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AcctMgrTargetDstr.Product.Family</field>
+        <isDerived>false</isDerived>
+        <label>Product Family</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AssignedTo.Name</field>
+        <isDerived>false</isDerived>
+        <label>Team Member</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AcctMgrTargetDstr.Account.BillingState</field>
+        <isDerived>false</isDerived>
+        <label>Account State</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AssignedTo.Username</field>
+        <isDerived>false</isDerived>
+        <label>Target Owner</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <measures>
+        <field>PeriodTargetCurrencyValue</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Target</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Attainment_Percentage</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Target Attained</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Assignment Ratio</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Unassigned</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>TotalPrice</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>cumulative_Target_Attainment_Percent</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Target Attainment</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Projected Actuals</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Projected Attainment</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Target</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Actuals</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Projections</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Current Attainment</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>TY Target</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>PY Target</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Change from PY</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>PY Actuals</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>PY Attainment</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>Forecasted Revenue</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Value</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Target Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Actuals</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>cumulative_Target_Actuals</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <field>cumulative_Target_Value</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Target Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>cumulative_Target_Attainment_Percentage</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Target Attained</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>21</sortIndex>
+    </measures>
+    <measures>
+        <field>LY_Target_Actuals</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Previous Year Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>22</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastAmount</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>23</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastAmount_Cumulative</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>24</sortIndex>
+    </measures>
+    <measures>
+        <field>Accounts_count</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Accounts</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>25</sortIndex>
+    </measures>
+    <measures>
+        <field>Projected_Target_Actuals</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Projected Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>26</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Attainment_percentage</field>
+        <formatCustomFormat>[&quot;#,###.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>27</sortIndex>
+    </measures>
+    <measures>
+        <field>LY_Target_Value</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>PY Target Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>28</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Change</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Change from PY</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>29</sortIndex>
+    </measures>
+    <measures>
+        <field>LY_Target_Attainment_Percentage</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>PY Attainment</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>30</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Target Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>31</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_Actuals_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>32</sortIndex>
+    </measures>
+    <measures>
+        <field>Projected_Target_Actuals_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Projected Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>33</sortIndex>
+    </measures>
+    <measures>
+        <field>LY_Target_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>PY Target Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>34</sortIndex>
+    </measures>
+    <measures>
+        <field>LY_Target_Actuals_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Previous Year Actual Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>35</sortIndex>
+    </measures>
+    <measures>
+        <field>cumulative_Target_Actuals_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>36</sortIndex>
+    </measures>
+    <measures>
+        <field>cumulative_Target_Quantity</field>
+        <isDerived>true</isDerived>
+        <label>Target Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>37</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastQuantity_Cumulative</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>38</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>39</sortIndex>
+    </measures>
+    <measures>
+        <field>Target_percentage_change</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>40</sortIndex>
+    </measures>
+</WaveXmd>

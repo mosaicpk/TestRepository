@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PM Approval Custom</name>
+    <style>none</style>
+    <subject>FPD Called Price Approval Request - Order {!Order.OrderNumber}</subject>
+    <textOnly>FPD Called Price Approval Request
+
+Net unit price is bellow the Floor Price OR over 10,000 ST
+
+Hello {!Recipient.name}
+
+A order for {!Order.Account} has been submitted for your approval by {!Order.SBQQ__Quote__r}.
+The order is  {!Order.Link}
+
+Quote Summary
+
+Customer Name: {!Order.Account}
+Quote Description: {!Order.SBQQ__Quote__r}
+Quote Issue Date: {!Order.SBQQ__Quote__r}
+Contract Validity: {!Order.SBQQ__Quote__r}
+Currency: {!Order.SBQQ__Quote__r}
+
+Submitter Comments: {!Order.SBQQ__Quote__r}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

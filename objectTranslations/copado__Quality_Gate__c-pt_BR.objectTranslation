@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Automation --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Automation --></value>
+    </caseValues>
+    <fields>
+        <help>Grupo de etapas a serem executadas no futuro.</help>
+        <label>Modelo de automação</label>
+        <name>copado__Automation_Template__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se &quot;Compliance Check&quot; for selecionado como o tipo, qual grupo de regras de conformidade deve ser executado?</help>
+        <label>Grupo de regras de conformidade</label>
+        <name>copado__Compliance_Rule_Group__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A que comportamento de conexão esse Quality Gate está vinculado?</help>
+        <label>Comportamento de conexão com a Matriz</label>
+        <name>copado__Connection_Behavior__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se &quot;URL Callout&quot; for selecionado como o tipo, isso armazenará os detalhes desse callout.</help>
+        <label><!-- DataJSON --></label>
+        <name>copado__DataJSON__c</name>
+    </fields>
+    <fields>
+        <help>O evento que aciona essa automação.</help>
+        <label>Evento de execução</label>
+        <name>copado__Execution_Event__c</name>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation>Implantação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Define se a automação deve ser executada antes ou depois do evento.</help>
+        <label>Sequência de execução</label>
+        <name>copado__Execution_Sequence__c</name>
+        <picklistValues>
+            <masterLabel>After</masterLabel>
+            <translation>Depois de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation>Antes de</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se &quot;Aprovação manual&quot;, &quot;Teste manual&quot; ou &quot;Solicitação pull&quot; for selecionado como o tipo, a quem essa tarefa deve ser atribuída?</help>
+        <label>Proprietário da tarefa manual</label>
+        <name>copado__Manual_Task_Owner__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Automações e Quality Gates serão executados quando os metadados implantados ou confirmados corresponderem ao especificado aqui.</help>
+        <label>Grupo de Metadados</label>
+        <name>copado__Metadata_Group__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se &quot;Static Code Analysis&quot; for selecionado como o tipo, qual pontuação de análise estática deve ser considerada aprovada?</help>
+        <label>Limite de pontuação da análise estática</label>
+        <name>copado__Score_Threshold__c</name>
+    </fields>
+    <fields>
+        <help>Se &quot;Teste Selenium&quot; for selecionado como o tipo, qual grupo de teste Selenium deve ser executado?</help>
+        <label>Grupo de teste Selenium</label>
+        <name>copado__Selenium_Test_Group__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se &quot;Static Code Analysis&quot; for selecionado como o tipo, quais configurações de análise estática devem ser usadas?</help>
+        <label><!-- Static Code Analysis Settings --></label>
+        <name>copado__Static_Code_Analysis_Settings__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se &quot;Teste Apex com validação&quot; for selecionado como o tipo, qual nível de teste deve ser executado. A opção &quot;Run Specified Tests&quot; (Executar testes especificados) executará todos os testes incluídos nas histórias de usuário que estão sendo implementadas</help>
+        <label>Nível de teste Apex</label>
+        <name>copado__Test_Level__c</name>
+    </fields>
+    <fields>
+        <label>Teste</label>
+        <name>copado__Test__c</name>
+        <relationshipLabel>Automações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Que tipo de verificação será realizada para esse portão de qualidade?</help>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Automation Name --></nameFieldLabel>
+</CustomObjectTranslation>

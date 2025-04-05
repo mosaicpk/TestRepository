@@ -1,0 +1,45 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "f51ed8fc-84e5-446d-8c71-097f10dd9dbb",
+  "label" : "Case List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"57a9266f-7ce9-4542-866d-57e21be375a0\",\"columns\":[{\"UUID\":\"e4ba5969-6d51-4992-afd2-5be568171311\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "57a9266f-7ce9-4542-866d-57e21be375a0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowName" : "{\"flowName\":\"DigitalHubCaseListView\",\"flowLabel\":\"DigitalHubCaseListView\"}"
+          },
+          "componentName" : "dxp_flow:flow",
+          "id" : "b9045034-36c9-4db3-9085-1e9afd9ca82c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e4ba5969-6d51-4992-afd2-5be568171311",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "2ff7a803-bd04-46ce-a4e1-50168eed2b31",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZU6jMSaEOkVarmD9c0eLRGj2VmPSKD",
+  "type" : "view",
+  "viewType" : "list-500"
+}

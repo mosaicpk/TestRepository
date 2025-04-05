@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ATP Status --></label>
+        <name>PMC_CPQ_ATPStatus__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation><!-- Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Confirmed</masterLabel>
+            <translation><!-- Not Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Confirmed</masterLabel>
+            <translation><!-- Partially Confirmed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bill To Account for the Order. --></help>
+        <label><!-- Bill To Account --></label>
+        <name>PMC_CPQ_BillToAccount__c</name>
+        <relationshipLabel><!-- Orders (Bill To Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Exposure --></label>
+        <name>PMC_CPQ_CreditExposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>PMC_CPQ_CreditLimit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fixed payment due date for this order. --></help>
+        <label><!-- Fixed Payment Due Date --></label>
+        <name>PMC_CPQ_FixedPaymentDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Sub Status --></label>
+        <name>PMC_CPQ_HoldSubStatus__c</name>
+        <picklistValues>
+            <masterLabel>Billing Block</masterLabel>
+            <translation><!-- Billing Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Block</masterLabel>
+            <translation><!-- Credit Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Block</masterLabel>
+            <translation><!-- Delivery Block --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The rules and terms used in international and domestic trade contracts. --></help>
+        <label><!-- Incoterms --></label>
+        <name>PMC_CPQ_Incoterms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Is FPD --></label>
+        <name>PMC_CPQ_IsFPD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Order ID --></label>
+        <name>PMC_CPQ_LegacyOrderID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Message --></label>
+        <name>PMC_CPQ_OrderIntegrationMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Status --></label>
+        <name>PMC_CPQ_OrderIntegrationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation><!-- Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation><!-- Warning --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Reason --></label>
+        <name>PMC_CPQ_OrderReason__c</name>
+    </fields>
+    <fields>
+        <help><!-- Purchase Order number for this order. --></help>
+        <label><!-- Customer Purchase Order # --></label>
+        <name>PMC_CPQ_PO__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payer Account for the Order. --></help>
+        <label><!-- Payer --></label>
+        <name>PMC_CPQ_Payer__c</name>
+        <relationshipLabel><!-- Orders (Payer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Purchase Order Date for this Order. --></help>
+        <label><!-- Purchase Order Date --></label>
+        <name>PMC_CPQ_PurchaseOrderDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>PMC_CPQ_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Contract Reference # --></label>
+        <name>PMC_CPQ_SAPContractReference__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reference Order Number in SAP. --></help>
+        <label><!-- SAP Order Number --></label>
+        <name>PMC_CPQ_SAPOrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Agreement --></label>
+        <name>PMC_CPQ_SalesAgreement__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>PMC_CPQ_SalesArea__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ship To Account for the order. --></help>
+        <label><!-- Ship To Account --></label>
+        <name>PMC_CPQ_ShipToAccount__c</name>
+        <relationshipLabel><!-- Orders (Ship To Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sold To Account for the Order. --></help>
+        <label><!-- Sold To Account --></label>
+        <name>PMC_CPQ_SoldToAccount__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cart --></label>
+        <name>PMC_DH_Cart__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PMC DH Contract End Date --></label>
+        <name>PMC_DH_ContractEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Start Date --></label>
+        <name>PMC_DH_ContractStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel --></label>
+        <name>PMC_DH_OrderChannel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Placed By --></label>
+        <name>PMC_DH_OrderCreatedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type Code --></label>
+        <name>PMC_DH_OrderTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Order Created Date --></label>
+        <name>PMC_DH_SAPOrderCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel --></label>
+        <name>PMC_DH_SalesChannel__c</name>
+        <picklistValues>
+            <masterLabel>Mosaic Direct</masterLabel>
+            <translation><!-- Mosaic Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>PMC_DH_TotalPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Quantity --></label>
+        <name>PMC_DH_TotalQuantity__c</name>
+    </fields>
+    <fields>
+        <help>注文が契約済みかどうかを示します。</help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>「サブスクリプション終了日別」を選択すると、一意の各サブスクリプション終了日別に該当するサブスクリプションのみが含まれる別個の契約が作成されます。「単一契約」を選択すると、終了日に関係なく、すべてのサブスクリプションが含まれる 1 つの契約が作成されます。</help>
+        <label><!-- Contracting Method --></label>
+        <name>SBQQ__ContractingMethod__c</name>
+    </fields>
+    <fields>
+        <help>すべての注文商品予約の総額</help>
+        <label><!-- Order Bookings --></label>
+        <name>SBQQ__OrderBookings__c</name>
+    </fields>
+    <fields>
+        <help>この注文のお支払い条件。</help>
+        <label><!-- Payment Term --></label>
+        <name>SBQQ__PaymentTerm__c</name>
+    </fields>
+    <fields>
+        <help>価格計算の状況メッセージ</help>
+        <label><!-- Price Calculation Status Message --></label>
+        <name>SBQQ__PriceCalcStatusMessage__c</name>
+    </fields>
+    <fields>
+        <help>注文価格計算ジョブの状況を示します。システムによって設定されます。</help>
+        <label><!-- Price Calculation Status --></label>
+        <name>SBQQ__PriceCalcStatus__c</name>
+    </fields>
+    <fields>
+        <help>この注文の作成元である見積。</help>
+        <label><!-- Quote --></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>更新の期間を指定します。デフォルトでは、元の契約期間と同じになります。</help>
+        <label><!-- Renewal Term --></label>
+        <name>SBQQ__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <help>更新価格の増加率。</help>
+        <label><!-- Renewal Uplift (%) --></label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help>予想される税額</help>
+        <label><!-- Estimated Tax --></label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShefaliTest --></label>
+        <name>ShefaliTest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Exchange Rate --></label>
+        <name>Test_Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Order Reason --></label>
+        <name>Test_Order_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Purchase Order Date --></label>
+        <name>Test_Purchase_Order_Date__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Domestic --></label>
+        <name>PMC_CPQ_Domestic</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This Order has been placed and is therefore locked from further modifications. Any updates from SAP will be reflected here. --></errorMessage>
+        <name>PMC_CPQ_OrdersReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t contract the order. Activate the order and try again. --></errorMessage>
+        <name>SBQQ__Cannot_Contract_New_Order</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- EditOrderProducts --></label>
+        <name>SBQQ__EditOrderProducts</name>
+    </webLinks>
+</CustomObjectTranslation>

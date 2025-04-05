@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AccountId --></label>
+        <name>AccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Flow Status --></label>
+        <name>ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Revision</masterLabel>
+            <translation><!-- Under Revision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status de ATP</label>
+        <name>PMC_CPQ_ATPStatus__c</name>
+        <picklistValues>
+            <masterLabel>Fully Confirmed</masterLabel>
+            <translation>Totalmente confirmado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abrir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Confirmed</masterLabel>
+            <translation>Confirmado parcialmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>PMC_CPQ_AccountManager__c</name>
+        <relationshipLabel><!-- Order Lines (Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>PMC_CPQ_Account__c</name>
+        <relationshipLabel>Productos de pedido (cuenta)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Producto alternativo</label>
+        <name>PMC_CPQ_AlternateProduct__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Precio de llamada</label>
+        <name>PMC_CPQ_CallPrice__c</name>
+    </fields>
+    <fields>
+        <label>Combinar facturas</label>
+        <name>PMC_CPQ_CombineInvoice__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad confirmada</label>
+        <name>PMC_CPQ_ConfirmedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de contrato</label>
+        <name>PMC_CPQ_ContractType__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>Anual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCC</masterLabel>
+            <translation><!-- CCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD</masterLabel>
+            <translation><!-- FPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD Ex-Space</masterLabel>
+            <translation><!-- FPD Ex-Space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced</masterLabel>
+            <translation>Precio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced Ex-Space</masterLabel>
+            <translation>Precio Ex-Space</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Moneda</label>
+        <name>PMC_CPQ_Currency__c</name>
+    </fields>
+    <fields>
+        <help>Valor predeterminado del bloqueo de facturación</help>
+        <label>Bloqueo de facturación predeterminado</label>
+        <name>PMC_CPQ_DefaultBillingBlock__c</name>
+    </fields>
+    <fields>
+        <help>Valor predeterminado del bloqueo de entrega</help>
+        <label>Bloqueo de entrega predeterminado</label>
+        <name>PMC_CPQ_DefaultDeliveryBlock__c</name>
+    </fields>
+    <fields>
+        <help>Este campo recoge el precio aplazado</help>
+        <label>Precio aplazado</label>
+        <name>PMC_CPQ_DeferredPrice__c</name>
+    </fields>
+    <fields>
+        <help>Este campo recoge el destino del pedido</help>
+        <label>Destino</label>
+        <name>PMC_CPQ_Destination__c</name>
+    </fields>
+    <fields>
+        <label>Ajustes de precios</label>
+        <name>PMC_CPQ_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Descuentos</label>
+        <name>PMC_CPQ_Discounts__c</name>
+    </fields>
+    <fields>
+        <label>Transporte</label>
+        <name>PMC_CPQ_EstFreightPrice__c</name>
+    </fields>
+    <fields>
+        <label>Fecha estimada de envío</label>
+        <name>PMC_CPQ_EstimatedShipmentDate__c</name>
+    </fields>
+    <fields>
+        <help>Este campo recoge el indicador de espacio ex del producto Pedido.</help>
+        <label>Indicador de espacio Ex</label>
+        <name>PMC_CPQ_ExSpaceIndicator__c</name>
+    </fields>
+    <fields>
+        <help>Este campo recoge el tipo de cambio del producto Pedido</help>
+        <label>Tipo de cambio</label>
+        <name>PMC_CPQ_ExchangeRate__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de entrega prevista</label>
+        <name>PMC_CPQ_ExpectedDeliveryDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The FPD List Price for the Order Product is only relevant when the contract type of the product is specified as FPD --></help>
+        <label>Precio FPD de PriceFx</label>
+        <name>PMC_CPQ_FPDPricefromPriceFx__c</name>
+    </fields>
+    <fields>
+        <label>Precio final acordado</label>
+        <name>PMC_CPQ_FinalAgreedPrice__c</name>
+    </fields>
+    <fields>
+        <label>Precio final</label>
+        <name>PMC_CPQ_FinalPrice__c</name>
+    </fields>
+    <fields>
+        <label>Fecha fija de vencimiento del pago</label>
+        <name>PMC_CPQ_FixedPaymentDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price + Freight --></label>
+        <name>PMC_CPQ_Floorplusfreight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>PMC_CPQ_Floorprice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms --></label>
+        <name>PMC_CPQ_Incoterms__c</name>
+    </fields>
+    <fields>
+        <label>Nº de pedido del cliente</label>
+        <name>PMC_CPQ_LinePONumber__c</name>
+    </fields>
+    <fields>
+        <label>Precio de catálogo</label>
+        <name>PMC_CPQ_ListPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mode of Transportation for this order line --></help>
+        <label><!-- Mode of Transportation --></label>
+        <name>PMC_CPQ_ModeofTransportation__c</name>
+    </fields>
+    <fields>
+        <label>Precio total neto</label>
+        <name>PMC_CPQ_NetTotalPrice__c</name>
+    </fields>
+    <fields>
+        <label>Mensaje de integración</label>
+        <name>PMC_CPQ_OrderItemIntegrationMessage__c</name>
+    </fields>
+    <fields>
+        <help>Este campo recoge el status de integración del producto Pedido</help>
+        <label>Status de la integración</label>
+        <name>PMC_CPQ_OrderItemIntegrationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Listo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Éxito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Advertencia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ID de línea de pedido</label>
+        <name>PMC_CPQ_OrderLineID__c</name>
+        <relationshipLabel>Productos de pedido (ID de línea de pedido)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status de la línea de pedidos</label>
+        <name>PMC_CPQ_OrderLineStatus__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placed</masterLabel>
+            <translation>Colocado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado de la Orden</label>
+        <name>PMC_CPQ_OrderStatus__c</name>
+    </fields>
+    <fields>
+        <label>Propietario</label>
+        <name>PMC_CPQ_Owner__c</name>
+        <relationshipLabel>Líneas de pedido (Propietario)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Packaging Type --></label>
+        <name>PMC_CPQ_PackageType__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de vencimiento del pago.</help>
+        <label>Fecha de vencimiento del pago</label>
+        <name>PMC_CPQ_PaymentDueDate__c</name>
+    </fields>
+    <fields>
+        <label>T�rminos de pago</label>
+        <name>PMC_CPQ_PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>05 Days - Document Lock Date</masterLabel>
+            <translation>05 días - Fecha de bloqueo del documento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Invoicing Date</masterLabel>
+            <translation>2 plazos a partir de la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Next Month Invoicing Date</masterLabel>
+            <translation>2 cuotas a partir de la fecha de facturación del próximo mes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Invoicing Date</masterLabel>
+            <translation>3 plazos a partir de la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Next Month Invoicing Date</masterLabel>
+            <translation>3 cuotas a partir de la fecha de facturación del próximo mes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Installments From Invoicing Date</masterLabel>
+            <translation>4 plazos a partir de la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Doc - 60 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 60 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents</masterLabel>
+            <translation>Efectivo contra documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 10 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 10 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 120 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 120 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 15 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 15 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 180 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 180 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 30 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 30 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 45 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 45 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 5 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 5 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 7 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 7 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 90 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 90 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C At Sight</masterLabel>
+            <translation>L/C CONFIRMADO A LA VISTA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 10th Of Following Quarter</masterLabel>
+            <translation>Vence el 10 del trimestre siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 1st Of Following Month</masterLabel>
+            <translation>Vence el 1 del mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day - Next 3rd Month</masterLabel>
+            <translation>Primer día - Tercer mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Date</masterLabel>
+            <translation>Fecha fija</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 1 Day - From Invoicing Date</masterLabel>
+            <translation>Neto 1 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 10 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days From First Day Next Month</masterLabel>
+            <translation>Neto 10 días a partir del primer día del mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 105 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 105 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 120 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 14 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 14 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 15 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 From First Day Next Month</masterLabel>
+            <translation>Neto 15 A partir del primer día del mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 150 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 150 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 17 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 17 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 180 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 180 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 2 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 2 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 20 From First Day Next Month</masterLabel>
+            <translation>Neto 20 A partir del primer día del mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 21 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 21 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 210 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 210 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 270 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 270 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 28 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 28 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 29 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 29 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 3 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 3 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 30 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 From First Day Next Month</masterLabel>
+            <translation>Neto 30 A partir del primer día del mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 31 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 31 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 35 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 35 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 42 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 42 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 45 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 60 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 7 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 7 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 70 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 70 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 75 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 75 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 80 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 80 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 84 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 84 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days - From Invoicing Date</masterLabel>
+            <translation>Neto 90 días - Desde la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation><!-- Prepayment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Precio por fecha</label>
+        <name>PMC_CPQ_PriceByDate__c</name>
+    </fields>
+    <fields>
+        <help>Este campo recoge la fecha de fijación del precio</help>
+        <label>Precio por fecha</label>
+        <name>PMC_CPQ_PricingDate__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación del producto</label>
+        <name>PMC_CPQ_ProductLocation__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>SKU de Producto</label>
+        <name>PMC_CPQ_ProductSKU__c</name>
+    </fields>
+    <fields>
+        <label>Motivo de rechazo del artículo</label>
+        <name>PMC_CPQ_ReasonOfRejectionOfItem__c</name>
+        <picklistValues>
+            <masterLabel>B2B Order Rejected</masterLabel>
+            <translation>Pedido B2B rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSR Initiated - Order Entry Error</masterLabel>
+            <translation>Iniciado por CSR - Error de entrada de pedido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Contract Expired</masterLabel>
+            <translation>Contrato de cancelación vencido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canpotex Rejection</masterLabel>
+            <translation>Rechazo de Canpotex</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrier change</masterLabel>
+            <translation>Cambio de transportista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Fulfilled</masterLabel>
+            <translation>Contrato cumplido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Management</masterLabel>
+            <translation>Gestión de Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cust Initiated - Ordering Error</masterLabel>
+            <translation>Iniciado por el Cliente - Error de pedido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cust Initiated - Price Dispute</masterLabel>
+            <translation>Iniciado por el Cliente - Disputa de Precios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DH Cancellation</masterLabel>
+            <translation>Anulación DH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted from SFDC via Amendment</masterLabel>
+            <translation><!-- Deleted from SFDC via Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion to New Customer</masterLabel>
+            <translation>Desvío a un nuevo cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due to Complementary Invoice</masterLabel>
+            <translation><!-- Due to Complementary Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Acct. vs Pre-Pay</masterLabel>
+            <translation>Cuenta abierta vs prepago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order cannot be fulfilled</masterLabel>
+            <translation>El pedido no se puede cumplir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by workflow</masterLabel>
+            <translation>Rechazado por el flujo de trabajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reshipment</masterLabel>
+            <translation>Reenvío</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipment Diverted - Customer Request</masterLabel>
+            <translation>Envío desviado - Solicitud del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipment Diverted - Mosaic Request</masterLabel>
+            <translation>Envío desviado - Solicitud de Mosaic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply/Availability</masterLabel>
+            <translation>Suministro/Disponibilidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume low by Agronomic adjustments</masterLabel>
+            <translation>Volumen bajo por ajustes agronómicos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fecha de entrega solicitada</label>
+        <name>PMC_CPQ_RequestedDeliveryDate__c</name>
+    </fields>
+    <fields>
+        <help>Este campo captura la fecha de envío solicitada del producto del pedido.</help>
+        <label>Fecha de envío solicitada</label>
+        <name>PMC_CPQ_RequestedShipDate__c</name>
+    </fields>
+    <fields>
+        <help>ID del pedido en el sistema SAP.</help>
+        <label>ID de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderID__c</name>
+    </fields>
+    <fields>
+        <help>ID de línea de pedido en el sistema SAP</help>
+        <label>ID de línea de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderLineID__c</name>
+    </fields>
+    <fields>
+        <label>Precio de venta</label>
+        <name>PMC_CPQ_SalesPrice__c</name>
+    </fields>
+    <fields>
+        <label>Fecha en que se prestó el Servicio</label>
+        <name>PMC_CPQ_ServiceRenderedDate__c</name>
+    </fields>
+    <fields>
+        <label>Destinatario</label>
+        <name>PMC_CPQ_ShipTo__c</name>
+        <relationshipLabel>Productos del pedido (Enviar a)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dirección de envío</label>
+        <name>PMC_CPQ_ShippingAddress__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Instrucciones de envío</label>
+        <name>PMC_CPQ_ShippingInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de envío</label>
+        <name>PMC_CPQ_ShippingType__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta de destino</label>
+        <name>PMC_CPQ_SoldtoAccount__c</name>
+        <relationshipLabel>Productos del pedido (Vendido a Cuenta)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Available Quantity --></label>
+        <name>PMC_CPQ_TotalAvailableQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad total consumida</label>
+        <name>PMC_CPQ_TotalConsumedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad total contratada</label>
+        <name>PMC_CPQ_TotalContractedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Ordered Quantity --></label>
+        <name>PMC_CPQ_TotalOrderedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_CPQ_UnitOfMeasure__c</name>
+    </fields>
+    <fields>
+        <label>Llamada de precio solicitada por sist.</label>
+        <name>PMC_DH_CallPriceRequestedBySystem__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de llamada de precio del cliente</label>
+        <name>PMC_DH_CustomerCallPriceDate__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia</label>
+        <name>PMC_DH_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensualmente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de artículo</label>
+        <name>PMC_DH_ItemNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protocol Identifier --></label>
+        <name>PMC_DH_ProtocolIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Number --></label>
+        <name>PMC_DH_RequestNumber__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad enviada</label>
+        <name>PMC_DH_ShippedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account UOM Converted Quantity --></label>
+        <name>PMC_SS_AccountUOMConvertedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity (Account’s UoM) --></label>
+        <name>PMC_SS_QuantityAccountsUoM__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_SS_UnitOfMeasure__c</name>
+        <relationshipLabel>Líneas del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Familia de productos</label>
+        <name>Product_Family__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Cuando está activada, activa la orden&quot;</help>
+        <label>Activado</label>
+        <name>SBQQ__Activated__c</name>
+    </fields>
+    <fields>
+        <help>Activo creado a partir de este producto de pedido</help>
+        <label>Activo</label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Define la frecuencia de facturación.</help>
+        <label>Frecuencia de facturación</label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help>El tipo de facturación que define cuándo se produce la facturación.</help>
+        <label>Tipo de facturación</label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help>El precio en bloque que se aplica a este producto de pedido en el momento de creación del pedido.</help>
+        <label>Bloquear precio</label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica si se incluyen las reservas.</help>
+        <label>Indicador de reservas</label>
+        <name>SBQQ__BookingsIndicator__c</name>
+    </fields>
+    <fields>
+        <help>Campo de uso interno que apunta a la raíz de su paquete principal.</help>
+        <label>Bundle Raíz</label>
+        <name>SBQQ__BundleRoot__c</name>
+        <relationshipLabel>Productos del pedido (Bundle Raíz)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El tipo de carga del producto.</help>
+        <label>Tipo de cargo</label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <help>La acción contractual de la que procede este producto de pedido.</help>
+        <label>Acción contractual</label>
+        <name>SBQQ__ContractAction__c</name>
+    </fields>
+    <fields>
+        <help>El contrato de la suscripción que se crea a partir de este producto de pedido.</help>
+        <label>Contrato</label>
+        <name>SBQQ__Contract__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica si el producto del pedido está contratado.</help>
+        <label>Contratado</label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Controla el comportamiento de contratación de un Producto Pedido.</help>
+        <label>Método de contratación</label>
+        <name>SBQQ__ContractingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Contract Separately</masterLabel>
+            <translation>Contratar por separado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contract</masterLabel>
+            <translation>No contratar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation>Heredar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Duración de la suscripción, que sólo se aplica si el producto es una suscripción. Se copia del Periodo de Suscripción del producto relacionado cuando se genera el ítem de línea en primer lugar.&quot;</help>
+        <label>Término de suscripción por defecto</label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>&quot;En el caso de los productos multisegmentados, se trata del tipo de división del precio (por ejemplo, &quot;AÑO&quot;, &quot;MES&quot;, &quot;TRIMESTRE&quot;) de la posición del pedido.&quot;</help>
+        <label>Tipo de segmento</label>
+        <name>SBQQ__DimensionType__c</name>
+    </fields>
+    <fields>
+        <help>Programa de descuentos aplicado a este producto del pedido.</help>
+        <label>Programa de descuentos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Importe del precio total del producto del pedido.</help>
+        <label>Reservas de productos del pedido</label>
+        <name>SBQQ__OrderProductBookings__c</name>
+    </fields>
+    <fields>
+        <help>Se ha pedido la cantidad de productos de un presupuesto.</help>
+        <label>Cantidad pedida</label>
+        <name>SBQQ__OrderedQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Hace referencia a la dimensión de precio aplicada a este producto del pedido.</help>
+        <label>Dimensión de Precio</label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Programa de precios aplicado a este producto de pedido.</help>
+        <label>Programa de precios</label>
+        <name>SBQQ__PriceSchedule__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Indica cómo se calcula el precio de este ítem de línea. &quot;Lista&quot; = restando el descuento del precio de lista. &quot;Coste&quot; = añadir el Margen de ganancia al coste.&quot;</help>
+        <label>Método de fijación de precios</label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation>Bloque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation>Coste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation>Porcentaje del total</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Establezca el tipo de suscripción del producto del artículo del pedido.</help>
+        <label>Tipo de suscripción</label>
+        <name>SBQQ__ProductSubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help>Proporción calculada utilizada para calcular el Precio Prorrateado.</help>
+        <label>Multiplicador de prorrateo</label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help>La línea de presupuesto desde la que se crea este producto de pedido.</help>
+        <label>Línea de presupuesto</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Precio unitario de lista para el producto cotizado por este ítem de línea. El precio de lista procede del libro de precios.</help>
+        <label>Precio de catálogo cotizado</label>
+        <name>SBQQ__QuotedListPrice__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad cotizada.</help>
+        <label>Cantidad cotizada</label>
+        <name>SBQQ__QuotedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Requerido por</label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Hace referencia al producto del pedido que este producto del pedido revisa.</help>
+        <label>Producto del Pedido revisado</label>
+        <name>SBQQ__RevisedOrderProduct__c</name>
+        <relationshipLabel>Productos del pedido (Producto de pedido revisado)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Para productos multi-segmentados, índice que representa la posición de este producto de pedido en la tabla de segmentos.&quot;</help>
+        <label>Índice de segmentos</label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Para Productos multi-segmentados, esta es una clave compartida utilizada para agrupar Líneas de presupuesto multi-dimensionales.&quot;</help>
+        <label>Clave de segmento</label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta de envío</label>
+        <name>SBQQ__ShippingAccount__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo captura el Status de Activación del producto del pedido</help>
+        <label>Status de activación</label>
+        <name>SBQQ__Status__c</name>
+    </fields>
+    <fields>
+        <help>Método de cálculo del precio de suscripción. Un valor en blanco indica que el ítem de línea no es un producto de suscripción.</help>
+        <label>Precios de suscripción</label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+    </fields>
+    <fields>
+        <label>Término de suscripción</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Indica el tipo de suscripción para determinar el precio del contrato.</help>
+        <label>Tipo de suscripción</label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help>Suscripción creada a partir de este producto de pedido</help>
+        <label>Suscripción</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>Productos del pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Importe estimado del impuesto</help>
+        <label>Impuesto estimado</label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el código fiscal para las reglas de tributación.</help>
+        <label>Código fiscal</label>
+        <name>SBQQ__TaxCode__c</name>
+    </fields>
+    <fields>
+        <help>Programa de descuento a Término aplicado a este producto del pedido.</help>
+        <label>Calendario de descuentos por término</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>Productos de pedido (Programa de descuentos por Término)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Fecha de finalización de la suscripción relacionada con este producto del pedido</help>
+        <label>Fecha de finalización</label>
+        <name>SBQQ__TerminatedDate__c</name>
+    </fields>
+    <fields>
+        <help>El precio neto a término completo por línea individual.</help>
+        <label>Precio unitario neto a Término completo</label>
+        <name>SBQQ__UnproratedNetPrice__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Suscripción que se actualiza mediante esta línea de presupuesto. Cuando se contrate el presupuesto, esta suscripción tendrá rellenado el campo Fecha de finalización.&quot;</help>
+        <label>Suscripción actualizada</label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel>Productos de pedido actualizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submitted Date --></label>
+        <name>SubmittedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted User --></label>
+        <name>SubmittedUser__c</name>
+        <relationshipLabel><!-- Order Lines (Submitted User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Anulación forzada del precio unitario</label>
+        <name>UnitPriceForceOverride__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>No se puede editar ningún otro campo excepto el Precio Final Acordado para el Producto de Pedido FPD.</errorMessage>
+        <name>PMC_CPQ_FPDOrderItemsReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se pueden editar productos de pedidos no FPD.</errorMessage>
+        <name>PMC_CPQ_NonFPDOrderItemsReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede editar el status de las reservas en un producto de pedido activado.</errorMessage>
+        <name>SBQQ__CannotChangeBookingIndicatorOnActivation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Cuando el Tipo de Coste es Recurrente, se debe seleccionar un Tipo de Facturación.&quot;</errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Cuando el Tipo de cargo es &quot;Único&quot;, no se puede seleccionar un valor de Frecuencia de facturación.&quot;</errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Cuando el Tipo de Coste es Único o de Uso, no se puede seleccionar un valor de Tipo de Facturación.&quot;</errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <webLinks>
+        <label>Obtener precio FPD</label>
+        <name>PMC_CPQ_GetFPDPrice</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar precio final a SAP</label>
+        <name>PMC_CPQ_Send_Final_Price_to_SAP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview_Approval --></label>
+        <name>Preview_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Recall_Approval --></label>
+        <name>Recall_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Save_and_Send_to_SAP --></label>
+        <name>Save_and_Send_to_SAP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_for_Approval --></label>
+        <name>Submit_for_Approval</name>
+    </webLinks>
+</CustomObjectTranslation>

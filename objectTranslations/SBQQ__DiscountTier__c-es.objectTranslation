@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Discount Tier --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Discount Tier --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Calendario de descuentos Modal</label>
+        <name>SBQQ__DiscountScheduleModal</name>
+    </fieldSets>
+    <fields>
+        <help>Importe del descuento aplicado cuando la cantidad cae en este nivel.</help>
+        <label>Descuento ({0})</label>
+        <name>SBQQ__DiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Porcentaje de descuento aplicado cuando la cantidad cae en este nivel.</help>
+        <label>Descuento (%)</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help>Límite inferior del intervalo de cantidades para este nivel.</help>
+        <label>Límite inferior</label>
+        <name>SBQQ__LowerBound__c</name>
+    </fields>
+    <fields>
+        <help>Número que indica la posición de este nivel dentro de la programación.</help>
+        <label>N�mero</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help>El precio real de este nivel de descuento. Este campo se rellenará cuando se cree un nuevo conjunto de programas de descuento para un nuevo registro de Pedido.</help>
+        <label>Precio</label>
+        <name>SBQQ__Price__c</name>
+    </fields>
+    <fields>
+        <help>Programa de descuentos al que pertenece este nivel.</help>
+        <label>Cronograma</label>
+        <name>SBQQ__Schedule__c</name>
+        <relationshipLabel>Niveles de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Límite superior del intervalo de cantidades para este nivel.</help>
+        <label>Límite superior</label>
+        <name>SBQQ__UpperBound__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Tier Name --></nameFieldLabel>
+</CustomObjectTranslation>

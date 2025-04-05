@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC DH Preference Notification --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC DH Preference Notification --></value>
+    </caseValues>
+    <fields>
+        <label>Opção padrão</label>
+        <name>PMC_DH_Default_Opt_In__c</name>
+    </fields>
+    <fields>
+        <label>Subtipo de nota</label>
+        <name>PMC_DH_Notification_Sub_Type__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de notificação</label>
+        <name>PMC_DH_Notification_Type__c</name>
+    </fields>
+    <fields>
+        <label>Preferências</label>
+        <name>PMC_DH_Preferences__c</name>
+    </fields>
+    <fields>
+        <label>Perfil</label>
+        <name>PMC_DH_Profile__c</name>
+    </fields>
+    <fields>
+        <label>Pedido</label>
+        <name>PMC_DH_Sequence__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

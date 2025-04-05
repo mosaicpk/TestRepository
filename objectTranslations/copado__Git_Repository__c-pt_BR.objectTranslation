@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Git Repository --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Git Repository --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Campos de cabeçalho do Copado</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Campos personalizados</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fields>
+        <label>Permitir funções de cache do Git</label>
+        <name>copado__Allow_Functions_Git_Cache__c</name>
+    </fields>
+    <fields>
+        <help>URL base de suas ramificações do repositório, por exemplo: https://github.com/[COMPANY]/[REPOSITORY]/tree/</help>
+        <label>URL da base da filial</label>
+        <name>copado__Branch_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>URL base dos commits de seu repositório, por exemplo: https://github.com/[COMPANY]/[REPOSITORY]/commit/</help>
+        <label>URL da base de compromisso</label>
+        <name>copado__Commit_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>O Copado gera links específicos para o repositório Git, suas ramificações e commits com base no provedor Git selecionado.</help>
+        <label>Provedor Git</label>
+        <name>copado__Git_Provider__c</name>
+        <picklistValues>
+            <masterLabel>Bitbucket</masterLabel>
+            <translation><!-- Bitbucket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado Version Control</masterLabel>
+            <translation>Controle de versão do Copado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitLab</masterLabel>
+            <translation><!-- GitLab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Github</masterLabel>
+            <translation><!-- Github --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Team Service</masterLabel>
+            <translation>Serviço de Equipe da Microsoft</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>URL base do seu repositório, por exemplo: https://github.com/[EMPRESA]/[REPOSITÓRIO]/ https://bitbucket.org/[EMPRESA]/[REPOSITÓRIO]/ https://gitlab.org/[EMPRESA]/[REPOSITÓRIO]/</help>
+        <label>URL da base do pull request</label>
+        <name>copado__Pull_Request_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>Escolha entre a estrutura padrão de pastas e arquivos da API de Metadados ou a estrutura de origem DX que usa um conjunto diferente de arquivos e extensões de arquivos. O padrão é Metadados.</help>
+        <label>Formato da fonte</label>
+        <name>copado__Source_Format__c</name>
+        <picklistValues>
+            <masterLabel>Metadata</masterLabel>
+            <translation>Metadados</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>URL base do seu repositório, por exemplo: https://github.com/[COMPANY]/[REPOSITORY]/releases/tag/</help>
+        <label>URL da base da tag</label>
+        <name>copado__Tag_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>URL HTTPS ou SSH para se conectar ao repositório Git.</help>
+        <label><!-- URI --></label>
+        <name>copado__URI__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Git Repository Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Quote Term --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Quote Term --></value>
+    </caseValues>
+    <fields>
+        <help>Indica que este término de presupuesto está disponible para su uso.</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Sólo puede introducirse si las Condiciones cumplidas son Personalizadas. Introduzca una combinación de los números de índice de condición del término, Y, O y paréntesis (p. ej. (123 Y 124) Y 125).&quot;</help>
+        <label>Condición avanzada</label>
+        <name>SBQQ__AdvancedCondition__c</name>
+    </fields>
+    <fields>
+        <help>Contenido del texto de este término.</help>
+        <label>Cuerpo</label>
+        <name>SBQQ__Body__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Elija el comportamiento para sus condiciones: Todo es Y, Cualquiera es O, Personalizado es una combinación de Y/O.&quot;</help>
+        <label>Condiciones cumplidas</label>
+        <name>SBQQ__ConditionsMet__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation>Cualquier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Controla que un usuario pueda editar un Término de presupuesto.</help>
+        <label>Bloqueado</label>
+        <name>SBQQ__Locked__c</name>
+    </fields>
+    <fields>
+        <help>Término principal para este término.</help>
+        <label>Término principal</label>
+        <name>SBQQ__ParentTerm__c</name>
+        <relationshipLabel>Sub términos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifica el orden en que se imprimen los términos en el documento de presupuesto.</help>
+        <label>Imprimir pedido</label>
+        <name>SBQQ__PrintOrder__c</name>
+    </fields>
+    <fields>
+        <help>Presupuesto al que se aplica este término. Se deja en blanco si se trata de un término estándar.</help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Términos de presupuesto</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifica el término estándar que se está modificando.</help>
+        <label>Término estándar</label>
+        <name>SBQQ__StandardTerm__c</name>
+        <relationshipLabel>Términos modificados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Status de este término de presupuesto.</help>
+        <label><!-- Status --></label>
+        <name>SBQQ__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Borrador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>En revisión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Modelo Contenido al que se aplica este término.</help>
+        <label>Contenido del modelo</label>
+        <name>SBQQ__TemplateContent__c</name>
+        <relationshipLabel>Términos de presupuesto</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Indica si el término es estándar, personalizado o modificado.&quot;</help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Term # --></nameFieldLabel>
+    <webLinks>
+        <label>Traducir</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

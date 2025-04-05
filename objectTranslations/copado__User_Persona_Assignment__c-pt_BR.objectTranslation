@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- User Persona Assignment --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- User Persona Assignment --></value>
+    </caseValues>
+    <fields>
+        <help>Não edite manualmente. Esse campo é usado para controlar o agendador de permissões</help>
+        <label>Aplicar cronograma</label>
+        <name>copado__Apply_Schedule__c</name>
+    </fields>
+    <fields>
+        <help>Esse é o ID do trabalho do Apex para a revogação da permissão agendada</help>
+        <label>ID do cronograma final</label>
+        <name>copado__End_Schedule_ID__c</name>
+    </fields>
+    <fields>
+        <label>Tempo final</label>
+        <name>copado__End_Time__c</name>
+    </fields>
+    <fields>
+        <label>Identificação externa</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persona --></label>
+        <name>copado__Persona__c</name>
+        <relationshipLabel>Atribuições de persona de usuário</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Esse é o ID do trabalho do Apex para a atribuição de permissão agendada</help>
+        <label>ID do cronograma inicial</label>
+        <name>copado__Start_Schedule_ID__c</name>
+    </fields>
+    <fields>
+        <label>Hora de início</label>
+        <name>copado__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem de status</label>
+        <name>copado__Status_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permissions Assigned</masterLabel>
+            <translation>Permissões atribuídas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permissions Revoked</masterLabel>
+            <translation>Permissões revogadas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Permanent</masterLabel>
+            <translation>Permanente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary</masterLabel>
+            <translation>Temporário</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Usuário</label>
+        <name>copado__User__c</name>
+        <relationshipLabel>Atribuições de persona de usuário</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- User Persona Assignment Ref --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não é possível especificar a hora de término e início para permissões permanentes.</errorMessage>
+        <name>copado__Permanent_no_Dates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Hora de início não pode ser posterior à Hora de término.</errorMessage>
+        <name>copado__Start_End_date_illogicalness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Hora de início ou a Hora de término não podem estar no passado. Adicione alguns minutos ao campo relacionado.</errorMessage>
+        <name>copado__Start_date_issue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Especifique o horário de término e início das permissões temporárias.</errorMessage>
+        <name>copado__Temporary_with_Dates</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Environment Variable --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Environment Variable --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Lista relacionada</label>
+        <name>copado__RelatedList</name>
+    </fieldSets>
+    <fields>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Variáveis de ambiente</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Use esse campo para definir um escopo para essa variável de ambiente. Para obter mais informações, consulte nossa documentação sobre o escopo das variáveis de ambiente.</help>
+        <label>Escopo</label>
+        <name>copado__Scope__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>copado__Value__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Environment Variable Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>O valor é necessário</errorMessage>
+        <name>copado__Value_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

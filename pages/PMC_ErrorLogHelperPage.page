@@ -1,0 +1,8 @@
+<!--
+/**
+ * Visualforce Page which allows the Error Log class to save Error Log records when the exception happened on a Constructor, Getter or Setter.
+ * <p /><p />
+ * @author Sachin Seshabhattar
+ */
+-->
+<apex:page controller="PMC_ErrorLogHelperClass"/>

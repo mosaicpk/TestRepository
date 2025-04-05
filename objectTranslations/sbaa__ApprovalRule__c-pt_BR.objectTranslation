@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regra de aprovação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regras de aprovação</value>
+    </caseValues>
+    <fields>
+        <label><!-- Order Line --></label>
+        <name>OrderItem__c</name>
+        <relationshipLabel><!-- Order Line --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>PMC_CPQ_Description__c</name>
+    </fields>
+    <fields>
+        <help>Marcado se a regra deve ser avaliada ao ser enviada para aprovação</help>
+        <label><!-- Active --></label>
+        <name>sbaa__Active__c</name>
+    </fields>
+    <fields>
+        <help>Só pode ser inserido se as Condições satisfeitas forem Personalizadas. Insira uma combinação dos números do índice de condição de aprovação, E, OU e parênteses (por exemplo (123 E 124) E 125).</help>
+        <label><!-- Advanced Condition --></label>
+        <name>sbaa__AdvancedCondition__c</name>
+    </fields>
+    <fields>
+        <help>Cadeia de aprovação à qual essa regra pertence.</help>
+        <label><!-- Approval Chain --></label>
+        <name>sbaa__ApprovalChain__c</name>
+        <relationshipLabel><!-- Approval Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Escolha um ou mais destinatários para a notificação por e-mail de aprovação.</help>
+        <label><!-- Approval Recipients --></label>
+        <name>sbaa__ApprovalRecipients__c</name>
+        <picklistValues>
+            <masterLabel>Initial Submitter</masterLabel>
+            <translation>Remetente inicial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ServiceDirectorUser__c</masterLabel>
+            <translation><!-- PMC_CPQ_ServiceDirectorUser__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Created By</masterLabel>
+            <translation>Registro criado por</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Owner</masterLabel>
+            <translation>Proprietário do registro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Etapa na qual essa regra de aprovação é avaliada</help>
+        <label><!-- Approval Step --></label>
+        <name>sbaa__ApprovalStep__c</name>
+    </fields>
+    <fields>
+        <help>Consulta ao modelo de e-mail associado à aprovação para essa regra</help>
+        <label><!-- Approval Template --></label>
+        <name>sbaa__ApprovalTemplate__c</name>
+        <relationshipLabel><!-- Approved Approval Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Usado com aprovações dinâmicas, o campo que contém o valor do aprovador usado para essa regra</help>
+        <label><!-- Approver Field --></label>
+        <name>sbaa__ApproverField__c</name>
+        <picklistValues>
+            <masterLabel>Created By</masterLabel>
+            <translation>Criado por</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager_Id__c</masterLabel>
+            <translation><!-- Manager_Id__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Aprovador associado a essa regra de aprovação.</help>
+        <label><!-- Approver --></label>
+        <name>sbaa__Approver__c</name>
+        <relationshipLabel><!-- Approval Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Escolha o comportamento para suas condições: Todo é “e”; Qualquer é “ou”.</help>
+        <label><!-- Conditions Met --></label>
+        <name>sbaa__ConditionsMet__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation>Qualquer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Tipo de campo de data do objeto de destino selecionado que as datas de início e término efetivas referenciam ao aplicar regras de aprovação</help>
+        <label>Campo de data efetiva</label>
+        <name>sbaa__EffectiveDateField__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation>Data de criação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted Date</masterLabel>
+            <translation>Data de envio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O intervalo de data final para quando essa regra estará em vigor (inclusive)</help>
+        <label>Data de término efetiva</label>
+        <name>sbaa__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <help>A data de início da vigência dessa regra (inclusive)</help>
+        <label>Data de início efetiva</label>
+        <name>sbaa__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Status aos quais essa Regra de Aprovação não deve ser aplicada</help>
+        <label><!-- Excluded Statuses --></label>
+        <name>sbaa__ExcludedStatuses__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>Recuperado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se definido, o valor desse campo substitui as condições de aprovação</help>
+        <label>Campo de substituição</label>
+        <name>sbaa__OverrideField__c</name>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation>Nome</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se marcada, todas as aprovações na etapa ocorrerão em paralelo. Essa configuração só tem efeito quando se usam aprovações avançadas com aprovações nativas.</help>
+        <label><!-- Parallel --></label>
+        <name>sbaa__Parallel__c</name>
+    </fields>
+    <fields>
+        <help>Consulta ao modelo de e-mail associado aos recalls para essa regra</help>
+        <label>Modelo de recall</label>
+        <name>sbaa__RecallTemplate__c</name>
+        <relationshipLabel>Regras de aprovação de recall</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Escolha um ou mais destinatários para a notificação de rejeição por e-mail.</help>
+        <label>Destinatários de rejeição</label>
+        <name>sbaa__RejectionRecipients__c</name>
+        <picklistValues>
+            <masterLabel>Initial Submitter</masterLabel>
+            <translation>Remetente inicial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Created By</masterLabel>
+            <translation>Registro criado por</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Owner</masterLabel>
+            <translation>Proprietário do registro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Consulta ao modelo de e-mail associado à rejeição para essa regra</help>
+        <label><!-- Rejection Template --></label>
+        <name>sbaa__RejectionTemplate__c</name>
+        <relationshipLabel><!-- Rejected Approval Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Consulta ao modelo de e-mail associado às solicitações de aprovação para essa regra</help>
+        <label><!-- Request Template --></label>
+        <name>sbaa__RequestTemplate__c</name>
+        <relationshipLabel>Regras de aprovação (solicitadas)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Por padrão, a aprovação de qualquer aprovação aprovará automaticamente todas as outras aprovações atribuídas ao mesmo usuário. Se essa caixa estiver marcada, uma aprovação originada por essa regra não será aprovada automaticamente e deverá ser explicitamente aprovada.</help>
+        <label><!-- Require Explicit Approval --></label>
+        <name>sbaa__RequireExplicitApproval__c</name>
+    </fields>
+    <fields>
+        <help>Marque para reavaliar as condições do Smart Approval, mesmo que a opção Condições atendidas esteja definida como Todas ou Personalizadas. Se qualquer Condição de Aprovação Inteligente retornar “Verdade”, a reavaliação será interrompida e as Condições de Regra serão consideradas atendidas.</help>
+        <label>Reavaliar aprovações intel.</label>
+        <name>sbaa__SmartApprovalIgnoresConditionsMet__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API do objeto ao qual essa regra se aplica</help>
+        <label><!-- Target Object --></label>
+        <name>sbaa__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation>Oportunidade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OrderItem</masterLabel>
+            <translation><!-- OrderItem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order_Line_Approval__c</masterLabel>
+            <translation><!-- Order_Line_Approval__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__QuoteLine__c</masterLabel>
+            <translation><!-- SBQQ__QuoteLine__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quote__c</masterLabel>
+            <translation><!-- SBQQ__Quote__c --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da regra</nameFieldLabel>
+    <validationRules>
+        <errorMessage>O campo Effective Date (Data efetiva) deve ser definido para usar as datas de início e término efetivas.</errorMessage>
+        <name>sbaa__Effective_Date_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Data de término efetiva não deve ser anterior à Data de início efetiva.</errorMessage>
+        <name>sbaa__Effective_Date_Range_Ordered</name>
+    </validationRules>
+    <webLinks>
+        <label>Clonar com o Related</label>
+        <name>sbaa__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar com o Related</label>
+        <name>sbaa__CloneWithRelatedClassic</name>
+    </webLinks>
+</CustomObjectTranslation>

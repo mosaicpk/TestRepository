@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Selected Quote Line">
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="slds-text-title_caps">Quantity (divided by 4)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={quantityDividedByFour} for:item="value">
+                    <tr key={value}>
+                        <td>{value}</td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </lightning-card>
+</template>

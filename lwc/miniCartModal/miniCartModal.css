@@ -1,0 +1,99 @@
+.mini-cart-container {
+    width: 310px;
+    border-radius: 5px;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    z-index: 3;
+}
+
+@media (max-width: 600px) {
+    .mini-cart-container {
+        width: 230px;
+        top: 42px;
+    }
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(9, 53, 50, 0.1);
+    border-radius: 4px;
+}
+
+.modal-header {
+    background-color: white;
+    border-bottom: 1px solid #d4dfde;
+}
+
+.modal-header p {
+    color: #093532;
+    font-family: "Barlow-Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.close-icon {
+    --slds-c-icon-color-foreground-default: #1d625c;
+    cursor: pointer;
+}
+
+.delete-icon {
+    --slds-c-icon-color-foreground-default: #A55D1F;
+    cursor: pointer;
+}
+
+.modal-body {
+    background-color: white;
+    height: 144px;
+    overflow: auto;
+    padding: 16px;
+}
+
+.cart-items {
+    min-height: 16px;
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-items:first-child {
+    padding-top: 0px;
+}
+
+.cart-items:last-child {
+    padding-bottom: 0px;
+}
+
+.cart-items .text,
+.emptyCard {
+    color: #1d625c;
+    font-family: "Barlow-Medium";
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.checkout-btn {
+    color: white;
+    font-family: "Barlow-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 13px;
+    width: 100%;
+}
+
+.modal-footer {
+    background-color: white;
+    border-top: 1px solid #d4dfde;
+}

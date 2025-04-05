@@ -1,0 +1,60 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "c8557a8d-db15-47ef-9a54-0b81de6c967a",
+  "label" : "Contract Details",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"ee4e1a00-2cc0-45f0-9d67-ece8e0db8723\",\"columns\":[{\"UUID\":\"cd94731e-9b58-425d-8f71-36cec16f0f53\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "ee4e1a00-2cc0-45f0-9d67-ece8e0db8723",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:pmc_dh_contractDetails",
+          "id" : "c867620b-206c-493b-927c-cdad69bb28f1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cd94731e-9b58-425d-8f71-36cec16f0f53",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "4c6d147e-efa2-4ae4-bdf4-0b48eca5225e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Contract Details",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "7f3fbbbc-2165-463d-9651-49d2175835ff",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b1000cc9-3f78-4845-bf7d-c56233623af4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZU6jMSaEOkVarmD9c0eLRGj2VmPSKD",
+  "type" : "view",
+  "viewType" : "custom-contract-details"
+}

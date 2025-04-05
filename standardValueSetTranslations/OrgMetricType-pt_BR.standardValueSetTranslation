@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>API Versions</masterLabel>
+        <translation>Versões da API</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Active Sharing Rule Limits</masterLabel>
+        <translation>Limites da regra de compartilhamento ativo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Active Validation Rule Limits</masterLabel>
+        <translation>Limites da regra de validação ativa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Active Workflow Rule Limits</masterLabel>
+        <translation>Limites de regras de fluxo de trabalho ativo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Case Feed</masterLabel>
+        <translation>Alimentação de casos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Convert Attachment to Files</masterLabel>
+        <translation>Converter anexos em arquivos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Critical Permission Assignments</masterLabel>
+        <translation>Atribuições críticas de permissão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom Field Limits</masterLabel>
+        <translation>Limites de campos personalizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom Profiles with a Low Number of Users</masterLabel>
+        <translation>Perfis personalizados com um número baixo de usuários</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Data Storage Limits</masterLabel>
+        <translation>Limites de armazenamento de dados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Details Tab on Record Pages</masterLabel>
+        <translation>Guia Detalhes nas páginas de registro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Disable Debug Mode</masterLabel>
+        <translation>Desativar o modo de depuração</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Duplicate Management</masterLabel>
+        <translation>Gerenciamento de duplicatas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Field Usage</masterLabel>
+        <translation>Uso do campo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fields on Page Layouts</masterLabel>
+        <translation>Campos em layouts de página</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>File Storage Limits</masterLabel>
+        <translation>Limites de armazenamento de arquivos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Files Adoption</masterLabel>
+        <translation>Adoção de arquivos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Formula Fields with JavaScript Code</masterLabel>
+        <translation>Campos de fórmula com código JavaScript</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hard-Coded URLs</masterLabel>
+        <translation>URLs com código rígido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inactive Chatter Users</masterLabel>
+        <translation>Usuários inativos do Chatter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inactive Validation Rules</masterLabel>
+        <translation>Regras de validação inativas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inactive Workflow Rules</masterLabel>
+        <translation>Regras de fluxo de trabalho inativas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Incomplete Chatter Profiles</masterLabel>
+        <translation>Perfis incompletos do Chatter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Keyboard Shortcuts</masterLabel>
+        <translation>Atalhos de teclado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lightning Components on Record Lightning Pages</masterLabel>
+        <translation>Componentes do Lightning em páginas de registro do Lightning</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lightning Sales Console</masterLabel>
+        <translation>Console de vendas do Lightning</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lightning Service Console</masterLabel>
+        <translation>Console de serviço do Lightning</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Macros</masterLabel>
+        <translation><!-- Macros --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Migrating Workflow Rules to Flow Builder</masterLabel>
+        <translation>Migração de regras de fluxo de trabalho para o Flow Builder</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Multiple Apex Triggers per Object</masterLabel>
+        <translation>Vários acionadores Apex por objeto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New Code Using Old API Versions</masterLabel>
+        <translation>Novo código usando versões antigas da API</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>News and Twitter</masterLabel>
+        <translation>Notícias e Twitter</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Notes and Attachments Related List</masterLabel>
+        <translation>Lista relacionada a notas e anexos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omni-Channel</masterLabel>
+        <translation><!-- Omni-Channel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Out-of-Date Browsers</masterLabel>
+        <translation>Navegadores desatualizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Page Layouts per Object</masterLabel>
+        <translation>Layouts de página por objeto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Path</masterLabel>
+        <translation>Caminho</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permission Sets with a Low Number of Users</masterLabel>
+        <translation>Conjuntos de permissões com um número baixo de usuários</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Record Types per Object</masterLabel>
+        <translation>Tipos de registro por objeto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Replacing Related Lists with the Related List Quick Links Component</masterLabel>
+        <translation>Substituição de listas relacionadas pelo componente de links rápidos de listas relacionadas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S-Controls</masterLabel>
+        <translation>Controles S</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Static Resource Limits</masterLabel>
+        <translation>Limites estáticos de recursos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unassigned Custom Profiles</masterLabel>
+        <translation>Perfis personalizados não atribuídos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unassigned Page Layouts</masterLabel>
+        <translation>Layouts de página não atribuídos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unassigned Permission Sets</masterLabel>
+        <translation>Conjuntos de permissões não atribuídas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unassigned Record Types</masterLabel>
+        <translation>Tipos de registro não atribuídos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unassigned Roles</masterLabel>
+        <translation>Funções não atribuídas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unsupported Browsers</masterLabel>
+        <translation>Navegadores sem suporte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unused Dashboards</masterLabel>
+        <translation>Painéis não utilizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unused Reports</masterLabel>
+        <translation>Relatórios não utilizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Logins</masterLabel>
+        <translation>Logins de usuários</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

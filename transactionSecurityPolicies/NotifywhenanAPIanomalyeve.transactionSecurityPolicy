@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>false</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>true</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <description>Send a notification when Salesforce detects that a user has made more API calls than usual.</description>
+    <developerName>NotifywhenanAPIanomalyeve</developerName>
+    <eventName>ApiAnomalyEventStore</eventName>
+    <flow>PolicyCondition_mudwBroiBOecvQGrtScd</flow>
+    <masterLabel>Notify when an API anomaly event returns more than 1000 rows</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

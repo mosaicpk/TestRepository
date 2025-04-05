@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Tax Exemption Certificate --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Tax Exemption Certificate --></value>
+    </caseValues>
+    <fields>
+        <label>Cuenta</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Certificados de exención fiscal</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Un certificado activo hará que el campo &quot;¿Exento de impuestos?&quot; del campo Activo sea verdadero.&quot;</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <label>Número de certificado</label>
+        <name>SBQQ__CertificateNumber__c</name>
+    </fields>
+    <fields>
+        <help>Opcional - para rastrear la dirección de la empresa asociada al certificado</help>
+        <label>Pa�s</label>
+        <name>SBQQ__Country__c</name>
+    </fields>
+    <fields>
+        <label>Condado</label>
+        <name>SBQQ__County__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de emisión</label>
+        <name>SBQQ__DateIssued__c</name>
+    </fields>
+    <fields>
+        <help>Un certificado sólo puede marcarse como predeterminado si está activo</help>
+        <label>Por defecto</label>
+        <name>SBQQ__Default__c</name>
+    </fields>
+    <fields>
+        <help>El nombre de la empresa o DBA asociado al certificado</help>
+        <label>Nombre de la empresa exenta</label>
+        <name>SBQQ__ExemptCompanyName__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de expiración</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help>&quot;La autoridad, como una agencia gubernamental o un país (para organizaciones europeas), que emitió el certificado.&quot;</help>
+        <label>Autoridad expedidora</label>
+        <name>SBQQ__IssuingAuthority__c</name>
+    </fields>
+    <fields>
+        <label>Notas</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <label>C�digo Postal</label>
+        <name>SBQQ__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>SBQQ__State__c</name>
+    </fields>
+    <fields>
+        <label>Calle y número_2</label>
+        <name>SBQQ__StreetAddress_2__c</name>
+    </fields>
+    <fields>
+        <label>Calle y número</label>
+        <name>SBQQ__StreetAddress__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Tax Exemption Certificate Name --></nameFieldLabel>
+</CustomObjectTranslation>

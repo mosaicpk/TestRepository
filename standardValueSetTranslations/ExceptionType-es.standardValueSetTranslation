@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>OM Apply Failed</masterLabel>
+        <translation>Solicitud OM fallida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM Capture Failed</masterLabel>
+        <translation>Captura OM fallida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM Refund Failed</masterLabel>
+        <translation>Reembolso OM fallido</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Activation Failed</masterLabel>
+        <translation><!-- Order Activation Failed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order Item Summary To Asset Failed</masterLabel>
+        <translation><!-- Order Item Summary To Asset Failed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order To Asset Failed</masterLabel>
+        <translation><!-- Order To Asset Failed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Order To Billing Schedule Failed</masterLabel>
+        <translation><!-- Order To Billing Schedule Failed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Place Order Failed</masterLabel>
+        <translation>Fallo al realizar el pedido</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

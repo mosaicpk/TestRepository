@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- BR Expiration Validity Table --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- BR Expiration Validity Table --></value>
+    </caseValues>
+    <fields>
+        <label>Tipo de negócio</label>
+        <name>PMC_CPQ_BusinessType__c</name>
+    </fields>
+    <fields>
+        <label>Classificação</label>
+        <name>PMC_CPQ_Classification__c</name>
+    </fields>
+    <fields>
+        <label>Número de dias</label>
+        <name>PMC_CPQ_NumberOfDays__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

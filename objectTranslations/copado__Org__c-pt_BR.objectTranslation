@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Credential --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Credential --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Campos de cabeçalho do Copado</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fields>
+        <help>Status da verificação de conformidade mais recente da organização.</help>
+        <label>Status de conformidade</label>
+        <name>copado__Compliance_Status__c</name>
+    </fields>
+    <fields>
+        <help>Por exemplo: https://company.my.salesforce.com</help>
+        <label>Domínio personalizado</label>
+        <name>copado__Custom_Domain__c</name>
+    </fields>
+    <fields>
+        <help>Se selecionada, essa será a credencial preferencial para implantações de promoção</help>
+        <label>Credencial padrão</label>
+        <name>copado__Default_Credential__c</name>
+    </fields>
+    <fields>
+        <help>Será usado para a criação do aplicativo Review a partir de promoções. case contrário, cada organização scratch pode ser criada por sua própria definição de organização scratch, com ou sem um modelo.</help>
+        <label>Definição padrão da organização Scratch</label>
+        <name>copado__Default_Scratch_Org_Definition__c</name>
+        <relationshipLabel>Credenciais</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Credencial do Developer Hub</label>
+        <name>copado__Developer_Hub_Org__c</name>
+        <relationshipLabel>Credenciais</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marcar essa caixa de seleção não validará as credenciais quando o registro for salvo ou visualizado.</help>
+        <label>Desativar a validação</label>
+        <name>copado__Disable_Validation__c</name>
+    </fields>
+    <fields>
+        <help>Os registros de ambiente são criados automaticamente quando as credenciais são autenticadas. O ambiente pode ter várias credenciais que correspondem a diferentes usuários do mesmo ambiente.</help>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Credenciais</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Erro</label>
+        <name>copado__Error__c</name>
+    </fields>
+    <fields>
+        <label>Data e hora do último teste do Apex</label>
+        <name>copado__Last_Apex_Tests_Datetime__c</name>
+    </fields>
+    <fields>
+        <label>Status dos últimos testes Apex</label>
+        <name>copado__Last_Apex_Tests_Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Nenhum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Compliance Scan Date --></label>
+        <name>copado__Last_Compliance_Scan_Date__c</name>
+    </fields>
+    <fields>
+        <label>Data e hora do último backup do Git</label>
+        <name>copado__Last_Git_Backup_Datetime__c</name>
+    </fields>
+    <fields>
+        <label>Status do último backup do Git</label>
+        <name>copado__Last_Git_Backup_Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Nenhum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Vazio significa todos os tipos. Selecione um ou mais tipos para limitar o backup apenas aos itens selecionados.</help>
+        <label>Tipos de metadados</label>
+        <name>copado__Metadata_Types__c</name>
+    </fields>
+    <fields>
+        <help>Cobertura mínima de código necessária para implementar as alterações desse ambiente.</help>
+        <label>Cobertura mínima do teste Apex</label>
+        <name>copado__Minimum_Apex_Test_Coverage__c</name>
+    </fields>
+    <fields>
+        <help>Esse valor é definido e atualizado automaticamente pelo Copado.</help>
+        <label>Assinatura Oauth</label>
+        <name>copado__Oauth_Signature__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de organização</label>
+        <name>copado__Org_Type__c</name>
+        <picklistValues>
+            <masterLabel>Production/Developer</masterLabel>
+            <translation>Produção/Desenvolvedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox</masterLabel>
+            <translation><!-- Sandbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scratch Org</masterLabel>
+            <translation>Organização Scratch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scratch Org - Test only</masterLabel>
+            <translation>Scratch Org - Somente teste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <label>Nome do perfil</label>
+        <name>copado__Profile_Name__c</name>
+    </fields>
+    <fields>
+        <help>Organização Id para o Ambiente.</help>
+        <label>ID da organização SFDC</label>
+        <name>copado__SFDC_Org_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scratch Org Expiration Date --></label>
+        <name>copado__Scratch_Org_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>Status da organização do Scratch</label>
+        <name>copado__Scratch_Org_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation>Eliminado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expirado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing</masterLabel>
+            <translation>Faltando</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Recurso de integração contínua. Execute todos os métodos de teste do Apex e salve os resultados no objeto Resultado do teste do Apex para criar alertas ou relatórios por e-mail. Esse recurso é muito poderoso, juntamente com os backups do Git, para detectar automaticamente as alterações recentes que falharam.</help>
+        <label>Frequência de teste</label>
+        <name>copado__Test_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>Diariamente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Nenhum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Um token de segurança é uma chave gerada automaticamente que você deve usar ao se conectar por meio da API.</help>
+        <label>Token de segurança</label>
+        <name>copado__Token__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Ícone</label>
+        <name>copado__Type_Icon__c</name>
+    </fields>
+    <fields>
+        <label>Nome de usuário</label>
+        <name>copado__Username__c</name>
+    </fields>
+    <fields>
+        <help>Data mais recente de validação da autenticação do OAuth.</help>
+        <label>Data de validação</label>
+        <name>copado__Validated_Date__c</name>
+    </fields>
+    <fields>
+        <label>Status validado</label>
+        <name>copado__Validated_Status__c</name>
+    </fields>
+    <fields>
+        <label>A credencial do Developer Hub é</label>
+        <name>copado__is_Developer_Hub_Org__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Credential Name --></nameFieldLabel>
+    <webLinks>
+        <label>Adicionar à implantação</label>
+        <name>copado__Add_to_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label>Validar organização</label>
+        <name>copado__Validate_Org</name>
+    </webLinks>
+</CustomObjectTranslation>

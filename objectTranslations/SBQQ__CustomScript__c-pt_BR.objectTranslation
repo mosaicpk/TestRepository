@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Script personalizado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Scripts personalizados</value>
+    </caseValues>
+    <fields>
+        <help>Código que pode ser executado por um recurso externo.</help>
+        <label><!-- Code --></label>
+        <name>SBQQ__Code__c</name>
+    </fields>
+    <fields>
+        <help>Nomes de API dos campos de taxa de consumo referenciados por esse plug-in. Insira até 10 campos, um campo em cada linha.</help>
+        <label>Campos de taxa de consumo</label>
+        <name>SBQQ__ConsumptionRateFields__c</name>
+    </fields>
+    <fields>
+        <help>Nomes de API dos campos de programação de consumo referenciados por esse plug-in. Insira até 10 campos, um campo em cada linha.</help>
+        <label>Campos de programação de consumo</label>
+        <name>SBQQ__ConsumptionScheduleFields__c</name>
+    </fields>
+    <fields>
+        <help>Digite os nomes de API de qualquer campo do Quote Line Group referenciado por esse plug-in, um por linha.</help>
+        <label><!-- Quote Line Group Fields --></label>
+        <name>SBQQ__GroupFields__c</name>
+    </fields>
+    <fields>
+        <help>Digite os nomes de API de todos os campos de cotação referenciados por esse plug-in, um por linha.</help>
+        <label>Citar campos</label>
+        <name>SBQQ__QuoteFields__c</name>
+    </fields>
+    <fields>
+        <help>Digite os nomes de API de todos os campos da Quote Line referenciados por esse plug-in, um por linha.</help>
+        <label><!-- Quote Line Fields --></label>
+        <name>SBQQ__QuoteLineFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transpiled Code --></label>
+        <name>SBQQ__TranspiledCode__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do script</nameFieldLabel>
+</CustomObjectTranslation>

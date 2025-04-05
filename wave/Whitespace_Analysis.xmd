@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin xsi:nil="true"/>
+                <formatValue>#FFFFFF</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin xsi:nil="true"/>
+                <formatValue>rgb(0, 73, 235)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Revenue</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>gradient</type>
+        </conditionalFormatting>
+        <field>AccountProductRevenu_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.SalesAgreementProduct.SalesAgreement.Account.Name</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin xsi:nil="true"/>
+                <formatValue>#FFFFFF</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin xsi:nil="true"/>
+                <formatValue>rgb(0, 73, 235)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Revenue</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>gradient</type>
+        </conditionalFormatting>
+        <field>AccountProductRevenu_1.Revenue</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.A</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.B</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.F</field>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.D</field>
+        <isDerived>false</isDerived>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.E</field>
+        <isDerived>false</isDerived>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.C</field>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.# of Approved or Active Agreements</field>
+        <isDerived>false</isDerived>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.# of Products</field>
+        <isDerived>false</isDerived>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.Total_Planned_Revenue</field>
+        <isDerived>false</isDerived>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.# of In-Process Agreements</field>
+        <isDerived>false</isDerived>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.# of Expired or Cancelled Agreements</field>
+        <isDerived>false</isDerived>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#673300</formatValue>
+                <operator>==</operator>
+                <sortIndex xsi:nil="true"/>
+                <value>0</value>
+            </formattingPredicates>
+            <property>backgroundColor</property>
+            <referenceField>G</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>single</type>
+        </conditionalFormatting>
+        <field>ActiveAccounts_3.Past_Revenue</field>
+        <isDerived>false</isDerived>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Whitespace_Analysis</waveVisualization>
+</WaveXmd>

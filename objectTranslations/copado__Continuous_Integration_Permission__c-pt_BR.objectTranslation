@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Continuous Integration Permission --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Continuous Integration Permission --></value>
+    </caseValues>
+    <fields>
+        <label>Acesso</label>
+        <name>copado__Access__c</name>
+        <picklistValues>
+            <masterLabel>Read Only</masterLabel>
+            <translation>Somente leitura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run Continuous Integration</masterLabel>
+            <translation>Executar a integração contínua</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Integração contínua</label>
+        <name>copado__Continuous_Integration__c</name>
+        <relationshipLabel>Permissões de integração contínua</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Notificação por e-mail</label>
+        <name>copado__Email_Notification__c</name>
+        <picklistValues>
+            <masterLabel>On Build Failure</masterLabel>
+            <translation>Sobre falhas de construção</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Build Success</masterLabel>
+            <translation>Sobre o sucesso da construção</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Deploy Failure</masterLabel>
+            <translation>Falha na implantação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Deploy Success</masterLabel>
+            <translation>Sobre o sucesso da implantação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Selecione aqui o Nome do modelo de e-mail. Se o seu modelo não estiver visível aqui, ele deverá ser adicionado pelo Administrador, personalizando essa lista de opções no objeto Permissão de integração contínua.</help>
+        <label>Nome do modelo de e-mail</label>
+        <name>copado__Email_Template_Name__c</name>
+        <picklistValues>
+            <masterLabel>Build Task Status Notification</masterLabel>
+            <translation>Notificação de status da tarefa de construção</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Usuário</label>
+        <name>copado__User__c</name>
+        <relationshipLabel>Permissões de integração contínua</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Permission Ref --></nameFieldLabel>
+</CustomObjectTranslation>

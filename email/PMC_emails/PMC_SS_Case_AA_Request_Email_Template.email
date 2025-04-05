@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="Case # {!relatedTo.Case__r.CaseNumber} is submitted for your Approval" recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:plainTextEmailBody >
+
+{!relatedTo.Id}
+
+Case {!relatedTo.Case__r.CaseNumber} : {!relatedTo.Case__r.Subject} has been submitted for your Approval.
+
+Please respond with your decision.
+
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

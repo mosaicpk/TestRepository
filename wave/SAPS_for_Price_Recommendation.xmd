@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>SAPS_for_Price_Recommendation</dataset>
+    <dimensions>
+        <field>SalesAgreement.ScheduleFrequency</field>
+        <isDerived>false</isDerived>
+        <label>Agreement Frequency</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product.Product.Name</field>
+        <isDerived>false</isDerived>
+        <label>Product Name</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product.Product.Family</field>
+        <isDerived>false</isDerived>
+        <label>Product Family</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>StartDateQuarter</field>
+        <isDerived>false</isDerived>
+        <label>Calendar Quarter of Start Date</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>EndDateQuarter</field>
+        <isDerived>false</isDerived>
+        <label>Calendar Quarter of End Date</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Name</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.BillingCountry</field>
+        <isDerived>false</isDerived>
+        <label>Account Country</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.BillingState</field>
+        <isDerived>false</isDerived>
+        <label>Account State</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Industry</field>
+        <isDerived>false</isDerived>
+        <label>Account Industry</label>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Type</field>
+        <isDerived>false</isDerived>
+        <label>Account Type</label>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Owner.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Owner</label>
+        <sortIndex>10</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Predicted_Price</field>
+        <isDerived>false</isDerived>
+        <label>Predicted Price</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Sales_Agreement_Duration</field>
+        <isDerived>false</isDerived>
+        <label>Agreement Duration</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>SalesAgreement.SAP.Count_of_SAP</field>
+        <isDerived>false</isDerived>
+        <label>Number of products in agreement</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>SalesAgreement.TotalAgreementAmount</field>
+        <isDerived>false</isDerived>
+        <label>Planned Revenue for Agreement</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>SalesAgreementProduct.InitialPlannedQuantity</field>
+        <isDerived>false</isDerived>
+        <label>Planned Quantity for Agreement Product</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Schedule_Duration</field>
+        <isDerived>false</isDerived>
+        <label>Number of days in schedule</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Derived_Quantity</field>
+        <isDerived>false</isDerived>
+        <label>Quantity for schedule</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Quantity_Till_This_Schedule</field>
+        <isDerived>false</isDerived>
+        <label>Quantity sold till this schedule</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Days_Till_This_Schedule</field>
+        <isDerived>false</isDerived>
+        <label>Agreement days till this schdeule</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Avg_Monthly_SAP_Quantity</field>
+        <isDerived>false</isDerived>
+        <label>Avg monthly qty of product across agreements</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Max_Monthly_Planned_SAP_Quantity</field>
+        <isDerived>false</isDerived>
+        <label>Max monthly qty of product across agreements</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Min_Monthly_Planned_SAP_Quantity</field>
+        <isDerived>false</isDerived>
+        <label>Min monthly qty of product across agreements</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>Overall_Product_Compliance</field>
+        <isDerived>false</isDerived>
+        <label>Overall Product Compliance</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Account_Product_Compliance</field>
+        <isDerived>false</isDerived>
+        <label>Product Compliance for Account</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>SalesAgreementProduct.ListPrice</field>
+        <isDerived>false</isDerived>
+        <label>List Price</label>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>Average_Owner_Product_Price</field>
+        <isDerived>false</isDerived>
+        <label>Avg product price offered by KAM</label>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>Max_Owner_Product_Price</field>
+        <isDerived>false</isDerived>
+        <label>Max product price offered by KAM</label>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>Min_Owner_Product_Price</field>
+        <isDerived>false</isDerived>
+        <label>Min product price offered by KAM</label>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>Owner_Product_Quantity_Realization_TD</field>
+        <isDerived>false</isDerived>
+        <label>Product quantity realization till date by KAM</label>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>Avg_Order_Product_Qty</field>
+        <isDerived>false</isDerived>
+        <label>Avg product quantity per order</label>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <field>Max_Order_Product_Qty</field>
+        <isDerived>false</isDerived>
+        <label>Max product quantity per order</label>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>Min_Order_Product_Qty</field>
+        <isDerived>false</isDerived>
+        <label>Min product quantity per order</label>
+        <sortIndex>21</sortIndex>
+    </measures>
+    <measures>
+        <field>Avg_Order_Product_Discount</field>
+        <isDerived>false</isDerived>
+        <label>Avg product discount per order</label>
+        <sortIndex>22</sortIndex>
+    </measures>
+    <measures>
+        <field>Max_Order_Product_Discount</field>
+        <isDerived>false</isDerived>
+        <label>Max product discount per order</label>
+        <sortIndex>23</sortIndex>
+    </measures>
+    <measures>
+        <field>Min_Order_Product_Discount</field>
+        <isDerived>false</isDerived>
+        <label>Min product discount per order</label>
+        <sortIndex>24</sortIndex>
+    </measures>
+</WaveXmd>

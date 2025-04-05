@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>PMC_CPQ_ApprovalRequestLetterHead</letterhead>
+    <name>HTML Email Template for Approval Request</name>
+    <style>freeForm</style>
+    <subject>Approval has been requested for Quote</subject>
+    <textOnly>Hello {!sbaa__Approval__c.sbaa__ApprovedBy__c},
+
+Quote Line Quantity : {!SBQQ__QuoteLine__c.SBQQ__Quantity__c}
+Quote Line List Price : {!SBQQ__QuoteLine__c.SBQQ__ListPrice__c}
+Quote Link : {!SBQQ__Quote__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

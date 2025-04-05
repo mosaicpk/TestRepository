@@ -1,0 +1,10 @@
+.carousel-section {
+    width:100%;
+    height:80%;
+     margin-left:-3.125rem;
+}
+
+.red-section {
+    background: #e32119;
+    margin-left:3.125rem;
+}

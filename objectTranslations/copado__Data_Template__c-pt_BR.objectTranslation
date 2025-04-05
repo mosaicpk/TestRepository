@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Data Template --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Data Template --></value>
+    </caseValues>
+    <fields>
+        <label>Ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <help>Insira, atualize ou remova anexos dos registros que serão implantados.</help>
+        <label>Ações de anexo</label>
+        <name>copado__Attachment_Options__c</name>
+        <picklistValues>
+            <masterLabel>Insert Attachments</masterLabel>
+            <translation>Inserir anexos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Actions</masterLabel>
+            <translation>Nenhuma ação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Attachments</masterLabel>
+            <translation>Remover anexos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace Attachments</masterLabel>
+            <translation>Substituir acessórios</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tamanho do lote</label>
+        <name>copado__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label>Continuar com erro</label>
+        <name>copado__Continue_on_Error__c</name>
+        <picklistValues>
+            <masterLabel>Continue deployment until blocker issue</masterLabel>
+            <translation>Continuar a implementação até o problema do bloqueador</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>Lógica de filtro</label>
+        <name>copado__Filter_Logic__c</name>
+    </fields>
+    <fields>
+        <label>Objeto principal</label>
+        <name>copado__Main_Object__c</name>
+    </fields>
+    <fields>
+        <help>Quando não houver correspondência de proprietários, o proprietário dos registros implementados na Credencial de destino será automaticamente atribuído ao usuário que executa a implementação.</help>
+        <label>Proprietários Correspondentes</label>
+        <name>copado__Match_Owners__c</name>
+    </fields>
+    <fields>
+        <help>Ao fazer a correspondência de tipos de registro, os registros na Credencial de destino são atribuídos ao mesmo tipo de registro da Credencial de origem, se encontrados. case contrário, eles são atribuídos ao tipo de registro padrão no perfil do usuário que está implementando.</help>
+        <label>Tipo de registro de correspondência</label>
+        <name>copado__Match_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>Máximo. Limite de registro</label>
+        <name>copado__Max_Record_Limit__c</name>
+    </fields>
+    <fields>
+        <help>Os principais objetos, campos e objetos relacionados serão listados com base no modelo de dados Salesforce Org da credencial selecionada. O usuário do Salesforce vinculado à credencial deve ter acesso a todos os campos e objetos necessários para suas implantações.</help>
+        <label>Credencial de esquema de modelo</label>
+        <name>copado__Template_Source_Org__c</name>
+        <relationshipLabel>Modelos de dados</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Data Template Name --></nameFieldLabel>
+    <webLinks>
+        <label>Importar modelos</label>
+        <name>copado__Import_Templates</name>
+    </webLinks>
+</CustomObjectTranslation>

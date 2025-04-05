@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <relationshipLabel><!-- Program Rebate Type Benefits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BPA Order Display Indicator --></label>
+        <name>PMC_CLM_BPAOrderDisplayIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductTierAppend --></label>
+        <name>PMC_CLM_ProductTierAppend__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de programa de rebaja</label>
+        <name>PMC_CLM_ProgramRebateType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Incentives --></label>
+        <name>PMC_SS_ActualIncentives__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad prevista</label>
+        <name>PMC_SS_Forecasted_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Quantity --></label>
+        <name>PMC_SS_InvoiceQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Familia de productos</label>
+        <name>PMC_SS_ProductFamily__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo previsto</label>
+        <name>PMC_SS_Projected_Incentive__c</name>
+    </fields>
+    <fields>
+        <label>Nivel de escala</label>
+        <name>PMC_SS_ScaleLevel__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Exclusive Space --></label>
+        <name>Exclusive_Space</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Program Rebate Type Benefit --></label>
+        <name>Program_Rebate_Type_Benefit</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>No se puede crear/actualizar la prestación de tipo de rebaja una vez que el programa de rebaja está inactivo.</errorMessage>
+        <name>PMC_SS_RebateTypeBenefitModification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;El tipo de rebaja Beneficio no se puede crear/editar en esta fase. Por favor, modifique el Acuerdo de Venta para hacer revisiones al Beneficio de Tipo de rebaja.&quot;</errorMessage>
+        <name>PMC_SS_RestrictRebateTypeBenefitEdit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- TEST Rebate Type Benefit can’t be edited at this stage. Please Amend the Sales Agreement to make revisions Rebate Type Benefit. --></errorMessage>
+        <name>PMC_SS_RestrictRebateTypeBenefitEditTEST</name>
+    </validationRules>
+</CustomObjectTranslation>

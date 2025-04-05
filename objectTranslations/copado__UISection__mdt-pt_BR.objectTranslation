@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- UISection --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- UISection --></value>
+    </caseValues>
+    <fields>
+        <label>Componente</label>
+        <name>copado__Component__c</name>
+    </fields>
+    <fields>
+        <label>Configuração do pacote de extensão</label>
+        <name>copado__Extension_Package_Configuration__c</name>
+        <relationshipLabel><!-- UISections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Localização</label>
+        <name>copado__Location__c</name>
+    </fields>
+    <fields>
+        <label>Ferramenta de teste</label>
+        <name>copado__TestTool__c</name>
+        <relationshipLabel><!-- UISections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Onde isso é usado?</label>
+        <name>copado__WhereIsThisUsed__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

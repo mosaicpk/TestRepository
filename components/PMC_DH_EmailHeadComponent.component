@@ -1,0 +1,14 @@
+<!--
+  @description       : 
+  @author            : @siddharth.pradhan
+  @group             : 
+  @last modified on  : 05-18-2023
+  @last modified by  : @siddharth.pradhan
+-->
+
+<apex:component access="global">
+  <tr>
+    <!-- <td align="center"><img src="{!URLFOR($Resource.pmc_emailStaticResourceLogoMosaic)}" alt="Mosaic" width="300" height="150" /></td> -->
+    <td align="center"><img src="https://globaldigitalacceleration--devp1.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DT000001GtJp&oid=00DDT000000Bzj5&lastMod=1684139030000" alt="Mosaic" width="300" height="150" /></td>
+  </tr>
+</apex:component>

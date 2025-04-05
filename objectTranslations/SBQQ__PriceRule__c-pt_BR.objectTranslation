@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regra de preço</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regras de preços</value>
+    </caseValues>
+    <fields>
+        <help>Indica se essa regra está ativa ou não.</help>
+        <label><!-- Active --></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Só pode ser inserido se as Condições satisfeitas forem Personalizadas. Insira uma combinação dos números do Índice de condição de preço, E, OU e parênteses (por exemplo (123 E 124) E 125).</help>
+        <label><!-- Advanced Condition --></label>
+        <name>SBQQ__AdvancedCondition__c</name>
+    </fields>
+    <fields>
+        <help>Escolha o comportamento para suas condições: All é AND, Any é OR, Custom é uma combinação de AND/OR.</help>
+        <label><!-- Conditions Met --></label>
+        <name>SBQQ__ConditionsMet__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation>Qualquer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Quando None (Nenhum) ou Save (Salvar) for selecionado, as regras de preço com escopo do Configurator serão acionadas ao salvar.  Quando Editar for selecionado, as regras de preço com escopo do Configurador serão acionadas ao editar e salvar.</help>
+        <label><!-- Configurator Evaluation Event --></label>
+        <name>SBQQ__ConfiguratorEvaluationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation>Editar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation>Salvar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique quando essa regra deve ser avaliada. Deve ser usado apenas para direcionar a Quote Line e não é compatível com a calculadora antiga.</help>
+        <label><!-- Calculator Evaluation Event --></label>
+        <name>SBQQ__EvaluationEvent__c</name>
+        <picklistValues>
+            <masterLabel>After Calculate</masterLabel>
+            <translation>Após o cálculo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before Calculate</masterLabel>
+            <translation>Antes de Calcular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Calculate</masterLabel>
+            <translation>Em Calcular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Initialization</masterLabel>
+            <translation>Na inicialização</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique a ordem de avaliação para essa regra de preço. As regras de ordem superior são avaliadas por último, o que significa que elas &quot;vencem&quot; em case de conflito.</help>
+        <label><!-- Evaluation Order --></label>
+        <name>SBQQ__EvaluationOrder__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API do objeto personalizado que armazena os dados de pesquisa.</help>
+        <label><!-- Lookup Object --></label>
+        <name>SBQQ__LookupObject__c</name>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation>Localização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocation__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_AccountPartnerRelationships__c</masterLabel>
+            <translation><!-- PMC_SS_AccountPartnerRelationships__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_Allocation__c</masterLabel>
+            <translation><!-- PMC_SS_Allocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product2</masterLabel>
+            <translation><!-- Product2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__LookupData__c</masterLabel>
+            <translation>SBQQ__LookupData__c</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__QuoteLine__c</masterLabel>
+            <translation><!-- SBQQ__QuoteLine__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Escolha um produto para associar a essa regra.</help>
+        <label><!-- Product --></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel><!-- Price Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Evento durante o qual essa regra é avaliada.</help>
+        <label>Escopo da avaliação</label>
+        <name>SBQQ__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Calculator</masterLabel>
+            <translation>Calculadora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configurator</masterLabel>
+            <translation>Configurador</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da regra de preço</nameFieldLabel>
+    <webLinks>
+        <label>Clonar com o Related</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar com o Related</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+</CustomObjectTranslation>

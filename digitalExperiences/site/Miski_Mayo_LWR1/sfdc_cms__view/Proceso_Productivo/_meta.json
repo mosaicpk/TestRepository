@@ -1,0 +1,5 @@
+{
+  "apiName" : "Proceso_Productivo",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- External CI Job --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- External CI Job --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Campos de lista relacionados</label>
+        <name>copado__relatedListFields</name>
+    </fieldSets>
+    <fields>
+        <label>Continuar com o erro</label>
+        <name>copado__Continue_on_failure__c</name>
+    </fields>
+    <fields>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Empregos de CI externo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Configuração de CI externo</label>
+        <name>copado__External_CI_Setting__c</name>
+        <relationshipLabel>Empregos de CI externo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Invocar em</label>
+        <name>copado__Invoke_on__c</name>
+        <picklistValues>
+            <masterLabel>After deployment</masterLabel>
+            <translation>Após a implantação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before deployment</masterLabel>
+            <translation>Antes da implementação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nome da API do trabalho</label>
+        <name>copado__Job_Api_Name__c</name>
+    </fields>
+    <fields>
+        <label>Pedido</label>
+        <name>copado__Order__c</name>
+    </fields>
+    <fields>
+        <label>Tempo limite em minutos</label>
+        <name>copado__Timeout_in_minutes__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Empregos de CI externo</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- dataJSON --></label>
+        <name>copado__dataJSON__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- External CI Jobs Name --></nameFieldLabel>
+</CustomObjectTranslation>

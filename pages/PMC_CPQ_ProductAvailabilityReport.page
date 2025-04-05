@@ -1,0 +1,7 @@
+<apex:page showHeader="false" sidebar="false">
+<apex:form >
+<apex:outputPanel id="MissingAttRpt" >
+<apex:iframe src="/00ODT000001X4pf2AC?isdtp=lt" scrolling="true"  height="1588px"  width="100%"/>   
+</apex:outputPanel>
+</apex:form>  
+</apex:page>

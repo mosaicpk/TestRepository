@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Desactivar notificación</label>
+        <name>PMC_DH_NotificationDisable__c</name>
+    </fields>
+    <fields>
+        <label>Notificación visible</label>
+        <name>PMC_DH_NotificationVisible__c</name>
+    </fields>
+    <fields>
+        <label>Pedido</label>
+        <name>PMC_DH_Sequence__c</name>
+    </fields>
+</CustomObjectTranslation>

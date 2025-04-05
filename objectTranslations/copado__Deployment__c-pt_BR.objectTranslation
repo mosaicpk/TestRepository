@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Deployment --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Deployment --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Campos de cabeçalho do Copado</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CustomFields --></label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Modal de implementação de pipeline</label>
+        <name>copado__Pipeline_Deployment_Modal</name>
+    </fieldSets>
+    <fields>
+        <help>Somente os modelos ativos estão disponíveis ao procurá-los, por exemplo, nas etapas de implantação</help>
+        <label>Ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <help>Esse é um campo obrigatório se você pretende publicar seu modelo de automação como pacote de extensão do Copado</help>
+        <label>Nome da Api</label>
+        <name>copado__ApiName__c</name>
+    </fields>
+    <fields>
+        <label>Anexar arquivo de implantação</label>
+        <name>copado__Attach_Deployment_File__c</name>
+    </fields>
+    <fields>
+        <label>Tarefa de construção</label>
+        <name>copado__Build_Task__c</name>
+        <relationshipLabel>Implantações</relationshipLabel>
+    </fields>
+    <fields>
+        <label>% Concluído</label>
+        <name>copado__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Status de conformidade</label>
+        <name>copado__Compliance_Status__c</name>
+    </fields>
+    <fields>
+        <label># Concluído</label>
+        <name>copado__Count_Completed__c</name>
+    </fields>
+    <fields>
+        <help>Quando isso precisa ser implementado</help>
+        <label>Data</label>
+        <name>copado__Date__c</name>
+    </fields>
+    <fields>
+        <label>% implantado</label>
+        <name>copado__Deployed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Completed email sent --></label>
+        <name>copado__Deployment_Completed_email_sent__c</name>
+    </fields>
+    <fields>
+        <label>Contagem de trabalhos de implantação</label>
+        <name>copado__Deployment_Jobs_Count__c</name>
+    </fields>
+    <fields>
+        <label>Última etapa da implantação</label>
+        <name>copado__Deployment_Last_Step__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de fonte de implantação</label>
+        <name>copado__Deployment_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de implantação</label>
+        <name>copado__Deployment_Type__c</name>
+    </fields>
+    <fields>
+        <label>Comando de implantação enviado</label>
+        <name>copado__Deployment_command_sent__c</name>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>Não atualizar a promoção</label>
+        <name>copado__Do_Not_Update_Promotion__c</name>
+    </fields>
+    <fields>
+        <label>Contexto de execução</label>
+        <name>copado__Execution_Context__c</name>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation>Implantação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status da bandeira</label>
+        <name>copado__Flag_Status__c</name>
+    </fields>
+    <fields>
+        <label>Credencial de origem</label>
+        <name>copado__From_Org__c</name>
+        <relationshipLabel>Implantações (a partir da credencial)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Repositório Git</label>
+        <name>copado__Git_Repository__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Compliance Scan Date --></label>
+        <name>copado__Last_Compliance_Scan_Date__c</name>
+    </fields>
+    <fields>
+        <label>Id de execução da última implantação</label>
+        <name>copado__Last_Deployment_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label>Implantação Matriz</label>
+        <name>copado__Parent_Deployment__c</name>
+        <relationshipLabel>Implantações (Implantação Matriz)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Esse campo é preenchido automaticamente quando uma tarefa manual está pendente na implantação.</help>
+        <label>Em pausa</label>
+        <name>copado__Paused__c</name>
+    </fields>
+    <fields>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <label>Promoção</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>Implantações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Identifica a implantação original que foi revertida para fins de relatório</help>
+        <label>Implantação reversa</label>
+        <name>copado__Rolled_back_Deployment__c</name>
+        <relationshipLabel>Implantações (Implantação reversa)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>SUM implantado</label>
+        <name>copado__SUM_Deployed__c</name>
+    </fields>
+    <fields>
+        <label>Cronograma</label>
+        <name>copado__Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Deploy later</masterLabel>
+            <translation>Implementar mais tarde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy now</masterLabel>
+            <translation>Implantar agora</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Quando a implantação for concluída, um e-mail será enviado ao proprietário da implantação informando-o sobre o status. Desmarque essa caixa de seleção para não receber esse e-mail.</help>
+        <label><!-- Send Deployment Complete email --></label>
+        <name>copado__Send_Deployment_Complete_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Server_URL --></label>
+        <name>copado__Server_URL__c</name>
+    </fields>
+    <fields>
+        <label>Fonte Ambiente</label>
+        <name>copado__Source_Environment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed Successfully</masterLabel>
+            <translation>Concluído com sucesso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with Errors</masterLabel>
+            <translation>Concluído com erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Conflict</masterLabel>
+            <translation>Conflito de mesclagem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O modelo de automação que definiu as etapas dessa implantação.</help>
+        <label>Modelo</label>
+        <name>copado__Template__c</name>
+        <relationshipLabel>Execução do modelo</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Deployment Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Crie vários tipos de etapas de implantação. (É necessário conhecimento técnico)</description>
+        <label>Avançado (várias etapas)</label>
+        <name>copado__Advanced_multi_step</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Grupo de etapas a serem executadas no futuro.</description>
+        <label>Modelo de automação</label>
+        <name>copado__Automation_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Selecione um Data Template a ser implementado em um processo de apontar e clicar.</description>
+        <label>Implementação de dados</label>
+        <name>copado__Data_Deployment</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Selecione os metadados manualmente para serem implantados em um processo de apontar e clicar.</description>
+        <label>Implementação de metadados</label>
+        <name>copado__Metadata_Deployment</name>
+    </recordTypes>
+    <webLinks>
+        <label>Cancelar implantação (obsoleto)</label>
+        <name>copado__Cancel_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label>Implementar</label>
+        <name>copado__Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label>Modelo de importação</label>
+        <name>copado__Import_Template</name>
+    </webLinks>
+</CustomObjectTranslation>

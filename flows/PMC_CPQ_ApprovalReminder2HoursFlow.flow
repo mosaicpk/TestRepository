@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>CheckApprovalStatusDecision</name>
+        <label>Check Approval Status Decision</label>
+        <locationX>446</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>CheckApprovalStatus_StatusIsPendingOutcome</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Assigned</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Requested</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>EmailAlertLastSentUpdate</targetReference>
+            </connector>
+            <label>Status Is Pending Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsReminderFrequency2HoursDecision</name>
+        <label>Is Reminder Frequency 2 Hours Decision</label>
+        <locationX>644</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsReminderFrequency2Hours_Frequencyis2HoursOutcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_ReminderFrequency__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>2 Hours</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CheckApprovalStatusDecision</targetReference>
+            </connector>
+            <label>Frequency is 2 Hours Outcome</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>PMC CPQ Approval Reminder 2 Hours Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PMC CPQ Approval Reminder 2 Hours Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>EmailAlertLastSentUpdate</name>
+        <label>Email Alert Last Sent Update</label>
+        <locationX>314</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>ReminderCheckUpdate</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>PMC_CPQ_LastReminderTime__c</field>
+            <value>
+                <elementReference>$Record.LastModifiedDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>ReminderCheckFalseUpdate</name>
+        <label>Reminder Check False Update</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <connector>
+            <targetReference>RetriggerCheckFalseUpdate</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>PMC_CPQ_ReminderSetCheck__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>ReminderCheckUpdate</name>
+        <label>Reminder Check Update</label>
+        <locationX>314</locationX>
+        <locationY>600</locationY>
+        <inputAssignments>
+            <field>PMC_CPQ_ReminderSetCheck__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>RetriggerCheckFalseUpdate</name>
+        <label>Retrigger Check False Update</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>PMC_CPQ_ReminderSetCheck2__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>221</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>ReminderCheckFalseUpdate</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>PMC_CPQ_ReminderFrequency__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>2 Hours</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>PMC_CPQ_ReminderSetCheck2__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>sbaa__Approval__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>X2HourScheduledPath</name>
+            <connector>
+                <targetReference>IsReminderFrequency2HoursDecision</targetReference>
+            </connector>
+            <label>2 Hour Scheduled Path</label>
+            <maxBatchSize>200</maxBatchSize>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

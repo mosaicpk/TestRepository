@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Digital Hub Document Type --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Digital Hub Document Type --></value>
+    </caseValues>
+    <fields>
+        <label>Tipo de faturamento</label>
+        <name>PMC_DH_Billing_Type__c</name>
+    </fields>
+    <fields>
+        <label>Código do documento</label>
+        <name>PMC_DH_DocumentCode__c</name>
+    </fields>
+    <fields>
+        <label>Identificador</label>
+        <name>PMC_DH_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>Região</label>
+        <name>PMC_DH_Region__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

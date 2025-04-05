@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Account Partner Relationship --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Account Partner Relationship --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CPQ_Lookup --></label>
+        <name>CPQ_Lookup</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account SAP ID N --></label>
+        <name>Account_SAP_ID_N__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Code --></label>
+        <name>PMC_CPQ_SAPCustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping City --></label>
+        <name>PMC_CPQ_ShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Country --></label>
+        <name>PMC_CPQ_ShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping State/Province --></label>
+        <name>PMC_CPQ_ShippingStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street --></label>
+        <name>PMC_CPQ_ShippingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Zip/Postal Code --></label>
+        <name>PMC_CPQ_ShippingZipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Tax Number --></label>
+        <name>PMC_CPQ_StateTaxNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID/CNPJ/CPF --></label>
+        <name>PMC_CPQ_TaxIDOrCNPJOrCPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- CNPJ/CPF --></label>
+        <name>PMC_CPQ_TaxID_or_CPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Zone --></label>
+        <name>PMC_CPQ_TransportationZone__c</name>
+    </fields>
+    <fields>
+        <label>ID SAP de la cuenta</label>
+        <name>PMC_SS_AccountSAPID__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>PMC_SS_Account__c</name>
+        <relationshipLabel>Cuentas de socios relacionadas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identificador único externo</label>
+        <name>PMC_SS_ExternalUniqueIdentifier__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Cuando está marcada, esta relación de unión está Activa&quot;</help>
+        <label>¿Activo?</label>
+        <name>PMC_SS_IsActive__c</name>
+    </fields>
+    <fields>
+        <label>ID SAP de cuenta relacionada</label>
+        <name>PMC_SS_RelatedAccountSAPId__c</name>
+    </fields>
+    <fields>
+        <label>Área de Ventas de Cuenta Relacionada</label>
+        <name>PMC_SS_RelatedAccountSalesArea__c</name>
+        <relationshipLabel>Relaciones con los socios de la cuenta</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Campo para relacionar Cuentas de Destinatario de factura, Destinatario de envío y Pagador con Cuentas de Destinatario de venta.&quot;</help>
+        <label>Cuenta Relacionada</label>
+        <name>PMC_SS_RelatedAccount__c</name>
+        <relationshipLabel>Relaciones con socios de cuenta (cuenta relacionada)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>PMC_SS_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bill-to</masterLabel>
+            <translation>Facturar a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payer</masterLabel>
+            <translation>Pagador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship-to</masterLabel>
+            <translation>Envío a</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Account Partner Relationship Name --></nameFieldLabel>
+</CustomObjectTranslation>

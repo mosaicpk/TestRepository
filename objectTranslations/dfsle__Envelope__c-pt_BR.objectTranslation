@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Envelope da DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Envelopes da DocuSign</value>
+    </caseValues>
+    <fields>
+        <label>ID do modelo DFS</label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label>ID do envelope DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <help>Edite o texto desta mensagem de e-mail (até 10.000 caracteres) e ele aparecerá na notificação para assinar para 
+			 seu destinatário do DocuSign.
+		</help>
+        <label><!-- Email message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <help>Altere esse texto padrão do assunto do e-mail e ele aparecerá como a linha de assunto na notificação para assinar para 
+			seu destinatário do DocuSign.
+		</help>
+        <label><!-- Email subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <help>A configuração usada para gerar esse envelope.</help>
+        <label><!-- Envelope Configuration --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel>Envelopes DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indique o número de dias até a expiração dessa transação.</help>
+        <label>Expirar/anular o envelope em N dias</label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <help>Indique quantos dias antes da expiração você deseja que uma mensagem de e-mail alerte os destinatários de que um prazo
+		 está prestes a ser concluído. Isso é enviado apenas para os destinatários que ainda não concluíram a transação.
+		</help>
+        <label>Aviso de vencimento em N dias antes</label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <help>Algumas vezes, pode ser necessário incentivar os destinatários a preencher um envelope mais rapidamente. Após a expiração de um envelope, a DocuSign anula o envelope e envia uma notificação ao remetente e ao destinatário.</help>
+        <label>Envelope expirado/anulado</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label><!-- Options --></label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <help>Indique quantos dias devem se passar antes que o primeiro lembrete seja enviado</help>
+        <label>Enviar lembrete em N dias</label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <help>Indique a frequência (em dias) com que o lembrete deve ser repetido até que a transação seja concluída.</help>
+        <label>Lembrar a cada N dias até a conclusão</label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <help>Marque essa caixa para que um lembrete por e-mail seja enviado aos destinatários do envelope que ainda não concluíram 
+			sua tarefa.
+		</help>
+        <label>Lembrar os signatários por e-mail</label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Permissions --></label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label>Remetente</label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel>Envelopes DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Data e hora de envio</help>
+        <label><!-- Sent --></label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <help>ID da fonte do Salesforce</help>
+        <label>ID da fonte do Salesforce</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction ID --></label>
+        <name>dfsle__TransactionId__c</name>
+    </fields>
+    <fields>
+        <help>Marque para mostrar a conversa durante o fluxo de trabalho de assinatura do DocuSign.</help>
+        <label>Ativar atualizações de status do Chatter</label>
+        <name>dfsle__UpdateChatter__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>DocuSign Envelope</nameFieldLabel>
+</CustomObjectTranslation>

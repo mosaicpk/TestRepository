@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Detalle de nivel de vínculo agregado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Detalles de niveles de vínculos agregados</value>
+    </caseValues>
+    <fields>
+        <label>ID del link de Marketing Cloud</label>
+        <name>et4ae5__ExactTargetLinkID__c</name>
+    </fields>
+    <fields>
+        <help>Fecha y hora de la última vez que se hizo clic en este enlace</help>
+        <label>Último clic</label>
+        <name>et4ae5__Last_Clicked__c</name>
+    </fields>
+    <fields>
+        <label>URL del link</label>
+        <name>et4ae5__LinkURL__c</name>
+    </fields>
+    <fields>
+        <help>Número total de veces que se ha hecho clic en este enlace</help>
+        <label>Número de clics totales</label>
+        <name>et4ae5__NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <help>El número total de veces que se ha hecho clic en este enlace (único significa un clic por suscriptor).</help>
+        <label><!-- Number of Unique Clicks --></label>
+        <name>et4ae5__NumberOfUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <label>Enviar Definición</label>
+        <name>et4ae5__Send_Definition__c</name>
+        <relationshipLabel>Detalles del nivel de link agregado</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Envío disparado</label>
+        <name>et4ae5__TriggeredSendDefinition__c</name>
+        <relationshipLabel>Detalles del nivel de link agregado</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID del link único</label>
+        <name>et4ae5__Unique_Link_ID__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre del vínculo</nameFieldLabel>
+</CustomObjectTranslation>

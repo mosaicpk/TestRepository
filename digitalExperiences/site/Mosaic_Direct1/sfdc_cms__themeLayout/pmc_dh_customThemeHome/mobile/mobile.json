@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "pmc_dh_customThemeHome",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "6fda0002-76ee-4ce0-b388-c60271f49169"
+      } ]
+    }
+  },
+  "urlName" : "pmc-dh-customthemehome"
+}

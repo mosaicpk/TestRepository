@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Forecast Fact Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Forecast Fact Object</value>
+    </caseValues>
+    <fields>
+        <label><!-- Advanced Account Forecast Set Use --></label>
+        <name>Advanced_Account_Forecast_Set_Use__c</name>
+        <relationshipLabel><!-- Forecast Fact Object --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Forecast Set Id --></label>
+        <name>Forecast_Set_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matching Rec Details --></label>
+        <name>Matching_Rec_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>RelatedAccount__c</name>
+        <relationshipLabel><!-- Forecast Fact Object --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Use Unique Identifier --></label>
+        <name>Use_Unique_Identifier__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

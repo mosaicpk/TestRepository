@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Formato de importação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Formatos de importação</value>
+    </caseValues>
+    <fields>
+        <help>Marque a caixa de seleção para tornar o formato de entrada disponível para uso.</help>
+        <label><!-- Active --></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Digite um nome significativo que descreva o formato de entrada.</help>
+        <label><!-- Import Format Name --></label>
+        <name>SBQQ__ImportFormatName__c</name>
+    </fields>
+    <fields>
+        <help>Objeto de destino a ser importado.</help>
+        <label><!-- Target Object --></label>
+        <name>SBQQ__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation>Linha de cotação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Uma contagem das chaves exclusivas no formato de importação.</help>
+        <label># Chave única</label>
+        <name>SBQQ__UniqueKeyCount__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nº do formato de importação</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Mais de uma chave exclusiva definida na coluna de importação.</errorMessage>
+        <name>SBQQ__Num_Unique_Key_is_not_one</name>
+    </validationRules>
+</CustomObjectTranslation>

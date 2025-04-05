@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pull Request Review --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Pull Request Review --></value>
+    </caseValues>
+    <fields>
+        <label>Corpo</label>
+        <name>copado__Body__c</name>
+    </fields>
+    <fields>
+        <label>Solicitação de pull</label>
+        <name>copado__Pull_Request__c</name>
+        <relationshipLabel>Revisões de solicitações pull</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ação de revisão</label>
+        <name>copado__Review_Action__c</name>
+    </fields>
+    <fields>
+        <label>Revisão Id</label>
+        <name>copado__Review_Id__c</name>
+    </fields>
+    <fields>
+        <label>Link de URL</label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label>Url do avatar do usuário</label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label>Avatar do usuário</label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label>Nome de usuário</label>
+        <name>copado__Username__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Pull Request Review Name --></nameFieldLabel>
+</CustomObjectTranslation>

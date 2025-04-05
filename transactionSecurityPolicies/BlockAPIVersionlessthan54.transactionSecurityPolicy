@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>true</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <customEmailContent>&lt;p&gt;you&apos;re blocked from this action due to a previous API action, contact your system administrator&lt;/p&gt;&lt;p&gt;Policy ID-{{policy.Id}}&lt;/p&gt;&lt;p&gt;Event Name-{{policy.EventName}}&lt;/p&gt;&lt;p&gt;Policy Name-{{policy.MasterLabel}}&lt;/p&gt;&lt;p&gt;API Version-{{event.ApiVersion}}&lt;/p&gt;&lt;p&gt;Username-{{event.Username}}&lt;/p&gt;&lt;p&gt;Operation-{{event.Operation}}&lt;/p&gt;</customEmailContent>
+    <description>Blocking access to old API versions.</description>
+    <developerName>BlockAPIVersionlessthan54</developerName>
+    <eventName>ApiEvent</eventName>
+    <flow>PolicyCondition_WbdYGIvmSMGfuBNQuspw</flow>
+    <masterLabel>Block API Version less than 54</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

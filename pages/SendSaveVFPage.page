@@ -1,0 +1,50 @@
+<apex:page standardController="OrderItem" extensions="SendAndSaveSAPController">
+    <apex:form id="form">
+        <apex:pageMessages />
+        
+        <!-- Hidden Command Button -->
+        <apex:commandButton action="{!saveOPFromUI}" id="hiddenButton" style="display:none;" reRender="resultMessage, scriptPanel" />
+    </apex:form>
+
+    <!-- JavaScript to trigger the action automatically on page load -->
+    <script>
+        window.onload = function() {
+            document.getElementById('{!$Component.form.hiddenButton}').click();
+        };
+    </script>
+
+    <!-- Script Panel to Refresh JavaScript with Updated resultMessage -->
+    <apex:outputPanel id="scriptPanel">
+        <script>
+            var resultMessage = "{!JSENCODE(resultMessage)}";
+            var recordId = "{!OrderItem.Id}"; // Get the record ID from the OrderItem object
+
+            // If resultMessage is not empty, show toast
+            if (resultMessage && resultMessage.trim() !== "") {
+                ShowInfoToast(resultMessage, recordId);
+            }
+
+            function ShowInfoToast(message, recordId) {
+                if (typeof sforce !== "undefined" && sforce.one) {
+                    sforce.one.showToast({
+                        "title": "Info!",
+                        "message": message,
+                        "type": "info"
+                    });
+
+                    // Redirect back to the main screen after 2 seconds
+                    setTimeout(function() {
+                        sforce.one.navigateToURL('/lightning/r/OrderItem/' + recordId + '/view'); 
+                    }, 2000);
+                } else {
+                    alert("Info: " + message );
+
+                    // Redirect for Classic after 2 seconds
+                    setTimeout(function() {
+                        window.location.href = "/home/home.jsp";
+                    }, 2000);
+                }
+            }
+        </script>
+    </apex:outputPanel>
+</apex:page>

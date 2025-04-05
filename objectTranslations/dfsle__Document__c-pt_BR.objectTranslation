@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento de envelope da DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos de envelope da DocuSign</value>
+    </caseValues>
+    <fields>
+        <help><!-- Envelope --></help>
+        <label>Envelope DocuSign</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>Documentos de envelope DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label>Nome completo</label>
+        <name>dfsle__FullName__c</name>
+    </fields>
+    <fields>
+        <label>É substituição</label>
+        <name>dfsle__IsReplacement__c</name>
+    </fields>
+    <fields>
+        <help>Fonte Última modificação</help>
+        <label>Fonte Última modificação</label>
+        <name>dfsle__LastModified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Options --></label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label><!-- Read-only --></label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <help>Documento de substituição</help>
+        <label><!-- Replacement Document --></label>
+        <name>dfsle__Replacement__c</name>
+        <relationshipLabel><!-- Replacement Document --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Necessário</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <help>Tamanho do documento</help>
+        <label><!-- Document Size --></label>
+        <name>dfsle__Size__c</name>
+    </fields>
+    <fields>
+        <label>ID da fonte</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de documento</help>
+        <label><!-- Document Type --></label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation>Documento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File</masterLabel>
+            <translation>Arquivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation>Modelo</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

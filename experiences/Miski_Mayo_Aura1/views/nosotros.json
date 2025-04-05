@@ -1,0 +1,212 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "29bf0023-e2a6-4d1f-88b5-2d84bf95459b",
+  "label" : "Nosotros",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f0974b62-fe26-4cbe-b686-9790e1062b10",
+          "columns" : [ {
+            "UUID" : "731969e6-b815-415a-baa0-d9c3970f7d6a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f0974b62-fe26-4cbe-b686-9790e1062b10",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:miskiMayoGetToKnowUsCustomFirstCarouselWrapper",
+          "id" : "d94f99fe-4131-40d7-af93-3f826a962ea9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "731969e6-b815-415a-baa0-d9c3970f7d6a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "5ba0c526-f4e4-4a7c-9b56-b802a146771e",
+          "columns" : [ {
+            "UUID" : "35b9158d-3adb-4e71-a717-a1f54816e2e9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "01807f15-dea6-41b8-9fca-a624adbb212b",
+            "columnKey" : "0d911",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 192
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5ba0c526-f4e4-4a7c-9b56-b802a146771e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<ul><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Iniciamos nuestra operación un 10 de julio de 2010.</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Desde 2010 a la fecha, hemos aportado al Estado y la Comunidad en cumplimiento de nuestros compromisos contractuales más de 1,692.2 millones de soles.</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">En Miski Mayo contamos con más de 700 trabajadores y el 60% pertenece a nuestra zona de influencia directa en la provincia de Sechura y el 22% son provenientes de otras ciudades de la región, sumando un total de 82% de fuerza laboral perteneciente a la región Piura.</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Como Miski Mayo, somos la principal empresa aportante del Fondo Social del Proyecto Integral Bayóvar (FOSPIBAY), contribuyendo el 2024 con el 97.3% del fondo total.</span></li></ul><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3dc86d0a-ec91-455b-99ea-811752ff8781",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "35b9158d-3adb-4e71-a717-a1f54816e2e9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:miskiMayoGetToKnowUsCustomSecondCarouselWrapper",
+          "id" : "240bf941-1917-49de-a4c7-efd71ebcca30",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "01807f15-dea6-41b8-9fca-a624adbb212b",
+        "regionLabel" : "Column 2",
+        "regionName" : "0d911",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 63,
+        "sectionConfig" : {
+          "UUID" : "9951cc45-3b23-4d4b-bd93-75f9d73d9a98",
+          "columns" : [ {
+            "UUID" : "df86a6a9-cebc-4776-b83b-128afbc41982",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 110
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "9951cc45-3b23-4d4b-bd93-75f9d73d9a98",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 48px;\">Nuestra historia</span></h1><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8909bdc3-7e52-4ff3-be78-fd862f4e6468",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px; color: rgb(72, 72, 72);\">En Miski Mayo valoramos nuestro pasado y miramos el futuro con optimismo, porque sabemos que cada paso que damos es un peldaño más para alcanzar la excelencia. Cada hito que hemos vivido es una demostración del compromiso y trabajo en equipo, para hacer que las cosas sucedan.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "bcedeb3a-a2c9-4701-98f2-2c96ea67a154",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "df86a6a9-cebc-4776-b83b-128afbc41982",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "61a5e850-4a0d-41f2-a0a0-42c1bed7611d",
+          "columns" : [ {
+            "UUID" : "6a444d70-15c0-453a-95dd-11d518796650",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "61a5e850-4a0d-41f2-a0a0-42c1bed7611d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:miskiMayoGetToKnowUsCustomThirdCarousel",
+          "id" : "acaf23e4-d655-43f4-ac74-dec01fb7af19",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6a444d70-15c0-453a-95dd-11d518796650",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "911eabb2-8677-4040-8980-bb8811e1ea7d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nosotros"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "28ede7f2-4141-40be-a93a-33625a81240e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dd63dbc6-b5db-40b7-bc87-99dffacf0499",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nosotros"
+}

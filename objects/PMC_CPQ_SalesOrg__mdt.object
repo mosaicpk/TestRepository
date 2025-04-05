@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>PMC_CPQ_SalesOrgName__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Sales Org Name</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mosaic India Pvt Ltd</fullName>
+                    <default>false</default>
+                    <label>Mosaic India Pvt Ltd</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Global Sales LLC</fullName>
+                    <default>false</default>
+                    <label>Mosaic Global Sales LLC</label>
+                </value>
+                <value>
+                    <fullName>Mosaic CN Fertilizer</fullName>
+                    <default>false</default>
+                    <label>Mosaic CN Fertilizer</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fertilizer</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fertilizer</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Potash Carlsb</fullName>
+                    <default>false</default>
+                    <label>Mosaic Potash Carlsb</label>
+                </value>
+                <value>
+                    <fullName>Tampa Port Services</fullName>
+                    <default>false</default>
+                    <label>Tampa Port Services</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Ag Innov Sol</fullName>
+                    <default>false</default>
+                    <label>Mosaic Ag Innov Sol</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Sulphur Partner</fullName>
+                    <default>false</default>
+                    <label>Mosaic Sulphur Partner</label>
+                </value>
+                <value>
+                    <fullName>Domestic Sales Org CN</fullName>
+                    <default>false</default>
+                    <label>Domestic Sales Org CN</label>
+                </value>
+                <value>
+                    <fullName>Sales Org. 001</fullName>
+                    <default>false</default>
+                    <label>Sales Org. 001</label>
+                </value>
+                <value>
+                    <fullName>Mosaic CA Crop Nutri</fullName>
+                    <default>false</default>
+                    <label>Mosaic CA Crop Nutri</label>
+                </value>
+                <value>
+                    <fullName>Mosaic CA Colonsay</fullName>
+                    <default>false</default>
+                    <label>Mosaic CA Colonsay</label>
+                </value>
+                <value>
+                    <fullName>Mosaic CA Esterhazy</fullName>
+                    <default>false</default>
+                    <label>Mosaic CA Esterhazy</label>
+                </value>
+                <value>
+                    <fullName>Mosaic CA ULC (BP)</fullName>
+                    <default>false</default>
+                    <label>Mosaic CA ULC (BP)</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fertilizantes do B</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert Brasil</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fert Paraguay</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert Paraguay</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fert QMF</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert QMF</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fert YMF</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert YMF</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fert BMF</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert BMF</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Potássio Mine</fullName>
+                    <default>false</default>
+                    <label>Mosaic Potássio Mine</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fert P&amp;K</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert P&amp;K</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fert Bahamas</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fert Bahamas</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Fertilizers (HK)</fullName>
+                    <default>false</default>
+                    <label>Mosaic Fertilizers (HK)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SalesOrgNumber__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Sales Org Number</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>6000</fullName>
+                    <default>false</default>
+                    <label>6000</label>
+                </value>
+                <value>
+                    <fullName>6001</fullName>
+                    <default>false</default>
+                    <label>6001</label>
+                </value>
+                <value>
+                    <fullName>1002</fullName>
+                    <default>false</default>
+                    <label>1002</label>
+                </value>
+                <value>
+                    <fullName>1003</fullName>
+                    <default>false</default>
+                    <label>1003</label>
+                </value>
+                <value>
+                    <fullName>1004</fullName>
+                    <default>false</default>
+                    <label>1004</label>
+                </value>
+                <value>
+                    <fullName>1005</fullName>
+                    <default>false</default>
+                    <label>1005</label>
+                </value>
+                <value>
+                    <fullName>1025</fullName>
+                    <default>false</default>
+                    <label>1025</label>
+                </value>
+                <value>
+                    <fullName>1026</fullName>
+                    <default>false</default>
+                    <label>1026</label>
+                </value>
+                <value>
+                    <fullName>1030</fullName>
+                    <default>false</default>
+                    <label>1030</label>
+                </value>
+                <value>
+                    <fullName>2000</fullName>
+                    <default>false</default>
+                    <label>2000</label>
+                </value>
+                <value>
+                    <fullName>2001</fullName>
+                    <default>false</default>
+                    <label>2001</label>
+                </value>
+                <value>
+                    <fullName>2002</fullName>
+                    <default>false</default>
+                    <label>2002</label>
+                </value>
+                <value>
+                    <fullName>2003</fullName>
+                    <default>false</default>
+                    <label>2003</label>
+                </value>
+                <value>
+                    <fullName>4600</fullName>
+                    <default>false</default>
+                    <label>4600</label>
+                </value>
+                <value>
+                    <fullName>4620</fullName>
+                    <default>false</default>
+                    <label>4620</label>
+                </value>
+                <value>
+                    <fullName>4000</fullName>
+                    <default>false</default>
+                    <label>4000</label>
+                </value>
+                <value>
+                    <fullName>4001</fullName>
+                    <default>false</default>
+                    <label>4001</label>
+                </value>
+                <value>
+                    <fullName>4004</fullName>
+                    <default>false</default>
+                    <label>4004</label>
+                </value>
+                <value>
+                    <fullName>4005</fullName>
+                    <default>false</default>
+                    <label>4005</label>
+                </value>
+                <value>
+                    <fullName>4680</fullName>
+                    <default>false</default>
+                    <label>4680</label>
+                </value>
+                <value>
+                    <fullName>6002</fullName>
+                    <default>false</default>
+                    <label>6002</label>
+                </value>
+                <value>
+                    <fullName>6400</fullName>
+                    <default>false</default>
+                    <label>6400</label>
+                </value>
+                <value>
+                    <fullName>6500</fullName>
+                    <default>false</default>
+                    <label>6500</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Sales Org Metadata</label>
+    <listViews>
+        <fullName>All_View</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>PMC_CPQ_SalesOrgName__c</columns>
+        <columns>PMC_CPQ_SalesOrgNumber__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All View</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Sales Org Metadata</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

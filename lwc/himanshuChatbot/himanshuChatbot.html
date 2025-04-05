@@ -1,0 +1,96 @@
+<template>
+
+    <div class="ChatWindow">
+
+        <div class="ChatItem ChatItem--customer">
+            <div class="ChatItem-meta">
+                <div class="ChatItem-avatar">
+                    <!-- <img class="ChatItem-avatarImage" src="" alt="avatarrobot"> -->
+                    <lightning-icon icon-name='standard:bot' alternative-text='bot' size='small'
+                        title='bot'></lightning-icon>
+                </div>
+            </div>
+            <div class="ChatItem-chatContent">
+                <div class="ChatItem-chatText">Hey...</div>
+            </div>
+        </div>
+
+        <div class="ChatItem ChatItem--expert">
+            <div class="ChatItem-meta">
+                <div class="ChatItem-avatar">
+                    <lightning-icon icon-name='standard:user' alternative-text='user' size='small'
+                        title='user'></lightning-icon>
+                </div>
+            </div>
+            <div class="ChatItem-chatContent">
+                <div class="ChatItem-chatText">hey there!</div>
+            </div>
+        </div>
+
+        <div class="ChatItem ChatItem--customer">
+            <div class="ChatItem-meta">
+                <div class="ChatItem-avatar">
+                    <lightning-icon icon-name='standard:bot' alternative-text='bot' size='small'
+                        title='bot'></lightning-icon>
+                </div>
+            </div>
+            <div class="ChatItem-chatContent">
+                <div class="ChatItem-chatText">Voice API Not Working</div>
+            </div>
+        </div>
+
+        <div class="ChatItem ChatItem--customer">
+            <div class="ChatItem-meta">
+                <div class="ChatItem-avatar">
+                    <lightning-icon icon-name='standard:bot' alternative-text='bot' size='small'
+                        title='bot'></lightning-icon>
+                </div>
+            </div>
+            <div class="ChatItem-chatContent">
+                <div class="ChatItem-chatText">i think the server is down.</div>
+            </div>
+        </div>
+
+        <div class="ChatItem ChatItem--expert">
+            <div class="ChatItem-meta">
+                <div class="ChatItem-avatar">
+                    <lightning-icon icon-name='standard:user' alternative-text='user' size='small'
+                        title='user'></lightning-icon>
+                </div>
+            </div>
+            <div class="ChatItem-chatContent">
+                <div class="ChatItem-chatText">no worries!</div>
+            </div>
+        </div>
+
+        <div class="ChatInput">
+
+
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_10-of-12">
+                    <lightning-textarea contenteditable="true" class="ChatInput-input"
+                        placeholder="Type your message here..." onkeyup={handleKeyUp}></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-12 slds-align_absolute-center">
+                    <template if:false={isRecording}>
+                        <lightning-icon icon-name='utility:record' alternative-text='record'
+                            size='small' title='record' onclick={recordIconClickHandler}></lightning-icon>
+                    </template>
+                    <template if:true={isRecording}>
+                        <lightning-icon class="glowEffect" icon-name='utility:stop' alternative-text='stop'
+                            size='small' title='stop' onclick={stopIconClickHandler}></lightning-icon>
+                    </template>
+                </div>
+                <div class="slds-col slds-size_1-of-12 slds-align_absolute-center">
+                    <lightning-icon class="slds-align_absolute-center" icon-name='utility:send' alternative-text='send' size='small' title='send'
+                        onclick={sendClickHandler}></lightning-icon>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+</template>

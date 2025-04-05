@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d2ca6940-f121-42fe-9491-2f32adaa8845",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "Assessment_Task_Order_Detail__c",
+  "id" : "d8b81473-90dc-4558-84f6-8b673c08aaa3",
+  "label" : "Assessment Task Order Detail",
+  "routeType" : "detail-0es",
+  "type" : "route",
+  "urlPrefix" : "assessmenttaskorder"
+}

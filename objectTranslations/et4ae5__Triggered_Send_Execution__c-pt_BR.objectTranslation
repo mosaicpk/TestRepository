@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Execução de envio acionado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Execuções de envio acionado</value>
+    </caseValues>
+    <fields>
+        <label>ID da unidade de negócios</label>
+        <name>et4ae5__Business_Unit_ID__c</name>
+    </fields>
+    <fields>
+        <label>Do Nome</label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>et4ae5__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecipientId --></label>
+        <name>et4ae5__RecipientId__c</name>
+    </fields>
+    <fields>
+        <label>Contagem de tentativas</label>
+        <name>et4ae5__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>Data/hora programada</label>
+        <name>et4ae5__Scheduled_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>et4ae5__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Concluído</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requeued</masterLabel>
+            <translation>Requisitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Triggered Send --></label>
+        <lookupFilter>
+            <errorMessage>O Trggered Send deve estar ativo para ser selecionado.</errorMessage>
+        </lookupFilter>
+        <name>et4ae5__Triggered_Send__c</name>
+        <relationshipLabel>Execuções de envio acionadas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objeto de acionamento</label>
+        <name>et4ae5__Triggering_Object__c</name>
+    </fields>
+    <fields>
+        <label>Acionando o ID do registro</label>
+        <name>et4ae5__Triggering_Record_Id__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da execução de envio acionado</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Product Entitlement Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Product Entitlement Rule --></value>
+    </caseValues>
+    <fields>
+        <label>Registro de erros</label>
+        <name>Error_Log__c</name>
+    </fields>
+    <fields>
+        <label>Conta Nome do produto</label>
+        <name>PMC_DH_AccountProductName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>PMC_DH_ProductFamily__c</name>
+        <picklistValues>
+            <masterLabel>BLENDS</masterLabel>
+            <translation><!-- BLENDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MICRONUTRIENTS</masterLabel>
+            <translation><!-- MICRONUTRIENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nitrogen</masterLabel>
+            <translation>Nitrog&amp;#234;nio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Produto</label>
+        <name>PMC_DH_Product__c</name>
+        <relationshipLabel>Regra de direito ao produto</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vendido para conta</label>
+        <name>PMC_DH_SoldToAccount__c</name>
+        <relationshipLabel>Regra de direito ao produto</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>PMC_DH_Type__c</name>
+        <picklistValues>
+            <masterLabel>ENABLED</masterLabel>
+            <translation>ATIVADO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESTRICTED</masterLabel>
+            <translation>RESTRITO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Esta ativo</label>
+        <name>PMC_DH_isActive__c</name>
+    </fields>
+    <fields>
+        <label>Foi Processado</label>
+        <name>PMC_DH_isProcessed__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Entitlement Rule --></nameFieldLabel>
+</CustomObjectTranslation>

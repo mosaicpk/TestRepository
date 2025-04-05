@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Documents",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "pageTitle" : "Documentos"
+        },
+        "id" : "10383aa7-c7a4-4ce8-9886-4ed87da16743"
+      } ]
+    }
+  },
+  "urlName" : "documents"
+}

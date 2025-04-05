@@ -1,0 +1,28 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://*.sandbox.vf.force.com",
+      "sourceName" : "CommTrustedSite1"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.content.force.com",
+      "sourceName" : "cms"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.googletagmanager.com",
+      "sourceName" : "*.googletagmanager.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.image.mkt.mosaicco.com",
+      "sourceName" : "image_mkt_mosaicco"
+    }, {
+      "isActive" : true,
+      "source" : "https://image.mkt.mosaicco.com/lib/fe32117371640474751173/m/1/ce50559b-ccdd-4c3b-9120-5c0abe79f5c9.png",
+      "sourceName" : "image_mkt_mosaicco_2"
+    } ]
+  },
+  "urlName" : "trustedsites"
+}

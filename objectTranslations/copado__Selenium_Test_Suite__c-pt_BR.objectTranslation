@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Test Suite --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Test Suite --></value>
+    </caseValues>
+    <fields>
+        <help>Código Apex opcional a ser executado após a execução desse conjunto de testes. Você pode usar a variável {!NS} para ser substituída pelo Namespace do ambiente em execução.</help>
+        <label>Código Apex após o teste</label>
+        <name>copado__Apex_code_after_test__c</name>
+    </fields>
+    <fields>
+        <help>Código Apex opcional a ser executado antes de executar esse conjunto de testes.  Ele pode ser usado para limpar ou criar dados. Você pode usar a variável {!NS} para ser substituída pelo Namespace do ambiente em execução.</help>
+        <label>Código Apex antes do teste</label>
+        <name>copado__Apex_code_before_test__c</name>
+    </fields>
+    <fields>
+        <label>Notas</label>
+        <name>copado__Notes__c</name>
+    </fields>
+    <fields>
+        <help>Essa pesquisa está relacionada aos scripts de teste do Copado Change Management que estão relacionados às User Stories.</help>
+        <label>Script de teste</label>
+        <name>copado__Test_Script__c</name>
+        <relationshipLabel>Suítes de teste Selenium</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Selenium Test Suite Name --></nameFieldLabel>
+    <webLinks>
+        <label>Adicionar / remover cases de teste</label>
+        <name>copado__Add_Remove_Test_Cases</name>
+    </webLinks>
+    <webLinks>
+        <label>Adicionar seleção a um grupo de teste</label>
+        <name>copado__Add_Selection_to_a_Test_Group</name>
+    </webLinks>
+    <webLinks>
+        <label>execução rápida</label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+</CustomObjectTranslation>

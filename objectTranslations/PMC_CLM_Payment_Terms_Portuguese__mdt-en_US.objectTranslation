@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMC CLM Payment Term Portuguese</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMC CLM Payment Terms Portuguese</value>
+    </caseValues>
+    <fields>
+        <label><!-- Payment Terms Translation --></label>
+        <name>PMC_CLM_Payment_Terms_Translation__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

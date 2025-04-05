@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata is used to bypass trigger operations.</description>
+    <fields>
+        <fullName>PMC_AfterDelete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>After Delete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_AfterInsert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>After Insert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_AfterUndelete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>After Undelete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_AfterUpdate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>After Update</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_BeforeDelete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Before Delete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_BeforeInsert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Before Insert</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_BeforeUpdate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Before Update</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>PMC Trigger Switches</label>
+    <pluralLabel>PMC Trigger Switches</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

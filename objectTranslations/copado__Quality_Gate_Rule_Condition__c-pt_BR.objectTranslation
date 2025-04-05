@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Quality Gate Rule Condition --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Quality Gate Rule Condition --></value>
+    </caseValues>
+    <fields>
+        <help>Requisitos e limites que devem ser atendidos para passar com êxito por essa porta de qualidade</help>
+        <label>Critérios de aceitação</label>
+        <name>copado__AcceptanceCriteria__c</name>
+    </fields>
+    <fields>
+        <label>Ações do Copado</label>
+        <name>copado__Actions__c</name>
+    </fields>
+    <fields>
+        <help>Ambiente em que essa Condição do Portão de Qualidade será avaliada. Se nenhum pipeline for definido, essa condição se aplicará a todos os pipelines aos quais esse ambiente estiver conectado.</help>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Condições da regra do Quality Gate</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sequência de execução</label>
+        <name>copado__ExecutionSequence__c</name>
+    </fields>
+    <fields>
+        <label>Configuração de extensão</label>
+        <name>copado__Extension_Configuration__c</name>
+        <relationshipLabel>Condições da regra do Quality Gate</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Defina um critério de filtro para avaliar a condição somente quando os arquivos especificados estiverem presentes no Copado Action configurado</help>
+        <label>Critérios de filtro</label>
+        <name>copado__Filter_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Pipeline onde essa Condição do Quality Gate será avaliada.</help>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel>Condições da regra do Quality Gate</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Regra do Quality Gate</label>
+        <name>copado__Quality_Gate_Rule__c</name>
+        <relationshipLabel>Condições da regra do Quality Gate</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Etapa em que essa Condição do Quality Gate será avaliada. Se nenhum pipeline for definido, essa condição se aplicará a todos os pipelines aos quais esse estágio estiver conectado.</help>
+        <label>Estágio</label>
+        <name>copado__Stage__c</name>
+        <relationshipLabel>Condições da regra do Quality Gate</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+    </fields>
+    <fields>
+        <help>Selecione de onde são recuperados os testes a serem executados como parte do Quality Gate.</help>
+        <label>Testes de</label>
+        <name>copado__Tests_From__c</name>
+        <picklistValues>
+            <masterLabel>Application</masterLabel>
+            <translation>Aplicativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature</masterLabel>
+            <translation>Recurso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Story</masterLabel>
+            <translation>História do usuário</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ferramenta</label>
+        <name>copado__Tool__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Quality Gate Rule Condition Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>A plataforma selecionada não corresponde ao valor da plataforma do ambiente ou do pipeline escolhido.</errorMessage>
+        <name>copado__ConsistentPlatform</name>
+    </validationRules>
+</CustomObjectTranslation>

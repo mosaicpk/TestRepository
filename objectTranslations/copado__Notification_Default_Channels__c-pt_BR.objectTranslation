@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Notification Default Channels --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Notification Default Channels --></value>
+    </caseValues>
+    <fields>
+        <label>Canais</label>
+        <name>copado__Channels__c</name>
+    </fields>
+    <fields>
+        <label>Receptor</label>
+        <name>copado__Receiver__c</name>
+        <relationshipLabel>Canais padrão de notificação</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

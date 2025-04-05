@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Function --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Function --></value>
+    </caseValues>
+    <fields>
+        <help>Forneça um nome de API exclusivo.</help>
+        <label>Nome da API</label>
+        <name>copado__API_Name__c</name>
+    </fields>
+    <fields>
+        <help>Nome da classe Apex. A classe deve implementar a interface MCCallBack.</help>
+        <label><!-- ApexClass --></label>
+        <name>copado__ApexClass__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de retorno de chamada selecionado para a função.</help>
+        <label>Tipo de retorno de chamada</label>
+        <name>copado__Callback_Type__c</name>
+        <picklistValues>
+            <masterLabel>ApexClass</masterLabel>
+            <translation><!-- ApexClass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation>Fluxo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Descrição da função.</help>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <help>Formato do manipulador: FlowAPIName</help>
+        <label><!-- FlowHandler --></label>
+        <name>copado__FlowHandler__c</name>
+    </fields>
+    <fields>
+        <help>Nome da imagem da janela de encaixe fornecida pelo Copado. Consulte nosso site de documentação para encontrar todas as imagens disponíveis.</help>
+        <label>Nome da imagem</label>
+        <name>copado__Image_Name__c</name>
+    </fields>
+    <fields>
+        <help>Defina o maxVolume e o volumeTTL a serem usados para executar uma função autônoma com essas configurações.</help>
+        <label>Opções</label>
+        <name>copado__Options__c</name>
+    </fields>
+    <fields>
+        <help>Isso é usado para validar se todos os parâmetros necessários estão definidos antes de chamar a execução.</help>
+        <label>Parâmetros</label>
+        <name>copado__Parameters__c</name>
+    </fields>
+    <fields>
+        <help>Forneça ao script os comandos que você gostaria que a função executasse.</help>
+        <label><!-- Script --></label>
+        <name>copado__Script__c</name>
+    </fields>
+    <fields>
+        <help>O número de minutos após os quais a função será concluída automaticamente e falhará se não for concluída antes do tempo limite fornecido.</help>
+        <label>Tempo limite</label>
+        <name>copado__Timeout__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de função do Copado.</help>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Padrão</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Versão da função.</help>
+        <label>Versão</label>
+        <name>copado__Version__c</name>
+    </fields>
+    <fields>
+        <help>Campo da lista de opções que define o tamanho do trabalhador. As opções disponíveis são S, M, L e XL.</help>
+        <label>Tamanho do trabalhador</label>
+        <name>copado__Worker_Size__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL</masterLabel>
+            <translation><!-- XL --></translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Function Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>O nome da API só pode conter caracteres alfanuméricos e deve começar com uma letra</errorMessage>
+        <name>copado__Function_Name_must_Be_Alpha_Numeric</name>
+    </validationRules>
+</CustomObjectTranslation>

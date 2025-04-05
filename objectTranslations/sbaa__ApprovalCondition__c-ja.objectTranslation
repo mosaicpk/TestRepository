@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>承認条件</value>
+    </caseValues>
+    <fields>
+        <help>この条件が適用されるルール。</help>
+        <label><!-- Approval Rule --></label>
+        <name>sbaa__ApprovalRule__c</name>
+        <relationshipLabel><!-- Approval Conditions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>この承認条件のスマート承認を有効にします。承認スナップショットに変更がなければ、条件は起動されません。</help>
+        <label><!-- Enable Smart Approval --></label>
+        <name>sbaa__EnableSmartApproval__c</name>
+    </fields>
+    <fields>
+        <help>テスト対象項目/変数を評価する基準となる項目</help>
+        <label><!-- Filter Field --></label>
+        <name>sbaa__FilterField__c</name>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation>名前</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_Account_Payment_Terms__c</masterLabel>
+            <translation><!-- PMC_CPQ_Account_Payment_Terms__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRCommodityDiscountLevel1__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRCommodityDiscountLevel1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRCommodityDiscountLevel2__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRCommodityDiscountLevel2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRCommodityDiscountLevel3__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRCommodityDiscountLevel3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRPerformanceDiscountLevel1__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRPerformanceDiscountLevel1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRPerformanceDiscountLevel2__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRPerformanceDiscountLevel2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRPerformanceDiscountLevel3__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRPerformanceDiscountLevel3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BelowFloorHighFloor__c</masterLabel>
+            <translation><!-- PMC_CPQ_BelowFloorHighFloor__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BelowFloorLowFloor__c</masterLabel>
+            <translation><!-- PMC_CPQ_BelowFloorLowFloor__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PaymentTermsApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_PaymentTermsApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PermittedQuantity__c</masterLabel>
+            <translation><!-- PMC_CPQ_PermittedQuantity__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>テスト対象項目/変数の評価時に使用される条件の種別</help>
+        <label><!-- Filter Type --></label>
+        <name>sbaa__FilterType__c</name>
+        <picklistValues>
+            <masterLabel>Field</masterLabel>
+            <translation>項目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation>値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation>変数</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>テスト対象項目/変数を評価する基準となる静的値</help>
+        <label><!-- Filter Value --></label>
+        <name>sbaa__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help>テスト対象項目/変数を評価する基準となる承認変数</help>
+        <label><!-- Filter Variable --></label>
+        <name>sbaa__FilterVariable__c</name>
+        <relationshipLabel><!-- Approval Condition (Filter Variable) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>この条件を承認ルールの詳細条件で参照するために一意の数値を割り当てます。</help>
+        <label><!-- Index --></label>
+        <name>sbaa__Index__c</name>
+    </fields>
+    <fields>
+        <help>評価に使用する演算子</help>
+        <label><!-- Operator --></label>
+        <name>sbaa__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>次の文字列を含む</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>does not contain</masterLabel>
+            <translation>次の文字列を含まない</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>次の文字列で終わる</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>次の文字列と一致する</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>＞＝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>＞</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>＜＝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>＜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>次の文字列と一致しない</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>次の文字列で始まる</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>条件を評価するときにテストされる項目</help>
+        <label><!-- Tested Field --></label>
+        <name>sbaa__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation>金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ApprovalStatus__c</masterLabel>
+            <translation><!-- ApprovalStatus__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation>名前</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_AmendmentApprovalBackend__c</masterLabel>
+            <translation><!-- PMC_CPQ_AmendmentApprovalBackend__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_ApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ApprovalType__c</masterLabel>
+            <translation><!-- PMC_CPQ_ApprovalType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BelowFloorHighNUP__c</masterLabel>
+            <translation><!-- PMC_CPQ_BelowFloorHighNUP__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BelowFloorHighVolume__c</masterLabel>
+            <translation><!-- PMC_CPQ_BelowFloorHighVolume__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BelowFloorLowNUP__c</masterLabel>
+            <translation><!-- PMC_CPQ_BelowFloorLowNUP__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BelowFloorLowVolume__c</masterLabel>
+            <translation><!-- PMC_CPQ_BelowFloorLowVolume__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BetweenTCHighNUP__c</masterLabel>
+            <translation><!-- PMC_CPQ_BetweenTCHighNUP__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BetweenTCHighVolume__c</masterLabel>
+            <translation><!-- PMC_CPQ_BetweenTCHighVolume__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BetweenTFHighNUP__c</masterLabel>
+            <translation><!-- PMC_CPQ_BetweenTFHighNUP__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BetweenTFHighVolume__c</masterLabel>
+            <translation><!-- PMC_CPQ_BetweenTFHighVolume__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BetweenTFLowNUP__c</masterLabel>
+            <translation><!-- PMC_CPQ_BetweenTFLowNUP__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BetweenTFLowVolume__c</masterLabel>
+            <translation><!-- PMC_CPQ_BetweenTFLowVolume__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_DeltaToListPrice__c</masterLabel>
+            <translation><!-- PMC_CPQ_DeltaToListPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_FirstQuoteLineShipToState__c</masterLabel>
+            <translation><!-- PMC_CPQ_FirstQuoteLineShipToState__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_IsKAM__c</masterLabel>
+            <translation><!-- PMC_CPQ_IsKAM__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_MaterialGroup__c</masterLabel>
+            <translation><!-- PMC_CPQ_MaterialGroup__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_Material_Group__c</masterLabel>
+            <translation><!-- PMC_CPQ_Material_Group__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PaymentTermsApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_PaymentTermsApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PriceValidityDiffrence__c</masterLabel>
+            <translation><!-- PMC_CPQ_PriceValidityDiffrence__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductGroup__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductGroup__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductSegment__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductSegment__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductType__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_QuoteRecordSubType__c</masterLabel>
+            <translation><!-- PMC_CPQ_QuoteRecordSubType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_Region__c</masterLabel>
+            <translation><!-- PMC_CPQ_Region__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ReplacementMargin__c</masterLabel>
+            <translation><!-- PMC_CPQ_ReplacementMargin__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_RequestedExpirationDateNumber__c</masterLabel>
+            <translation><!-- PMC_CPQ_RequestedExpirationDateNumber__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SalesAreaCombination__c</masterLabel>
+            <translation><!-- PMC_CPQ_SalesAreaCombination__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SalesOffice__c</masterLabel>
+            <translation><!-- PMC_CPQ_SalesOffice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SalesOrg__c</masterLabel>
+            <translation><!-- PMC_CPQ_SalesOrg__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_InvoiceDifference__c</masterLabel>
+            <translation><!-- PMC_SS_InvoiceDifference__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_OriginalInvoiceAmount__c</masterLabel>
+            <translation><!-- PMC_SS_OriginalInvoiceAmount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probability</masterLabel>
+            <translation>確度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__PaymentTerms__c</masterLabel>
+            <translation><!-- SBQQ__PaymentTerms__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quantity__c</masterLabel>
+            <translation><!-- SBQQ__Quantity__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>条件を評価するときにテストされる承認変数</help>
+        <label><!-- Tested Variable --></label>
+        <name>sbaa__TestedVariable__c</name>
+        <relationshipLabel><!-- Approval Condition (Tested Variable) --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>条件名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You may specify only one type of filter and it must match Filter Type. --></errorMessage>
+        <name>sbaa__Filter_Type_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a value for either Tested Field or Tested Variable. --></errorMessage>
+        <name>sbaa__Tested_Target_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

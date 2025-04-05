@@ -1,0 +1,74 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "629e146d-c534-421c-8171-0bc7af30ed40",
+  "label" : "Account Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b8860baa-f6db-4bac-8e8a-797f6564b5f1\",\"columns\":[{\"UUID\":\"434f8cde-0f7a-4405-94a0-79de7319f5a5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b8860baa-f6db-4bac-8e8a-797f6564b5f1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:pmc_dh_customTabs",
+          "id" : "f547736c-32d0-4016-9391-3a6f53e6c433",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "b2c_lite_commerce:myAccountPassword",
+          "id" : "8342af6f-5a99-4de2-8ac1-0ed6247101c2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "b2c_lite_commerce:myAccountPassword",
+          "id" : "15ca32b4-e836-463d-bb12-f74ff56e3530",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "434f8cde-0f7a-4405-94a0-79de7319f5a5",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "686759bf-6a3c-428b-9ff9-d45808b8135d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "My Accounts",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "9d3e3ce4-3117-4339-9b48-1bc29cbc0771",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d54738c-c848-4cc3-8e43-ab563f2fcd1a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "i3DTHcXvJ3PM5q01ztdIKqLYYPGXms",
+  "type" : "view",
+  "viewType" : "custom-account-detail"
+}

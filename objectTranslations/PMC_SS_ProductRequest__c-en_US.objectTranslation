@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Blend % --></label>
+        <name>PMC_SS_Blend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>PMC_SS_Case__c</name>
+        <relationshipLabel><!-- Product Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>PMC_SS_Product__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Approval Variable --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Approval Variable --></value>
+    </caseValues>
+    <fields>
+        <help>Campo sobre el que actúa la función de agregado.</help>
+        <label>Campo de agregados</label>
+        <name>sbaa__AggregateField__c</name>
+        <picklistValues>
+            <masterLabel>Effective Quantity</masterLabel>
+            <translation>Cantidad efectiva</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Total__c</masterLabel>
+            <translation><!-- List_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ApprovalReq__c</masterLabel>
+            <translation><!-- PMC_CPQ_ApprovalReq__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_ApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRVolumeApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRVolumeApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ConvDiscountMarkup__c</masterLabel>
+            <translation><!-- PMC_CPQ_ConvDiscountMarkup__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_MaterialGroup__c</masterLabel>
+            <translation><!-- PMC_CPQ_MaterialGroup__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PaymentTermsApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_PaymentTermsApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PermittedQuantity__c</masterLabel>
+            <translation><!-- PMC_CPQ_PermittedQuantity__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductTypes__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductTypes__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation>Cantidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quantity__c</masterLabel>
+            <translation><!-- SBQQ__Quantity__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtotal</masterLabel>
+            <translation><!-- Subtotal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thresold__c</masterLabel>
+            <translation><!-- Thresold__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Price</masterLabel>
+            <translation>Precio total</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Función agregada utilizada para calcular esta variable.</help>
+        <label>Función agregada</label>
+        <name>sbaa__AggregateFunction__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation>Medio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Count</masterLabel>
+            <translation>Recuento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Max</masterLabel>
+            <translation><!-- Max --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Min</masterLabel>
+            <translation><!-- Min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sum</masterLabel>
+            <translation>Suma</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Otra variable de aprobación para componer con esta variable de aprobación si su condición se basa en ambos resultados.</help>
+        <label>Combinar con</label>
+        <name>sbaa__CombineWith__c</name>
+        <relationshipLabel>Variables de aprobación (Combinar con)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione el campo que se utilizará para filtrar los elementos que se incluirán en esta variable de aprobación.</help>
+        <label>Campo de filtro</label>
+        <name>sbaa__FilterField__c</name>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ApprovalReq__c</masterLabel>
+            <translation><!-- PMC_CPQ_ApprovalReq__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_ApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_BRVolumeApprovalRequired__c</masterLabel>
+            <translation><!-- PMC_CPQ_BRVolumeApprovalRequired__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ConvDiscountMarkup__c</masterLabel>
+            <translation><!-- PMC_CPQ_ConvDiscountMarkup__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_MaterialGroup__c</masterLabel>
+            <translation><!-- PMC_CPQ_MaterialGroup__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductType__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductTypes__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductTypes__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_QuoteRecordSubType__c</masterLabel>
+            <translation><!-- PMC_CPQ_QuoteRecordSubType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation>Familia de productos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Code__c</masterLabel>
+            <translation><!-- Product_Code__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca el valor que debe coincidir en este filtro.</help>
+        <label>Valor de filtro</label>
+        <name>sbaa__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help>Variable de aprobación responsable del cálculo de la lista total</help>
+        <label>Variable de lista</label>
+        <name>sbaa__ListVariable__c</name>
+        <relationshipLabel>Variables de aprobación (Variable de lista)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Variables de aprobación responsable del cálculo del Total Neto</help>
+        <label>Variable neta</label>
+        <name>sbaa__NetVariable__c</name>
+        <relationshipLabel>Variables de aprobación (Variable neta)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Elija el operador que desea utilizar en su filtro.</help>
+        <label>Operador</label>
+        <name>sbaa__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>contiene</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>termina con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>mayor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>superior a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>no es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>comienza con</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione el objeto que desea agregar.</help>
+        <label>Objeto de destino</label>
+        <name>sbaa__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Approval_Rule_POC__mdt</masterLabel>
+            <translation><!-- Approval_Rule_POC__mdt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Product</masterLabel>
+            <translation>Producto de oportunidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order_Line_Approval__c</masterLabel>
+            <translation><!-- Order_Line_Approval__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__QuoteLine__c</masterLabel>
+            <translation><!-- SBQQ__QuoteLine__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quote__c</masterLabel>
+            <translation><!-- SBQQ__Quote__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Cuando se selecciona Descuento, se deben rellenar Variable de lista y Variable neta. Cuando se elige Resumen, se deben rellenar el Campo Agregado y la Función Agregada.&quot;</help>
+        <label>Tipo</label>
+        <name>sbaa__Type__c</name>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation>Descuento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation>Resumen</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Variable Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Los valores de Variable de lista y Variable neta son necesarios para Variables de descuento</errorMessage>
+        <name>sbaa__Discount_Variable_Required_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Los valores del campo agregado y de la función agregada son necesarios para las variables de resumen.</errorMessage>
+        <name>sbaa__Summary_Variable_Required_Fields</name>
+    </validationRules>
+</CustomObjectTranslation>

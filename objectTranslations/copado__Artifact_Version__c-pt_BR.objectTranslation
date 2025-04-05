@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Package Version --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Package Version --></value>
+    </caseValues>
+    <fields>
+        <label>Pacote</label>
+        <name>copado__Artifact__c</name>
+        <relationshipLabel>Versões de pacotes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>O ramo da versão do pacote. O conteúdo da versão do pacote é armazenado nessa ramificação no repositório fornecido. Você pode acessar as informações do seu repositório no registro do artefato principal.</help>
+        <label>Ramo</label>
+        <name>copado__Branch__c</name>
+    </fields>
+    <fields>
+        <label>Dados JSON</label>
+        <name>copado__Data_JSON__c</name>
+    </fields>
+    <fields>
+        <label>Arquivo de definição</label>
+        <name>copado__DefinitionFile__c</name>
+    </fields>
+    <fields>
+        <help>As versões de pacotes estão sendo criadas como beta e você pode promovê-las para serem lançadas. Quando uma versão for lançada, essa caixa de seleção será marcada.</help>
+        <label>É liberado</label>
+        <name>copado__Is_released__c</name>
+    </fields>
+    <fields>
+        <label>Id de execução do último trabalho</label>
+        <name>copado__LastJobExecutionId__c</name>
+    </fields>
+    <fields>
+        <help>O ID da versão do pacote é usado para especificar a ascendência entre as versões do pacote e para promover uma versão do pacote.</help>
+        <label>ID da versão do pacote</label>
+        <name>copado__Package_Version_Id__c</name>
+    </fields>
+    <fields>
+        <help>Use essa URL para instalar esse pacote em um ambiente de produção.</help>
+        <label>URL de instalação de produção</label>
+        <name>copado__Production_Installation_URL__c</name>
+    </fields>
+    <fields>
+        <label>Status de liberação</label>
+        <name>copado__Release_Status__c</name>
+    </fields>
+    <fields>
+        <label>Liberação</label>
+        <name>copado__Release__c</name>
+        <relationshipLabel>Versões de pacotes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Use essa URL para instalar esse pacote em um ambiente sandbox.</help>
+        <label>URL de instalação da sandbox</label>
+        <name>copado__Sandbox_Installation_URL__c</name>
+    </fields>
+    <fields>
+        <help>Draft indica que um registro de espaço reservado foi criado.
+
+Pre-Release indica uma versão de pacote que foi gerada, mas ainda não foi promovida ou não está pronta para lançamento. 
+
+Uma versão de pacote com status Published (Publicado) indica que ela pode ser lançada ou implantada na produção. 
+
+Deprecated destaca uma versão de pacote que foi excluída e não está mais disponível para uso.
+
+Open, Locked e Cancelled são usados para pacotes relacionados a pacotes de histórias de usuário.</help>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deprecated</masterLabel>
+            <translation>Depreciado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locked</masterLabel>
+            <translation>Bloqueado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Aberto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Release</masterLabel>
+            <translation>Pré-lançamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published</masterLabel>
+            <translation>Publicado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Para instalar um pacote em um ambiente do Salesforce, a URL de instalação requer um ID de assinante. Consulte os URLs de instalação.</help>
+        <label>ID da versão do assinante</label>
+        <name>copado__Subscriber_Version_Id__c</name>
+    </fields>
+    <fields>
+        <help>A etiqueta da versão do pacote. O conteúdo da versão do pacote é armazenado nessa tag no repositório fornecido. As tags são criadas para cada número de versão. Versões com o mesmo número de versão podem se sobrepor umas às outras. Tente manter seus números de versão exclusivos.</help>
+        <label>Etiqueta</label>
+        <name>copado__Tag__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Versões do pacote</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A descrição da versão do pacote</help>
+        <label>Descrição da versão</label>
+        <name>copado__Version_Description__c</name>
+    </fields>
+    <fields>
+        <help>o nome da versão do pacote que foi inserido pelo usuário durante a criação da versão.</help>
+        <label>Nome da versão</label>
+        <name>copado__Version_Name__c</name>
+    </fields>
+    <fields>
+        <label>Versão</label>
+        <name>copado__Version__c</name>
+    </fields>
+    <fields>
+        <help>O número da versão do pacote. Deve estar no formato major.minor.patch.build.</help>
+        <label>Número da versão</label>
+        <name>copado__Version_number__c</name>
+    </fields>
+    <fields>
+        <label>Exibir no Git</label>
+        <name>copado__View_In_Git__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Package Version Name --></nameFieldLabel>
+    <webLinks>
+        <label>Versão de mesclagem</label>
+        <name>copado__Merge_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>Promover Beta para Lançamento</label>
+        <name>copado__Promote_Beta_to_Released</name>
+    </webLinks>
+</CustomObjectTranslation>

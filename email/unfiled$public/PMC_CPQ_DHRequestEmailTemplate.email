@@ -1,0 +1,7 @@
+Hi {!sbaa__Approval__c.sbaa__Approver__c}
+</br>
+</br>
+The Quote {!sbaa__Approval__c.Quote__c} is ready for approval. Please find the record here {!sbaa__Approval__c.Link}.
+</br>
+</br>
+Thank you.

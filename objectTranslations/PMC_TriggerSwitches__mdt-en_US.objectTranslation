@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMC Trigger Switches</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMC Trigger Switches</value>
+    </caseValues>
+    <fields>
+        <label><!-- After Delete --></label>
+        <name>PMC_AfterDelete__c</name>
+    </fields>
+    <fields>
+        <label><!-- After Insert --></label>
+        <name>PMC_AfterInsert__c</name>
+    </fields>
+    <fields>
+        <label><!-- After Undelete --></label>
+        <name>PMC_AfterUndelete__c</name>
+    </fields>
+    <fields>
+        <label><!-- After Update --></label>
+        <name>PMC_AfterUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Before Delete --></label>
+        <name>PMC_BeforeDelete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Before Insert --></label>
+        <name>PMC_BeforeInsert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Before Update --></label>
+        <name>PMC_BeforeUpdate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

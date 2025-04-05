@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Localization --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Localization --></value>
+    </caseValues>
+    <fields>
+        <help>El nombre API de este contenido.</help>
+        <label>Nombre API</label>
+        <name>SBQQ__APIName__c</name>
+    </fields>
+    <fields>
+        <help>Describir dónde se encuentra el texto</help>
+        <label>Descripción</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help>Etiqueta de esta acción en la interfaz de usuario.</help>
+        <label>TRANSLATION (Spanish)</label>
+        <name>SBQQ__Label__c</name>
+    </fields>
+    <fields>
+        <help>El código de idioma para esta traducción.</help>
+        <label>Idioma</label>
+        <name>SBQQ__Language__c</name>
+    </fields>
+    <fields>
+        <help>La columna de línea relacionada con este contenido.</help>
+        <label>Columna de líneas</label>
+        <name>SBQQ__LineColumn__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo almacena las traducciones de los campos de texto largo.</help>
+        <label>Área de texto largo</label>
+        <name>SBQQ__LongTextArea__c</name>
+    </fields>
+    <fields>
+        <help>La Dimensión relacionada con este contenido.</help>
+        <label>Dimensión de Precio</label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La característica del producto relacionada con este contenido.</help>
+        <label>Característica del producto</label>
+        <name>SBQQ__ProductFeature__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La opción de producto que generó esta línea.</help>
+        <label>Opción de producto</label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El producto relacionado con este contenido.</help>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El modelo a utilizar para este contenido.</help>
+        <label>Modelo de presupuesto</label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El término principal de este término.</help>
+        <label>Término de presupuesto</label>
+        <name>SBQQ__QuoteTerm__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo almacena las traducciones de los campos de Rich Text.</help>
+        <label>Área de Rich Text</label>
+        <name>SBQQ__RichTextArea__c</name>
+    </fields>
+    <fields>
+        <help>El contenido del modelo a utilizar para este contenido.</help>
+        <label>Contenido del modelo</label>
+        <name>SBQQ__TemplateContent__c</name>
+        <relationshipLabel>Localizaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo almacena las traducciones de los campos del Área de Texto.</help>
+        <label>Área de texto</label>
+        <name>SBQQ__TextArea__c</name>
+    </fields>
+    <fields>
+        <help>Este campo almacena las traducciones de los campos de texto.</help>
+        <label>Texto</label>
+        <name>SBQQ__Text__c</name>
+    </fields>
+    <fields>
+        <help>Para indicar si este campo está definido por el usuario o no.</help>
+        <label>Definido por el usuario</label>
+        <name>SBQQ__UserDefined__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Localization Number --></nameFieldLabel>
+</CustomObjectTranslation>

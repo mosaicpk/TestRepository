@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Resolution Not Accurate</fullName>
+        <default>false</default>
+        <label>Resolution Not Accurate</label>
+    </customValue>
+    <customValue>
+        <fullName>Resolution Not Complete</fullName>
+        <default>false</default>
+        <label>Resolution Not Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>New Evidence</fullName>
+        <default>false</default>
+        <label>New Evidence</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>will provide list of option to select the reason for reopening case.</description>
+    <masterLabel>CaseReopenReason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

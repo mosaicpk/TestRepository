@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2aeadbc1-a072-41c9-bba5-84f8da81490b",
+  "label" : "Ética y cumplimiento",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b26f66ab-49bf-44d4-89a5-8c252b06cad5",
+          "columns" : [ {
+            "UUID" : "afcdd738-ade7-4ac2-878d-66c44c51f310",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b26f66ab-49bf-44d4-89a5-8c252b06cad5",
+      "regions" : [ {
+        "id" : "afcdd738-ade7-4ac2-878d-66c44c51f310",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c53d2057-b38c-4d2a-95b4-c66d7f3244c2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Ética y cumplimiento"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "809df13f-5140-45e0-ae7a-9e3a85409884",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "18270fe0-6632-4d7f-abc8-5acdfe669872",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-tica-y-cumplimiento"
+}

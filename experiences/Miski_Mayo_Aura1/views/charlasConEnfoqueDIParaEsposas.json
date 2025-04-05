@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "518803e2-e73d-4359-b919-233ecd82c263",
+  "label" : "Charlas con enfoque D I para esposas",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e0114ddf-e856-4723-9407-e564b33c4798",
+          "columns" : [ {
+            "UUID" : "c6bda6d0-0334-4cdb-be33-87b02107f3a0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e0114ddf-e856-4723-9407-e564b33c4798",
+      "regions" : [ {
+        "id" : "c6bda6d0-0334-4cdb-be33-87b02107f3a0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "008a0026-acae-4f1b-8fdd-53eb1eb2c18a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Charlas con enfoque D I para esposas"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8680459c-bb11-476a-89c3-ae4e1dae7b4b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c923dec4-8715-4fd6-a48c-fa106e841a15",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-charlas-con-enfoque-d-i-para-esposas"
+}

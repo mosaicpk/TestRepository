@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0f8a3b1f-0d4d-4cca-ac8e-281e96b088af",
+  "label" : "Política de Prevención",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "31771271-a1c5-4e66-be68-f73872757f4e",
+          "columns" : [ {
+            "UUID" : "19d0dd46-47ba-4f1d-a348-1238ad517d53",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "31771271-a1c5-4e66-be68-f73872757f4e",
+      "regions" : [ {
+        "id" : "19d0dd46-47ba-4f1d-a348-1238ad517d53",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6f273615-6ea6-4770-a50f-9fabd81aaabb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Política de Prevención"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "aa66408e-6a67-46b7-8136-93bb02c28441",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "79927e2d-6f63-4929-ae88-df2c9e34829c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-poltica-de-prevencin"
+}

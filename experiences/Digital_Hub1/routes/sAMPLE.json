@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "08b55fe4-4ce1-4346-b853-e51e91f7592c",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "SAMPLE__c",
+  "id" : "22c6e441-05ee-4393-a4c1-30d627e78f11",
+  "label" : "SAMPLE",
+  "routeType" : "custom-sample",
+  "type" : "route",
+  "urlPrefix" : "sample"
+}

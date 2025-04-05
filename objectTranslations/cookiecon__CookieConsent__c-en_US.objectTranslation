@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Consent Captured Source Type --></label>
+        <name>cookiecon__ConsentCapturedSourceType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consent Captured Source --></label>
+        <name>cookiecon__ConsentCapturedSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party --></label>
+        <name>cookiecon__ConsentGiverId__c</name>
+        <relationshipLabel><!-- Cookie Consent Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cookie Consent Category --></label>
+        <name>cookiecon__CookieConsentCategory__c</name>
+        <relationshipLabel><!-- Cookie Consent Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>cookiecon__Status__c</name>
+        <picklistValues>
+            <masterLabel>Agreed</masterLabel>
+            <translation><!-- Agreed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<template>
+  <header data-f6-region class="page-header">
+    <div class="container">
+      <slot name="header"></slot>
+    </div>
+  </header>
+  <section data-f6-region class="page-container">
+    <slot name="banner"></slot>
+    <div class="container">
+      <slot></slot>
+    </div>
+  </section>
+  <footer data-f6-region class="page-footer">
+    <div class="container">
+      <slot name="footer"></slot>
+      <slot name="cookie"></slot>
+    </div>
+  </footer>
+</template>

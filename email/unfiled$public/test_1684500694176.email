@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<div style="text-align:start"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">Hello&nbsp;{{{SalesAgreement.OwnerFirstName}}}</font><span style="font-family:arial">,</span></span></span></span></span></span></span></span></span></span></span></div>
+
+<div style="text-align:start">&nbsp;</div>
+
+<div style="text-align:start"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">&nbsp;</font></span></span></span></span></span></span></span></span></span></span></div>
+
+<div style="text-align:start">&nbsp;</div>
+
+<div style="text-align:start"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">Opportunities have been automatically created by the system for Sales Agreement&nbsp;</font></span></span></span></span></span></span></span></span></span></span><a href="{{{SalesAgreement.Link}}}"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">{{{SalesAgreement.Name}}}</font></span></span></span></span></span></span></span></span></span></span></a> <span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-family:arial">. To view all these Opportunities, please open the “My Opportunities” list view.</span></span></span></span></span></span></span></span></span></span></span></div>
+
+<div style="text-align:start">&nbsp;</div>
+
+<div style="text-align:start"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">&nbsp;</font></span></span></span></span></span></span></span></span></span></span></div>
+
+<div style="text-align:start">&nbsp;</div>
+
+<div style="text-align:start"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">Thank you,</font></span></span></span></span></span></span></span></span></span></span></div>
+
+<div style="text-align:start"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font face="arial">Salesforce Team</font></span></span></span></span></span></span></span></span></span></span></div>
+</body>
+</html>

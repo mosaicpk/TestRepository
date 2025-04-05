@@ -1,0 +1,122 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "bea57777-4ed4-43cf-b58e-cd3d0f12d216",
+  "label" : "Case Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"7bf165fb-7d34-43ef-a82a-1a2ea8b06f92\",\"columns\":[{\"UUID\":\"702e253c-666c-492e-848b-4fb32eef6188\",\"columnName\":\"Column 1\",\"columnKey\":\"7e44f\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "7bf165fb-7d34-43ef-a82a-1a2ea8b06f92",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:pmc_dh_caseDetail",
+          "id" : "183a686e-01fb-41ce-b3ce-8b74f13d0558",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "sectionConfig" : "{\"UUID\":\"2840b8e4-9954-4262-bda1-64fdece8e688\",\"columns\":[{\"UUID\":\"0ef9d475-9272-41ed-8720-c3213e95df17\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"1f543867-c1bb-4829-b226-e43927aaccf7\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+          },
+          "componentName" : "dxp_layout:columns",
+          "id" : "2840b8e4-9954-4262-bda1-64fdece8e688",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "layout" : "{!Item._layout}",
+                "mainTitlePaddingHorizontal" : "none",
+                "mainTitlePaddingVertical" : "none",
+                "mainTitleText" : "Your text",
+                "mainTitleTextDisplayInfo" : "{}",
+                "metadata" : "{!Item._metadata._context}",
+                "recordIdFromDataProvider" : "{!Item.Id}",
+                "showTitle" : false
+              },
+              "componentName" : "dxp_records:detailPanel",
+              "id" : "c529b253-d7ff-460c-bd83-0cbb33b2cc9b",
+              "regions" : [ {
+                "components" : [ {
+                  "componentAttributes" : { },
+                  "componentName" : "dxp_page_layout:placeHolder",
+                  "id" : "b5e45d43-9f61-4647-87f1-912c4da84a94",
+                  "renderPriority" : "NEUTRAL",
+                  "renditionMap" : { },
+                  "type" : "component"
+                } ],
+                "id" : "ad2202dc-358c-44a8-aee4-d5a6097cf47b",
+                "regionName" : "placeholder",
+                "type" : "region"
+              } ],
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "0ef9d475-9272-41ed-8720-c3213e95df17",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "c:pmc_dh_caseHistory",
+              "id" : "8581a8af-231d-4a9b-a21b-0db574271fca",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "1f543867-c1bb-4829-b226-e43927aaccf7",
+            "regionLabel" : "Column 2",
+            "regionName" : "col2",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "scopedBrandingSetId" : null,
+          "type" : "component"
+        } ],
+        "id" : "702e253c-666c-492e-848b-4fb32eef6188",
+        "regionLabel" : "Column 1",
+        "regionName" : "7e44f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "4da21b39-c158-4f7a-bcca-f61fa4db2eec",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "{!Record._Object}: {!Record._Title}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "ac51f119-b6fa-408d-a7d3-df5519e1c07d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "294e6ccf-74e6-4fb4-b4da-d8fd297ca8b1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZU6jMSaEOkVarmD9c0eLRGj2VmPSKD",
+  "type" : "view",
+  "viewType" : "detail-500"
+}

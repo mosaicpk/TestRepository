@@ -1,0 +1,933 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1d9e8435-b91d-4484-923a-9f9e119fd091\",\"columns\":[{\"UUID\":\"cf6d28c0-e75c-45cf-a5c7-28072bde4d47\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderWidth" : 0,
+                "buttonDirection" : "vertical",
+                "buttonGroupAlignment" : "left",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentBackgroundColor" : "rgb(255, 255, 255)",
+                "contentHeight" : 50,
+                "contentPadding" : "x-large",
+                "contentWidth" : 50,
+                "height" : 450,
+                "imageFit" : "cover",
+                "imageInfo" : "",
+                "imageLocation" : "right",
+                "imagePosition" : "center left",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "overlapSize" : 75,
+                "overlayColor" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "left",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Compañía Minera\nMiski Mayo",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h1\",\"enableOverride\":true}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "ee2e2c54-c15f-4f37-9976-151b37e0162d",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Somos Miski Mayo, empresa minera no metálica pionera en la región Piura.\nLíder en producción de concentrado de fosfato en el Perú, contando con el yacimiento más grande de Sudamérica.\n\nTransformamos recursos naturales en desarrollo sostenible en beneficio de la provincia de Sechura y la región Piura.\nOperamos con altos estándares en seguridad, protegemos el medio ambiente, y promovemos la mejora de la calidad de vida de nuestra gente y de nuestro entorno.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "71de4703-ffee-4adb-8026-ceea9bed3c0c",
+                  "type" : "component"
+                } ],
+                "id" : "629ccec0-91c7-457f-ac36-b1b2bb745d14",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Ver más",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Nosotros__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "eab6f033-2441-45e7-8901-0295f07fbf32",
+                  "type" : "component"
+                } ],
+                "id" : "f5acd1f2-18e6-4e93-a8e0-5e0ba1d87eef",
+                "name" : "primaryButton",
+                "title" : "primaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "f3a7b24e-3410-4377-b175-fae320a9d726",
+                  "type" : "component"
+                } ],
+                "id" : "24f0f20b-0ba1-44ee-b7e7-cb07d6360ec2",
+                "name" : "secondaryButton",
+                "title" : "secondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "20a71a34-e118-40c6-b459-6b23dfcc5654",
+                  "type" : "component"
+                } ],
+                "id" : "3d2cd1b6-e5d1-433b-86de-0513a80f5873",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:overlap",
+              "id" : "43dabbac-b07d-4709-977e-0bd1818dff70",
+              "type" : "component"
+            } ],
+            "id" : "cf6d28c0-e75c-45cf-a5c7-28072bde4d47",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1d9e8435-b91d-4484-923a-9f9e119fd091",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e777372b-d37e-4f2e-b438-d9b58674de5e\",\"columns\":[{\"UUID\":\"003423e6-0dc2-4967-8f9c-c0eaf8f4e406\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"04596adf-1ae3-4bbb-8591-81b2aacc25be\",\"columnName\":\"Column 2\",\"columnKey\":\"8066f\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<p><br></p><p><span style=\"font-size: 60px; font-family: Poppins, sans-serif; color: rgb(43, 22, 27);\">Somos&nbsp;</span><span style=\"font-size: 60px; font-family: Poppins, sans-serif; color: rgb(226, 35, 26);\">Miski Mayo</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ac9340ce-4076-4afe-bc6c-4ef699ec3a9a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<ul><li><span style=\"font-family: arial; font-size: 15pt;\">Iniciamos nuestra operación un 10 de julio de 2010.</span></li><li><span style=\"font-family: arial; font-size: 15pt;\">Pertenecemos al corporativo Mosaic Company, nuestro accionista mayoritario.</span></li><li><span style=\"font-family: arial; font-size: 15pt;\">Cumplimos nuestros compromisos contractuales con el Estado y la Comunidad, habiendo aportado 1,529.5 millones de soles hasta julio del 2024.</span></li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "0dceb36c-ef7b-43c3-8d53-77d857ef69c2",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "CONÓCENOS",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Nosotros__c\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "7dab2a5b-dc93-4a61-9cbc-ced96f2f9b7d",
+              "type" : "component"
+            } ],
+            "id" : "003423e6-0dc2-4967-8f9c-c0eaf8f4e406",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "64745ecf-0768-44a7-a9cf-2fc14b2eaee2",
+              "type" : "component"
+            } ],
+            "id" : "04596adf-1ae3-4bbb-8591-81b2aacc25be",
+            "name" : "8066f",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e777372b-d37e-4f2e-b438-d9b58674de5e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1f11602b-56ca-425f-a807-955001369dca\",\"columns\":[{\"UUID\":\"59c3374d-fae2-4995-a200-79ac89d5435f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-size: 72px;\">Conoce nuestro proceso productivo</span></h1><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "cb8ab7f3-4e45-42db-8773-61bc3f49c49a",
+              "type" : "component"
+            } ],
+            "id" : "59c3374d-fae2-4995-a200-79ac89d5435f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1f11602b-56ca-425f-a807-955001369dca",
+          "scopedBrandingSetId" : "Miski_Red",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d077df6f-caa2-491f-a864-cd9971d6160e\",\"columns\":[{\"UUID\":\"28345282-18eb-4921-bd41-167774e8c4ae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"5d578598-c19c-496e-9aae-a5702dfac56c\",\"columnName\":\"Column 2\",\"columnKey\":\"26914\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"a43edb5f-0ca2-423d-98b3-6fc305cdfa70\",\"columnName\":\"Column 3\",\"columnKey\":\"a6671\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"6f0af370-a3c5-417d-b92d-20161ce2ff95\",\"columnName\":\"Column 4\",\"columnKey\":\"94713\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "1f5f769b-b384-4bbe-a2b8-bd183550bb6e",
+              "type" : "component"
+            } ],
+            "id" : "28345282-18eb-4921-bd41-167774e8c4ae",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "2c85421f-0ea5-48bb-a2da-b34fab660e9f",
+              "type" : "component"
+            } ],
+            "id" : "5d578598-c19c-496e-9aae-a5702dfac56c",
+            "name" : "26914",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "ec1cdd94-2539-4392-99c4-df4568756a21",
+              "type" : "component"
+            } ],
+            "id" : "a43edb5f-0ca2-423d-98b3-6fc305cdfa70",
+            "name" : "a6671",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0adbf038-8f77-4313-8900-6a93d59c03ee",
+              "type" : "component"
+            } ],
+            "id" : "6f0af370-a3c5-417d-b92d-20161ce2ff95",
+            "name" : "94713",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d077df6f-caa2-491f-a864-cd9971d6160e",
+          "scopedBrandingSetId" : "Miski_Red",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"39a75c1b-fb67-4b6b-9bfb-9708ed4fb494\",\"columns\":[{\"UUID\":\"694c5789-273d-4b8c-823b-69725bbade49\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<p><br></p><p><span style=\"color: rgb(43, 22, 27); font-family: arial; font-size: 50px;\">Últimas noticias﻿</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f874c71f-b94c-4488-b1c0-64e5766c7041",
+              "type" : "component"
+            } ],
+            "id" : "694c5789-273d-4b8c-823b-69725bbade49",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "39a75c1b-fb67-4b6b-9bfb-9708ed4fb494",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"05477e72-df08-4c87-bac8-3b9fc95a2564\",\"columns\":[{\"UUID\":\"12e7eb6b-f390-4642-a62e-e25d3acd1a62\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"3e0e3bca-77dc-4ed2-a6ef-42cc901e8eb6\",\"columnName\":\"Column 2\",\"columnKey\":\"23c6d\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"e2589750-85a2-4262-bbe9-a72fddaed929\",\"columnName\":\"Column 3\",\"columnKey\":\"81457\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"2e259378-b4e5-486e-872e-bb77cb10d48e\",\"columnName\":\"Column 4\",\"columnKey\":\"4f1a7\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "height" : 325,
+                "imageFit" : "cover",
+                "imageHeight" : 60,
+                "imageInfo" : "",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your headline goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-large\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "377182fb-8f61-489f-9e8d-233f9afb478a",
+                  "type" : "component"
+                } ],
+                "id" : "0c16f991-8ce8-47d5-a84a-8e2cc755c26d",
+                "name" : "topContentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your subheader goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "e2db0f34-b78c-41ea-9941-c442b75e3652",
+                  "type" : "component"
+                } ],
+                "id" : "2a2ebefb-b51e-4b95-9119-5ca9e936d4ad",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "c0574315-4c17-4537-9a0d-e98ed8cfbb60",
+                  "type" : "component"
+                } ],
+                "id" : "465c8641-95c7-477f-94cc-1e937dbfaec7",
+                "name" : "tilePrimaryButton",
+                "title" : "Primary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "1e78a197-2511-4059-871f-3027bf0c89e5",
+                  "type" : "component"
+                } ],
+                "id" : "0aaab21d-1491-4420-a889-d70c30dfc038",
+                "name" : "tileSecondaryButton",
+                "title" : "Secondary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "cb38ddee-6979-41e1-95f6-56477d05bd5f",
+                  "type" : "component"
+                } ],
+                "id" : "7950c737-3a54-42a5-b31d-f39502a96f4a",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "4b1db7f3-16ec-45bb-b6b2-9036e62412d5",
+              "type" : "component"
+            } ],
+            "id" : "12e7eb6b-f390-4642-a62e-e25d3acd1a62",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "height" : 325,
+                "imageFit" : "cover",
+                "imageHeight" : 60,
+                "imageInfo" : "",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your headline goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-large\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "86425d1f-8a7f-4250-b937-c849d29a606d",
+                  "type" : "component"
+                } ],
+                "id" : "bbdbf8d9-e083-4c77-91cb-23433474bce1",
+                "name" : "topContentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your subheader goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "9df98d4a-1488-45f8-a459-688d4c44449a",
+                  "type" : "component"
+                } ],
+                "id" : "e32563d2-35da-4b9b-b8c4-8db78f6f8b3c",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "5acd84da-235a-43c1-9cdb-5e546e4dd9a4",
+                  "type" : "component"
+                } ],
+                "id" : "b633f5db-9d49-4186-8351-def81028ab73",
+                "name" : "tilePrimaryButton",
+                "title" : "Primary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "02472ae6-4cb8-46d9-a0ad-97a03379dbe6",
+                  "type" : "component"
+                } ],
+                "id" : "81658ae4-7990-496a-921f-f0da2c5e6bee",
+                "name" : "tileSecondaryButton",
+                "title" : "Secondary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "cd875175-7137-4e14-9d6a-b9f9386042df",
+                  "type" : "component"
+                } ],
+                "id" : "8903a693-b0d5-4e51-b091-ac73780729e7",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "2c68a062-8864-4213-86fd-59d3941c4a2c",
+              "type" : "component"
+            } ],
+            "id" : "3e0e3bca-77dc-4ed2-a6ef-42cc901e8eb6",
+            "name" : "23c6d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "height" : 325,
+                "imageFit" : "cover",
+                "imageHeight" : 60,
+                "imageInfo" : "",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your headline goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-large\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "7f403f9c-5f37-483a-9072-a3e7027e53b5",
+                  "type" : "component"
+                } ],
+                "id" : "38a2ef73-ba39-4548-a2a5-c2c0043e2793",
+                "name" : "topContentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your subheader goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "5569ea26-f098-4704-be01-dfe07a39b509",
+                  "type" : "component"
+                } ],
+                "id" : "974e396f-bbf9-4135-a6ef-9392bab365fc",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "ca11848e-5578-456f-a57d-64d5ce1a85f6",
+                  "type" : "component"
+                } ],
+                "id" : "95e99ce5-508d-4bae-a5b1-180f8fd536cf",
+                "name" : "tilePrimaryButton",
+                "title" : "Primary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "e15f5c10-4cd7-46a6-84df-c6c8e7d632bb",
+                  "type" : "component"
+                } ],
+                "id" : "8a6a3998-756e-4deb-9a34-f7fd2490f5f2",
+                "name" : "tileSecondaryButton",
+                "title" : "Secondary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "660847fe-2e51-4fc5-995d-bc91a91a6a08",
+                  "type" : "component"
+                } ],
+                "id" : "87fa35b3-542a-4486-8dae-440faebc338f",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "140528b3-9221-41a5-a480-13496a2a0787",
+              "type" : "component"
+            } ],
+            "id" : "e2589750-85a2-4262-bbe9-a72fddaed929",
+            "name" : "81457",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 45,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 75,
+                "height" : 325,
+                "imageFit" : "cover",
+                "imageHeight" : 60,
+                "imageInfo" : "",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your headline goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-large\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "35d6d674-1e77-4668-80d2-36d309a84786",
+                  "type" : "component"
+                } ],
+                "id" : "3571ac51-a5bb-437a-87ef-61d991e0ff37",
+                "name" : "topContentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your subheader goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "98adeb7e-a13b-4bfa-ac55-6b0c87ea28b0",
+                  "type" : "component"
+                } ],
+                "id" : "d487b669-7dda-4d42-b1d8-c2ee31eb02c8",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "e19bbf00-02b8-471d-b7d1-1f2116aaacdf",
+                  "type" : "component"
+                } ],
+                "id" : "282e9cdf-b95d-44ab-8af8-affd19d93c8f",
+                "name" : "tilePrimaryButton",
+                "title" : "Primary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "cc71ab76-a430-4aba-b0e7-d529db51f646",
+                  "type" : "component"
+                } ],
+                "id" : "c9bd7907-3d33-4a73-a197-5dd436e8071b",
+                "name" : "tileSecondaryButton",
+                "title" : "Secondary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "0bc38c8c-bb5e-46a6-85c9-6107147606b2",
+                  "type" : "component"
+                } ],
+                "id" : "289a6756-81c4-44a7-9d01-76a3feb589af",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:tile2",
+              "id" : "e60d9490-8d21-42ef-8ecc-d2ec67afc761",
+              "type" : "component"
+            } ],
+            "id" : "2e259378-b4e5-486e-872e-bb77cb10d48e",
+            "name" : "4f1a7",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "05477e72-df08-4c87-bac8-3b9fc95a2564",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0e4907cc-8428-4bed-8bed-3c65894e787e\",\"columns\":[{\"UUID\":\"ff589239-d1fe-475f-84de-172c9bb150ae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "ff589239-d1fe-475f-84de-172c9bb150ae",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0e4907cc-8428-4bed-8bed-3c65894e787e",
+          "type" : "component"
+        } ],
+        "id" : "6902afd8-5bf3-4ffc-8150-0990646ff3f6",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c3958ab8-5dfa-41ef-b2a3-b6019c208b14",
+          "type" : "component"
+        } ],
+        "id" : "ae94448c-7a75-4f5f-a60e-830ac8295791",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "5139dfb7-a2b9-4de7-a3b8-3fe8b8695ba4",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

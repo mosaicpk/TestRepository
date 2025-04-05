@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- User Story Data Commit --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- User Story Data Commit --></value>
+    </caseValues>
+    <fields>
+        <label>Data do compromisso</label>
+        <name>copado__Commit_Date__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem de compromisso</label>
+        <name>copado__Commit_Message__c</name>
+    </fields>
+    <fields>
+        <label>Conjunto de dados</label>
+        <name>copado__Data_Set__c</name>
+        <relationshipLabel>Compromissos de dados da história do usuário</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Trabalho de execução</label>
+        <name>copado__Execution_Job__c</name>
+        <relationshipLabel>Compromissos de dados da história do usuário</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Compromissos de dados da história do usuário</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- User Story Data Commit Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não é permitido alterar a Data de Compromisso depois que o Compromisso de Dados da História de Usuário tiver sido criado. Crie um novo Compromisso de Dados de História de Usuário.</errorMessage>
+        <name>copado__Prevent_change_Commit_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é permitido alterar a Mensagem de Compromisso depois que o Compromisso de Dados da História de Usuário tiver sido criado. Crie um novo Compromisso de Dados de História de Usuário.</errorMessage>
+        <name>copado__Prevent_change_Commit_Message</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é permitido alterar o Conjunto de Dados depois que o Compromisso de Dados da História de Usuário tiver sido criado. Crie um novo Compromisso de Dados de História de Usuário.</errorMessage>
+        <name>copado__Prevent_change_Data_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é permitido alterar o trabalho de execução depois que o compromisso de dados da história de usuário tiver sido criado. Crie um novo Compromisso de Dados de História de Usuário.</errorMessage>
+        <name>copado__Prevent_change_Execution_Job</name>
+    </validationRules>
+</CustomObjectTranslation>

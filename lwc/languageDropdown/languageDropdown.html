@@ -1,0 +1,27 @@
+<template>
+  <div class="slds-grid slds-grid_vertical-align-center slds-is-relative selectedLanguage" onclick={toggleDropdown}
+    tabindex="0" onkeydown={handleDropdownKeyPress}>
+    <div>
+      <span class="dxp-text-body slds-var-p-around_x-small">{selectedLanguageOption}</span>
+    </div>
+    <div>
+      <lightning-icon icon-name="utility:down" size="xx-small" class="dropdown-icon"></lightning-icon>
+    </div>
+    <template if:true={showDropdown}>
+      <div class="slds-var-m-top_x-small slds-is-absolute dropdown-section slds-show_large">
+        <ul class="list">
+          <li for:each={languageOptions} for:item="lang" key={lang} class="lang slds-var-p-around_small"
+            onkeydown={handleKeyPress} onclick={changeHandler} tabindex="0" data-id={lang.value}>{lang.label}</li>
+        </ul>
+      </div>
+    </template>
+  </div>
+  <template if:true={showDropdown}>
+    <div class="slds-var-m-top_x-small dropdown-section slds-hide_large">
+      <ul class="list">
+        <li for:each={languageOptions} for:item="lang" key={lang} class="lang slds-var-p-around_small"
+          onkeydown={handleKeyPress} onclick={changeHandler} tabindex="0" data-id={lang.value}>{lang.label}</li>
+      </ul>
+    </div>
+  </template>
+</template>

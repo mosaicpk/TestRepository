@@ -1,0 +1,9 @@
+<p>Billing Team,</p>
+
+<p>A credit memo has been submitted by {!Case.OwnerFullName} and the SAP Invoice Number is needed in order to proceed.</p>
+
+<p>Please reply to this email with the SAP Invoice Number, so the CSR can enter that information on the case. For any questions, please reach out to XXYYZZ</p>
+
+<p>Details: Account: <a href=&quot;{!Case.Account}&quot;>{!Case.Account}</a></p>
+
+<p>Case: <a href=&quot;{!Case.Link}&quot;>{!Case.CaseNumber}</a></p>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Locations</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CPQ_Lookup --></label>
+        <name>CPQ_Lookup</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Address --></label>
+        <name>PMC_CPQ_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deletion Indicator --></label>
+        <name>PMC_CPQ_DeletionIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Type --></label>
+        <name>PMC_CPQ_LocationType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>PMC_CPQ_Location__c</name>
+        <relationshipLabel><!-- Product Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Origin Product ID --></label>
+        <name>PMC_CPQ_OriginProductID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plant City --></label>
+        <name>PMC_CPQ_PlantCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plant Code --></label>
+        <name>PMC_CPQ_PlantCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Location SAP Identifier --></label>
+        <name>PMC_CPQ_ProductLocationSAPIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>PMC_CPQ_ProductName__c</name>
+        <relationshipLabel><!-- Product Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SAP Origin ID --></label>
+        <name>PMC_CPQ_SAPOriginID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Product Code --></label>
+        <name>PMC_CPQ_SAPProductCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>PMC_CPQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

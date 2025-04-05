@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Extension Configuration --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Extension Configuration --></value>
+    </caseValues>
+    <fields>
+        <label>Critérios de aceitação</label>
+        <name>copado__AcceptanceCriteria__c</name>
+    </fields>
+    <fields>
+        <label>Ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <label>Detalhes</label>
+        <name>copado__Details__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a fase do Copado com base na ferramenta de extensão que você deseja usar. Por exemplo, se você selecionar Teste, a lista de opções Ferramenta de extensão listará as ferramentas disponíveis para essa fase específica, por exemplo, Teste robótico Copado, testes Apex ou ferramentas SCA, como PMD ou Codescan.</help>
+        <label>Fase Copado</label>
+        <name>copado__ExtensionApplication__c</name>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation>Teste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ferramenta de extensão</label>
+        <name>copado__ExtensionTool__c</name>
+        <picklistValues>
+            <masterLabel>Manual Tests</masterLabel>
+            <translation>Testes manuais</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status - Depreciado</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup Pending</masterLabel>
+            <translation>Configuração pendente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de teste</label>
+        <name>copado__TestType__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Essa ferramenta de extensão não pode ser modificada. Em vez disso, crie um novo registro de configuração de extensão.</errorMessage>
+        <name>copado__PreventUpdatingExtensionTool</name>
+    </validationRules>
+</CustomObjectTranslation>

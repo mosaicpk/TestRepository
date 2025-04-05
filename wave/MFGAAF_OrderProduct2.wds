@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>test2</application>
+    <masterLabel>MFGAAF Order Product</masterLabel>
+    <templateAssetSourceName>MFGAAF_OrderProduct_tp</templateAssetSourceName>
+    <type>default</type>
+</WaveDataset>

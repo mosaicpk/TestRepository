@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Notification Subscription --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Notification Subscription --></value>
+    </caseValues>
+    <fields>
+        <label>Canais</label>
+        <name>copado__Channels__c</name>
+    </fields>
+    <fields>
+        <label>Nome da notificação</label>
+        <name>copado__Notification_Name__c</name>
+    </fields>
+    <fields>
+        <label>Assinatura</label>
+        <name>copado__Subscribed__c</name>
+    </fields>
+    <fields>
+        <label>Notificação padrão do usuário</label>
+        <name>copado__User_Default_Notification__c</name>
+        <relationshipLabel>Assinaturas de notificação</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

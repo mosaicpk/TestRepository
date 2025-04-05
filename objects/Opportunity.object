@@ -1,0 +1,2311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Opportunity Process</fullName>
+        <description>Helps users to manage the Sales cycle by moving them through pre-defined Opportunity stages</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>New_Awesome_Companct_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>New_Awesome_Companct_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <label>New Awesome Compact Layout</label>
+    </compactLayouts>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>sbaa__DealDesk</fullName>
+        <description>Fields displayed on Deal Desk page.</description>
+        <displayedFields>
+            <field>AccountId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Amount</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CloseDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>StageName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Deal Desk</label>
+    </fieldSets>
+    <fields>
+        <fullName>AccountId</fullName>
+        <description>ID of the account associated with this opportunity.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <description>Estimated total sale amount. For opportunities with products, the amount is the sum of the related products. Any attempt to update this field, if the record has products, will be ignored. The update call will not be rejected, and other fields will be updated as specified, but the Amount will be unchanged.</description>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Budget_Confirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Budget Confirmed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <description>ID of a related Campaign.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <description>Date when the opportunity is expected to close.</description>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <description>ID of the contract that’s associated with this opportunity.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DB_Competitor__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and can delete this field.</description>
+        <label>DB Competitor</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Competitor A</fullName>
+                    <default>false</default>
+                    <label>Competitor A</label>
+                </value>
+                <value>
+                    <fullName>Competitor B</fullName>
+                    <default>false</default>
+                    <label>Competitor B</label>
+                </value>
+                <value>
+                    <fullName>Competitor C</fullName>
+                    <default>false</default>
+                    <label>Competitor C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <description>Text description of the opportunity</description>
+        <encryptionScheme>None</encryptionScheme>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Discovery_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Discovery Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <description>Read-only field that is equal to the product of the opportunity Amount field and the Probability. You can’t directly set this field, but you can indirectly set it by setting the Amount or Probability fields.</description>
+    </fields>
+    <fields>
+        <fullName>IqScore</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <description>Indicates if the Opportunity is Private or not.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <description>Source of this opportunity, such as Advertisement or Trade Show.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <description> A name for this opportunity.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <description>Description of next task in closing opportunity.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <description>ID of the User who has been assigned to work this opportunity.</description>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_PO__c</fullName>
+        <description>Temp Test fields</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Purchase Order #</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ProductComments__c</fullName>
+        <description>Temp test fields</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Product Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_DH_ContactMethod__c</fullName>
+        <label>Contact Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>In Person</fullName>
+                    <default>false</default>
+                    <label>In Person</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+                <value>
+                    <fullName>WhatsApp/SMS</fullName>
+                    <default>false</default>
+                    <label>WhatsApp/SMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_DH_ContactPreference__c</fullName>
+        <label>Contact Preference</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>WhatsApp</fullName>
+                    <default>false</default>
+                    <label>WhatsApp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_DH_LastContactedDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Last Contacted Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_DH_LostOtherReason__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Lost Other Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_AccountManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Main point-of-contact/Account Manager working the Opportunity</description>
+        <label>Account Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_ActualCloseDate__c</fullName>
+        <description>This field tracks the date on which the opportunity is won or not won.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Actual Close Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_AnalysisStageDate__c</fullName>
+        <description>This field will contain the date when opportunity stage will be set to Analysis</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Analysis Stage Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_CompetitorName__c</fullName>
+        <description>Specifies the Competitor Name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Competitor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_CompetitorProduct__c</fullName>
+        <description>Specifies the Competitor&apos;s Product</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Competitor Product</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Crop__c</fullName>
+        <description>Specifies the Competitor&apos;s Crop</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Crop</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Crops__c</fullName>
+        <description>Picklist for Crops from Sales Agreement</description>
+        <label>Crops</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_SS_Crops</valueSetName>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_DaysOpen__c</fullName>
+        <description>This field contains the days an opportunity has been opened.</description>
+        <externalId>false</externalId>
+        <formula>TODAY() - DATEVALUE( CreatedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_DeliveredRegion__c</fullName>
+        <description>Specifies the Competitor&apos;s Delivered Region</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Delivered Region</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Details__c</fullName>
+        <description>Additional details that Sales team can be provide</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Additional Details</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Discount__c</fullName>
+        <description>Specifies the Discount, Competitor is offering</description>
+        <label>Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_LeadType__c</fullName>
+        <description>Type of leads available</description>
+        <label>Lead Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Crop Consultant</fullName>
+                    <default>false</default>
+                    <label>Crop Consultant</label>
+                </value>
+                <value>
+                    <fullName>Grower</fullName>
+                    <default>false</default>
+                    <label>Grower</label>
+                </value>
+                <value>
+                    <fullName>Retailer - Agrnomist</fullName>
+                    <default>false</default>
+                    <label>Retailer - Agrnomist</label>
+                </value>
+                <value>
+                    <fullName>Retailer - Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Retailer - Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_LostTo__c</fullName>
+        <description>This field contains the competitor to which an opportunity was lost.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Lost to</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_MainCompetitors__c</fullName>
+        <description>This field stores the main competitor(s) of the company for this opportunity.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Main Competitor(s)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_NeedsEndsDate__c</fullName>
+        <description>Timeline in which customer needs products ends</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Needs End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_NeedsStartDate__c</fullName>
+        <description>Timeline in which customer needs products starts</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Needs Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_OpportunitySource__c</fullName>
+        <description>This is the source of the Opportunity to indicate where the Opportunity comes from.</description>
+        <label>Opportunity Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cold Call</fullName>
+                    <default>false</default>
+                    <label>Cold Call</label>
+                </value>
+                <value>
+                    <fullName>Company Inbox</fullName>
+                    <default>false</default>
+                    <label>Company Inbox</label>
+                </value>
+                <value>
+                    <fullName>Cross-Selling - Aftermarket</fullName>
+                    <default>false</default>
+                    <label>Cross-Selling - Aftermarket</label>
+                </value>
+                <value>
+                    <fullName>Cross-Sellin - Rental</fullName>
+                    <default>false</default>
+                    <label>Cross-Sellin - Rental</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+                <value>
+                    <fullName>Personal Visit</fullName>
+                    <default>false</default>
+                    <label>Personal Visit</label>
+                </value>
+                <value>
+                    <fullName>Phone Call</fullName>
+                    <default>false</default>
+                    <label>Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Public Relation</fullName>
+                    <default>false</default>
+                    <label>Public Relation</label>
+                </value>
+                <value>
+                    <fullName>Recommendation</fullName>
+                    <default>false</default>
+                    <label>Recommendation</label>
+                </value>
+                <value>
+                    <fullName>Trade Show</fullName>
+                    <default>false</default>
+                    <label>Trade Show</label>
+                </value>
+                <value>
+                    <fullName>Web</fullName>
+                    <default>false</default>
+                    <label>Web</label>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Price__c</fullName>
+        <description>Specifies the Competitor&apos;s Price</description>
+        <label>Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_PrimaryContact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Main point-of-contact at the Customer</description>
+        <inlineHelpText>This field will only show ACTIVE contacts. Inactive contacts can be accessed from Global Search.</inlineHelpText>
+        <label>Primary Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.PMC_SS_Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_ProductFamilies__c</fullName>
+        <description>Indicates the product families of the Opportunity</description>
+        <label>Product Families</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_SS_ProductFamilies</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_ReasonLost__c</fullName>
+        <description>This is the reason why the Opportunity was lost.</description>
+        <label>Reason Lost</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>StageName</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Delivery Timing</fullName>
+                    <default>false</default>
+                    <label>Delivery Timing</label>
+                </value>
+                <value>
+                    <fullName>Desired Product Unavailable</fullName>
+                    <default>false</default>
+                    <label>Desired Product Unavailable</label>
+                </value>
+                <value>
+                    <fullName>Discovery</fullName>
+                    <default>false</default>
+                    <label>Discovery</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Season</fullName>
+                    <default>false</default>
+                    <label>Incorrect Season</label>
+                </value>
+                <value>
+                    <fullName>Insufficient Customer Credit</fullName>
+                    <default>false</default>
+                    <label>Insufficient Customer Credit</label>
+                </value>
+                <value>
+                    <fullName>Lost to Competitor</fullName>
+                    <default>false</default>
+                    <label>Lost to Competitor</label>
+                </value>
+                <value>
+                    <fullName>Misexecution</fullName>
+                    <default>false</default>
+                    <label>Misexecution</label>
+                </value>
+                <value>
+                    <fullName>No Budget / Lost Funding</fullName>
+                    <default>false</default>
+                    <label>No Budget / Lost Funding</label>
+                </value>
+                <value>
+                    <fullName>No Decision / Non-Responsive</fullName>
+                    <default>false</default>
+                    <label>No Decision / Non-Responsive</label>
+                </value>
+                <value>
+                    <fullName>No Longer Interested</fullName>
+                    <default>false</default>
+                    <label>No Longer Interested</label>
+                </value>
+                <value>
+                    <fullName>No Quotation</fullName>
+                    <default>false</default>
+                    <label>No Quotation</label>
+                </value>
+                <value>
+                    <fullName>Not Ready For Purchase</fullName>
+                    <default>false</default>
+                    <label>Not Ready For Purchase</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Product Unable to Meet Customer Needs</fullName>
+                    <default>false</default>
+                    <label>Product Unable to Meet Customer Needs</label>
+                </value>
+                <value>
+                    <fullName>Will Consider Next Season</fullName>
+                    <default>false</default>
+                    <label>Will Consider Next Season</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Delivery Timing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Desired Product Unavailable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Discovery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Incorrect Season</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Insufficient Customer Credit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Lost to Competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Misexecution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>No Budget / Lost Funding</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>No Decision / Non-Responsive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>No Longer Interested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>No Quotation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Not Ready For Purchase</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Product Unable to Meet Customer Needs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Will Consider Next Season</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_RegionalManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Regional Manager of the Lead</description>
+        <label>Regional Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_SMSOptOut__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates SMS opt out.</description>
+        <label>SMS Opt out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_SalesAgreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Sales Agreement</label>
+        <referenceTo>SalesAgreement</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Season__c</fullName>
+        <description>Specifies the Competitor&apos;s Season</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Season</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_UnplannedPurchase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When this field is checked, the Opportunity is considered an Unplanned Purchase</description>
+        <inlineHelpText>When this field is checked, the Opportunity is considered an Unplanned Purchase</inlineHelpText>
+        <label>Unplanned Purchase</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PartnerAccountId</fullName>
+        <description>ID of the partner account for the partner user that owns this opportunity.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <description>ID of a related Pricebook2 object. </description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <description>Percentage of estimated confidence in closing the opportunity. </description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ROI_Analysis_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>ROI Analysis Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__AmendedContract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Indicates the relationship to your Amended Contract.</description>
+        <inlineHelpText>Lookup to your Amended Contract.</inlineHelpText>
+        <label>Amended Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Amendment Opportunities</relationshipLabel>
+        <relationshipName>AmendmentOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Contracted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal flag used to kick off automatic asset and subscription conversion.</description>
+        <inlineHelpText>Salesforce CPQ uses this field to automatically convert assets and subscriptions.</inlineHelpText>
+        <label>Contracted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CreateContractedPrices__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Select this checkbox to create Contracted Prices without creating a Contract.</description>
+        <inlineHelpText>Select this checkbox to create Contracted Prices without creating a Contract.</inlineHelpText>
+        <label>Create Contracted Prices</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__OrderGroupID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unique identifier for the Amend:Re-Quote transaction, which is the original primary quote&apos;s ID. This is not a reference.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The unique identifier for the Amend:Re-Quote transaction, which is the original primary quote&apos;s ID.</inlineHelpText>
+        <label>Order Group ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Ordered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal flag that drives automatic order creation.</description>
+        <inlineHelpText>Select this checkbox to automatically create an order from the primary quote.</inlineHelpText>
+        <label>Ordered</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PrimaryQuote__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Points to primary quote on this opportunity.</description>
+        <inlineHelpText>Salesforce CPQ uses this to point to the primary quote on this opportunity.</inlineHelpText>
+        <label>Primary Quote</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>equals</operation>
+                <valueField>SBQQ__Quote__c.SBQQ__Opportunity2__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SBQQ__Quote__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>PrimaryOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__QuotePricebookId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Custom pricebook ID field that updates the standard Pricebook2Id field. Use to automatically drive pricebook selection from workflow rules.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Quote Pricebook Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Renewal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates this opportunity is a renewal opportunity.</description>
+        <inlineHelpText>Indicates this opportunity is a renewal opportunity.</inlineHelpText>
+        <label>Renewal</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__RenewedContract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Contract being renewed by this renewal opportunity. In case opportunity rolls up several contracts this points at the master contract.</description>
+        <inlineHelpText>Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract.</inlineHelpText>
+        <label>Renewed Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Renewal Opportunities</relationshipLabel>
+        <relationshipName>RenewalOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <description>Indicates Stage of  the Opportunity</description>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <description>Number of items included in this opportunity. Used in quantity-based forecasting.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <description>Indicates Type of  the Opportunity.</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>sbaa__ApprovalStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Overall Approval Status for this Opportunity</description>
+        <inlineHelpText>Overall Approval Status for this Opportunity</inlineHelpText>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Recalled</fullName>
+                    <default>false</default>
+                    <label>Recalled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>sbaa__ApprovalStep__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used with Native Approvals to indicate the step in the approval process this Opportunity is in</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used with Native Approvals to indicate the step in the approval process this Opportunity is in</inlineHelpText>
+        <label>Approval Step</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sbaa__Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Used with Native Approvers; indicates which Approver is responsible for approving the Opportunity.</description>
+        <inlineHelpText>Used with Native Approvers; indicates which Approver is responsible for approving the Opportunity.</inlineHelpText>
+        <label>Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sbaa__StepApproved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used with Native Approvals; to indicate whether the step has been approved</description>
+        <inlineHelpText>Used with Native Approvals; to indicate whether the step has been approved</inlineHelpText>
+        <label>Step Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sbaa__SubmittedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when record was submitted for approval</description>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Date when record was submitted for approval</inlineHelpText>
+        <label>Submitted Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>sbaa__SubmittedUser__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>User requesting approval for the Opportunity.</description>
+        <inlineHelpText>User requesting approval for the Opportunity.</inlineHelpText>
+        <label>Submitted User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>SubmittedUserOpportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>AllOpportunities</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.PROBABILITY</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingNextMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>NEXT_MONTH</value>
+        </filters>
+        <label>Closing Next Month</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingThisMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Closing This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>Default_Opportunity_Pipeline</fullName>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>Opportunity Pipeline</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpportunities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_SS_OpportunitiesMissingActivities</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>notEqual</operation>
+            <value>Closed Won,Closed Lost</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.LAST_UPDATE</field>
+            <operation>lessThan</operation>
+            <value>LAST_N_DAYS:4</value>
+        </filters>
+        <label>Opportunities Missing Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>Won</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.WON</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Won</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>PMC_SS_Opportunity</fullName>
+        <active>true</active>
+        <businessProcess>Opportunity Process</businessProcess>
+        <description>Default Opportunity Record Type</description>
+        <label>Opportunity</label>
+        <picklistValues>
+            <picklist>DB_Competitor__c</picklist>
+            <values>
+                <fullName>Competitor A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BeckAg EEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calculator%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Center%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demoplot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Farm Journal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Farm Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Newsletter Subscription</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product form - NutriMosaic%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product form - Nutricao De Safras</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDR Generated Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Generated Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Speak with a Rep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialist Form%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSM Generated Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website%C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Youtube%C2%A0</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_DH_ContactMethod__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Person</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WhatsApp%2FSMS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_DH_ContactPreference__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WhatsApp</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_Crops__c</picklist>
+            <values>
+                <fullName>Alfalfa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bean</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beef Cattle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canola</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citrus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coffee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cotton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Beans</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fruit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Garlic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grain Sorgham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Livestock Farming</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peanut</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peanuts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potato</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sorghum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Soybean</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spring Wheat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sugar Beets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sugar Cane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomato</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tree Fruit%2C Nuts%2C Vines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turf</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vegetables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Winter Cereals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Winter Wheat</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_LeadType__c</picklist>
+            <values>
+                <fullName>Crop Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grower</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer - Agrnomist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer - Decision Maker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_OpportunitySource__c</picklist>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company Inbox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cross-Sellin - Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cross-Selling - Aftermarket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_ProductFamilies__c</picklist>
+            <values>
+                <fullName>ASPIRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ATHOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BIOSCIENCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BORON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO-PRODUCT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAP-MAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EXCELLEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLUOSILIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GRAVEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GYPSUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>K-MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIMESTONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIQUID FERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MES BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MICRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MKP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MPASTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NITROGEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPK BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P FERTILIZER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERFORMA BLENDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOSPHORIC ACID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROCK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SERVICES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOIL HEALTH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULFURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SULPHUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SWEEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRUMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WATER SOFTENER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WSF</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_ReasonLost__c</picklist>
+            <values>
+                <fullName>Delivery Timing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desired Product Unavailable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incorrect Season</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient Customer Credit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Misexecution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Longer Interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Quotation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Ready For Purchase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Unable to Meet Customer Needs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Consider Next Season</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Agent Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Sales</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Indirect Sales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>sbaa__ApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recalled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_ReasonLostRequired</fullName>
+        <active>true</active>
+        <description>This validation rule checks that the Reason Lost field is populated before the Opportunity Stage is changed to &quot;Closed Lost&quot;.</description>
+        <errorConditionFormula>AND(
+ NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+ ISPICKVAL( StageName , &apos;Closed Lost&apos;) ,
+ ISBLANK( TEXT( PMC_SS_ReasonLost__c ) ) 
+
+)</errorConditionFormula>
+        <errorDisplayField>PMC_SS_ReasonLost__c</errorDisplayField>
+        <errorMessage>Please indicate the reason why this opportunity was lost in the field “Reason Lost”</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictOppForNonSoldToAccounts</fullName>
+        <active>true</active>
+        <description>Validation rule to block the creation of opportunity when account type is Ship-to, Bill-to or Payer.</description>
+        <errorConditionFormula>AND(
+    NOT( 
+    $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c 
+    ),
+    AND(
+        Account.RecordType.DeveloperName == &apos;PMC_SS_Customer&apos;,
+        OR(
+            ISPICKVAL(Account.Type, &apos;Ship-to&apos;),
+            ISPICKVAL(Account.Type, &apos;Bill-to&apos;),
+            ISPICKVAL(Account.Type, &apos;Payer&apos;)
+        )
+    )
+)</errorConditionFormula>
+        <errorMessage>Only Sold-to Accounts can have Opportunities. Please select a Sold-to Account to create an Opportunity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictOpportunityStageUpdate</fullName>
+        <active>true</active>
+        <description>This validation rules restricts the Stage updates on opportunities related to Prospect Accounts</description>
+        <errorConditionFormula>IF(
+	AND(
+		NOT($Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),
+        ISCHANGED(StageName),
+        Account.RecordType.DeveloperName = &apos;PMC_SS_Prospect&apos;,
+        NOT( ISPICKVAL( Type , &apos;Indirect Sales&apos;) ), 
+		OR(
+		  ISPICKVAL(StageName,&apos;Proposal&apos;),
+		  ISPICKVAL(StageName,&apos;Finalize Quote&apos;),
+		  ISPICKVAL(StageName,&apos;Closed Won&apos;)
+		)    
+       
+    ), 
+true, 
+false
+)</errorConditionFormula>
+        <errorMessage>Prospect Accounts are not eligible for the stage you’re selecting. Please start the Credit Check Process to convert this account to a Customer Account</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>SBQQ__Amend_Assets</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Amend Assets</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/SBQQ__AssetSelector?accountId={!Opportunity.AccountId}&amp;oppId={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Amend_Contract</fullName>
+        <availability>online</availability>
+        <description>Redirects to a contract selector page to select contracts to amend.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Amend Contract</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__SelectContractOpp</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__CreateOrder</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Order</masterLabel>
+        <openType>noSidebar</openType>
+        <page>SBQQ__GenerateOrder</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Include_Document</fullName>
+        <availability>online</availability>
+        <description>Allow users to attach the PDF to the opportunity</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Include Document</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__NewOpportunityRelatedContent</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SDOC__Email_Docs</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Email S-Docs</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(&apos;/apex/SDOC__SDEmail&apos;, null,[id=Opportunity.Id, Object=&apos;Opportunity&apos;])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SDOC__S_Docs</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>S-Docs</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(&apos;/apex/SDOC__SDCreate1&apos;, null, [id=Opportunity.Id, Object=&apos;Opportunity&apos;])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>sbaa__PreviewApprovals</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Preview Approvals</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/SBAA__PreviewApprovals?id={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>sbaa__RecallApprovals</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Recall Approvals</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/SBAA__RecallOpportunity?id={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>sbaa__ResendRequestEmail</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Resend Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/SBAA__ListRequests?id={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>sbaa__SubmitForApproval</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Submit for Approval</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/SBAA__SubmitOpportunity?id={!Opportunity.Id}</url>
+    </webLinks>
+</CustomObject>

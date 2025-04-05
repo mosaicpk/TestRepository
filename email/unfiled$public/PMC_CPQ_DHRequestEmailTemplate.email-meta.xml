@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DH Request Email Template</name>
+    <style>none</style>
+    <subject>Quote {!sbaa__Approval__c.Quote__c} is Submitted for your Approval !</subject>
+    <textOnly>Hi {!sbaa__Approval__c.sbaa__Approver__c}   
+
+The Quote {!sbaa__Approval__c.Quote__c} is ready for approval. Please find the record here {!sbaa__Approval__c.Link}.   
+
+Thank you.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

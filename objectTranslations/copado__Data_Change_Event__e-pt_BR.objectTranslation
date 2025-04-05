@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Copado Data Change Event --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Copado Data Change Event --></value>
+    </caseValues>
+    <fields>
+        <label>Objeto de base</label>
+        <name>copado__Base_Object__c</name>
+    </fields>
+    <fields>
+        <label>Valor antigo</label>
+        <name>copado__Old_Value__c</name>
+    </fields>
+    <fields>
+        <label>ID do registro</label>
+        <name>copado__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>Código do assinante</label>
+        <name>copado__Subscriber_Code__c</name>
+    </fields>
+    <fields>
+        <label>Ação de acionamento</label>
+        <name>copado__Triggering_Action__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This metadata is used to set the Case priority based on Case Type And Account Segmentation.</description>
+    <fields>
+        <fullName>PMC_SS_IssueReason__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Issue Reason</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Delivery Delay</fullName>
+                    <default>false</default>
+                    <label>Delivery Delay</label>
+                </value>
+                <value>
+                    <fullName>Missing Cargo</fullName>
+                    <default>false</default>
+                    <label>Missing Cargo</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Destination</fullName>
+                    <default>false</default>
+                    <label>Incorrect Destination</label>
+                </value>
+                <value>
+                    <fullName>Ship Date / Scheduling</fullName>
+                    <default>false</default>
+                    <label>Ship Date / Scheduling</label>
+                </value>
+                <value>
+                    <fullName>Equipment Failure</fullName>
+                    <default>false</default>
+                    <label>Equipment Failure</label>
+                </value>
+                <value>
+                    <fullName>Diversion</fullName>
+                    <default>false</default>
+                    <label>Diversion</label>
+                </value>
+                <value>
+                    <fullName>Demurrage</fullName>
+                    <default>false</default>
+                    <label>Demurrage</label>
+                </value>
+                <value>
+                    <fullName>Incorrect UOM</fullName>
+                    <default>false</default>
+                    <label>Incorrect UOM</label>
+                </value>
+                <value>
+                    <fullName>Driver Verification/Change</fullName>
+                    <default>false</default>
+                    <label>Driver Verification/Change</label>
+                </value>
+                <value>
+                    <fullName>Route / Directions</fullName>
+                    <default>false</default>
+                    <label>Route / Directions</label>
+                </value>
+                <value>
+                    <fullName>Warehouse</fullName>
+                    <default>false</default>
+                    <label>Warehouse</label>
+                </value>
+                <value>
+                    <fullName>Mode of transportation</fullName>
+                    <default>false</default>
+                    <label>Mode of transportation</label>
+                </value>
+                <value>
+                    <fullName>Weight Discrepancy</fullName>
+                    <default>false</default>
+                    <label>Weight Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Product</fullName>
+                    <default>false</default>
+                    <label>Incorrect Product</label>
+                </value>
+                <value>
+                    <fullName>Product Concern</fullName>
+                    <default>false</default>
+                    <label>Product Concern</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Label</fullName>
+                    <default>false</default>
+                    <label>Incorrect Label</label>
+                </value>
+                <value>
+                    <fullName>Product Request</fullName>
+                    <default>false</default>
+                    <label>Product Request</label>
+                </value>
+                <value>
+                    <fullName>Account Issues</fullName>
+                    <default>false</default>
+                    <label>Account Issues</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Document Request</fullName>
+                    <default>false</default>
+                    <label>Document Request</label>
+                </value>
+                <value>
+                    <fullName>Data Entry</fullName>
+                    <default>false</default>
+                    <label>Data Entry</label>
+                </value>
+                <value>
+                    <fullName>Planning</fullName>
+                    <default>false</default>
+                    <label>Planning</label>
+                </value>
+                <value>
+                    <fullName>Stock Out / Plant Outage</fullName>
+                    <default>false</default>
+                    <label>Stock Out / Plant Outage</label>
+                </value>
+                <value>
+                    <fullName>Article Request</fullName>
+                    <default>false</default>
+                    <label>Article Request</label>
+                </value>
+                <value>
+                    <fullName>MDM Verification</fullName>
+                    <default>false</default>
+                    <label>MDM Verification</label>
+                </value>
+                <value>
+                    <fullName>Incorrect Vehicle ID</fullName>
+                    <default>false</default>
+                    <label>Incorrect Vehicle ID</label>
+                </value>
+                <value>
+                    <fullName>Invoice Adjustments</fullName>
+                    <default>false</default>
+                    <label>Invoice Adjustments</label>
+                </value>
+                <value>
+                    <fullName>Order Date</fullName>
+                    <default>false</default>
+                    <label>Order Date</label>
+                </value>
+                <value>
+                    <fullName>Destination Change</fullName>
+                    <default>false</default>
+                    <label>Destination Change</label>
+                </value>
+                <value>
+                    <fullName>Amendment</fullName>
+                    <default>false</default>
+                    <label>Amendment</label>
+                </value>
+                <value>
+                    <fullName>Origin Change</fullName>
+                    <default>false</default>
+                    <label>Origin Change</label>
+                </value>
+                <value>
+                    <fullName>Payer Change</fullName>
+                    <default>false</default>
+                    <label>Payer Change</label>
+                </value>
+                <value>
+                    <fullName>Payment Terms</fullName>
+                    <default>false</default>
+                    <label>Payment Terms</label>
+                </value>
+                <value>
+                    <fullName>IncoTerms</fullName>
+                    <default>false</default>
+                    <label>IncoTerms</label>
+                </value>
+                <value>
+                    <fullName>Contract Validity Dates</fullName>
+                    <default>false</default>
+                    <label>Contract Validity Dates</label>
+                </value>
+                <value>
+                    <fullName>Call by Date</fullName>
+                    <default>false</default>
+                    <label>Call by Date</label>
+                </value>
+                <value>
+                    <fullName>Unblock Contract</fullName>
+                    <default>false</default>
+                    <label>Unblock Contract</label>
+                </value>
+                <value>
+                    <fullName>Volume Change</fullName>
+                    <default>false</default>
+                    <label>Volume Change</label>
+                </value>
+                <value>
+                    <fullName>General Order Updates</fullName>
+                    <default>false</default>
+                    <label>General Order Updates</label>
+                </value>
+                <value>
+                    <fullName>Credits</fullName>
+                    <default>false</default>
+                    <label>Credits</label>
+                </value>
+                <value>
+                    <fullName>Debits</fullName>
+                    <default>false</default>
+                    <label>Debits</label>
+                </value>
+                <value>
+                    <fullName>Other Reason</fullName>
+                    <default>false</default>
+                    <label>Other Reason</label>
+                </value>
+                <value>
+                    <fullName>Rebate</fullName>
+                    <default>false</default>
+                    <label>Rebate</label>
+                </value>
+                <value>
+                    <fullName>Cancellation</fullName>
+                    <default>false</default>
+                    <label>Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Change to loading priorities</fullName>
+                    <default>false</default>
+                    <label>Change to loading priorities</label>
+                </value>
+                <value>
+                    <fullName>Consignment</fullName>
+                    <default>false</default>
+                    <label>Consignment</label>
+                </value>
+                <value>
+                    <fullName>Credit Request</fullName>
+                    <default>false</default>
+                    <label>Credit Request</label>
+                </value>
+                <value>
+                    <fullName>Exchange Closing</fullName>
+                    <default>false</default>
+                    <label>Exchange Closing</label>
+                </value>
+                <value>
+                    <fullName>Export prioritization</fullName>
+                    <default>false</default>
+                    <label>Export prioritization</label>
+                </value>
+                <value>
+                    <fullName>Financial Solution</fullName>
+                    <default>false</default>
+                    <label>Financial Solution</label>
+                </value>
+                <value>
+                    <fullName>IntelliTrans</fullName>
+                    <default>false</default>
+                    <label>IntelliTrans</label>
+                </value>
+                <value>
+                    <fullName>Reclaim rates (mechanical breakdown/lower than typical rates)</fullName>
+                    <default>false</default>
+                    <label>Reclaim rates (mechanical breakdown/lower than typical rates)</label>
+                </value>
+                <value>
+                    <fullName>Cultivar Rebate</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cultivar Rebate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Priority__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Priority</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>true</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Segmentation__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Segmentation</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Strategic</fullName>
+                    <default>true</default>
+                    <label>Strategic</label>
+                </value>
+                <value>
+                    <fullName>Core</fullName>
+                    <default>false</default>
+                    <label>Core</label>
+                </value>
+                <value>
+                    <fullName>Base</fullName>
+                    <default>false</default>
+                    <label>Base</label>
+                </value>
+                <value>
+                    <fullName>Prime</fullName>
+                    <default>false</default>
+                    <label>Prime</label>
+                </value>
+                <value>
+                    <fullName>Ultra</fullName>
+                    <default>false</default>
+                    <label>Ultra</label>
+                </value>
+                <value>
+                    <fullName>Grow</fullName>
+                    <default>false</default>
+                    <label>Grow</label>
+                </value>
+                <value>
+                    <fullName>Basic</fullName>
+                    <default>false</default>
+                    <label>Basic</label>
+                </value>
+                <value>
+                    <fullName>Mega Farmers</fullName>
+                    <default>false</default>
+                    <label>Mega Farmers</label>
+                </value>
+                <value>
+                    <fullName>Top Farmers</fullName>
+                    <default>false</default>
+                    <label>Top Farmers</label>
+                </value>
+                <value>
+                    <fullName>Farmers</fullName>
+                    <default>false</default>
+                    <label>Farmers</label>
+                </value>
+                <value>
+                    <fullName>Mid Farmers</fullName>
+                    <default>false</default>
+                    <label>Mid Farmers</label>
+                </value>
+                <value>
+                    <fullName>Small Farmers</fullName>
+                    <default>false</default>
+                    <label>Small Farmers</label>
+                </value>
+                <value>
+                    <fullName>Key</fullName>
+                    <default>false</default>
+                    <label>Key</label>
+                </value>
+                <value>
+                    <fullName>Canal KAM</fullName>
+                    <default>false</default>
+                    <label>Canal - KAM</label>
+                </value>
+                <value>
+                    <fullName>Trader KAM</fullName>
+                    <default>false</default>
+                    <label>Trader - KAM</label>
+                </value>
+                <value>
+                    <fullName>Mega Farmer KAM</fullName>
+                    <default>false</default>
+                    <label>EU - KAM Mega Farmer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Type__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Shipping</fullName>
+                    <default>true</default>
+                    <label>Shipping</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Invoice</fullName>
+                    <default>false</default>
+                    <label>Invoice</label>
+                </value>
+                <value>
+                    <fullName>Mosaic Direct</fullName>
+                    <default>false</default>
+                    <label>Mosaic Direct</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+                <value>
+                    <fullName>Transactions</fullName>
+                    <default>false</default>
+                    <label>Transactions</label>
+                </value>
+                <value>
+                    <fullName>Billing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Billing</label>
+                </value>
+                <value>
+                    <fullName>Internal Request</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Internal Request</label>
+                </value>
+                <value>
+                    <fullName>NPK Blend Request</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NPK Blend Request</label>
+                </value>
+                <value>
+                    <fullName>New Product Registration</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>New Product Registration</label>
+                </value>
+                <value>
+                    <fullName>Order</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Order</label>
+                </value>
+                <value>
+                    <fullName>Technical</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Technical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>PMC SS Case Priority Assignment</label>
+    <pluralLabel>PMC SS Case Priority Assignments</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

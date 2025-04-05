@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Sales Area --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Sales Area --></value>
+    </caseValues>
+    <fields>
+        <label>CNPJ da Entidade</label>
+        <name>Entity_CNPJ__c</name>
+    </fields>
+    <fields>
+        <label>Mosaic LLP (dependente)</label>
+        <name>PMC_CPQ_MosaicLLP__c</name>
+        <picklistValues>
+            <masterLabel>Comp. Minera Miski Mayo</masterLabel>
+            <translation><!-- Comp. Minera Miski Mayo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fospar SA</masterLabel>
+            <translation><!-- Fospar SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mos Ag Innovation Sol,LLC</masterLabel>
+            <translation>Mos Ag Innovation Sol, LLC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Crop Nutrit, LP</masterLabel>
+            <translation><!-- Mosaic CA Crop Nutrit, LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Canada ULC (BP)</masterLabel>
+            <translation><!-- Mosaic Canada ULC (BP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Crop Nutrition LLC</masterLabel>
+            <translation><!-- Mosaic Crop Nutrition LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizantes Ltd.</masterLabel>
+            <translation><!-- Mosaic Fertilizantes Ltd. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizantes P&amp;K</masterLabel>
+            <translation><!-- Mosaic Fertilizantes P&amp;K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizantes do B</masterLabel>
+            <translation><!-- Mosaic Fertilizantes do B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizer LLC</masterLabel>
+            <translation><!-- Mosaic Fertilizer LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizers (BJ)</masterLabel>
+            <translation><!-- Mosaic Fertilizers (BJ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizers (HK) L</masterLabel>
+            <translation><!-- Mosaic Fertilizers (HK) L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizers (QHD)</masterLabel>
+            <translation><!-- Mosaic Fertilizers (QHD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizers (YT)</masterLabel>
+            <translation><!-- Mosaic Fertilizers (YT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertz Paraguay SRL</masterLabel>
+            <translation><!-- Mosaic Fertz Paraguay SRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Global Sales LLC</masterLabel>
+            <translation><!-- Mosaic Global Sales LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic India Private Ltd.</masterLabel>
+            <translation><!-- Mosaic India Private Ltd. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potash Carlsbad In</masterLabel>
+            <translation>Mosaic Potash Carlsbad Em</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potash Colonsay UL</masterLabel>
+            <translation><!-- Mosaic Potash Colonsay UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potash Esterhazy</masterLabel>
+            <translation><!-- Mosaic Potash Esterhazy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potássio Mineração</masterLabel>
+            <translation><!-- Mosaic Potássio Mineração --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Sulphur Partners, LLC</masterLabel>
+            <translation><!-- Mosaic Sulphur Partners, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tampa Port Services, LLC</masterLabel>
+            <translation>Serviços Portuários de Tampa, LLC</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Organização de vendas da SAP</label>
+        <name>PMC_CPQ_SAPSalesOrganization__c</name>
+    </fields>
+    <fields>
+        <label>Área de vendas</label>
+        <name>PMC_DH_SalesArea__c</name>
+    </fields>
+    <fields>
+        <label>Canal de distribuição</label>
+        <name>PMC_SS_DistributionChannel__c</name>
+        <picklistValues>
+            <masterLabel>Common</masterLabel>
+            <translation>Comum</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Divisão</label>
+        <name>PMC_SS_Division__c</name>
+        <picklistValues>
+            <masterLabel>Domestic</masterLabel>
+            <translation>Doméstico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>Exportação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation>Intercompanhia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Endereço da Entidade</label>
+        <name>PMC_SS_EntityAddress__c</name>
+    </fields>
+    <fields>
+        <label>Escritório de vendas</label>
+        <name>PMC_SS_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label>Organização de vendas</label>
+        <name>PMC_SS_SalesOrganization__c</name>
+        <picklistValues>
+            <masterLabel>Fospar SA</masterLabel>
+            <translation><!-- Fospar SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minera Miski Mayo</masterLabel>
+            <translation><!-- Minera Miski Mayo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mos. Sulphur Partner</masterLabel>
+            <translation>Mos. Parceiro Sulphur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Ag Innov Sol</masterLabel>
+            <translation><!-- Mosaic Ag Innov Sol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Colonsay</masterLabel>
+            <translation><!-- Mosaic CA Colonsay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Crop Nutri</masterLabel>
+            <translation><!-- Mosaic CA Crop Nutri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Esterhazy</masterLabel>
+            <translation><!-- Mosaic CA Esterhazy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA ULC (BP)</masterLabel>
+            <translation><!-- Mosaic CA ULC (BP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CN Fertilizer</masterLabel>
+            <translation>Mosaic CN Fertilizante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert BMF</masterLabel>
+            <translation><!-- Mosaic Fert BMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert Bahamas</masterLabel>
+            <translation><!-- Mosaic Fert Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert Brasil</masterLabel>
+            <translation><!-- Mosaic Fert Brasil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert P&amp;K</masterLabel>
+            <translation><!-- Mosaic Fert P&amp;K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert Paraguay</masterLabel>
+            <translation>Mosaic Fert Paraguai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert QMF</masterLabel>
+            <translation><!-- Mosaic Fert QMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert YMF</masterLabel>
+            <translation><!-- Mosaic Fert YMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert. (HK)</masterLabel>
+            <translation><!-- Mosaic Fert. (HK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizer</masterLabel>
+            <translation><!-- Mosaic Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Global Sales</masterLabel>
+            <translation>Vendas globais da Mosaic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic India Pvt Ltd</masterLabel>
+            <translation><!-- Mosaic India Pvt Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potash Carlsb</masterLabel>
+            <translation><!-- Mosaic Potash Carlsb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potássio Mine</masterLabel>
+            <translation>Mina de Potássio Mosaic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tampa Port Services</masterLabel>
+            <translation>Serviços portuários de Tampa</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Sales Area Name --></nameFieldLabel>
+</CustomObjectTranslation>

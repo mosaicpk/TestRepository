@@ -1,0 +1,69 @@
+<apex:component controller="ApprovalReqEmailCompController" access="global" >
+    <apex:slds />
+        <style>
+            table{width:100%;}th{background-color:#CCCCCC;}
+            table,tr,th,td{padding:4px;border:1px;border-spacing: 0;border-style: solid;border-collapse: collapse;}
+        </style>
+<apex:attribute name="quote" description="quote id"  assignTo="{!quoteId}" type="String"/>
+    
+  
+    <apex:repeat value="{!quoteInfo}" var="Quotedetails">
+        <br/>
+        A quote has been submitted for your approval by {!quoteInfo.SubmittedUser__r.Name}.
+        <a href="{!LEFT($Api.Partner_Server_URL_270,FIND('.com',$Api.Partner_Server_URL_270)+4)+Quotedetails.id}" onclick="return (function() { if(srcUp) { srcUp('{!LEFT($Api.Partner_Server_URL_270,FIND('.com',$Api.Partner_Server_URL_270)+4)+Quotedetails.id}'); return false; } })()">View Quote</a>
+    </apex:repeat>
+    
+
+
+<!-- PRODUCT & PRICING INFO -->
+
+    <p><b><u>Quote Summary</u></b></p>
+    <b> Customer Name:</b><apex:outputText value="{!quoteInfo.SBQQ__Account__r.Name}"/><br/>
+    <b> Quote Description:</b><apex:outputText value="{!quoteInfo.PMC_CPQ_QuoteShortNameDescription__c}"/><br/>
+    <b> Quote Issue Date:</b><apex:outputText value="{0,date,MM/dd/yyyy}">
+        <apex:param value="{!quoteInfo.CreatedDate}" />
+        </apex:outputText>
+    <br/><b>Contract Validity:</b><apex:outputText value="{0,date,MM/dd/yyyy}">
+        <apex:param value="{!quoteInfo.PMC_CPQ_ContractEnd__c}" />
+        </apex:outputText>
+    <br/><b> Currency:</b><apex:outputText value="{!quoteInfo.CurrencyIsoCode}"/>
+    <br/><b> Quote Type:</b><apex:outputText value="{!quoteInfo.SBQQ__Type__c}"/>
+    <br /><br/> 
+    
+    <p><b><u>Quote Line Items</u></b></p>
+    <table id="lineTable">
+        <tr>
+            <th>Product</th>
+            <th>Contract Type</th>
+            <th>Price per Ton</th>
+            <th>Delta to Target Price</th>
+            <th>Delta to Floor Price</th>
+            <th>Volume Discount</th>
+            <th>Discount/Markup</th>
+            <th>Comments</th>
+            <th>Ex-Space Indicator</th>           
+        </tr>
+        <apex:repeat value="{!qLines}" var="line">
+            <tr>
+                <td><a href="{!LEFT($Api.Partner_Server_URL_270,FIND('.com',$Api.Partner_Server_URL_270)+4)+line.SBQQ__Product__c}" onclick="return (function() { if(srcUp) { srcUp('{!LEFT($Api.Partner_Server_URL_270,FIND('.com',$Api.Partner_Server_URL_270)+4)+line.SBQQ__Product__c}'); return false; } })()">{!line.SBQQ__ProductName__c}</a></td> 
+                    
+                <td><apex:outputText value="{!line.PMC_CPQ_ContractType__c}"/></td>
+                  <td><apex:outputText value="{0, number, Currency}">
+                    <apex:param value="{!line.PMC_CPQ_PriceGuidanceTarget__c}" />
+                    </apex:outputText></td>
+                <td><apex:outputText value="{0, number, Currency}">
+                    <apex:param value="{!line.PMC_CPQ_PriceGuidanceFloor__c}" />
+                    </apex:outputText></td>
+                <td><apex:outputText value="{0, number, Currency}">
+                    <apex:param value="{!line.PMC_CPQ_VolumeDiscount__c}" />
+                    </apex:outputText></td>
+                <td><apex:outputText value="{0, number, 0.00}">
+                    <apex:param value="{!line.PMC_CPQ_Discount__c}" />  
+                    </apex:outputText></td>
+                <td><apex:outputText value="{!line.PMC_CPQ_GeneralComments__c}"/></td>
+               
+            </tr>
+        </apex:repeat>
+    </table>
+
+</apex:component>

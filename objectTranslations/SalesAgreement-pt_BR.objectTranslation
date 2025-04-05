@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Segmentation --></label>
+        <name>PMC_AccountSegmentation__c</name>
+    </fields>
+    <fields>
+        <label>Status do documento do acordo</label>
+        <name>PMC_CLM_AgreementDocumentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Signed</masterLabel>
+            <translation>Parcialmente assinado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Signatures</masterLabel>
+            <translation>Assinaturas pendentes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de alteração</label>
+        <name>PMC_CLM_AmendmentNumber__c</name>
+    </fields>
+    <fields>
+        <label>Número automático do contrato de vendas</label>
+        <name>PMC_CLM_SalesAgreementAutoNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- isAmendment --></label>
+        <name>PMC_CLM_isAmendment__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de contrato</label>
+        <name>PMC_SS_AgreementType__c</name>
+        <picklistValues>
+            <masterLabel>Annual Sales Agreement</masterLabel>
+            <translation>Contrato anual de vendas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Partner Agreement</masterLabel>
+            <translation>Contrato de parceiro de negócios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ex-Space Agreement</masterLabel>
+            <translation>Acordo Ex-Space</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Sales Agreement</masterLabel>
+            <translation>Contrato básico de vendas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Motivo da alteração</label>
+        <name>PMC_SS_AmendedReason__c</name>
+        <picklistValues>
+            <masterLabel>Changes in Circumstance</masterLabel>
+            <translation>Mudanças nas circunstâncias</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changes to Terms</masterLabel>
+            <translation>Alterações nos termos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispute</masterLabel>
+            <translation>Disputa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error Correction</masterLabel>
+            <translation>Correção de erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Product Interests</masterLabel>
+            <translation>Interesses em novos produtos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status de aprovação</label>
+        <name>PMC_SS_ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation>Negado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation>Não enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Revision</masterLabel>
+            <translation>Em revisão</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Calcular valores reais usando DPE</label>
+        <name>PMC_SS_CalculateActualValuesUsingDPE__c</name>
+    </fields>
+    <fields>
+        <label>Status anterior</label>
+        <name>PMC_SS_PreviousStatus__c</name>
+    </fields>
+    <fields>
+        <label>Preços</label>
+        <name>PMC_SS_Pricing__c</name>
+    </fields>
+    <fields>
+        <label>Contrato de vendas Id externo</label>
+        <name>PMC_SS_SalesAgreementExternalId__c</name>
+    </fields>
+    <fields>
+        <label>Total de incentivos Ex-Space</label>
+        <name>PMC_SS_TotalExSpaceIncentives__c</name>
+    </fields>
+    <fields>
+        <label>Total de incentivos ao crescimento</label>
+        <name>PMC_SS_TotalGrowthIncentives__c</name>
+    </fields>
+    <fields>
+        <label>Total de incentivos potenciais</label>
+        <name>PMC_SS_TotalPotentialIncentives__c</name>
+    </fields>
+    <fields>
+        <label>Incentivos de volume total</label>
+        <name>PMC_SS_TotalVolumeIncentives__c</name>
+    </fields>
+    <fields>
+        <label>Unidade de medida</label>
+        <name>PMC_SS_UnitofMeasure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this field if Sales Agreement doesn&apos;t need Rebate Programs and Document Generation for Activation --></help>
+        <label><!-- Skip DocuSign Process --></label>
+        <name>PMC_SkipDocuSignProcess__c</name>
+    </fields>
+    <recordTypes>
+        <description>Contrato de vendas para usuários do Brasil.</description>
+        <label>Contrato anual de vendas</label>
+        <name>PMC_SS_AnnualSalesAgreement</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Contrato de vendas para usuários da América do Norte.</description>
+        <label>Contrato de parceiro de negócios</label>
+        <name>PMC_SS_BusinessPartnerAgreement</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Acordo industrial de longo prazo</description>
+        <label>Acordo industrial de longo prazo</label>
+        <name>PMC_SS_IndustrialLongTermAgreement</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Acordo internacional de longo prazo</description>
+        <label>Acordo internacional de longo prazo</label>
+        <name>PMC_SS_InternationalLongTermAgreement</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>O Contrato de Vendas arquivado não pode ser atualizado.</errorMessage>
+        <name>PMC_SS_RestrictSalesAgmtEditWhenArchived</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Esse Contrato de Vendas não pode ser editado nesse estágio. Entre em contato com seu administrador do Salesforce para obter assistência.</errorMessage>
+        <name>PMC_SS_RestrictSalesAgreementEdit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O Contrato de Vendas não pode ser movido de Aprovado para outro estágio. Altere o Contrato de Vendas para fazer quaisquer alterações.</errorMessage>
+        <name>PMC_SS_RestrictStatusChangeAfterApproved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O contrato de venda deve ser aprovado internamente antes de ser enviado ao cliente, portanto, este SA não pode ser criado/atualizado com o status “Pendente com o cliente”</errorMessage>
+        <name>PMC_SS_RestrictStatusJustPendingWithCust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Este contrato já foi aprovado, portanto, não pode ser movido para Rascunho ou Arquivado. Altere o novo Contrato de Vendas se forem necessárias modificações.</errorMessage>
+        <name>PMC_SS_RestrictStatusPendingCustToDraft</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O contrato de vendas não pode ser criado com o status &quot;Pendente com o cliente&quot; ou atualizado manualmente de/para o status &quot;Pendente com o cliente&quot;.</errorMessage>
+        <name>PMC_SS_RestrictStatusPendingWithCustomer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Error Message Test --></errorMessage>
+        <name>SP10ValidationRule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_BPA --></label>
+        <name>Generate_BPA</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar contrato anual de fornecimento</label>
+        <name>PMC_CLM_AnnualSupplyAgreement</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar acordo internacional</label>
+        <name>PMC_CLM_GenerateInternationalAgreement</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar Acordo</label>
+        <name>PMC_CLM_Generate_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar contrato de parceiro de negócios</label>
+        <name>PMC_CLM_Generate_BPA</name>
+    </webLinks>
+</CustomObjectTranslation>

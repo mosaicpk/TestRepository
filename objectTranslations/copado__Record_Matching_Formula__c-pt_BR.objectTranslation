@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Record Matching Formula --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Record Matching Formula --></value>
+    </caseValues>
+    <fields>
+        <help>A Credencial de onde o Copado recupera a lista de objetos e campos disponíveis para criar a fórmula.</help>
+        <label>Credencial do esquema de configuração</label>
+        <name>copado__Configuration_Source_Org__c</name>
+        <relationshipLabel>Fórmulas de correspondência de registros</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Primeiro campo da fórmula</help>
+        <label>Campo 1</label>
+        <name>copado__Field_1__c</name>
+    </fields>
+    <fields>
+        <help>Segundo campo na fórmula</help>
+        <label>Campo 2</label>
+        <name>copado__Field_2__c</name>
+    </fields>
+    <fields>
+        <help>Terceiro campo na fórmula</help>
+        <label>Campo 3</label>
+        <name>copado__Field_3__c</name>
+    </fields>
+    <fields>
+        <label>Etiquetas de campo</label>
+        <name>copado__Field_Labels__c</name>
+    </fields>
+    <fields>
+        <help>O hashing da fórmula substituirá o valor original por um conjunto exclusivo e de tamanho fixo de caracteres aleatórios. Isso garantirá que o valor não exceda o limite de caracteres do campo External Id, mas não será legível.</help>
+        <label>Hash Valor de identificação externa</label>
+        <name>copado__Hash_Formula__c</name>
+    </fields>
+    <fields>
+        <help>Selecione o objeto no menu suspenso para configurar a fórmula. Os campos disponíveis para a fórmula são baseados no objeto selecionado e na organização de origem.</help>
+        <label>Objeto</label>
+        <name>copado__Object__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Record Matching Formula Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não é possível alterar a Credencial do esquema de configuração depois que o valor for selecionado.</errorMessage>
+        <name>copado__RestrictSchemaCredentialModification</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Miski Mayo Aura</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Conócenos</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Nosotros</label>
+                <position>0</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/nosotros</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Nuestros accionistas</label>
+                <position>1</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/nuestras-accionistas</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Nuestros Líderes</label>
+                <position>2</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/nuestros-lderes</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Premios y reconocimientos</label>
+                <position>3</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/premios-y-reconocimientos</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Mineria Verde</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Proceso productivo</label>
+                <position>0</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/proceso-productivo</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Hacemos Minería Verde</label>
+                <position>1</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/hacemos-minera-verde</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Nuestro producto</label>
+                <position>2</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/nuestro-producto</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Sostenibilidad</label>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Gestión Social</label>
+                <position>0</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/gestion-social</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Seguridad</label>
+                <position>1</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/seguridad</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Salud</label>
+                <position>2</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/salud</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Gestión Ambiental</label>
+                <position>3</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/gestin-ambiental</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Politicas Corporativas</label>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Politica Sig y Politica SSMA</label>
+                <position>0</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/politica-sig-y-politica-ssma</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Ética y cumplimiento</label>
+                <position>1</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/capacitaciones-d-i-a-colaboradores-y-ld</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Política de Prevención</label>
+                <position>2</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/poltica-de-prevencin</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Código de conducta ética del proveedor</label>
+                <position>3</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/cdigo-de-conducta-tica-del-proveedor</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Diversidad e inclusión</label>
+                <position>4</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/diversidad-e-inclusin</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Noticias Y Publicaciones</label>
+        <position>5</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>https://enfoquedigitalweb.com/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Mesa de partes</label>
+        <position>6</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>https://enfoquedigitalweb.com/</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

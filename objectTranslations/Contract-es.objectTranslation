@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Búsqueda de contratos activos</label>
+        <name>SBQQ__ActiveContractLookup</name>
+    </fieldSets>
+    <fields>
+        <label><!-- DaysBeforeExpiry --></label>
+        <name>DaysBeforeExpiry__c</name>
+    </fields>
+    <fields>
+        <label>Número de Modificación</label>
+        <name>PMC_CLM_AmendmentNumber__c</name>
+    </fields>
+    <fields>
+        <label>Número de referencia del contrato</label>
+        <name>PMC_CLM_ContractReferenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>PMC_CPQ_AccountManager__c</name>
+        <relationshipLabel><!-- Contracts (Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cuenta a se facturar</label>
+        <name>PMC_CPQ_BillToAccount__c</name>
+        <relationshipLabel>Contratos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identificador del número de contrato</label>
+        <name>PMC_CPQ_ContractNumberIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Instrucciones de envío</label>
+        <name>PMC_CPQ_ContractShippingInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de contrato</label>
+        <name>PMC_CPQ_ContractType__c</name>
+        <picklistValues>
+            <masterLabel>CCC Contract Truck</masterLabel>
+            <translation>Camión contractual CCC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD Contract Barge</masterLabel>
+            <translation>Contrato FPD Barcaza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD Contract Rail</masterLabel>
+            <translation>Contrato FPD Ferrocarril</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD Contract Truck</masterLabel>
+            <translation>Camión con contrato FPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced Contract Barge</masterLabel>
+            <translation>Contrato tarifado Barcaza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced Contract Rail</masterLabel>
+            <translation>Contrato tarifado Ferrocarril</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced Contract Truck</masterLabel>
+            <translation>Contrato tarifado Camión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Delivery</masterLabel>
+            <translation>Entrega por terceros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Blocked --></label>
+        <name>PMC_CPQ_Contract_Blocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Priced Date --></label>
+        <name>PMC_CPQ_LastPricedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Quote --></label>
+        <name>PMC_CPQ_LatestQuote__c</name>
+        <relationshipLabel><!-- Contracts (Latest Quote) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de contrato legacy</label>
+        <name>PMC_CPQ_LegacyContractID__c</name>
+    </fields>
+    <fields>
+        <label>Nº del pedido de compra del cliente</label>
+        <name>PMC_CPQ_PO__c</name>
+    </fields>
+    <fields>
+        <label>T�rminos de pago</label>
+        <name>PMC_CPQ_PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>05 Days - Document Lock Date</masterLabel>
+            <translation>05 días - Fecha de bloqueo del documento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Invoicing Date</masterLabel>
+            <translation>2 cuotas a partir de la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Next Month Invoicing Date</masterLabel>
+            <translation><!-- 2 Installments From Next Month Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Invoicing Date</masterLabel>
+            <translation>3 cuotas a partir de la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Next Month Invoicing Date</masterLabel>
+            <translation><!-- 3 Installments From Next Month Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Installments From Invoicing Date</masterLabel>
+            <translation>4 cuotas a partir de la fecha de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Doc - 60 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 60 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents</masterLabel>
+            <translation>Efectivo contra documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 10 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 10 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 120 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 120 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 15 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 15 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 180 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 180 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 30 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 30 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 45 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 45 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 5 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 5 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 7 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 7 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 90 Days From BL</masterLabel>
+            <translation>Efectivo contra documentos - 90 días a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C At Sight</masterLabel>
+            <translation><!-- Confirmed L/C At Sight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 10th Of Following Quarter</masterLabel>
+            <translation>Vence el 10 del trimestre siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 1st Of Following Month</masterLabel>
+            <translation>Vence el 01 del mes siguiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day - Next 3rd Month</masterLabel>
+            <translation><!-- First Day - Next 3rd Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Date</masterLabel>
+            <translation>Fecha fija</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 1 Day - From Invoicing Date</masterLabel>
+            <translation><!-- Net 1 Day - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 10 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days From First Day Next Month</masterLabel>
+            <translation><!-- Net 10 Days From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 105 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 105 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 120 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 14 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 14 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 15 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 From First Day Next Month</masterLabel>
+            <translation><!-- Net 15 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 150 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 150 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 17 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 17 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 180 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 180 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 2 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 2 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 20 From First Day Next Month</masterLabel>
+            <translation><!-- Net 20 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 21 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 21 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 210 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 210 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 270 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 270 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 28 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 28 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 29 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 29 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 3 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 3 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 30 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 From First Day Next Month</masterLabel>
+            <translation><!-- Net 30 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 31 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 31 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 35 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 35 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 42 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 42 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 45 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 60 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 7 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 7 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 70 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 70 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 75 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 75 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 80 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 80 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 84 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 84 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 90 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation><!-- Prepayment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Contacto del cliente</label>
+        <name>PMC_CPQ_PrimaryContact__c</name>
+        <relationshipLabel>Contratos</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Comments --></label>
+        <name>PMC_CPQ_ProductComments_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Contract Reference --></label>
+        <name>PMC_CPQ_SAPContractReference__c</name>
+    </fields>
+    <fields>
+        <label>Status de la factura</label>
+        <name>PMC_CPQ_Status__c</name>
+    </fields>
+    <fields>
+        <help>Determina si este contrato está en vigor.</help>
+        <label>Contrato activo</label>
+        <name>SBQQ__ActiveContract__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Tipo de registro de la oportunidad de modificación, a menos que se especifique lo contrario.&quot;</help>
+        <label>ID  Registro Oportunidad Modificación</label>
+        <name>SBQQ__AmendmentOpportunityRecordTypeId__c</name>
+    </fields>
+    <fields>
+        <help>La fase actual de la Modificación de Oportunidad.</help>
+        <label>Etapa de Modificación de oportunidad</label>
+        <name>SBQQ__AmendmentOpportunityStage__c</name>
+    </fields>
+    <fields>
+        <help>Propietario de la oportunidad original.</help>
+        <label>Propietario de la Modificación</label>
+        <name>SBQQ__AmendmentOwner__c</name>
+        <relationshipLabel>Contratos (Propietario de la Modificación)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID de Libro de Precio de su Modificación.</help>
+        <label>ID de Libro de Precio de la Modificación</label>
+        <name>SBQQ__AmendmentPricebookId__c</name>
+    </fields>
+    <fields>
+        <help>La base para calcular la fecha de inicio de la renovación y la fecha de finalización de la modificación.</help>
+        <label>Comportamiento Modificación y renovación</label>
+        <name>SBQQ__AmendmentRenewalBehavior__c</name>
+        <picklistValues>
+            <masterLabel>Earliest End Date</masterLabel>
+            <translation>Fecha de finalización más temprana</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest End Date</masterLabel>
+            <translation>Fecha de finalización límite</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Fecha de inicio de su Modificación. Si está en blanco, la Modificación comenzará en la fecha de hoy.&quot;</help>
+        <label>Fecha de inicio de la Modificación</label>
+        <name>SBQQ__AmendmentStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta opción para incluir las funciones de contacto de la oportunidad original en la oportunidad de renovación.</help>
+        <label>Funciones Predet. Renovación Contactos</label>
+        <name>SBQQ__DefaultRenewalContactRoles__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta opción para incluir a los socios de la oportunidad original en la oportunidad de renovación.</help>
+        <label>Socios de renovación por defecto</label>
+        <name>SBQQ__DefaultRenewalPartners__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si no está marcada, la Fecha de finalización del presupuesto de Modificación se establecerá de acuerdo con la configuración de Comportamiento de Modificación y Renovación. Si está marcada, no se establecerá ninguna Fecha de finalización.&quot;</help>
+        <label>Desactivar Co-Término de la Modificación</label>
+        <name>SBQQ__DisableAmendmentCoTerm__c</name>
+    </fields>
+    <fields>
+        <help>Indica si el contrato es perenne.</help>
+        <label>Permanente</label>
+        <name>SBQQ__Evergreen__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de finalización del contrato para su uso en flujos de trabajo basados en el tiempo.</help>
+        <label>Fecha de expiración</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help>Define cómo aparecerán los productos de suscripción segmentados en los presupuestos de renovación. De-Segmentado se renovará como una línea de presupuesto estándar con los datos del último segmento.</help>
+        <label>Comportamiento de la renovación MDQ</label>
+        <name>SBQQ__MDQRenewalBehavior__c</name>
+        <picklistValues>
+            <masterLabel>De-segmented</masterLabel>
+            <translation>De-segmentado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Seleccione esta opción para designar este contrato como el contrato principal de esta cuenta. Tras la renovación, todos los contratos se fusionarán en este.&quot;</help>
+        <label>Contrato principal</label>
+        <name>SBQQ__MasterContract__c</name>
+    </fields>
+    <fields>
+        <help>ID del Libro de Precios de la oportunidad o presupuesto relacionado.</help>
+        <label>Oportunidad ID Libro Precios Cotización</label>
+        <name>SBQQ__OpportunityPricebookId__c</name>
+    </fields>
+    <fields>
+        <help>La Oportunidad a partir de la cual se creó este Contrato.</help>
+        <label>Oportunidad</label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel>Contratos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pedido</label>
+        <name>SBQQ__Order__c</name>
+        <relationshipLabel>Contratos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación para mantener la jerarquía de paquetes en los presupuestos de renovación.</help>
+        <label>Conservar la estructura del agrupamiento</label>
+        <name>SBQQ__PreserveBundleStructureUponRenewals__c</name>
+    </fields>
+    <fields>
+        <help>Presupuesto a partir del cual se ha creado este Contrato.</help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Contratos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione esta opción para activar la generación de una oportunidad de renovación con fines de previsión. No genera automáticamente un presupuesto de renovación.</help>
+        <label>Previsión de renovación</label>
+        <name>SBQQ__RenewalForecast__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de registro de oportunidad de renovación si es diferente del predeterminado.</help>
+        <label>Id tipo registro oportunidad renovación</label>
+        <name>SBQQ__RenewalOpportunityRecordTypeId__c</name>
+    </fields>
+    <fields>
+        <help>Anula la etapa de oportunidad predeterminada para esta renovación. Esto debe hacerse antes de seleccionar Pronóstico de renovación para que surta efecto en la oportunidad de renovación.</help>
+        <label>Etapa de Oportunidad de Renovación</label>
+        <name>SBQQ__RenewalOpportunityStage__c</name>
+    </fields>
+    <fields>
+        <help>Oportunidad de renovación generada para realizar un seguimiento de la renovación de este contrato.</help>
+        <label>Oportunidad de renovación</label>
+        <name>SBQQ__RenewalOpportunity__c</name>
+        <relationshipLabel>Contratos de renovación</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Propietario de la oportunidad original.</help>
+        <label>Propietario de la Renovación</label>
+        <name>SBQQ__RenewalOwner__c</name>
+        <relationshipLabel>Contratos (Propietario de la Renovación)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifique un ID de libro de precios que se utilizará en las Oportunidades de renovación si no desea utilizar el ID de libro de precios de la oportunidad original.</help>
+        <label>Id de Libro de Precio de renovación</label>
+        <name>SBQQ__RenewalPricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta opción para generar automáticamente un presupuesto de renovación en las oportunidades de renovación.</help>
+        <label>Renovación Cotizada</label>
+        <name>SBQQ__RenewalQuoted__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Especifique el término de la renovación. Por defecto, coincide con el Término del contrato original.&quot;</help>
+        <label>Término de renovación</label>
+        <name>SBQQ__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <help>Tasa de aumento de los precios de renovación.</help>
+        <label>Uplift de renovación (%)</label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta opción para combinar cantidades de Suscripciones para el mismo producto en una sola línea en Presupuestos de renovación y Modificaciones Legacy.</help>
+        <label>Combinar cantidades de suscripción</label>
+        <name>SBQQ__SubscriptionQuantitiesCombined__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>El presupuesto de renovación sólo puede crearse antes de 30 días o menos de la fecha de finalización del contrato.</errorMessage>
+        <name>PMC_CLM_ContractRenewalValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Don&apos;t have edit access on contract --></errorMessage>
+        <name>PMC_CPQ_SSASSREditAccessRestriction</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Block_Replace_Contract --></label>
+        <name>Block_Replace_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label>Modificar</label>
+        <name>SBQQ__Amend</name>
+    </webLinks>
+    <webLinks>
+        <label>Renovar contratos</label>
+        <name>SBQQ__RenewContracts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
+    </webLinks>
+</CustomObjectTranslation>

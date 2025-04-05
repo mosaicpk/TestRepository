@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f3310e4e-310f-4cde-acef-2399a0a3b7a8",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "Order_Lookup",
+  "id" : "da447384-9cc5-4c14-a66b-85052a0fb46b",
+  "label" : "Order Lookup",
+  "routeType" : "order-lookup",
+  "type" : "route",
+  "urlPrefix" : "OrderLookup"
+}

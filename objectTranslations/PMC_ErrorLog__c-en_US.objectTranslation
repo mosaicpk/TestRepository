@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Error Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Error Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Serialized Object --></label>
+        <name>PMC_AdditionalSerializedObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>PMC_ClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>PMC_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMC_DocuSign_Record_Id --></label>
+        <name>PMC_DocuSign_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>PMC_ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow Name --></label>
+        <name>PMC_FlowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>PMC_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method Name --></label>
+        <name>PMC_MethodName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serialized Class --></label>
+        <name>PMC_SerializedClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>PMC_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>PMC_StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMC_Submitted_By --></label>
+        <name>PMC_Submitted_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>PMC_Type__c</name>
+        <picklistValues>
+            <masterLabel>Apex</masterLabel>
+            <translation><!-- Apex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation><!-- Flow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workflow Name --></label>
+        <name>PMC_Workflow_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workflow Stage Name --></label>
+        <name>PMC_Workflow_Stage_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

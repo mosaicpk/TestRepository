@@ -1,0 +1,35 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "6a9e5c85-8bdc-42f1-860d-9612521fac11",
+  "label" : "CPQ Quote Related List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b6dde0db-8c37-4191-8042-f1c5f22ca758\",\"columns\":[{\"UUID\":\"682141a4-04ab-4ead-b792-1d1d7b4a7bae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b6dde0db-8c37-4191-8042-f1c5f22ca758",
+      "regions" : [ {
+        "id" : "682141a4-04ab-4ead-b792-1d1d7b4a7bae",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "e98ba74a-5338-4ef6-8814-18b18c1d59b5",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a3C"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryStory xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>Pricing_Analytics</application>
+    <autopilot>Disabled</autopilot>
+    <label>How can I minimize discounts?</label>
+    <outcome>
+        <field>SBQQ__TotalDiscountRate__c</field>
+        <goal>Minimize</goal>
+        <label>Total Discount (%)</label>
+        <type>Number</type>
+    </outcome>
+    <sourceContainer>Pricing</sourceContainer>
+    <sourceType>AnalyticsDataset</sourceType>
+</DiscoveryStory>

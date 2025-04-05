@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Privacy Center</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-PrivacyPolicy</tabs>
+    <tabs>standard-PrivacyJobSession</tabs>
+    <tabs>standard-PrivacyRTBFRequest</tabs>
+    <tabs>standard-PrivacyPreferenceCenter</tabs>
+    <tabs>PMC_CPQ_Cadence__c</tabs>
+    <tabs>SBQQ__Subscription__c</tabs>
+    <tabs>PMC_SS_ActualPayment__c</tabs>
+    <tabs>PMC_SS_IncentiveEarned__c</tabs>
+    <tabs>PMC_SS_SAP_Condition_Contract__c</tabs>
+    <tabs>PMC_SS_AccountSalesAreaRelationship__c</tabs>
+    <tabs>Test_V__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>PrivacyCenterConsole_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>true</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <customEmailContent>&lt;p&gt;The System Adminstrator {{event.Username}} are blocked from logging in due to unsupported location&lt;/p&gt;&lt;p&gt;Policy ID - {{policy.Id}}&lt;/p&gt;&lt;p&gt;Policy Type - {{policy.Type}}&lt;/p&gt;&lt;p&gt;Org ID - {{policy.OrganizationId}}&lt;/p&gt;&lt;p&gt;Event Name - {{policy.EventName}}&lt;/p&gt;&lt;p&gt;Country - {{event.Country}}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</customEmailContent>
+    <description>Block the system administrators who log in with Salesforce credentials (not SSO) from outside the US.</description>
+    <developerName>SystemAdministratorLoginf</developerName>
+    <eventName>LoginEvent</eventName>
+    <flow>PolicyCondition_QzSIgkyroUyYBBkiEvNn</flow>
+    <masterLabel>System Administrator Login from unsupported locations</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

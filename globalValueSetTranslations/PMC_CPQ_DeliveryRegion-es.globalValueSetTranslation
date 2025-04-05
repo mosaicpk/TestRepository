@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Alfenas MG06</masterLabel>
+        <translation><!-- Alfenas MG06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Almirante Tamandaré PR50</masterLabel>
+        <translation><!-- Almirante Tamandaré PR50 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alto Araguaia MT04</masterLabel>
+        <translation><!-- Alto Araguaia MT04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alto Parnaíba MA03</masterLabel>
+        <translation><!-- Alto Parnaíba MA03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Alvorada TO02</masterLabel>
+        <translation><!-- Alvorada TO02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Anápolis GO03</masterLabel>
+        <translation><!-- Anápolis GO03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aparecida de Goiania GO06</masterLabel>
+        <translation>Aparecida de Goiânia GO06</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Araguaina TO03</masterLabel>
+        <translation><!-- Araguaina TO03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Araguari MG11</masterLabel>
+        <translation><!-- Araguari MG11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Araucária PR51</masterLabel>
+        <translation><!-- Araucária PR51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Araxá MG14</masterLabel>
+        <translation><!-- Araxá MG14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arraias TO01</masterLabel>
+        <translation><!-- Arraias TO01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Atibaia SP19</masterLabel>
+        <translation><!-- Atibaia SP19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Açailândia MA02</masterLabel>
+        <translation><!-- Açailândia MA02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Baixa Grande do Ribeiro PI51</masterLabel>
+        <translation><!-- Baixa Grande do Ribeiro PI51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Balsas MA04</masterLabel>
+        <translation><!-- Balsas MA04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barcarena PA01</masterLabel>
+        <translation><!-- Barcarena PA01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barra do Garça MT51</masterLabel>
+        <translation><!-- Barra do Garça MT51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barra dos Coqueiros SE01</masterLabel>
+        <translation><!-- Barra dos Coqueiros SE01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barreiras BA50</masterLabel>
+        <translation><!-- Barreiras BA50 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barretos SP11</masterLabel>
+        <translation><!-- Barretos SP11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barueri SP20</masterLabel>
+        <translation><!-- Barueri SP20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Betim MG17</masterLabel>
+        <translation><!-- Betim MG17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bom Jesus PI52</masterLabel>
+        <translation><!-- Bom Jesus PI52 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bom Jesus de Goiás GO01</masterLabel>
+        <translation><!-- Bom Jesus de Goiás GO01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Camaçari BA04</masterLabel>
+        <translation><!-- Camaçari BA04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cambé PR05</masterLabel>
+        <translation><!-- Cambé PR05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campinas SP26</masterLabel>
+        <translation><!-- Campinas SP26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campo Grande MS02</masterLabel>
+        <translation><!-- Campo Grande MS02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campo Limpo Paulista SP12</masterLabel>
+        <translation><!-- Campo Limpo Paulista SP12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campo Novo do Parecis MT52</masterLabel>
+        <translation><!-- Campo Novo do Parecis MT52 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campo Verde MT53</masterLabel>
+        <translation><!-- Campo Verde MT53 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campos Lindos TO04</masterLabel>
+        <translation><!-- Campos Lindos TO04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canarana MT54</masterLabel>
+        <translation><!-- Canarana MT54 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Candeias BA02</masterLabel>
+        <translation><!-- Candeias BA02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canitar SP21</masterLabel>
+        <translation><!-- Canitar SP21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carmo do Rio Claro MG18</masterLabel>
+        <translation><!-- Carmo do Rio Claro MG18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cascavel PR02</masterLabel>
+        <translation><!-- Cascavel PR02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Caseara TO05</masterLabel>
+        <translation><!-- Caseara TO05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Catalão GO04</masterLabel>
+        <translation><!-- Catalão GO04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Catanduva SP07</masterLabel>
+        <translation><!-- Catanduva SP07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Caxias MA05</masterLabel>
+        <translation><!-- Caxias MA05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cerqueira Cesar SP22</masterLabel>
+        <translation><!-- Cerqueira Cesar SP22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chapadinha MA06</masterLabel>
+        <translation><!-- Chapadinha MA06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chapadão do Sul MS03</masterLabel>
+        <translation><!-- Chapadão do Sul MS03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Comodoro MT11</masterLabel>
+        <translation><!-- Comodoro MT11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Conceição do Araguaia PA03</masterLabel>
+        <translation><!-- Conceição do Araguaia PA03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Conceição do Jacuipe BA05</masterLabel>
+        <translation><!-- Conceição do Jacuipe BA05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Confresa MT55</masterLabel>
+        <translation><!-- Confresa MT55 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Congonhal MG07</masterLabel>
+        <translation><!-- Congonhal MG07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Correntina BA51</masterLabel>
+        <translation><!-- Correntina BA51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cristalina GO08</masterLabel>
+        <translation><!-- Cristalina GO08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cubatão SP05</masterLabel>
+        <translation><!-- Cubatão SP05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Curitiba PR01</masterLabel>
+        <translation><!-- Curitiba PR01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Deciolandia MT56</masterLabel>
+        <translation><!-- Deciolandia MT56 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Diamantino MT57</masterLabel>
+        <translation><!-- Diamantino MT57 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dourados MS01</masterLabel>
+        <translation><!-- Dourados MS01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Feira de Santana BA03</masterLabel>
+        <translation><!-- Feira de Santana BA03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Formosa GO05</masterLabel>
+        <translation><!-- Formosa GO05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Formosa do Rio Preto BA52</masterLabel>
+        <translation><!-- Formosa do Rio Preto BA52 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gaucha do Norte MT58</masterLabel>
+        <translation><!-- Gaucha do Norte MT58 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Goiatuba GO07</masterLabel>
+        <translation><!-- Goiatuba GO07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Grajaú MA07</masterLabel>
+        <translation><!-- Grajaú MA07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guarantã do Norte MT05</masterLabel>
+        <translation><!-- Guarantã do Norte MT05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Guaxupé MG19</masterLabel>
+        <translation><!-- Guaxupé MG19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gurupi TO06</masterLabel>
+        <translation><!-- Gurupi TO06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ibatiba ES04</masterLabel>
+        <translation><!-- Ibatiba ES04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ibaté SP13</masterLabel>
+        <translation><!-- Ibaté SP13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ibiá MG12</masterLabel>
+        <translation><!-- Ibiá MG12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Igarapava SP08</masterLabel>
+        <translation><!-- Igarapava SP08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Iguatama MG20</masterLabel>
+        <translation><!-- Iguatama MG20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Itacoatiara AM01</masterLabel>
+        <translation><!-- Itacoatiara AM01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Itapetininga SP14</masterLabel>
+        <translation><!-- Itapetininga SP14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Itiquira MT06</masterLabel>
+        <translation><!-- Itiquira MT06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Itumbiara GO09</masterLabel>
+        <translation><!-- Itumbiara GO09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jaboatão dos Guararapes PE01</masterLabel>
+        <translation><!-- Jaboatão dos Guararapes PE01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jaciara MT67</masterLabel>
+        <translation><!-- Jaciara MT67 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jardinópolis SP15</masterLabel>
+        <translation><!-- Jardinópolis SP15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jataí GO10</masterLabel>
+        <translation><!-- Jataí GO10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jataí GO11</masterLabel>
+        <translation><!-- Jataí GO11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jaú SP09</masterLabel>
+        <translation><!-- Jaú SP09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jundiaí SP16</masterLabel>
+        <translation><!-- Jundiaí SP16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lagoa da Confusão TO07</masterLabel>
+        <translation><!-- Lagoa da Confusão TO07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Laranjeiras SE02</masterLabel>
+        <translation><!-- Laranjeiras SE02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limeira SP10</masterLabel>
+        <translation><!-- Limeira SP10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lucas do Rio Verde MT08</masterLabel>
+        <translation><!-- Lucas do Rio Verde MT08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Luis Eduardo Magalhães BA01</masterLabel>
+        <translation><!-- Luis Eduardo Magalhães BA01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Luz MG21</masterLabel>
+        <translation><!-- Luz MG21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maceió AL00</masterLabel>
+        <translation><!-- Maceió AL00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Machado MG22</masterLabel>
+        <translation><!-- Machado MG22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manhuaçú MG03</masterLabel>
+        <translation><!-- Manhuaçú MG03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Martins Soares MG08</masterLabel>
+        <translation><!-- Martins Soares MG08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maruim SE03</masterLabel>
+        <translation><!-- Maruim SE03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Matozinhos MG02</masterLabel>
+        <translation><!-- Matozinhos MG02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mogi das Cruzes SP23</masterLabel>
+        <translation><!-- Mogi das Cruzes SP23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nova Mutum MT09</masterLabel>
+        <translation><!-- Nova Mutum MT09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nova Santa Rosa PI57</masterLabel>
+        <translation><!-- Nova Santa Rosa PI57 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nova Xavantina MT59</masterLabel>
+        <translation><!-- Nova Xavantina MT59 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Osasco SP51</masterLabel>
+        <translation><!-- Osasco SP51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ourinhos SP01</masterLabel>
+        <translation><!-- Ourinhos SP01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Palmas TO08</masterLabel>
+        <translation><!-- Palmas TO08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Palmeira Piaui PI53</masterLabel>
+        <translation><!-- Palmeira Piaui PI53 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paragominas PA04</masterLabel>
+        <translation><!-- Paragominas PA04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paranaguá PR03</masterLabel>
+        <translation><!-- Paranaguá PR03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paranatinga MT60</masterLabel>
+        <translation><!-- Paranatinga MT60 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patos de Minas MG10</masterLabel>
+        <translation><!-- Patos de Minas MG10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patrocínio MG13</masterLabel>
+        <translation><!-- Patrocínio MG13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paulínia SP02</masterLabel>
+        <translation><!-- Paulínia SP02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pedro Afonso TO09</masterLabel>
+        <translation><!-- Pedro Afonso TO09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Placas PA51</masterLabel>
+        <translation><!-- Placas PA51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ponta Grossa PR04</masterLabel>
+        <translation><!-- Ponta Grossa PR04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pouso Alegre MG15</masterLabel>
+        <translation><!-- Pouso Alegre MG15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Poços de Caldas MG23</masterLabel>
+        <translation><!-- Poços de Caldas MG23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Primavera Leste MT61</masterLabel>
+        <translation><!-- Primavera Leste MT61 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Querência MT03</masterLabel>
+        <translation><!-- Querência MT03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Recife PE00</masterLabel>
+        <translation><!-- Recife PE00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Redenção PA05</masterLabel>
+        <translation><!-- Redenção PA05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Riachão das Neves BA53</masterLabel>
+        <translation><!-- Riachão das Neves BA53 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rib Gonçalves PI54</masterLabel>
+        <translation><!-- Rib Gonçalves PI54 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ribeirão Cascalheira MT62</masterLabel>
+        <translation><!-- Ribeirão Cascalheira MT62 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ribeirão Preto SP17</masterLabel>
+        <translation><!-- Ribeirão Preto SP17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rio Grande RS00</masterLabel>
+        <translation><!-- Rio Grande RS00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rio Verde GO02</masterLabel>
+        <translation><!-- Rio Verde GO02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rondonópolis MT01</masterLabel>
+        <translation><!-- Rondonópolis MT01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rosário do Catete SE00</masterLabel>
+        <translation><!-- Rosário do Catete SE00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santa Filomena PI55</masterLabel>
+        <translation><!-- Santa Filomena PI55 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santarem PA02</masterLabel>
+        <translation><!-- Santarem PA02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Santo Antonio do Leste MT66</masterLabel>
+        <translation><!-- Santo Antonio do Leste MT66 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sapezal MT64</masterLabel>
+        <translation><!-- Sapezal MT64 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Serra ES01</masterLabel>
+        <translation><!-- Serra ES01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Serrana SP24</masterLabel>
+        <translation><!-- Serrana SP24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Silvanópolis TO10</masterLabel>
+        <translation><!-- Silvanópolis TO10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sinop MT10</masterLabel>
+        <translation><!-- Sinop MT10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sorriso MT02</masterLabel>
+        <translation><!-- Sorriso MT02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sumaré SP03</masterLabel>
+        <translation><!-- Sumaré SP03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Suzano SP25</masterLabel>
+        <translation><!-- Suzano SP25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Desidério BA54</masterLabel>
+        <translation><!-- São Desidério BA54 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Francisco do Sul SC00</masterLabel>
+        <translation><!-- São Francisco do Sul SC00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Félix do Xingu PA06</masterLabel>
+        <translation><!-- São Félix do Xingu PA06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Gabriel do Oeste MS04</masterLabel>
+        <translation><!-- São Gabriel do Oeste MS04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Joaquim da Barra SP18</masterLabel>
+        <translation><!-- São Joaquim da Barra SP18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São José do Xingu MT63</masterLabel>
+        <translation><!-- São José do Xingu MT63 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Luis MA01</masterLabel>
+        <translation><!-- São Luis MA01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>São Tiago MG24</masterLabel>
+        <translation><!-- São Tiago MG24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tasso Fragoso MA08</masterLabel>
+        <translation><!-- Tasso Fragoso MA08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Três Corações MG04</masterLabel>
+        <translation><!-- Três Corações MG04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Três Pontas MG16</masterLabel>
+        <translation><!-- Três Pontas MG16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uberaba MG05</masterLabel>
+        <translation><!-- Uberaba MG05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uberlândia MG01</masterLabel>
+        <translation><!-- Uberlândia MG01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ubá MG25</masterLabel>
+        <translation><!-- Ubá MG25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uruçui PI56</masterLabel>
+        <translation><!-- Uruçui PI56 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Varginha MG09</masterLabel>
+        <translation><!-- Varginha MG09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Viana ES02</masterLabel>
+        <translation><!-- Viana ES02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vila Rica MT65</masterLabel>
+        <translation><!-- Vila Rica MT65 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vitória ES03</masterLabel>
+        <translation><!-- Vitória ES03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Água Boa MT50</masterLabel>
+        <translation><!-- Água Boa MT50 --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

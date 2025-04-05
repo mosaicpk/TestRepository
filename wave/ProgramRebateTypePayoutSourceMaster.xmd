@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>ProgramRebateTypePayoutSourceMaster</dataset>
+    <dimensions>
+        <field>MemberPayout.PayoutPeriods.RebateProgram.Name</field>
+        <isDerived>false</isDerived>
+        <label>Rebate Program</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>MemberPayout.Member.Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product.Name</field>
+        <isDerived>false</isDerived>
+        <label>Product</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>MemberPayout.PayoutPeriods.Name</field>
+        <isDerived>false</isDerived>
+        <label>Payout Period</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <measures>
+        <field>AggregateObject.TotalTransactionAmount</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Revenue</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Revenue:Payout</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>AggregateObject.TotalQuantity</field>
+        <isDerived>false</isDerived>
+        <label>Quantity</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Payout:Quantity</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Payout to Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>RebateAmount</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Rebates</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Payout:Revenue</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Effective Rebate</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>RebateDelta</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Change in Earnings</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>PositiveRebateDelta</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>NegativeRebateDelta</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Change_in_Price</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Change in Effective Price</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>RebateBeforeAdjustment</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Unadjusted Rebate</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Percent_Change</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Percent Change</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Orders Value</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Benefit_Value_inPercent</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Benefit Value</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>Benefit_Value_inCurrency</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Benefit Value</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>BenefitQualifierValue_inCurrency</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Benefit Qualifier Value</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>Txn:Payout_Current</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Transaction:Payout</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>sum_Approved TD_Current</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Payouts TD</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>sum_Under Review_Current</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Under Review</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Revenue</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Orders</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Quantity</field>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Payout</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>% Change</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>21</sortIndex>
+    </measures>
+</WaveXmd>

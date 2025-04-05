@@ -1,0 +1,833 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2504690c-7da3-4536-b1ae-384f14c71157",
+  "label" : "Premios y reconocimientos",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "32e65ee4-020c-470b-bf65-22ab6dcdb59f",
+          "columns" : [ {
+            "UUID" : "52931921-faa0-4132-8dc0-6a8230ec590a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "32e65ee4-020c-470b-bf65-22ab6dcdb59f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Banner_Test"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0.4)",
+                  "showButton" : false,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "bottom center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.altText}",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "117b1ca8-df69-494b-acba-50c2a32ea2b5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "52931921-faa0-4132-8dc0-6a8230ec590a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3db77317-0ac3-4530-81f7-bd77e4f00e87",
+          "columns" : [ {
+            "UUID" : "a1350a1a-9968-4cd0-8069-a6f5f0a63892",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3db77317-0ac3-4530-81f7-bd77e4f00e87",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(230, 0, 0);\">Premios y reconocimientos</span></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "50b97a7e-2ed3-4a43-8bf3-ac6cc72e6895",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(72, 72, 72); font-size: 20px;\">A lo largo de los años, como Miski Mayo, hemos recibido premios y reconocimientos por nuestros logros y aportes en diversos campos, lo que nos permite reafirmar nuestro compromiso de trabajar siempre priorizando la seguridad de nuestra gente, cuidando nuestro planeta y sumando esfuerzos con autoridades y población para contribuir con el desarrollo y progreso de la provincia de Sechura.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "916e7461-e1f0-4c95-8664-65254bad71a2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a1350a1a-9968-4cd0-8069-a6f5f0a63892",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d1a8165a-a73c-486e-802c-2357c7ef4d91",
+          "columns" : [ {
+            "UUID" : "809fb3b8-4254-4a53-b383-09f1a9a8b8a8",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7c6d537e-40b1-4cb7-8e23-686fbfd0bbba",
+            "columnKey" : "99e2e",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 203
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d1a8165a-a73c-486e-802c-2357c7ef4d91",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Huella de Carbono Perú Nivel 1</span></h2><p><span style=\"font-size: 20px;\">Obtuvimos la primera estrella del Programa Huella de Carbono Perú, otorgada por el Ministerio del Ambiente que reconoce el esfuerzo de las organizaciones en la gestión de sus emisiones de Gases de Efecto Invernadero (GEI), en beneficio de la población y el ambiente, a través de un sistema de cuatro niveles.</span></p><p><span style=\"font-size: 20px;\">Este es un primer gran paso que refleja nuestro compromiso real con la sostenibilidad ambiental y el desarrollo responsable. De esta manera, seguimos trabajando para dejar una huella positiva en nuestro planeta haciendo minería verde.</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7f2d9ffc-94e1-474c-9593-56912e41eb27",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "809fb3b8-4254-4a53-b383-09f1a9a8b8a8",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f687099f-0e79-4fda-b947-b6f7d011efeb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7c6d537e-40b1-4cb7-8e23-686fbfd0bbba",
+        "regionLabel" : "Column 2",
+        "regionName" : "99e2e",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "18a2cdaa-fb0d-4e82-b756-aba99a2d9a75",
+          "columns" : [ {
+            "UUID" : "b8c90acd-3db0-41fa-af27-f6cb54800b42",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "5086d677-1afb-403d-85c4-ceeb456ede27",
+            "columnKey" : "9c16e",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "18a2cdaa-fb0d-4e82-b756-aba99a2d9a75",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f1e93a6e-851c-4c72-805d-e0a5445c54ce",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b8c90acd-3db0-41fa-af27-f6cb54800b42",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Concurso Nacional de Seguridad Minera</span></h2><p><span style=\"font-size: 20px;\">El Instituto de Seguridad Minera (ISEM) organiza cada año el Concurso Nacional de Seguridad Minera en diversas categorías, como parte de los esfuerzos por contribuir con la seguridad y salud ocupacional en el sector minero, reconociendo las mejoras y resultados positivos de las compañías del rubro.</span></p><p><span style=\"font-size: 20px;\">Miski Mayo ha logrado el Primer Lugar en este concurso en la categoría “Tajo abierto” en los años 2012, 2014, 2019, 2021, 2022 y 2023.</span></p><p><span style=\"font-size: 20px;\">Asimismo, en las ediciones de 2013, 2015, 2016, 2018 y 2020 nuestra empresa logró una placa de honor en la misma categoría.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2d596976-9b40-497b-a8bf-1e51467511a4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5086d677-1afb-403d-85c4-ceeb456ede27",
+        "regionLabel" : "Column 2",
+        "regionName" : "9c16e",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "67d03880-1a8f-430f-89dc-d244fca59aad",
+          "columns" : [ {
+            "UUID" : "34eeecf8-8891-4d4f-871c-663eeec13560",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d7367fdc-4ce0-40e5-8b42-f39e24a5481c",
+            "columnKey" : "3a8e5",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "67d03880-1a8f-430f-89dc-d244fca59aad",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Concurso Internacional de Mejores Prácticas en Seguridad y Salud Minera</span></h2><p><span style=\"font-size: 20px;\">Nuestra empresa logró en el 2017 un reconocimiento en el Concurso Internacional de Mejores Prácticas en Seguridad y Salud Minera organizado por el ISEM, mientras que, en el 2018, nuestra empresa logró el primer lugar en este mismo concurso.</span></p><p><span style=\"font-size: 20px;\">Asimismo, en el 2022 y 2023, nuestros proyectos recibieron nuevamente el mayor galardón.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "473340d4-dd5b-4493-9240-67f690e45a12",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "34eeecf8-8891-4d4f-871c-663eeec13560",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "63c4925f-19c4-4e57-9f05-0410d800b8ad",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d7367fdc-4ce0-40e5-8b42-f39e24a5481c",
+        "regionLabel" : "Column 2",
+        "regionName" : "3a8e5",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a2b767fe-6018-450f-ab72-869d44ad184b",
+          "columns" : [ {
+            "UUID" : "ba635b2f-d252-4c4a-b8d4-67a90f45e44a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "900c3367-dd7c-430b-b551-14d24d296dab",
+            "columnKey" : "3be12",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a2b767fe-6018-450f-ab72-869d44ad184b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3752ab47-ef2d-4a4a-98f7-6e89cae3924c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ba635b2f-d252-4c4a-b8d4-67a90f45e44a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Concurso Nacional de Buenas Prácticas de Seguridad y Salud (ISEM)</span></h2><p><span style=\"font-size: 20px;\">El Instituto de Seguridad Minera bajo su lema “Por una Minería Segura y Productiva”, organizan el Concurso Nacional de Mejores Prácticas en Seguridad y Salud en la Industria Minera, con el fin de fomentar y difundir las mejores prácticas que lograron soluciones efectivas y participación de los trabajadores. Nuestra empresa logró el tercer puesto en el año 2016.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "620938f5-4211-499a-955b-23b74c27e2e3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "900c3367-dd7c-430b-b551-14d24d296dab",
+        "regionLabel" : "Column 2",
+        "regionName" : "3be12",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "58590e68-d321-4740-9134-3708acae5327",
+          "columns" : [ {
+            "UUID" : "ef5477d0-d731-4a92-8bb0-9b6931730c4a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "404d13da-f336-4000-b05c-3233ae1772a3",
+            "columnKey" : "d4ef0",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "58590e68-d321-4740-9134-3708acae5327",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Premio de Desarrollo Sostenible en Gestión Ambiental por la SNMPE</span></h2><p><span style=\"font-size: 20px;\">En el 2019, Miski Mayo logró el Primer Lugar en el Concurso de Desarrollo Sostenible organizado por la Sociedad Nacional de Minería, Petróleo y Energía, en la categoría Gestión Ambiental. Nuestra empresa logró este reconocimiento con el proyecto “Forestación y Manejo Forestal Comunitario en las áreas de la mina Fosfatos de Bayóvar, una contribución al Desierto de Sechura”.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "34d50c70-ce7b-48e2-9087-7069beb70b4b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ef5477d0-d731-4a92-8bb0-9b6931730c4a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c1a9459d-4238-4c41-a00a-1790fe7e9f42",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "404d13da-f336-4000-b05c-3233ae1772a3",
+        "regionLabel" : "Column 2",
+        "regionName" : "d4ef0",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "06cd950c-fc76-487b-9187-5091def4fa6d",
+          "columns" : [ {
+            "UUID" : "b422bc14-33b9-4ecb-b499-6bfbfda40dfe",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "05c9a683-f9b8-4db6-859a-ba551ab98b52",
+            "columnKey" : "3142e",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "06cd950c-fc76-487b-9187-5091def4fa6d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\">&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b95d36c0-e15c-4096-bebc-6d7e0a6c42c1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b422bc14-33b9-4ecb-b499-6bfbfda40dfe",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Concurso regional de mejor empresa exportadora en el rubro minero</span></h2><p><span style=\"font-size: 20px;\">El Gobierno Regional de Piura premió en el 2016 a Miski Mayo con el Primer Lugar en el Concurso de la Mejor Empresa Exportadora de Productos de Minería No Metálica. Este concurso fue organizado por la Dirección Regional de Comercio Exterior y Turismo.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c8bafe33-e368-4b86-9127-ef66d56f6b8b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "05c9a683-f9b8-4db6-859a-ba551ab98b52",
+        "regionLabel" : "Column 2",
+        "regionName" : "3142e",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "990035e7-eb59-4a3b-bbf0-5341fa3b4068",
+          "columns" : [ {
+            "UUID" : "63b411c4-e8d1-4c91-ae73-a0373a6c9aa1",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f742a219-240a-4057-99eb-e5ab7c6441e5",
+            "columnKey" : "bcc09",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "990035e7-eb59-4a3b-bbf0-5341fa3b4068",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Reconocimiento de la Dirección Regional de Educación Piura</span></h2><p><span style=\"font-size: 20px;\">La Dirección Regional de Educación Piura (DREP) reconoció a nuestra empresa como un actor importante en la provincia y como un aliado estratégico en la mejora educativa de la Región Piura-Sechura. Este premio fue otorgado en el “Día de la Excelencia Educativa” edición 2021, iniciativa que la DREP realiza para premiar a diversas instituciones que aportan con la educación de niños y jóvenes. Desde nuestra empresa, Miski Mayo contribuye en este sector a través de la puesta en marcha de su programa de responsabilidad social “Miski Educa”, cuyo objetivo es mejorar la educación del área de influencia directa. Por consiguiente, Miski Mayo contribuye con el Objetivo de Desarrollo Sostenible “Educación de Calidad”.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d5dd258f-ed32-46a2-959c-975497f89be4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "63b411c4-e8d1-4c91-ae73-a0373a6c9aa1",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b10e588a-1e5d-4836-ac8d-b7554815deb5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f742a219-240a-4057-99eb-e5ab7c6441e5",
+        "regionLabel" : "Column 2",
+        "regionName" : "bcc09",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d192bd11-32ce-4dfa-b0fc-e705df07d270",
+          "columns" : [ {
+            "UUID" : "2ec9603c-b598-4e6d-ad9b-9362f3186d48",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "92e0a18a-9542-427d-9d94-b63d68206c6a",
+            "columnKey" : "0706f",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d192bd11-32ce-4dfa-b0fc-e705df07d270",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "53328ab9-0b8a-44f1-8f17-5a17d8d825c0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2ec9603c-b598-4e6d-ad9b-9362f3186d48",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><h2><span style=\"font-size: 28px;\">Reconocimiento de la UGEL Sechura</span></h2><p><span style=\"font-size: 20px;\">En el año 2017, La Unidad de Gestión Educativa Local de Sechura (UGEL) reconoció a Miski Mayo por su constante apoyo y compromiso con la mejora de la calidad educativa de niños, jóvenes y docentes de la provincia.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "820acae9-ef5e-49a8-b8eb-4ecbf4af8fd1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "92e0a18a-9542-427d-9d94-b63d68206c6a",
+        "regionLabel" : "Column 2",
+        "regionName" : "0706f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "06f285ca-079c-4f49-8af1-f7e66bcf149c",
+          "columns" : [ {
+            "UUID" : "a47f7a4d-c39b-40c3-a3d9-b6b5bb070e48",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "fa471f8f-9c81-466e-8e0d-4bf66e591519",
+            "columnKey" : "421f2",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "06f285ca-079c-4f49-8af1-f7e66bcf149c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Reconocimientos de la Municipalidad Provincial de Sechura</span></h2><p><span style=\"font-size: 20px;\">En el 2021, la Municipalidad Provincial de Sechura reconoció a nuestra empresa por su contribución con el desarrollo de Sechura en diversos ámbitos como salud, educación, agricultura, pesca y limpieza. Asimismo, Miski Mayo fue premiado este mismo año por su contribución a los vasos de leche, mediante el equipamiento logístico a diversos comités, que benefician con desayunos nutritivos a menores de la provincia. De esta manera, Miski Mayo contribuye con la reducción de la anemia en Sechura, cumpliendo con el Objetivo de Desarrollo Sostenible (ODS) “Hambre Cero”.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8c05f454-119c-4c6f-bad6-80f7431c90e8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a47f7a4d-c39b-40c3-a3d9-b6b5bb070e48",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "74e4523e-0bb9-4799-99ae-ac9a0efdb437",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fa471f8f-9c81-466e-8e0d-4bf66e591519",
+        "regionLabel" : "Column 2",
+        "regionName" : "421f2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "98e49d85-df03-40d7-b651-3f018a8a4b50",
+          "columns" : [ {
+            "UUID" : "39801c38-5f65-4862-8d6e-711dae114d9c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b8ba5557-ab92-4a09-87bc-76864be1fdc1",
+            "columnKey" : "aa024",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "98e49d85-df03-40d7-b651-3f018a8a4b50",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "607db597-3871-44d8-9b70-07e4f1193122",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "39801c38-5f65-4862-8d6e-711dae114d9c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Reconocimiento como aliado comunicacional del Programa Nacional Aurora</span></h2><p><span style=\"font-size: 20px;\">En 2024 recibimos el reconocimiento como aliados estratégicos en las actividades de difusión para la prevención de violencia de género en la provincia de Sechura que promueve el Centro de Emergencia Mujer de Sechura (CEM) y el Programa Nacional Aurora. Este reconocimiento nos motiva a continuar impulsando acciones que se alinean a nuestra política de Diversidad e Inclusión para fomentar entornos seguros y respetuosos para todos y todas.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "415880e8-07b8-4a37-b9d8-bb2eebb5f954",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b8ba5557-ab92-4a09-87bc-76864be1fdc1",
+        "regionLabel" : "Column 2",
+        "regionName" : "aa024",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "175fac19-f1ab-4d4f-98ac-66d7a9f07aa9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Premios y reconocimientos"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f3e3c0b2-2378-4ba0-800b-58f8e2b7e85c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3f8fb62b-a94d-471d-9424-fdac3a3795ce",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-premios-y-reconocimientos"
+}

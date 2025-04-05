@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC_DH_CheckoutConfig --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC_DH_CheckoutConfig --></value>
+    </caseValues>
+    <fields>
+        <label>Componente</label>
+        <name>Component__c</name>
+    </fields>
+    <fields>
+        <label>Pa�s</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label>Módulo</label>
+        <name>Module__c</name>
+    </fields>
+    <fields>
+        <label><!-- PicklistAPI_Name --></label>
+        <name>PicklistAPI_Name__c</name>
+    </fields>
+    <fields>
+        <label>Región</label>
+        <name>Region__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

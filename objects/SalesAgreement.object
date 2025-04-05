@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Sales_Agreement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Sales_Agreement_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <description>States the Account</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate</fullName>
+        <description>States the Activated Date</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ActualMarginPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>ActualsCalculationMode</fullName>
+        <description>States the Actuals Calculation Mode</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AgreementType</fullName>
+        <description>States the Agreement Type</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ApprovedById</fullName>
+        <description>States the Approved By</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ApprovedDate</fullName>
+        <description>States the Approved Date &amp; Time</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CancellationDate</fullName>
+        <description>States the Cancellation Date &amp; Time</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CancellationReason</fullName>
+        <description>States the Cancellation Reason</description>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <description>States the Contact</description>
+        <inlineHelpText>This field will only show ACTIVE contacts. Inactive contacts can be accessed from Global Search.</inlineHelpText>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.PMC_SS_Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DecimalScale</fullName>
+        <inlineHelpText>You can update the Decimal Scale only for Sales Agreements that are in Draft state with no products added to them.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <description>States the Description</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <description>States the End Date</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FutureActCalcSchedules</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <description>States the Name</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <description>States the Owner</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_AccountSegmentation__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Account.PMC_SS_Segmentation__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Segmentation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_AgreementDocumentStatus__c</fullName>
+        <label>Agreement Document Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending Signatures</fullName>
+                    <default>false</default>
+                    <label>Pending Signatures</label>
+                </value>
+                <value>
+                    <fullName>Partially Signed</fullName>
+                    <default>false</default>
+                    <label>Partially Signed</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_AmendmentNumber__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Amendment Number</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_SalesAgreementAutoNumber__c</fullName>
+        <displayFormat>A-{0000000}</displayFormat>
+        <externalId>true</externalId>
+        <label>Sales Agreement Auto Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_isAmendment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will be used for the backend purpose of indicating that the sales agreement has been created as a product of the amendment flow, and used in CLM to control visibility of fields in the intake form and in the workflow</description>
+        <label>isAmendment</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_AgreementType__c</fullName>
+        <description>States the Agreement Type</description>
+        <label>Agreement Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Annual Sales Agreement</fullName>
+                    <default>false</default>
+                    <label>Annual Sales Agreement</label>
+                </value>
+                <value>
+                    <fullName>Business Partner Agreement</fullName>
+                    <default>false</default>
+                    <label>Business Partner Agreement</label>
+                </value>
+                <value>
+                    <fullName>Ex-Space Agreement</fullName>
+                    <default>false</default>
+                    <label>Ex-Space Agreement</label>
+                </value>
+                <value>
+                    <fullName>Master Sales Agreement</fullName>
+                    <default>false</default>
+                    <label>Master Sales Agreement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_AmendedReason__c</fullName>
+        <description>Reason for Amending Sales Agreement</description>
+        <label>Amended Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Changes in Circumstance</fullName>
+                    <default>false</default>
+                    <label>Changes in Circumstance</label>
+                </value>
+                <value>
+                    <fullName>Changes to Terms</fullName>
+                    <default>false</default>
+                    <label>Changes to Terms</label>
+                </value>
+                <value>
+                    <fullName>Dispute</fullName>
+                    <default>false</default>
+                    <label>Dispute</label>
+                </value>
+                <value>
+                    <fullName>Error Correction</fullName>
+                    <default>false</default>
+                    <label>Error Correction</label>
+                </value>
+                <value>
+                    <fullName>New Product Interests</fullName>
+                    <default>false</default>
+                    <label>New Product Interests</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_ApprovalStatus__c</fullName>
+        <description>Field to track the approval status of the Sales Agreement.</description>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>true</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>Under Revision</fullName>
+                    <default>false</default>
+                    <label>Under Revision</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_CalculateActualValuesUsingDPE__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>This field indicates the Actuals should be calculated using DPE from Invoice Items</description>
+        <label>Calculate Actual Values Using DPE</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_PreviousStatus__c</fullName>
+        <description>Contains the Previous Status</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Previous Status</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Pricing__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <label>Pricing</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_SalesAgreementExternalId__c</fullName>
+        <description>This field states the Sales Agreement External Id</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Sales Agreement External Id</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_TotalExSpaceIncentives__c</fullName>
+        <description>This field states total accumulation of all ex-space incentives</description>
+        <label>Total Ex-Space Incentives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_TotalGrowthIncentives__c</fullName>
+        <description>This field states total accumulation of all growth incentives</description>
+        <label>Total Growth Incentives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_TotalPotentialIncentives__c</fullName>
+        <description>This field states total accumulation of all incentives</description>
+        <label>Total Potential Incentives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_TotalVolumeIncentives__c</fullName>
+        <description>This field states total accumulation of all volume incentives</description>
+        <label>Total Volume Incentives</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_UnitofMeasure__c</fullName>
+        <description>Unit of Measure involved in Sales Agreement</description>
+        <label>Unit of Measure</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_SS_UnitOfMeasure</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SkipDocuSignProcess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Identifier to Skip DocuSign Document Generation for Sales Agreement</description>
+        <inlineHelpText>Check this field if Sales Agreement doesn&apos;t need Rebate Programs and Document Generation for Activation</inlineHelpText>
+        <label>Skip DocuSign Process</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PlannedMarginPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>PricebookId</fullName>
+        <description>States the Price Book</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductLevel</fullName>
+        <description>States the Product Level</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ReferenceFieldId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RenewedFromAgreementId</fullName>
+        <description>States the Renewed From Agreement</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RenewedToAgreementId</fullName>
+        <description>States the Renewed To Agreement</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ScheduleCount</fullName>
+        <description>States the Schedule Count</description>
+        <inlineHelpText>Updating the schedule count when the number of existing products is large can cause a delay in saving the agreement terms.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ScheduleFrequency</fullName>
+        <description>States the Schedule Frequency</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShouldUserSpecPlnQuantity</fullName>
+        <inlineHelpText>Selecting the checkbox lets the user specify the planned quantity for products in the sales agreement. To distribute the initial planned quantity across all schedules automatically, deselect the checkbox.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <description>States the Start Date</description>
+        <inlineHelpText>Updating the start date when the number of existing schedules and products is large can cause a delay in saving the agreement terms.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <description>States the Status</description>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StatusCode</fullName>
+        <description>States the Status Code</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualAgreementAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualCostAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualMarginAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAgreementAmount</fullName>
+        <description>States the Total Agreement Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedCostAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedMarginAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProposedAgreementAmount</fullName>
+        <description>States the Total Proposed Agreement Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>All_SalesAgreements</fullName>
+        <columns>Name</columns>
+        <columns>Owner</columns>
+        <columns>Account</columns>
+        <columns>Status</columns>
+        <columns>StartDate</columns>
+        <columns>EndDate</columns>
+        <columns>CreatedDate</columns>
+        <columns>ScheduleFrequency</columns>
+        <columns>RecordType</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Sales Agreements</label>
+    </listViews>
+    <listViews>
+        <fullName>My_SalesAgreements</fullName>
+        <columns>Name</columns>
+        <columns>Owner</columns>
+        <columns>Account</columns>
+        <columns>Status</columns>
+        <columns>StartDate</columns>
+        <columns>EndDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Sales Agreements</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_SS_SalesAgreementApprovals_SalesAgreement</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Sales Agreement Approvals</label>
+        <queue>PMC_SS_SalesAgreementApprovals</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>PMC_SS_AnnualSalesAgreement</fullName>
+        <active>true</active>
+        <description>South America Sales Agreement</description>
+        <label>Annual Sales Agreement</label>
+        <picklistValues>
+            <picklist>CancellationReason</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CLM_AgreementDocumentStatus__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partially Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Signatures</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AgreementType__c</picklist>
+            <values>
+                <fullName>Annual Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ex-Space Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AmendedReason__c</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_ApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Under Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_UnitofMeasure__c</picklist>
+            <values>
+                <fullName>L</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WMT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Archived</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending with Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UnderRevision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_BusinessPartnerAgreement</fullName>
+        <active>true</active>
+        <description>North America Business Partner Agreement</description>
+        <label>Business Partner Agreement</label>
+        <picklistValues>
+            <picklist>CancellationReason</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CLM_AgreementDocumentStatus__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partially Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Signatures</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AgreementType__c</picklist>
+            <values>
+                <fullName>Annual Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ex-Space Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AmendedReason__c</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_ApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Under Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_UnitofMeasure__c</picklist>
+            <values>
+                <fullName>L</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WMT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Archived</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending with Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UnderRevision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_IndustrialLongTermAgreement</fullName>
+        <active>true</active>
+        <description>Industrial Long-Term Agreement</description>
+        <label>Industrial Long-Term Agreement</label>
+        <picklistValues>
+            <picklist>CancellationReason</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CLM_AgreementDocumentStatus__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partially Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Signatures</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AgreementType__c</picklist>
+            <values>
+                <fullName>Annual Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ex-Space Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AmendedReason__c</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_ApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Under Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_UnitofMeasure__c</picklist>
+            <values>
+                <fullName>L</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WMT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Archived</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending with Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UnderRevision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_InternationalLongTermAgreement</fullName>
+        <active>true</active>
+        <description>International Long-Term Agreement</description>
+        <label>International Long-Term Agreement</label>
+        <picklistValues>
+            <picklist>CancellationReason</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CLM_AgreementDocumentStatus__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partially Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Signatures</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AgreementType__c</picklist>
+            <values>
+                <fullName>Annual Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ex-Space Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Sales Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_AmendedReason__c</picklist>
+            <values>
+                <fullName>Changes in Circumstance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes to Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error Correction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Product Interests</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_ApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Under Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_SS_UnitofMeasure__c</picklist>
+            <values>
+                <fullName>L</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WMT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Archived</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending with Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UnderRevision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_RestrictSalesAgmtEditWhenArchived</fullName>
+        <active>true</active>
+        <description>Restrict Edit or Update of Sales Agreement when the Status is Archived.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+ISPICKVAL(  PRIORVALUE(Status) , &apos;Archived&apos;)  
+)</errorConditionFormula>
+        <errorMessage>Archived Sales Agreement cannot be updated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictSalesAgreementEdit</fullName>
+        <active>true</active>
+        <description>Prevents user from editing a Sales Agreement if it is Under Revision or Approved.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+OR( ISCHANGED(OwnerId),
+ISCHANGED(Name),
+ISCHANGED(StartDate),
+ISCHANGED(AccountId),
+ISCHANGED(ScheduleFrequency),
+ISCHANGED(ScheduleCount),
+ISCHANGED(CurrencyIsoCode),
+ISCHANGED(EndDate),
+ISCHANGED(ProductLevel),
+ISCHANGED(Description),
+ISCHANGED(ActualsCalculationMode),
+ISCHANGED(PMC_SS_UnitofMeasure__c),
+ISCHANGED(PMC_SS_AgreementType__c),
+ISCHANGED(PMC_SS_Pricing__c),
+ISCHANGED(PMC_SS_TotalPotentialIncentives__c),
+ISCHANGED(PMC_SS_TotalGrowthIncentives__c),
+ISCHANGED(PMC_SS_TotalExSpaceIncentives__c),
+ISCHANGED(PMC_SS_TotalVolumeIncentives__c),
+ISCHANGED(PMC_SS_PreviousStatus__c  ),
+ISCHANGED(PMC_SS_AgreementType__c ),
+ISCHANGED(PMC_SS_SalesAgreementExternalId__c )
+),
+NOT(OR(ISPICKVAL(PMC_SS_ApprovalStatus__c,&apos;Not Submitted&apos;), ISPICKVAL(PMC_SS_ApprovalStatus__c,&apos;Denied&apos;)))
+)</errorConditionFormula>
+        <errorDisplayField>AccountId</errorDisplayField>
+        <errorMessage>This Sales Agreement can’t be edited at this stage. Please reach out to your Salesforce Administrator for assistance.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictStatusChangeAfterApproved</fullName>
+        <active>true</active>
+        <description>Restrict the Sales Agreement to move it from Approved to Draft.</description>
+        <errorConditionFormula>AND(
+NOT($Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c) ,
+ISCHANGED( Status ),
+ISPICKVAL(PRIORVALUE(Status),&quot;Approved&quot;),
+(ISPICKVAL( Status , &apos;Draft&apos;) || ISPICKVAL( Status , &apos;Archived&apos;))
+)</errorConditionFormula>
+        <errorMessage>Sales Agreement can’t be moved from Approved to other stage. Please amend the Sales Agreement to make any changes.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictStatusJustPendingWithCust</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that Sales agreement status cannot be manually changed to Pending with Customer.</description>
+        <errorConditionFormula>AND(
+NOT($Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),
+ISPICKVAL( Status , &apos;Pending with Customer&apos;),
+NOT(ISPICKVAL( PMC_SS_ApprovalStatus__c , &apos;Approved&apos;))
+)</errorConditionFormula>
+        <errorMessage>Sales Agreement must be approved internally prior to sending to customer, therefore this SA cannot be created/updated with the status of &quot;Pending with Customer&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictStatusPendingCustToDraft</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that Sales agreement status cannot be moved from Pending with Customer to Draft or Approved.</description>
+        <errorConditionFormula>AND(
+NOT($Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),
+ISCHANGED( Status ),
+ISPICKVAL(PRIORVALUE(Status),&apos;Pending with Customer&apos;),
+OR(
+ISPICKVAL( Status , &apos;Draft&apos;),
+ISPICKVAL( Status , &apos;Archived&apos;)
+)
+)</errorConditionFormula>
+        <errorMessage>This agreement has already been approved, therefore it cannot be moved to Draft or Archived. Please amend the new Sales Agreement if modifications are needed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictStatusPendingWithCustomer</fullName>
+        <active>false</active>
+        <description>This validation rule ensures that Sales agreement status cannot be manually changed to Pending with Customer. Also, status cannot be moved from Pending with Customer to Draft or Approved.</description>
+        <errorConditionFormula>AND(
+NOT($Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c) ,
+OR(
+
+AND(
+ ISPICKVAL( Status , &apos;Pending with Customer&apos;),
+ NOT(ISPICKVAL(  PMC_SS_ApprovalStatus__c  , &apos;Approved&apos;)) 
+),
+
+AND(
+ISCHANGED( Status ),
+ISPICKVAL(PRIORVALUE(Status),&apos;Pending with Customer&apos;),
+OR(
+ISPICKVAL( Status , &apos;Draft&apos;),
+ISPICKVAL( Status , &apos;Archived&apos;)
+)
+)
+
+)
+
+)</errorConditionFormula>
+        <errorMessage>Sales Agreement can&apos;t be created with &apos;Pending with Customer&apos; status or manually updated to/from &apos;Pending with Customer&apos; status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SP10ValidationRule</fullName>
+        <active>false</active>
+        <description>Test</description>
+        <errorConditionFormula>ISCHANGED(Status) &amp;&amp; ISPICKVAL( Status, &apos;Activated&apos;)</errorConditionFormula>
+        <errorMessage>Error Message Test</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Generate_BPA</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate BPA</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://uatna11.springcm.com/atlas/doclauncher/eos/Business Partner Agreement?aid=98018&amp;eos[0].Id={!PMC_CLM_SalesAgreement__c.Id}&amp;eos[0].System=Salesforce&amp;eos[0].Type=PMC_CLM_SalesAgreement__c&amp;eos[0].Name={!PMC_CLM_SalesAgreement__c.Name}&amp;eos[0].ScmPath=/Salesforce/Sales Agreement/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>PMC_CLM_AnnualSupplyAgreement</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Annual Supply Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://uatna11.springcm.com/atlas/doclauncher/eos/Annual Supply Agreement?aid=98018&amp;eos[0].Id={!SalesAgreement.Id}&amp;eos[0].System=Salesforce&amp;eos[0].Type=SalesAgreement&amp;eos[0].Name={!SalesAgreement.Name}&amp;eos[0].ScmPath=/Salesforce/Sales Agreement/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>PMC_CLM_GenerateInternationalAgreement</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate International Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://uatna11.springcm.com/atlas/doclauncher/eos/International Sales Long Term?aid=98018&amp;eos[0].Id={!SalesAgreement.Id}&amp;eos[0].System=Salesforce&amp;eos[0].Type=SalesAgreement&amp;eos[0].Name={!SalesAgreement.Name}&amp;eos[0].ScmPath=/Salesforce/Sales Agreement/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>PMC_CLM_Generate_Agreement</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://uatna11.springcm.com/atlas/doclauncher/eos/Industrial Configuration?aid=98018&amp;eos[0].Id={!SalesAgreement.Id}&amp;eos[0].System=Salesforce&amp;eos[0].Type=SalesAgreement&amp;eos[0].Name={!SalesAgreement.Name}&amp;eos[0].ScmPath=/Salesforce/Sales Agreement/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>PMC_CLM_Generate_BPA</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Generate Business Partner Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://uatna11.springcm.com/atlas/doclauncher/eos/Business Partner Agreement?aid=98018&amp;eos[0].Id={!SalesAgreement.Id}&amp;eos[0].System=Salesforce&amp;eos[0].Type=SalesAgreement&amp;eos[0].Name={!SalesAgreement.Name} - {!SalesAgreement.PMC_CLM_SalesAgreementAutoNumber__c}&amp;eos[0].ScmPath=/Salesforce/Sales Agreement/</url>
+    </webLinks>
+</CustomObject>

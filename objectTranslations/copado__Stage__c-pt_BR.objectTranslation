@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Stage --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Stage --></value>
+    </caseValues>
+    <fields>
+        <help>Nome usado na interface do usuário em que esse estágio é exibido</help>
+        <label>Nome de exibição</label>
+        <name>copado__Display_Name__c</name>
+    </fields>
+    <fields>
+        <help>Construção: estágio que contém ambientes em que a funcionalidade é desenvolvida
+Teste: estágio que contém ambientes em que a funcionalidade é testada e validada
+Produção: estágio que contém ambientes em que a funcionalidade é disponibilizada para os usuários finais</help>
+        <label>Meta Estágio</label>
+        <name>copado__Meta_Stage__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Stage Name --></nameFieldLabel>
+</CustomObjectTranslation>

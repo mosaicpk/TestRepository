@@ -1,0 +1,23 @@
+{
+  "authenticationType" : "AUTHENTICATED_WITH_PUBLIC_ACCESS_ENABLED",
+  "forgotPasswordRouteId" : "1e78cebb-9a9c-45ad-8275-05e5962e36c1",
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "mainAppPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "a82f5d01-6bd1-4d33-90b3-cd79b3cf7a66",
+  "trustedSitesForScript" : [ {
+    "id" : "a34f81b3-2946-4704-b9b6-fdccd606447a",
+    "isActive" : true,
+    "trustedSiteName" : "CommTrustedSite1",
+    "trustedSiteUrl" : "https://*.sandbox.vf.force.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "734b9715-8502-4c22-afdc-ee9cac18626c",
+    "isActive" : true,
+    "trustedSiteName" : "cms",
+    "trustedSiteUrl" : "https://*.content.force.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

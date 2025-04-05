@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Automation Event --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Automation Event --></value>
+    </caseValues>
+    <fields>
+        <label>Nome da ação</label>
+        <name>copado__Action_Name__c</name>
+    </fields>
+    <fields>
+        <label>Resultado da ação</label>
+        <name>copado__Action_Result__c</name>
+    </fields>
+    <fields>
+        <label>Status da ação</label>
+        <name>copado__Action_Status__c</name>
+    </fields>
+    <fields>
+        <label>Identificação do ambiente</label>
+        <name>copado__Environment_Id__c</name>
+    </fields>
+    <fields>
+        <label>ID de execução do trabalho</label>
+        <name>copado__Job_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label>Registro de automação</label>
+        <name>copado__Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline Id --></label>
+        <name>copado__Pipeline_Id__c</name>
+    </fields>
+    <fields>
+        <label>ID do estágio</label>
+        <name>copado__Stage_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Action Job Execution Ids --></label>
+        <name>copado__Target_Action_Job_Execution_Ids__c</name>
+    </fields>
+    <fields>
+        <label>Número de ações-alvo</label>
+        <name>copado__Target_Action_Number__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- MC Automation Event Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,86 @@
+{
+  "appPageId" : "a9be1a74-3dcc-403a-95df-0301d24784e0",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "d0d1a674-c5aa-4584-b274-170935bb5406",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : { }
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "5212bce2-ed09-4abf-b69e-830af722e8d7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d32033b1-38dd-4c50-80f5-91c142771c00",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "5d689bd0-09e1-497a-84a0-85fe6135259d",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p>Replace this text with content of your own.</p><p><span style=\"font-size: 60px; color: rgb(43, 22, 27);\">Somos&nbsp;</span><span style=\"font-size: 60px; color: rgb(226, 35, 26);\">Miski Mayo</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "46b48897-b50f-4694-a288-00f570ddb36d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<ul><li style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0); font-size: 20px;\">Iniciamos nuestra operación un 10 de julio de 2010.</span></li><li style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0); font-size: 20px;\">Pertenecemos al corporativo Mosaic Company, nuestro accionista mayoritario.</span></li><li style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0); font-size: 20px;\">Cumplimos nuestros compromisos contractuales con el Estado y la Comunidad, habiendo aportado 1,529.5 millones de soles hasta julio del 2024.</span></li></ul><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4070b5f5-5ae9-4cf6-99bd-b248e5374c3e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73878ea4-a7b2-4b6f-b238-833e35854b34",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "channel" : "DefaultChannel",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:recommendations",
+      "id" : "6cbc4f30-c2f7-478e-8bed-28847c856281",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "412f1a16-543c-4f3b-89b2-8b66f5ae878e",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "3f20a2b6-1a15-4177-97a6-82c6e4f602b5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c6ab3ec9-3113-4135-a35c-6f984cfa19ef",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9dc8beb4-1240-4746-8ff7-70c0a12393f4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC_DH_AddressStatusFilter --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC_DH_AddressStatusFilter --></value>
+    </caseValues>
+    <fields>
+        <label><!-- PMC_DH_Status --></label>
+        <name>PMC_DH_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Analysis</masterLabel>
+            <translation>Em Análise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation>Validado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PMC_SS_Status --></label>
+        <name>PMC_SS_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    
+</CustomObjectTranslation>

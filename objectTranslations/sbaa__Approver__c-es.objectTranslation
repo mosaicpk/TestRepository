@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Approver --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Approver --></value>
+    </caseValues>
+    <fields>
+        <help>&quot;Usado con aprobaciones delegadas, busca al aprobador que es el delegado de este aprobador.&quot;</help>
+        <label>Aprobador delegado</label>
+        <name>sbaa__DelegatedApprover__c</name>
+        <relationshipLabel>Delegación de aprobadores</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Usuario asociado al Aprobador Delegado</help>
+        <label>Id. del usuario delegado</label>
+        <name>sbaa__DelegatedUserId__c</name>
+    </fields>
+    <fields>
+        <help>Las delegaciones de aprobación finalizan al término de esta fecha</help>
+        <label>Fin de la delegación</label>
+        <name>sbaa__DelegationEnd__c</name>
+    </fields>
+    <fields>
+        <help>Las delegaciones de aprobación comienzan a partir de esta fecha</help>
+        <label>Inicio de la delegación</label>
+        <name>sbaa__DelegationStart__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si el aprobador es un grupo en lugar de un único usuario, introduzca el ID del grupo.&quot;</help>
+        <label>ID de grupo</label>
+        <name>sbaa__GroupId__c</name>
+    </fields>
+    <fields>
+        <help>Aprobador que debe aprobar después de que este Aprobador apruebe</help>
+        <label>Aprobador siguiente</label>
+        <name>sbaa__NextApprover__c</name>
+        <relationshipLabel>Aprobadores</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Si el aprobador es un Grupo, compruebe si todos los miembros deben aprobar la aprobación para que se considere aprobada.&quot;</help>
+        <label>Por unanimidad</label>
+        <name>sbaa__Unanimous__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si el aprobador es un único usuario, busque a ese usuario.&quot;</help>
+        <label>Usuario</label>
+        <name>sbaa__User__c</name>
+        <relationshipLabel>Aprobadores</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Approver Name --></nameFieldLabel>
+    <webLinks>
+        <label>Sustituir</label>
+        <name>sbaa__Replace</name>
+    </webLinks>
+</CustomObjectTranslation>

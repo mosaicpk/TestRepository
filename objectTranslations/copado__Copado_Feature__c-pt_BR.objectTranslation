@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Feature (deprecated) --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Feature (deprecated) --></value>
+    </caseValues>
+    <fields>
+        <label>Aplicativo</label>
+        <name>copado__Application__c</name>
+        <relationshipLabel>Recursos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arquiteto</label>
+        <name>copado__Architect__c</name>
+        <relationshipLabel>Recursos (obsoletos) (Arquiteto)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Complexidade</label>
+        <name>copado__Complexity__c</name>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>Épico</label>
+        <name>copado__Epic__c</name>
+        <relationshipLabel>Recursos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valor estimado</label>
+        <name>copado__Estimated_Value__c</name>
+    </fields>
+    <fields>
+        <label>Título do recurso</label>
+        <name>copado__Feature_Title__c</name>
+    </fields>
+    <fields>
+        <label>Prioridade</label>
+        <name>copado__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Proprietário do produto</label>
+        <name>copado__Product_Owner__c</name>
+        <relationshipLabel>Recursos (obsoleto) (Proprietário do produto)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coming Soon</masterLabel>
+            <translation>Em breve</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation>Entregue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinement</masterLabel>
+            <translation>Refinamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation>Solicitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation>Em análise</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Premissas técnicas</label>
+        <name>copado__Technical_Assumptions__c</name>
+    </fields>
+    <fields>
+        <label># Usuários</label>
+        <name>copado__Users__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de valor</label>
+        <name>copado__Value_Type__c</name>
+        <picklistValues>
+            <masterLabel>New Revenue</masterLabel>
+            <translation>Nova receita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time Savings</masterLabel>
+            <translation>Economia de tempo</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Feature Name --></nameFieldLabel>
+</CustomObjectTranslation>

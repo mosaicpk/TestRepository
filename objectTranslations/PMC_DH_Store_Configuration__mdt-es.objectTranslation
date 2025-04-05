@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC DH Store Configuration --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC DH Store Configuration --></value>
+    </caseValues>
+    <fields>
+        <label>Tamaño del lote</label>
+        <name>PMC_DH_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label>Pa�s</label>
+        <name>PMC_DH_Country__c</name>
+    </fields>
+    <fields>
+        <label>UM predeterm. para el país</label>
+        <name>PMC_DH_DefaultUOMForCountry__c</name>
+    </fields>
+    <fields>
+        <label>Url de imagen por defecto</label>
+        <name>PMC_DH_Default_Image_Url__c</name>
+    </fields>
+    <fields>
+        <help><!-- Store Configuration Description --></help>
+        <label><!-- Description --></label>
+        <name>PMC_DH_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API Names --></label>
+        <name>PMC_DH_FieldsAPIName__c</name>
+    </fields>
+    <fields>
+        <label>Url de la página</label>
+        <name>PMC_DH_PageUrl__c</name>
+    </fields>
+    <fields>
+        <label>Url de imagen añadida</label>
+        <name>PMC_DH_Prepended_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label>Resultado máximo del producto</label>
+        <name>PMC_DH_Product_Max_Result__c</name>
+    </fields>
+    <fields>
+        <label>Presupuesto Inactivo Días Extendidos</label>
+        <name>PMC_DH_QuoteInactiveExtendedDays__c</name>
+    </fields>
+    <fields>
+        <label>Presupuesto inactivo Horario ampliado</label>
+        <name>PMC_DH_QuoteInactiveExtendedHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- isActive --></label>
+        <name>PMC_DH_isActive__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

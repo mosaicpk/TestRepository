@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Toneladas anuales</label>
+        <name>PMC_SS_AnnualTons__c</name>
+    </fields>
+    <fields>
+        <label>Toneladas de espacio de almacenamiento</label>
+        <name>PMC_SS_BinSpaceTons__c</name>
+    </fields>
+    <fields>
+        <label>Objetivo</label>
+        <name>PMC_SS_Target__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Las Listas de productos del contrato de venta no pueden añadirse ni actualizarse en esta fase. Modifique este contrato de venta</errorMessage>
+        <name>PMC_SS_RestrictSAProductSchedules</name>
+    </validationRules>
+</CustomObjectTranslation>

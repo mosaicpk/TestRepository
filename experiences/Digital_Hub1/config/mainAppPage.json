@@ -1,0 +1,12 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "74c338e4-76c4-4c98-b3c9-b5099a78a927",
+  "favIconAssetRef" : "MC2DHUVPYCDNEJZIXMEUERLP5LPQ",
+  "headMarkup" : "<!--\n<script type=\"application/javascript\">\n    window.onload = document.querySelector('meta[name=\"viewport\"]').content = 'width=device-width, initial-scale=1'\n</script>\n-->\n<!-- General -->\n<link rel=\"shortcut icon\" href=\"{basePath}/assets/favicon.ico?{versionKey}\">\n<link rel=\"stylesheet\" href=\"{basePath}/assets/css/font-awesome.css?{versionKey}\">\n<link rel=\"stylesheet\" href=\"{basePath}/assets/css/theme.css?{versionKey}\">\n\n<!-- webruntime-branding-shared stylesheets -->\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/salesforce-lightning-design-system.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-site-spacing-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-slds-extensions.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/themes/alpine.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/sfsites/c/resource/pmc_brandingStaticResource/styles/style.css?{ versionKey }\"/>",
+  "id" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "b2b-storefront",
+  "type" : "appPage"
+}

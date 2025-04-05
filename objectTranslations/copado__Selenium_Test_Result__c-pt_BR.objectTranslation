@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Test Result --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Test Result --></value>
+    </caseValues>
+    <fields>
+        <label>Número do lote</label>
+        <name>copado__Batch_No__c</name>
+    </fields>
+    <fields>
+        <label>Tempo decorrido (segundos)</label>
+        <name>copado__Elapsed_Time_Seconds__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <label>URL do resultado</label>
+        <name>copado__Result_URL__c</name>
+    </fields>
+    <fields>
+        <label>Execução de teste do Selenium</label>
+        <name>copado__Selenium_Test_Run__c</name>
+        <relationshipLabel>Resultados do teste do Selenium</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Suíte de testes Selenium</label>
+        <name>copado__Selenium_Test_Suite__c</name>
+        <relationshipLabel>Resultados do teste do Selenium</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed successfully</masterLabel>
+            <translation>Concluído com sucesso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation>Concluído com erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Failure</masterLabel>
+            <translation>Falha do provedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>Em fila</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starting</masterLabel>
+            <translation>Início</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- ID --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,9 @@
+<messaging:emailTemplate subject="FPD Pricing PM Confirmation" recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:htmlEmailBody >
+
+<c:PMC_CPQ_FPDPricingPMConfirmation quote="{!relatedTo.Quote__c}"/>      
+
+<p style="color:white"><apex:outputText value="{!relatedTo.Id}"/></p>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <measures>
+        <field>kpi_win_rate.C</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>barchart_lead_conversion.C</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_avg_deal_size.avg_Amount</field>
+        <formatCustomFormat>[&quot;$#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>timechart_pipeline.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>trend_sales_forecast.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Number of Opportunities</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_total_amount.sum_Amount</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_total_amount_last_year.Pipe_Generated</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_current_pipeline.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,### MTN&quot;,1]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Quantity (MTN)</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>barchart_lead_source.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,### &quot;,1]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Quantity(MTN)</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>barchart_account.sum_TotalOpportunityQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>barchart_country.sum_TotalOpportunityQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>barchart_top_lost.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Quantity(MTN)</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_closed_won.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,### MTN&quot;,1]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Quantity(MTN)</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>piechart_forecast.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,### MTN&quot;,1]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Quantity (MTN)</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Exec_Overview_Pipeline_Performance</waveVisualization>
+</WaveXmd>

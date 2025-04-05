@@ -1,0 +1,50 @@
+{
+  "appPageId" : "59f9b234-f6fa-4314-8965-45019e236422",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d8936de4-b922-4648-a1f7-bc3b2e79c56f",
+  "label" : "Book Appointment from Invitation",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:schedulerSiteHeader",
+      "id" : "e95f7fde-1219-46fa-828c-a9a7fdb8bb37",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "518dbaff-f6c2-4a66-933a-416f00559572",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"invitationKey\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!invitationKey}\"}]",
+        "flowName" : "Book_Appointment_from_Invitation_ForWM"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "cb6c5314-e0c2-4e4e-b985-d11a51c8d55a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a246fb01-7354-4842-a286-45a8584be220",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:schedulerSiteFooter",
+      "id" : "1bcc649d-f0a3-48e6-8aa5-87dc6abeb022",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b39ab44b-6aa7-4446-b687-78bc08efad18",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "flow"
+}

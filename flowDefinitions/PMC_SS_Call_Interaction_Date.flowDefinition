@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>It will update the value of Last Interaction Date field in contact object</description>
+    <masterLabel>Call Interaction Date</masterLabel>
+</FlowDefinition>

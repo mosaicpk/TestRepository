@@ -1,0 +1,8 @@
+<messaging:emailTemplate subject="You've been added as a contact" recipientType="User" relatedToType="Network" >
+<messaging:htmlEmailBody >
+Hi {!recipient.Name}
+You've been added as a secondary contact!
+Log in here:{!$Network.NetworkUrlForUserEmails}
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

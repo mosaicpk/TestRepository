@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Allocation Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Allocation Summaries</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allocation Frequency --></label>
+        <name>PMC_SS_AllocationFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Allocation Period --></label>
+        <name>PMC_SS_AllocationPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Unique Identifier --></label>
+        <name>PMC_SS_ExternalUniqueIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>PMC_SS_Location__c</name>
+        <relationshipLabel><!-- Allocation Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Location Allocation Period Key --></label>
+        <name>PMC_SS_ProductLocationAllocationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>PMC_SS_Product__c</name>
+        <relationshipLabel><!-- Allocation Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Allocation Quantity --></label>
+        <name>PMC_SS_TotalAllocationQuantity__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

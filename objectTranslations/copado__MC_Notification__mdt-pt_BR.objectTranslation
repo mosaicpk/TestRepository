@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MC Notification --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- MC Notification --></value>
+    </caseValues>
+    <fields>
+        <label>Ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <help>Descrição da notificação</help>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <help>Assunto da notificação</help>
+        <label>Assunto</label>
+        <name>copado__Subject__c</name>
+    </fields>
+    <fields>
+        <help>Este é o modelo do corpo da notificação</help>
+        <label>Modelo</label>
+        <name>copado__Template__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

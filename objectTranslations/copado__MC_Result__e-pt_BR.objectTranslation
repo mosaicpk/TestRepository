@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MC Result --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- MC Result --></value>
+    </caseValues>
+    <fields>
+        <label>Código de erro</label>
+        <name>copado__Error_Code__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem de erro</label>
+        <name>copado__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>Está concluído</label>
+        <name>copado__IsFinished__c</name>
+    </fields>
+    <fields>
+        <label>Sucesso</label>
+        <name>copado__IsSuccess__c</name>
+    </fields>
+    <fields>
+        <label>Status do progresso</label>
+        <name>copado__Progress_Status__c</name>
+    </fields>
+    <fields>
+        <label>Resultado Id</label>
+        <name>copado__ResultId__c</name>
+    </fields>
+    <fields>
+        <label>Dados do resultado</label>
+        <name>copado__Result_Data__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

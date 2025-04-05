@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Statistical Baseline Forecast Data --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Statistical Baseline Forecast Data --></value>
+    </caseValues>
+    <fields>
+        <label>Gestor de cuentas</label>
+        <name>PMC_SS_AccountManager__c</name>
+        <relationshipLabel>Datos estadísticos de referencia</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account UOM Converted Quantity --></label>
+        <name>PMC_SS_AccountUOMConvertedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>PMC_SS_Account__c</name>
+        <relationshipLabel>Datos estadísticos de referencia</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identificador único externo</label>
+        <name>PMC_SS_ExternalUniqueIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad prevista final</label>
+        <name>PMC_SS_FinalQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación</label>
+        <name>PMC_SS_Location__c</name>
+        <relationshipLabel>Datos estadísticos de previsión de referencia</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID del gerente de cuentas</label>
+        <name>PMC_SS_O9AccountManagerId__c</name>
+    </fields>
+    <fields>
+        <label>Número del cliente</label>
+        <name>PMC_SS_O9CustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label>Número de la ubicación</label>
+        <name>PMC_SS_O9LocationNumber__c</name>
+    </fields>
+    <fields>
+        <label>Número del producto</label>
+        <name>PMC_SS_O9ProductNumber__c</name>
+    </fields>
+    <fields>
+        <label>Fecha del período</label>
+        <name>PMC_SS_PeriodDate__c</name>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>PMC_SS_Product__c</name>
+        <relationshipLabel>Datos estadísticos de referencia</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity (Account’s UoM) --></label>
+        <name>PMC_SS_QuantityAccountsUoM__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad</label>
+        <name>PMC_SS_Quantity__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de CDP sin restricciones</label>
+        <name>PMC_SS_UnconstrainedCDPQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_SS_UnitofMeasure__c</name>
+        <relationshipLabel>Datos estadísticos de previsión de referencia</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Statistical Baseline Forecast Name --></nameFieldLabel>
+</CustomObjectTranslation>

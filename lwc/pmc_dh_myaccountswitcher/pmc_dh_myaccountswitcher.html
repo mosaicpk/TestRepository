@@ -1,0 +1,12 @@
+<template>
+    {clickedButtonLabel}
+    <lightning-button variant="base" label="Base" title="Looks like a link" onclick={handleDelegatedAccounts} class="slds-m-left_x-small"></lightning-button>
+    <lightning-button label="Open Modal" onclick={handleOpenModal}></lightning-button>
+    <lightning-button label="Close Modal" onclick={handleCloseModal}></lightning-button>
+    <c-pmc_dh-modal modal-header="My Modal" show-modal={showModal}>
+        <template for:each={contacts.data} for:item="account">
+        <a key={account.strAccId}>{account.strAccName} {account.strAccAddress}</a>
+        </template>
+    </c-pmc_dh-modal>
+
+</template>

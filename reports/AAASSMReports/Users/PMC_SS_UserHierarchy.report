@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>User$Name</field>
+    </columns>
+    <columns>
+        <field>User$Manager</field>
+    </columns>
+    <columns>
+        <field>User*User$PMC_SS_RegionalManager__c</field>
+    </columns>
+    <columns>
+        <field>User*User$PMC_SS_SegmentManager__c</field>
+    </columns>
+    <columns>
+        <field>User*User$PMC_SS_RegionalDirector__c</field>
+    </columns>
+    <columns>
+        <field>User*User$PMC_SS_SeniorDirectors__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Report that contains the users, their Manager, Regional Manager, Segment Manager, Regional Director and Senior Director.</description>
+    <format>Tabular</format>
+    <name>User Hierarchy</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>PMC_SS_UserDetailReportType__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

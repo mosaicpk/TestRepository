@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>L</masterLabel>
+        <translation><!-- L --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LTN</masterLabel>
+        <translation><!-- LTN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MTN</masterLabel>
+        <translation><!-- MTN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>STN</masterLabel>
+        <translation><!-- STN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TON</masterLabel>
+        <translation>TONELADA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WMT</masterLabel>
+        <translation><!-- WMT --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

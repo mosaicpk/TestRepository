@@ -1,0 +1,25 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "productDetailSummaryFieldMapping" : "[{\"name\":\"Description\",\"label\":\"Descripción del producto\",\"type\":\"TEXTAREA\"},{\"name\":\"PMC_CPQ_Seasonality__c\",\"label\":\"Temporalidad\",\"type\":\"STRING\"}]"
+        },
+        "id" : "de1b08d3-d471-4693-ac07-6664cbd85285"
+      }, {
+        "id" : "3bbf2cbc-db4f-4fc3-831c-03bdb77a0076",
+        "attributes" : {
+          "text" : "Composición"
+        }
+      }, {
+        "id" : "681ba6b7-e799-426f-938f-de61df4f0638",
+        "attributes" : {
+          "productDetailDataContentMapping" : "[{\"name\":\"PMC_DH_ProductComposition__c\",\"label\":\"Composición\",\"type\":\"STRING\"},{\"name\":\"PMC_CPQ_BusinessApplication__c\",\"label\":\"Aplicación\",\"type\":\"PICKLIST\"},{\"name\":\"PMC_CPQ_CropType__c\",\"label\":\"Crop Type\",\"type\":\"PICKLIST\"},{\"name\":\"PMC_CPQ_Seasonality__c\",\"label\":\"Temporalidad\",\"type\":\"STRING\"}]"
+        }
+      } ]
+    }
+  },
+  "urlName" : "product"
+}

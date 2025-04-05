@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Job Step --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Job Step --></value>
+    </caseValues>
+    <fields>
+        <help>Nome da API do trabalho que acionou o resultado. Essas informações podem ser usadas para fins de relatório.</help>
+        <label>Nome da Api</label>
+        <name>copado__ApiName__c</name>
+    </fields>
+    <fields>
+        <help>O Config Json armazena informações de configuração relacionadas à etapa do trabalho, por exemplo, no case de uma etapa manual, ele contém o responsável pela tarefa manual e as instruções.</help>
+        <label><!-- ConfigJson --></label>
+        <name>copado__ConfigJson__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de etapa do trabalho.</help>
+        <label>Tipo</label>
+        <name>copado__CustomType__c</name>
+    </fields>
+    <fields>
+        <help>Id do ambiente de destino.</help>
+        <label>ID do destino</label>
+        <name>copado__Destination_Id__c</name>
+    </fields>
+    <fields>
+        <help>Usado para definir a ordem de execução no contexto da implementação da história de usuário</help>
+        <label>Sequência de execução</label>
+        <name>copado__ExecutionSequence__c</name>
+        <picklistValues>
+            <masterLabel>After Deployment</masterLabel>
+            <translation>Após a implantação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before Deployment</masterLabel>
+            <translation>Antes da implantação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Git RepositoryId --></label>
+        <name>copado__Git_RepositoryId__c</name>
+    </fields>
+    <fields>
+        <help>Id do registro do repositório Git vinculado ao pipeline ao qual a etapa do trabalho se aplica.</help>
+        <label>Repositório Git</label>
+        <name>copado__Git_Repository__c</name>
+    </fields>
+    <fields>
+        <help>A execução do trabalho associada à etapa</help>
+        <label>Execução do trabalho</label>
+        <name>copado__JobExecution__c</name>
+        <relationshipLabel>Etapas do trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nome do modelo de trabalho que inicia a execução da etapa do trabalho.</help>
+        <label>Modelo de trabalho</label>
+        <name>copado__JobTemplate__c</name>
+        <relationshipLabel>Etapas do trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A ordem em que as etapas do trabalho são executadas.</help>
+        <label>Pedido</label>
+        <name>copado__Order__c</name>
+    </fields>
+    <fields>
+        <label>ID do proprietário Matriz</label>
+        <name>copado__Parent_Owner_Id__c</name>
+    </fields>
+    <fields>
+        <help>Armazena o ID do pipeline vinculado à execução do trabalho</help>
+        <label><!-- PipelineId --></label>
+        <name>copado__PipelineId__c</name>
+    </fields>
+    <fields>
+        <help>Id do pipeline no qual a etapa do trabalho foi executada.</help>
+        <label><!-- Pipeline Id --></label>
+        <name>copado__Pipeline_Id__c</name>
+    </fields>
+    <fields>
+        <help>O escopo, o filtro e os critérios de aceitação definidos para a regra de controle de qualidade referenciada na etapa do trabalho.</help>
+        <label>Condição da regra do Quality Gate</label>
+        <name>copado__Quality_Gate_Rule_Condition__c</name>
+        <relationshipLabel>Etapas do trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A verificação de qualidade realizada pela etapa do trabalho.</help>
+        <label>Regra do Quality Gate</label>
+        <name>copado__Quality_Gate_Rule__c</name>
+        <relationshipLabel>Etapas do trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Registre quais recursos estão disponíveis após a conclusão bem-sucedida da etapa. Você pode aplicar portas de qualidade a esses recursos localmente no contexto da função.</help>
+        <label>Observações sobre os recursos</label>
+        <name>copado__Resource_Observations__c</name>
+        <picklistValues>
+            <masterLabel>Local branch ready</masterLabel>
+            <translation>Filial local pronta</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Esse campo contém qualquer informação adicional sobre o resultado da etapa após a conclusão da mesma.</help>
+        <label>Dados de resultado Json</label>
+        <name>copado__ResultDataJson__c</name>
+    </fields>
+    <fields>
+        <help>O resultado mais recente associado à etapa do trabalho.</help>
+        <label>Último resultado</label>
+        <name>copado__Result__c</name>
+        <relationshipLabel>Etapas do trabalho</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Id do ambiente de origem.</help>
+        <label>Id Fonte</label>
+        <name>copado__Source_Id__c</name>
+    </fields>
+    <fields>
+        <help>O status da etapa do trabalho.</help>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+    </fields>
+    <fields>
+        <help>O Id da execução do trabalho relacionado que realiza etapas e operações adicionais, como a execução de um teste.</help>
+        <label>Execução de subtrabalho</label>
+        <name>copado__Sub_Job_Execution__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de etapa do trabalho.</help>
+        <label>Comportamento</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation>Fluxo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Function</masterLabel>
+            <translation>Função</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation>Teste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para a história do usuário à qual essa tarefa de implementação pertence</help>
+        <label>História do usuário</label>
+        <name>copado__UserStory__c</name>
+        <relationshipLabel>Etapas de implantação</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Job Step Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>A sequência de execução é necessária para as etapas de implantação</errorMessage>
+        <name>copado__Execution_Sequence_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>É necessário ter JobTemplate, Execution ou User Story</errorMessage>
+        <name>copado__Template_OR_Execution_Is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>false</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <description>Block employees from using Transport Layer Security (TLS) protocol below TLS 1.2.</description>
+    <developerName>TLSrequirement</developerName>
+    <eventName>LoginEvent</eventName>
+    <flow>PolicyCondition_gdiAJxoulkpVFCFwutDA</flow>
+    <masterLabel>TLS requirement</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

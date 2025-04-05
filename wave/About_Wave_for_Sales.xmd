@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <measures>
+        <field>lens_1.sum_Amount</field>
+        <formatCustomFormat>[&quot;#,### (MTN)&quot;,1]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Total Quantity</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_closed_won.Quantity</field>
+        <formatCustomFormat>[&quot;#,### (MTN)&quot;,1]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_win_rate.C</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>About_Wave_for_Sales</waveVisualization>
+</WaveXmd>

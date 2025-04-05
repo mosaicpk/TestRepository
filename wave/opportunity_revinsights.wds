@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Revenue_Operations_Analytics</application>
+    <masterLabel>Opportunity RevInsights</masterLabel>
+    <templateAssetSourceName>opportunity_revinsights</templateAssetSourceName>
+    <type>default</type>
+</WaveDataset>

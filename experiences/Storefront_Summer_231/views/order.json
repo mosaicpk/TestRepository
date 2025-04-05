@@ -1,0 +1,54 @@
+{
+  "appPageId" : "ef96a703-457f-424f-adbc-b94e3652ba98",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ {
+    "componentName" : "commerce_data_provider:orderDataProvider",
+    "componentAttributes" : {
+      "recordId" : "{!Route.orderNumber}",
+      "sfdcExpressionKey" : "Order"
+    }
+  } ],
+  "id" : "8c6b9eed-6493-441e-8cac-554bb146bb26",
+  "label" : "Order",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"59a53d2f-12a7-4a80-a16a-1c5d0a25bec9\",\"columns\":[{\"UUID\":\"d710f35a-ba3c-4ec8-8cf5-b1efc69064c7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "59a53d2f-12a7-4a80-a16a-1c5d0a25bec9",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bodyText" : "We will send an email with your confirmation number and receipt shortly.",
+            "buttonText" : "Continue Shopping",
+            "confirmationNumberText" : "Confirmation Number",
+            "headerText" : "Thank you for your order!"
+          },
+          "componentName" : "commerce_unified_checkout:orderConfirmation",
+          "id" : "d40b2f9b-473c-4f06-a282-3ab259fa2794",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d710f35a-ba3c-4ec8-8cf5-b1efc69064c7",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "a4629934-2874-4d91-8272-128fbdee2852",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "order"
+}

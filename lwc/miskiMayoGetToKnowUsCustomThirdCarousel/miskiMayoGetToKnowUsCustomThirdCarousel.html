@@ -1,0 +1,18 @@
+<template>
+    <div class="carousel-wrapper">
+        <div class="carousel-track" style={trackStyle}>
+            <template for:each={visibleSlides} for:item="slide">
+                <div class="carousel-slide" key={slide.slideIndex}>
+                    <lightning-card class="slds-m-around_medium" >
+                        <img src={slide.image} alt={slide.altText}/>
+                        <div class="slds-m-left_xx-large">
+                            <div class="text-description slds-m-left_xx-large slds-text-heading_medium slds-m-top_x-large slds-text-align_left">{slide.description}</div>
+                        </div>
+                    </lightning-card>
+                </div>
+            </template>
+        </div>
+        <button class="nav-button prev slds-m-left_xxx-small" onclick={previousSlide}>&#10094;</button>
+        <button class="nav-button next slds-m-right_xxx-small" onclick={nextSlide}>&#10095;</button>
+    </div>
+</template>

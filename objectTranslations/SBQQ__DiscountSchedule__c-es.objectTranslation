@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Discount Schedule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Discount Schedule --></value>
+    </caseValues>
+    <fields>
+        <help>Cuenta a la que se aplica este programa de descuentos. Sólo se utiliza en combinación con la Anulación de programa de descuentos en la interfaz de usuario del Editor de líneas de presupuesto.</help>
+        <label>Cuenta</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Especifique cómo agregar cantidades de líneas de presupuesto para productos que utilizan este programa. Por defecto, la cantidad de cada línea (incluso para el mismo producto) se considera de forma independiente.&quot;</help>
+        <label>Alcance de agregación</label>
+        <name>SBQQ__AggregationScope__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>Grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Presupuesto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione el campo que desea comparar con el mismo campo del presupuesto.</help>
+        <label>Campo de restricción</label>
+        <name>SBQQ__ConstraintField__c</name>
+        <picklistValues>
+            <masterLabel>Account__c</masterLabel>
+            <translation><!-- Account__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Seleccione la casilla si desea ampliar los descuentos por volumen sobre el volumen total que posee el cliente (es decir, la cantidad cotizada más las compras anteriores).&quot;</help>
+        <label>Órdenes cruzadas</label>
+        <name>SBQQ__CrossOrders__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación para agregar las cantidades de todos los productos que utilizan este programa con el fin de calcular el descuento por volumen. Los descuentos por slab no pueden utilizarse para descuentos por productos cruzados.</help>
+        <label>Productos cruzados</label>
+        <name>SBQQ__CrossProducts__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de este programa de descuentos.</help>
+        <label>Descripción</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help>Especifique la unidad de descuento: Importe o porcentaje.</help>
+        <label>Unidad de descuento</label>
+        <name>SBQQ__DiscountUnit__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation>Importe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation>Porcentaje</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Precio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca una lista de ID de libros de precios separados por comas que no deben aplicarse a este programa de descuentos.</help>
+        <label>ID de libros de precios excluidos</label>
+        <name>SBQQ__ExcludedPricebookIds__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si se marca esta casilla, las cantidades de las opciones de productos agrupados se incluirán en el Alcance de la agregación.&quot;</help>
+        <label>Incluir cantidades agrupadas</label>
+        <name>SBQQ__IncludeBundledProducts__c</name>
+    </fields>
+    <fields>
+        <help>Pida el producto al que se aplica este programa de descuentos.</help>
+        <label>Producto del pedido</label>
+        <lookupFilter>
+            <errorMessage>Seleccione Productos del pedido asociado.</errorMessage>
+        </lookupFilter>
+        <name>SBQQ__OrderProduct__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Orden a la que se aplica este programa de descuentos.</help>
+        <label>Pedido</label>
+        <name>SBQQ__Order__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El Programa de Descuento original que se anuló para crear este Programa de Descuento.</help>
+        <label>Calendario de descuentos original</label>
+        <name>SBQQ__OriginalDiscountSchedule__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Determina si el Nivel de Descuento actual en el que se encuentra el producto es editable, si todos los Niveles de Descuento son editables, o ninguno.&quot;</help>
+        <label>Anular comportamiento</label>
+        <name>SBQQ__OverrideBehavior__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Tier Only</masterLabel>
+            <translation>Sólo nivel actual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Decimales para los precios producidos por este programa de descuentos.</help>
+        <label>Escala de precios</label>
+        <name>SBQQ__PriceScale__c</name>
+    </fields>
+    <fields>
+        <help>Libro de precios al que se aplica este programa de descuentos. Sólo se utiliza en combinación con la búsqueda de productos para asignar un horario específico al libro de productos/precios.</help>
+        <label>Libro de precios</label>
+        <name>SBQQ__Pricebook__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Producto al que se aplica este programa de descuentos. Sólo se utiliza en combinación con la búsqueda del Libro de Precios para asignar el horario específico del producto/libro de precios.</help>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo utilizado para calcular el precio del programa de descuentos.</help>
+        <label>Campo Cantidad de línea de presupuesto</label>
+        <name>SBQQ__QuoteLineQuantityField__c</name>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation>Cantidad</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Línea de presupuesto a la que se aplica este programa de descuentos. Sólo se utiliza en combinación con la Anulación de programa de descuentos en la interfaz de usuario del Editor de líneas de presupuesto.</help>
+        <label>Línea de presupuesto</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Presupuesto al que se aplica este programa de descuentos. Sólo se utiliza en combinación con la Anulación de programa de descuentos en la interfaz de usuario del Editor de líneas de presupuesto.</help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Planes de descuento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Elija el tipo de descuento que determina cómo se restará el importe o los porcentajes del precio.</help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>Gama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation><!-- Slab --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Si esta opción está seleccionada, la Unidad de Descuento definida por el usuario será el Precio.&quot;</help>
+        <label>Utilizar precio para importe</label>
+        <name>SBQQ__UsePriceForAmount__c</name>
+    </fields>
+    <fields>
+        <help>Identifica si este horario fue creado por un usuario final o por un administrador.</help>
+        <label>Definido por el usuario</label>
+        <name>SBQQ__UserDefined__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Schedule Name --></nameFieldLabel>
+    <webLinks>
+        <label>Editar niveles</label>
+        <name>SBQQ__EditTiers</name>
+    </webLinks>
+</CustomObjectTranslation>

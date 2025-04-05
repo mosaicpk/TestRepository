@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- FeatureVisibility --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- FeatureVisibility --></value>
+    </caseValues>
+    <fields>
+        <label>Permissão de comercialização</label>
+        <name>PMC_DH_CommercePermission__c</name>
+    </fields>
+    <fields>
+        <label>Página</label>
+        <name>PMC_DH_Page__c</name>
+    </fields>
+    <fields>
+        <label>Ordem de registro</label>
+        <name>PMC_DH_Tab_Order__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>PMC_DH_Type__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>PMC_DH_Value__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

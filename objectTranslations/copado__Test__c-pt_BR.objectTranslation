@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Test --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Test --></value>
+    </caseValues>
+    <fields>
+        <label>Critérios de aceitação</label>
+        <name>copado__AcceptanceCriteria__c</name>
+    </fields>
+    <fields>
+        <label>Aplicativo</label>
+        <name>copado__Application__c</name>
+        <relationshipLabel>Testes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Configuração</label>
+        <name>copado__Configuration__c</name>
+    </fields>
+    <fields>
+        <help>Os valores exibidos são baseados nos registros de configuração de extensão ativos disponíveis na sua organização.</help>
+        <label>Configuração de ferramentas</label>
+        <name>copado__ExtensionConfiguration__c</name>
+        <relationshipLabel>Testes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Recurso</label>
+        <name>copado__Feature__c</name>
+        <relationshipLabel>Testes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tem configuração extra</label>
+        <name>copado__HasExtraConfiguration__c</name>
+    </fields>
+    <fields>
+        <label>Execução de trabalho mais recente</label>
+        <name>copado__LatestJobExecution__c</name>
+        <relationshipLabel>Testes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID Matriz</label>
+        <name>copado__Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label>Matriz</label>
+        <name>copado__Parent__c</name>
+    </fields>
+    <fields>
+        <label>Prioridade</label>
+        <name>copado__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Crítico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Baixa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Médio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Promoção</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>Testes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ao marcar esse campo, você indica que o teste está pronto para ser executado e o botão &quot;Executar&quot; será exibido.</help>
+        <label>Pronto para funcionar</label>
+        <name>copado__ReadyToRun__c</name>
+    </fields>
+    <fields>
+        <label>Referência</label>
+        <name>copado__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Novo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Test</masterLabel>
+            <translation>Pronto para o teste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Completed</masterLabel>
+            <translation>Testes concluídos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing in Progress</masterLabel>
+            <translation>Testes em andamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ferramenta de teste</label>
+        <name>copado__Test_Tool__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Testes</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Essa configuração de ferramenta não pode ser modificada. Crie um novo teste e selecione a configuração de ferramenta necessária.</errorMessage>
+        <name>copado__PreventUpdatingToolConfiguration</name>
+    </validationRules>
+</CustomObjectTranslation>

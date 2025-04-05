@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "bbd937b1-814c-4864-9a4a-5311b7598f0b",
+  "label" : "Inspiracion Mujer",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1bf87914-27c4-41ae-bb13-a3f386a154ae",
+          "columns" : [ {
+            "UUID" : "a6a2b674-6b49-4bcb-be35-1f634b0ebe0d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1bf87914-27c4-41ae-bb13-a3f386a154ae",
+      "regions" : [ {
+        "id" : "a6a2b674-6b49-4bcb-be35-1f634b0ebe0d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "339c7b2f-b9ac-4810-a306-546aa3a6c8f8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Inspiracion Mujer"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "dd01232b-096c-43b0-9c69-bfc95dd50e2d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "23e22ffc-95bc-4945-9305-b5d9d6b2cc0e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-inspiracion-mujer"
+}

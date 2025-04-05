@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Future</masterLabel>
+        <translation>Futuro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Present</masterLabel>
+        <translation>Presente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Special</masterLabel>
+        <translation>Especial</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

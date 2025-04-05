@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC DH Store Configuration --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC DH Store Configuration --></value>
+    </caseValues>
+    <fields>
+        <label>Tamanho do lote</label>
+        <name>PMC_DH_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label>País</label>
+        <name>PMC_DH_Country__c</name>
+    </fields>
+    <fields>
+        <label>UDM padrão para o país</label>
+        <name>PMC_DH_DefaultUOMForCountry__c</name>
+    </fields>
+    <fields>
+        <label>URL padrão da imagem</label>
+        <name>PMC_DH_Default_Image_Url__c</name>
+    </fields>
+    <fields>
+        <help>Descrição da configuração da loja</help>
+        <label>Descrição</label>
+        <name>PMC_DH_Description__c</name>
+    </fields>
+    <fields>
+        <label>Nomes de campos da API</label>
+        <name>PMC_DH_FieldsAPIName__c</name>
+    </fields>
+    <fields>
+        <label>Url da página</label>
+        <name>PMC_DH_PageUrl__c</name>
+    </fields>
+    <fields>
+        <label>URL da imagem anexada</label>
+        <name>PMC_DH_Prepended_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label>Produto máximo Resultado</label>
+        <name>PMC_DH_Product_Max_Result__c</name>
+    </fields>
+    <fields>
+        <label>Cotação Dias estendidos inativos</label>
+        <name>PMC_DH_QuoteInactiveExtendedDays__c</name>
+    </fields>
+    <fields>
+        <label>Cotação Inativa Horário estendido</label>
+        <name>PMC_DH_QuoteInactiveExtendedHours__c</name>
+    </fields>
+    <fields>
+        <label>Esta ativo</label>
+        <name>PMC_DH_isActive__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

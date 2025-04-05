@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Pricing</dataset>
+    <dates>
+        <alias>SBQQ__Quote__r.SBQQ__Opportunity2__r.CloseDate</alias>
+        <firstDayOfWeek>0</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Opportunity Close Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Name</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Name</label>
+        <linkTemplate>/{{row.SBQQ__Quote__r.SBQQ__Opportunity2__r.Id}}</linkTemplate>
+        <linkTooltip>Open Opportunity</linkTooltip>
+        <recordIdField>SBQQ__Quote__r.SBQQ__Opportunity2__r.Id</recordIdField>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <customActionsEnabled>true</customActionsEnabled>
+        <field>Deal Category</field>
+        <isDerived>true</isDerived>
+        <isMultiValue>false</isMultiValue>
+        <label>Deal Category</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <members>
+            <color>#197ee3</color>
+            <member>Well Priced</member>
+            <sortIndex>0</sortIndex>
+        </members>
+        <members>
+            <color>#d6367e</color>
+            <member>Under Priced</member>
+            <sortIndex>1</sortIndex>
+        </members>
+        <members>
+            <color>#5368a6</color>
+            <member>Not Scored</member>
+            <sortIndex>2</sortIndex>
+        </members>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Name</label>
+        <linkTemplate>/{{row.SBQQ__Quote__r.SBQQ__Opportunity2__r.AccountId}}</linkTemplate>
+        <linkTooltip>Open Account</linkTooltip>
+        <recordIdField>SBQQ__Quote__r.SBQQ__Opportunity2__r.AccountId</recordIdField>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <customActionsEnabled>true</customActionsEnabled>
+        <field>Bin</field>
+        <isDerived>true</isDerived>
+        <isMultiValue>false</isMultiValue>
+        <label>Bin</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <members>
+            <label>Predicted Revenue</label>
+            <member>1_Predicted Revenue</member>
+            <sortIndex>0</sortIndex>
+        </members>
+        <members>
+            <label>Gained Revenue</label>
+            <member>2_Gained Revenue</member>
+            <sortIndex>1</sortIndex>
+        </members>
+        <members>
+            <label>Missed Revenue</label>
+            <member>4_Missed Revenue</member>
+            <sortIndex>2</sortIndex>
+        </members>
+        <members>
+            <color>#7e98b2</color>
+            <label>Unscored Revenue</label>
+            <member>3_Unscored Revenue</member>
+            <sortIndex>3</sortIndex>
+        </members>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.Id</field>
+        <isDerived>false</isDerived>
+        <label>Quote Id</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.Name</field>
+        <isDerived>false</isDerived>
+        <label>Quote Name</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__BillingCountry__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Billing Country</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__BillingFrequency__c</field>
+        <isDerived>false</isDerived>
+        <label>Billing Frequency</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__BillingName__c</field>
+        <isDerived>false</isDerived>
+        <label>Billing Name</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__BillingState__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Billing State</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__c</field>
+        <isDerived>false</isDerived>
+        <label>OpportunityId</label>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.AccountId</field>
+        <isDerived>false</isDerived>
+        <label>Account Id</label>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.ForecastCategoryName</field>
+        <isDerived>false</isDerived>
+        <label>Forecast Category Name</label>
+        <sortIndex>10</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Id</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>11</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.IsClosed</field>
+        <isDerived>false</isDerived>
+        <label>IsClosed</label>
+        <sortIndex>12</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.IsWon</field>
+        <isDerived>false</isDerived>
+        <label>IsWon</label>
+        <sortIndex>13</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.LeadSource</field>
+        <isDerived>false</isDerived>
+        <label>Lead Source</label>
+        <sortIndex>14</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.NextStep</field>
+        <isDerived>false</isDerived>
+        <label>Next Steps</label>
+        <sortIndex>15</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.OwnerId</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Owner Id</label>
+        <sortIndex>16</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.RecordType.Name</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Record Type</label>
+        <sortIndex>17</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.RecordTypeId</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Record Type Id</label>
+        <sortIndex>18</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.StageName</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Stage</label>
+        <sortIndex>19</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Type</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Type</label>
+        <sortIndex>20</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Primary__c</field>
+        <isDerived>false</isDerived>
+        <label>Is Primary Quote?</label>
+        <sortIndex>21</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Sales Rep Id</label>
+        <sortIndex>22</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Name</field>
+        <isDerived>false</isDerived>
+        <label>Quote Owner Name</label>
+        <sortIndex>23</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.DeveloperName</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>24</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.Hierarchy_RoleNames</field>
+        <isDerived>false</isDerived>
+        <label>Role Hierarchy</label>
+        <sortIndex>25</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.Name</field>
+        <isDerived>false</isDerived>
+        <label>Role Name</label>
+        <sortIndex>26</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.ParentRole.DeveloperName</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>27</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.ParentRole.Name</field>
+        <isDerived>false</isDerived>
+        <label>Parent Role Name</label>
+        <sortIndex>28</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.ParentRoleId</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>29</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.RoleNamesPath</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>30</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.RoleNames</field>
+        <isDerived>false</isDerived>
+        <label>Role Ids (multi)</label>
+        <sortIndex>31</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.Roles</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>32</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Role.RolePath</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>33</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.SmallPhotoUrl</field>
+        <isDerived>false</isDerived>
+        <label>Chatter Image</label>
+        <sortIndex>34</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.UniqueUserName</field>
+        <isDerived>false</isDerived>
+        <label>Unique User Name</label>
+        <sortIndex>35</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.Username</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>36</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.UserRoleId</field>
+        <isDerived>false</isDerived>
+        <label>Role Id</label>
+        <sortIndex>37</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Status__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Status</label>
+        <sortIndex>38</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Type__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Type</label>
+        <sortIndex>39</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.AccountSource</field>
+        <isDerived>false</isDerived>
+        <label>Account Source</label>
+        <sortIndex>40</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.BillingCountry</field>
+        <isDerived>false</isDerived>
+        <label>Account Billing Country</label>
+        <sortIndex>41</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.BillingState</field>
+        <isDerived>false</isDerived>
+        <label>Account Billing State</label>
+        <sortIndex>42</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.Industry</field>
+        <isDerived>false</isDerived>
+        <label>Industry</label>
+        <sortIndex>43</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.PhotoUrl</field>
+        <isDerived>false</isDerived>
+        <label>Account Photo URL</label>
+        <sortIndex>44</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.Type</field>
+        <isDerived>false</isDerived>
+        <label>Account Type</label>
+        <sortIndex>45</sortIndex>
+    </dimensions>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__AverageCustomerDiscount__c</field>
+        <formatCustomFormat>[&quot;###.##%&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Average Customer Discount (%)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual Discount</field>
+        <formatCustomFormat>[&quot;###.##%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Discount</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__CustomerTotal__c</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Recommendation</field>
+        <formatCustomFormat>[&quot;###.##%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Recommendation</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.NumberOfEmployees</field>
+        <isDerived>false</isDerived>
+        <label>Account Number of Employees</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Amount</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Amount</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Account.AnnualRevenue</field>
+        <isDerived>false</isDerived>
+        <label>Account Annual Revenue</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Revenue</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Revenue</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__TotalCustomerDiscountAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Total Customer Discount Amount</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>missed_revenue</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Missed Revenue</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__TargetCustomerAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Target Customer Amount</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>gained_revenue</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Gained Revenue</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__SubscriptionTerm__c</field>
+        <isDerived>false</isDerived>
+        <label>Subscription Term</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__SalesRep__r.UserTenure</field>
+        <isDerived>false</isDerived>
+        <label>User Tenure</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__RegularAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Regular Amount</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Probability</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Probability</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.OpportunityAge</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Age</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__Opportunity2__r.Amount</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Amount</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__NetAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Net Amount</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__MarkupRate__c</field>
+        <isDerived>false</isDerived>
+        <label>Markup (%)</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__ListAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote List Amount</label>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__DaysQuoteOpen__c</field>
+        <isDerived>false</isDerived>
+        <label>Days Quote Open</label>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__CustomerDiscount__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Additional Discount (%)</label>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__CustomerAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Customer Amount</label>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Quote__r.SBQQ__AdditionalDiscountAmount__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Additional Discount (Amount)</label>
+        <sortIndex>18</sortIndex>
+    </measures>
+</WaveXmd>

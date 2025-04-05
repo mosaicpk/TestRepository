@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Sellers</name>
+    <queueMembers>
+        <roles>
+            <role>PMC_SS_NACustomerServiceLead</role>
+            <role>PMC_SS_NARebatesandCommissionsAnalyst</role>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

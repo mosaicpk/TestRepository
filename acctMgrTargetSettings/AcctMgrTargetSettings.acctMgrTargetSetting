@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcctMgrTargetSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <acctMgrPeriodicTargetDstrCnt>0</acctMgrPeriodicTargetDstrCnt>
+    <periodType>Month</periodType>
+    <pricebookId>01sDn000004Z23b</pricebookId>
+    <teamMemberHierarchyType>ManagerHierarchy</teamMemberHierarchyType>
+</AcctMgrTargetSettings>

@@ -1,0 +1,41 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ {
+    "componentName" : "commerce_data_provider:orderDataProvider",
+    "componentAttributes" : {
+      "recordId" : "{!Route.orderNumber}",
+      "sfdcExpressionKey" : "Order"
+    }
+  } ],
+  "id" : "f03984d2-85b0-423a-84cb-ab44847e04fd",
+  "label" : "Order",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"5f0ee2c9-3d7f-4f8c-b32d-da2fd07d3e28\",\"columns\":[{\"UUID\":\"f32176d2-dc3c-4f08-a2ac-8d6aefab2db7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "5f0ee2c9-3d7f-4f8c-b32d-da2fd07d3e28",
+      "regions" : [ {
+        "id" : "f32176d2-dc3c-4f08-a2ac-8d6aefab2db7",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "6ccae1ef-b1cc-440e-b40e-c771e23b6970",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZU6jMSaEOkVarmD9c0eLRGj2VmPSKD",
+  "type" : "view",
+  "viewType" : "order"
+}

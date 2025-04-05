@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/6.png</assetIcon>
+    <folder>Customer_Insights_Analytics_2</folder>
+    <masterLabel>Customer Insights Analytics 2</masterLabel>
+    <templateOrigin>sfdc_internal__CustomerInsights</templateOrigin>
+    <templateVersion>2.0</templateVersion>
+</WaveApplication>

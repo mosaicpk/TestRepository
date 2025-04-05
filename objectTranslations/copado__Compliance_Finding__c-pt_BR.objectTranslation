@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Compliance Finding --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Compliance Finding --></value>
+    </caseValues>
+    <fields>
+        <label>Regra de conformidade</label>
+        <name>copado__Compliance_Rule__c</name>
+        <relationshipLabel>Constatações de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Resultado da verificação de conformidade</label>
+        <name>copado__Compliance_Scan_Result__c</name>
+        <relationshipLabel>Constatações de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Mensagem de erro da regra</label>
+        <name>copado__Rule_Error_Message__c</name>
+    </fields>
+    <fields>
+        <help>A gravidade da regra que foi violada</help>
+        <label>Gravidade da regra</label>
+        <name>copado__Severity__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Compliance Finding Reference --></nameFieldLabel>
+    <recordTypes>
+        <description>Esse tipo de registro é usado para resultados de varredura produzidos pelo Copado.</description>
+        <label><!-- Copado --></label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Use esse tipo de registro para capturar descobertas de varredura não relacionadas ao Salesforce.</description>
+        <label>Outros</label>
+        <name>copado__Other</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Incentive Earned</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Incentives Earned</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accruals Currency --></label>
+        <name>PMC_SS_AccrualsCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accruals Open --></label>
+        <name>PMC_SS_AccrualsOpen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accruals Reversed --></label>
+        <name>PMC_SS_AccrualsReversed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accruals Total --></label>
+        <name>PMC_SS_AccrualsTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Contract Type --></label>
+        <name>PMC_SS_ConditionContractType__c</name>
+        <picklistValues>
+            <masterLabel>Blended Rebate</masterLabel>
+            <translation><!-- Blended Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Rebate</masterLabel>
+            <translation><!-- Growth Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Rebate</masterLabel>
+            <translation><!-- Individual Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Rebate</masterLabel>
+            <translation><!-- Portfolio Rebate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition Type --></label>
+        <name>PMC_SS_ConditionType__c</name>
+        <picklistValues>
+            <masterLabel>Blended Accrual</masterLabel>
+            <translation><!-- Blended Accrual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blended Rebate</masterLabel>
+            <translation><!-- Blended Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Accrual</masterLabel>
+            <translation><!-- Growth Accrual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Rebate</masterLabel>
+            <translation><!-- Growth Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Accrual</masterLabel>
+            <translation><!-- Individual Accrual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Rebate</masterLabel>
+            <translation><!-- Individual Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Accrual</masterLabel>
+            <translation><!-- Portfolio Accrual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Rebate</masterLabel>
+            <translation><!-- Portfolio Rebate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>PMC_SS_Customer__c</name>
+        <relationshipLabel><!-- Incentives Earned --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Sales Agreement Identifier --></label>
+        <name>PMC_SS_ExternalSalesAgreementIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>PMC_SS_Product__c</name>
+        <relationshipLabel><!-- Incentives Earned --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SAP Condition Contract Number --></label>
+        <name>PMC_SS_SAPConditionContractNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Agreement --></label>
+        <name>PMC_SS_SalesAgreement__c</name>
+        <relationshipLabel><!-- Incentives Earned --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

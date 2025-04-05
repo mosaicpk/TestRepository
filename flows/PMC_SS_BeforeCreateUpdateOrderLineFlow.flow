@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Assignment element to update the value of UOM lookup based on picklist selection</description>
+        <name>UnitOfMeasureLookupAssignment</name>
+        <label>Unit of Measure Lookup Assignment</label>
+        <locationX>198</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.PMC_SS_UnitOfMeasure__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>GetSelectedUnitOfMeasure.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <description>Decision element to check if flow is bypassed</description>
+        <name>FlowBypassDecision</name>
+        <label>Flow Bypass Decision</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>UnitOfMeasureChangeDecision</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>FlowBypassDecision_IsBypassed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.PMC_ProcessSwitches__c.PMC_BypassFlow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Is Bypassed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Decision element to check if UOM picklist value is populated or updated.</description>
+        <name>UnitOfMeasureChangeDecision</name>
+        <label>Unit of Measure Change Decision</label>
+        <locationX>330</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>UnitOfMeasureChangeDecision_UOMChanged</name>
+            <conditionLogic>( 1 OR 2 )AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>BoolIsNewRecord</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_UnitOfMeasure__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_UnitOfMeasure__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>GetSelectedUnitOfMeasure</targetReference>
+            </connector>
+            <label>UOM Changed</label>
+        </rules>
+    </decisions>
+    <description>Flow created to populate UOM lookup based on UOM picklist selection.</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Formula variable to check if flow is executing in insert context.</description>
+        <name>BoolIsNewRecord</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>PMC SS Before Create/Update Order Line Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PMC SS Before Create/Update Order Line Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get record element to query UOM selected in picklist</description>
+        <name>GetSelectedUnitOfMeasure</name>
+        <label>Get Selected Unit of Measure</label>
+        <locationX>198</locationX>
+        <locationY>503</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>UnitOfMeasureLookupAssignment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.PMC_CPQ_UnitOfMeasure__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>UnitOfMeasure</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>FlowBypassDecision</targetReference>
+        </connector>
+        <object>OrderItem</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

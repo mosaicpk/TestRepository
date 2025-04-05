@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Test Script --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Test Script --></value>
+    </caseValues>
+    <fields>
+        <label>Resultado esperado</label>
+        <name>copado__Expected_Result__c</name>
+    </fields>
+    <fields>
+        <label>Introdução</label>
+        <name>copado__Introduction__c</name>
+    </fields>
+    <fields>
+        <label>Credencial</label>
+        <name>copado__Org__c</name>
+    </fields>
+    <fields>
+        <label>Resultado geral</label>
+        <name>copado__Overall_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed with comments</masterLabel>
+            <translation>Aprovado com comentários</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Revisor por pares</label>
+        <name>copado__Peer_Reviewer__c</name>
+        <relationshipLabel>Scripts de teste</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pré-requisitos</label>
+        <name>copado__Prerequisites__c</name>
+    </fields>
+    <fields>
+        <label>Projeto</label>
+        <name>copado__Project__c</name>
+    </fields>
+    <fields>
+        <label>Risco</label>
+        <name>copado__Risk__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Baixa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Médio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sprint --></label>
+        <name>copado__Sprint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for testing</masterLabel>
+            <translation>Pronto para teste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descrição do teste</label>
+        <name>copado__Test_Description__c</name>
+    </fields>
+    <fields>
+        <label>Título do teste</label>
+        <name>copado__Test_Title__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Scripts de teste (história do usuário)</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Test Script Name --></nameFieldLabel>
+    <webLinks>
+        <label>Adicionar etapas do script de teste</label>
+        <name>copado__Add_Test_Script_Steps</name>
+    </webLinks>
+</CustomObjectTranslation>

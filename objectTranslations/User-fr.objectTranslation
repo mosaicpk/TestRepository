@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado License Manager --></label>
+        <name>copado__License_Manager</name>
+    </fieldSets>
+    <fields>
+        <label><!-- DB Region --></label>
+        <name>DB_Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- All Sales Area --></label>
+        <name>PMC_CPQ_AllSalesArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- KAM --></label>
+        <name>PMC_CPQ_KAM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Type --></label>
+        <name>PMC_CPQ_PrimaryBusinessType__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP External User Id --></label>
+        <name>PMC_CPQ_SAPExternalUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>PMC_CPQ_SalesArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>PMC_CPQ_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Region --></label>
+        <name>PMC_CPQ_SalesRegion__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Business Type --></label>
+        <name>PMC_CPQ_SecondaryBusinessType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup User --></label>
+        <name>PMC_SS_BackupUser__c</name>
+        <relationshipLabel><!-- Users (Backup User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delegate User --></label>
+        <name>PMC_SS_DelegateUser__c</name>
+        <relationshipLabel><!-- Users (Delegate User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Once you reassign these cases, you cannot reassign them back --></help>
+        <label><!-- Out of office end date --></label>
+        <name>PMC_SS_OutOfOfficeEndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Once you reassign these cases, you cannot reassign them back --></help>
+        <label><!-- Out of office start date --></label>
+        <name>PMC_SS_OutOfOfficeStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out Of Office --></label>
+        <name>PMC_SS_OutOfOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Name --></label>
+        <name>PMC_SS_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Director --></label>
+        <name>PMC_SS_RegionalDirector__c</name>
+        <relationshipLabel><!-- Users (Regional Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager --></label>
+        <name>PMC_SS_RegionalManager__c</name>
+        <relationshipLabel><!-- Users (Regional Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Segment Manager --></label>
+        <name>PMC_SS_SegmentManager__c</name>
+        <relationshipLabel><!-- Users (Segment Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Senior Director --></label>
+        <name>PMC_SS_SeniorDirectors__c</name>
+        <relationshipLabel><!-- Users (Senior Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Personnaliser l&apos;onglet par défaut de la page de référence produit.</help>
+        <label><!-- Default Product Lookup Tab --></label>
+        <name>SBQQ__DefaultProductLookupTab__c</name>
+        <picklistValues>
+            <masterLabel>Guided Selling</masterLabel>
+            <translation>Vente guidée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Filters</masterLabel>
+            <translation>Filtres de recherche</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Permet d&apos;activer l&apos;outil de diagnostic de CPQ, disponible uniquement si le paramètre de l&apos;organisation est activé. Pour activer cette capacité, contactez le support.</help>
+        <label><!-- Enable Diagnostic Tool --></label>
+        <name>SBQQ__DiagnosticToolEnabled__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette case pour autoriser cet utilisateur à changer le format de sortie des documents de devis.</help>
+        <label><!-- Allow Output Format Change --></label>
+        <name>SBQQ__OutputFormatChangeAllowed__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez « Suivi » pour afficher les produits que vous suivez dans Chatter avant d&apos;autres lors de l&apos;ajout à un devis.</help>
+        <label><!-- Product Sort Preference --></label>
+        <name>SBQQ__ProductSortPreference__c</name>
+        <picklistValues>
+            <masterLabel>Followed</masterLabel>
+            <translation>Suivi</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette case pour effacer les filtres et les résultats de recherche chaque fois que vous ajoutez des produits à vos devis, sinon vos sélections antérieures sont conservées.</help>
+        <label><!-- Reset Product Lookup --></label>
+        <name>SBQQ__ResetProductLookup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Theme --></label>
+        <name>SBQQ__Theme__c</name>
+    </fields>
+    <fields>
+        <label><!-- API_URL --></label>
+        <name>copado__API_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The visibility of the message asking users to rate &amp; feedback Copado on the AppExchange is controlled here. --></help>
+        <label><!-- Hide Copado feedback --></label>
+        <name>copado__Hide_Copado_feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Copado Tips --></label>
+        <name>copado__Show_Copado_Tips__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Manager Panels --></label>
+        <name>copado__Work_Manager_Panels__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can Manage DocuSign Account --></label>
+        <name>dfsle__CanManageAccount__c</name>
+    </fields>
+    <fields>
+        <help>Date provisionnée</help>
+        <label><!-- DocuSign Provisioned Date --></label>
+        <name>dfsle__Provisioned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Docusign Status --></label>
+        <name>dfsle__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inactif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Username --></label>
+        <name>dfsle__Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Marketing Cloud Page --></label>
+        <name>et4ae5__Default_ET_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default MID --></label>
+        <name>et4ae5__Default_MID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange Admin --></label>
+        <name>et4ae5__ExactTargetForAppExchangeAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange User --></label>
+        <name>et4ae5__ExactTargetForAppExchangeUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud Username --></label>
+        <name>et4ae5__ExactTargetUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- @deprecated --></label>
+        <name>et4ae5__ExactTarget_OAuth_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud Admin --></label>
+        <name>et4ae5__ValidExactTargetAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud User --></label>
+        <name>et4ae5__ValidExactTargetUser__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Selected Back up user is on out of office. Please select a different user. --></errorMessage>
+        <name>PMC_CheckBackUpUserIsOnOOO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Back up user is mandatory for Out of office, please select the desired Back up user. --></errorMessage>
+        <name>PMC_SS_BackupUser</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The user you selected is already Out Of Office. Please select another user to delegate. --></errorMessage>
+        <name>PMC_SS_DelegatedUserOOORule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Out Off Office start date and end date when entering delegated user --></errorMessage>
+        <name>PMC_SS_EnterDatesForOutOfOffice</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the Delegate User while entering Out Of Office start date and end date. --></errorMessage>
+        <name>PMC_SS_EnterDelegateUser</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the mandatory fields, Mobile No., Federation ID &amp; Sales Region in order to save the record. --></errorMessage>
+        <name>PMC_SS_MandatoryUserFields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Previous date cannot be selected as a Out Of Office start date --></errorMessage>
+        <name>PMC_SS_OOOStartDateGreaterOrEqualToToday</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Out Of Office Start Date cannot be after the Out of Office End Date --></errorMessage>
+        <name>PMC_SS_OOOStartDateIsGreaterThanEndDate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clone_Users --></label>
+        <name>Clone_Users</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Theme --></label>
+        <name>SBQQ__Select_Theme</name>
+    </webLinks>
+</CustomObjectTranslation>

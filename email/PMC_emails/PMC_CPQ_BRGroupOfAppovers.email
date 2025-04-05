@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="(Action Needed)" recipientType="User" relatedToType="Approval">
+<messaging:plainTextEmailBody >
+Congratulations!
+This is your new Visualforce Email Template.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

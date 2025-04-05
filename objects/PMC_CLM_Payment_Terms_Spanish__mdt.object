@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Quote Line Payment Terms in Spanish</description>
+    <label>PMC CLM Payment Term Spanish</label>
+    <pluralLabel>PMC CLM Payment Terms Spanish</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

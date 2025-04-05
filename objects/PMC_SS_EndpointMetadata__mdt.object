@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Store metadata related to endpoints</description>
+    <fields>
+        <fullName>PMC_SS_APIValue__c</fullName>
+        <description>Store API value</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>API Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Environment__c</fullName>
+        <description>Lookup to Environment</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PMC SS Environment</label>
+        <referenceTo>PMC_SS_Environment__mdt</referenceTo>
+        <relationshipName>Endpoint_Metadata</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>PMC SS Endpoint Metadata</label>
+    <pluralLabel>PMC SS Endpoint Metadata</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

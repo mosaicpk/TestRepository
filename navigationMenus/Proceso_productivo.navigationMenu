@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Miski Mayo</container>
+    <containerType>Network</containerType>
+    <label>Proceso productivo</label>
+    <navigationMenuItem>
+        <label>Proceso en mina</label>
+        <menuItemBranding>
+            <tileImage>placeholder1e1533569576673960x960</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/proceso-productivo</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Proceso en planta</label>
+        <menuItemBranding>
+            <tileImage>placeholder1e1533569576673960x960</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/proceso-productivo</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Proceso en descarga y secado</label>
+        <menuItemBranding>
+            <tileImage>placeholder1e1533569576673960x960</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/proceso-productivo</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Proceso en puerto</label>
+        <menuItemBranding>
+            <tileImage>placeholder1e1533569576673960x960</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/proceso-productivo</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

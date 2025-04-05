@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>false</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>true</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>true</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <description>Require MFA and notify when a user is exporting a report with over 5,000 records.</description>
+    <developerName>DownloadingReportswithove</developerName>
+    <eventName>ReportEvent</eventName>
+    <flow>PolicyCondition_LRmxXOUNzehLMlymJraS</flow>
+    <masterLabel>Downloading Reports with over 5000 records</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

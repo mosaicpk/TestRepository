@@ -1,0 +1,16 @@
+<apex:page standardStylesheets="true" showHeader="false">
+    <apex:includeLightning />    
+    <div id="LwcId" />
+    <script>
+    $Lightning.use("c:visualforceAuraApplications", function() {
+        $Lightning.createComponent("c:pMC_CPQ_FPDSENDSAPQuickAction",
+                                   {
+                                       recordId : '{!$CurrentPage.parameters.id}'
+                                   },
+                                   "LwcId",
+                                   function(cmp) {
+                                       console.log('Calling the LWC Component');
+                                   });
+    });
+    </script>
+</apex:page>

@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2555a09f-79c9-431c-8873-d9fd7567a6e3",
+  "label" : "Gestión Ambiental",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "62e94425-6774-4cf5-8b99-d8d3aab694f7",
+          "columns" : [ {
+            "UUID" : "99d919f2-0c7c-4055-8e1f-496e2baa67e0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "62e94425-6774-4cf5-8b99-d8d3aab694f7",
+      "regions" : [ {
+        "id" : "99d919f2-0c7c-4055-8e1f-496e2baa67e0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b44b2da4-a1e7-46c9-9753-b01db5d77172",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gestión Ambiental"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "65e30565-9c2f-4b67-89e7-761812928fda",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a1dd09b6-fa6f-4958-b6d9-a69b56a8e7f6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-gestin-ambiental"
+}

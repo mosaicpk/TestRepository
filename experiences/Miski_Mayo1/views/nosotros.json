@@ -1,0 +1,60 @@
+{
+  "appPageId" : "a9be1a74-3dcc-403a-95df-0301d24784e0",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f25e9897-dee5-4f60-848a-ad5343938ac1",
+  "label" : "Nosotros",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f900c61c-b270-41d6-bc86-c4b282632158",
+          "columns" : [ {
+            "UUID" : "5ba3a941-c689-4612-bb66-7feae9685c37",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f900c61c-b270-41d6-bc86-c4b282632158",
+      "regions" : [ {
+        "id" : "5ba3a941-c689-4612-bb66-7feae9685c37",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f602e592-63ee-43a7-8745-7921f62ce227",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nosotros"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8ca34c15-6e1c-4922-8910-71c4311e100e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e0092a55-2b44-4712-8226-46b6d6373133",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nosotros"
+}

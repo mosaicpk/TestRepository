@@ -1,0 +1,26 @@
+<template>
+    <div for:each={accountData} for:item="item"  key={item}>
+        {item}
+
+    </div>
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+            <tr class="slds-text-title_caps">
+                <th scope="col">Communication Type</th>
+                <th scope="col">Consent</th>
+                <th scope="col">Name</th>
+                <th scope="col">Parent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <template for:each={returnValue} for:item="item">
+                <tr key={item.strName}>
+                    <td>{item.strCommuType}</td>
+                    <td>{item.strConsent}</td>
+                    <td>{item.strName}</td>
+                    <td>{item.strParent}</td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</template>

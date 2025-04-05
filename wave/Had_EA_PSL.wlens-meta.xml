@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveLens xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>Adoption_Analytics_from_template</application>
+    <datasets>WaveChangeEA</datasets>
+    <datasets>PSLsEA</datasets>
+    <dateVersion>1</dateVersion>
+    <masterLabel>Users Previously Assigned EA PSL</masterLabel>
+    <templateAssetSourceName>Had_EA_PSL</templateAssetSourceName>
+    <visualizationType>valuestable</visualizationType>
+</WaveLens>

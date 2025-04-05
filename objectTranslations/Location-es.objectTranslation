@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CPQ_Lookup --></label>
+        <name>CPQ_Lookup</name>
+    </fieldSets>
+    <fields>
+        <label>Fecha de finalización del contrato</label>
+        <name>PMC_CPQ_AgreementEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Número de acuerdo</label>
+        <name>PMC_CPQ_AgreementNumber__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de inicio del acuerdo</label>
+        <name>PMC_CPQ_AgreementStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Contacto alternativo de reporte</label>
+        <name>PMC_CPQ_AlternateReportingContact__c</name>
+        <relationshipLabel>Ubicaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Espacio del bin</label>
+        <name>PMC_CPQ_BinSpace__c</name>
+    </fields>
+    <fields>
+        <label>Ciudad</label>
+        <name>PMC_CPQ_City__c</name>
+    </fields>
+    <fields>
+        <label>Pa�s</label>
+        <name>PMC_CPQ_Country__c</name>
+    </fields>
+    <fields>
+        <label>Inventario total del Cliente</label>
+        <name>PMC_CPQ_CustomerTotalInventory__c</name>
+    </fields>
+    <fields>
+        <label>Valor en puntos de la expedición</label>
+        <name>PMC_CPQ_ExpeditionPointValue__c</name>
+    </fields>
+    <fields>
+        <label>Punto de expedición</label>
+        <name>PMC_CPQ_ExpeditionPoint__c</name>
+        <relationshipLabel>Puntos de expedición</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de Exspace</label>
+        <name>PMC_CPQ_ExspaceID__c</name>
+    </fields>
+    <fields>
+        <label>Última fecha de inventario</label>
+        <name>PMC_CPQ_LastInventoryDate__c</name>
+    </fields>
+    <fields>
+        <label>ID de la ubicación</label>
+        <name>PMC_CPQ_LocationID__c</name>
+    </fields>
+    <fields>
+        <label>Mínimo de Toneladas</label>
+        <name>PMC_CPQ_MinimumTons__c</name>
+    </fields>
+    <fields>
+        <label>Planta</label>
+        <name>PMC_CPQ_Plant__c</name>
+    </fields>
+    <fields>
+        <label>C�digo Postal</label>
+        <name>PMC_CPQ_PostalCode__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del producto</label>
+        <name>PMC_CPQ_ProductName__c</name>
+        <relationshipLabel>Ubicaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Región</label>
+        <name>PMC_CPQ_Region__c</name>
+    </fields>
+    <fields>
+        <label>Id. de ubicación SAP</label>
+        <name>PMC_CPQ_SAPLocationId__c</name>
+    </fields>
+    <fields>
+        <label>Código del producto en SAP</label>
+        <name>PMC_CPQ_SAPProductCode__c</name>
+    </fields>
+    <fields>
+        <label>Organización de ventas</label>
+        <name>PMC_CPQ_SalesOrg__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta de destino</label>
+        <name>PMC_CPQ_ShipToAccount__c</name>
+        <relationshipLabel>Ubicaciones (Cuenta de destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>SAP Id del destinatario</label>
+        <name>PMC_CPQ_ShipToSAPId__c</name>
+    </fields>
+    <fields>
+        <label>Vendido a cuenta</label>
+        <name>PMC_CPQ_SoldToAccount__c</name>
+        <relationshipLabel>Ubicaciones(Cuenta de destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Id SAP Vendido a</label>
+        <name>PMC_CPQ_SoldToSAPId__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>PMC_CPQ_State__c</name>
+    </fields>
+    <fields>
+        <label>Calle</label>
+        <name>PMC_CPQ_Street__c</name>
+    </fields>
+    <fields>
+        <label>Código fiscal</label>
+        <name>PMC_CPQ_TaxCode__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_CPQ_UnitOfMeasurement__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del tipo de almacén</label>
+        <name>PMC_CPQ_WarehouseTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShefaliTest --></label>
+        <name>ShefaliTest__c</name>
+    </fields>
+    <recordTypes>
+        <description>Este tipo de registro se creó para personalizar la interfaz de usuario del registro ExSpace</description>
+        <label>Ubicación ExSpace</label>
+        <name>PMC_CPQ_ExSpace_Loaction</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Punto de Expedición</label>
+        <name>PMC_CPQ_ExpeditionPoint</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro creado para personalizar la interfaz de usuario del registro de Origen</description>
+        <label>Ubicación de Origen</label>
+        <name>PMC_CPQ_Origin_Location</name>
+    </recordTypes>
+</CustomObjectTranslation>

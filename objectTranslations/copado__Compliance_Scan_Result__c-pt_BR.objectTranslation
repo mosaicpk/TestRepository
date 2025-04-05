@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Compliance Scan Result --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Compliance Scan Result --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Compliance_Result_Tab --></label>
+        <name>copado__Compliance_Result_Tab</name>
+    </fieldSets>
+    <fields>
+        <label>Etapa de implantação</label>
+        <name>copado__Deployment_Step__c</name>
+        <relationshipLabel>Resultados da verificação de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Implantação</label>
+        <name>copado__Deployment__c</name>
+        <relationshipLabel>Resultados da verificação de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Resultados da verificação de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label># Achados</label>
+        <name>copado__Findings__c</name>
+    </fields>
+    <fields>
+        <label>Instantâneo do Git</label>
+        <name>copado__Git_Snapshot__c</name>
+        <relationshipLabel>Resultados da verificação de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A ação mais severa nas Constatações de Conformidade.</help>
+        <label>Ação da regra superior</label>
+        <name>copado__Highest_Rule_Action__c</name>
+    </fields>
+    <fields>
+        <help>Maior gravidade das constatações de conformidade.</help>
+        <label>Gravidade superior</label>
+        <name>copado__Highest_Severity__c</name>
+    </fields>
+    <fields>
+        <label>Credencial</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>Resultados da verificação de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Detalhes da resolução</label>
+        <name>copado__Resolution_Details__c</name>
+    </fields>
+    <fields>
+        <label>Duração da varredura em minutos</label>
+        <name>copado__Scan_Duration_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Fim da varredura</label>
+        <name>copado__Scan_End__c</name>
+    </fields>
+    <fields>
+        <label>Início da varredura</label>
+        <name>copado__Scan_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed - Findings detected</masterLabel>
+            <translation>Concluído - Constatações detectadas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - No Findings</masterLabel>
+            <translation>Concluído - Sem constatações</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - Resolved</masterLabel>
+            <translation>Concluído - Resolvido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Investigation</masterLabel>
+            <translation>Sob investigação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Resultados da verificação de conformidade</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Scan Result Reference --></nameFieldLabel>
+    <recordTypes>
+        <description>Esse tipo de registro é usado para resultados de digitalização produzidos pelo Copado.</description>
+        <label><!-- Copado --></label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Use esse tipo de registro para capturar resultados de varredura que não sejam do Salesforce.</description>
+        <label>Outros</label>
+        <name>copado__Other</name>
+    </recordTypes>
+</CustomObjectTranslation>

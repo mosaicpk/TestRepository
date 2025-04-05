@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Incentive Earned --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Incentive Earned --></value>
+    </caseValues>
+    <fields>
+        <label>Moeda das provisões</label>
+        <name>PMC_SS_AccrualsCurrency__c</name>
+    </fields>
+    <fields>
+        <label>Provisões em aberto</label>
+        <name>PMC_SS_AccrualsOpen__c</name>
+    </fields>
+    <fields>
+        <label>Estorno de provisões</label>
+        <name>PMC_SS_AccrualsReversed__c</name>
+    </fields>
+    <fields>
+        <label>Total de provisões</label>
+        <name>PMC_SS_AccrualsTotal__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de contrato de condição</label>
+        <name>PMC_SS_ConditionContractType__c</name>
+        <picklistValues>
+            <masterLabel>Blended Rebate</masterLabel>
+            <translation>Rebate combinado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Rebate</masterLabel>
+            <translation>Rebate de crescimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Rebate</masterLabel>
+            <translation>Rebate individual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Rebate</masterLabel>
+            <translation>Rebate de portfólio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de condição</label>
+        <name>PMC_SS_ConditionType__c</name>
+        <picklistValues>
+            <masterLabel>Blended Accrual</masterLabel>
+            <translation>Acúmulo combinado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blended Rebate</masterLabel>
+            <translation>Rebate combinado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Accrual</masterLabel>
+            <translation>Acúmulo de crescimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Rebate</masterLabel>
+            <translation>Rebate de crescimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Accrual</masterLabel>
+            <translation>Acumulação individual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Rebate</masterLabel>
+            <translation>Rebate individual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Accrual</masterLabel>
+            <translation>Acúmulo de portfólio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Rebate</masterLabel>
+            <translation>Rebate de portfólio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cliente</label>
+        <name>PMC_SS_Customer__c</name>
+        <relationshipLabel>Incentivos obtidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Id de contrato de vendas externo</label>
+        <name>PMC_SS_ExternalSalesAgreementIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Produto</label>
+        <name>PMC_SS_Product__c</name>
+        <relationshipLabel>Incentivos obtidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Número do contrato de condição SAP</label>
+        <name>PMC_SS_SAPConditionContractNumber__c</name>
+    </fields>
+    <fields>
+        <label>Contrato de vendas</label>
+        <name>PMC_SS_SalesAgreement__c</name>
+        <relationshipLabel>Incentivos obtidos</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Incentive Earned Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<apex:page showHeader="False" standardController="SBQQ__QuoteLine__c" extensions="RelatedQuoteLines">
+    <apex:includeLightning /> 
+    <div id="LightningComponentid" />   
+    <script>
+        $Lightning.use("c:ProductAvailabilityApp", function() {
+            var attributes = {
+                recordId: "{!$CurrentPage.parameters.recid}"
+            };
+            $Lightning.createComponent("c:ProductAvailabilityScreen",
+                attributes,
+                "LightningComponentid",
+                function(cmp) {
+                    var Id = '{!$CurrentPage.parameters.recid}';
+                });
+        });
+    </script>
+    <apex:form >
+        <center><apex:commandButton value="Back to Cart" action="{!redirect}"/></center>
+    </apex:form>
+</apex:page>

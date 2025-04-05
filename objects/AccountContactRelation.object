@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AccountId</fullName>
+        <description>Specifies the Account</description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <description>Specifies the Contact</description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <description>Specifies the End Date of the Relationship</description>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <description>Specifies if Account is Active</description>
+    </fields>
+    <fields>
+        <fullName>IsDirect</fullName>
+        <description>Indicates whether the account associated with the contact is the contact&apos;s primary account (true) or not (false)</description>
+    </fields>
+    <fields>
+        <fullName>PMC_DH_isProcessed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Is Processed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Roles</fullName>
+        <description>Specifies the role of the User</description>
+        <inlineHelpText>Specifies the role of the User</inlineHelpText>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <description>Specifies the Start Date of the Relationship</description>
+    </fields>
+</CustomObject>

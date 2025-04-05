@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__appPage",
+  "title" : "main",
+  "contentBody" : {
+    "currentThemeId" : "B2B_Commerce",
+    "headMarkup" : "<meta name=\"google\" content=\"notranslate\">\n<!-- General -->\n<link rel=\"shortcut icon\" href=\"{ basePath }/sfsites/c/resource/PMC_DH_FavIcon?{ versionKey }\">\n<link rel=\"stylesheet\" href=\"{basePath}/assets/css/theme.css?{versionKey}\">\n\n<!-- webruntime-branding-shared stylesheets -->\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/salesforce-lightning-design-system.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-site-spacing-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-styling-hooks.min.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/styles/dxp-slds-extensions.min.css?{ versionKey }\" />\n\n<link rel=\"stylesheet\" href=\"{ basePath }/assets/themes/alpine.css?{ versionKey }\" />\n<link rel=\"stylesheet\" href=\"{ basePath }/sfsites/c/resource/pmc_brandingStaticResource/styles/style.css?{ versionKey }\"/> \n<!-- webruntime-branding-shared stylesheets -->",
+    "isLockerServiceEnabled" : true,
+    "isRelaxedCSPLevel" : true,
+    "templateName" : "b2b-storefront"
+  },
+  "urlName" : "main"
+}

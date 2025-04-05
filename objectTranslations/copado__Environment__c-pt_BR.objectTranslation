@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Environment --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Environment --></value>
+    </caseValues>
+    <fields>
+        <help>Use esse campo como um identificador para o registro do ambiente ao fazer referência a ele em uma ação.</help>
+        <label>Nome da API</label>
+        <name>copado__API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de regras de conformidade</label>
+        <name>copado__Compliance_Rule_Group__c</name>
+        <relationshipLabel>Ambientes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Eventos de verificação de conformidade</label>
+        <name>copado__Compliance_Scan_Events__c</name>
+        <picklistValues>
+            <masterLabel>Commits</masterLabel>
+            <translation>Compromissos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployments</masterLabel>
+            <translation>Implantações</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status de conformidade</label>
+        <name>copado__Compliance_Status__c</name>
+    </fields>
+    <fields>
+        <label>Comportamento da conexão de entrada</label>
+        <name>copado__Connection_Behavior__c</name>
+        <relationshipLabel>Comportamento padrão do ambiente</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cobertura do código atual</label>
+        <name>copado__Current_Code_Coverage__c</name>
+    </fields>
+    <fields>
+        <help>Pontuação atual da análise de código estático</help>
+        <label>Pontuação atual de SCA</label>
+        <name>copado__Current_SCA_Score__c</name>
+    </fields>
+    <fields>
+        <help>Habilite reversões para quaisquer implantações/promoções que tenham esse ambiente como destino. As reversões estarão disponíveis para Deployments/Promotions criados depois que esse recurso for ativado</help>
+        <label>Ativar reversão</label>
+        <name>copado__Enable_Rollback__c</name>
+    </fields>
+    <fields>
+        <help>Se ativado, quando uma promoção retroativa for concluída e contiver metadados encontrados em histórias de usuário no ambiente de destino, o status dos registros de metadados de histórias de usuário dessas histórias de usuário será atualizado para &quot;Promovido retroativamente&quot;.</help>
+        <label>Metadados de promoção do índice anterior</label>
+        <name>copado__Index_Back_Promotion_metadata__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Compliance Scan Date --></label>
+        <name>copado__Last_Compliance_Scan_Date__c</name>
+    </fields>
+    <fields>
+        <label>Data da última atualização</label>
+        <name>copado__Last_Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Status mais recente da implantação</label>
+        <name>copado__Latest_Deployment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed Successfully</masterLabel>
+            <translation>Concluído com sucesso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with Errors</masterLabel>
+            <translation>Concluído com erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Conflict</masterLabel>
+            <translation>Conflito de mesclagem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paused</masterLabel>
+            <translation>Em pausa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Implantação mais recente</label>
+        <name>copado__Latest_Deployment__c</name>
+        <relationshipLabel>Ambientes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Pontuação máxima da análise de código estático</help>
+        <label>Pontuação máxima de SCA</label>
+        <name>copado__Maximum_SCA_Score__c</name>
+    </fields>
+    <fields>
+        <help>Defina a Cobertura mínima do teste Apex aqui, que será usada para os Resultados do teste Apex na página de detalhes da Credencial da organização.</help>
+        <label>Cobertura mínima do teste Apex</label>
+        <name>copado__Minimum_Apex_Test_Coverage__c</name>
+    </fields>
+    <fields>
+        <help>Se você estiver desenvolvendo pacotes gerenciados, isso o ajudará a escrever apenas uma versão do código Apex pré/pós no Selenium Test Suites. O Copado substituirá qualquer texto &quot;{!NS}&quot; por esse valor.</help>
+        <label><!-- Namespace --></label>
+        <name>copado__Namespace__c</name>
+    </fields>
+    <fields>
+        <label>ID da organização</label>
+        <name>copado__Org_ID__c</name>
+    </fields>
+    <fields>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>A Credencial padrão para a organização de destino é sempre selecionada por padrão. Opcionalmente, a Credencial padrão pode ser selecionada somente se o usuário não tiver uma Credencial de organização para a organização de destino.</help>
+        <label>Promoção Credencial padrão</label>
+        <name>copado__Promotion_Default_Credential__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Sempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only If User Has No Org Credential</masterLabel>
+            <translation>Somente se o usuário não tiver credencial de organização</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se selecionada, a opção &quot;Run all local tests&quot; (Executar todos os testes locais) será aplicada durante a implementação nesse ambiente.</help>
+        <label>Executar todos os testes locais</label>
+        <name>copado__Run_all_tests__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Production/Developer</masterLabel>
+            <translation>Produção/Desenvolvedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox</masterLabel>
+            <translation><!-- Sandbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scratch Org</masterLabel>
+            <translation>Organização Scratch</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>A Credencial padrão para a organização de destino é sempre selecionada por padrão. Opcionalmente, a Credencial padrão pode ser selecionada somente se o usuário não tiver uma Credencial de organização para a organização de destino.</help>
+        <label><!-- Validation Promotion Default Credential --></label>
+        <name>copado__Validation_Promotion_Default_Credential__c</name>
+        <picklistValues>
+            <masterLabel>All Validation Promotions</masterLabel>
+            <translation>Todas as promoções de validação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only If User Has No Org Credential</masterLabel>
+            <translation>Somente se o usuário não tiver credencial de organização</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <webLinks>
+        <label>Editor de regras de localização e substituição</label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+</CustomObjectTranslation>

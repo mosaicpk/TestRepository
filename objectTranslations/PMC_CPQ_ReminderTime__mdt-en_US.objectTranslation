@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reminder Time</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ReminderTimes</value>
+    </caseValues>
+    <fields>
+        <label><!-- 2 hours --></label>
+        <name>PMC_CPQ_2hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reminder Text --></label>
+        <name>PMC_CPQ_ReminderText__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

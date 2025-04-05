@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MC Custom Job Step --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- MC Custom Job Step --></value>
+    </caseValues>
+    <fields>
+        <help>Tipo de etapa de trabalho personalizada</help>
+        <label>Tipo personalizado</label>
+        <name>copado__CustomType__c</name>
+    </fields>
+    <fields>
+        <help>Nome do componente LWC/Aura a ser renderizado durante a configuração da etapa de trabalho personalizado</help>
+        <label>Nome do LWC</label>
+        <name>copado__LWC_Name__c</name>
+    </fields>
+    <fields>
+        <help>Nome da plataforma</help>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

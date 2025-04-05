@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>+/- 10% Buyers Option</fullName>
+        <default>false</default>
+        <label>+/- 10% Buyers Option</label>
+    </customValue>
+    <customValue>
+        <fullName>+/- 10% Shippers Option</fullName>
+        <default>false</default>
+        <label>+/- 10% Shippers Option</label>
+    </customValue>
+    <customValue>
+        <fullName>+/- 5% Buyers Option</fullName>
+        <default>false</default>
+        <label>+/- 5% Buyers Option</label>
+    </customValue>
+    <customValue>
+        <fullName>+/- 5% Shippers Option</fullName>
+        <default>false</default>
+        <label>+/- 5% Shippers Option</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Tolerance</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

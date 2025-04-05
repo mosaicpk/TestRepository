@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "479cbcff-cf87-4a0e-bf06-5baa63cf9a0b",
+  "appPageId" : "3185d6ef-e729-4853-8b7e-6d30a9c75572",
+  "configurationTags" : [ ],
+  "devName" : "book_appointment_from_invitation__c",
+  "id" : "2c3d473a-3b4f-4afd-a8b6-612f47c07a16",
+  "label" : "Book Appointment from Invitation",
+  "pageAccess" : "UseParent",
+  "routeType" : "flow",
+  "type" : "route",
+  "urlPrefix" : "flow"
+}

@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="You Have a New Potential Lead" recipientType="Lead" relatedToType="Lead">
+    <messaging:htmlEmailBody >
+        <c:PMC_SS_SalesQualifiedLeadEmailComponent ldObjId="{!relatedTo.Id}"/>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A List of production plant SAP IDs, Inspection Lot and Certificates of Analysis can only be generated from these plants only</description>
+    <fields>
+        <fullName>PMC_DH_Plant__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Plant ID</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <label>Production Plant</label>
+    <pluralLabel>Production Plants</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

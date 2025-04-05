@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Market Publication Price</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Market Publication Prices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Base Location --></label>
+        <name>PMC_CPQ_BaseLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commodity Code --></label>
+        <name>PMC_CPQ_CommodityCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Terms --></label>
+        <name>PMC_CPQ_DeliveryTerms__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Reference --></label>
+        <name>PMC_CPQ_External_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Price --></label>
+        <name>PMC_CPQ_ForecastPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publication Code --></label>
+        <name>PMC_CPQ_PublicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+        <picklistValues>
+            <masterLabel>Option Label</masterLabel>
+            <translation><!-- Option Label --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

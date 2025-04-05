@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "af24aa7e-807d-433c-a8d8-f9bfa90fa560",
+  "label" : "Salud",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "307a3a8f-e57a-4eea-9302-5f36ab74f296",
+          "columns" : [ {
+            "UUID" : "da51cf33-f012-45b6-abce-266963ba8ac0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "307a3a8f-e57a-4eea-9302-5f36ab74f296",
+      "regions" : [ {
+        "id" : "da51cf33-f012-45b6-abce-266963ba8ac0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2e67d258-a94d-43ac-8951-0545c13fb83c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Salud"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b482db63-bbeb-46ed-88e8-81c779f677ec",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d8869e8e-0827-48ff-ba15-940b1dfe3881",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-salud"
+}

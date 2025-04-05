@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryAIModel xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <algorithmType>Glm</algorithmType>
+    <classificationThreshold>0.487803777473107</classificationThreshold>
+    <label>Maximize RenewalFlag</label>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.Name</label>
+        <name>SalesAgreement.Account.Name</name>
+        <type>Text</type>
+        <values>Test Account for MFG</values>
+        <values>Deloitte</values>
+        <values>WLT Distributors Inc</values>
+        <values>CLM Test Account 1</values>
+        <values>test customer</values>
+        <values>abc test account</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.Type</label>
+        <name>SalesAgreement.Account.Type</name>
+        <type>Text</type>
+        <values>Sold-to</values>
+        <values>Bill-to</values>
+        <values>Ship-to</values>
+        <values>Other</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.StartDate</label>
+        <name>SalesAgreement.StartDate</name>
+        <type>Date</type>
+        <values>August</values>
+        <values>May</values>
+        <values>July</values>
+        <values>April</values>
+        <values>September</values>
+        <values>June</values>
+        <values>January</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Derived_Status</label>
+        <name>SalesAgreement.Derived_Status</name>
+        <type>Text</type>
+        <values>Expired</values>
+        <values>Pending Approval</values>
+        <values>Cancelled</values>
+        <values>Archived</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Product.Schedule.ActualQuantity</label>
+        <name>Product.Schedule.ActualQuantity</name>
+        <type>Text</type>
+        <values>0</values>
+        <values>4</values>
+        <values>10</values>
+        <values>20</values>
+        <values>25</values>
+        <values>30</values>
+        <values>35</values>
+        <values>62</values>
+        <values>78</values>
+        <values>86</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>ActiveDuration</label>
+        <name>ActiveDuration</name>
+        <type>Number</type>
+        <values>2.0___7.0</values>
+        <values>7.0___14.0</values>
+        <values>14.0___28.0</values>
+        <values>28.0___41.0</values>
+        <values>41.0___61.0</values>
+        <values>61.0___62.0</values>
+        <values>62.0___84.0</values>
+        <values>84.0___153.0</values>
+        <values>153.0___365.0</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>PricebookEntry.Name</label>
+        <name>PricebookEntry.Name</name>
+        <type>Text</type>
+        <values>Bella Chrome Coffee Machine (Sample)</values>
+        <values>ASPIRE® 0-0-58 WITH BORON 1 ST TOTE</values>
+        <values>BB 13-18-17 50 ? B-N-P2-K1</values>
+        <values>Capricorn I Group Espresso Machine (Sample)</values>
+        <values>??KMAG</values>
+        <values>02-19-21 GR +0,2%ZN+0,1%B</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Product.Name</label>
+        <name>Product.Name</name>
+        <type>Text</type>
+        <values>Bella Chrome Coffee Machine (Sample)</values>
+        <values>ASPIRE® 0-0-58 WITH BORON 1 ST TOTE</values>
+        <values>BB 13-18-17 50 ? B-N-P2-K1</values>
+        <values>Capricorn I Group Espresso Machine (Sample)</values>
+        <values>??KMAG</values>
+        <values>02-19-21 GR +0,2%ZN+0,1%B</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Product.Family</label>
+        <name>Product.Family</name>
+        <type>Text</type>
+        <values>Commercial</values>
+        <values>Personal</values>
+        <values>Industrial</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.BillingCountry</label>
+        <name>SalesAgreement.Account.BillingCountry</name>
+        <type>Text</type>
+        <values>United States</values>
+        <values>North America</values>
+        <values>Canada</values>
+        <values>China</values>
+        <values>India</values>
+        <values>Brazil</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Product.IsActive</label>
+        <name>Product.IsActive</name>
+        <type>Text</type>
+        <values>true</values>
+        <values>false</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.EndDate</label>
+        <name>SalesAgreement.EndDate</name>
+        <type>Date</type>
+        <values>September</values>
+        <values>June</values>
+        <values>August</values>
+        <values>October</values>
+        <values>May</values>
+        <values>November</values>
+        <values>July</values>
+        <values>December</values>
+        <values>January</values>
+        <values>April</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Product.Schedule.PlannedQtyTD</label>
+        <name>Product.Schedule.PlannedQtyTD</name>
+        <type>Number</type>
+        <values>0.0___1632.39</values>
+        <values>1632.39___3858.0</values>
+        <values>3858.0___539127.2</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Status</label>
+        <name>SalesAgreement.Status</name>
+        <type>Text</type>
+        <values>Expired</values>
+        <values>Draft</values>
+        <values>Cancelled</values>
+        <values>Archived</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>AvgDiscountSAP</label>
+        <name>AvgDiscountSAP</name>
+        <type>Text</type>
+        <values>0</values>
+        <values>3</values>
+        <values>5</values>
+        <values>8</values>
+        <values>11.2</values>
+        <values>13.44</values>
+        <values>14</values>
+        <values>15</values>
+        <values>16.8</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Owner.Name</label>
+        <name>SalesAgreement.Owner.Name</name>
+        <type>Text</type>
+        <values>Account Manager NA User</values>
+        <values>Chetna Nihalani</values>
+        <values>Divya Sree</values>
+        <values>Aravind Chaganti</values>
+        <values>Megha Sunhare</values>
+        <values>Aditya Achar</values>
+        <values>Isha Gupta</values>
+        <values>Lohitha Nekkanti</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.Industry</label>
+        <name>SalesAgreement.Account.Industry</name>
+        <type>Text</type>
+        <values>9013</values>
+        <values>Other</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.CancellationDate</label>
+        <name>SalesAgreement.CancellationDate</name>
+        <type>Date</type>
+        <values>August</values>
+        <values>May</values>
+        <values>Other</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.BillingState</label>
+        <name>SalesAgreement.Account.BillingState</name>
+        <type>Text</type>
+        <values>Alabama</values>
+        <values>Manitoba</values>
+        <values>Maharashtra</values>
+        <values>Alberta</values>
+        <values>Other</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Last Modified Date</label>
+        <name>LastModifiedDate</name>
+        <type>Date</type>
+        <values>August</values>
+        <values>May</values>
+        <values>July</values>
+        <values>September</values>
+        <values>June</values>
+        <values>January</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.ScheduleFrequency</label>
+        <name>SalesAgreement.ScheduleFrequency</name>
+        <type>Text</type>
+        <values>Weekly</values>
+        <values>Monthly</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.BillingCity</label>
+        <name>SalesAgreement.Account.BillingCity</name>
+        <type>Text</type>
+        <values>mallpur pg</values>
+        <values>Cachoeirinha</values>
+        <values>test</values>
+        <values>Bill City</values>
+        <values>Thane</values>
+        <values>Other</values>
+        <values>null</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>Product.ProductCompliance</label>
+        <name>Product.ProductCompliance</name>
+        <type>Text</type>
+        <values>0</values>
+        <values>0.02</values>
+        <values>0.26</values>
+        <values>0.56</values>
+        <values>5.19</values>
+        <values>6.52</values>
+        <values>7.19</values>
+        <values>9.76</values>
+        <values>16.2</values>
+        <values>69.41</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>SalesAgreement.Account.Owner.Name</label>
+        <name>SalesAgreement.Account.Owner.Name</name>
+        <type>Text</type>
+        <values>Divya Sree</values>
+        <values>Account Manager NA User</values>
+        <values>CLM Account Manager Brazil User</values>
+        <values>Aditya Achar</values>
+        <values>CLM Account Manager N America User</values>
+        <values>Isha Gupta</values>
+        <values>Bishal Charaborty</values>
+        <values>Other</values>
+    </modelFields>
+    <modelFields>
+        <isDisparateImpact>false</isDisparateImpact>
+        <isSensitive>false</isSensitive>
+        <label>RenewalFlag</label>
+        <name>RenewalFlag</name>
+        <type>Text</type>
+        <values>True</values>
+        <values>False</values>
+    </modelFields>
+    <modelRuntimeType>Discovery</modelRuntimeType>
+    <predictedField>RenewalFlag</predictedField>
+    <predictionType>Classification</predictionType>
+    <sourceType>Discovery</sourceType>
+    <status>Enabled</status>
+    <trainingMetrics>{&quot;r2&quot;:0.5547448480361503,&quot;nobs&quot;:578,&quot;nullDeviance&quot;:446.1304640344899,&quot;residualDegreesOfFreedom&quot;:514,&quot;type&quot;:&quot;BinomialGLM&quot;,&quot;gini&quot;:0.9257256461232604,&quot;meanPerClassError&quot;:0.10344599072233267,&quot;logloss&quot;:0.164836167648933,&quot;auc&quot;:0.9628628230616302,&quot;residualDeviance&quot;:190.55060980216652,&quot;confusionMatrices&quot;:{&quot;thresholds&quot;:[0.487803777473107],&quot;tns&quot;:[494],&quot;tps&quot;:[46],&quot;totalPositives&quot;:55,&quot;totalNegatives&quot;:523},&quot;rmse&quot;:0.2242287327398982,&quot;aic&quot;:318.5506098021665,&quot;nullDegreesOfFreedom&quot;:577,&quot;mse&quot;:0.050278524586140697}</trainingMetrics>
+    <transformations>
+        <config>{&quot;targetFieldName&quot;:&quot;SalesAgreement.EndDate&quot;,&quot;sourceFieldName&quot;:&quot;SalesAgreement.EndDate&quot;,&quot;format&quot;:&quot;yyyy-MM-dd&quot;,&quot;type&quot;:&quot;ExtractMonthOfYear&quot;,&quot;version&quot;:1}</config>
+        <sourceFieldNames>SalesAgreement.EndDate</sourceFieldNames>
+        <targetFieldNames>SalesAgreement.EndDate</targetFieldNames>
+        <type>ExtractMonthOfYear</type>
+    </transformations>
+    <transformations>
+        <config>{&quot;targetFieldName&quot;:&quot;LastModifiedDate&quot;,&quot;sourceFieldName&quot;:&quot;LastModifiedDate&quot;,&quot;format&quot;:&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss.SSS&apos;Z&apos;&quot;,&quot;type&quot;:&quot;ExtractMonthOfYear&quot;,&quot;version&quot;:1}</config>
+        <sourceFieldNames>LastModifiedDate</sourceFieldNames>
+        <targetFieldNames>LastModifiedDate</targetFieldNames>
+        <type>ExtractMonthOfYear</type>
+    </transformations>
+    <transformations>
+        <config>{&quot;targetFieldName&quot;:&quot;SalesAgreement.StartDate&quot;,&quot;sourceFieldName&quot;:&quot;SalesAgreement.StartDate&quot;,&quot;format&quot;:&quot;yyyy-MM-dd&quot;,&quot;type&quot;:&quot;ExtractMonthOfYear&quot;,&quot;version&quot;:1}</config>
+        <sourceFieldNames>SalesAgreement.StartDate</sourceFieldNames>
+        <targetFieldNames>SalesAgreement.StartDate</targetFieldNames>
+        <type>ExtractMonthOfYear</type>
+    </transformations>
+    <transformations>
+        <config>{&quot;targetFieldName&quot;:&quot;SalesAgreement.CancellationDate&quot;,&quot;sourceFieldName&quot;:&quot;SalesAgreement.CancellationDate&quot;,&quot;format&quot;:&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss.SSS&apos;Z&apos;&quot;,&quot;type&quot;:&quot;ExtractMonthOfYear&quot;,&quot;version&quot;:1}</config>
+        <sourceFieldNames>SalesAgreement.CancellationDate</sourceFieldNames>
+        <targetFieldNames>SalesAgreement.CancellationDate</targetFieldNames>
+        <type>ExtractMonthOfYear</type>
+    </transformations>
+</DiscoveryAIModel>

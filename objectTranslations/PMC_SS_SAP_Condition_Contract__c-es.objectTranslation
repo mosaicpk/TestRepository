@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- SAP Condition Contract --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- SAP Condition Contract --></value>
+    </caseValues>
+    <fields>
+        <label>Número de contrato de la condición</label>
+        <name>PMC_SS_Condition_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label>Acuerdo de Venta</label>
+        <name>PMC_SS_Sales_Agreement__c</name>
+        <relationshipLabel>Contratos de condiciones SAP</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- SAP Condition Contract Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>MFGAAF_AdvAccountForecastFact3</dataset>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Account.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>AccountId</recordIdField>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product.Name</field>
+        <isDerived>false</isDerived>
+        <label>Product</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Period.FullyQualifiedLabel</field>
+        <isDerived>false</isDerived>
+        <label>Period</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <measures>
+        <field>ForecastedDailyQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>DerivedActualAmountOrders</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualQuantityOrders</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual_Amount</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualRevenue</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastAmount_A</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualAmount_A</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastAmount</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>DerivedForecastedAmount</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualAmount</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastQuantityAdj</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Adjusted Forecasted Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastedAmountAdj</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Adjusted Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastAmountGap</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual vs. Adjusted Forecast Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastAmountGap_before_adj</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual vs Forecast Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>amount_mape</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Adjusted MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>quantity_mape</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Adjusted MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>amount_mape_before_adj</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>quantity_mape_before_adj</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>quantity_mape_cumulative</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Cumulative Adjusted MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>amount_mape_cumulative</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Cumulative Adjusted MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <field>quantity_mape_before_adj_cumulative</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Cumulative MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>amount_mape_before_adj_cumulative</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Cumulative MAPE</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>21</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastQuantityGap</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual vs. Adjusted Forecast Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>22</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastQuantityGap_before_adj</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual vs Forecast Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>23</sortIndex>
+    </measures>
+    <measures>
+        <field>Weightage_Forecast</field>
+        <formatCustomFormat>[&quot;#.0%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>% Weightage in Forecast</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>24</sortIndex>
+    </measures>
+    <measures>
+        <field>Actuals</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>25</sortIndex>
+    </measures>
+    <measures>
+        <field>Forecast_before_adj</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>26</sortIndex>
+    </measures>
+    <measures>
+        <field>Forecast</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Adjusted Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>27</sortIndex>
+    </measures>
+</WaveXmd>

@@ -1,0 +1,49 @@
+{
+  "appPageId" : "3185d6ef-e729-4853-8b7e-6d30a9c75572",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e403842d-ed16-48ba-b7f5-806cbe7813ae",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "880abb10-7cdf-4b2c-9dc8-cc4eec4d9331",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"invitationKey\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!invitationKey}\"}]",
+        "flowName" : "Book_Appointment_from_Invitation_ForWM"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "04976c6d-e75e-486e-a870-3f61887ecdba",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "86c8be58-47a0-4e67-800a-e1bd1d16d05c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d0225944-7784-413e-8ecb-e78f129486cd",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "71fffd10-0e99-402f-91ae-18887094e1f7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "673a8995-9bf4-45a5-b40c-747bb5bbcb58",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sales Agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales Agreement</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Sales Agreement --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agreement End Date --></label>
+        <name>PMC_CLM_AgreementEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agreement Start Date --></label>
+        <name>PMC_CLM_AgreementStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>PMC_CLM_UnitOfMeasure__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- PMC_CLM_GenerateBPAAgreement --></label>
+        <name>PMC_CLM_GenerateBPAAgreement</name>
+    </webLinks>
+</CustomObjectTranslation>

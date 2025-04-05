@@ -1,0 +1,41 @@
+<apex:page >
+<!--<apex:page controller="PMC_SS_SalesQualifiedLeadController" action="{!callLightningComp}">-->
+    <!--<html>
+        <head>
+            <style>
+            body {
+                    font-family: Arial, sans-serif;
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+                .container {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <apex:outputText value="{!strResponseMessage}"/>
+            </div>
+        </body>
+    </html>-->
+    <apex:includeLightning />    
+    <div id="LightningComponentid" />    
+    <script>
+    $Lightning.use("c:PMC_SS_LeadAcceptanceApp", function() {
+        $Lightning.createComponent("c:pmc_ss_LeadAcceptanceComponent",
+                                   {
+                                       "strRecId" : '{!$CurrentPage.parameters.id}',
+                                       "strOwnerId" : '{!$CurrentPage.parameters.leadOwnerId}',
+                                       "strIsAccepted" : '{!$CurrentPage.parameters.isAccepted}',
+                                   },
+                                   "LightningComponentid",
+                                   function(cmp) {
+                                       console.log('LWC Componenet added in VF page');
+                                   });
+    });
+    </script>
+</apex:page>

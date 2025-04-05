@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Build Task --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Build Task --></value>
+    </caseValues>
+    <fields>
+        <label>Integração contínua</label>
+        <name>copado__Continuous_Integration__c</name>
+        <relationshipLabel>Tarefas de construção</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Implantação</label>
+        <name>copado__Deployment__c</name>
+        <relationshipLabel>Tarefas de construção</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Duração</label>
+        <name>copado__Duration__c</name>
+    </fields>
+    <fields>
+        <label>Hora de início</label>
+        <name>copado__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em Andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Deploy</masterLabel>
+            <translation>Implementar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate</masterLabel>
+            <translation>Validar</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Build Task Name --></nameFieldLabel>
+</CustomObjectTranslation>

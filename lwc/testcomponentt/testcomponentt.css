@@ -1,0 +1,42 @@
+.wrapper {
+    position: relative;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-wrapper .placeholder {
+    color: var(--primary-grey);
+    font-family: var(--medium-font);
+    font-weight: 500;
+    font-size: var(--x-small-font-size);
+    line-height: 14.4px;
+}
+
+.input-wrapper.input-focus {
+    border-color: var(--slds-g-color-brand-base-60, #1b96ff);
+    -webkit-box-shadow: 0 0 3px #0176d3;
+    box-shadow: 0 0 3px #0176d3;
+}
+
+.options {
+    min-width: 100%;
+    max-height: 200px;
+    overflow: scroll;
+    z-index: 1000;
+    padding: 0;
+}
+
+.option:hover,
+.option-wrapper.option-checked {
+    background: #f0f0f0;
+}
+
+.option-wrapper {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+}

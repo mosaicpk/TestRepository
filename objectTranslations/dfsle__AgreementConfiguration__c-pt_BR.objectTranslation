@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Agreement Configuration --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Agreement Configuration --></value>
+    </caseValues>
+    <fields>
+        <label>Id da pasta</label>
+        <name>dfsle__FolderId__c</name>
+    </fields>
+    <fields>
+        <label>Objeto de origem</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label>Id da pasta Temp</label>
+        <name>dfsle__TempFolderId__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

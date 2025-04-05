@@ -1,0 +1,49 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-25-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div>
+        <div class="slds-form-element">
+            <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                    <div id="box" class={boxClass} aria-expanded="true" aria-haspopup="listbox" role="combobox">
+                        <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                            <template if:true={isValueSelected}>
+                                <div id="lookup-pill" class="pillContainer">
+                                    <lightning-pill label={selectedName} name={selectedName} onremove={handleRemovePill} href={href}>
+                                        <lightning-icon icon-name={iconName} alternative-text="acc" ></lightning-icon>
+                                    </lightning-pill>
+                                </div>
+                            </template>
+
+                            <template if:false={isValueSelected}>
+                                <div class="slds-p-top_none">
+                                    <lightning-input class={inputClass} type="search" id="input" name="inputField" data-name="lookupfield" value={searchTerm}
+                                                     onclick={handleClick} onblur={onBlur} onchange={onChange}
+                                                     variant="label-hidden" autocomplete="off" placeholder={searchPlaceholder}>
+                                    </lightning-input>
+                                </div>
+                            </template>
+                        </div>
+                        <div id="listbox-id-1" class="slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid">
+                            <ul class="slds-listbox slds-listbox_vertical recordListBox">
+                                <template for:each={records} for:item="record">
+                                    <li key={record.Id} data-id={record.Id} data-name={record.OrderNumber} onclick={onSelect} onmousedown={onSelect} class="slds-listbox__item eachItem">
+                                        <div class="slds-media slds-listbox__option_entity">
+                                            <lightning-icon icon-name={iconName} alternative-text="icon" size="small"></lightning-icon> &nbsp;&nbsp;
+                                            <span class="verticalAlign slds-truncate">{record.OrderNumber}</span>
+                                        </div>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

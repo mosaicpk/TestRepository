@@ -1,0 +1,70 @@
+<template>
+    Test Component
+    <div class="wrapper">
+        <div>
+            <label class="slds-form-element__label slds-no-flex" part="label">
+                <template if:true={isRequired}>
+                    <abbr class="slds-required" title="required">*
+                    </abbr>
+                </template>
+                {label}
+            </label>
+        </div>
+        <div class="input-wrapper slds-input_faux" onclick={expandOptions}>
+            <div class="placeholder">
+                {placeholder}
+            </div>
+            <div class="icon-wrapper">
+                <lightning-icon icon-name="utility:down" size="xx-small">
+                </lightning-icon>
+            </div>
+        </div>
+        <template if:true={hasError}>
+            <div class="slds-has-error">
+                <div class="slds-form-element__help slds-m-left_none" id="help-message-39" data-help-message=""
+                    role="alert" part="help-text">
+                    {errorMsg}
+                </div>
+            </div>
+        </template>
+
+        <template if:true={isExpanded}>
+            <div class="options slds-dropdown-trigger--click slds-is-open slds-dropdown">
+                <div class="picklist-search-bar-container">
+                    <lightning-input class="slds-m-bottom_none" label="Search" variant="label-hidden" type="text" placeholder="Search"
+                        value={searchString} onchange={handleSearch}>
+                    </lightning-input>
+                </div>
+                <div class="option slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain"
+                    aria-checked={option.checked} aria-selected={option.checked} for:each={filteredOptions}
+                    for:item="option" key={option}>
+                    <template if:true={option.checked}>
+                        <div class="option-wrapper option-checked" onclick={handleChange} data-id={option.id}>
+                            <span class="slds-media__figure slds-listbox__option-icon">
+                                <lightning-icon icon-name="utility:check"
+                                    class="slds-icon-utility-check slds-icon_container" size="x-small">
+                                </lightning-icon>
+                            </span>
+                            <span class="slds-media__body">
+                                <span class="slds-truncate">
+                                    {option.label}
+                                </span>
+                            </span>
+                        </div>
+                    </template>
+                    <template if:false={option.checked}>
+                        <div class="option-wrapper" onclick={handleChange} data-id={option.id}>
+                            <span class="slds-media__figure slds-listbox__option-icon">
+                            </span>
+                            <span class="slds-media__body">
+                                <span class="slds-truncate">
+                                    {option.label}
+                                </span>
+                            </span>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,60 @@
+{
+  "appPageId" : "a9be1a74-3dcc-403a-95df-0301d24784e0",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "d29eb613-e201-4f88-83f9-587808ee4fa6",
+  "label" : "Proceso productivo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d41c2e4d-46b1-4c08-a017-ce6a7a7e2202",
+          "columns" : [ {
+            "UUID" : "64bb269f-5185-4270-8e69-9c5e810e3216",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d41c2e4d-46b1-4c08-a017-ce6a7a7e2202",
+      "regions" : [ {
+        "id" : "64bb269f-5185-4270-8e69-9c5e810e3216",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84e1ca16-c043-4dc6-8b3b-857edd263ea1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Proceso productivo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87edae2b-363b-44c6-8ce7-3f6d700bdd8d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "792931c8-6bc1-427d-bbc3-f9d0b55bc776",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-proceso-productivo"
+}

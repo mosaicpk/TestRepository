@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>SendEmail</name>
+        <label>SendEmail</label>
+        <locationX>503</locationX>
+        <locationY>206</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>ScreenDisplayAppointmentInvitationSummary</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailTemplateId</name>
+            <value>
+                <elementReference>LeadEmailSelfScheduleTemplateID.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Sets AppointmentInvitation&apos;s appointment topic ID, booking start time, and booking end time to null and sets active to True.</description>
+        <name>InitializeAppointmentInvitation</name>
+        <label>Initialize AppointmentInvitation</label>
+        <locationX>261</locationX>
+        <locationY>206</locationY>
+        <assignmentItems>
+            <assignToReference>LeadEmailSelfScheduleTemplateID.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>00XDT000003qnd92AA</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>SendEmail</targetReference>
+        </connector>
+    </assignments>
+    <environments>Default</environments>
+    <interviewLabel>Send Salesforce Scheduler Link - Lead - Email {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Send Salesforce Scheduler Link - Lead - Email</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Appointments</processType>
+    <screens>
+        <description>Allows the flow user to see the appointment invitation URL and copy it.</description>
+        <name>ScreenDisplayAppointmentInvitationSummary</name>
+        <label>Display Appointment Invitation Summary</label>
+        <locationX>718</locationX>
+        <locationY>205</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>SucessSentEmail</name>
+            <fieldText>&lt;p&gt;Email successfully sent.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <sourceTemplate>runtime_appointmentbooking__Inv_Gen</sourceTemplate>
+    <start>
+        <locationX>135</locationX>
+        <locationY>31</locationY>
+        <connector>
+            <targetReference>InitializeAppointmentInvitation</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>SendEmailSubjectTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!$Organization.Name} &lt;/span&gt;Appointment Link Sent&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>SendEmailTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Hello,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;We would like to continue with you to discuss {!&lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;AppointmentInvitation&lt;/span&gt;.AppointmentTopic}. You can use this link to schedule an appointment as per your convenience.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;{!&lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;AppointmentInvitation&lt;/span&gt;.InvitationURL}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Thanking you,&lt;/p&gt;&lt;p&gt;{!$User.FirstName}&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>LeadEmailSelfScheduleTemplateID</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>EmailTemplate</objectType>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+</Flow>

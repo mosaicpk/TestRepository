@@ -1,0 +1,35 @@
+{
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "5fd0709d-903a-4f97-aa35-67156d8b5dcc",
+  "label" : "Assessment Task Order Related List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"483c2490-a256-4149-9bc3-4415bbd4143c\",\"columns\":[{\"UUID\":\"a6e3a997-54b6-4758-be5d-8b8311c9818f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "483c2490-a256-4149-9bc3-4415bbd4143c",
+      "regions" : [ {
+        "id" : "a6e3a997-54b6-4758-be5d-8b8311c9818f",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "a50256c8-5cb5-4ea3-b6d4-65155d4a1363",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-0es"
+}

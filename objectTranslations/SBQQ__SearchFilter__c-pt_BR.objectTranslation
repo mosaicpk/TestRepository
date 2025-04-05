@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Filtro de pesquisa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Filtros de pesquisa</value>
+    </caseValues>
+    <fields>
+        <help>Ação à qual esse filtro se aplica. Um valor em branco significa que o filtro é global.</help>
+        <label><!-- Action --></label>
+        <name>SBQQ__Action__c</name>
+        <relationshipLabel><!-- Search Filters --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ordem em que esse filtro é exibido na interface do usuário.</help>
+        <label><!-- Display Order --></label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help>Campo que gera valor para uso em filtragem.</help>
+        <label><!-- Filter Source Field --></label>
+        <name>SBQQ__FilterSourceField__c</name>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_IndustrialBusinessType__c</masterLabel>
+            <translation><!-- PMC_CPQ_IndustrialBusinessType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PotashBusinessType__c</masterLabel>
+            <translation><!-- PMC_CPQ_PotashBusinessType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductClassFilter__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductClassFilter__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductFamilyFilter__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductFamilyFilter__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SalesAreaCombination__c</masterLabel>
+            <translation><!-- PMC_CPQ_SalesAreaCombination__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Business Type</masterLabel>
+            <translation>Tipo de negócio principal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProductFamilyBlendFilter</masterLabel>
+            <translation><!-- ProductFamilyBlendFilter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Org</masterLabel>
+            <translation>Organização de vendas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status</masterLabel>
+            <translation>Status</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type</masterLabel>
+            <translation>Tipo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Objeto que gera valor para uso em filtragem.</help>
+        <label><!-- Filter Source Object --></label>
+        <name>SBQQ__FilterSourceObject__c</name>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Valor estático usado na filtragem.</help>
+        <label><!-- Filter Value --></label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help>Especifique o valor do campo que origina o uso para determinar se o filtro está oculto.</help>
+        <label>Campo de fonte oculta</label>
+        <name>SBQQ__HiddenSourceField__c</name>
+        <picklistValues>
+            <masterLabel>Business Type Feed</masterLabel>
+            <translation>Tipo de negócio Ração</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISBR</masterLabel>
+            <translation><!-- ISBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Primário</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique o objeto que origina o valor a ser usado para determinar se o filtro está oculto.</help>
+        <label>Objeto de fonte oculta</label>
+        <name>SBQQ__HiddenSourceObject__c</name>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para marcar esse filtro como oculto. Os filtros ocultos não são exibidos na interface do usuário, mas contribuem para as consultas de pesquisa.</help>
+        <label><!-- Hidden --></label>
+        <name>SBQQ__Hidden__c</name>
+    </fields>
+    <fields>
+        <help>Especifique o operador a ser usado com esse filtro.</help>
+        <label><!-- Operator --></label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>between</masterLabel>
+            <translation>entre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>contém</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>termina com</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>iguais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>maior ou igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>maior que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor ou igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>não é igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>começa com</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique o campo a ser pesquisado.</help>
+        <label><!-- Target Field --></label>
+        <name>SBQQ__TargetField__c</name>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation>Localização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MaterialGroup</masterLabel>
+            <translation><!-- MaterialGroup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation>Nome</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nitrogen%</masterLabel>
+            <translation><!-- Nitrogen% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductFamilyPicklist__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductFamilyPicklist__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductFamily__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductFamily__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductSalesArea__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductSalesArea__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductSalesOrg__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductSalesOrg__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductShortDescription__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductShortDescription__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductTypes__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductTypes__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phosphorous%</masterLabel>
+            <translation>Fósforo%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potassium%</masterLabel>
+            <translation>Potássio%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation>Código do produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Description</masterLabel>
+            <translation>Descrição do produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Segment</masterLabel>
+            <translation>Segmento de produtos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Sub Family</masterLabel>
+            <translation>Subfamília de produtos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation>Quantidade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Region</masterLabel>
+            <translation>Região</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status</masterLabel>
+            <translation>Status</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>StockKeepingUnit</masterLabel>
+            <translation><!-- StockKeepingUnit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique o objeto a ser pesquisado.</help>
+        <label><!-- Target Object --></label>
+        <name>SBQQ__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Asset</masterLabel>
+            <translation>Ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>Produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation>Assinatura</translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do filtro</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Você deve selecionar Filter Source Object quando Filter Source Field estiver selecionado.</errorMessage>
+        <name>SBQQ__Require_filter_object_for_filter_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Você deve selecionar Hidden Source Object (Objeto de origem oculto) quando Hidden Source Field (Campo de origem oculto) estiver selecionado.</errorMessage>
+        <name>SBQQ__Require_hidden_object_for_hidden_field</name>
+    </validationRules>
+</CustomObjectTranslation>

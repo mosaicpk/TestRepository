@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Available To Work</masterLabel>
+        <translation>Disponível para trabalhar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote Work Only</masterLabel>
+        <translation>Somente trabalho remoto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unavailable</masterLabel>
+        <translation>Indisponível</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unknown</masterLabel>
+        <translation>Desconhecido</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

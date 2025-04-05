@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Store Environment Metadata</description>
+    <fields>
+        <fullName>PMC_SS_OrgId__c</fullName>
+        <description>Store Org Id</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>OrgId</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PMC SS Environment</label>
+    <pluralLabel>PMC SS Environments</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

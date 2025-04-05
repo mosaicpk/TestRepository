@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Group Variable --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Group Variable --></value>
+    </caseValues>
+    <fields>
+        <label>Valor de exibição</label>
+        <name>copado__Display_Value__c</name>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção para ocultar o valor na lista relacionada ao Grupo de teste.</help>
+        <label>Ocultar valor</label>
+        <name>copado__Hide_Value__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de teste Selenium</label>
+        <name>copado__Selenium_Test_Group__c</name>
+        <relationshipLabel>Variáveis do grupo Selenium</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A variável do grupo Selenium é válida somente dentro desse grupo.  Nos cases de teste, uma variável pode ser chamada de {!Group.VARIABLE_NAME}.</help>
+        <label>Valor</label>
+        <name>copado__Value__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Selenium Group Variable Name --></nameFieldLabel>
+</CustomObjectTranslation>

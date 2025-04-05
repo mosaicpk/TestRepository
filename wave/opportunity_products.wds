@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Prebuilt_Dashboards</application>
+    <masterLabel>Oppty Products</masterLabel>
+    <templateAssetSourceName>opportunity_products</templateAssetSourceName>
+    <type>default</type>
+</WaveDataset>

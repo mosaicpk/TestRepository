@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FPD from PriceFx</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FPD from PriceFxs</value>
+    </caseValues>
+    <fields>
+        <label><!-- FPD Price --></label>
+        <name>PMC_CPQ_FPDPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Status Message --></label>
+        <name>PMC_CPQ_IntegrationStatusMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interface URL --></label>
+        <name>PMC_CPQ_InterfaceURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Item Id --></label>
+        <name>PMC_CPQ_OrderItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Status --></label>
+        <name>PMC_CPQ_OrderLineIntegrationStatus__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

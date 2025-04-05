@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Consulta de pesquisa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Consultas de pesquisas</value>
+    </caseValues>
+    <fields>
+        <help>Nome da API do campo personalizado usado na consulta.</help>
+        <label><!-- Lookup Field --></label>
+        <name>SBQQ__LookupField__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>Conta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation><!-- Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocation__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductName__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductName__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ShipToAccount__c</masterLabel>
+            <translation><!-- PMC_CPQ_ShipToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SoldToAccount__c</masterLabel>
+            <translation><!-- PMC_CPQ_SoldToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_AccountManagerName__c</masterLabel>
+            <translation><!-- PMC_SS_AccountManagerName__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_Account__c</masterLabel>
+            <translation><!-- PMC_SS_Account__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_Location__c</masterLabel>
+            <translation><!-- PMC_SS_Location__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_Product__c</masterLabel>
+            <translation><!-- PMC_SS_Product__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_RelatedAccount__c</masterLabel>
+            <translation><!-- PMC_SS_RelatedAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_ShipToAccount__c</masterLabel>
+            <translation><!-- PMC_SS_ShipToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_SoldToAccount__c</masterLabel>
+            <translation><!-- PMC_SS_SoldToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product2</masterLabel>
+            <translation><!-- Product2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Category__c</masterLabel>
+            <translation>SBQQ__Category__c</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se Match Type = Field Value, selecione um objeto testado e um campo testado. Se Match Type = Static Value (Tipo de correspondência = Valor estático), insira o valor em Tested Value (Valor testado). Se Match Type = Configuration Attribute (Tipo de correspondência = Atributo de configuração), especifique um Atributo de configuração.</help>
+        <label><!-- Match Type --></label>
+        <name>SBQQ__MatchType__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attribute Value</masterLabel>
+            <translation>Valor do atributo de configuração</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Value</masterLabel>
+            <translation>Valor do campo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Static Value</masterLabel>
+            <translation>Valor estático</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O operador que é aplicado ao comparar o campo com o valor.</help>
+        <label><!-- Operator --></label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>iguais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>maior ou igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>maior que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor ou igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>não é igual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ParentRuleIsActive --></label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <help>Regra de preço associada a essa consulta de pesquisa. Substitui o campo mestre-detalhe legado.</help>
+        <label><!-- Price Rule --></label>
+        <name>SBQQ__PriceRule2__c</name>
+        <relationshipLabel><!-- Lookup Queries (Price Rule) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Regra de produto associada a essa consulta de pesquisa</help>
+        <label><!-- Product Rule --></label>
+        <name>SBQQ__ProductRule__c</name>
+        <relationshipLabel>Consultas de pesquisa (regra do produto)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objeto de pesquisa de regra matriz</label>
+        <name>SBQQ__RuleLookupObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- RuleTargetsCalculator --></label>
+        <name>SBQQ__RuleTargetsCalculator__c</name>
+    </fields>
+    <fields>
+        <help>Atributo de configuração que é avaliado por essa consulta. Obrigatório se Match Type = Atributo de configuração e somente se essa consulta estiver associada a uma regra de produto.</help>
+        <label><!-- Tested Configuration Attribute --></label>
+        <name>SBQQ__TestedConfigurationAttribute__c</name>
+        <relationshipLabel><!-- Lookup Queries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo no objeto Cotação, Linha de cotação ou Opção de produto que é avaliado por essa consulta. Obrigatório se Match Type = Field Value.</help>
+        <label><!-- Tested Field --></label>
+        <name>SBQQ__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation>Nome</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_AccountManager__c</masterLabel>
+            <translation><!-- PMC_CPQ_AccountManager__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocationLocationBackend__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocationLocationBackend__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocation__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductName__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductName__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ShipToAccount__c</masterLabel>
+            <translation><!-- PMC_CPQ_ShipToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ShipTo__c</masterLabel>
+            <translation><!-- PMC_CPQ_ShipTo__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SoldToAccount__c</masterLabel>
+            <translation><!-- PMC_CPQ_SoldToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation>Código do produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Account__c</masterLabel>
+            <translation><!-- SBQQ__Account__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Product__c</masterLabel>
+            <translation><!-- SBQQ__Product__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Objeto em relação ao qual a consulta é avaliada. Obrigatório se Match Type = Field Value.</help>
+        <label><!-- Tested Object --></label>
+        <name>SBQQ__TestedObject__c</name>
+        <picklistValues>
+            <masterLabel>Product Option</masterLabel>
+            <translation>Opção de produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation>Linha de cotação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O valor que você deseja corresponder no campo que selecionou usando o operador escolhido. Obrigatório se Match Type = Static Value.</help>
+        <label><!-- Tested Value --></label>
+        <name>SBQQ__TestedValue__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da consulta de pesquisa</nameFieldLabel>
+    <validationRules>
+        <errorMessage>O teste de atributos de configuração só é suportado para consultas de pesquisa associadas a regras de produto.</errorMessage>
+        <name>SBQQ__Configuration_Attribute_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Associe um objeto de pesquisa à regra do produto antes de criar uma consulta de pesquisa.</errorMessage>
+        <name>SBQQ__LookupObjectMustExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O valor testado é obrigatório se Match Type = Static Value. O objeto testado e o campo testado são obrigatórios se Match Type = Field Value. O atributo de configuração testado é obrigatório se Match Type = Atributo de configuração.</errorMessage>
+        <name>SBQQ__Match_Type_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

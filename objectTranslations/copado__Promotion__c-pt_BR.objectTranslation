@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Promotion --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Promotion --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Campos de cabeçalho do Copado</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Campos personalizados</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ManageBranchesDialog --></label>
+        <name>copado__ManageBranchesDialog</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gerente de pipeline</label>
+        <name>copado__Pipeline_Manager</name>
+    </fieldSets>
+    <fields>
+        <help>Marque essa caixa de seleção se estiver promovendo de um ambiente superior para um inferior no pipeline.</help>
+        <label>É a promoção de retorno</label>
+        <name>copado__Back_Promotion__c</name>
+    </fields>
+    <fields>
+        <help>Esse campo é verificado pelo Copado depois que a promoção é mesclada e implementada com êxito na plataforma de várias nuvens.</help>
+        <label>Concluído</label>
+        <name>copado__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Comportamento da conexão</label>
+        <name>copado__Connection_Behavior__c</name>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção se quiser mover os perfis adicionados para uma etapa de Perfis completos. Isso removerá os perfis da etapa Metadados.</help>
+        <label><!-- Create Full Permission Sets Step --></label>
+        <name>copado__Create_Full_Permission_Sets_Step__c</name>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção se quiser mover os conjuntos de permissões adicionados para uma etapa de Conjuntos de permissões completos. Isso removerá os conjuntos de permissões da etapa Metadados.</help>
+        <label>Etapa Criar perfis completos</label>
+        <name>copado__Create_Full_Profiles_Step__c</name>
+    </fields>
+    <fields>
+        <label>Ambiente de destino</label>
+        <name>copado__Destination_Environment__c</name>
+        <relationshipLabel>Promoções (ambiente de destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A credencial de destino que será usada ao criar a implantação. Essa credencial é preenchida automaticamente com base no pipeline vinculado ao projeto.</help>
+        <label>Credencial de destino</label>
+        <name>copado__Destination_Org_Credential__c</name>
+        <relationshipLabel>Promoções (Credencial de Destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Selecione os tipos de metadados que você deseja resolver manualmente quando ocorrer um conflito ao mesclar o ramo de recursos com o ramo de promoção.</help>
+        <label>Excluir da resolução automática</label>
+        <name>copado__Exclude_From_Auto_Resolve__c</name>
+    </fields>
+    <fields>
+        <label>É revertido?</label>
+        <name>copado__Is_Rolled_Back__c</name>
+    </fields>
+    <fields>
+        <label>Id de execução da última implantação</label>
+        <name>copado__Last_Deployment_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label>Id de execução da última promoção</label>
+        <name>copado__Last_Promotion_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <help>Indica que essa promoção inclui uma resolução manual de conflitos.</help>
+        <label>Conflito de mesclagem</label>
+        <name>copado__Merge_Conflict__c</name>
+    </fields>
+    <fields>
+        <help>Preencha esse campo se quiser definir uma ordem de mesclagem ascendente ou descendente para as histórias de usuário selecionadas em uma implantação. Por exemplo, status__c asc</help>
+        <label>Solicite histórias de usuário por</label>
+        <name>copado__Order_by__c</name>
+    </fields>
+    <fields>
+        <help>Esse campo é preenchido automaticamente e exibe a plataforma do pipeline.</help>
+        <label>Plataforma</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <help>Selecione um projeto vinculado a um pipeline ativo.</help>
+        <label>Projeto</label>
+        <name>copado__Project__c</name>
+        <relationshipLabel>Promoções</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Liberação</label>
+        <name>copado__Release__c</name>
+        <relationshipLabel>Promoções</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção se quiser que o proprietário da promoção receba uma notificação por e-mail quando a promoção for concluída.</help>
+        <label>Notificar quando concluído</label>
+        <name>copado__Send_Deployment_Complete_email__c</name>
+    </fields>
+    <fields>
+        <label>Fonte Ambiente</label>
+        <name>copado__Source_Environment__c</name>
+        <relationshipLabel>Promoções</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A credencial de origem que será usada ao criar a implantação. Essa credencial é preenchida automaticamente com base no pipeline vinculado ao projeto.</help>
+        <label>Credencial de origem</label>
+        <name>copado__Source_Org_Credential__c</name>
+        <relationshipLabel>Promoções (Credencial de origem)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Concluído</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation>Concluído com erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conflicts Resolved</masterLabel>
+            <translation>Conflitos resolvidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Conflict</masterLabel>
+            <translation>Conflito de mesclagem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation>Validado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation failed</masterLabel>
+            <translation>Falha na validação</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Promotion Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não são permitidas promoções retroativas para organizações de raspadinha</errorMessage>
+        <name>copado__Scratch_Orgs_Disabled_for_Back_Promoting</name>
+    </validationRules>
+    <webLinks>
+        <label>Reversão</label>
+        <name>copado__Rollback</name>
+    </webLinks>
+</CustomObjectTranslation>

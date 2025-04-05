@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Case Status</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>PMC_SS_ReOpenReason__c</fieldNames>
+        <picklistValueName>Re-Open</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>PMC_SS_CaseGeneral</recordTypeName>
+</PathAssistant>

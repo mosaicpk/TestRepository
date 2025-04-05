@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Storefront Winter 24</label>
+    <site>
+        <urlPathPrefix>store24</urlPathPrefix>
+    </site>
+    <space>site/Storefront_Winter_241</space>
+</DigitalExperienceConfig>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Import Format --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Import Format --></value>
+    </caseValues>
+    <fields>
+        <help>Seleccione la casilla para que el formato de entrada esté disponible para su uso.</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca un nombre significativo que describa el formato de entrada.</help>
+        <label>Nombre del formato de importación</label>
+        <name>SBQQ__ImportFormatName__c</name>
+    </fields>
+    <fields>
+        <help>Objeto de destino a importar.</help>
+        <label>Objeto de destino</label>
+        <name>SBQQ__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation>Línea de presupuesto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Recuento de las claves únicas del formato de importación.</help>
+        <label># Clave única</label>
+        <name>SBQQ__UniqueKeyCount__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Import Format # --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Más de 1 clave única definida en la columna de importación.</errorMessage>
+        <name>SBQQ__Num_Unique_Key_is_not_one</name>
+    </validationRules>
+</CustomObjectTranslation>

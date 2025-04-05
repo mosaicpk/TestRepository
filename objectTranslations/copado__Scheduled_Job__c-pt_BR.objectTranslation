@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Scheduled Job --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Scheduled Job --></value>
+    </caseValues>
+    <fields>
+        <label>ID do trabalho na Apex</label>
+        <name>copado__Apex_Job_ID__c</name>
+    </fields>
+    <fields>
+        <label>Expressão Cron</label>
+        <name>copado__Cron_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Quando o trabalho for executado, ele verificará todas as execuções mais antigas que esse número de dias e excluirá os registros históricos.</help>
+        <label>Excluir execuções após (dias)</label>
+        <name>copado__Delete_Runs_after_days__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <help>Esse usuário deve ter uma licença do Copado atribuída, ter criado uma credencial para seu usuário do Copado e ter criado uma chave de API. Essa chave de API será usada para os webhooks.</help>
+        <label>Executar como usuário</label>
+        <name>copado__Run_as_User__c</name>
+        <relationshipLabel>Trabalhos programados</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>URL do webhook</label>
+        <name>copado__Webhook_URL__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Scheduled Job Name --></nameFieldLabel>
+</CustomObjectTranslation>

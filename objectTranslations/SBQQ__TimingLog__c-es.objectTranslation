@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Timing Log --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Timing Log --></value>
+    </caseValues>
+    <fields>
+        <label>Elemento</label>
+        <name>SBQQ__Element__c</name>
+    </fields>
+    <fields>
+        <label>Finalizar</label>
+        <name>SBQQ__Finish__c</name>
+    </fields>
+    <fields>
+        <help>Entrada de registro</help>
+        <label>Registro</label>
+        <name>SBQQ__Log__c</name>
+    </fields>
+    <fields>
+        <help>Tiempo inicial de CPU</help>
+        <label>Iniciar</label>
+        <name>SBQQ__Start__c</name>
+    </fields>
+    <fields>
+        <label>Tiempo total de CPU</label>
+        <name>SBQQ__Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>SBQQ__URL__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Delivery_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Delivery_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>PMC_CPQ_DeliveryCompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PMC_CPQ_DeliveryCompactLayout</fullName>
+        <fields>ShipmentNumber</fields>
+        <fields>PMC_CPQ_DeliveryQuantity__c</fields>
+        <fields>PMC_CPQ_ContractNumber__c</fields>
+        <fields>PMC_CPQ_PO__c</fields>
+        <label>Delivery Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ActualDeliveryDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DeliveredToId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DeliveryMethodId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DestinationLocationId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedDeliveryDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FulfillmentOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Insp_Lot_Usage_Decision__c</fullName>
+        <description>Insp. Lot Usage Decision</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Only CoA approved records must be displayed</inlineHelpText>
+        <label>Insp. Lot Usage Decision</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderSummaryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <description>This field captures the owner of this record.</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Deliveries</relationshipLabel>
+        <relationshipName>Deliveries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_AlternateSubstituteProduct__c</fullName>
+        <description>This field captures the alternate Substitute Product.</description>
+        <label>Alternate/Substitute Product</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alternate Product</fullName>
+                    <default>false</default>
+                    <label>Alternate Product</label>
+                </value>
+                <value>
+                    <fullName>Substitute Product</fullName>
+                    <default>false</default>
+                    <label>Substitute Product</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Carrier__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Carrier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ContractNumber__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Contract Number</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Deliveries</relationshipLabel>
+        <relationshipName>Deliveries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_CurrentCarrier__c</fullName>
+        <description>This is used in intellitrans integration</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Current Carrier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_CurrentCoordinates__c</fullName>
+        <description>This field is used in intellitrans integration</description>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <label>Current Coordinates</label>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_CurrentLocation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Current Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_CustomerAgreedPriceFPD__c</fullName>
+        <description>This field captures the customer Price (FPD).</description>
+        <label>Customer Agreed Price (FPD)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DaysPastShipped__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()  -  PMC_CPQ_ShippedDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Past Shipped</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryActualGIDate__c</fullName>
+        <description>Actual date when goods issued.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Delivery Actual GI Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryCreatedByName__c</fullName>
+        <description>This field captures the  user created the delivery in sap</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Delivery Created By Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryItemID__c</fullName>
+        <description>This field captures the delivery Item ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Delivery Item ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryItemName__c</fullName>
+        <description>This field captures the delivery Item Name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Delivery Item Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryPlannedGIDate__c</fullName>
+        <description>Planned date for good to be released.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Delivery Planned GI Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryPlannedvsActualGI__c</fullName>
+        <description>Difference between actual &amp; planned</description>
+        <externalId>false</externalId>
+        <label>Delivery Planned vs Actual GI</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryQuantity__c</fullName>
+        <description>This field captures the delivery Delivery Quantity.</description>
+        <externalId>false</externalId>
+        <label>Delivery Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_DeliveryStatus__c</fullName>
+        <description>This field captures the delivery Delivery Status.</description>
+        <label>Delivery Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Shipped</fullName>
+                    <default>false</default>
+                    <label>Not Yet Shipped</label>
+                </value>
+                <value>
+                    <fullName>Partially Shipped</fullName>
+                    <default>false</default>
+                    <label>Partially Shipped</label>
+                </value>
+                <value>
+                    <fullName>Completely Shipped</fullName>
+                    <default>false</default>
+                    <label>Completely Shipped</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Shipped</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Shipped</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Destination__c</fullName>
+        <label>Destination</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_CPQ_DestinationCountry</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ETA__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>ETA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_EstimatedDeliveryDate__c</fullName>
+        <description>This field is to store the Estimated Delivery Date which will be received as part of 066I and will be stored in the Mosaic Direct Delivery Dashboard.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Estimated Delivery Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_GoodsIssueStatus__c</fullName>
+        <description>The Status of goods issue.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Goods Issue Status</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_LoadingDate__c</fullName>
+        <description>Date on which the goods are to be loaded.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Loading Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ModeofTransportation__c</fullName>
+        <inlineHelpText>Select the appropriate mode from the available options to track and manage logistics effectively.</inlineHelpText>
+        <label>MOT</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_CPQ_MoT</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_OrderDocument__c</fullName>
+        <description>This field captures the order PO etc.</description>
+        <label>Order Document</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bill of Lading</fullName>
+                    <default>false</default>
+                    <label>Bill of Lading</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Analysis</fullName>
+                    <default>false</default>
+                    <label>Certificate of Analysis</label>
+                </value>
+                <value>
+                    <fullName>Invoice</fullName>
+                    <default>false</default>
+                    <label>Invoice</label>
+                </value>
+                <value>
+                    <fullName>PO</fullName>
+                    <default>false</default>
+                    <label>PO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_OrderStatus__c</fullName>
+        <description>This field captures the Order status</description>
+        <externalId>false</externalId>
+        <formula>TEXT(PMC_CPQ_Order__r.Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field captures the Order Number.</description>
+        <label>Order Number</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Deliveries</relationshipLabel>
+        <relationshipName>Deliveries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_OriginLocation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The plant location associated to this delivery</description>
+        <label>Origin Location</label>
+        <referenceTo>Location</referenceTo>
+        <relationshipLabel>Deliveries</relationshipLabel>
+        <relationshipName>Deliveries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Origin__c</fullName>
+        <description>This field captures the origin .</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Origin</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_PO__c</fullName>
+        <description>This field is used to capture the user input for Purchase order number.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Purchase Order #</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_PlantID__c</fullName>
+        <description>This field captures the  Plant ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Plant ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Deliveries</relationshipLabel>
+        <relationshipName>Deliveries</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_RailCarNumber__c</fullName>
+        <description>This field captures the rail Number IntelliTrans.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rail Car Number (IntelliTrans)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Route__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Route</label>
+        <length>128</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SAPDeliveryID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This field captures the sap Delivery ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>SAP Delivery ID</label>
+        <length>64</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SAPOrderID__c</fullName>
+        <description>This field captures the sap Order ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SAP Order ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SAPOrderlineID__c</fullName>
+        <description>This field captures the sap line ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SAP Order line ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SalesPrice__c</fullName>
+        <description>This field captures the sales Sales Price.</description>
+        <label>Sales Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ShipToAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Ship To Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Deliveries (Ship To Account)</relationshipLabel>
+        <relationshipName>Deliveries1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ShipTo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Deliveries (Ship To)</relationshipLabel>
+        <relationshipName>Deliveries2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ShippedDate__c</fullName>
+        <description>This field captures the shipped  Date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Shipped Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_ShippingPoint__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Shipping Point</label>
+        <length>128</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_TowName__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Tow Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_TransportationPlanningDate__c</fullName>
+        <description>Date on which the transportation is planned.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Transportation Planning Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_TruckNumber__c</fullName>
+        <description>This field captures the Truck Number.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Truck Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_UoMUnitofMeasure__c</fullName>
+        <description>This field captures the uom of Measure.</description>
+        <inlineHelpText>Specify the unit in which the value of this field will be measured</inlineHelpText>
+        <label>UoM Unit of Measure</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PMC_SS_UnitOfMeasure</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_VehicleID__c</fullName>
+        <description>This field captures the vehicle Vehicle ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Vehicle ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_VesselID__c</fullName>
+        <description>This field captures the vessel Vessel ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Vessel ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_Weight__c</fullName>
+        <description>The total weight of the shipment.</description>
+        <externalId>false</externalId>
+        <label>Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_DH_SAPDeliveryCreatedDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>SAP Delivery Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_OrderActivationDate__c</fullName>
+        <description>Related order activation date</description>
+        <formula>PMC_CPQ_Order__r.ActivatedDate</formula>
+        <label>Order Activation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_OrderStatusCode__c</fullName>
+        <description>status category of order</description>
+        <externalId>false</externalId>
+        <formula>TEXT( PMC_CPQ_Order__r.StatusCode )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Status Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ReturnOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShipFromAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShipToAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShipToName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SourceLocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TotalItemsQuantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TrackingNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TrackingUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>PMC_CPQ_AllDeliveries</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_CompletelyShippedDeliveries</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PMC_CPQ_DeliveryStatus__c</field>
+            <operation>equals</operation>
+            <value>Completely Shipped</value>
+        </filters>
+        <label>Completely Shipped Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_DeliveriesByBarge</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Barge Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_DeliveriesByRail</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Rail Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_DeliveriesByTruck</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Truck Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_DeliveriesByVessel</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Vessel Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_DeliveriesShippedPast7Days</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PMC_CPQ_DaysPastShipped__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>7</value>
+        </filters>
+        <label>Shipped Deliveries(Past 7 Days)</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_DeliveriesyettobeShipped</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PMC_CPQ_DeliveryStatus__c</field>
+            <operation>equals</operation>
+            <value>Not yet Shipped</value>
+        </filters>
+        <label>Deliveries yet to be Shipped</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_MyDeliveries</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Deliveries</label>
+    </listViews>
+    <listViews>
+        <fullName>PMC_CPQ_PartiallyShippedDeliveries</fullName>
+        <columns>Name</columns>
+        <columns>PMC_CPQ_Product__c</columns>
+        <columns>PMC_CPQ_DeliveryStatus__c</columns>
+        <columns>PMC_CPQ_Order__c</columns>
+        <columns>PMC_CPQ_PO__c</columns>
+        <columns>PMC_CPQ_ContractNumber__c</columns>
+        <columns>PMC_CPQ_Account__c</columns>
+        <columns>PMC_CPQ_VehicleID__c</columns>
+        <columns>PMC_CPQ_ShippedDate__c</columns>
+        <columns>PMC_CPQ_CurrentLocation__c</columns>
+        <columns>DestinationLocation</columns>
+        <columns>PMC_CPQ_ETA__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PMC_CPQ_DeliveryStatus__c</field>
+            <operation>equals</operation>
+            <value>Partially Shipped</value>
+        </filters>
+        <label>Partially Shipped Deliveries</label>
+    </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>PMC_CPQ_Default</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>PMC_CPQ_DeliveryCompactLayout</compactLayoutAssignment>
+        <label>Default</label>
+        <picklistValues>
+            <picklist>PMC_CPQ_AlternateSubstituteProduct__c</picklist>
+            <values>
+                <fullName>Alternate Product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Substitute Product</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CPQ_DeliveryStatus__c</picklist>
+            <values>
+                <fullName>Completely Shipped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Shipped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partially Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CPQ_Destination__c</picklist>
+            <values>
+                <fullName>Argentina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Australia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paraguay</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CPQ_ModeofTransportation__c</picklist>
+            <values>
+                <fullName>Barge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Container</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Truck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vessel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CPQ_OrderDocument__c</picklist>
+            <values>
+                <fullName>Bill of Lading</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Certificate of Analysis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PMC_CPQ_UoMUnitofMeasure__c</picklist>
+            <values>
+                <fullName>L</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MTN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>STN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WMT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SourceLocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DestinationLocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FulfillmentOrder</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OrderSummary</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DeliveryMethod</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ReturnOrder</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SourceLocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DestinationLocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FulfillmentOrder</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OrderSummary</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DeliveryMethod</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ReturnOrder</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SourceLocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DestinationLocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FulfillmentOrder</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OrderSummary</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DeliveryMethod</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ReturnOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PMC_CPQ_Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PMC_CPQ_DeliveryStatus__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PMC_CPQ_ShippedDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PMC_CPQ_Order__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Restrict_Quantity_Edit</fullName>
+        <active>true</active>
+        <description>Restriction to edit the shipment quantity after &apos;Completely shipped&apos;</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(PMC_CPQ_DeliveryStatus__c, &quot;Completely Shipped&quot;),
+ISCHANGED(PMC_CPQ_DeliveryQuantity__c)
+)</errorConditionFormula>
+        <errorMessage>Restriction to edit the shipment quantity after &apos;Completely shipped&apos;</errorMessage>
+    </validationRules>
+</CustomObject>

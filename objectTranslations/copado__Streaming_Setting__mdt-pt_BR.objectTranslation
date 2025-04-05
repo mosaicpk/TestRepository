@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Streaming Setting --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Streaming Setting --></value>
+    </caseValues>
+    <fields>
+        <help>Nome do canal de streaming (PushTopic)</help>
+        <label>Nome do canal</label>
+        <name>copado__Channel_Name__c</name>
+    </fields>
+    <fields>
+        <help>Quando ativado, o streaming do canal fornecido será rastreado quanto a alterações em tempo real.</help>
+        <label>Ativado</label>
+        <name>copado__Enabled__c</name>
+    </fields>
+    <fields>
+        <help>O serviço de streaming do canal fornecido será cancelado quando o tempo limite (milissegundos) for atingido. Em branco significa infinito.</help>
+        <label>Tempo limite</label>
+        <name>copado__Timeout__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <measures>
+        <field>kpi_win_rate.C</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_trailing_month_trend.count</field>
+        <isDerived>false</isDerived>
+        <label>Quantity(MTN)</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_main.sum_TotalPrice</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Quantity(MTN)</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>kpi_this_year_total.Quantity</field>
+        <formatCustomFormat>[&quot;#,###K MTN&quot;,0.001]</formatCustomFormat>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Sales_Performance1</waveVisualization>
+</WaveXmd>

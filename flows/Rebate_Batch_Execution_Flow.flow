@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Call_Payout_Period_Job</name>
+        <label>Call Payout Period Job</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <actionName>industries_mfg_rebates__CalculateRebatePayout</actionName>
+        <actionType>batchJobAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>criteria_Payout Period ID</name>
+            <value>
+                <stringValue>0i7DT00000000AWYAY</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>criteria_Last execution date</name>
+            <value>
+                <dateTimeValue>2023-08-22T05:00:00.000Z</dateTimeValue>
+            </value>
+        </inputParameters>
+        <nameSegment>industries_mfg_rebates__CalculateRebatePayout</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>Rebate Batch Execution Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Rebate Batch Execution Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Call_Payout_Period_Job</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Once</frequency>
+            <startDate>2023-08-24</startDate>
+            <startTime>03:14:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

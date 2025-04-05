@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Allocation --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Allocation --></value>
+    </caseValues>
+    <fields>
+        <label>Nombre del admin de la cuenta</label>
+        <name>PMC_SS_AccountManagerName__c</name>
+        <relationshipLabel>Asignaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cantidad actual asignada</label>
+        <name>PMC_SS_AllocatedActualQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia de asignación</label>
+        <name>PMC_SS_AllocationFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Período de asignación</label>
+        <name>PMC_SS_AllocationPeriod__c</name>
+    </fields>
+    <fields>
+        <label>Resumen de asignación</label>
+        <name>PMC_SS_AllocationSummary__c</name>
+        <relationshipLabel>Asignaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identificador único externo</label>
+        <name>PMC_SS_ExternalUniqueIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación</label>
+        <name>PMC_SS_Location__c</name>
+        <relationshipLabel>Asignaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Clave de asig. de la ubc. del prod.</label>
+        <name>PMC_SS_ProductLocationAllocationKey__c</name>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>PMC_SS_Product__c</name>
+        <relationshipLabel>Asignaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cantidad solicitada</label>
+        <name>PMC_SS_RequestedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>PMC_SS_UnitofMeasure__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Allocation Name --></nameFieldLabel>
+</CustomObjectTranslation>

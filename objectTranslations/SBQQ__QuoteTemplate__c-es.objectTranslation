@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Quote Template --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Quote Template --></value>
+    </caseValues>
+    <fields>
+        <help>&quot;Marque la casilla de verificación si todos los productos del paquete deben imprimirse en los documentos de presupuesto; de lo contrario, sólo se imprimirán los que sean distintos de cero.&quot;</help>
+        <label>Mostrar todos los paquetes de productos</label>
+        <name>SBQQ__AllPackageProductsShown__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Título utilizado para la sección Facturar A. El valor por defecto es &quot;Facturar a&quot;.&quot;</help>
+        <label>Factura al título</label>
+        <name>SBQQ__BillToTitle__c</name>
+    </fields>
+    <fields>
+        <help>Color de los bordes de la tabla expresado en valor hexadecimal.</help>
+        <label>Color del borde</label>
+        <name>SBQQ__BorderColor__c</name>
+    </fields>
+    <fields>
+        <help>Margen inferior de la página.</help>
+        <label>Margen inferior</label>
+        <name>SBQQ__BottomMargin__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación si los ítems de línea de presupuesto con la opción Agrupado activada se muestran en los documentos de presupuesto generados a partir de este modelo.</help>
+        <label>Mostrar productos agrupados</label>
+        <name>SBQQ__BundledProductsShown__c</name>
+    </fields>
+    <fields>
+        <help>Parte de la ciudad de la dirección de la empresa que aparece en los documentos de presupuesto.</help>
+        <label>Ciudad de la empresa</label>
+        <name>SBQQ__CompanyCity__c</name>
+    </fields>
+    <fields>
+        <help>Parte del país de la dirección de la empresa que aparece en los documentos de presupuesto.</help>
+        <label>País de la Empresa</label>
+        <name>SBQQ__CompanyCountry__c</name>
+    </fields>
+    <fields>
+        <help>El email de la empresa aparece en los documentos del presupuesto. Por ejemplo: sales@mycompany.com</help>
+        <label>Email de la empresa</label>
+        <name>SBQQ__CompanyEmail__c</name>
+    </fields>
+    <fields>
+        <help>El FAX de la empresa aparece en los documentos del presupuesto.</help>
+        <label>Fax de la empresa</label>
+        <name>SBQQ__CompanyFax__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de la empresa tal y como aparece en los documentos de presupuesto.</help>
+        <label>Nombre de la empresa</label>
+        <name>SBQQ__CompanyName__c</name>
+    </fields>
+    <fields>
+        <help>El teléfono de la empresa aparece en los documentos de presupuesto.</help>
+        <label>Teléfono de la empresa</label>
+        <name>SBQQ__CompanyPhone__c</name>
+    </fields>
+    <fields>
+        <help>Parte del código postal de la dirección de la empresa que aparece en los documentos de presupuesto.</help>
+        <label>Código postal de la empresa</label>
+        <name>SBQQ__CompanyPostalCode__c</name>
+    </fields>
+    <fields>
+        <help>Eslogan de la empresa en los documentos de presupuesto.</help>
+        <label>Eslogan de la empresa</label>
+        <name>SBQQ__CompanySlogan__c</name>
+    </fields>
+    <fields>
+        <help>Parte del estado de la dirección de la empresa que aparece en los documentos de presupuesto.</help>
+        <label>Estado de la empresa</label>
+        <name>SBQQ__CompanyState__c</name>
+    </fields>
+    <fields>
+        <help>Parte de la calle de la dirección de la empresa que aparece en los documentos de presupuesto.</help>
+        <label>Calle de la empresa</label>
+        <name>SBQQ__CompanyStreet__c</name>
+    </fields>
+    <fields>
+        <help>Marque la casilla si los productos componentes con la opción Componente activada no deben imprimirse en los documentos de presupuesto.</help>
+        <label>Ocultar productos componentes</label>
+        <name>SBQQ__ComponentProductsHidden__c</name>
+    </fields>
+    <fields>
+        <help>Campo de la línea de presupuesto utilizado para calcular un descuento. El valor de este campo se resta del precio total.</help>
+        <label>Campo Descuento al cliente</label>
+        <name>SBQQ__CustomerDiscountField__c</name>
+        <picklistValues>
+            <masterLabel>Total Discount (Amt)</masterLabel>
+            <translation>Descuento total (importe)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Etiqueta utilizada para el descuento del cliente en las secciones de subtotales y totales.</help>
+        <label>Etiqueta de descuento del cliente</label>
+        <name>SBQQ__CustomerDiscountLabel__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla si desea que el descuento de cliente a nivel de presupuesto se muestre en los totales del presupuesto.</help>
+        <label>Mostrar descuento del cliente</label>
+        <name>SBQQ__CustomerDiscountShown__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla para marcar este modelo como predeterminado.</help>
+        <label>Por defecto</label>
+        <name>SBQQ__Default__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Status de despliegue de este modelo. Cambie a &quot;Desplegado&quot; para que este modelo sea visible para los usuarios que no son administradores.&quot;</help>
+        <label>Status del despliegue</label>
+        <name>SBQQ__DeploymentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Deployed</masterLabel>
+            <translation>Desplegado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Development</masterLabel>
+            <translation>En desarrollo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Elija cómo mostrar las tablas de descuentos en el documento de presupuesto. Por Línea de presupuesto mostrará el programa de descuentos y los Niveles alineados a la derecha debajo de cada Línea de presupuesto.</help>
+        <label>Mostrar Programa de descuentos</label>
+        <name>SBQQ__DiscountScheduleShown__c</name>
+        <picklistValues>
+            <masterLabel>Per Quote Line</masterLabel>
+            <translation>Por línea de presupuesto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Excluye la cabecera y el pie de página del modelo para la Primera Página, la Última Página o ambas.&quot;</help>
+        <label>Excluir cabecera y pie de página</label>
+        <name>SBQQ__ExcludeHeaderFooter__c</name>
+        <picklistValues>
+            <masterLabel>First Page</masterLabel>
+            <translation>Primera página</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First and Last</masterLabel>
+            <translation>Primer y último</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Page</masterLabel>
+            <translation>Última página</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Excluye la numeración de páginas para Todas las páginas, Primera página, Segunda página y/o tanto la Primera como la Segunda página.&quot;</help>
+        <label>Excluir números de página</label>
+        <name>SBQQ__ExcludedPages__c</name>
+        <picklistValues>
+            <masterLabel>All Pages</masterLabel>
+            <translation>Todas las páginas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Page</masterLabel>
+            <translation>Primera página</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First and Last</masterLabel>
+            <translation>Primer y último</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Page</masterLabel>
+            <translation>Última página</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Familia de la fuente que debe aplicarse al texto de este modelo.</help>
+        <label>Familia de fuentes</label>
+        <name>SBQQ__FontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation>Correo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans TC</masterLabel>
+            <translation><!-- Noto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Play</masterLabel>
+            <translation><!-- Play --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ubuntu</masterLabel>
+            <translation><!-- Ubuntu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Tamaño de fuente predeterminado para el texto de este documento de presupuesto.</help>
+        <label>Tamaño de letra</label>
+        <name>SBQQ__FontSize__c</name>
+    </fields>
+    <fields>
+        <help>Contenido del modelo que debe aparecer en el pie de página.</help>
+        <label>Contenido del pie de página</label>
+        <name>SBQQ__FooterContent__c</name>
+        <relationshipLabel>Modelos de presupuesto (pie de página)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Altura del pie de página en los documentos generados a partir de este modelo.</help>
+        <label>Altura del pie de página</label>
+        <name>SBQQ__FooterHeight__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de la página Visualforce que debe utilizar este modelo para generar el árbol XSL FO.</help>
+        <label>Nombre del generador</label>
+        <name>SBQQ__GeneratorName__c</name>
+    </fields>
+    <fields>
+        <help>Prefijo para las etiquetas de subtotal y total en los totales generales.</help>
+        <label>Prefijo del Total general</label>
+        <name>SBQQ__GrandTotalPrefix__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione el campo que tiene los valores que desea utilizar al agrupar y subtotalizar ítems de línea individuales.</help>
+        <label>Campo Grupo</label>
+        <name>SBQQ__GroupField__c</name>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation>Familia de productos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Familia de la fuente que debe aplicarse al texto del título del Grupo en este modelo.</help>
+        <label>Familia de fuente del grupo</label>
+        <name>SBQQ__GroupFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation>Correo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans TC</masterLabel>
+            <translation><!-- Noto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Play</masterLabel>
+            <translation><!-- Play --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ubuntu</masterLabel>
+            <translation><!-- Ubuntu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Tamaño de fuente predeterminado para los títulos de los grupos</help>
+        <label>Tamaño de fuente del grupo</label>
+        <name>SBQQ__GroupFontSize__c</name>
+    </fields>
+    <fields>
+        <help>Estilo de fuente para los títulos de los grupos. Por defecto es normal si se deja en blanco.</help>
+        <label>Estilo de fuente del grupo</label>
+        <name>SBQQ__GroupFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>Bold</masterLabel>
+            <translation>Negrita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italic</masterLabel>
+            <translation>Cursiva</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underline</masterLabel>
+            <translation>Subraye</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Distancia entre grupos en píxeles.</help>
+        <label>Distancia entre grupos (px)</label>
+        <name>SBQQ__GroupGap__c</name>
+    </fields>
+    <fields>
+        <help>Color del sombreado de las celdas de la tabla que contienen el título y la descripción del grupo.</help>
+        <label>Color de sombreado del grupo</label>
+        <name>SBQQ__GroupShadingColor__c</name>
+    </fields>
+    <fields>
+        <help>Especifica la alineación del título del Grupo y la Descripción del Grupo. Por defecto a la izquierda si se deja en blanco.</help>
+        <label>Alineación del texto del grupo</label>
+        <name>SBQQ__GroupTextAlignment__c</name>
+        <picklistValues>
+            <masterLabel>Center</masterLabel>
+            <translation>Centro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation>Izquierda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation>Derecha</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Color para el título del grupo y el texto de la descripción.</help>
+        <label>Color del texto del grupo</label>
+        <name>SBQQ__GroupTextColor__c</name>
+    </fields>
+    <fields>
+        <help>Hace referencia al contenido del modelo que debe aparecer en la cabecera.</help>
+        <label>Contenido de la cabecera</label>
+        <name>SBQQ__HeaderContent__c</name>
+        <relationshipLabel>Modelos de presupuesto (cabecera)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Altura de la cabecera en los documentos generados a partir de este modelo.</help>
+        <label>Altura de la cabecera</label>
+        <name>SBQQ__HeaderHeight__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla si desea ocultar los subtotales de grupo en los documentos generados a partir de este modelo.</help>
+        <label>Ocultar subtotales de grupo</label>
+        <name>SBQQ__HideGroupSubtotals__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Título de la sección que aparece en el campo Introducción. Para no mostrar ningún título, deje este campo en blanco.&quot;</help>
+        <label>Título de la introducción</label>
+        <name>SBQQ__IntroductionTitle__c</name>
+    </fields>
+    <fields>
+        <help>Margen izquierdo de la página.</help>
+        <label>Margen izquierdo</label>
+        <name>SBQQ__LeftMargin__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Especifique cómo numerar los ítems de línea en los documentos generados. &quot;Empezar por el presupuesto&quot; numera todas las líneas secuencialmente a través de los grupos (si los hay). &quot;Empezar en el grupo&quot; restablece los números dentro de cada grupo.&quot;</help>
+        <label>Numeración de líneas</label>
+        <name>SBQQ__LineNumbering__c</name>
+        <picklistValues>
+            <masterLabel>Start at group</masterLabel>
+            <translation>Empezar en el grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start at quote</masterLabel>
+            <translation>Empezar por el presupuesto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique el campo utilizado para clasificar los ítems de línea del documento.</help>
+        <label>Campo de ordenación de líneas</label>
+        <name>SBQQ__LineSortField__c</name>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation>N�mero</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ID de Salesforce para el documento que contiene la imagen del logotipo utilizada en el PDF del presupuesto.</help>
+        <label>Id. del documento de Logotipo</label>
+        <name>SBQQ__LogoDocumentId__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Título de la sección que muestra el campo Notas. Para no mostrar ningún título, deje este campo en blanco.&quot;</help>
+        <label>Título de Notas</label>
+        <name>SBQQ__NotesTitle__c</name>
+    </fields>
+    <fields>
+        <help>Altura de la página en pulgadas.</help>
+        <label>Altura de la página</label>
+        <name>SBQQ__PageHeight__c</name>
+    </fields>
+    <fields>
+        <help>Especifique la alineación del número de página para el documento. Por defecto es Centro si el campo está vacío.</help>
+        <label>Alineación del número de página</label>
+        <name>SBQQ__PageNumberAlignment__c</name>
+        <picklistValues>
+            <masterLabel>Center</masterLabel>
+            <translation>Centro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation>Izquierda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation>Derecha</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique dónde se muestran los números de página en el documento. Por defecto a Pie de página si el campo está vacío.</help>
+        <label>Posición del Número de página</label>
+        <name>SBQQ__PageNumberPosition__c</name>
+        <picklistValues>
+            <masterLabel>Footer</masterLabel>
+            <translation>Pie de página</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Header</masterLabel>
+            <translation>Cabecera</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Declara el texto descriptivo del número de página. &quot;{0}&quot; representa independientemente la página actual. &quot;{1}&quot; depende de &quot;{0}&quot; y representa el total de páginas con número de página. Por defecto, &quot;Página {0} de {1\}&quot; si el campo está vacío.&quot;</help>
+        <label>Texto del Número de página</label>
+        <name>SBQQ__PageNumberText__c</name>
+    </fields>
+    <fields>
+        <help>Orientación de página de los documentos PDF generados con este modelo.</help>
+        <label>Orientación de la página</label>
+        <name>SBQQ__PageOrientation__c</name>
+        <picklistValues>
+            <masterLabel>Landscape</masterLabel>
+            <translation>Paisaje</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portrait</masterLabel>
+            <translation>Retrato</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ancho de página en pulgadas.</help>
+        <label>Ancho de página</label>
+        <name>SBQQ__PageWidth__c</name>
+    </fields>
+    <fields>
+        <help>Etiqueta utilizada para el descuento de socio en las secciones de subtotales y totales.</help>
+        <label>Etiqueta de descuento para socios</label>
+        <name>SBQQ__PartnerDiscountLabel__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla si desea que el descuento de socio a nivel de presupuesto se muestre en los totales del presupuesto.</help>
+        <label>Mostrar descuento para socios</label>
+        <name>SBQQ__PartnerDiscountShown__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla si los productos renovados deben mostrarse en los presupuestos de renovación generados a partir de este modelo.</help>
+        <label>Mostrar productos renovados</label>
+        <name>SBQQ__RenewedProductsShown__c</name>
+    </fields>
+    <fields>
+        <help>Ajuste del margen derecho de la página.</help>
+        <label>Margen derecho</label>
+        <name>SBQQ__RightMargin__c</name>
+    </fields>
+    <fields>
+        <help>Campo de línea de presupuesto utilizado para el roll-up. Todas las líneas en las que este campo devuelva el mismo valor se acumularán en la primera línea en la que aparezca el valor.</help>
+        <label>Campo Roll-Up</label>
+        <name>SBQQ__RollUpField__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>Producto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Color del sombreado en las cabeceras de columna expresado en hexadecimal.</help>
+        <label>Color del sombreado</label>
+        <name>SBQQ__ShadingColor__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Etiqueta utilizada para la sección &quot;destinatario&quot;. El valor por defecto es &quot;destinatario&quot;.&quot;</help>
+        <label>Título del destinatario</label>
+        <name>SBQQ__ShipToTitle__c</name>
+    </fields>
+    <fields>
+        <help>Campo utilizado para subagrupar ítems de línea.</help>
+        <label>Campo Subgrupo</label>
+        <name>SBQQ__SubGroupField__c</name>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation>Familia de productos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione un campo para sumar y mostrar como subtotal de grupo/presupuesto.</help>
+        <label>Campo Subtotal</label>
+        <name>SBQQ__SubtotalField__c</name>
+        <picklistValues>
+            <masterLabel>Customer Total</masterLabel>
+            <translation>Total del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Total</masterLabel>
+            <translation>Total de la lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Total</masterLabel>
+            <translation>Total neto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Total</masterLabel>
+            <translation>Total regular</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca una etiqueta para el campo subtotal.</help>
+        <label>Etiqueta Subtotal</label>
+        <name>SBQQ__SubtotalLabel__c</name>
+    </fields>
+    <fields>
+        <help>Sangría en píxeles del cuerpo del término del presupuesto en relación con el número del término.</help>
+        <label>Sangría del cuerpo del término (px)</label>
+        <name>SBQQ__TermBodyIndent__c</name>
+    </fields>
+    <fields>
+        <help>Título de la sección que muestra los Términos y Condiciones.</help>
+        <label>Título de Términos y Condiciones</label>
+        <name>SBQQ__TermsConditionsTitle__c</name>
+    </fields>
+    <fields>
+        <help>Términos y condiciones impresos en todos los documentos generados con este modelo.</help>
+        <label>Términos y condiciones</label>
+        <name>SBQQ__TermsConditions__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta casilla si desea que los términos de la oferta presentados por este modelo estén numerados.</help>
+        <label>Numerar Términos</label>
+        <name>SBQQ__TermsNumbered__c</name>
+    </fields>
+    <fields>
+        <help>Color por defecto (en HEX) aplicado al texto de este modelo.</help>
+        <label>Color del texto</label>
+        <name>SBQQ__TextColor__c</name>
+    </fields>
+    <fields>
+        <help>Margen superior de la página.</help>
+        <label>Margen superior</label>
+        <name>SBQQ__TopMargin__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione el Campo a sumar y visualice como total de grupo/presupuesto.</help>
+        <label>Campo total</label>
+        <name>SBQQ__TotalField__c</name>
+        <picklistValues>
+            <masterLabel>Customer Total</masterLabel>
+            <translation>Total del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Total</masterLabel>
+            <translation>Total de la lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Total</masterLabel>
+            <translation>Total neto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca la etiqueta para el campo establecido en Campo total.</help>
+        <label>Etiqueta total</label>
+        <name>SBQQ__TotalLabel__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación para ocultar los totales de presupuesto en el documento de presupuesto.</help>
+        <label>Ocultar totales</label>
+        <name>SBQQ__TotalsHidden__c</name>
+    </fields>
+    <fields>
+        <help>ID de Salesforce para el documento que contiene la imagen de marca de agua utilizada en el PDF de presupuesto.</help>
+        <label>ID de la Marca de agua</label>
+        <name>SBQQ__WatermarkId__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Template Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>La altura del pie de página no puede estar en blanco si la posición del número de página es Pie de página.</errorMessage>
+        <name>SBQQ__Blank_Footer_Height</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La altura de la cabecera no puede estar en blanco si la posición del número de página está ajustada a cabecera.</errorMessage>
+        <name>SBQQ__Blank_Header_Height</name>
+    </validationRules>
+    <webLinks>
+        <label>Clonar con relacionados</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar con relacionados</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+    <webLinks>
+        <label>Traducir</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

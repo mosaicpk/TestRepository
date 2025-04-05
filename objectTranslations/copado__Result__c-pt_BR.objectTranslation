@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Result --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Result --></value>
+    </caseValues>
+    <fields>
+        <help>Campo atualizado automaticamente pelo Copado que é usado para vincular alguns processos.</help>
+        <label>Retorno de chamada do Apex</label>
+        <name>copado__ApexCallback__c</name>
+    </fields>
+    <fields>
+        <label>Status da sincronização de crédito</label>
+        <name>copado__CreditSyncStatus__c</name>
+    </fields>
+    <fields>
+        <help>Créditos de copado utilizados na execução da função.</help>
+        <label>Créditos Copado utilizados</label>
+        <name>copado__Custom_Function_Used_Credits__c</name>
+    </fields>
+    <fields>
+        <help>Tempo gasto em minutos para executar a função.</help>
+        <label>Função personalizada Minutos utilizados</label>
+        <name>copado__Custom_Function_Used_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Objeto Matriz do Deployment que aciona a execução. (para legado)</help>
+        <label>Implantação</label>
+        <name>copado__Deployment__c</name>
+        <relationshipLabel>Resultados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Descrição do registro de resultado.</help>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <help>Duração total em segundos da execução do trabalho. Esse valor pode ser usado para rastrear o desempenho do trabalho.</help>
+        <label>Duração (em segundos)</label>
+        <name>copado__Duration__c</name>
+    </fields>
+    <fields>
+        <help>Data e hora do término do trabalho</help>
+        <label>Tempo final</label>
+        <name>copado__End_Time__c</name>
+    </fields>
+    <fields>
+        <help>Código que o ajuda a identificar rapidamente o problema.</help>
+        <label>Código de erro</label>
+        <name>copado__Error_Code__c</name>
+    </fields>
+    <fields>
+        <help>Descrição do erro se o trabalho tiver falhado.</help>
+        <label>Mensagem de erro</label>
+        <name>copado__Error_Message__c</name>
+    </fields>
+    <fields>
+        <help>Recursos computacionais disponíveis para uma função.</help>
+        <label>Função Worker Size</label>
+        <name>copado__Function_Worker_Size__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL</masterLabel>
+            <translation><!-- XL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para a função que acionou o resultado.</help>
+        <label>Função</label>
+        <name>copado__Function__c</name>
+        <relationshipLabel>Resultados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Quando esse resultado é o resultado de uma etapa do trabalho, que é executada como parte de um modelo de trabalho, esse campo aponta para a etapa do trabalho. (observe que a etapa do trabalho e a função podem ser preenchidas ao mesmo tempo).</help>
+        <label>Etapa do trabalho</label>
+        <name>copado__JobStep__c</name>
+        <relationshipLabel>Resultados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Para que os desenvolvedores mapeiem esse processo com qualquer outro processo que ocorra fora do Copado.</help>
+        <label>ID do trabalho externo</label>
+        <name>copado__Job_Id__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API do trabalho que acionou o resultado. Essas informações podem ser usadas para fins de relatório.</help>
+        <label>Nome da API do trabalho</label>
+        <name>copado__Job_Type__c</name>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation>Integração</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Campo usado para vincular um resultado externo ao registro de resultado.</help>
+        <label>Link de resultado externo</label>
+        <name>copado__Link__c</name>
+    </fields>
+    <fields>
+        <help>Id de 15 dígitos do registro que acionou o processo que gerou o resultado.</help>
+        <label>ID do contexto</label>
+        <name>copado__ParentId__c</name>
+    </fields>
+    <fields>
+        <label>Matriz</label>
+        <name>copado__Parent__c</name>
+    </fields>
+    <fields>
+        <help>Esse status é usado para rastrear a atividade atual do trabalho.</help>
+        <label>Status do progresso</label>
+        <name>copado__Progress_Status__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para a promoção que acionou o resultado.</help>
+        <label>Promoção</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>Resultados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Inclui todos os dados retornados pelo processo. Isso pode ser usado por outros processos.</help>
+        <label>Dados do resultado</label>
+        <name>copado__Result_Data__c</name>
+    </fields>
+    <fields>
+        <help>Data e hora de início do trabalho.</help>
+        <label>Hora de início</label>
+        <name>copado__Start_Time__c</name>
+    </fields>
+    <fields>
+        <help>Status da execução do trabalho.</help>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>Não iniciado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O objeto Matriz do teste que acionou a execução.</help>
+        <label>Teste</label>
+        <name>copado__Test__c</name>
+        <relationshipLabel>Resultados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se quiser que o Copado atualize o status para Failed (Falha) se não houver resposta do trabalho da função após um determinado período de tempo (por exemplo, 60 minutos), você poderá defini-lo aqui.</help>
+        <label>Tempo limite (minutos)</label>
+        <name>copado__Timeout__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para a história do usuário que acionou o resultado.</help>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Resultado</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Result Name --></nameFieldLabel>
+</CustomObjectTranslation>

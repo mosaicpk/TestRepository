@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Org Difference --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Org Difference --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Campos de cabeçalho do Copado</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fields>
+        <help>Se um valor for inserido, somente as modificações após essa data (inclusive) serão adicionadas à lista de diferenças</help>
+        <label>Da data de</label>
+        <name>copado__From_Date__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a credencial de origem para a qual você gostaria de comparar os metadados. Essa credencial será a credencial da qual você gostaria de migrar os metadados.</help>
+        <label>Credencial de origem</label>
+        <name>copado__From_Org__c</name>
+        <relationshipLabel>Diferenças orgânicas (Fonte Credencial)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se for inserido um valor, somente as modificações desse usuário serão incluídas na lista de diferenças. Use o nome completo do usuário</help>
+        <label>Última modificação por nome</label>
+        <name>copado__Last_Modified_By_Name__c</name>
+    </fields>
+    <fields>
+        <help>Vazio significa todos os tipos. Selecione um ou mais tipos para limitar a diferença de organização apenas aos itens selecionados.</help>
+        <label>Tipos de metadados</label>
+        <name>copado__Metadata_Types__c</name>
+    </fields>
+    <fields>
+        <help>Se um valor for inserido, somente as modificações anteriores a essa data (inclusive) serão adicionadas à lista de diferenças</help>
+        <label>Até a data</label>
+        <name>copado__To_Date__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a Credencial de destino para a qual você gostaria de comparar os metadados e para a qual gostaria de migrar os metadados. A grade resultante mostrará uma lista de diferenças com &quot;criar&quot;, &quot;atualizar&quot; e &quot;excluir&quot; que se aplicam a essa credencial.</help>
+        <label>Credencial de destino</label>
+        <name>copado__To_Org__c</name>
+        <relationshipLabel>Diferenças orgânicas (credencial de destino)</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Org Difference Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Os Orgs a serem comparados não podem ser os mesmos.</errorMessage>
+        <name>copado__Should_be_differents</name>
+    </validationRules>
+</CustomObjectTranslation>

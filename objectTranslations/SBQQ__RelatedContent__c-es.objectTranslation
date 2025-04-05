@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Additional Document --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Additional Document --></value>
+    </caseValues>
+    <fields>
+        <help>&quot;Establezca el orden en el que aparecerá este elemento para un usuario de ventas en el menú Contenido relacionado. Si está en blanco, el contenido se ordenará en último lugar.&quot;</help>
+        <label>Orden de visualización</label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca un nombre de archivo para el contenido relacionado.</help>
+        <label>Nombre del documento</label>
+        <name>SBQQ__DocumentName__c</name>
+    </fields>
+    <fields>
+        <help>&quot;ID del registro que contiene el contenido, como documento o contenido de Salesforce.&quot;</help>
+        <label>Id. externo</label>
+        <name>SBQQ__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Oportunidad relacionada con este contenido.</help>
+        <label>Oportunidad</label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel>Documentos adicionales</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Producto relacionado con este contenido.</help>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Documentos adicionales</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Modelo relacionado con este contenido.</help>
+        <label>Modelo de presupuesto</label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel>Documentos adicionales</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Presupuesto relacionado con este contenido.</help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Documentos adicionales</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque la casilla si este contenido es necesario para el producto. Los usuarios deben incluirlo al generar un documento de presupuesto.</help>
+        <label>Requerido</label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help>Modelo de Sección relacionado con este contenido.</help>
+        <label>Sección de modelos</label>
+        <name>SBQQ__TemplateSection__c</name>
+        <relationshipLabel>Documentos adicionales</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Additional Document --></nameFieldLabel>
+    <webLinks>
+        <label>Nuevo Documento Adicional de Presupuesto</label>
+        <name>SBQQ__NewQuoteRelatedContent</name>
+    </webLinks>
+</CustomObjectTranslation>

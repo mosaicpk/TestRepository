@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customMetadataTypeRecord>Client_Credentials_Auth_Provider_Setting__mdt.Seedz_AuthProvider</customMetadataTypeRecord>
+    <executionUser>sidpradhan@deloitte.com.devp1</executionUser>
+    <friendlyName>Seedz_AuthProvider</friendlyName>
+    <iconUrl>https://www.seedz.ag/img/logo-sdz-desktop.9faa5513.svg</iconUrl>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <isPkceEnabled>false</isPkceEnabled>
+    <plugin>CustomAuthProvider</plugin>
+    <providerType>Custom</providerType>
+    <requireMfa>false</requireMfa>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+</AuthProvider>

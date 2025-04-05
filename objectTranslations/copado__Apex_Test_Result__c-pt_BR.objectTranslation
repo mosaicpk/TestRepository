@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Apex Test Result --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Apex Test Result --></value>
+    </caseValues>
+    <fields>
+        <label>Detalhes</label>
+        <name>copado__Details__c</name>
+    </fields>
+    <fields>
+        <label>Falhas</label>
+        <name>copado__Failures__c</name>
+    </fields>
+    <fields>
+        <label>Credencial</label>
+        <name>copado__Org__c</name>
+        <relationshipLabel>Resultados do teste Apex</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Errors</masterLabel>
+            <translation>Erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sucessos (%)</label>
+        <name>copado__Successes__c</name>
+    </fields>
+    <fields>
+        <label>Execução de testes</label>
+        <name>copado__Tests_run__c</name>
+    </fields>
+    <fields>
+        <help>Esse é o tempo total necessário para executar os testes Apex</help>
+        <label>Tempo total (ms)</label>
+        <name>copado__Total_time__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Resultados do teste Apex</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Apex Test Name --></nameFieldLabel>
+</CustomObjectTranslation>

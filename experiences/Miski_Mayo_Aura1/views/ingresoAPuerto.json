@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "f8d4796d-f5de-4490-afd9-ec812cfda8f3",
+  "label" : "Ingreso a Puerto",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8618d375-9017-4b6e-a757-1391d80212d2",
+          "columns" : [ {
+            "UUID" : "253f6911-f652-4821-9a04-e148ecdc96ef",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8618d375-9017-4b6e-a757-1391d80212d2",
+      "regions" : [ {
+        "id" : "253f6911-f652-4821-9a04-e148ecdc96ef",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fd1677e4-c688-4bfd-b545-b926ce0cd398",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Ingreso a Puerto"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5f80effd-75b8-484a-ba5b-18b8975da23f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "94022b76-38df-437d-ba5c-469a47f5a458",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-ingreso-a-puerto"
+}

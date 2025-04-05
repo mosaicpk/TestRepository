@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>PMC_SS_MasterDataGTM</name>
+    </customPermissions>
+    <description>Permission set to be assigned to Master Data GTM Queues.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__Quote__c.Is_FPD_order__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Go-To Market Permission Set</label>
+    <license>Salesforce</license>
+</PermissionSet>

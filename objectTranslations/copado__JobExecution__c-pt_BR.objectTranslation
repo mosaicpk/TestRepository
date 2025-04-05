@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Job Execution --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Job Execution --></value>
+    </caseValues>
+    <fields>
+        <help>Nesse campo, você pode definir uma ação a ser executada após a execução da função. Essa ação deve ser uma classe Apex que implemente a interface copado.JobExecutionCallback.</help>
+        <label>Retorno de chamada</label>
+        <name>copado__Callback__c</name>
+    </fields>
+    <fields>
+        <label>Penhor</label>
+        <name>copado__Commit__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contexto</label>
+        <name>copado__Context__c</name>
+    </fields>
+    <fields>
+        <help>Esse campo contém o nível de teste para a etapa Excluir metadados.</help>
+        <label><!-- DataJson --></label>
+        <name>copado__DataJson__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para a implantação que acionou a execução.</help>
+        <label>Implantação</label>
+        <name>copado__Deployment__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nome do ambiente de destino.</help>
+        <label>Destino</label>
+        <name>copado__Destination__c</name>
+        <relationshipLabel>Execuções de trabalhos (destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Descrição do erro se o trabalho tiver falhado.</help>
+        <label>Mensagem de erro</label>
+        <name>copado__ErrorMessage__c</name>
+    </fields>
+    <fields>
+        <label>Etapa do trabalho</label>
+        <name>copado__Job_Step__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID Matriz (Formula)</label>
+        <name>copado__ParentId__c</name>
+    </fields>
+    <fields>
+        <help>Id do registro matriz vinculado à execução do trabalho, como, por exemplo, modelo de trabalho de confirmação.</help>
+        <label>ID Matriz</label>
+        <name>copado__ParentRecord_Id__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para o pipeline ao qual essa execução de trabalho se aplica.</help>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para a promoção que acionou a execução.</help>
+        <label>Promoção</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>É um backup completo dos tipos de metadados selecionados em um repositório/filial.</help>
+        <label><!-- Snapshot --></label>
+        <name>copado__Snapshot__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nome do ambiente de origem.</help>
+        <label>Fonte</label>
+        <name>copado__Source__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Status da execução do trabalho.</help>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>Não iniciado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Successful</masterLabel>
+            <translation>Bem-sucedido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O modelo de trabalho usado no processo de execução do trabalho.</help>
+        <label>Modelo</label>
+        <name>copado__Template__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Esse campo se refere ao registro principal de Compromisso de História de Usuário da execução do trabalho.</help>
+        <label>Compromisso de história de usuário</label>
+        <name>copado__UserStoryCommit__c</name>
+        <relationshipLabel>Execução de trabalhos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nesse campo, você pode introduzir uma lista de opções JSON com a configuração para os volumes usados em cada nova execução de trabalho.</help>
+        <label><!-- VolumeOptions --></label>
+        <name>copado__VolumeOptions__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Job Execution Name --></nameFieldLabel>
+</CustomObjectTranslation>

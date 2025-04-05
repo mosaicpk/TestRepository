@@ -1,0 +1,34 @@
+{
+  "appPageId" : "3185d6ef-e729-4853-8b7e-6d30a9c75572",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "479cbcff-cf87-4a0e-bf06-5baa63cf9a0b",
+  "label" : "Book Appointment from Invitation",
+  "regions" : [ {
+    "id" : "7875410b-65db-478a-bd1d-b16b2afb852e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"invitationKey\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!invitationKey}\"}]",
+        "flowName" : "Book_Appointment_from_Invitation_ForWM"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "5fd0e6ab-52be-4cbb-8dae-bc3738d4664d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "58f225a0-bde7-486c-97b5-1cff26669df0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4245f73e-6f71-4fef-9e9f-3d802b46e0a4",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "flow"
+}

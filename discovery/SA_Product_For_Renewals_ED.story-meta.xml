@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryStory xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>App_for_Manufacturing_Analytics</application>
+    <autopilot>Disabled</autopilot>
+    <classificationThreshold>0.5</classificationThreshold>
+    <label>SA Product For Renewals ED</label>
+    <outcome>
+        <failureValue>False</failureValue>
+        <field>RenewalFlag</field>
+        <goal>Maximize</goal>
+        <label>RenewalFlag</label>
+        <successValue>True</successValue>
+        <type>Text</type>
+    </outcome>
+    <sourceContainer>SAProductForRenewalsED</sourceContainer>
+    <sourceType>AnalyticsDataset</sourceType>
+</DiscoveryStory>

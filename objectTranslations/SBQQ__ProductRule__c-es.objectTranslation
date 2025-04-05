@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Product Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Product Rule --></value>
+    </caseValues>
+    <fields>
+        <help>Indica si esta regla está activa o inactiva.</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Sólo puede introducirse si las Condiciones cumplidas son Personalizadas. Introduzca una combinación de los números de índice de condición de error, Y, O y paréntesis (p. ej. (123 Y 124) Y 125).&quot;</help>
+        <label>Condición avanzada</label>
+        <name>SBQQ__AdvancedCondition__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Elija el comportamiento para sus condiciones: Todo es Y, Cualquiera es O, Personalizado es una combinación de Y/O.&quot;</help>
+        <label>Condiciones cumplidas</label>
+        <name>SBQQ__ConditionsMet__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation>Cualquier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca un mensaje que se mostrará cuando se active la regla.  Se mostrará un mensaje de error cuando se dispare una Validación.  Se mostrará un mensaje de advertencia cuando se dispare una Alerta. No se aplica a las reglas de filtro.</help>
+        <label>Mensaje</label>
+        <name>SBQQ__ErrorMessage__c</name>
+    </fields>
+    <fields>
+        <help>Especifique cuándo debe evaluarse esta regla.</help>
+        <label>Evento de evaluación</label>
+        <name>SBQQ__EvaluationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation>Editar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Load</masterLabel>
+            <translation>Carga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation>Guardar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Especifique el orden de evaluación para esta regla de precios. Las reglas de orden superior se evalúan en último lugar, lo que significa que &quot;ganan&quot; en caso de conflicto.&quot;</help>
+        <label>Orden de evaluación</label>
+        <name>SBQQ__EvaluationOrder__c</name>
+    </fields>
+    <fields>
+        <help>Campo del objeto de búsqueda correspondiente al mensaje de la regla de producto. El campo debe ser texto.</help>
+        <label>Campo de mensaje de búsqueda</label>
+        <name>SBQQ__LookupMessageField__c</name>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PriceValidityDiffrenceError__c</masterLabel>
+            <translation><!-- PMC_CPQ_PriceValidityDiffrenceError__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Message__c</masterLabel>
+            <translation><!-- SBQQ__Message__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Nombre API del objeto personalizado que almacena los datos de búsqueda.</help>
+        <label>Objeto de búsqueda</label>
+        <name>SBQQ__LookupObject__c</name>
+        <picklistValues>
+            <masterLabel>SBQQ__LookupData__c</masterLabel>
+            <translation><!-- SBQQ__LookupData__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quote__c</masterLabel>
+            <translation><!-- SBQQ__Quote__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Campo del objeto de búsqueda correspondiente a la acción de producto Búsqueda de productos. El campo debe ser una búsqueda del objeto Producto.</help>
+        <label>Buscar campo de producto</label>
+        <name>SBQQ__LookupProductField__c</name>
+        <picklistValues>
+            <masterLabel>SBQQ__Product__c</masterLabel>
+            <translation><!-- SBQQ__Product__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Campo del objeto de consulta correspondiente a la casilla de verificación Acción requerida del producto. El campo debe ser una casilla de verificación.</help>
+        <label>Campo obligatorio de Búsqueda</label>
+        <name>SBQQ__LookupRequiredField__c</name>
+        <picklistValues>
+            <masterLabel>SBQQ__Required__c</masterLabel>
+            <translation><!-- SBQQ__Required__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Campo del objeto de búsqueda correspondiente a la lista de selección Tipo de acción del producto. El campo debe ser una lista de selección o un texto.</help>
+        <label>Campo Tipo de búsqueda</label>
+        <name>SBQQ__LookupTypeField__c</name>
+        <picklistValues>
+            <masterLabel>SBQQ__Type__c</masterLabel>
+            <translation><!-- SBQQ__Type__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Aplica la regla a todo el presupuesto o a un producto específico.</help>
+        <label>Alcance</label>
+        <name>SBQQ__Scope__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>Producto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Presupuesto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Tipo de regla. La validación muestra mensajes de error. La selección hace que se añadan o sugieran productos. Alerta muestra una advertencia, pero no requiere rectificación. El filtro refina los resultados de la búsqueda de opciones para paquetes dinámicos.&quot;</help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation>Alerta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Filter</masterLabel>
+            <translation>Filtro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selection</masterLabel>
+            <translation>Selección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation</masterLabel>
+            <translation>Validación</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Product Rule Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>&quot;El campo Alcance debe apuntar a &quot;Producto&quot; para las Reglas de filtro de tipo Producto.&quot;</errorMessage>
+        <name>SBQQ__FilterTypeScope</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sólo las reglas con Alcance &apos;Producto&apos; pueden tener Eventos de Evaluación de tipo &apos;Editar&apos; o &apos;Cargar&apos;.</errorMessage>
+        <name>SBQQ__ProductEvaluationEventValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El campo Evento de evaluación debe rellenarse con un valor.</errorMessage>
+        <name>SBQQ__RequiredEvaluationEvent</name>
+    </validationRules>
+    <webLinks>
+        <label>Clonar con relacionados</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar con relacionados</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+</CustomObjectTranslation>

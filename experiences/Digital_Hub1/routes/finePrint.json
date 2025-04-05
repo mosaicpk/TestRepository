@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "fe7fa3c5-2ade-4dc7-ae06-0fb89c27ca5f",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "Fine_Print__c",
+  "id" : "f9d089f1-6949-4fdc-b1dd-b8939f5c6f13",
+  "label" : "Fine Print",
+  "routeType" : "custom-fine-print",
+  "type" : "route",
+  "urlPrefix" : "fine-print"
+}

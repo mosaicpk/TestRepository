@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Custom Code</masterLabel>
+        <translation>Código personalizado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom Layouts</masterLabel>
+        <translation>Layouts personalizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fields</masterLabel>
+        <translation>Campos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Improve Org Security</masterLabel>
+        <translation>Melhorar a segurança da organização</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Improve User Experience</masterLabel>
+        <translation>Melhore a experiência do usuário</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Increase User Adoption</masterLabel>
+        <translation>Aumentar a adoção pelo usuário</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Object Limits</masterLabel>
+        <translation>Limites de objetos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Org Limits</masterLabel>
+        <translation>Limites da organização</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reports And Dashboards</masterLabel>
+        <translation>Relatórios e painéis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Usage</masterLabel>
+        <translation>Uso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Management</masterLabel>
+        <translation>Gerenciamento de usuários</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Workflow</masterLabel>
+        <translation>Fluxo de trabalho</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

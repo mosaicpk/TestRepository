@@ -1,0 +1,1165 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8585bff2-f44e-446b-aeec-7176f88d1be9",
+  "label" : "Gestion Social",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "6914770c-c41d-4e4c-a32b-9eeb0592e4b6",
+          "columns" : [ {
+            "UUID" : "d4499b7b-b4dd-4f77-b95d-a9cca1ef0974",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6914770c-c41d-4e4c-a32b-9eeb0592e4b6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Banner_Test"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0.4)",
+                  "showButton" : false,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "bottom center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.altText}",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "75ac8378-aa55-48fc-baaf-2d4a843b83f1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d4499b7b-b4dd-4f77-b95d-a9cca1ef0974",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "bafcbc30-925b-4b54-8042-6e6c7f13c626",
+          "columns" : [ {
+            "UUID" : "c1b62da1-c1c8-4d8f-9f46-b88a1b55fb2d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "bafcbc30-925b-4b54-8042-6e6c7f13c626",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(230, 0, 0); font-family: arial;\">Gestión Social</span></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f2c39e04-c611-4c93-bc33-dbac835a0494",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1b62da1-c1c8-4d8f-9f46-b88a1b55fb2d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "53c252d0-1e3d-488e-9637-9499bebb6c11",
+          "columns" : [ {
+            "UUID" : "651d56d0-aa4b-4656-a556-9bcf263b3079",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7ee5f9c5-0c5c-47b9-8c8b-18a87c933c9c",
+            "columnKey" : "cbfd6",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "53c252d0-1e3d-488e-9637-9499bebb6c11",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Nuestro enfoque multifactor</span></h2><p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Nuestra política de responsabilidad social está basada en un enfoque de gestión multiactor a través del cual promovemos que tanto la empresa privada como el Estado y la comunidad colaboremos juntos apuntando a un solo objetivo que es el desarrollo sostenible de la provincia de Sechura, cumpliendo cada uno el rol que le compete.</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e8bf0cc2-1a26-492a-8d8b-ae0f781457d6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "651d56d0-aa4b-4656-a556-9bcf263b3079",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "d589701d-d1a2-4836-b86d-a35d51fda9a1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7ee5f9c5-0c5c-47b9-8c8b-18a87c933c9c",
+        "regionLabel" : "Column 2",
+        "regionName" : "cbfd6",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f70a830e-e8c3-4075-9e2d-abfe20ba17e4",
+          "columns" : [ {
+            "UUID" : "a744e8b8-0ebd-4792-8b9e-ab1af4cb390f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f70a830e-e8c3-4075-9e2d-abfe20ba17e4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Gestión Social basada en los ODS</span></h2><p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Nuestra estrategia social corporativa se alinea con varios de los Objetivos de Desarrollo Sostenible (ODS) establecidos por las Naciones Unidas como marco estratégico aspiracional a nivel mundial. Cada uno de nuestros programas sociales apuntan a contribuir con el cierre de brechas existentes en diferentes ejes como salud, educación, trabajo, igualdad de género, agua limpia, ciudades sostenibles, entre otros.</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Sabemos que los ODS son el corazón de la Agenda mundial 2030. A través de sus 17 objetivos con sus 169 metas y 231 indicadores, todos los estados miembros de Naciones Unidas, del que nuestro país es parte, han expresado su compromiso firme para cumplir con esta agenda universal. Nuestra empresa comparte este deseo universal buscando aportar con nuestra gestión social en el logro de un futuro mejor y más sostenible para todos.&nbsp;&nbsp;</span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4481a3b1-c7a3-4151-9cf9-bc9bfa7535b3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a744e8b8-0ebd-4792-8b9e-ab1af4cb390f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "738d7d4e-0ea5-476f-85e0-98bc3a832d83",
+          "columns" : [ {
+            "UUID" : "ecf8e439-7f60-4ea4-a652-b8955613480f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 178
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "738d7d4e-0ea5-476f-85e0-98bc3a832d83",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "16c4d99b-59bb-40d0-a371-89fe1f289e76",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ecf8e439-7f60-4ea4-a652-b8955613480f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "10db04a4-2653-44de-b5e6-28057a8a538f",
+          "columns" : [ {
+            "UUID" : "05a30391-aa28-4dd1-a035-9b2460e2e0d5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7517a1d6-d1af-4700-917f-0f0ef61716d0",
+            "columnKey" : "83d56",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "10db04a4-2653-44de-b5e6-28057a8a538f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><span style=\"font-size: 28px;\">Ejes prioritarios de Gestión Social</span></h2><p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">En Miski Mayo hemos invertido más de 50 millones de soles en diversos ejes prioritarios para el desarrollo de la provincia de Sechura, tales como salud, educación, medio ambiente, pesca, ganadería, agricultura, desarrollo local y cultural, entre otros. Esta inversión está considerada bajo el enfoque de contribuir con el bien común y según las necesidades identificadas en las comunidades del AID.</span></p><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "6abbd71c-2e41-43b0-be89-cb83a3a856b9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "05a30391-aa28-4dd1-a035-9b2460e2e0d5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7a67c2e0-9333-4d55-80e6-78b935b1444b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7517a1d6-d1af-4700-917f-0f0ef61716d0",
+        "regionLabel" : "Column 2",
+        "regionName" : "83d56",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "43926969-d522-4fc0-a9a2-10ac9f4a1b8b",
+          "columns" : [ {
+            "UUID" : "07e4b045-8a6e-47fb-b699-7b6a9677b4e9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "43926969-d522-4fc0-a9a2-10ac9f4a1b8b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(230, 0, 0);\">Transparencia de información</span></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0e3ac892-50da-41cd-b368-24b9a89ce80a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(72, 72, 72);\">Participamos activamente en la</span><strong style=\"font-size: 20px; color: rgb(72, 72, 72);\">&nbsp;Iniciativa para la Transparencia de las Industrias Extractivas (EITI)</strong><span style=\"font-size: 20px; color: rgb(72, 72, 72);\">&nbsp;brindando información de nuestros aportes económicos para que sea considerada en la información que se da a conocer a nivel externo sobre su uso y distribución de los mismo tales como El canon, sobre canon, regalías, etc.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c2d848d2-dcdb-4b2c-8718-20f51e355fa3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "07e4b045-8a6e-47fb-b699-7b6a9677b4e9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f29045ec-8bb4-4ca5-a5f4-483db143b84a",
+          "columns" : [ {
+            "UUID" : "d448eeab-5b38-4140-9b75-6753fb67876d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "19510a60-9910-4ca5-a5fe-dd9221f65a82",
+            "columnKey" : "87ca0",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f29045ec-8bb4-4ca5-a5f4-483db143b84a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 28px;\">¿Qué es la Iniciativa para la Transparencia de las Industrias Extractivas (EITI)?</span></h2><p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Es una herramienta que aporta información sobre la riqueza proveniente de los recursos naturales, la cual debe beneficiar a toda la ciudadanía y, para ello, son de primera importancia la transparencia y la rendición de cuentas.&nbsp;</span></p><h6 style=\"text-align: center;\"><span style=\"font-size: 22px;\"><br></span></h6><h6 style=\"text-align: center;\"><br></h6>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "00c35722-a2ad-4fc8-a85e-89a1ef53a847",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d448eeab-5b38-4140-9b75-6753fb67876d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "52c7e925-a3b5-43d0-a697-61b4f2619a86",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "19510a60-9910-4ca5-a5fe-dd9221f65a82",
+        "regionLabel" : "Column 2",
+        "regionName" : "87ca0",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c48cdfe7-3682-4aeb-b766-6590eb4a9633",
+          "columns" : [ {
+            "UUID" : "08080442-6e92-4f62-b199-f1b03aa52cbf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4736b3b5-1106-42cf-97a3-abcf16834d63",
+            "columnKey" : "b4f68",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c48cdfe7-3682-4aeb-b766-6590eb4a9633",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h6 style=\"text-align: center;\"><span style=\"font-size: 28px;\">¿Qué buscamos con la transparencia de la información?</span></h6><ul><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Mejora de la gestión de los ingresos públicos</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Mejora del clima de inversión</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Control de la corrupción</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Difusión de la información</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Promoción de confianza en los ciudadanos</span></li><li style=\"text-align: left;\"><span style=\"font-size: 20px;\">Mejora de la participación de la población</span></li></ul><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7fbdef28-9728-4d7e-b0ee-66dbdfac1b94",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "08080442-6e92-4f62-b199-f1b03aa52cbf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.placeholder1e1533569576673960x960.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a5d1ef5f-b7d9-493d-912d-cb70b27f483f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4736b3b5-1106-42cf-97a3-abcf16834d63",
+        "regionLabel" : "Column 2",
+        "regionName" : "b4f68",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "7caec1e8-b1c3-4d48-a4ca-131878fd9c7b",
+          "columns" : [ {
+            "UUID" : "949d2ed8-8772-4da2-8c95-8f8899ab51d6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7caec1e8-b1c3-4d48-a4ca-131878fd9c7b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(230, 0, 0);\">Compromisos contractuales</span></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "14d9ca1a-d152-4265-8de6-fa4040a3dee9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(26, 26, 26); font-size: 20px;\">Desde el año 2005 hemos cumplido con nuestros compromisos contractuales con el Estado, la Comunidad y la Fundación Comunal de Sechura, habiendo contribuido hasta diciembre del 2024 la suma de 1,692.2 millones de soles. Estos compromisos surgen desde la firma del Contrato de Transferencia, los mismos que cumplimos año tras año con el principal objetivo de que sean invertidos en proyectos de gran impacto y beneficio para la población de la provincia de Sechura, nuestra área de influencia directa.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3787d1a5-9990-4b80-8607-63b68c80ff95",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"color: rgb(230, 0, 0); font-size: 26px;\">Total de aportes hasta diciembre de 2024</span></h3><p style=\"text-align: center;\"><strong style=\"color: rgb(230, 0, 0); font-size: 36px;\">S/ 1,692.2 millones</strong></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ad5642a1-bab4-4202-8191-b1d1d08e915d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "949d2ed8-8772-4da2-8c95-8f8899ab51d6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/cmn12who1?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a074763d-26ea-4287-8f81-6c556a7d7273",
+          "columns" : [ {
+            "UUID" : "9a17555a-2f5e-47a0-942e-9f6bd4228414",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a074763d-26ea-4287-8f81-6c556a7d7273",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 20,
+            "boxShadow" : true,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "default",
+            "tileMenuEditor" : "Proceso_productivo1",
+            "titleColor" : "",
+            "titleFontSize" : "medium",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "dd835f32-65e6-4ef1-bd9d-cda7ba15ff50",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9a17555a-2f5e-47a0-942e-9f6bd4228414",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d889096c-1aba-42d4-8465-662f63f14c36",
+          "columns" : [ {
+            "UUID" : "7af5cc45-5059-4458-adfa-2372b7009cba",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d889096c-1aba-42d4-8465-662f63f14c36",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"color: rgb(230, 0, 0); font-size: 36px;\">Programas Sociales</span></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "79691d0c-4920-4c67-9e2d-fe31edce2043",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(26, 26, 26); font-size: 20px;\">En Miski Mayo tenemos como objetivo contribuir al bien común y desarrollo sostenible de Sechura. Para ello, articulamos esfuerzos con el Estado, la Comunidad y nuestras contratistas. Considerando este enfoque, ejecutamos programas sostenibles que aportan al crecimiento y fortalecimiento de capacidades de nuestra área de influencia directa.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9a9f304a-bdf5-4e19-bcf7-3c5e281f9d7b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7af5cc45-5059-4458-adfa-2372b7009cba",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "73239cba-fde9-4c48-95f2-c1f0416f9a07",
+          "columns" : [ {
+            "UUID" : "2945b6be-3243-40c7-b4e8-901a3df40d99",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "73239cba-fde9-4c48-95f2-c1f0416f9a07",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p>(15 tiles that each link to their relevant content pages)</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b5c5e7fe-79ad-4025-bd7e-c77533a729da",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2945b6be-3243-40c7-b4e8-901a3df40d99",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "826ad9fc-ff9e-4c13-9c94-9f3c5514f52c",
+          "columns" : [ {
+            "UUID" : "1bda48f4-0a88-4ce5-9457-9e58ba3083b5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4e52a2db-963a-4b69-a58d-33fd83f96534",
+            "columnKey" : "fb6a0",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "826ad9fc-ff9e-4c13-9c94-9f3c5514f52c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><br></h2><h2><br></h2><h2><span style=\"font-size: 36px;\">Proveedores</span></h2><h2><span style=\"font-size: 36px;\">y contratistas locales</span></h2><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0a05b1cd-a9a1-4068-98e6-e521b19e6030",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1bda48f4-0a88-4ce5-9457-9e58ba3083b5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><br></p><p><span style=\"font-size: 20px; color: rgb(26, 26, 26);\">Nuestra empresa, desde el inicio de sus operaciones, ha tercerizado servicios con proveedores y contratistas locales, como parte de nuestras políticas de promover contratación directa e indirecta. De esta manera, contribuimos en mejorar la participación de las contratistas de la provincia, logrando también dinamizar la economía local.&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "648ecbf2-539d-48b6-82be-cfdd916c66e1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4e52a2db-963a-4b69-a58d-33fd83f96534",
+        "regionLabel" : "Column 2",
+        "regionName" : "fb6a0",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "47a5dd35-816d-4504-b6c0-15831ecaf660",
+          "columns" : [ {
+            "UUID" : "f08a2d65-aa24-4e18-b310-c9197893b1a5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "47a5dd35-816d-4504-b6c0-15831ecaf660",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h4 style=\"text-align: center;\"><span style=\"color: rgb(255, 0, 0); font-size: 28px;\">Asimismo, desde el 2010 que comenzó a operar Miski Mayo hasta diciembre del 2024, se ha logrado trabajar con 72 proveedores y contratistas locales los cuales han facturado en su conjunto más de 258.61 millones de soles.</span></h4><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "de5f4d63-0cdb-4969-9646-20082e317516",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px; color: rgb(72, 72, 72);\">Miski Mayo, al promover la contratación de proveedores y contratistas locales., lo hace en diversos servicios tales como:&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "748cce1c-e878-4538-a441-f9bb6b08e89a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f08a2d65-aa24-4e18-b310-c9197893b1a5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "55be6c6a-0418-4f22-87ef-639def2a7e98",
+          "columns" : [ {
+            "UUID" : "25385d42-688d-4c9b-a99e-e93ea1a9d269",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "5ba3510a-6bd0-4f32-80c7-d1e8fcaaf64e",
+            "columnKey" : "427f7",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "55be6c6a-0418-4f22-87ef-639def2a7e98",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><ul><li><span style=\"font-size: 20px;\">Limpieza industrial</span></li><li><span style=\"font-size: 20px;\">Ferretería</span></li><li><span style=\"font-size: 20px;\">Proyectos y campañas sociales</span></li><li><span style=\"font-size: 20px;\">Trabajos metal mecánicos</span></li><li><span style=\"font-size: 20px;\">Alquiler de inmuebles</span></li><li><span style=\"font-size: 20px;\">Manufacturas</span></li><li><span style=\"font-size: 20px;\">Señalización</span></li><li><span style=\"font-size: 20px;\">Impresión y diseño</span></li><li><span style=\"font-size: 20px;\">Útiles de oficina</span></li></ul><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a5bbb06c-20ce-4a53-aa21-0b64630f4b71",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "25385d42-688d-4c9b-a99e-e93ea1a9d269",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><ul><li><span style=\"font-size: 20px;\">Movimiento de tierras</span></li><li><span style=\"font-size: 20px;\">Transporte de camionetas y van</span></li><li><span style=\"font-size: 20px;\">Riego de vías</span></li><li><span style=\"font-size: 20px;\">Exámenes médicos</span></li><li><span style=\"font-size: 20px;\">Capacitaciones</span></li><li><span style=\"font-size: 20px;\">Obras civiles menores</span></li><li><span style=\"font-size: 20px;\">Servicios generales menores</span></li><li><span style=\"font-size: 20px;\">Confección textil</span></li><li><span style=\"font-size: 20px;\">Suministro de abarrotes</span></li><li><span style=\"font-size: 20px;\">Servicios comunicación</span></li></ul><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4e3ad23f-f2ae-47e8-b579-6b4b3e65f42a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5ba3510a-6bd0-4f32-80c7-d1e8fcaaf64e",
+        "regionLabel" : "Column 2",
+        "regionName" : "427f7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b87ca8de-cc43-4448-ab4d-df63e1297141",
+          "columns" : [ {
+            "UUID" : "5f301797-695e-427e-92fd-db09291c033a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f9388bd7-5397-477e-93f6-c0b66018e14f",
+            "columnKey" : "4d41a",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b87ca8de-cc43-4448-ab4d-df63e1297141",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h3><strong style=\"font-size: 28px; color: rgb(230, 0, 0);\">RESPONSABILIDAD SOCIAL DE CONTRATISTAS</strong></h3>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f46c148f-b2a6-4746-97df-3b4efefee51e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 20px; color: rgb(26, 26, 26);\">Las empresas contratistas que laboran en Miski Mayo también priorizan acciones de responsabilidad social para el Área de Influencia Directa (AID), de acuerdo con el enfoque de Gestión Social establecido por nuestra empresa, con el fin de desarrollar acciones conjuntas que promuevan el desarrollo de la provincia de Sechura en distintos ejes como Educación, Salud, Vivienda, Pesca, Agricultura, etc.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9a27b959-d3d3-467d-8277-7c79a4cbae8d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5f301797-695e-427e-92fd-db09291c033a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Banner_Test"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0.4)",
+                  "showButton" : false,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : false,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "6a978962-113a-49e0-ba1b-08bda9859078",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f9388bd7-5397-477e-93f6-c0b66018e14f",
+        "regionLabel" : "Column 2",
+        "regionName" : "4d41a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "03b25ee6-7f29-40dc-b108-0fdba72d95ad",
+          "columns" : [ {
+            "UUID" : "70e6d094-d4f7-481b-822e-d3e6ae8aaf60",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "03b25ee6-7f29-40dc-b108-0fdba72d95ad",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/QFbJm-z_w-I\" src=\"https://www.youtube.com/embed/QFbJm-z_w-I\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "183444d5-7f70-4173-b332-9f61fc2da886",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "70e6d094-d4f7-481b-822e-d3e6ae8aaf60",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fc3192dc-ec41-40ee-ac6d-46e6381f8bb3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Gestion Social"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8d4e97e5-ad56-4ee3-81b6-5872ce795e19",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e75b2b17-a290-4368-a4bc-00489a1d164c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-gestion-social"
+}

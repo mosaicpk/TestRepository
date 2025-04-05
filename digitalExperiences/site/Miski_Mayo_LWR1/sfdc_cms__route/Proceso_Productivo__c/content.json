@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Proceso Productivo",
+  "contentBody" : {
+    "activeViewId" : "Proceso_Productivo",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-proceso-productivo",
+    "urlPrefix" : "proceso-productivo"
+  },
+  "urlName" : "proceso-productivo"
+}

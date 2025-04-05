@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "d29eb613-e201-4f88-83f9-587808ee4fa6",
+  "appPageId" : "a9be1a74-3dcc-403a-95df-0301d24784e0",
+  "configurationTags" : [ ],
+  "devName" : "Proceso_productivo__c",
+  "id" : "6002db11-a87e-42c5-b046-68726ed6bcbc",
+  "label" : "Proceso productivo",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-proceso-productivo",
+  "type" : "route",
+  "urlPrefix" : "proceso-productivo"
+}

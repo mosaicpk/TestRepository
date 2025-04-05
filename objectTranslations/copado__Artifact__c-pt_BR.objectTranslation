@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Package --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Package --></value>
+    </caseValues>
+    <fields>
+        <help>Este é o repositório onde o artefato pode ser armazenado, na ramificação principal</help>
+        <label>Repositório de pacotes</label>
+        <name>copado__Artifact_Repository__c</name>
+        <relationshipLabel>Pacotes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Versão mais recente do pacote</label>
+        <name>copado__Artifact_Version__c</name>
+        <relationshipLabel>Pacotes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dados JSON</label>
+        <name>copado__DataJSON__c</name>
+    </fields>
+    <fields>
+        <help>Campo para especificar a filial padrão no repositório a partir do qual novos pacotes, versões, compilações, imagens... são criados. Esse parâmetro é opcional.</help>
+        <label>Filial padrão</label>
+        <name>copado__DefaultBranch__c</name>
+    </fields>
+    <fields>
+        <help>Campo para especificar a pasta padrão de seu código-fonte no repositório a partir do qual novos pacotes, versões, compilações, imagens... são criados. Esse parâmetro é opcional.</help>
+        <label>Caminho padrão</label>
+        <name>copado__DefaultPath__c</name>
+    </fields>
+    <fields>
+        <help>A descrição do pacote</help>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>Id de execução do último trabalho</label>
+        <name>copado__LastJobExecutionId__c</name>
+    </fields>
+    <fields>
+        <help>Permite a criação de pacotes sem namespace; disponível somente para pacotes desbloqueados.</help>
+        <label>Nenhum espaço de nome</label>
+        <name>copado__No_Namespace__c</name>
+    </fields>
+    <fields>
+        <help>A credencial da qual os metadados do artefato serão recuperados, para pacotes desbloqueados e 2GP.
+A credencial da qual o pacote não gerenciado é criado.</help>
+        <label>Credencial de origem</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>Artefatos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Identificador de pacote relacionado. Sendo usado como um Package Id para a criação da versão do pacote e também em uso no arquivo sfdx-project.json como um alias de pacote.</help>
+        <label>Identificação do pacote</label>
+        <name>copado__Package_Id__c</name>
+    </fields>
+    <fields>
+        <help>Em um contexto de empacotamento, um prefixo de namespace é um identificador alfanumérico de um a 15 caracteres que distingue o seu pacote dos pacotes de outros desenvolvedores no AppExchange. Não é necessário para pacotes desbloqueados.</help>
+        <label>Namespace do pacote</label>
+        <name>copado__Package_Namespace__c</name>
+    </fields>
+    <fields>
+        <help>Para obter informações detalhadas: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_plan_pkg_types.htm</help>
+        <label>Embalagem</label>
+        <name>copado__Package_Type__c</name>
+        <picklistValues>
+            <masterLabel>Unlocked</masterLabel>
+            <translation>Desbloqueado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel>Pacotes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>O URL de login que os comandos force:auth usam. Se não for especificado, o padrão será login.salesforce.com. Substitua o valor padrão se quiser que os usuários autorizem uma instância específica do Salesforce.</help>
+        <label>URL de login do Sfdc</label>
+        <name>copado__Sfdc_Login_Url__c</name>
+    </fields>
+    <fields>
+        <help>A versão da API com a qual o código-fonte do seu pacote é compatível. Esse campo é importante se você estiver usando um tipo de metadados que foi alterado em uma versão recente do Salesforce.</help>
+        <label>Versão da Api de origem</label>
+        <name>copado__Source_Api_Version__c</name>
+        <picklistValues>
+            <masterLabel>1.0</masterLabel>
+            <translation><!-- 1.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.0</masterLabel>
+            <translation><!-- 10.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11.0</masterLabel>
+            <translation><!-- 11.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12.0</masterLabel>
+            <translation><!-- 12.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13.0</masterLabel>
+            <translation><!-- 13.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14.0</masterLabel>
+            <translation><!-- 14.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15.0</masterLabel>
+            <translation><!-- 15.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16.0</masterLabel>
+            <translation><!-- 16.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17.0</masterLabel>
+            <translation><!-- 17.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18.0</masterLabel>
+            <translation><!-- 18.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19.0</masterLabel>
+            <translation><!-- 19.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0</masterLabel>
+            <translation><!-- 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20.0</masterLabel>
+            <translation><!-- 20.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21.0</masterLabel>
+            <translation><!-- 21.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22.0</masterLabel>
+            <translation><!-- 22.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23.0</masterLabel>
+            <translation><!-- 23.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24.0</masterLabel>
+            <translation><!-- 24.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25.0</masterLabel>
+            <translation><!-- 25.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26.0</masterLabel>
+            <translation><!-- 26.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27.0</masterLabel>
+            <translation><!-- 27.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28.0</masterLabel>
+            <translation><!-- 28.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29.0</masterLabel>
+            <translation><!-- 29.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0</masterLabel>
+            <translation><!-- 3.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.0</masterLabel>
+            <translation><!-- 30.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31.0</masterLabel>
+            <translation><!-- 31.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32.0</masterLabel>
+            <translation><!-- 32.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33.0</masterLabel>
+            <translation><!-- 33.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34.0</masterLabel>
+            <translation><!-- 34.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35.0</masterLabel>
+            <translation><!-- 35.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36.0</masterLabel>
+            <translation><!-- 36.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37.0</masterLabel>
+            <translation><!-- 37.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38.0</masterLabel>
+            <translation><!-- 38.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39.0</masterLabel>
+            <translation><!-- 39.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.0</masterLabel>
+            <translation><!-- 4.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40.0</masterLabel>
+            <translation><!-- 40.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41.0</masterLabel>
+            <translation><!-- 41.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42.0</masterLabel>
+            <translation><!-- 42.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43.0</masterLabel>
+            <translation><!-- 43.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44.0</masterLabel>
+            <translation><!-- 44.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45.0</masterLabel>
+            <translation><!-- 45.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.0</masterLabel>
+            <translation><!-- 5.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.0</masterLabel>
+            <translation><!-- 6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.0</masterLabel>
+            <translation><!-- 7.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.0</masterLabel>
+            <translation><!-- 8.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.0</masterLabel>
+            <translation><!-- 9.0 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Credencial do Copado org para o hub de desenvolvimento que será usado para criar e armazenar o pacote e suas versões</help>
+        <label>Org. do Target Dev Hub</label>
+        <lookupFilter>
+            <errorMessage>Somente as credenciais do dev hub org podem ser selecionadas. O valor fornecido não foi encontrado ou não se trata de uma organização de hub de desenvolvimento.</errorMessage>
+        </lookupFilter>
+        <name>copado__Target_Dev_Hub_Org__c</name>
+        <relationshipLabel>Pacotes (Org. do Dev Hub de destino)</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Package Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Pacote centrado no sistema de controle de versão</description>
+        <label>Pacote Git</label>
+        <name>copado__Git_Artifact</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Salesforce Unlocked e Pacote Gerenciado de Segunda Geração</description>
+        <label><!-- Salesforce Package --></label>
+        <name>copado__Package_Artifact</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pacote de histórias de usuário</description>
+        <label>Pacote de histórias de usuário</label>
+        <name>copado__User_Story_Bundle</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Os nomes de pacotes estão em uso na estrutura de pastas do DX, portanto, os nomes de pacotes não são editáveis.</errorMessage>
+        <name>copado__ArtifactNameCannotChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A relação de repositório para pacotes é necessária para pacotes desbloqueados e de segunda geração e deve estar vazia para pacotes de primeira e segunda geração</errorMessage>
+        <name>copado__Artifact_Repo_Control_For_Package_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O nome do pacote não pode conter espaços em branco</errorMessage>
+        <name>copado__Name_should_not_contain_empty_space</name>
+    </validationRules>
+    <webLinks>
+        <label>Gerar nova versão</label>
+        <name>copado__Generate_New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar arquivo de definição de projeto</label>
+        <name>copado__Generate_Project_Definition_File</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerenciar metadados</label>
+        <name>copado__Manage_Metadata</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerenciar dependências de definição da organização</label>
+        <name>copado__Manage_Org_Definition_Dependencies</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerenciar o conteúdo do pacote</label>
+        <name>copado__Manage_Package_Selection</name>
+    </webLinks>
+</CustomObjectTranslation>

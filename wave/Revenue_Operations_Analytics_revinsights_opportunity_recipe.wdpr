@@ -1,0 +1,1873 @@
+{
+  "version" : "58.0",
+  "nodes" : {
+    "EDIT_ATTRIBUTES0" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Id_formula",
+          "newProperties" : {
+            "label" : "Opportunity Age",
+            "name" : "Opportunity_Age"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA0" ]
+    },
+    "EDIT_ATTRIBUTES1" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Id_formula",
+          "newProperties" : {
+            "label" : "Full Name",
+            "name" : "User.Name"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA1" ]
+    },
+    "EDIT_ATTRIBUTES2" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Opportunity.Account.Owner.Name_formula",
+          "newProperties" : {
+            "label" : "Opportunity.Account.User.Name",
+            "name" : "Opportunity.Account.User.Name"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA2" ]
+    },
+    "EDIT_ATTRIBUTES3" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Id_formula",
+          "newProperties" : {
+            "label" : "Full Name",
+            "name" : "Opportunity.User.Name"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA3" ]
+    },
+    "FILTER5" : {
+      "action" : "filter",
+      "parameters" : {
+        "filterExpressions" : [ {
+          "field" : "Id",
+          "operands" : [ ],
+          "operator" : "IS_NOT_NULL",
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "LOAD_DATASET19" ]
+    },
+    "FILTER6" : {
+      "action" : "filter",
+      "parameters" : {
+        "filterExpressions" : [ {
+          "field" : "Id",
+          "operands" : [ ],
+          "operator" : "IS_NOT_NULL",
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "JOIN11" ]
+    },
+    "FILTER7" : {
+      "action" : "filter",
+      "parameters" : {
+        "filterExpressions" : [ {
+          "field" : "Stage_isUpdated",
+          "operands" : [ "1" ],
+          "operator" : "EQUAL",
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "FORMULA55" ]
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "0",
+          "formulaExpression" : "case \n\nwhen \nIsClosed=true\n\nthen \n(to_unix_timestamp(CloseDate)- to_unix_timestamp(CreatedDate))/86400\n\nelse \n(to_unix_timestamp(current_date())- to_unix_timestamp(CreatedDate))/86400\n\nend",
+          "label" : "Opportunity Age",
+          "name" : "Id_formula",
+          "precision" : 18,
+          "scale" : 2,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "LOAD_DATASET3" ]
+    },
+    "FORMULA1" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Owner.Name\"",
+          "label" : "Full Name",
+          "name" : "Id_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "JOIN9" ]
+    },
+    "FORMULA12" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "Id",
+          "formulaExpression" : "first_value(Id)",
+          "label" : "LastStageUpdate Id",
+          "name" : "LastStageUpdate_Id",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FILTER7" ]
+    },
+    "FORMULA13" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "0",
+          "formulaExpression" : "case when LastStageUpdate_Id = Id then '1' else '0' end",
+          "label" : "Is LastStageUpdate",
+          "name" : "IsLastStageUpdate",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "FORMULA12" ]
+    },
+    "FORMULA2" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Opportunity.Account.Owner.Name\"",
+          "label" : "Opportunity.Account.User.Name",
+          "name" : "Opportunity.Account.Owner.Name_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "JOIN14" ]
+    },
+    "FORMULA28" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when IsClosed = true AND IsWon = true then 1 else 0 end",
+          "label" : "Won Opportunities",
+          "name" : "WonOpportunities",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES0" ]
+    },
+    "FORMULA29" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when IsClosed = true and IsWon = false then 1 else 0 end",
+          "label" : "Lost Opportunities",
+          "name" : "LostOpportunities",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA28" ]
+    },
+    "FORMULA3" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Opportunity.Owner.Name\"",
+          "label" : "Full Name",
+          "name" : "Id_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES2" ]
+    },
+    "FORMULA30" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when lag(CreatedDate) is null AND IsClosed = true AND IsWon = true then 1 else 0 end",
+          "label" : "IsFirstWonOppty",
+          "name" : "IsFirstWonOppty",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "CreatedDate"
+        } ],
+        "partitionBy" : [ "AccountId" ]
+      },
+      "sources" : [ "FORMULA29" ]
+    },
+    "FORMULA31" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when IsFirstWonOppty = 1 then datediff(now(), CloseDate) else 0 end",
+          "label" : "Account Tenure",
+          "name" : "AccountTenure",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA30" ]
+    },
+    "FORMULA32" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when CloseDatePrev is not null AND CloseDatePrev < CloseDate then 1 else 0 end ",
+          "label" : "Is Pushed",
+          "name" : "IsPushed",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "JOIN24" ]
+    },
+    "FORMULA33" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when AmountPrev is not null AND AmountPrev < Amount then 1 else 0 end",
+          "label" : "Amount Increased",
+          "name" : "AmountIncreased",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA32" ]
+    },
+    "FORMULA34" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when AmountPrev is not null AND AmountPrev > Amount then 1 else 0 end",
+          "label" : "Amount Decreased",
+          "name" : "AmountDecreased",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA33" ]
+    },
+    "FORMULA35" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "CONCAT(CreatedDate, '-', Id)",
+          "label" : "Unique Sort Key",
+          "name" : "Unique_Sort_Key",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "LOAD_DATASET21" ]
+    },
+    "FORMULA36" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "3000-01-01T00:00:00.000Z",
+          "format" : "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "formulaExpression" : "lead(CreatedDate)",
+          "label" : "ValidToDate",
+          "name" : "ValidToDate",
+          "type" : "DATETIME"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA35" ]
+    },
+    "FORMULA37" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "format" : "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "formulaExpression" : "current(CreatedDate)",
+          "label" : "ValidFromDate",
+          "name" : "ValidFromDate",
+          "type" : "DATETIME"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA36" ]
+    },
+    "FORMULA38" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "lag(Amount)",
+          "label" : "AmountPrev",
+          "name" : "AmountPrev",
+          "precision" : 18,
+          "scale" : 2,
+          "type" : "NUMBER"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA37" ]
+    },
+    "FORMULA39" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "lag(StageName)",
+          "label" : "StageNamePrev",
+          "name" : "StageNamePrev",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA38" ]
+    },
+    "FORMULA40" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "format" : "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "formulaExpression" : "to_timestamp(lag(CloseDate))",
+          "label" : "CloseDatePrev",
+          "name" : "CloseDatePrev",
+          "type" : "DATETIME"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA39" ]
+    },
+    "FORMULA41" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "format" : "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "formulaExpression" : "lag(CreatedDate)",
+          "label" : "CreatedDatePrev",
+          "name" : "CreatedDatePrev",
+          "type" : "DATETIME"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA40" ]
+    },
+    "FORMULA42" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "1",
+          "formulaExpression" : "case when StageName = StageNamePrev then '0' else '1' end",
+          "label" : "Stage IsUpdated",
+          "name" : "Stage_isUpdated",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "FORMULA41" ]
+    },
+    "FORMULA43" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when Stage_isUpdated = '1' then to_unix_timestamp(ValidToDate) - to_unix_timestamp(ValidFromDate) else 0 end",
+          "label" : "Seconds in Stage",
+          "name" : "Seconds_inStage",
+          "precision" : 10,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA42" ]
+    },
+    "FORMULA44" : {
+      "action" : "computeRelative",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "lag(ForecastCategory)",
+          "label" : "ForecastCategoryPrev",
+          "name" : "ForecastCategoryPrev",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ],
+        "orderBy" : [ {
+          "direction" : "ASC",
+          "fieldName" : "Unique_Sort_Key"
+        } ],
+        "partitionBy" : [ "OpportunityId" ]
+      },
+      "sources" : [ "FORMULA43" ]
+    },
+    "FORMULA47" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when LastActivityDate is null then datediff(LastModifiedDate, now()) when LastModifiedDate > LastActivityDate then datediff(LastModifiedDate, now()) else datediff(LastActivityDate, now()) end",
+          "label" : "DaysSinceLastActivity",
+          "name" : "DaysSinceLastActivity",
+          "precision" : 8,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA31" ]
+    },
+    "FORMULA48" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when DaysSinceLastActivity >= 60 and IsClosed = 'false' then 'true' else 'false' end",
+          "label" : "Neglected",
+          "name" : "Neglected",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "FORMULA47" ]
+    },
+    "FORMULA49" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when (to_unix_timestamp(CloseDatePrev) > 0) and (to_unix_timestamp(CloseDatePrev) > to_unix_timestamp(CloseDate)) then 1 else 0 end",
+          "label" : "IsPulled",
+          "name" : "IsPulled",
+          "precision" : 8,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA44" ]
+    },
+    "FORMULA50" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when ValidToDate = '3000-01-01T00:00:00.000Z' then\n\nabs(to_unix_timestamp(ValidFromDate) - to_unix_timestamp(now()))\n\nelse\nabs(to_unix_timestamp(ValidFromDate) - to_unix_timestamp(ValidToDate))\n\nend",
+          "label" : "Duration",
+          "name" : "Duration",
+          "precision" : 18,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA49" ]
+    },
+    "FORMULA53" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when \"Stage.SortOrder\" > \"StagePrev.SortOrder\" then 1 else 0 end",
+          "label" : "Is_StageProgressed",
+          "name" : "Is_StageProgressed",
+          "precision" : 2,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA34" ]
+    },
+    "FORMULA54" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case when \"Stage.SortOrder\" < \"StagePrev.SortOrder\" then 1 else 0 end",
+          "label" : "Is_StageRegressed",
+          "name" : "Is_StageRegressed",
+          "precision" : 2,
+          "scale" : 0,
+          "type" : "NUMBER"
+        } ]
+      },
+      "sources" : [ "FORMULA53" ]
+    },
+    "FORMULA55" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "case\n    when Is_StageProgressed = 1 and \"Stage.IsClosed\" = 'false' then 'Progressed'\n\n    when Is_StageRegressed = 1 and \"Stage.IsClosed\" = 'false' then 'Regressed'\n    \n    when \"Stage.IsWon\" = 'true' then 'Won'\n    \n    when \"Stage.IsWon\" = 'false' and \"Stage.IsClosed\" = 'true' then 'Lost'\n    \n    when Is_StageProgressed = 0 and Is_StageRegressed = 0 and \"Stage.IsClosed\" = 'false' then 'Unchanged'\nend\n",
+          "label" : "StageProgression",
+          "name" : "StageProgression",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "FORMULA54" ]
+    },
+    "JOIN10" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "OwnerId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Owner"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Owner.Id" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN3", "FILTER5" ]
+    },
+    "JOIN11" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "AccountId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Account"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Account.Id", "Account.MasterRecordId", "Account.BillingStreet", "Account.BillingCity", "Account.BillingPostalCode", "Account.ShippingStreet", "Account.ShippingCity", "Account.ShippingState", "Account.ShippingPostalCode", "Account.ShippingCountry", "Account.Phone", "Account.PhotoUrl", "Account.Description", "Account.CreatedDate", "Account.LastModifiedDate", "Account.LastViewedDate" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN10", "JOIN9" ]
+    },
+    "JOIN12" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "OpportunityId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Opportunity"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Opportunity.Id", "Opportunity.IsDeleted", "Opportunity.Description", "Opportunity.Probability", "Opportunity.NextStep", "Opportunity.Pricebook.CreatedDate", "Opportunity.Pricebook.LastModifiedDate", "Opportunity.Pricebook.IsDeleted", "Opportunity.Pricebook.IsArchived" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "LOAD_DATASET13", "FILTER6" ]
+    },
+    "JOIN14" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Product2Id" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Product2"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN12", "LOAD_DATASET18" ]
+    },
+    "JOIN16" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "OpportunityId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Opp"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Opp.Id", "Opp.IsDeleted", "Opp.Description", "Opp.ForecastCategoryName", "Opp.Pricebook2Id", "Opp.LastModifiedDate", "Opp.HasOpenActivity", "Opp.Pricebook.Id", "Opp.Pricebook.Name", "Opp.Pricebook.Pricebook2Id", "Opp.Pricebook.Product2Id", "Opp.Pricebook.UnitPrice", "Opp.Pricebook.IsActive", "Opp.Pricebook.CreatedDate", "Opp.Pricebook.LastModifiedDate", "Opp.Pricebook.ProductCode", "Opp.Pricebook.IsDeleted", "Opp.Pricebook.IsArchived", "Opp.Owner.Username", "Opp.Account.LastActivityDate", "Opp.Account.Owner.Username" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN19", "JOIN11" ]
+    },
+    "JOIN17" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Id" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Time"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Time.Id", "Time.OpportunityId", "Time.CreatedById", "Time.CreatedDate", "Time.StageName", "Time.Amount", "Time.CloseDate", "Time.ForecastCategory", "Time.IsDeleted", "Time.Unique_Sort_Key", "Time.Stage.MasterLabel", "Time.Stage.SortOrder", "Time.Stage.IsClosed", "Time.Stage.IsWon", "Time.ValidToDate", "Time.ValidFromDate", "Time.AmountPrev", "Time.StageNamePrev", "Time.CloseDatePrev", "Time.CreatedDatePrev", "Time.ForecastCategoryPrev", "Time.StagePrev.MasterLabel", "Time.StagePrev.SortOrder", "Time.StagePrev.IsClosed", "Time.StagePrev.IsWon", "Time.AmountIncreased", "Time.AmountDecreased" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "FORMULA55", "FORMULA13" ]
+    },
+    "JOIN18" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "ForecastCategory" ],
+        "rightKeys" : [ "ForecastCategory" ],
+        "rightQualifier" : "Category"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Category.Id", "Category.IsDeleted", "Category.AccountId", "Category.Name", "Category.Description", "Category.StageName", "Category.Amount", "Category.Probability", "Category.CloseDate", "Category.Type", "Category.NextStep", "Category.LeadSource", "Category.IsClosed", "Category.IsWon", "Category.ForecastCategory", "Category.HasOpportunityLineItem", "Category.Pricebook2Id", "Category.OwnerId", "Category.Territory2Id", "Category.CreatedDate", "Category.LastModifiedDate", "Category.LastActivityDate", "Category.HasOpenActivity", "Category.HasOverdueTask", "Category.OpportunityScoreId", "Category.Opportunity_Age", "Category.WonOpportunities", "Category.LostOpportunities", "Category.IsFirstWonOppty", "Category.AccountTenure", "Category.DaysSinceLastActivity", "Category.Neglected", "Category.Pricebook.Id", "Category.Pricebook.Name", "Category.Pricebook.Pricebook2Id", "Category.Pricebook.Product2Id", "Category.Pricebook.UnitPrice", "Category.Pricebook.IsActive", "Category.Pricebook.UseStandardPrice", "Category.Pricebook.CreatedDate", "Category.Pricebook.LastModifiedDate", "Category.Pricebook.ProductCode", "Category.Pricebook.IsDeleted", "Category.Pricebook.IsArchived", "Category.Owner.Role.RoleNames", "Category.Owner.UniqueUserName", "Category.Owner.Roles.ForecastManager.UniqueUserName", "Category.Owner.Roles.ParentRole.Name", "Category.Owner.Email", "Category.Owner.TimeZoneSidKey", "Category.Owner.UserRoleId", "Category.Owner.IsActive", "Category.Owner.Role.Role.ParentRole.Id", "Category.Owner.Roles.RolePath", "Category.Owner.Role.RolesNamesPath", "Category.Owner.ForecastEnabled", "Category.Owner.Roles.ForecastManager.Name", "Category.Owner.Roles.ParentRole.DeveloperName", "Category.Owner.Name", "Category.Owner.Roles.ForecastManager.ForecastEnabled", "Category.Owner.Roles.ForecastUserId", "Category.Owner.Role.UserInForecastHierarchy", "Category.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "Category.Owner.isDuplicate", "Category.Owner.SmallPhotoUrl", "Category.Owner.FirstName", "Category.Owner.Role.ForecastUserIdsPath", "Category.Owner.Role.Role.RoleDeveloperNames", "Category.Owner.Role.ForecastUserIds", "Category.Owner.Role.Role.RoleDeveloperNamesPath", "Category.Owner.Roles.Name", "Category.Owner.IsManager", "Category.Owner.Roles.Id", "Category.Owner.Role.UserIsForecastManager", "Category.Owner.Roles.ParentRole.ForecastManager.Name", "Category.Owner.Roles.ParentRole.ForecastUserId", "Category.Owner.Manager.Id", "Category.Owner.Username", "Category.Owner.Role.Role.ParentRole.ForecastUserId", "Category.Owner.Roles.DeveloperName", "Category.Owner.Roles.ParentRole.Id", "Category.Owner.LastName", "Category.Owner.Role.Role.ForecastUserId", "Category.Owner.UserType", "Category.Owner.Roles.Roles", "Category.Territory2.Description", "Category.Territory2.Level7.Level7_UserIds", "Category.Territory2.Level1.Level1_UserIds", "Category.Territory2.Territory2ModelId", "Category.Territory2.TerritoryNames", "Category.Territory2.Level8.Level8_UserIds", "Category.Territory2.ParentTerritory2.ForecastUserId", "Category.Territory2.Level2.Level2_UserIds", "Category.Territory2.TerritoryNamesPath", "Category.Territory2.Name", "Category.Territory2.Level9.Level9_UserIds", "Category.Territory2.ParentTerritory2.DeveloperName", "Category.Territory2.Territory2Type.Description", "Category.Territory2.Level10.Level10_UserIds", "Category.Territory2.ParentTerritory2Id", "Category.Territory2.Level3.Level3_UserIds", "Category.Territory2.DeveloperName", "Category.Territory2.Level4.Level4_UserIds", "Category.Territory2.TerritoriesPath", "Category.Territory2.Level10", "Category.Territory2.Level8", "Category.Territory2.Level9", "Category.Territory2.Level6", "Category.Territory2.Level7", "Category.Territory2.UserTerritory2Association.UserId", "Category.Territory2.Level4", "Category.Territory2.Territory2Type.MasterLabel", "Category.Territory2.Level5", "Category.Territory2.ForecastUserId", "Category.Territory2.Territories", "Category.Territory2.Territory2.Name", "Category.Territory2.Level5.Level5_UserIds", "Category.Territory2.Level6.Level6_UserIds", "Category.Territory2.Level2", "Category.Territory2.Level3", "Category.Territory2.Territory2TypeId", "Category.Territory2.Territory2Type.DeveloperName", "Category.Territory2.Level1", "Category.Territory2.Territory2.State", "Category.Account.Name", "Category.Account.Type", "Category.Account.ParentId", "Category.Account.BillingState", "Category.Account.BillingCountry", "Category.Account.Industry", "Category.Account.NumberOfEmployees", "Category.Account.OwnerId", "Category.Account.LastActivityDate", "Category.Account.Owner.Role.RoleNames", "Category.Account.Owner.UniqueUserName", "Category.Account.Owner.Roles.ForecastManager.UniqueUserName", "Category.Account.Owner.Roles.ParentRole.Name", "Category.Account.Owner.Email", "Category.Account.Owner.TimeZoneSidKey", "Category.Account.Owner.UserRoleId", "Category.Account.Owner.IsActive", "Category.Account.Owner.Role.Role.ParentRole.Id", "Category.Account.Owner.Roles.RolePath", "Category.Account.Owner.Role.RolesNamesPath", "Category.Account.Owner.ForecastEnabled", "Category.Account.Owner.Roles.ForecastManager.Name", "Category.Account.Owner.Roles.ParentRole.DeveloperName", "Category.Account.Owner.Name", "Category.Account.Owner.Roles.ForecastManager.ForecastEnabled", "Category.Account.Owner.Roles.ForecastUserId", "Category.Account.Owner.Role.UserInForecastHierarchy", "Category.Account.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "Category.Account.Owner.isDuplicate", "Category.Account.Owner.SmallPhotoUrl", "Category.Account.Owner.FirstName", "Category.Account.Owner.Role.ForecastUserIdsPath", "Category.Account.Owner.Role.Role.RoleDeveloperNames", "Category.Account.Owner.Role.ForecastUserIds", "Category.Account.Owner.Role.Role.RoleDeveloperNamesPath", "Category.Account.Owner.Roles.Name", "Category.Account.Owner.Roles.Id", "Category.Account.Owner.Role.UserIsForecastManager", "Category.Account.Owner.Roles.ParentRole.ForecastManager.Name", "Category.Account.Owner.Roles.ParentRole.ForecastUserId", "Category.Account.Owner.Username", "Category.Account.Owner.Role.Role.ParentRole.ForecastUserId", "Category.Account.Owner.Roles.DeveloperName", "Category.Account.Owner.Roles.ParentRole.Id", "Category.Account.Owner.LastName", "Category.Account.Owner.Role.Role.ForecastUserId", "Category.Account.Owner.UserType", "Category.Account.Owner.Roles.Roles" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN17", "JOIN11" ]
+    },
+    "JOIN19" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "ForecastCategoryPrev" ],
+        "rightKeys" : [ "ForecastCategory" ],
+        "rightQualifier" : "PrevCategory"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "PrevCategory.Id", "PrevCategory.IsDeleted", "PrevCategory.AccountId", "PrevCategory.Name", "PrevCategory.Description", "PrevCategory.StageName", "PrevCategory.Amount", "PrevCategory.Probability", "PrevCategory.CloseDate", "PrevCategory.Type", "PrevCategory.NextStep", "PrevCategory.LeadSource", "PrevCategory.IsClosed", "PrevCategory.IsWon", "PrevCategory.ForecastCategory", "PrevCategory.HasOpportunityLineItem", "PrevCategory.Pricebook2Id", "PrevCategory.OwnerId", "PrevCategory.Territory2Id", "PrevCategory.CreatedDate", "PrevCategory.LastModifiedDate", "PrevCategory.LastActivityDate", "PrevCategory.HasOpenActivity", "PrevCategory.HasOverdueTask", "PrevCategory.OpportunityScoreId", "PrevCategory.Opportunity_Age", "PrevCategory.WonOpportunities", "PrevCategory.LostOpportunities", "PrevCategory.IsFirstWonOppty", "PrevCategory.AccountTenure", "PrevCategory.DaysSinceLastActivity", "PrevCategory.Neglected", "PrevCategory.Pricebook.Id", "PrevCategory.Pricebook.Name", "PrevCategory.Pricebook.Pricebook2Id", "PrevCategory.Pricebook.Product2Id", "PrevCategory.Pricebook.UnitPrice", "PrevCategory.Pricebook.IsActive", "PrevCategory.Pricebook.UseStandardPrice", "PrevCategory.Pricebook.CreatedDate", "PrevCategory.Pricebook.LastModifiedDate", "PrevCategory.Pricebook.ProductCode", "PrevCategory.Pricebook.IsDeleted", "PrevCategory.Pricebook.IsArchived", "PrevCategory.Owner.Role.RoleNames", "PrevCategory.Owner.UniqueUserName", "PrevCategory.Owner.Roles.ForecastManager.UniqueUserName", "PrevCategory.Owner.Roles.ParentRole.Name", "PrevCategory.Owner.Email", "PrevCategory.Owner.TimeZoneSidKey", "PrevCategory.Owner.UserRoleId", "PrevCategory.Owner.IsActive", "PrevCategory.Owner.Role.Role.ParentRole.Id", "PrevCategory.Owner.Roles.RolePath", "PrevCategory.Owner.Role.RolesNamesPath", "PrevCategory.Owner.ForecastEnabled", "PrevCategory.Owner.Roles.ForecastManager.Name", "PrevCategory.Owner.Roles.ParentRole.DeveloperName", "PrevCategory.Owner.Name", "PrevCategory.Owner.Roles.ForecastManager.ForecastEnabled", "PrevCategory.Owner.Roles.ForecastUserId", "PrevCategory.Owner.Role.UserInForecastHierarchy", "PrevCategory.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "PrevCategory.Owner.isDuplicate", "PrevCategory.Owner.SmallPhotoUrl", "PrevCategory.Owner.FirstName", "PrevCategory.Owner.Role.ForecastUserIdsPath", "PrevCategory.Owner.Role.Role.RoleDeveloperNames", "PrevCategory.Owner.Role.ForecastUserIds", "PrevCategory.Owner.Role.Role.RoleDeveloperNamesPath", "PrevCategory.Owner.Roles.Name", "PrevCategory.Owner.IsManager", "PrevCategory.Owner.Roles.Id", "PrevCategory.Owner.Role.UserIsForecastManager", "PrevCategory.Owner.Roles.ParentRole.ForecastManager.Name", "PrevCategory.Owner.Roles.ParentRole.ForecastUserId", "PrevCategory.Owner.Manager.Id", "PrevCategory.Owner.Username", "PrevCategory.Owner.Role.Role.ParentRole.ForecastUserId", "PrevCategory.Owner.Roles.DeveloperName", "PrevCategory.Owner.Roles.ParentRole.Id", "PrevCategory.Owner.LastName", "PrevCategory.Owner.Role.Role.ForecastUserId", "PrevCategory.Owner.UserType", "PrevCategory.Owner.Roles.Roles", "PrevCategory.Territory2.Description", "PrevCategory.Territory2.Level7.Level7_UserIds", "PrevCategory.Territory2.Level1.Level1_UserIds", "PrevCategory.Territory2.Territory2ModelId", "PrevCategory.Territory2.TerritoryNames", "PrevCategory.Territory2.Level8.Level8_UserIds", "PrevCategory.Territory2.ParentTerritory2.ForecastUserId", "PrevCategory.Territory2.Level2.Level2_UserIds", "PrevCategory.Territory2.TerritoryNamesPath", "PrevCategory.Territory2.Name", "PrevCategory.Territory2.Level9.Level9_UserIds", "PrevCategory.Territory2.ParentTerritory2.DeveloperName", "PrevCategory.Territory2.Territory2Type.Description", "PrevCategory.Territory2.Level10.Level10_UserIds", "PrevCategory.Territory2.ParentTerritory2Id", "PrevCategory.Territory2.Level3.Level3_UserIds", "PrevCategory.Territory2.DeveloperName", "PrevCategory.Territory2.Level4.Level4_UserIds", "PrevCategory.Territory2.TerritoriesPath", "PrevCategory.Territory2.Level10", "PrevCategory.Territory2.Level8", "PrevCategory.Territory2.Level9", "PrevCategory.Territory2.Level6", "PrevCategory.Territory2.Level7", "PrevCategory.Territory2.UserTerritory2Association.UserId", "PrevCategory.Territory2.Level4", "PrevCategory.Territory2.Territory2Type.MasterLabel", "PrevCategory.Territory2.Level5", "PrevCategory.Territory2.ForecastUserId", "PrevCategory.Territory2.Territories", "PrevCategory.Territory2.Territory2.Name", "PrevCategory.Territory2.Level5.Level5_UserIds", "PrevCategory.Territory2.Level6.Level6_UserIds", "PrevCategory.Territory2.Level2", "PrevCategory.Territory2.Level3", "PrevCategory.Territory2.Territory2TypeId", "PrevCategory.Territory2.Territory2Type.DeveloperName", "PrevCategory.Territory2.Level1", "PrevCategory.Territory2.Territory2.State", "PrevCategory.Account.Name", "PrevCategory.Account.Type", "PrevCategory.Account.ParentId", "PrevCategory.Account.BillingState", "PrevCategory.Account.BillingCountry", "PrevCategory.Account.Industry", "PrevCategory.Account.NumberOfEmployees", "PrevCategory.Account.OwnerId", "PrevCategory.Account.LastActivityDate", "PrevCategory.Account.Owner.Role.RoleNames", "PrevCategory.Account.Owner.UniqueUserName", "PrevCategory.Account.Owner.Roles.ForecastManager.UniqueUserName", "PrevCategory.Account.Owner.Roles.ParentRole.Name", "PrevCategory.Account.Owner.Email", "PrevCategory.Account.Owner.TimeZoneSidKey", "PrevCategory.Account.Owner.UserRoleId", "PrevCategory.Account.Owner.IsActive", "PrevCategory.Account.Owner.Role.Role.ParentRole.Id", "PrevCategory.Account.Owner.Roles.RolePath", "PrevCategory.Account.Owner.Role.RolesNamesPath", "PrevCategory.Account.Owner.ForecastEnabled", "PrevCategory.Account.Owner.Roles.ForecastManager.Name", "PrevCategory.Account.Owner.Roles.ParentRole.DeveloperName", "PrevCategory.Account.Owner.Name", "PrevCategory.Account.Owner.Roles.ForecastManager.ForecastEnabled", "PrevCategory.Account.Owner.Roles.ForecastUserId", "PrevCategory.Account.Owner.Role.UserInForecastHierarchy", "PrevCategory.Account.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "PrevCategory.Account.Owner.isDuplicate", "PrevCategory.Account.Owner.SmallPhotoUrl", "PrevCategory.Account.Owner.FirstName", "PrevCategory.Account.Owner.Role.ForecastUserIdsPath", "PrevCategory.Account.Owner.Role.Role.RoleDeveloperNames", "PrevCategory.Account.Owner.Role.ForecastUserIds", "PrevCategory.Account.Owner.Role.Role.RoleDeveloperNamesPath", "PrevCategory.Account.Owner.Roles.Name", "PrevCategory.Account.Owner.Roles.Id", "PrevCategory.Account.Owner.Role.UserIsForecastManager", "PrevCategory.Account.Owner.Roles.ParentRole.ForecastManager.Name", "PrevCategory.Account.Owner.Roles.ParentRole.ForecastUserId", "PrevCategory.Account.Owner.Username", "PrevCategory.Account.Owner.Role.Role.ParentRole.ForecastUserId", "PrevCategory.Account.Owner.Roles.DeveloperName", "PrevCategory.Account.Owner.Roles.ParentRole.Id", "PrevCategory.Account.Owner.LastName", "PrevCategory.Account.Owner.Role.Role.ForecastUserId", "PrevCategory.Account.Owner.UserType", "PrevCategory.Account.Owner.Roles.Roles" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN18", "JOIN11" ]
+    },
+    "JOIN20" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "Id" ],
+        "rightKeys" : [ "OpportunityId" ],
+        "rightQualifier" : "History"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "History.Id", "History.ParentId", "History.ValidFromDate", "History.CreatedDate", "History.CreatedById", "History.CloseDate__hpr", "History.CloseDate__hst", "History.StageName__hpr", "History.StageName__hst", "History.Probability__hpr", "History.Probability__hst", "History.ForecastCategoryName__hpr", "History.ForecastCategoryName__hst", "History.Amount__hpr", "History.Amount__hst", "History.Custom_Amount__c_hpr", "History.Custom_Amount__c_hst", "History.ValidToDate", "History.AmountPrev", "History.Amount", "History.StageNamePrev", "History.StageName", "History.ForecastCategoryPrev", "History.ForecastCategory", "History.OpportunityId", "History.CloseDatePrev", "History.CloseDate", "History.Unique_Sort_Key", "History.Stage_isUpdated", "History.Stage.MasterLabel", "History.Stage.SortOrder", "History.Stage.IsClosed", "History.Stage.IsWon", "History.StagePrev.MasterLabel", "History.StagePrev.SortOrder", "History.StagePrev.IsClosed", "History.StagePrev.IsWon", "History.Time.ParentId", "History.Time.CloseDate__hpr", "History.Time.CloseDate__hst", "History.Time.StageName__hpr", "History.Time.StageName__hst", "History.Time.Probability__hpr", "History.Time.Probability__hst", "History.Time.ForecastCategoryName__hpr", "History.Time.ForecastCategoryName__hst", "History.Time.Amount__hpr", "History.Time.Amount__hst", "History.Time.Custom_Amount__c_hpr", "History.Time.Custom_Amount__c_hst", "History.Time.Stage_isUpdated", "History.Time.IsPulled", "History.Time.Duration", "History.Time.Stage.MasterLabel", "History.Time.Stage.SortOrder", "History.Time.Stage.IsClosed", "History.Time.Stage.IsWon", "History.Time.StagePrev.MasterLabel", "History.Time.StagePrev.SortOrder", "History.Time.StagePrev.IsClosed", "History.Time.StagePrev.IsWon", "History.Time.IsPushed", "History.Time.LastStageUpdate_Id", "History.Time.IsLastStageUpdate", "History.Category.ForecastCategoryName", "History.Category.Territory2Id", "History.Category.OpportunityScoreId", "History.Category.Custom_Amount__c", "History.Category.WonOpportunities", "History.Category.LostOpportunities", "History.Category.IsFirstWonOppty", "History.Category.AccountTenure", "History.Category.DaysSinceLastActivity", "History.Category.Neglected", "History.Category.Territory2.Level10", "History.Category.Territory2.Level8", "History.Category.Territory2.Level9", "History.Category.Territory2.Level6", "History.Category.Territory2.Level7", "History.Category.Territory2.Level4", "History.Category.Territory2.Level5", "History.Category.Territory2.Level2", "History.Category.Territory2.Level3", "History.Category.Territory2.Level1", "History.PrevCategory.ForecastCategoryName", "History.PrevCategory.Territory2Id", "History.PrevCategory.OpportunityScoreId", "History.PrevCategory.Custom_Amount__c", "History.PrevCategory.WonOpportunities", "History.PrevCategory.LostOpportunities", "History.PrevCategory.IsFirstWonOppty", "History.PrevCategory.AccountTenure", "History.PrevCategory.DaysSinceLastActivity", "History.PrevCategory.Neglected" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN11", "JOIN19" ]
+    },
+    "JOIN21" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "Id" ],
+        "rightKeys" : [ "AccountId" ],
+        "rightQualifier" : "Opportunity"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Opportunity.Id", "Opportunity.IsDeleted", "Opportunity.AccountId", "Opportunity.Name", "Opportunity.Description", "Opportunity.StageName", "Opportunity.Amount", "Opportunity.Probability", "Opportunity.CloseDate", "Opportunity.Type", "Opportunity.NextStep", "Opportunity.LeadSource", "Opportunity.IsClosed", "Opportunity.IsWon", "Opportunity.ForecastCategory", "Opportunity.ForecastCategoryName", "Opportunity.HasOpportunityLineItem", "Opportunity.Pricebook2Id", "Opportunity.OwnerId", "Opportunity.CreatedDate", "Opportunity.LastModifiedDate", "Opportunity.LastActivityDate", "Opportunity.HasOpenActivity", "Opportunity.HasOverdueTask", "Opportunity.OpportunityScoreId", "Opportunity.Custom_Amount__c", "Opportunity.Opportunity_Age", "Opportunity.IsFirstWonOppty", "Opportunity.DaysSinceLastActivity", "Opportunity.Neglected", "Opportunity.Pricebook.Id", "Opportunity.Pricebook.Name", "Opportunity.Pricebook.Pricebook2Id", "Opportunity.Pricebook.Product2Id", "Opportunity.Pricebook.UnitPrice", "Opportunity.Pricebook.IsActive", "Opportunity.Pricebook.UseStandardPrice", "Opportunity.Pricebook.CreatedDate", "Opportunity.Pricebook.LastModifiedDate", "Opportunity.Pricebook.ProductCode", "Opportunity.Pricebook.IsDeleted", "Opportunity.Pricebook.IsArchived", "Opportunity.Owner.Roles.ForecastManager.UniqueUserName", "Opportunity.Owner.Email", "Opportunity.Owner.Role.Role.ParentRole.Id", "Opportunity.Owner.Roles.ForecastManager.Name", "Opportunity.Owner.Roles.ParentRole.DeveloperName", "Opportunity.Owner.Name", "Opportunity.Owner.Roles.ForecastManager.ForecastEnabled", "Opportunity.Owner.Role.ForecastUserIdsPath", "Opportunity.Owner.Role.Role.RoleDeveloperNamesPath", "Opportunity.Owner.Roles.Name", "Opportunity.Owner.Roles.Id", "Opportunity.Owner.Role.UserIsForecastManager", "Opportunity.Owner.Roles.ParentRole.ForecastUserId", "Opportunity.Owner.Roles.ParentRole.Id", "Opportunity.Owner.LastName", "Opportunity.Owner.Role.Role.ForecastUserId", "Opportunity.Owner.UserType", "Opportunity.Owner.Role.RoleNames", "Opportunity.Owner.UniqueUserName", "Opportunity.Owner.Roles.ParentRole.Name", "Opportunity.Owner.TimeZoneSidKey", "Opportunity.Owner.UserRoleId", "Opportunity.Owner.IsActive", "Opportunity.Owner.Roles.RolePath", "Opportunity.Owner.Role.RolesNamesPath", "Opportunity.Owner.ForecastEnabled", "Opportunity.Owner.Roles.ForecastUserId", "Opportunity.Owner.Role.UserInForecastHierarchy", "Opportunity.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "Opportunity.Owner.isDuplicate", "Opportunity.Owner.SmallPhotoUrl", "Opportunity.Owner.FirstName", "Opportunity.Owner.Role.Role.RoleDeveloperNames", "Opportunity.Owner.Role.ForecastUserIds", "Opportunity.Owner.Roles.ParentRole.ForecastManager.Name", "Opportunity.Owner.Username", "Opportunity.Owner.Role.Role.ParentRole.ForecastUserId", "Opportunity.Owner.Roles.DeveloperName", "Opportunity.Owner.Roles.Roles", "Opportunity.Account.Name", "Opportunity.Account.Type", "Opportunity.Account.ParentId", "Opportunity.Account.BillingState", "Opportunity.Account.BillingCountry", "Opportunity.Account.Industry", "Opportunity.Account.NumberOfEmployees", "Opportunity.Account.OwnerId", "Opportunity.Account.LastActivityDate", "Opportunity.Account.Owner.Roles.ForecastManager.UniqueUserName", "Opportunity.Account.Owner.Email", "Opportunity.Account.Owner.Role.Role.ParentRole.Id", "Opportunity.Account.Owner.Roles.ForecastManager.Name", "Opportunity.Account.Owner.Roles.ParentRole.DeveloperName", "Opportunity.Account.Owner.Name", "Opportunity.Account.Owner.Roles.ForecastManager.ForecastEnabled", "Opportunity.Account.Owner.Role.ForecastUserIdsPath", "Opportunity.Account.Owner.Role.Role.RoleDeveloperNamesPath", "Opportunity.Account.Owner.Roles.Name", "Opportunity.Account.Owner.Roles.Id", "Opportunity.Account.Owner.Role.UserIsForecastManager", "Opportunity.Account.Owner.Roles.ParentRole.ForecastUserId", "Opportunity.Account.Owner.Roles.ParentRole.Id", "Opportunity.Account.Owner.LastName", "Opportunity.Account.Owner.Role.Role.ForecastUserId", "Opportunity.Account.Owner.UserType", "Opportunity.Account.Owner.Role.RoleNames", "Opportunity.Account.Owner.UniqueUserName", "Opportunity.Account.Owner.Roles.ParentRole.Name", "Opportunity.Account.Owner.TimeZoneSidKey", "Opportunity.Account.Owner.UserRoleId", "Opportunity.Account.Owner.IsActive", "Opportunity.Account.Owner.Roles.RolePath", "Opportunity.Account.Owner.Role.RolesNamesPath", "Opportunity.Account.Owner.ForecastEnabled", "Opportunity.Account.Owner.Roles.ForecastUserId", "Opportunity.Account.Owner.Role.UserInForecastHierarchy", "Opportunity.Account.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "Opportunity.Account.Owner.isDuplicate", "Opportunity.Account.Owner.SmallPhotoUrl", "Opportunity.Account.Owner.FirstName", "Opportunity.Account.Owner.Role.Role.RoleDeveloperNames", "Opportunity.Account.Owner.Role.ForecastUserIds", "Opportunity.Account.Owner.Roles.ParentRole.ForecastManager.Name", "Opportunity.Account.Owner.Username", "Opportunity.Account.Owner.Role.Role.ParentRole.ForecastUserId", "Opportunity.Account.Owner.Roles.DeveloperName", "Opportunity.Account.Owner.Roles.Roles", "Opportunity.History.IsPulled", "Opportunity.History.Duration", "Opportunity.History.IsPushed", "Opportunity.History.AmountIncreased", "Opportunity.History.AmountDecreased", "Opportunity.History.Category.Territory2Id", "Opportunity.History.Category.OpportunityScoreId", "Opportunity.History.Category.Territory2.Description", "Opportunity.History.Category.Territory2.Level7.Level7_UserIds", "Opportunity.History.Category.Territory2.Level1.Level1_UserIds", "Opportunity.History.Category.Territory2.Territory2ModelId", "Opportunity.History.Category.Territory2.TerritoryNames", "Opportunity.History.Category.Territory2.Level8.Level8_UserIds", "Opportunity.History.Category.Territory2.ParentTerritory2.ForecastUserId", "Opportunity.History.Category.Territory2.Level2.Level2_UserIds", "Opportunity.History.Category.Territory2.TerritoryNamesPath", "Opportunity.History.Category.Territory2.Name", "Opportunity.History.Category.Territory2.Level9.Level9_UserIds", "Opportunity.History.Category.Territory2.ParentTerritory2.DeveloperName", "Opportunity.History.Category.Territory2.Territory2Type.Description", "Opportunity.History.Category.Territory2.Level10.Level10_UserIds", "Opportunity.History.Category.Territory2.ParentTerritory2Id", "Opportunity.History.Category.Territory2.Level3.Level3_UserIds", "Opportunity.History.Category.Territory2.DeveloperName", "Opportunity.History.Category.Territory2.Level4.Level4_UserIds", "Opportunity.History.Category.Territory2.TerritoriesPath", "Opportunity.History.Category.Territory2.Level10", "Opportunity.History.Category.Territory2.Level8", "Opportunity.History.Category.Territory2.Level9", "Opportunity.History.Category.Territory2.Level6", "Opportunity.History.Category.Territory2.Level7", "Opportunity.History.Category.Territory2.UserTerritory2Association.UserId", "Opportunity.History.Category.Territory2.Level4", "Opportunity.History.Category.Territory2.Territory2Type.MasterLabel", "Opportunity.History.Category.Territory2.Level5", "Opportunity.History.Category.Territory2.ForecastUserId", "Opportunity.History.Category.Territory2.Territories", "Opportunity.History.Category.Territory2.Territory2.Name", "Opportunity.History.Category.Territory2.Level5.Level5_UserIds", "Opportunity.History.Category.Territory2.Level6.Level6_UserIds", "Opportunity.History.Category.Territory2.Level2", "Opportunity.History.Category.Territory2.Level3", "Opportunity.History.Category.Territory2.Territory2TypeId", "Opportunity.History.Category.Territory2.Territory2Type.DeveloperName", "Opportunity.History.Category.Territory2.Level1", "Opportunity.History.Category.Territory2.Territory2.State", "Opportunity.History.PrevCategory.Territory2Id", "Opportunity.History.PrevCategory.OpportunityScoreId", "Opportunity.History.PrevCategory.Territory2.Description", "Opportunity.History.PrevCategory.Territory2.Level7.Level7_UserIds", "Opportunity.History.PrevCategory.Territory2.Level1.Level1_UserIds", "Opportunity.History.PrevCategory.Territory2.Territory2ModelId", "Opportunity.History.PrevCategory.Territory2.TerritoryNames", "Opportunity.History.PrevCategory.Territory2.Level8.Level8_UserIds", "Opportunity.History.PrevCategory.Territory2.ParentTerritory2.ForecastUserId", "Opportunity.History.PrevCategory.Territory2.Level2.Level2_UserIds", "Opportunity.History.PrevCategory.Territory2.TerritoryNamesPath", "Opportunity.History.PrevCategory.Territory2.Name", "Opportunity.History.PrevCategory.Territory2.Level9.Level9_UserIds", "Opportunity.History.PrevCategory.Territory2.ParentTerritory2.DeveloperName", "Opportunity.History.PrevCategory.Territory2.Territory2Type.Description", "Opportunity.History.PrevCategory.Territory2.Level10.Level10_UserIds", "Opportunity.History.PrevCategory.Territory2.ParentTerritory2Id", "Opportunity.History.PrevCategory.Territory2.Level3.Level3_UserIds", "Opportunity.History.PrevCategory.Territory2.DeveloperName", "Opportunity.History.PrevCategory.Territory2.Level4.Level4_UserIds", "Opportunity.History.PrevCategory.Territory2.TerritoriesPath", "Opportunity.History.PrevCategory.Territory2.Level10", "Opportunity.History.PrevCategory.Territory2.Level8", "Opportunity.History.PrevCategory.Territory2.Level9", "Opportunity.History.PrevCategory.Territory2.Level6", "Opportunity.History.PrevCategory.Territory2.Level7", "Opportunity.History.PrevCategory.Territory2.UserTerritory2Association.UserId", "Opportunity.History.PrevCategory.Territory2.Level4", "Opportunity.History.PrevCategory.Territory2.Territory2Type.MasterLabel", "Opportunity.History.PrevCategory.Territory2.Level5", "Opportunity.History.PrevCategory.Territory2.ForecastUserId", "Opportunity.History.PrevCategory.Territory2.Territories", "Opportunity.History.PrevCategory.Territory2.Territory2.Name", "Opportunity.History.PrevCategory.Territory2.Level5.Level5_UserIds", "Opportunity.History.PrevCategory.Territory2.Level6.Level6_UserIds", "Opportunity.History.PrevCategory.Territory2.Level2", "Opportunity.History.PrevCategory.Territory2.Level3", "Opportunity.History.PrevCategory.Territory2.Territory2TypeId", "Opportunity.History.PrevCategory.Territory2.Territory2Type.DeveloperName", "Opportunity.History.PrevCategory.Territory2.Level1", "Opportunity.History.PrevCategory.Territory2.Territory2.State" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "EDIT_ATTRIBUTES1", "JOIN20" ]
+    },
+    "JOIN22" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "AccountId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "AggregAccount"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "AggregAccount.Id", "AggregAccount.MasterRecordId", "AggregAccount.Name", "AggregAccount.Type", "AggregAccount.ParentId", "AggregAccount.BillingStreet", "AggregAccount.BillingCity", "AggregAccount.BillingState", "AggregAccount.BillingPostalCode", "AggregAccount.BillingCountry", "AggregAccount.ShippingStreet", "AggregAccount.ShippingCity", "AggregAccount.ShippingState", "AggregAccount.ShippingPostalCode", "AggregAccount.ShippingCountry", "AggregAccount.Phone", "AggregAccount.PhotoUrl", "AggregAccount.Industry", "AggregAccount.NumberOfEmployees", "AggregAccount.Description", "AggregAccount.OwnerId", "AggregAccount.CreatedDate", "AggregAccount.LastModifiedDate", "AggregAccount.LastActivityDate", "AggregAccount.LastViewedDate", "AggregAccount.Owner.Role.RoleNames", "AggregAccount.Owner.UniqueUserName", "AggregAccount.Owner.Roles.ForecastManager.UniqueUserName", "AggregAccount.Owner.Roles.ParentRole.Name", "AggregAccount.Owner.Email", "AggregAccount.Owner.TimeZoneSidKey", "AggregAccount.Owner.UserRoleId", "AggregAccount.Owner.IsActive", "AggregAccount.Owner.Role.Role.ParentRole.Id", "AggregAccount.Owner.Roles.RolePath", "AggregAccount.Owner.Role.RolesNamesPath", "AggregAccount.Owner.ForecastEnabled", "AggregAccount.Owner.Roles.ForecastManager.Name", "AggregAccount.Owner.Roles.ParentRole.DeveloperName", "AggregAccount.Owner.Name", "AggregAccount.Owner.Roles.ForecastManager.ForecastEnabled", "AggregAccount.Owner.Roles.ForecastUserId", "AggregAccount.Owner.Role.UserInForecastHierarchy", "AggregAccount.Owner.Roles.ParentRole.ForecastManager.UniqueUserName", "AggregAccount.Owner.isDuplicate", "AggregAccount.Owner.SmallPhotoUrl", "AggregAccount.Owner.FirstName", "AggregAccount.Owner.Role.ForecastUserIdsPath", "AggregAccount.Owner.Role.Role.RoleDeveloperNames", "AggregAccount.Owner.Role.ForecastUserIds", "AggregAccount.Owner.Role.Role.RoleDeveloperNamesPath", "AggregAccount.Owner.Roles.Name", "AggregAccount.Owner.Roles.Id", "AggregAccount.Owner.Role.UserIsForecastManager", "AggregAccount.Owner.Roles.ParentRole.ForecastManager.Name", "AggregAccount.Owner.Roles.ParentRole.ForecastUserId", "AggregAccount.Owner.Username", "AggregAccount.Owner.Role.Role.ParentRole.ForecastUserId", "AggregAccount.Owner.Roles.DeveloperName", "AggregAccount.Owner.Roles.ParentRole.Id", "AggregAccount.Owner.LastName", "AggregAccount.Owner.Role.Role.ForecastUserId", "AggregAccount.Owner.UserType", "AggregAccount.Owner.Roles.Roles", "AggregAccount.User.Name", "AggregAccount.Opportunity.Territory2Id", "AggregAccount.Opportunity.Owner.IsManager", "AggregAccount.Opportunity.Owner.Manager.Id", "AggregAccount.Opportunity.Territory2.Description", "AggregAccount.Opportunity.Territory2.Level7.Level7_UserIds", "AggregAccount.Opportunity.Territory2.Level1.Level1_UserIds", "AggregAccount.Opportunity.Territory2.Territory2ModelId", "AggregAccount.Opportunity.Territory2.TerritoryNames", "AggregAccount.Opportunity.Territory2.Level8.Level8_UserIds", "AggregAccount.Opportunity.Territory2.ParentTerritory2.ForecastUserId", "AggregAccount.Opportunity.Territory2.Level2.Level2_UserIds", "AggregAccount.Opportunity.Territory2.TerritoryNamesPath", "AggregAccount.Opportunity.Territory2.Name", "AggregAccount.Opportunity.Territory2.Level9.Level9_UserIds", "AggregAccount.Opportunity.Territory2.ParentTerritory2.DeveloperName", "AggregAccount.Opportunity.Territory2.Territory2Type.Description", "AggregAccount.Opportunity.Territory2.Level10.Level10_UserIds", "AggregAccount.Opportunity.Territory2.ParentTerritory2Id", "AggregAccount.Opportunity.Territory2.Level3.Level3_UserIds", "AggregAccount.Opportunity.Territory2.DeveloperName", "AggregAccount.Opportunity.Territory2.Level4.Level4_UserIds", "AggregAccount.Opportunity.Territory2.TerritoriesPath", "AggregAccount.Opportunity.Territory2.Level10", "AggregAccount.Opportunity.Territory2.Level8", "AggregAccount.Opportunity.Territory2.Level9", "AggregAccount.Opportunity.Territory2.Level6", "AggregAccount.Opportunity.Territory2.Level7", "AggregAccount.Opportunity.Territory2.UserTerritory2Association.UserId", "AggregAccount.Opportunity.Territory2.Level4", "AggregAccount.Opportunity.Territory2.Territory2Type.MasterLabel", "AggregAccount.Opportunity.Territory2.Level5", "AggregAccount.Opportunity.Territory2.ForecastUserId", "AggregAccount.Opportunity.Territory2.Territories", "AggregAccount.Opportunity.Territory2.Territory2.Name", "AggregAccount.Opportunity.Territory2.Level5.Level5_UserIds", "AggregAccount.Opportunity.Territory2.Level6.Level6_UserIds", "AggregAccount.Opportunity.Territory2.Level2", "AggregAccount.Opportunity.Territory2.Level3", "AggregAccount.Opportunity.Territory2.Territory2TypeId", "AggregAccount.Opportunity.Territory2.Territory2Type.DeveloperName", "AggregAccount.Opportunity.Territory2.Level1", "AggregAccount.Opportunity.Territory2.Territory2.State" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN20", "JOIN21" ]
+    },
+    "JOIN23" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "StageName" ],
+        "rightKeys" : [ "MasterLabel" ],
+        "rightQualifier" : "Stage"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "FORMULA50", "LOAD_DATASET22" ]
+    },
+    "JOIN24" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "StageNamePrev" ],
+        "rightKeys" : [ "MasterLabel" ],
+        "rightQualifier" : "StagePrev"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN23", "LOAD_DATASET22" ]
+    },
+    "JOIN26" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Id" ],
+        "rightKeys" : [ "BaseId" ],
+        "rightQualifier" : "Score"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Score.Id" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN29", "LOAD_DATASET23" ]
+    },
+    "JOIN27" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "OpportunityId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Score"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Score.Id" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN16", "LOAD_DATASET23" ]
+    },
+    "JOIN29" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "StageName" ],
+        "rightKeys" : [ "MasterLabel" ],
+        "rightQualifier" : "Stage"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "JOIN22", "LOAD_DATASET22" ]
+    },
+    "JOIN3" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Pricebook2Id" ],
+        "rightKeys" : [ "Pricebook2Id" ],
+        "rightQualifier" : "Pricebook"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "FORMULA48", "LOAD_DATASET8" ]
+    },
+    "JOIN9" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "OwnerId" ],
+        "rightKeys" : [ "Id" ],
+        "rightQualifier" : "Owner"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ "Owner.IsManager", "Owner.Manager.Id", "Owner.Id" ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "LOAD_DATASET6", "LOAD_DATASET19" ]
+    },
+    "LOAD_DATASET13" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "OpportunityLineItem",
+          "sourceObjectName" : "OpportunityLineItem",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "OpportunityId", "SortOrder", "PricebookEntryId", "Product2Id", "ProductCode", "Name", "Quantity", "TotalPrice", "UnitPrice", "ListPrice", "Description", "CreatedDate", "LastModifiedDate" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET18" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "Product2",
+          "sourceObjectName" : "Product2",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "Name", "ProductCode", "Family" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET19" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "label" : "UserRole",
+          "name" : "userrole_revinsights",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET21" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "OpportunityHistory",
+          "sourceObjectName" : "OpportunityHistory",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "OpportunityId", "CreatedById", "CreatedDate", "StageName", "Amount", "CloseDate", "ForecastCategory", "IsDeleted" ],
+        "sampleDetails" : {
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET22" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "OpportunityStage",
+          "sourceObjectName" : "OpportunityStage",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "MasterLabel", "SortOrder", "IsClosed", "IsWon" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET23" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "OpportunityScore",
+          "sourceObjectName" : "OpportunityScore",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "BaseId", "Score", "Insights" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET3" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "Opportunity",
+          "sourceObjectName" : "Opportunity",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "IsDeleted", "AccountId", "Name", "Description", "StageName", "Amount", "Probability", "CloseDate", "Type", "NextStep", "LeadSource", "IsClosed", "IsWon", "ForecastCategory", "ForecastCategoryName", "HasOpportunityLineItem", "Pricebook2Id", "OwnerId", "CreatedDate", "LastModifiedDate", "LastActivityDate", "HasOpenActivity", "HasOverdueTask", "OpportunityScoreId" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET6" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "Account",
+          "sourceObjectName" : "Account",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "MasterRecordId", "Name", "Type", "ParentId", "BillingStreet", "BillingCity", "BillingState", "BillingPostalCode", "BillingCountry", "ShippingStreet", "ShippingCity", "ShippingState", "ShippingPostalCode", "ShippingCountry", "Phone", "PhotoUrl", "Industry", "NumberOfEmployees", "Description", "OwnerId", "CreatedDate", "LastModifiedDate", "LastActivityDate", "LastViewedDate" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET8" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "connectionName" : "SFDC_LOCAL",
+          "label" : "PricebookEntry",
+          "sourceObjectName" : "PricebookEntry",
+          "type" : "connectedDataset"
+        },
+        "fields" : [ "Id", "Name", "Pricebook2Id", "Product2Id", "UnitPrice", "IsActive", "UseStandardPrice", "CreatedDate", "LastModifiedDate", "ProductCode", "IsDeleted", "IsArchived" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "OUTPUT4" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "Opportunity",
+          "name" : "Opportunity2",
+          "rowLevelSecurityFilter" : "'Owner.Roles.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\" || 'Account.OwnerId' == \"$User.Id\"",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "measuresToCurrencies" : [ ]
+      },
+      "sources" : [ "JOIN26" ]
+    },
+    "OUTPUT5" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "OpptyProduct",
+          "name" : "OpptyProduct1",
+          "rowLevelSecurityFilter" : "'Opportunity.Owner.Roles.Roles' == \"$User.UserRoleId\" || 'Opportunity.OwnerId' == \"$User.Id\" || 'Opportunity.Account.OwnerId' == \"$User.Id\"",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "measuresToCurrencies" : [ ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES3" ]
+    },
+    "OUTPUT6" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "Account",
+          "name" : "Account2",
+          "rowLevelSecurityFilter" : "'Owner.Roles.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\"",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "measuresToCurrencies" : [ ]
+      },
+      "sources" : [ "JOIN21" ]
+    },
+    "OUTPUT7" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "OpportunityHistory",
+          "name" : "OpportunityHistory1",
+          "rowLevelSecurityFilter" : "'Opp.Owner.Roles.Roles' == \"$User.UserRoleId\" || 'Opp.OwnerId' == \"$User.Id\" || 'Opp.Account.OwnerId' == \"$User.Id\"",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "measuresToCurrencies" : [ ]
+      },
+      "sources" : [ "JOIN27" ]
+    },
+    "OUTPUT8" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "Product",
+          "name" : "Product2",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "measuresToCurrencies" : [ ]
+      },
+      "sources" : [ "LOAD_DATASET18" ]
+    }
+  },
+  "ui" : {
+    "connectors" : [ {
+      "source" : "JOIN29",
+      "target" : "JOIN26"
+    }, {
+      "source" : "TRANSFORM9",
+      "target" : "JOIN23"
+    }, {
+      "source" : "TRANSFORM7",
+      "target" : "JOIN17"
+    }, {
+      "source" : "JOIN19",
+      "target" : "JOIN16"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET8",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET6",
+      "target" : "JOIN9"
+    }, {
+      "source" : "JOIN3",
+      "target" : "JOIN10"
+    }, {
+      "source" : "FILTER5",
+      "target" : "JOIN10"
+    }, {
+      "source" : "JOIN10",
+      "target" : "JOIN11"
+    }, {
+      "source" : "JOIN9",
+      "target" : "JOIN11"
+    }, {
+      "source" : "JOIN11",
+      "target" : "FILTER6"
+    }, {
+      "source" : "LOAD_DATASET13",
+      "target" : "JOIN12"
+    }, {
+      "source" : "FILTER6",
+      "target" : "JOIN12"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "OUTPUT5"
+    }, {
+      "source" : "JOIN21",
+      "target" : "OUTPUT6"
+    }, {
+      "source" : "LOAD_DATASET3",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "JOIN9",
+      "target" : "TRANSFORM1"
+    }, {
+      "source" : "JOIN14",
+      "target" : "TRANSFORM2"
+    }, {
+      "source" : "LOAD_DATASET18",
+      "target" : "OUTPUT8"
+    }, {
+      "source" : "LOAD_DATASET19",
+      "target" : "FILTER5"
+    }, {
+      "source" : "LOAD_DATASET19",
+      "target" : "JOIN9"
+    }, {
+      "source" : "JOIN12",
+      "target" : "JOIN14"
+    }, {
+      "source" : "LOAD_DATASET18",
+      "target" : "JOIN14"
+    }, {
+      "source" : "TRANSFORM7",
+      "target" : "FILTER7"
+    }, {
+      "source" : "FILTER7",
+      "target" : "TRANSFORM5"
+    }, {
+      "source" : "JOIN11",
+      "target" : "JOIN16"
+    }, {
+      "source" : "JOIN27",
+      "target" : "OUTPUT7"
+    }, {
+      "source" : "JOIN17",
+      "target" : "JOIN18"
+    }, {
+      "source" : "JOIN11",
+      "target" : "JOIN18"
+    }, {
+      "source" : "JOIN18",
+      "target" : "JOIN19"
+    }, {
+      "source" : "JOIN11",
+      "target" : "JOIN19"
+    }, {
+      "source" : "JOIN11",
+      "target" : "JOIN20"
+    }, {
+      "source" : "JOIN19",
+      "target" : "JOIN20"
+    }, {
+      "source" : "JOIN24",
+      "target" : "TRANSFORM7"
+    }, {
+      "source" : "TRANSFORM1",
+      "target" : "JOIN21"
+    }, {
+      "source" : "JOIN20",
+      "target" : "JOIN21"
+    }, {
+      "source" : "JOIN20",
+      "target" : "JOIN22"
+    }, {
+      "source" : "JOIN21",
+      "target" : "JOIN22"
+    }, {
+      "source" : "JOIN26",
+      "target" : "OUTPUT4"
+    }, {
+      "source" : "TRANSFORM5",
+      "target" : "JOIN17"
+    }, {
+      "source" : "LOAD_DATASET21",
+      "target" : "TRANSFORM8"
+    }, {
+      "source" : "TRANSFORM8",
+      "target" : "TRANSFORM9"
+    }, {
+      "source" : "LOAD_DATASET22",
+      "target" : "JOIN23"
+    }, {
+      "source" : "JOIN23",
+      "target" : "JOIN24"
+    }, {
+      "source" : "LOAD_DATASET22",
+      "target" : "JOIN24"
+    }, {
+      "source" : "LOAD_DATASET23",
+      "target" : "JOIN26"
+    }, {
+      "source" : "JOIN16",
+      "target" : "JOIN27"
+    }, {
+      "source" : "LOAD_DATASET23",
+      "target" : "JOIN27"
+    }, {
+      "source" : "JOIN22",
+      "target" : "JOIN29"
+    }, {
+      "source" : "LOAD_DATASET22",
+      "target" : "JOIN29"
+    } ],
+    "hiddenColumns" : [ ],
+    "nodes" : {
+      "FILTER5" : {
+        "label" : "Filter",
+        "left" : 392.1,
+        "top" : 112.30000000000001,
+        "type" : "FILTER"
+      },
+      "FILTER6" : {
+        "description" : "",
+        "label" : "Opportunity",
+        "left" : 532.1,
+        "top" : 672.2,
+        "type" : "FILTER"
+      },
+      "FILTER7" : {
+        "description" : "",
+        "label" : "Filter for Updated Stage",
+        "left" : 951.9,
+        "top" : 952.1,
+        "type" : "FILTER"
+      },
+      "JOIN10" : {
+        "description" : "",
+        "label" : "Join Owner onto Opportunity",
+        "left" : 531.9,
+        "top" : 392.1,
+        "type" : "JOIN"
+      },
+      "JOIN11" : {
+        "description" : "",
+        "label" : "Join Account onto Opportunity",
+        "left" : 672,
+        "top" : 391.9,
+        "type" : "JOIN"
+      },
+      "JOIN12" : {
+        "description" : "",
+        "label" : "Join Opportunity onto Opportunity Line Item",
+        "left" : 392.1,
+        "top" : 812.3,
+        "type" : "JOIN"
+      },
+      "JOIN14" : {
+        "description" : "",
+        "label" : "Join Product onto OpportunityLineItem",
+        "left" : 532.1,
+        "top" : 812.2,
+        "type" : "JOIN"
+      },
+      "JOIN16" : {
+        "description" : "",
+        "label" : "Join Opportunity onto Opportunity History",
+        "left" : 1651.9,
+        "top" : 952.1,
+        "type" : "JOIN"
+      },
+      "JOIN17" : {
+        "description" : "",
+        "label" : "Join Stage Duration to Opportunity History",
+        "left" : 1231.9,
+        "top" : 952.1,
+        "type" : "JOIN"
+      },
+      "JOIN18" : {
+        "description" : "",
+        "label" : "Join Forecast Category",
+        "left" : 1371.9,
+        "top" : 952.1,
+        "type" : "JOIN"
+      },
+      "JOIN19" : {
+        "description" : "",
+        "label" : "Join Previous Forecast Category",
+        "left" : 1511.9,
+        "top" : 952.1,
+        "type" : "JOIN"
+      },
+      "JOIN20" : {
+        "description" : "",
+        "label" : "Join History onto Opportunity",
+        "left" : 812,
+        "top" : 392,
+        "type" : "JOIN"
+      },
+      "JOIN21" : {
+        "description" : "",
+        "label" : "Join Opportunity onto Account",
+        "left" : 812.2,
+        "top" : 252,
+        "type" : "JOIN"
+      },
+      "JOIN22" : {
+        "description" : "",
+        "label" : "Join Account aggregated metrics",
+        "left" : 952,
+        "top" : 392.6,
+        "type" : "JOIN"
+      },
+      "JOIN23" : {
+        "description" : "",
+        "label" : "Join Opp Stage to Opp History",
+        "left" : 532,
+        "top" : 952,
+        "type" : "JOIN"
+      },
+      "JOIN24" : {
+        "description" : "",
+        "label" : "Join Opp Previous Stage",
+        "left" : 672,
+        "top" : 952,
+        "type" : "JOIN"
+      },
+      "JOIN26" : {
+        "description" : "",
+        "label" : "Join Score on Opportunity",
+        "left" : 1232,
+        "top" : 392,
+        "type" : "JOIN"
+      },
+      "JOIN27" : {
+        "description" : "",
+        "label" : "Join Score onto History",
+        "left" : 1792,
+        "top" : 952,
+        "type" : "JOIN"
+      },
+      "JOIN29" : {
+        "description" : "",
+        "label" : "Join Stage onto Opportunity",
+        "left" : 1092,
+        "top" : 392,
+        "type" : "JOIN"
+      },
+      "JOIN3" : {
+        "description" : "",
+        "label" : "Augment_PricebookEntry_onto_Opportunity",
+        "left" : 392,
+        "top" : 392,
+        "type" : "JOIN"
+      },
+      "JOIN9" : {
+        "description" : "",
+        "label" : "Join Owner onto Account",
+        "left" : 252.10000000000002,
+        "top" : 252.10000000000002,
+        "type" : "JOIN"
+      },
+      "LOAD_DATASET13" : {
+        "label" : "OpportunityLineItem",
+        "left" : 112.1,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 812.2,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET18" : {
+        "label" : "Product2",
+        "left" : 112.1,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 1092.2,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET19" : {
+        "label" : "UserRole",
+        "left" : 112.19999999999999,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 112.1,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET21" : {
+        "label" : "OpportunityHistory",
+        "left" : 112.1,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 952.2,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET22" : {
+        "label" : "OpportunityStage",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 531.8,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET23" : {
+        "label" : "OpportunityScore",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 671.8,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET3" : {
+        "label" : "Opportunity",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 391.8,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET6" : {
+        "label" : "Account",
+        "left" : 112.6,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 251.3,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET8" : {
+        "label" : "PricebookEntry",
+        "left" : 392,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 671.7,
+        "type" : "LOAD_DATASET"
+      },
+      "OUTPUT4" : {
+        "description" : "",
+        "label" : "Save Opportunity",
+        "left" : 1372,
+        "top" : 392,
+        "type" : "OUTPUT"
+      },
+      "OUTPUT5" : {
+        "description" : "",
+        "label" : "Save Opportunity Line Item",
+        "left" : 812.1,
+        "top" : 812,
+        "type" : "OUTPUT"
+      },
+      "OUTPUT6" : {
+        "description" : "",
+        "label" : "Save Account",
+        "left" : 1232.1,
+        "top" : 252.10000000000002,
+        "type" : "OUTPUT"
+      },
+      "OUTPUT7" : {
+        "description" : "",
+        "label" : "Save Opportunity History",
+        "left" : 1931.8,
+        "top" : 952.1,
+        "type" : "OUTPUT"
+      },
+      "OUTPUT8" : {
+        "description" : "",
+        "label" : "Save Product",
+        "left" : 812.1,
+        "top" : 1092.2,
+        "type" : "OUTPUT"
+      },
+      "TRANSFORM0" : {
+        "connectors" : [ {
+          "source" : "FORMULA0",
+          "target" : "EDIT_ATTRIBUTES0"
+        }, {
+          "source" : "EDIT_ATTRIBUTES0",
+          "target" : "FORMULA28"
+        }, {
+          "source" : "FORMULA28",
+          "target" : "FORMULA29"
+        }, {
+          "source" : "FORMULA29",
+          "target" : "FORMULA30"
+        }, {
+          "source" : "FORMULA30",
+          "target" : "FORMULA31"
+        }, {
+          "source" : "FORMULA31",
+          "target" : "FORMULA47"
+        }, {
+          "source" : "FORMULA47",
+          "target" : "FORMULA48"
+        } ],
+        "description" : "",
+        "graph" : {
+          "EDIT_ATTRIBUTES0" : null,
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA28" : {
+            "label" : "Formula for Won Opportunities",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA29" : {
+            "label" : "Formula for Lost Opportunities",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA30" : {
+            "label" : "Formula for First Won Oppty"
+          },
+          "FORMULA31" : {
+            "label" : "Formula for Account Tenure",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA47" : {
+            "label" : "DaysSinceLastActivity",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA48" : {
+            "label" : "Neglected",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Add Fields to Opportunity",
+        "left" : 252,
+        "top" : 392,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM1" : {
+        "connectors" : [ {
+          "source" : "FORMULA1",
+          "target" : "EDIT_ATTRIBUTES1"
+        } ],
+        "graph" : {
+          "EDIT_ATTRIBUTES1" : null,
+          "FORMULA1" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Transform",
+        "left" : 392,
+        "top" : 252,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM2" : {
+        "connectors" : [ {
+          "source" : "FORMULA2",
+          "target" : "EDIT_ATTRIBUTES2"
+        }, {
+          "source" : "EDIT_ATTRIBUTES2",
+          "target" : "FORMULA3"
+        }, {
+          "source" : "FORMULA3",
+          "target" : "EDIT_ATTRIBUTES3"
+        } ],
+        "graph" : {
+          "EDIT_ATTRIBUTES2" : null,
+          "EDIT_ATTRIBUTES3" : null,
+          "FORMULA2" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA3" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Transform",
+        "left" : 672.1,
+        "top" : 812.2,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM5" : {
+        "connectors" : [ {
+          "source" : "FORMULA12",
+          "target" : "FORMULA13"
+        } ],
+        "description" : "",
+        "graph" : {
+          "FORMULA12" : null,
+          "FORMULA13" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Find Last Stage Update",
+        "left" : 1091.9,
+        "top" : 952.1,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM7" : {
+        "connectors" : [ {
+          "source" : "FORMULA32",
+          "target" : "FORMULA33"
+        }, {
+          "source" : "FORMULA33",
+          "target" : "FORMULA34"
+        }, {
+          "source" : "FORMULA34",
+          "target" : "FORMULA53"
+        }, {
+          "source" : "FORMULA53",
+          "target" : "FORMULA54"
+        }, {
+          "source" : "FORMULA54",
+          "target" : "FORMULA55"
+        } ],
+        "description" : "",
+        "graph" : {
+          "FORMULA32" : {
+            "label" : "IsPushed",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA33" : {
+            "label" : "Formula",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA34" : {
+            "label" : "Formula",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA53" : {
+            "label" : "Is_StageProgressed",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA54" : {
+            "label" : "Is_StageRegressed",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA55" : {
+            "label" : "StageProgression",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Adding fields for ED",
+        "left" : 811.9,
+        "top" : 952.2,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM8" : {
+        "connectors" : [ ],
+        "description" : "",
+        "graph" : {
+          "FORMULA35" : {
+            "label" : "Unique Sort Key",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Add Unique Sort Key",
+        "left" : 252,
+        "top" : 952,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM9" : {
+        "connectors" : [ {
+          "source" : "FORMULA36",
+          "target" : "FORMULA37"
+        }, {
+          "source" : "FORMULA37",
+          "target" : "FORMULA38"
+        }, {
+          "source" : "FORMULA38",
+          "target" : "FORMULA39"
+        }, {
+          "source" : "FORMULA39",
+          "target" : "FORMULA40"
+        }, {
+          "source" : "FORMULA40",
+          "target" : "FORMULA41"
+        }, {
+          "source" : "FORMULA41",
+          "target" : "FORMULA42"
+        }, {
+          "source" : "FORMULA42",
+          "target" : "FORMULA43"
+        }, {
+          "source" : "FORMULA43",
+          "target" : "FORMULA44"
+        }, {
+          "source" : "FORMULA44",
+          "target" : "FORMULA49"
+        }, {
+          "source" : "FORMULA49",
+          "target" : "FORMULA50"
+        } ],
+        "description" : "",
+        "graph" : {
+          "FORMULA36" : {
+            "label" : "ValidToDate"
+          },
+          "FORMULA37" : {
+            "label" : "ValidFromDate"
+          },
+          "FORMULA38" : {
+            "label" : "AmountPrev"
+          },
+          "FORMULA39" : {
+            "label" : "StageNamePrev"
+          },
+          "FORMULA40" : {
+            "label" : "CloseDatePrev"
+          },
+          "FORMULA41" : {
+            "label" : "CreatedDatePrev"
+          },
+          "FORMULA42" : {
+            "label" : "Stage_isUpdated",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA43" : {
+            "label" : "Seconds_inStage",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA44" : {
+            "label" : "ForecastCategoryPrev"
+          },
+          "FORMULA49" : {
+            "label" : "IsPulled",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA50" : {
+            "label" : "Duration",
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Add Historical Trending Fields",
+        "left" : 392.1,
+        "top" : 952.3,
+        "type" : "TRANSFORM"
+      }
+    }
+  },
+  "runMode" : null
+}

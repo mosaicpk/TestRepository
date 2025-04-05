@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Angebotsbelegpostens</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Angebotsbelegposten</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- NA International --></label>
+        <name>PMC_CPQ_NAInternational</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-AMDomesticNA --></label>
+        <name>PMC_CPQ_QLEAMDomesticNA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-AMDomesticNAFeed --></label>
+        <name>PMC_CPQ_QLEAMDomesticNAFeed</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-B2B -DOM_INT_BR FERT --></label>
+        <name>PMC_CPQ_QLEB2BDOMINTBRFERT</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE BR VCO Quote --></label>
+        <name>PMC_CPQ_QLEBRVCOQuote</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-DomesticNACo-Pr --></label>
+        <name>PMC_CPQ_QLEDomesticNACoPr</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-DomesticNACo-Pr No Sales Agreement --></label>
+        <name>PMC_CPQ_QLEDomesticNACoPrNoSalesAgree</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-DomesticNAFeed --></label>
+        <name>PMC_CPQ_QLEDomesticNAFeed</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-DomesticNAFeed No SalesAgreement --></label>
+        <name>PMC_CPQ_QLEDomesticNAFeedNoSalesAgree</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-Domestic INT BR FEED --></label>
+        <name>PMC_CPQ_QLEINTBRFEED</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QLE-SA B2C --></label>
+        <name>PMC_CPQ_QLESAB2C</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SA B2C International --></label>
+        <name>PMC_CPQ_SAB2CInternational</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ConsumptionSchedule --></label>
+        <name>SBQQ__ConsumptionSchedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor --></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Non-Current Quote Line Locked Fields --></label>
+        <name>SBQQ__NonCurrentQuoteLineLockedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segmented Line Editor --></label>
+        <name>SBQQ__SegmentedLineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segmented Line Editor Summary --></label>
+        <name>SBQQ__SegmentedLineEditorSummary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Standard Line Item Drawer --></label>
+        <name>SBQQ__StandardLineItemDrawer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Summary Fields --></label>
+        <name>SBQQ__SummaryFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BR CLM SSP Product1 --></label>
+        <name>BR_CLM_SSP_Product1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Sales Org --></label>
+        <name>Error_Sales_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOT_Shipping_TypePOC --></label>
+        <name>MOT_Shipping_TypePOC__c</name>
+        <picklistValues>
+            <masterLabel>Barge FCA</masterLabel>
+            <translation><!-- Barge FCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barge FOB</masterLabel>
+            <translation><!-- Barge FOB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck CFR</masterLabel>
+            <translation><!-- Truck CFR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BR CLM SSP Product --></label>
+        <name>PMC_BR_CLM_SSPProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Document Id --></label>
+        <name>PMC_CLM_ContractDocumentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Document Name --></label>
+        <name>PMC_CLM_ContractDocumentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Template Type --></label>
+        <name>PMC_CLM_ContractTemplateType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Earliest Cadence Date --></label>
+        <name>PMC_CLM_EarliestCadenceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exspace Text --></label>
+        <name>PMC_CLM_ExspaceText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Price Changed --></label>
+        <name>PMC_CLM_HasPriceChanged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Ship-To or PO Changed --></label>
+        <name>PMC_CLM_HasShipToorPOChanged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Cadence Date --></label>
+        <name>PMC_CLM_LatestCadenceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms Translation --></label>
+        <name>PMC_CLM_Payment_Terms_Translation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Number --></label>
+        <name>PMC_CLM_QuoteLineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Information --></label>
+        <name>PMC_CLM_ShipToInformation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account (Backend) --></label>
+        <name>PMC_CPQ_AccountBackend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>PMC_CPQ_Account__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adjusted List Price --></label>
+        <name>PMC_CPQ_AdjustedListPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Administrative Costs --></label>
+        <name>PMC_CPQ_AdministrativeCosts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advance Billing --></label>
+        <name>PMC_CPQ_AdvanceBilling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation (MTN) --></label>
+        <name>PMC_CPQ_Allocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>PMC_CPQ_ApprovalRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Rule --></label>
+        <name>PMC_CPQ_ApprovalRule__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Type --></label>
+        <name>PMC_CPQ_ApprovalType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval --></label>
+        <name>PMC_CPQ_Approval__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Availability Indicator --></label>
+        <name>PMC_CPQ_AvailabilityIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Price Per Product --></label>
+        <name>PMC_CPQ_AveragePricePerProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Avg Net Price --></label>
+        <name>PMC_CPQ_AvgNetPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- BR Line Total Price Formula --></label>
+        <name>PMC_CPQ_BRLineTotalPriceFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- BR Volume Approval Required --></label>
+        <name>PMC_CPQ_BRVolumeApprovalRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Combination Of Fields --></label>
+        <name>PMC_CPQ_CombinationOfFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Before Amend --></label>
+        <name>PMC_CPQ_CommissionBeforeAmend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Value --></label>
+        <name>PMC_CPQ_CommissionCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission % --></label>
+        <name>PMC_CPQ_Commission__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field captures the Contract Type --></help>
+        <label><!-- Contract Type --></label>
+        <name>PMC_CPQ_ContractType__c</name>
+        <picklistValues>
+            <masterLabel>CCC</masterLabel>
+            <translation><!-- CCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD</masterLabel>
+            <translation><!-- FPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced</masterLabel>
+            <translation><!-- Priced --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Conv.Price Adjustment (deprecated) --></label>
+        <name>PMC_CPQ_ConvDiscountMarkup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Adjustment --></label>
+        <name>PMC_CPQ_CostAdjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crop Type Before Amend --></label>
+        <name>PMC_CPQ_CropTypeBeforeAmend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crop Type --></label>
+        <name>PMC_CPQ_CropType__c</name>
+        <picklistValues>
+            <masterLabel>Alfalfa</masterLabel>
+            <translation><!-- Alfalfa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Artichoke</masterLabel>
+            <translation><!-- Artichoke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banana</masterLabel>
+            <translation><!-- Banana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barley</masterLabel>
+            <translation><!-- Barley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bean</masterLabel>
+            <translation><!-- Bean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beans Safrinha</masterLabel>
+            <translation><!-- Beans Safrinha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cane</masterLabel>
+            <translation><!-- Cane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrot</masterLabel>
+            <translation><!-- Carrot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cassava</masterLabel>
+            <translation><!-- Cassava --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castor bean</masterLabel>
+            <translation><!-- Castor bean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citrus</masterLabel>
+            <translation><!-- Citrus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocoa</masterLabel>
+            <translation><!-- Cocoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coconut</masterLabel>
+            <translation><!-- Coconut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coffee</masterLabel>
+            <translation><!-- Coffee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coffee-Irrigant</masterLabel>
+            <translation><!-- Coffee-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corn</masterLabel>
+            <translation><!-- Corn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corn Safrinha</masterLabel>
+            <translation><!-- Corn Safrinha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corn silage</masterLabel>
+            <translation><!-- Corn silage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corn-Irrigant</masterLabel>
+            <translation><!-- Corn-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cotton</masterLabel>
+            <translation><!-- Cotton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cotton-Irrigant</masterLabel>
+            <translation><!-- Cotton-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cucumber</masterLabel>
+            <translation><!-- Cucumber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eucalyptus</masterLabel>
+            <translation><!-- Eucalyptus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frijoles-Riego</masterLabel>
+            <translation><!-- Frijoles-Riego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fruits</masterLabel>
+            <translation><!-- Fruits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garlic</masterLabel>
+            <translation><!-- Garlic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grape</masterLabel>
+            <translation><!-- Grape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Millet silage</masterLabel>
+            <translation><!-- Millet silage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mulberry</masterLabel>
+            <translation><!-- Mulberry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA-Beef cattle</masterLabel>
+            <translation><!-- NA-Beef cattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA-Birds</masterLabel>
+            <translation><!-- NA-Birds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA-Dairy cattle</masterLabel>
+            <translation><!-- NA-Dairy cattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA-Other animals</masterLabel>
+            <translation><!-- NA-Other animals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA-Other industrial purposes</masterLabel>
+            <translation><!-- NA-Other industrial purposes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA-Pigs</masterLabel>
+            <translation><!-- NA-Pigs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onion</masterLabel>
+            <translation><!-- Onion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papaya</masterLabel>
+            <translation><!-- Papaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture Bov. Cutting</masterLabel>
+            <translation><!-- Pasture Bov. Cutting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture Bov. Milk</masterLabel>
+            <translation><!-- Pasture Bov. Milk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture Goats</masterLabel>
+            <translation><!-- Pasture Goats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture Horses</masterLabel>
+            <translation><!-- Pasture Horses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture ILP/ICLF</masterLabel>
+            <translation><!-- Pasture ILP/ICLF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture Seed</masterLabel>
+            <translation><!-- Pasture Seed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture Sheep</masterLabel>
+            <translation><!-- Pasture Sheep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasture silage</masterLabel>
+            <translation><!-- Pasture silage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pastures</masterLabel>
+            <translation><!-- Pastures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pea</masterLabel>
+            <translation><!-- Pea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peach</masterLabel>
+            <translation><!-- Peach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peanut</masterLabel>
+            <translation><!-- Peanut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persimmon</masterLabel>
+            <translation><!-- Persimmon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pineapple</masterLabel>
+            <translation><!-- Pineapple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potato</masterLabel>
+            <translation><!-- Potato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potato-Irrigant</masterLabel>
+            <translation><!-- Potato-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pumpkin</masterLabel>
+            <translation><!-- Pumpkin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rami</masterLabel>
+            <translation><!-- Rami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rice</masterLabel>
+            <translation><!-- Rice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rice-Irrigant</masterLabel>
+            <translation><!-- Rice-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safrinha Soybeans</masterLabel>
+            <translation><!-- Safrinha Soybeans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smoke</masterLabel>
+            <translation><!-- Smoke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soca Cane</masterLabel>
+            <translation><!-- Soca Cane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorghum silage</masterLabel>
+            <translation><!-- Sorghum silage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorgo</masterLabel>
+            <translation><!-- Sorgo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorgo Safrinha</masterLabel>
+            <translation><!-- Sorgo Safrinha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soy</masterLabel>
+            <translation><!-- Soy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soybeans-Irrigant</masterLabel>
+            <translation><!-- Soybeans-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straw Pasture/Agriculture</masterLabel>
+            <translation><!-- Straw Pasture/Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strawberry</masterLabel>
+            <translation><!-- Strawberry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sugarcane-Plant</masterLabel>
+            <translation><!-- Sugarcane-Plant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunflower</masterLabel>
+            <translation><!-- Sunflower --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet Potato</masterLabel>
+            <translation><!-- Sweet Potato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tea</masterLabel>
+            <translation><!-- Tea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tomato</masterLabel>
+            <translation><!-- Tomato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetable</masterLabel>
+            <translation><!-- Vegetable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetables-Irrigant</masterLabel>
+            <translation><!-- Vegetables-Irrigant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Watermelon</masterLabel>
+            <translation><!-- Watermelon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheat</masterLabel>
+            <translation><!-- Wheat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheat silage</masterLabel>
+            <translation><!-- Wheat silage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheat-Irrigant</masterLabel>
+            <translation><!-- Wheat-Irrigant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>PMC_CPQ_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Offered Price --></label>
+        <name>PMC_CPQ_CustomerOfferedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Price --></label>
+        <name>PMC_CPQ_CustomerPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Support Matrix --></label>
+        <name>PMC_CPQ_DecisionSupportMatrix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery End Date --></label>
+        <name>PMC_CPQ_DeliveryEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Region --></label>
+        <name>PMC_CPQ_DeliveryRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Start Date --></label>
+        <name>PMC_CPQ_DeliveryStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dirty Distance --></label>
+        <name>PMC_CPQ_DirtyDistance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount on the product from final price per tonne --></help>
+        <label><!-- Price Adjustment --></label>
+        <name>PMC_CPQ_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight --></label>
+        <name>PMC_CPQ_EstFreightPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Est. Tax --></label>
+        <name>PMC_CPQ_EstTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>PMC_CPQ_ExchangeRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Inventory --></label>
+        <name>PMC_CPQ_ExistingInventory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Point --></label>
+        <name>PMC_CPQ_ExpeditionPoint__c</name>
+        <relationshipLabel><!-- CPQ Quote Lines (Expedition Point) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Exclusive Space --></label>
+        <name>PMC_CPQ_ExspaceIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Price Per Ton (Original) --></label>
+        <name>PMC_CPQ_FinalPricePerTon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Price Per Tonne --></label>
+        <name>PMC_CPQ_FinalPricePerTonne__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Payment Due Date --></label>
+        <name>PMC_CPQ_FixedPaymentDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow VR Bypass Toggle --></label>
+        <name>PMC_CPQ_FlowVRBypassToggle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Adjustment Reference --></label>
+        <name>PMC_CPQ_FreightAdjustmentReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Month --></label>
+        <name>PMC_CPQ_FreightMonth__c</name>
+        <picklistValues>
+            <masterLabel>Actual</masterLabel>
+            <translation><!-- Actual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual +1</masterLabel>
+            <translation><!-- Actual +1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual +2</masterLabel>
+            <translation><!-- Actual +2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- General Comments --></label>
+        <name>PMC_CPQ_GeneralComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Harvest Period - Delivery End --></label>
+        <name>PMC_CPQ_HarvestDeliveryEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Harvest Period - Delivery Start --></label>
+        <name>PMC_CPQ_HarvestDeliveryStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Harvest Period --></label>
+        <name>PMC_CPQ_HarvestPeriod__c</name>
+        <picklistValues>
+            <masterLabel>Future</masterLabel>
+            <translation><!-- Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Present</masterLabel>
+            <translation><!-- Present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special</masterLabel>
+            <translation><!-- Special --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- In Forecast --></label>
+        <name>PMC_CPQ_InForecast__c</name>
+    </fields>
+    <fields>
+        <label><!-- In Sales Program --></label>
+        <name>PMC_CPQ_InSalesProgram__c</name>
+    </fields>
+    <fields>
+        <label><!-- Back End Incoterms2 --></label>
+        <name>PMC_CPQ_Incoterm2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms --></label>
+        <name>PMC_CPQ_Incoterms1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms Before Amend --></label>
+        <name>PMC_CPQ_IncotermsBeforeAmend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industrialization --></label>
+        <name>PMC_CPQ_Industrialization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest Fees --></label>
+        <name>PMC_CPQ_InterestFees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days to customer Instalment Calculation --></label>
+        <name>PMC_CPQ_InterestPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest Value --></label>
+        <name>PMC_CPQ_Interest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>PMC_CPQ_IsDeleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is New --></label>
+        <name>PMC_CPQ_IsNew__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsQuantityChanged --></label>
+        <name>PMC_CPQ_IsQuantityChanged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quantity Updated --></label>
+        <name>PMC_CPQ_IsQuantityUpdated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Priced Date --></label>
+        <name>PMC_CPQ_LastPricedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Product Customer Price --></label>
+        <name>PMC_CPQ_LastProductCustomerPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Quantity --></label>
+        <name>PMC_CPQ_Last_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Transacted Price --></label>
+        <name>PMC_CPQ_LasttransactedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Quote Line ID --></label>
+        <name>PMC_CPQ_LegacyQuoteLineID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer PO # --></label>
+        <name>PMC_CPQ_LinePONumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Total Price --></label>
+        <name>PMC_CPQ_LineTotalPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- List CFR (USD) --></label>
+        <name>PMC_CPQ_ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price+Discount/Markup --></label>
+        <name>PMC_CPQ_ListPriceDiscountMarkup__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price (Original) --></label>
+        <name>PMC_CPQ_ListPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>PMC_CPQ_Location__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Margin Adjustment --></label>
+        <name>PMC_CPQ_MarginAdjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement Margin Before Amend --></label>
+        <name>PMC_CPQ_MarginBeforeAmend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margin --></label>
+        <name>PMC_CPQ_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Adjustment --></label>
+        <name>PMC_CPQ_MarketAdjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Group --></label>
+        <name>PMC_CPQ_MaterialGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Price Adjustment --></label>
+        <name>PMC_CPQ_MinimumPriceAdjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- MoT &amp; Service Type --></label>
+        <name>PMC_CPQ_MoT_Service_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the appropriate mode from the available options to track and manage logistics effectively --></help>
+        <label><!-- MoT --></label>
+        <name>PMC_CPQ_ModeofTransportation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mosaic Option to Ship --></label>
+        <name>PMC_CPQ_MosaicOptiontoShip__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOT Prepay Permutation --></label>
+        <name>PMC_CPQ_MotPrePay__c</name>
+    </fields>
+    <fields>
+        <label><!-- NA Line Total Price Formula --></label>
+        <name>PMC_CPQ_NALineTotalPriceFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Price --></label>
+        <name>PMC_CPQ_NetTotalPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Unit Price (Custom Formula) --></label>
+        <name>PMC_CPQ_NetUnitPriceCustomFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Unit Price --></label>
+        <name>PMC_CPQ_NetUnitPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Netback --></label>
+        <name>PMC_CPQ_Netback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nitrogen % --></label>
+        <name>PMC_CPQ_Nitrogen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Rail Cars --></label>
+        <name>PMC_CPQ_NumberofRailCars__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpportunityLineItemId --></label>
+        <name>PMC_CPQ_OpportunityLineItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Quantity --></label>
+        <name>PMC_CPQ_OriginalQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Quote Replacement Margin --></label>
+        <name>PMC_CPQ_OriginalQuoteReplacementMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pack Type --></label>
+        <name>PMC_CPQ_PackType__c</name>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation><!-- Bulk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packed</masterLabel>
+            <translation><!-- Packed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Packaging Type --></label>
+        <name>PMC_CPQ_PackageType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Date --></label>
+        <name>PMC_CPQ_PaymentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms Approval Required --></label>
+        <name>PMC_CPQ_PaymentTermsApprovalRequired__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the agreed-upon conditions and timeframe for payment in this transaction. --></help>
+        <label><!-- Payment Terms --></label>
+        <name>PMC_CPQ_PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>05 Days - Document Lock Date</masterLabel>
+            <translation><!-- 05 Days - Document Lock Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Invoicing Date</masterLabel>
+            <translation><!-- 2 Installments From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Next Month Invoicing Date</masterLabel>
+            <translation><!-- 2 Installments From Next Month Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Invoicing Date</masterLabel>
+            <translation><!-- 3 Installments From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Next Month Invoicing Date</masterLabel>
+            <translation><!-- 3 Installments From Next Month Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Installments From Invoicing Date</masterLabel>
+            <translation><!-- 4 Installments From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Doc - 60 Days From BL</masterLabel>
+            <translation><!-- Cash Against Doc - 60 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents</masterLabel>
+            <translation><!-- Cash Against Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 10 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 10 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 120 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 120 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 15 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 15 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 180 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 180 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 30 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 30 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 45 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 45 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 5 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 5 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 7 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 7 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 90 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 90 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C At Sight</masterLabel>
+            <translation><!-- Confirmed L/C At Sight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 10th Of Following Quarter</masterLabel>
+            <translation><!-- Due 10th Of Following Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 1st Of Following Month</masterLabel>
+            <translation><!-- Due 1st Of Following Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day - Next 3rd Month</masterLabel>
+            <translation><!-- First Day - Next 3rd Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Date</masterLabel>
+            <translation><!-- Fixed Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 1 Day - From Invoicing Date</masterLabel>
+            <translation><!-- Net 1 Day - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 10 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days From First Day Next Month</masterLabel>
+            <translation><!-- Net 10 Days From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 105 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 105 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 120 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 14 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 14 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 15 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 From First Day Next Month</masterLabel>
+            <translation><!-- Net 15 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 150 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 150 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 17 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 17 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 180 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 180 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 2 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 2 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 20 From First Day Next Month</masterLabel>
+            <translation><!-- Net 20 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 21 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 21 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 210 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 210 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 270 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 270 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 28 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 28 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 29 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 29 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 3 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 3 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 30 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 From First Day Next Month</masterLabel>
+            <translation><!-- Net 30 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 31 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 31 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 35 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 35 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 42 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 42 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 45 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 60 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 7 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 7 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 70 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 70 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 75 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 75 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 80 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 80 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 84 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 84 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 90 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation><!-- Prepayment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- % Qty --></label>
+        <name>PMC_CPQ_PercentageOfQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permitted Quantity --></label>
+        <name>PMC_CPQ_PermittedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phosphorous % --></label>
+        <name>PMC_CPQ_Phosphorous__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placeholder Margin --></label>
+        <name>PMC_CPQ_PlaceholderMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port Detail --></label>
+        <name>PMC_CPQ_PortDetail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port Expense --></label>
+        <name>PMC_CPQ_PortExpense__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port Selection --></label>
+        <name>PMC_CPQ_PortSelection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potassium % --></label>
+        <name>PMC_CPQ_Potassium__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prepay Indicator (depends on Payment Terms) --></help>
+        <label><!-- Prepay --></label>
+        <name>PMC_CPQ_Prepay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous List Price --></label>
+        <name>PMC_CPQ_PreviousListPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Sales Price --></label>
+        <name>PMC_CPQ_PreviousSalesPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Adjustment BR --></label>
+        <name>PMC_CPQ_PriceAdjustmentBR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Adjustment NA --></label>
+        <name>PMC_CPQ_PriceAdjustmentNA__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Type --></label>
+        <name>PMC_CPQ_PriceBookValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price By Date Display --></label>
+        <name>PMC_CPQ_PriceByDateDisplay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price By Date --></label>
+        <name>PMC_CPQ_PriceByDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Due Date --></label>
+        <name>PMC_CPQ_PriceDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ceiling Price --></label>
+        <name>PMC_CPQ_PriceGuidanceCeiling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>PMC_CPQ_PriceGuidanceFloor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Guidance Last --></label>
+        <name>PMC_CPQ_PriceGuidanceLast__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Guidance Net --></label>
+        <name>PMC_CPQ_PriceGuidanceNet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Price --></label>
+        <name>PMC_CPQ_PriceGuidanceTarget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Indicator --></label>
+        <name>PMC_CPQ_PriceIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Override --></label>
+        <name>PMC_CPQ_PriceOverride__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Price Calculation --></label>
+        <name>PMC_CPQ_PricingFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Availability --></label>
+        <name>PMC_CPQ_ProductAvailability__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductLocation-Location(Backend) --></label>
+        <name>PMC_CPQ_ProductLocationLocationBackend__c</name>
+        <relationshipLabel><!-- CPQ Quote Lines (ProductLocation-Location(Backend)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Location --></label>
+        <name>PMC_CPQ_ProductLocation__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Location Indicator --></label>
+        <name>PMC_CPQ_ProductLocatorInd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product PackType Indicator --></label>
+        <name>PMC_CPQ_ProductPackTypeIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product PackageType Indicator --></label>
+        <name>PMC_CPQ_ProductPackageTypeIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Segment --></label>
+        <name>PMC_CPQ_ProductSegment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>PMC_CPQ_ProductType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Types --></label>
+        <name>PMC_CPQ_ProductTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publication Price --></label>
+        <name>PMC_CPQ_PublicationPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Approved Extractor --></label>
+        <name>PMC_CPQ_QuoteApprovedExtractor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Classification Ext --></label>
+        <name>PMC_CPQ_QuoteClassificationExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Classification --></label>
+        <name>PMC_CPQ_QuoteClassification__c</name>
+        <picklistValues>
+            <masterLabel>Bid</masterLabel>
+            <translation><!-- Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deal</masterLabel>
+            <translation><!-- Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quote Customer Segment Extractor --></label>
+        <name>PMC_CPQ_QuoteCustomerSegmentExtractor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Identifier --></label>
+        <name>PMC_CPQ_QuoteLineIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Self Id --></label>
+        <name>PMC_CPQ_QuoteLineSelfId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line Self Lookup --></label>
+        <name>PMC_CPQ_QuoteLineSelfLookupBackend__c</name>
+        <relationshipLabel><!-- CPQ Quote Lines (Quote Line Self Lookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Record Sub-Type Extractor --></label>
+        <name>PMC_CPQ_QuoteRecordSubTypeExtractor__c</name>
+    </fields>
+    <fields>
+        <help><!-- adding helptext for poc --></help>
+        <label><!-- Business Type --></label>
+        <name>PMC_CPQ_QuoteRecordSubType__c</name>
+        <picklistValues>
+            <masterLabel>B2B - Feed</masterLabel>
+            <translation><!-- B2B - Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B - Fertilizer</masterLabel>
+            <translation><!-- B2B - Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B - Potash</masterLabel>
+            <translation><!-- B2B - Potash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B - Specialties</masterLabel>
+            <translation><!-- B2B - Specialties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C - Fertilizer</masterLabel>
+            <translation><!-- B2C - Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C - Paraguay</masterLabel>
+            <translation><!-- B2C - Paraguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Products</masterLabel>
+            <translation><!-- Co-Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feed</masterLabel>
+            <translation><!-- Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fertilizer</masterLabel>
+            <translation><!-- Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Material</masterLabel>
+            <translation><!-- Raw Material --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quote Record Type Name Ext --></label>
+        <name>PMC_CPQ_QuoteRecordTypeNameExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Record Type --></label>
+        <name>PMC_CPQ_QuoteRecordType__c</name>
+        <picklistValues>
+            <masterLabel>Domestic NA</masterLabel>
+            <translation><!-- Domestic NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic SA</masterLabel>
+            <translation><!-- Domestic SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Distribution</masterLabel>
+            <translation><!-- International Distribution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quote Region Extractor --></label>
+        <name>PMC_CPQ_QuoteRegionExtractor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Region --></label>
+        <name>PMC_CPQ_QuoteRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Sales Agreement Extractor --></label>
+        <name>PMC_CPQ_QuoteSalesAgreementExtractor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Status Extractor --></label>
+        <name>PMC_CPQ_QuoteStatusExtractor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Validity Date --></label>
+        <name>PMC_CPQ_QuoteValidityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 1 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial1ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 1 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial1SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 2 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial2ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 2 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial2SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 3 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial3ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 3 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial3SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 4 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial4ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 4 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial4SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 5 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial5ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 5 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial5SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 6 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial6ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 6 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial6SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 7 List CFR --></label>
+        <name>PMC_CPQ_RawMaterial7ListCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material 7 Sold CFR --></label>
+        <name>PMC_CPQ_RawMaterial7SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 1 --></label>
+        <name>PMC_CPQ_RawMaterialName1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 2 --></label>
+        <name>PMC_CPQ_RawMaterialName2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 3 --></label>
+        <name>PMC_CPQ_RawMaterialName3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 4 --></label>
+        <name>PMC_CPQ_RawMaterialName4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 5 --></label>
+        <name>PMC_CPQ_RawMaterialName5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 6 --></label>
+        <name>PMC_CPQ_RawMaterialName6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Name 7 --></label>
+        <name>PMC_CPQ_RawMaterialName7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 1 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 2 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 3 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 4 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 5 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 6 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Material Quantity 7 --></label>
+        <name>PMC_CPQ_RawMaterialQuantity7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement Cost --></label>
+        <name>PMC_CPQ_ReplacementCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement Margin (USD) --></label>
+        <name>PMC_CPQ_ReplacementMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Road Distance --></label>
+        <name>PMC_CPQ_RoadDistance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Agreement Availability --></label>
+        <name>PMC_CPQ_SalesAgreementAvailability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area Backend --></label>
+        <name>PMC_CPQ_SalesAreaBackend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>PMC_CPQ_SalesArea__c</name>
+        <relationshipLabel><!-- CPQ Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Org --></label>
+        <name>PMC_CPQ_SalesOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipTo Link --></label>
+        <name>PMC_CPQ_ShipToLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To --></label>
+        <name>PMC_CPQ_ShipTo__c</name>
+        <relationshipLabel><!-- Quote Lines (Ship To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Classification that determines the method of Shipping used for transporting the goods. --></help>
+        <label><!-- Shipping Type --></label>
+        <name>PMC_CPQ_ShippingType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold CFR (USD) --></label>
+        <name>PMC_CPQ_SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To --></label>
+        <name>PMC_CPQ_SoldToShipToJunction__c</name>
+        <relationshipLabel><!-- CPQ Quote Lines (Sold-to &amp; Ship-to Account Junction) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subtotal --></label>
+        <name>PMC_CPQ_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Discount Generic Rate --></label>
+        <name>PMC_CPQ_TaxDiscountGenericRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Waiver --></label>
+        <name>PMC_CPQ_TaxWaiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tolerance Comments --></label>
+        <name>PMC_CPQ_ToleranceComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tolerance --></label>
+        <name>PMC_CPQ_Tolerance__c</name>
+        <picklistValues>
+            <masterLabel>+/- 10% Buyers Option</masterLabel>
+            <translation><!-- +/- 10% Buyers Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+/- 10% Shippers Option</masterLabel>
+            <translation><!-- +/- 10% Shippers Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+/- 5% Buyers Option</masterLabel>
+            <translation><!-- +/- 5% Buyers Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+/- 5% Shippers Option</masterLabel>
+            <translation><!-- +/- 5% Shippers Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tolerance on Quantity --></label>
+        <name>PMC_CPQ_ToleranceonQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- UoM --></label>
+        <name>PMC_CPQ_UnitofMeasure__c</name>
+    </fields>
+    <fields>
+        <label><!-- VCO Margin (USD) --></label>
+        <name>PMC_CPQ_VCOAdjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Region --></label>
+        <name>PMC_CPQ_VCODeliveryRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- VCO Intercompany Plant --></label>
+        <name>PMC_CPQ_VCOIntercompanyPlant__c</name>
+        <relationshipLabel><!-- Quote Lines (VCO Intercompany Plant) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- VCO Quotation --></label>
+        <name>PMC_CPQ_VCOQuotation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Window End Date --></label>
+        <name>PMC_CPQ_ValidEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Window Start Date --></label>
+        <name>PMC_CPQ_ValidStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variation of CFR --></label>
+        <name>PMC_CPQ_VariationofCFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potash Discount --></label>
+        <name>PMC_CPQ_VolumeDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms2 --></label>
+        <name>PMC_CPQ_frontendIncoterms2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QuoteID --></label>
+        <name>PMC_DH_QuoteID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account UOM Converted Quantity --></label>
+        <name>PMC_SS_AccountUOMConvertedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity (Account’s UoM) --></label>
+        <name>PMC_SS_QuantityAccountsUoM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>PMC_SS_UnitOfMeasure__c</name>
+        <relationshipLabel><!-- CPQ Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ProductLocation-Location(Backend)Formula --></label>
+        <name>ProductLocation_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Check --></label>
+        <name>Quantity_Check__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field captures the record type for the quote line --></help>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Co-Products</masterLabel>
+            <translation><!-- Co-Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commerce</masterLabel>
+            <translation><!-- Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD</masterLabel>
+            <translation><!-- FPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feed</masterLabel>
+            <translation><!-- Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fertilizer</masterLabel>
+            <translation><!-- Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non FPD</masterLabel>
+            <translation><!-- Non FPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Materials</masterLabel>
+            <translation><!-- Raw Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Zusätzlicher Kundenrabatt, der in Form eines absoluten Betrags für diesen Belegposten gewährt wird.</help>
+        <label><!-- Additional Disc. (Amt) --></label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtwert zusätzlicher Rabatte, die für diesen Belegposten gewährt wurden. Als zusätzlicher Rabatt gilt laut Definition ein Rabatt, der zusätzlich zu Mengenrabatten oder ausgehandelten Preisen gewährt wird.</help>
+        <label><!-- Additional Disc. --></label>
+        <name>SBQQ__AdditionalDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Zusätzliche Menge für dieses Produkt, die bei der Berechnung des Mengenrabatts berücksichtigt wird</help>
+        <label><!-- Additional Quantity --></label>
+        <name>SBQQ__AdditionalQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob der in dieser Zeile angegebene Vermögenswert erstattet werden kann.</help>
+        <label><!-- Allow Asset Refunds --></label>
+        <name>SBQQ__AllowAssetRefund__c</name>
+    </fields>
+    <fields>
+        <help>Wenn Produkte in Losen verkauft werden, wird hier die Menge je Los gespeichert, die standardmäßig aus dem Produkt übernommen wird.</help>
+        <label><!-- Batch Quantity --></label>
+        <name>SBQQ__BatchQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Legt die Abrechnungshäufigkeit fest.</help>
+        <label><!-- Billing Frequency --></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help>Abrechnungsart = Zeitpunkt der Abrechnung. Bei Abrechnung im Voraus werden Kunden Produkte oder Services vor Lieferung/Leistung in Rechnung gestellt. Bei rückwirkender Abrechnung werden Produkte oder Services den Kunden nach Lieferung/Leistung berechnet.</help>
+        <label><!-- Billing Type --></label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help>Weisen Sie einem Produkt einen Festpreis auf der Basis der Menge bzw. des Mengenbereichs zu. Dies überschreibt die automatische Berechnung nach der Formel Menge x Stückpreis.</help>
+        <label><!-- Block Price --></label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, ob dieser Belegposten ein Paket darstellt, das heißt, ob er andere Belegposten in diesem Angebot beinhaltet.</help>
+        <label><!-- Package --></label>
+        <name>SBQQ__Bundle__c</name>
+    </fields>
+    <fields>
+        <help>Bei Posten mit berechneten Mengen enthält dieses Feld die ursprüngliche Menge, die der Benutzer eingegeben hat.</help>
+        <label><!-- Original Quantity --></label>
+        <name>SBQQ__BundledQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, dass das Produkt in diesem Belegposten mit einem anderen Produkt in diesem Angebot in einem Paket gebündelt ist. Bei in Paketen gebündelten Belegposten lautet der Preis Null und die Änderung von Preis oder Menge ist nicht möglich.</help>
+        <label><!-- Bundled --></label>
+        <name>SBQQ__Bundled__c</name>
+    </fields>
+    <fields>
+        <help>Kennzeichnet diese Zeile als automatisch ausgewählte Option eines Upgrande-Bündels.</help>
+        <label><!-- Carry-Over Line --></label>
+        <name>SBQQ__CarryoverLine__c</name>
+    </fields>
+    <fields>
+        <help>Die Art der Produktkosten. Dies ist ein Systemfeld, das vom zugeordneten Produkt abgeleitet wird.</help>
+        <label><!-- Charge Type --></label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtkosten der Komponenten in diesem Paket.</help>
+        <label><!-- Component Cost --></label>
+        <name>SBQQ__ComponentCost__c</name>
+    </fields>
+    <fields>
+        <help>Legt einen zusätzlichen Rabatt für diese Komponente fest, der zum Rabatt für das übergeordnete Paket hinzukommt.</help>
+        <label><!-- Component Discounted By Package --></label>
+        <name>SBQQ__ComponentDiscountedByPackage__c</name>
+    </fields>
+    <fields>
+        <help>Listengesamtpreis von Komponenten in dieser Konfiguration. Dieses Feld wird nur ausgefüllt, wenn dieser Belegposten ein konfigurierbares Produkt referenziert.</help>
+        <label><!-- Component List Total --></label>
+        <name>SBQQ__ComponentListTotal__c</name>
+    </fields>
+    <fields>
+        <help>Der auf der Komponentenebene festgelegte Prozentsatz vom Gesamtumfang. Dieses Feld überschreibt den aus der Produktoption übernommenen Abonnementumfang.</help>
+        <label><!-- Component Percent of Total Scope --></label>
+        <name>SBQQ__ComponentSubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Components</masterLabel>
+            <translation>Komponenten</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entire Hierarchy</masterLabel>
+            <translation>Gesamte Hierarchie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package</masterLabel>
+            <translation>Paket</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package &amp; Components</masterLabel>
+            <translation>Paket und Komponenten</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Gesamtbetrag von Komponenten in dieser Konfiguration. Dieses Feld wird nur ausgefüllt, wenn dieser Belegposten ein konfigurierbares Produkt referenziert.</help>
+        <label><!-- Component Net Total --></label>
+        <name>SBQQ__ComponentTotal__c</name>
+    </fields>
+    <fields>
+        <help>Legt als Komponentenaufschlag den Aufschlag des übergeordneten Pakets fest. Der Aufschlag gilt nur für Produkte mit mehreren Segmenten.</help>
+        <label><!-- Component Uplifted By Package --></label>
+        <name>SBQQ__ComponentUpliftedByPackage__c</name>
+    </fields>
+    <fields>
+        <help>Gibt die Sichtbarkeit des Komponenten-Belegpostens an.</help>
+        <label><!-- Component Visibility --></label>
+        <name>SBQQ__ComponentVisibility__c</name>
+    </fields>
+    <fields>
+        <help>Der Rabatt wird anhand der Menge zusammengesetzt (historisch).</help>
+        <label><!-- Compound Discount (%) --></label>
+        <name>SBQQ__CompoundDiscountRate__c</name>
+    </fields>
+    <fields>
+        <help>Kennzeichen, das anzeigt, dass dieser Angebotsbelegposten konfiguriert werden muss. Kann in benutzerdefiniertem Code verwendet werden, um anzufordern, dass dieses Produkt neu konfiguriert wird.</help>
+        <label><!-- Configuration Required --></label>
+        <name>SBQQ__ConfigurationRequired__c</name>
+    </fields>
+    <fields>
+        <help>Vertragspreis, wenn für das Produkt die für den Opportunity-Account ausgehandelten Preise gelten sollen. Vertragspreise stehen im Account zur Verfügung und können auf jedes beliebige Produkt in jedem beliebigen Preisbuch angewandt werden.</help>
+        <label><!-- Contracted Price --></label>
+        <name>SBQQ__ContractedPrice__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, ob die Kosten bei diesem Belegposten bearbeitet werden können.</help>
+        <label><!-- Cost Editable --></label>
+        <name>SBQQ__CostEditable__c</name>
+    </fields>
+    <fields>
+        <help>Kostendatensatz für diesen Belegposten.</help>
+        <label><!-- Cost --></label>
+        <name>SBQQ__Cost__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Kundenstückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Dies ist der Nettostückpreis ohne Partnerrabatte.</help>
+        <label><!-- Customer Unit Price --></label>
+        <name>SBQQ__CustomerPrice__c</name>
+    </fields>
+    <fields>
+        <help>Kundengesamtpreis für diesen Angebotsbelegposten. Dies ist der Nettogesamtpreis ohne Partnerrabatte.</help>
+        <label><!-- Customer Total --></label>
+        <name>SBQQ__CustomerTotal__c</name>
+    </fields>
+    <fields>
+        <help>Laufzeit des Abonnements, die nur gilt, wenn das Produkt ein Abonnement ist. Der Wert wird beim ersten Erstellen des Belegpostens aus dem Feld &quot;Abonnementlaufzeit&quot; des zugehörigen Produkts kopiert.</help>
+        <label><!-- Default Subscription Term --></label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Beschreibung für diesen Belegposten.</help>
+        <label><!-- Description --></label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help>Dimensionen in einem Produkt, bei dem Angebote für mehrere Dimensionen gelten, bei denen der Preis jedes Segments separat festgelegt wird. Jedes Produkt kann mehrere Preisdimensionen enthalten. Preisdimensionen von einem Jahr gelten als Abonnements.</help>
+        <label><!-- Price Dimension --></label>
+        <name>SBQQ__Dimension__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Art der Rabattregelung. Wird aus dem Feld &quot;Typ&quot; in der verknüpften Rabattregelung kopiert.</help>
+        <label><!-- Discount Schedule Type --></label>
+        <name>SBQQ__DiscountScheduleType__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>Bereich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation>Durchschnitt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Rabatte in % oder als Betrag auf Basis von gekaufter Menge oder Laufzeit angeben. Mengen-/Laufzeitbereiche in unterschiedlichen Rabattklassen festlegen. Rabattgewährung auf Listenpreis und Speicherung des resultierenden Gesamtwerts als &quot;Regulärer Preis&quot;.</help>
+        <label><!-- Discount Schedule --></label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Rabattklasse, die von diesem Belegposten verwendet wird. Dieses Feld wird nur ausgefüllt, wenn ein Mengenrabatt angewandt wurde und der Rabattregelungstyp &quot;Bereich&quot; lautet.</help>
+        <label><!-- Discount Tier --></label>
+        <name>SBQQ__DiscountTier__c</name>
+        <relationshipLabel><!-- Quote Lines (Volume Discounted) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Zusätzlicher Kundenrabatt, der in Form eines Prozentsatzes für diesen Belegposten gewährt wird.</help>
+        <label><!-- Additional Disc. (%) --></label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help>Dieser Rabatt wird auf den Partnerpreis angewandt und spiegelt sich im Nettopreis wider.</help>
+        <label><!-- Distributor Discount --></label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Bezeichnet Funktions- und dynamische Optionen für diesen Belegposten.</help>
+        <label><!-- Dynamic Option ID --></label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields>
+    <fields>
+        <help>Das früheste gültige Startdatum für diesen geänderten Angebotsbelegposten.</help>
+        <label><!-- Earliest Valid Amendment Start Date --></label>
+        <name>SBQQ__EarliestValidAmendmentStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Effektives Enddatum für dieses Abonnement.</help>
+        <label><!-- Effective End Date --></label>
+        <name>SBQQ__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Effektive Menge, die zum Berechnen der Gesamtwerte verwendet wird. Ist mit der Menge identisch, es sei denn, für das Produkt gilt ein Zonenpreis, eine Rabattregelung vom Typ &quot;Durchschnitt&quot; oder ein bestehendes Abonnement.</help>
+        <label><!-- Effective Quantity --></label>
+        <name>SBQQ__EffectiveQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Effektives Startdatum für dieses Abonnement.</help>
+        <label><!-- Effective Start Date --></label>
+        <name>SBQQ__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Die effektive Laufzeit dieses Abonnements.</help>
+        <label><!-- Effective Subscription Term --></label>
+        <name>SBQQ__EffectiveSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Datum. an dem der Service, für den dieser Belegposten steht, endet (gilt nur, wenn das Produkt ein Abonnement ist).</help>
+        <label><!-- End Date --></label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, dass der Kunde das Produkt bereits besitzt. Wird in der Regel für Produkte mit Optionen beim Erstellen von Add-on-Angeboten verwendet. Das Produkt wird nur im Angebot aufgeführt, um den Konfigurator zu steuern.</help>
+        <label><!-- Existing --></label>
+        <name>SBQQ__Existing__c</name>
+    </fields>
+    <fields>
+        <help>Favorit, zu dem dieser Angebotsbelegposten gehört.</help>
+        <label><!-- Favorite --></label>
+        <name>SBQQ__Favorite__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Generiert einen Vertragspreis auf der Basis des angepassten Angebotsbelegpostens, sofern gekennzeichnet.</help>
+        <label><!-- Generate Contracted Price --></label>
+        <name>SBQQ__GenerateContractedPrice__c</name>
+        <picklistValues>
+            <masterLabel>Discount Schedule</masterLabel>
+            <translation>Rabattregelung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Generate</masterLabel>
+            <translation>Nicht generieren</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Preis</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Betrag des Bruttogewinns für diesen Belegposten.</help>
+        <label><!-- Gross Profit --></label>
+        <name>SBQQ__GrossProfit__c</name>
+    </fields>
+    <fields>
+        <help>Gruppe, zu der dieser Belegposten ggf. gehört.</help>
+        <label><!-- Group --></label>
+        <name>SBQQ__Group__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Idealer Rabatt im niedrigen Bereich auf Grundlage bisheriger Umsätze. Wenn Vertriebsmitarbeiter diese Preisempfehlung annehmen, wendet Salesforce CPQ zum Erreichen dieses Preises einen Rabatt an.</help>
+        <label><!-- Guidance --></label>
+        <name>SBQQ__Guidance__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob dieser Posten über mindestens eine Verbrauchsregelung verfügt.</help>
+        <label><!-- Has Consumption Schedules --></label>
+        <name>SBQQ__HasConsumptionSchedule__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ober dieser Belegposten in generierten PDF-Dokumenten ausgeblendet wird.</help>
+        <label><!-- Hidden --></label>
+        <name>SBQQ__Hidden__c</name>
+    </fields>
+    <fields>
+        <help>Wird intern von der Anwendungslogik gesetzt, wenn ein Belegposten in unvollst. Datenb. gesp. wird, wie z. B. beim Preisregel-Auswerten. Feld zur Vermeid. vorzeit. Auslösung in Val‘ungsregeln testen. NICHT zum Seitenlayout hinzufügen o. anderweitig ändern.</help>
+        <label><!-- Incomplete --></label>
+        <name>SBQQ__Incomplete__c</name>
+    </fields>
+    <fields>
+        <help>Listenstückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Der Listenpreis stammt aus dem Preisbuch.</help>
+        <label><!-- List Unit Price --></label>
+        <name>SBQQ__ListPrice__c</name>
+    </fields>
+    <fields>
+        <help>Listengesamtpreis für diesen Angebotsbelegposten.</help>
+        <label><!-- List Total --></label>
+        <name>SBQQ__ListTotal__c</name>
+    </fields>
+    <fields>
+        <help>Aufschlagbetrag für diesen Belegposten.</help>
+        <label><!-- Markup (Amt) --></label>
+        <name>SBQQ__MarkupAmount__c</name>
+    </fields>
+    <fields>
+        <help>Aufschlag für diesen Belegposten, angegeben als Prozentsatz.</help>
+        <label><!-- Markup (%) --></label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help>Aufschlagbetrag für diesen Posten. Dieser Wert wird automatisch berechnet, indem der Aufschlagsatz bzw. der absolute Aufschlagbetrag auf die Produktkosten angewandt wird.</help>
+        <label><!-- Markup --></label>
+        <name>SBQQ__Markup__c</name>
+    </fields>
+    <fields>
+        <help>Maximaler Listenstückpreis für dieses Produkt. Wird verwendet, um eine Listenpreisobergrenze für Produkte mit dynamisch berechneten Listenpreisen festzulegen.</help>
+        <label><!-- Maximum List Unit Price --></label>
+        <name>SBQQ__MaximumPrice__c</name>
+    </fields>
+    <fields>
+        <help>Minimaler Listenstückpreis für dieses Produkt. Wird verwendet, um eine Listenpreisuntergrenze für Produkte mit dynamisch berechneten Listenpreisen festzulegen.</help>
+        <label><!-- Minimum List Unit Price --></label>
+        <name>SBQQ__MinimumPrice__c</name>
+    </fields>
+    <fields>
+        <help>Nettostückpreis für das Produkt, das mit diesem Belegposten angeboten wird.</help>
+        <label><!-- Net Unit Price --></label>
+        <name>SBQQ__NetPrice__c</name>
+    </fields>
+    <fields>
+        <help>Nettogesamtpreis für diesen Angebotsbelegposten.</help>
+        <label><!-- Net Total --></label>
+        <name>SBQQ__NetTotal__c</name>
+    </fields>
+    <fields>
+        <help>Kennzeichnet diesen Belegposten als nicht rabattfähig.</help>
+        <label><!-- Non Discountable --></label>
+        <name>SBQQ__NonDiscountable__c</name>
+    </fields>
+    <fields>
+        <help>Aktivieren Sie dieses Kontrollkästchen, um diesen Posten als nicht rabattfähig für Partner zu kennzeichnen.</help>
+        <label><!-- Non Partner Discountable --></label>
+        <name>SBQQ__NonPartnerDiscountable__c</name>
+    </fields>
+    <fields>
+        <help>Nummer, die die Position dieses Belegpostens innerhalb seiner Gruppe oder seines Angebots angibt.</help>
+        <label><!-- Number --></label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help>Rabatt, der für dieses Produkt gewährt wird, da es Teil eines Pakets ist.</help>
+        <label><!-- Option Discount (Amt) --></label>
+        <name>SBQQ__OptionDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Wenn dieser Belegposten für eine optionale SKU gilt, spiegelt dieses Feld den Rabatt wider, der möglicherweise für das Paket gewährt und auf die Option ausgeweitet wurde.</help>
+        <label><!-- Option Discount (%) --></label>
+        <name>SBQQ__OptionDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Gibt die Verschachtelungsebene dieser Option an (gilt nur für Belegposten, die aus Optionen erstellt werden).</help>
+        <label><!-- Option Level --></label>
+        <name>SBQQ__OptionLevel__c</name>
+    </fields>
+    <fields>
+        <help>Gibt den Optionstyp an, der aus der zugehörigen Produktoption kopiert wurde. Bestimmt, wie die Menge berechnet wird.</help>
+        <label><!-- Option Type --></label>
+        <name>SBQQ__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation>Zubehör</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation>Komponente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation>Zugehöriges Produkt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Kennzeichnet diesen Belegposten als optional. Optionale Belegposten zählen nicht zum Angebotsgesamtwert und werden auch nicht in die Opportunity übertragen.</help>
+        <label><!-- Optional --></label>
+        <name>SBQQ__Optional__c</name>
+    </fields>
+    <fields>
+        <help>Der ursprüngliche Stückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Der ursprüngliche Preis stammt aus dem Preisbuch.</help>
+        <label><!-- Original Price --></label>
+        <name>SBQQ__OriginalPrice__c</name>
+    </fields>
+    <fields>
+        <help>Die ID des ursprünglichen Angebotsbelegpostens, aus dem diese Zeile abgeleitet wurde.</help>
+        <label><!-- Original Quote Line Id --></label>
+        <name>SBQQ__OriginalQuoteLineId__c</name>
+    </fields>
+    <fields>
+        <help>Kosten für ein Stück des Produkts, das mit diesem Belegposten angeboten wird, ohne dass Kostenregelung zur Anwendung kamen.</help>
+        <label><!-- Original Unit Cost --></label>
+        <name>SBQQ__OriginalUnitCost__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtkosten für dieses Paket einschließlich der Kosten seiner Komponenten.</help>
+        <label><!-- Package Cost --></label>
+        <name>SBQQ__PackageCost__c</name>
+    </fields>
+    <fields>
+        <help>Listengesamtpreis dieses Pakets einschließlich seiner Komponenten.</help>
+        <label><!-- Package List Total --></label>
+        <name>SBQQ__PackageListTotal__c</name>
+    </fields>
+    <fields>
+        <help>Ein Code, der jede Komponente dieses Pakets basierend auf ihren Komponentencodes auflistet.</help>
+        <label><!-- Package Product Code --></label>
+        <name>SBQQ__PackageProductCode__c</name>
+    </fields>
+    <fields>
+        <help>Eine Beschreibung jeder Komponente in diesem Paket.</help>
+        <label><!-- Package Product Description --></label>
+        <name>SBQQ__PackageProductDescription__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtpreis dieses Pakets einschließlich seiner Komponenten.</help>
+        <label><!-- Package Total --></label>
+        <name>SBQQ__PackageTotal__c</name>
+    </fields>
+    <fields>
+        <help>Wenn Ihr Unternehmen Produkte über einen Channel/Vertragshändler vertreibt, kann ein Partnerrabatt auf ein Angebot oder einen einzelnen Belegposten gegeben werden. Partnerrabatte werden nach Abzug aller autom. u. nach Ermessen gewährten Rabatte angewandt.</help>
+        <label><!-- Partner Discount --></label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Stückpreis für Partner. Preis nach Partnerrabatt, aber vor Händlerrabatt.</help>
+        <label><!-- Partner Unit Price --></label>
+        <name>SBQQ__PartnerPrice__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtwert des Partnerrabatts.</help>
+        <label><!-- Partner Total --></label>
+        <name>SBQQ__PartnerTotal__c</name>
+    </fields>
+    <fields>
+        <help>Bei Auswahl dieser Option ersetzt dieser Wert den regulären Preis des vorherigen Segments, wenn der Aufschlag für dieses Segment berechnet wird.</help>
+        <label><!-- Previous Segment Regular Price --></label>
+        <name>SBQQ__PreviousSegmentPrice__c</name>
+    </fields>
+    <fields>
+        <help>Bei Auswahl dieser Option ersetzt dieser Wert den Aufschlag des vorherigen Segments, wenn der Aufschlag für dieses Segment berechnet wird.</help>
+        <label><!-- Previous Segment Uplift --></label>
+        <name>SBQQ__PreviousSegmentUplift__c</name>
+    </fields>
+    <fields>
+        <help>Kennzeichen, das angibt, ob der Preis für diesen Belegposten geändert werden kann.</help>
+        <label><!-- Price Editable --></label>
+        <name>SBQQ__PriceEditable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricebook Entry Id --></label>
+        <name>SBQQ__PricebookEntryId__c</name>
+    </fields>
+    <fields>
+        <help>Kennzeichen, das angibt, ob der Preis für diesen Belegposten geändert werden kann.</help>
+        <label><!-- Pricing Method Editable --></label>
+        <name>SBQQ__PricingMethodEditable__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, wie der Preis für diesen Belegposten berechnet wird: Bei &quot;Liste&quot; wird der Rabatt vom Listenpreis abgezogen, bei &quot;Kosten&quot; wird ein Aufschlag zu den Kosten addiert.</help>
+        <label><!-- Pricing Method --></label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation>Zone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation>Kosten</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Benutzerdefiniert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Liste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation>Prozent vom Gesamtwert</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Kombinierte Menge dieses Produkts aus vorherigen Käufen.</help>
+        <label><!-- Prior Quantity --></label>
+        <name>SBQQ__PriorQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Code für das Produkt, das von diesem Belegposten referenziert wird.</help>
+        <label><!-- Product Code --></label>
+        <name>SBQQ__ProductCode__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, wie Sie dies innerhalb von Salesforce kategorisieren/gruppieren/organisieren (als neue oder bestehende Produktfamilie). Dieses Feld kann zudem bei der Produktauswahl verwendet werden, um nach dem richtigen Produkt bzw. der SKU zu filtern.</help>
+        <label><!-- Product Family --></label>
+        <name>SBQQ__ProductFamily__c</name>
+    </fields>
+    <fields>
+        <help>Name für das Produkt, das von diesem Belegposten referenziert wird.</help>
+        <label><!-- Product Name --></label>
+        <name>SBQQ__ProductName__c</name>
+    </fields>
+    <fields>
+        <help>Die Produktoption, die diesen Belegposten erzeugt hat (sofern vorhanden).</help>
+        <label><!-- Product Option --></label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Legen Sie den Produktabonnementtyp des Angebotsbelegpostens fest.</help>
+        <label><!-- Product Subscription Type --></label>
+        <name>SBQQ__ProductSubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help>Produkt, das mit diesem Belegposten angeboten wird.</help>
+        <label><!-- Product --></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Berechnetes Verhältnis, das zum Berechnen des Zuteilungspreises verwendet wird.</help>
+        <label><!-- Prorate Multiplier --></label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help>Zugeteilter Listenstückpreis.</help>
+        <label><!-- Prorated List Price --></label>
+        <name>SBQQ__ProratedListPrice__c</name>
+    </fields>
+    <fields>
+        <help>Zugeteilter Preis für das Produkt, das mit diesem Belegposten angeboten wird. Dieser Preis unterscheidet sich nur vom Sonderpreis, wenn das Produkt ein Abonnement ist und der Belegposten zugeteilt wird.</help>
+        <label><!-- Prorated Unit Price --></label>
+        <name>SBQQ__ProratedPrice__c</name>
+    </fields>
+    <fields>
+        <help>Menge, für die das Angebot gilt.</help>
+        <label><!-- Quantity --></label>
+        <name>SBQQ__Quantity__c</name>
+    </fields>
+    <fields>
+        <help>Angebot, zu dem dieser Belegposten gehört.</help>
+        <label><!-- Quote --></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Stückpreis vor der Anwendung eines zusätzlichen Rabatts.</help>
+        <label><!-- Regular Unit Price --></label>
+        <name>SBQQ__RegularPrice__c</name>
+    </fields>
+    <fields>
+        <help>Stückpreis vor der Anwendung des zusätzlichen Rabatts multipliziert mit der Menge.</help>
+        <label><!-- Regular Total --></label>
+        <name>SBQQ__RegularTotal__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, dass dieser Belegposten ein Produkt darstellt, das verlängert wird. Dieses Feld sollte nicht geändert werden.</help>
+        <label><!-- Renewal --></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help>Vermögenswert, der verlängert wird, wenn dieser Belegosten eine Produktverlängerung darstellt.</help>
+        <label><!-- Renewed Asset --></label>
+        <name>SBQQ__RenewedAsset__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Abonnement, das von diesem Belegposten verlängert wird.</help>
+        <label><!-- Renewed Subscription --></label>
+        <name>SBQQ__RenewedSubscription__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, für welches andere Produkt in diesem Angebot dies erforderlich ist.</help>
+        <label><!-- Required By --></label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Bei Produkten mit mehreren Segmenten ist dies der Index, der die Position dieses Angebotsbelegpostens in der Segmenttabelle angibt.</help>
+        <label><!-- Segment Index --></label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help>Bei Produkten mit mehreren Segmenten ist dies ein freigegebener Schlüssel, mit dem Angebotsbelegposten mit mehreren Dimensionen zusammen gruppiert werden.</help>
+        <label><!-- Segment Key --></label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <help>Bei Produkten mit mehreren Segmenten ist dies die Bezeichnung der Spaltenüberschrift (z. B. &quot;Jahr 1&quot;), die mit diesem Posten verknüpft ist.</help>
+        <label><!-- Segment Label --></label>
+        <name>SBQQ__SegmentLabel__c</name>
+    </fields>
+    <fields>
+        <help>Quelle eines duplizierten Angebotsbelegpostens.</help>
+        <label><!-- Source --></label>
+        <name>SBQQ__Source__c</name>
+        <relationshipLabel><!-- Quote Lines (Source) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Name der Rabattklasse oder des Vertragspreises, die angewandt wurden, um den Sonderpreis für diesen Belegposten zu erhalten.</help>
+        <label><!-- Special Price Description --></label>
+        <name>SBQQ__SpecialPriceDescription__c</name>
+    </fields>
+    <fields>
+        <help>Speichert die Art von Sonderpreis, die für diesen Belegposten angeboten wurde. Wird nicht angegeben, bedeutet dies, dass kein Sonderpreis gilt.</help>
+        <label><!-- Special Price Type --></label>
+        <name>SBQQ__SpecialPriceType__c</name>
+        <picklistValues>
+            <masterLabel>Contracted Price</masterLabel>
+            <translation>Vertragspreis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Benutzerdefiniert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Vertragsverlängerung</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Sonderpreiseinheit für diesen Belegposten wie etwa Mengenrabatt oder Vertragspreis.</help>
+        <label><!-- Special Price --></label>
+        <name>SBQQ__SpecialPrice__c</name>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem das Abonnement für dieses Produkt beginnt.</help>
+        <label><!-- Start Date --></label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Liste von Vermögenswerten, die dieser Abonnement-Belegposten abdeckt. Ändern Sie diese Liste nur auf Anweisung.</help>
+        <label><!-- Subscribed Asset IDs --></label>
+        <name>SBQQ__SubscribedAssetIds__c</name>
+    </fields>
+    <fields>
+        <help>Bestimmt, ob &quot;Prozent vom Gesamtwert&quot; anhand der Listen- oder Nettopreise der Produkte berechnet wird.</help>
+        <label><!-- Percent of Total Base --></label>
+        <name>SBQQ__SubscriptionBase__c</name>
+    </fields>
+    <fields>
+        <help>Kategorie, die für das Produkt definiert wird, um Berechnungen von &quot;Prozent vom Gesamtwert&quot; auf bestimmte Produkte zu beschränken. Wird aus dem Produktdatensatz kopiert.</help>
+        <label><!-- Percent of Total Category --></label>
+        <name>SBQQ__SubscriptionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation>Hardware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation>Software</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Prozentanteil vom Gesamtwert, der beim Berechnen des Preises für diesen Belegposten verwendet werden soll.</help>
+        <label><!-- Percent of Total (%) --></label>
+        <name>SBQQ__SubscriptionPercent__c</name>
+    </fields>
+    <fields>
+        <help>Methode zur Berechnung des Abonnementpreises. Ein leeres Feld bedeutet, dass der Belegposten kein Abonnementprodukt ist.</help>
+        <label><!-- Subscription Pricing --></label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Price</masterLabel>
+            <translation>Festpreis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation>Prozent vom Gesamtwert</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Gibt an, wie &quot;Prozent vom Gesamtwert&quot;-Preise berechnet werden: Bei &quot;Angebot&quot; werden alle nicht abonnementbezogenen Produkte im Angebot verwendet, während bei &quot;Gruppe&quot; nur nicht abonnementbezogene Produkte derselben Gruppe berücksichtigt werden.</help>
+        <label><!-- Percent of Total Scope --></label>
+        <name>SBQQ__SubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>Gruppe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Angebot</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Preis des Zielprodukts, auf dessen Grundlage der Prozentanteil vom Gesamtwert berechnet werden soll.</help>
+        <label><!-- Percent of Total Target Price --></label>
+        <name>SBQQ__SubscriptionTargetPrice__c</name>
+    </fields>
+    <fields>
+        <help>Laufzeit für dieses Abonnement. Wenn das Produkt kein Abonnement ist, hat dieser Wert keine Auswirkung.</help>
+        <label><!-- Subscription Term --></label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Gibt den Abonnementtyp zum Bestimmen der Vertragspreise an.</help>
+        <label><!-- Subscription Type --></label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help>Legt den Steuercode für Besteuerungsregeln fest.</help>
+        <label><!-- Tax code --></label>
+        <name>SBQQ__TaxCode__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob dieses Produkt besteuert ist</help>
+        <label><!-- Taxable --></label>
+        <name>SBQQ__Taxable__c</name>
+    </fields>
+    <fields>
+        <help>Regelung für auf der Laufzeit basierende Rabatte. Bei der Einstellung &quot;Gruppe&quot; gilt der Rabattsatz für die Gruppenlaufzeit; bei &quot;Angebot&quot; gilt der Rabattsatz für die gesamte Angebotslaufzeit, unabhängig von den unterschiedlichen Laufzeiten Ihrer Gruppen.</help>
+        <label><!-- Term Discount Schedule --></label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel><!-- Quote Lines (Term Discouned) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Klasse innerhalb der Laufzeitrabattregelung, die zum Gewähren des Rabatts für diesen Belegposten verwendet wird.</help>
+        <label><!-- Term Discount Tier --></label>
+        <name>SBQQ__TermDiscountTier__c</name>
+        <relationshipLabel><!-- Quote Lines (Term Discounted) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Rabatt, der berechnet wird, indem die Abonnementlaufzeit im Rahmen der Laufzeitrabattregelung berücksichtigt wird.</help>
+        <label><!-- Term Discount --></label>
+        <name>SBQQ__TermDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtrabattbetrag für diesen Belegposten. Hierzu zählen Mengenrabatt, vertraglich vereinbarter Rabatt und zusätzlicher Rabatt.</help>
+        <label><!-- Total Discount (Amt) --></label>
+        <name>SBQQ__TotalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtrabatt für diesen Belegposten. Hierzu zählen Mengenrabatt, vertraglich vereinbarter Rabatt und zusätzlicher Rabatt.</help>
+        <label><!-- Total Discount (%) --></label>
+        <name>SBQQ__TotalDiscountRate__c</name>
+    </fields>
+    <fields>
+        <help>Kosten für ein Stück des Produkts, das in diesem Belegposten angeboten wird.</help>
+        <label><!-- Unit Cost --></label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields>
+    <fields>
+        <help>Der Nettopreis des einzelnen Belegposten über die gesamte Laufzeit.</help>
+        <label><!-- Unprorated Net Price --></label>
+        <name>SBQQ__UnproratedNetPrice__c</name>
+    </fields>
+    <fields>
+        <help>Vermögenswert, für den mit diesem Belegposten ein Upgrade durchgeführt wird. Bei der Vertragserstellung für das Angebot wird das Feld für das Nutzungsenddatum ausgefüllt, um anzugeben, dass der Vermögenswert nicht mehr genutzt wird.</help>
+        <label><!-- Upgraded Asset --></label>
+        <name>SBQQ__UpgradedAsset__c</name>
+        <relationshipLabel><!-- Quote Lines (Upgrade) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Anteil der vorherigen Menge dieses Belegpostens, für den ein Upgrade auf ein anderes Produkt vorgenommen wird.</help>
+        <label><!-- Upgraded Quantity --></label>
+        <name>SBQQ__UpgradedQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Abonnement, für das mit diesem Belegposten ein Upgrade durchgeführt wird. Bei der Vertragserstellung für das Angebot wird das Feld für das Beendigungsdatum dieses Abonnements ausgefüllt.</help>
+        <label><!-- Upgraded Subscription --></label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel><!-- Quote Lines (Upgrade) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Aufschlag (Betrag)&quot; wird als Währungsbetrag angegeben. Dieses Feld wird vom System berechnet, da der prozentuale Aufschlaganteil nur auf Produkte mit mehreren Segmenten angewandt werden kann.</help>
+        <label><!-- Uplift (Amt) --></label>
+        <name>SBQQ__UpliftAmount__c</name>
+    </fields>
+    <fields>
+        <help>Aufschlag als Prozentsatz des Vorjahrespreises. Eingabe des resultierenden Preises in das Feld &quot;Regulärer Preis&quot;. Aufschläge werden jedes Jahr erhoben. Auf das erste Jahr eines Abonnements kann kein Aufschlag erhoben werden.</help>
+        <label><!-- Uplift --></label>
+        <name>SBQQ__Uplift__c</name>
+    </fields>
+    <fields>
+        <help>Mengenrabatte als % vom Produktpreis auf Basis von gekaufter Menge oder Laufzeit angeben. Mengen- bzw. Laufzeitbereiche in unterschiedlichen Rabattklassen festlegen. Sie können auch Rabattregelungen auf die Abonnementlaufzeit anwenden.</help>
+        <label><!-- Volume Discount --></label>
+        <name>SBQQ__VolumeDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted Date --></label>
+        <name>SubmittedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted User --></label>
+        <name>SubmittedUser__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TestDeleteformula --></label>
+        <name>TestDeleteformula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test V Change in Qty --></label>
+        <name>Test_V_Change_in_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- check11 --></label>
+        <name>check11__c</name>
+    </fields>
+    <fields>
+        <label><!-- testValidation12 --></label>
+        <name>testValidation12__c</name>
+    </fields>
+    <fields>
+        <label><!-- testValidation --></label>
+        <name>testValidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- test picklist --></label>
+        <name>test_picklist__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name des Belegpostens</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Domestic SA --></label>
+        <name>PMC_CPQ_DomesticBR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Domestic NA --></label>
+        <name>PMC_CPQ_DomesticNA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- International --></label>
+        <name>PMC_CPQ_International</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- International Distribution --></label>
+        <name>PMC_CPQ_InternationalDistribution</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Freight value is required and should be more than 0 --></errorMessage>
+        <name>FreightPriceGreaterthan0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Freight value is required and should be more than 0 --></errorMessage>
+        <name>FreightPriceGreaterthan01</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Test message --></errorMessage>
+        <name>IF_Field_Blank_Test</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Error!! --></errorMessage>
+        <name>PMC_CLM_BusinessTypeCCC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Error!! --></errorMessage>
+        <name>PMC_CLM_CCCValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure the Commission value is set for all the line items, as Commission Agent is set at Quote --></errorMessage>
+        <name>PMC_CPQ_CommissionandCommissonAgent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Type is Required. --></errorMessage>
+        <name>PMC_CPQ_ContractTypeRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Crop Type is Required. --></errorMessage>
+        <name>PMC_CPQ_CropTypeRequiredForSA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivery Start Date and Delivery End Date is Required --></errorMessage>
+        <name>PMC_CPQ_DeliveryDateMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivery End Date should not be before the Delivery Start Date. --></errorMessage>
+        <name>PMC_CPQ_DeliveryStartDateBeforeEndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivery Start Date cannot be in the past. --></errorMessage>
+        <name>PMC_CPQ_DeliveryStartDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The ability to Quote FPDs is currently on hold. For more information, please reach out to a Product Manager --></errorMessage>
+        <name>PMC_CPQ_FPDToggleSwitch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Incoterms CPT is only Applicable for MOT Rail and Truck --></errorMessage>
+        <name>PMC_CPQ_IncotermCPTValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please kindly populate the Ship To field for the Non VCO Quote Lines --></errorMessage>
+        <name>PMC_CPQ_NonVCOQuoteShipTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pack Type is Mandatory --></errorMessage>
+        <name>PMC_CPQ_PackTypeMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Packaging type is mandatory for Pack type of Packed --></errorMessage>
+        <name>PMC_CPQ_PackageTypeMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Date cannot be in the past. --></errorMessage>
+        <name>PMC_CPQ_PaymentDateInPast</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Date is required when the Payment Method selected is &apos;Prepayment&apos; or &apos;Fixed Date&apos;. Payment Date must not be in the past --></errorMessage>
+        <name>PMC_CPQ_PaymentDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the Payment Date falls on a business day --></errorMessage>
+        <name>PMC_CPQ_PrePayPaymentDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Price By Date is required for FPD Contract Type --></errorMessage>
+        <name>PMC_CPQ_PriceByDateMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Price due date is mandatory for FPD contract --></errorMessage>
+        <name>PMC_CPQ_PriceDueDateMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not edit a Quote once it has been submitted for approval. If you wish to make any changes, click the &apos;Recall Approvals&apos; button on the Quote detail page --></errorMessage>
+        <name>PMC_CPQ_QuoteSubmittedForApproval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The discount entered is too large. Please adjust the discount so that the price is greater than or equal to the Floor Price --></errorMessage>
+        <name>PMC_CPQ_RejectionValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only edit the Quote Line when the Quote is in the Draft Status. Update the Quote Status to Draft to continue editing --></errorMessage>
+        <name>PMC_CPQ_RestrictAMonApprovedandAccepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have one or more Inactive, Restricted or Blocked product. Please remove all of them to proceed. --></errorMessage>
+        <name>PMC_CPQ_SalesOrgNotBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping Type is Mandatory for Porto Locations --></errorMessage>
+        <name>PMC_CPQ_ShippingTypeMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please populate the Delivery Region for the respective VCO Quote Lines --></errorMessage>
+        <name>PMC_CPQ_VCOQuoteDeliveryRegion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please inform the Shipping Instructions on the Quote before creating a Quote Line with Incoterms = CIF --></errorMessage>
+        <name>PMC_CPQ_ValidateCIF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Percentage must be between 0 and 100 --></errorMessage>
+        <name>Restrict_Quantity_Percentage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not specify additional discount as both percentage and absolute amount. --></errorMessage>
+        <name>SBQQ__Additional_discount_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The subscription term must be a positive number. --></errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not specify markup as both percentage and absolute amount. --></errorMessage>
+        <name>SBQQ__Markup_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is Recurring, a Billing Type must be selected. --></errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is One-Time, a Billing Frequency value cannot be selected. --></errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is One-Time or Usage, a Billing Type value cannot be selected. --></errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User cannot change the Accepted quote Field Value --></errorMessage>
+        <name>Test_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QuoteID length should be equals to 10! --></errorMessage>
+        <name>length10</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Preview_Approval --></label>
+        <name>Preview_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Recall_Approval --></label>
+        <name>Recall_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateQuoteFromQuoteLine --></label>
+        <name>SBQQ__CalculateQuoteFromQuoteLine</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_for_Approval --></label>
+        <name>Submit_for_Approval</name>
+    </webLinks>
+</CustomObjectTranslation>

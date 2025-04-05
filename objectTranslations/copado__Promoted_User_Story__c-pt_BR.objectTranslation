@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Promoted User Story --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Promoted User Story --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Dados da história de usuário promovida</label>
+        <name>copado__Promoted_User_Story_Datatable</name>
+    </fieldSets>
+    <fields>
+        <label>Promoção</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>Histórias de usuário promovidas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ativo / desatualizado</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdated</masterLabel>
+            <translation>Desatualizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Promoções de histórias de usuários</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Promoted User Story Name --></nameFieldLabel>
+</CustomObjectTranslation>

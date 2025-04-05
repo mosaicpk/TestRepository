@@ -1,0 +1,280 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ed054ccf-d188-4c04-87df-eecd49ebaf0d\",\"columns\":[{\"UUID\":\"d8c2038c-bf30-4955-8c67-aba77337aa0d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "bannerAlignment" : "center",
+                "bannerLinkAssistiveText" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "left",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "left",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentBgColor" : "rgba(179, 208, 244, 0.43)",
+                "contentPadding" : "none",
+                "contentPosition" : "top left",
+                "contentWidth" : 44,
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "height" : 450,
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCKZSIDEW7VBHUDK634AQSNEKLHU\",\"contentType\":null}}",
+                "imagePosition" : "center center",
+                "isBannerLink" : false,
+                "overlayColor" : "rgba(78, 73, 69, 0.51)",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "left",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "imageInfos" : "",
+                    "richTextValue" : "<h1><span style=\"color: rgb(255, 255, 255); font-size: 36px;\">Compañía Minera</span></h1><h1><span style=\"color: rgb(255, 255, 255); font-size: 36px;\">Miski Mayo</span></h1><p><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "67b400c5-75d1-488f-9ac3-095128c514ec",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "imageInfos" : "",
+                    "richTextValue" : "<p style=\"text-align: justify;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">Somos Miski Mayo, empresa minera no metálica pionera en la región Piura.</span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">Líder en producción de concentrado de fosfato en el Perú, contando con el yacimiento más grande de Sudamérica.</span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\"><span class=\"ql-cursor\">﻿</span></span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">Transformamos recursos naturales en desarrollo sostenible en beneficio de la provincia de Sechura y la región Piura.</span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">Operamos con altos estándares en seguridad, protegemos el medio ambiente, y promovemos la mejora de la calidad de vida de nuestra gente y de nuestro entorno.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "2213cbf9-7c7e-46ba-a981-a38715d68ed0",
+                  "type" : "component"
+                } ],
+                "id" : "f8fdcc99-1f25-4238-8cc2-17ab1755c8ed",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Ver más",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "4d6f7b7f-f744-4fae-b7c0-87c31ed9e231",
+                  "type" : "component"
+                } ],
+                "id" : "9d5e045a-cbbe-4b7f-a6af-88a4e94a19d7",
+                "name" : "bannerPrimaryButton",
+                "title" : "Primary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "157d44bf-e439-4fd9-8dfe-968cb71cf85c",
+                  "type" : "component"
+                } ],
+                "id" : "2b5d6511-f112-44b2-b029-43dd8cd88522",
+                "name" : "bannerSecondaryButton",
+                "title" : "Secondary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "a2067fd8-ec70-4c21-bde4-84bbecfa6a2b",
+                  "type" : "component"
+                } ],
+                "id" : "88491f37-ba63-4f97-a4bd-fb70747c0ad4",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:banner",
+              "id" : "c64d8ba2-5dcb-42eb-904d-d8cfc280cd76",
+              "type" : "component",
+              "dataProviders" : [ {
+                "definition" : "sfdc_cms__cmsDetailDataProvider",
+                "sfdcExpressionKey" : "Item",
+                "attributes" : {
+                  "contentKey" : "MCKZSIDEW7VBHUDK634AQSNEKLHU"
+                }
+              } ]
+            } ],
+            "id" : "d8c2038c-bf30-4955-8c67-aba77337aa0d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ed054ccf-d188-4c04-87df-eecd49ebaf0d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bc0c5a1b-5411-4f8b-ac4e-700f9e43f426\",\"columns\":[{\"UUID\":\"2c9996d6-d6ed-4868-bf5e-679b536fa7db\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"086c0318-4768-4430-8918-16d3ceeffacc\",\"columnName\":\"Column 2\",\"columnKey\":\"4389e\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<h2><span style=\"font-size: 48px;\">Somos&nbsp;</span><span style=\"color: rgb(226, 35, 26); font-size: 48px;\">Miski Mayo</span></h2><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "497e8fa0-de77-4d3c-8264-14981a99a52b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<ul><li><span style=\"font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\">Iniciamos nuestra operación un 10 de julio de 2010.&nbsp;</span></li><li><span style=\"font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\">Pertenecemos al corporativo Mosaic Company, nuestro accionista mayoritario.&nbsp;</span></li><li><span style=\"font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\">Cumplimos nuestros compromisos contractuales con el Estado y la Comunidad, habiendo aportado 1,529.5 millones de soles hasta julio del 2024.&nbsp;</span></li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d4109c97-26dd-4e67-9bdd-a1606277a272",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "15%",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "CONÓCENOS",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "7621079d-a02c-4f61-b1a5-704d7d69c360",
+              "type" : "component"
+            } ],
+            "id" : "2c9996d6-d6ed-4868-bf5e-679b536fa7db",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:miskiMayoHomeCustomCarouselWrapper",
+              "id" : "a4c6ad44-6b23-4a04-b8e8-7f1dca921c96",
+              "type" : "component"
+            } ],
+            "id" : "086c0318-4768-4430-8918-16d3ceeffacc",
+            "name" : "4389e",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bc0c5a1b-5411-4f8b-ac4e-700f9e43f426",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"41969914-76d6-4e03-b019-d72715e68608\",\"columns\":[{\"UUID\":\"3dcc54ac-dbeb-4778-99fd-ce5e95b49f6d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-size: 72px;\">Conoce nuestro proceso productivo</span></h1><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "19223d27-770f-4659-8f0a-a24bd220ac7b",
+              "type" : "component"
+            } ],
+            "id" : "3dcc54ac-dbeb-4778-99fd-ce5e95b49f6d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "41969914-76d6-4e03-b019-d72715e68608",
+          "scopedBrandingSetId" : "Miski_Mayo_Red_BG",
+          "type" : "component"
+        } ],
+        "id" : "b5d23a28-78cf-4d1f-9bd0-91980eb2f88f",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "a6c74c2d-8b5d-44f3-8326-b7f4d538d5d9",
+          "type" : "component"
+        } ],
+        "id" : "2bd9b21a-bff1-476b-be97-9e51b6b5b329",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "508e8c21-1ec3-4f46-8cf7-e673bc74bd32",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

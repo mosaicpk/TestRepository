@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>MFGAAF_OpportunityLineItem</dataset>
+    <dimensions>
+        <field>Opportunity</field>
+        <isDerived>true</isDerived>
+        <label>Opportunities</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Value</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Opportunity Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>OpportunityRevenue</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Opportunity Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+</WaveXmd>

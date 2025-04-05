@@ -1,0 +1,59 @@
+<template>
+    <lightning-icon icon-name='utility:cart' alternative-text='cart' size='small' title='cart' onclick={cartClickHandler}></lightning-icon>
+    <template lwc:if={showMiniCart}>
+        <div class="slds-float_right">
+            <div class="mini-cart-container">
+                <div class="modal">
+                    <div class="modal-content">
+                        <template if:true={isSpinner}>
+                            <lightning-spinner variant="brand" alternative-text="Loading"
+                                size="medium"></lightning-spinner>
+                        </template>
+                        <div class="modal-header slds-p-around_medium">
+                            <div class="slds-grid slds-gutters">
+                                <div class="slds-col slds-size_2-of-3">
+                                    <p>Cart</p>
+                                </div>
+                                <div class="slds-col slds-size_1-of-3">
+                                    <div class="slds-clearfix">
+                                        <div class="slds-float_right">
+                                            <lightning-icon class="close-icon" icon-name="utility:close"
+                                                alternative-text="Close" title="Close" size="xx-small"
+                                                onclick={closeMiniCartHandler}></lightning-icon>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <template if:true={showCartData}>
+                            <div class="modal-body">
+                                <template for:each={cartItemsList} for:item='item'>
+                                    <div class="cart-items" key={item.productName}>
+                                        <span class="text">
+                                            {item.productName}
+                                        </span>
+                                        <span class="icon">
+                                            <lightning-icon onkeydown={deleteIconKeypressHandler} tabindex="0"
+                                                data-sku={item.sku} icon-name="utility:delete"
+                                                alternative-text="Delete" title="Delete" size="x-small"
+                                                class="delete-icon" onclick={handleRemoveItem}></lightning-icon>
+                                        </span>
+                                    </div>
+                                </template>
+                            </div>
+                            <div class="modal-footer slds-p-around_medium slds-text-align_center">
+                                <button class="slds-button slds-button_brand checkout-btn" title="Proceed to Request"
+                                    onclick={cartCheckoutHandler}>Proceed to Request</button>
+                            </div>
+                        </template>
+                        <template if:true={_showEmptyCart}>
+                            <div class="modal-footer slds-p-around_medium slds-text-align_center">
+                                <p class="emptyCard">Your cart is empty.</p>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Copy_1_of_Is_Approval_Status_Pending_Decision</name>
+        <label>Copy 1 of Is Approval Status Pending Decision</label>
+        <locationX>1238</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Approval_Status_Is_Pending_Outcome</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Assigned</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Requested</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 1 of Approval Status Is Pending Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_2_of_Is_Approval_Status_Pending_Decision</name>
+        <label>Copy 2 of Is Approval Status Pending Decision</label>
+        <locationX>2030</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_2_of_Approval_Status_Is_Pending_Outcome</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Assigned</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Requested</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 2 of Approval Status Is Pending Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_3_of_Is_Approval_Status_Pending_Decision</name>
+        <label>Copy 3 of Is Approval Status Pending Decision</label>
+        <locationX>2822</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_3_of_Approval_Status_Is_Pending_Outcome</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Assigned</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Requested</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 3 of Approval Status Is Pending Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsApprovalStatusPendingDecision</name>
+        <label>Is Approval Status Pending Decision</label>
+        <locationX>446</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ISApprovalStatusPending_ApprovalStatusIsPendingOutcome</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Assigned</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.sbaa__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Requested</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AA</targetReference>
+            </connector>
+            <label>Approval Status Is Pending Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsReminderFrequency1HourDecision</name>
+        <label>Is Reminder Frequency 1 Hour Decision</label>
+        <locationX>644</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsReminderFrequency1Hour_FrequencyIs1HourOutcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_ReminderFrequency__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>1 Hour</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IsApprovalStatusPendingDecision</targetReference>
+            </connector>
+            <label>Frequency Is 1 Hour Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsReminderFrequency2HoursDecision</name>
+        <label>Is Reminder Frequency 2 Hours Decision</label>
+        <locationX>1436</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsReminderFrequency2Hours_FrequencyIs2HourOutcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_ReminderFrequency__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>2 Hours</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Is_Approval_Status_Pending_Decision</targetReference>
+            </connector>
+            <label>Frequency Is 2 Hour Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsReminderFrequency4HoursDecision</name>
+        <label>Is Reminder Frequency 4 Hours Decision</label>
+        <locationX>2228</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsReminderFrequency4Hours_FrequencyIs4HoursOutcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_ReminderFrequency__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>4 Hours</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_2_of_Is_Approval_Status_Pending_Decision</targetReference>
+            </connector>
+            <label>Frequency Is 4 Hours Outcome</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsReminderFrequency8HoursDecision</name>
+        <label>Is Reminder Frequency 8 Hours Decision</label>
+        <locationX>3020</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsReminderFrequency8Hours_FrequencyIs8HoursOutcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.PMC_CPQ_ReminderFrequency__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>8 Hours</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_3_of_Is_Approval_Status_Pending_Decision</targetReference>
+            </connector>
+            <label>Frequency Is 8 Hours Outcome</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>PMC CPQ Reminder Ideal Email Alert Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PMC CPQ Reminder Ideal Email Alert Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>AA</name>
+        <label>AA</label>
+        <locationX>314</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>LastReminderCheckTrueUpdate</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>PMC_CPQ_LastReminderTime__c</field>
+            <value>
+                <elementReference>$Record.LastModifiedDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>BB</name>
+        <label>BB</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <connector>
+            <targetReference>LastReminderCheckFalseUpdate</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>PMC_CPQ_ReminderSetCheck2__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>LastReminderCheckFalseUpdate</name>
+        <label>Last Reminder Check False Update</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>PMC_CPQ_ReminderSetCheck__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>LastReminderCheckTrueUpdate</name>
+        <label>Last Reminder Check True Update</label>
+        <locationX>314</locationX>
+        <locationY>600</locationY>
+        <inputAssignments>
+            <field>PMC_CPQ_ReminderSetCheck__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>1409</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>BB</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>PMC_CPQ_ReminderFrequency__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>PMC_CPQ_ReminderSetCheck2__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>sbaa__Approval__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>OneHourScheduledPath</name>
+            <connector>
+                <targetReference>IsReminderFrequency1HourDecision</targetReference>
+            </connector>
+            <label>One Hour Scheduled Path</label>
+            <maxBatchSize>200</maxBatchSize>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>TwoHoursScheduledPath</name>
+            <connector>
+                <targetReference>IsReminderFrequency2HoursDecision</targetReference>
+            </connector>
+            <label>Two Hours Scheduled Path</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>FourHoursScheduledPath</name>
+            <connector>
+                <targetReference>IsReminderFrequency4HoursDecision</targetReference>
+            </connector>
+            <label>Four Hours Scheduled Path</label>
+            <offsetNumber>4</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>EightHoursScheduledPath</name>
+            <connector>
+                <targetReference>IsReminderFrequency8HoursDecision</targetReference>
+            </connector>
+            <label>Eight Hours Scheduled Path</label>
+            <offsetNumber>8</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

@@ -1,0 +1,5 @@
+<apex:page controller="BlockContractController">
+    <apex:form >
+        <apex:commandButton value="Block Contract" action="{!blockAndReplaceContract}"/>
+     </apex:form>
+ </apex:page>

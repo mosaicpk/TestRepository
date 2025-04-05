@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Knowledge --></value>
+    </caseValues>
+    <fields>
+        <help>Utilice este campo para documentar la respuesta a la pregunta tratada en el artículo de conocimiento.</help>
+        <label>Respuesta</label>
+        <name>Answer__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de finalización Sin uso</label>
+        <name>PMC_SS_EndDateNoUse__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de finalización</label>
+        <name>PMC_SS_EndDate__c</name>
+    </fields>
+    <fields>
+        <label>Número de días de visualización</label>
+        <name>PMC_SS_NumberOfDisplayDays__c</name>
+    </fields>
+    <fields>
+        <label>Región</label>
+        <name>PMC_SS_Region__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>Brasil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation>Norteamérica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fecha de revisión</label>
+        <name>PMC_SS_ReviewDate__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Utilice este campo para identificar quién debe seguir o ejecutar este procedimiento.  Si tiene una lista fija de personas o grupos, puede convertirla en una lista de selección predefinida.&quot;</help>
+        <label>Público del Procedimiento</label>
+        <name>Procedure_Audience__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo para describir la finalidad de este procedimiento.</help>
+        <label>Propósito del procedimiento</label>
+        <name>Procedure_Purpose__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo para realizar un seguimiento de los pasos del procedimiento ordenado.</help>
+        <label>Pasos del procedimiento</label>
+        <name>Procedure_Steps__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Utilice este campo para capturar advertencias que un usuario debe saber antes de seguir este procedimiento.  Por ejemplo, puede incluir posibles impactos o la preparación necesaria antes de seguir este procedimiento.&quot;</help>
+        <label>Advertencias de procedimiento</label>
+        <name>Procedure_Warnings__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo para documentar la pregunta a la que responde este artículo.  Incluya palabras clave importantes para ayudar a los usuarios a encontrar el artículo.</help>
+        <label>Pregunta</label>
+        <name>Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- test date --></label>
+        <name>test_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- test review date --></label>
+        <name>test_review_date__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Respuestas rápidas a preguntas generales sobre el funcionamiento cotidiano.</description>
+        <label><!-- FAQ --></label>
+        <name>FAQ</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Documento técnico que informa a los usuarios sobre acontecimientos importantes (por ejemplo, problemas del sistema, periodos de inactividad previstos).</description>
+        <label>Boletín técnico/Aviso</label>
+        <name>PMC_SS_TechnicalBulletinNotice</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Documento para informar a los usuarios sobre los procesos dentro de la plataforma Salesforce.</description>
+        <label>Documento de formación</label>
+        <name>PMC_SS_TrainingDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Documento para informar a los miembros del equipo de las actividades en curso antes de una excedencia.</description>
+        <label>Documento de transición</label>
+        <name>PMC_SS_TransitionDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Puede utilizarse para crear y cargar guías de usuario en la base de datos de gestión de conocimientos, de modo que las partes interesadas puedan acceder a las guías de usuario cuando lo necesiten.</description>
+        <label>Guía del usuario</label>
+        <name>PMC_SS_UserGuide</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Procedimientos estándar relacionados con la gestión de pedidos y clientes.</description>
+        <label>Procedimiento</label>
+        <name>Procedure</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Indique el número de días que debe estar expuesto el boletín</errorMessage>
+        <name>PMC_SS_ValidateEndDateForBulletinNotice</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Introduzca un valor positivo para &quot;Número de días de visualización&quot;.&quot;</errorMessage>
+        <name>PMC_SS_ValidateNegativeNoOfDisplayDays</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Empty summary --></errorMessage>
+        <name>PublishValidationRule</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Certificado de isenção fiscal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Certificados de isenção fiscal</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Certificados de isenção de impostos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Um certificado ativo fará com que o campo &quot;Tax Exempt?&quot; (Isento de imposto?) no Active seja definido como verdadeiro</help>
+        <label><!-- Active --></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificate Number --></label>
+        <name>SBQQ__CertificateNumber__c</name>
+    </fields>
+    <fields>
+        <help>Opcional - para rastrear o endereço da empresa associado ao certificado</help>
+        <label>País</label>
+        <name>SBQQ__Country__c</name>
+    </fields>
+    <fields>
+        <label>Município</label>
+        <name>SBQQ__County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Issued --></label>
+        <name>SBQQ__DateIssued__c</name>
+    </fields>
+    <fields>
+        <help>Um certificado pode ser marcado como padrão somente se estiver ativo</help>
+        <label><!-- Default --></label>
+        <name>SBQQ__Default__c</name>
+    </fields>
+    <fields>
+        <help>O nome da empresa ou o nome DBA associado ao certificado</help>
+        <label><!-- Exempt Company Name --></label>
+        <name>SBQQ__ExemptCompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help>A autoridade, como uma agência governamental ou um país (para organizações europeias), que emitiu o certificado</help>
+        <label><!-- Issuing Authority --></label>
+        <name>SBQQ__IssuingAuthority__c</name>
+    </fields>
+    <fields>
+        <label>Notas</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <label>Código Postal</label>
+        <name>SBQQ__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>SBQQ__State__c</name>
+    </fields>
+    <fields>
+        <label>Endereço da rua_2</label>
+        <name>SBQQ__StreetAddress_2__c</name>
+    </fields>
+    <fields>
+        <label>Endereço da rua</label>
+        <name>SBQQ__StreetAddress__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do certificado de isenção de impost</nameFieldLabel>
+</CustomObjectTranslation>

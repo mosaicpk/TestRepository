@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Metadata Item --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Metadata Item --></value>
+    </caseValues>
+    <fields>
+        <help>O grupo de metadados Matriz ao qual esse item pertence</help>
+        <label>Grupo Matriz</label>
+        <name>copado__Metadata_Group__c</name>
+        <relationshipLabel>Itens Metadados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Corresponde a &quot;todos&quot; os metadados desse tipo ou apenas aos metadados cujo nome corresponde a um padrão?</help>
+        <label>Nome dos metadados</label>
+        <name>copado__Operator__c</name>
+    </fields>
+    <fields>
+        <help>O tipo de metadados</help>
+        <label>Tipo de metadados</label>
+        <name>copado__Type__c</name>
+    </fields>
+    <fields>
+        <help>Corresponder apenas aos metadados cujo nome corresponda a esse valor (ignorado se Metadata Name = &apos;All&apos; for selecionado)</help>
+        <label>Valor</label>
+        <name>copado__Value__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Metadata Item Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Quando o Operador for igual a &quot;Todos&quot;, o campo Valor deverá estar vazio.</errorMessage>
+        <name>copado__Validate_Value_field_against_Operator</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Operador não é &quot;Todos&quot;, é necessário um Valor.</errorMessage>
+        <name>copado__Validate_Value_field_against_Operator_2</name>
+    </validationRules>
+</CustomObjectTranslation>

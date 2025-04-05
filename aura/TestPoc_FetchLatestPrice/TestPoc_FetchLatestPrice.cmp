@@ -1,0 +1,18 @@
+<aura:component implements="lightning:availableForFlowScreens"> access="global" >
+    
+    <!-- Attributes -->
+    <aura:attribute name="recordId" type="String" description="Id of the record being processed"/>
+    
+    <!-- Controller -->
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    
+    <!-- UI -->
+    <div class="slds-align_absolute-center">
+        <lightning:buttonGroup>
+            <lightning:button label="Accept" variant="brand" onclick="{!c.handleAccept}" />
+            <lightning:button label="Reject" variant="destructive" onclick="{!c.handleReject}" />
+        </lightning:buttonGroup>
+    </div>
+    
+   
+</aura:component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMC SS Environment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMC SS Environments</value>
+    </caseValues>
+    <fields>
+        <label><!-- OrgId --></label>
+        <name>PMC_SS_OrgId__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>PMC_CPQ_TermsConditionsData__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Terms Conditions Data</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <label>Quote Terms and Conditions</label>
+    <pluralLabel>Quote Terms and Conditions</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

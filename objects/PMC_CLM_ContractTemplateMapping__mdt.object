@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>PMC_CLM_Category__c</fullName>
+        <description>Indicates FPD or Priced</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Category</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_ContractTemplateDocument_Name__c</fullName>
+        <description>This field will hold the name of the document that is stored within DocuSign CLM, corresponding to each unique combination of Contract Type and MOT</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Contract Template Document Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_ContractType__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Contract Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_Country__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Country</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_MOT__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>MOT</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PMC CLM Contract Template Mapping</label>
+    <listViews>
+        <fullName>Complete_View</fullName>
+        <columns>DeveloperName</columns>
+        <columns>MasterLabel</columns>
+        <columns>PMC_CLM_Country__c</columns>
+        <columns>PMC_CLM_ContractType__c</columns>
+        <columns>PMC_CLM_Category__c</columns>
+        <columns>PMC_CLM_MOT__c</columns>
+        <columns>PMC_CLM_ContractTemplateDocument_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Complete View</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>PMC CLM Contract Template Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

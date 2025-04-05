@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>Run Orchestration Flow Clone {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Run Orchestration Flow Clone</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <sourceTemplate>industries_mfg_rebates__RebatesE2EFlow</sourceTemplate>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>RunDPEJobs</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Calculates the rebate amount and upserts the rebate payout for the generated aggregate records.</description>
+        <name>CalculateRebateAmountAndUpsertPayout</name>
+        <label>Calculate Rebate Amount and Upsert Payout</label>
+        <locationX>767</locationX>
+        <locationY>327</locationY>
+        <flowName>industries_mfg_rebates__RebateCalcFlow</flowName>
+    </subflows>
+    <subflows>
+        <description>Runs Rebates process type DPE jobs and generates aggregate records.</description>
+        <name>RunDPEJobs</name>
+        <label>Run DPE Jobs</label>
+        <locationX>511</locationX>
+        <locationY>217</locationY>
+        <connector>
+            <targetReference>CalculateRebateAmountAndUpsertPayout</targetReference>
+        </connector>
+        <flowName>industries_mfg_rebates__RebateAggFlow</flowName>
+    </subflows>
+</Flow>

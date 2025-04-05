@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>PMC_SS_RebateObjectsCreation</name>
+    </customPermissions>
+    <description>Allow user to create Rebate Programs and its related objects</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Run Rebate Screen Flows</label>
+</PermissionSet>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "bc2dc325-337d-4ea5-9648-ce70ea088da8",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "News_Detail__c",
+  "id" : "baf081d8-f8a8-4cc1-ad2b-34702d9a6c14",
+  "label" : "News Detail",
+  "routeType" : "managed-content-news",
+  "type" : "route",
+  "urlPrefix" : "news"
+}

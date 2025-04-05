@@ -1,0 +1,36 @@
+<template>
+  <c-pmc_dh_custom-modal
+    open-modal={isModalShown}
+    modal-heading={modalTitle}
+    modal-width={modalWidth}
+    onclosemodalevent={closeHandler}
+  >
+    <div class="modal-wrapper">
+      <div class="slds-grid slds-wrap slds-m-around_medium">
+        <slot></slot>
+        <div class="slds-grid slds-size_1-of-1 slds-grid_align-spread">
+          <div
+            class="slds-col slds-size_1-of-1 slds-medium-order_2 slds-order_1 mobile-button requote-button-style"
+          >
+            <lightning-button
+              variant="neutral"
+              label={secondaryBtnLabel}
+              title={secondaryBtnLabel}
+              onclick={secondaryBtnHandler}
+            ></lightning-button>
+          </div>
+          <div
+            class="slds-col slds-size_1-of-1  slds-medium-order_2 slds-order_1 mobile-button requote-button-style"
+          >
+            <lightning-button
+              variant="brand"
+              label={primaryBtnLabel}
+              title={primaryBtnLabel}
+              onclick={primaryBtnHandler}
+            ></lightning-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </c-pmc_dh_custom-modal>
+</template>

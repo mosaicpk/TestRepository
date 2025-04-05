@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <description>States the Campaigns</description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>City</fullName>
+        <description>States the City of Campaign Member</description>
+    </fields>
+    <fields>
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <description>States the Contacts of Campaign Member</description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country</fullName>
+        <description>States the Country of Campaign Member</description>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <description>States the Description of the Campaign Member</description>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <description>States the Do Not Call status</description>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <description>States the Email of the Campaign Member</description>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <description>States the Fax Number</description>
+    </fields>
+    <fields>
+        <fullName>FirstName</fullName>
+        <description>States the First Name</description>
+    </fields>
+    <fields>
+        <fullName>FirstRespondedDate</fullName>
+        <description>States the First Responded Date</description>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <description>States the Email Opt Status</description>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <description>States the Fax Opt Out Status</description>
+    </fields>
+    <fields>
+        <fullName>HasResponded</fullName>
+        <description>States if the Campaign Member has Responded</description>
+    </fields>
+    <fields>
+        <fullName>LastName</fullName>
+        <description>States the Last Name</description>
+    </fields>
+    <fields>
+        <fullName>LeadId</fullName>
+        <description>States the Leads</description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <description>States the Lead Source</description>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <description>States the Mobile number of Campaign Member</description>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <description>States the Phone Number</description>
+    </fields>
+    <fields>
+        <fullName>PostalCode</fullName>
+        <description>States the Zip/Postal Code</description>
+    </fields>
+    <fields>
+        <fullName>Salutation</fullName>
+        <description>States the Salutation of Campaign Member</description>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State</fullName>
+        <description>States the State/Province</description>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <description>States the Status</description>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Street</fullName>
+        <description>States the Street</description>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <description>States the Title</description>
+    </fields>
+    <fields>
+        <fullName>et4ae5__Activity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sent</fullName>
+                    <default>false</default>
+                    <label>Sent</label>
+                </value>
+                <value>
+                    <fullName>Unsubscribed</fullName>
+                    <default>false</default>
+                    <label>Unsubscribed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
+</CustomObject>

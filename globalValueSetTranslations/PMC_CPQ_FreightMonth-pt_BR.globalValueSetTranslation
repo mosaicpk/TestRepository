@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Actual</masterLabel>
+        <translation>Real</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Actual +1</masterLabel>
+        <translation>Real +1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Actual +2</masterLabel>
+        <translation>Real +2</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

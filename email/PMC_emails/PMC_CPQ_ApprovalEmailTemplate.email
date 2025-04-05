@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="Approval has been requested for Quote" recipientType="User" relatedToType="Approval">
+<messaging:plainTextEmailBody >
+Congratulations!
+This is your new Visualforce Email Template.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

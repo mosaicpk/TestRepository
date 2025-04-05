@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Linha de cotação da Web</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Linhas de cotação da Web</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- LineEditor --></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Editor de linhas segmentadas</label>
+        <name>SBQQ__SegmentedLineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Resumo do editor de linha segmentada</label>
+        <name>SBQQ__SegmentedLineEditorSummary</name>
+    </fieldSets>
+    <fields>
+        <help>Desconto adicional do cliente estendido nesse item de linha na forma de um valor absoluto.</help>
+        <label>Disco adicional. (Amt)</label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Total de descontos adicionais concedidos a esse item de linha. O desconto adicional é definido como o desconto concedido além do desconto por volume ou dos preços negociados.</help>
+        <label>Disco adicional.</label>
+        <name>SBQQ__AdditionalDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Quantidade adicional para esse produto que contribui para os cálculos de desconto por volume.</help>
+        <label><!-- Additional Quantity --></label>
+        <name>SBQQ__AdditionalQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Se os produtos forem vendidos em lotes, isso armazena a quantidade em cada lote, predefinida a partir do produto.</help>
+        <label><!-- Batch Quantity --></label>
+        <name>SBQQ__BatchQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Bloco Registro de preço usado para definir o preço desse item de linha.</help>
+        <label>Preço do bloco</label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel>Linhas de cotação na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica que esse item de linha representa um pacote, ou seja, inclui outros itens de linha nessa cotação.</help>
+        <label><!-- Package --></label>
+        <name>SBQQ__Bundle__c</name>
+    </fields>
+    <fields>
+        <help>Para itens com quantidades calculadas, esse campo contém a quantidade original inserida pelo usuário.</help>
+        <label><!-- Original Quantity --></label>
+        <name>SBQQ__BundledQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Indica que o produto nesse item de linha é empacotado (incluído) por outro produto nessa cotação. Os itens de linhas agrupadas têm preço zero e não permitem que o preço ou a quantidade sejam editados.</help>
+        <label><!-- Bundled --></label>
+        <name>SBQQ__Bundled__c</name>
+    </fields>
+    <fields>
+        <help>Custo total dos componentes deste pacote.</help>
+        <label><!-- Component Cost --></label>
+        <name>SBQQ__ComponentCost__c</name>
+    </fields>
+    <fields>
+        <help>Corrige o desconto adicional desse componente para o desconto do pacote principal.</help>
+        <label>Componente com desconto por pacote</label>
+        <name>SBQQ__ComponentDiscountedByPackage__c</name>
+    </fields>
+    <fields>
+        <help>Lista da quantidade total de componentes nessa configuração. Esse campo só será preenchido se esse item de linha fizer referência a um produto configurável.</help>
+        <label>Lista de componentes Total</label>
+        <name>SBQQ__ComponentListTotal__c</name>
+    </fields>
+    <fields>
+        <help>Escopo da assinatura definido no nível do componente. Esse campo substitui o escopo da assinatura copiado do produto.</help>
+        <label>Componente Escopo da assinatura</label>
+        <name>SBQQ__ComponentSubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Components</masterLabel>
+            <translation>Componentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entire Hierarchy</masterLabel>
+            <translation>Toda a hierarquia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package</masterLabel>
+            <translation>Pacote</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package &amp; Components</masterLabel>
+            <translation>Pacote e componentes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Soma da quantidade total de componentes nessa configuração. Esse campo só será preenchido se esse item de linha fizer referência a um produto configurável.</help>
+        <label>Componente Líquido Total</label>
+        <name>SBQQ__ComponentTotal__c</name>
+    </fields>
+    <fields>
+        <help>Corrige o aumento desse componente para o aumento do pacote principal. O Uplift se aplica somente a produtos com vários segmentos.</help>
+        <label>Componente valorizado pelo pacote</label>
+        <name>SBQQ__ComponentUpliftedByPackage__c</name>
+    </fields>
+    <fields>
+        <help>Indica a visibilidade do item de linha do componente.</help>
+        <label><!-- Component Visibility --></label>
+        <name>SBQQ__ComponentVisibility__c</name>
+    </fields>
+    <fields>
+        <help>Taxa de desconto composta por quantidade (histórica).</help>
+        <label><!-- Compound Discount (%) --></label>
+        <name>SBQQ__CompoundDiscountRate__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção se a linha de cotação exigir configuração. Pode ser usado por código personalizado para solicitar que esse produto seja reconfigurado.</help>
+        <label><!-- Configuration Required --></label>
+        <name>SBQQ__ConfigurationRequired__c</name>
+    </fields>
+    <fields>
+        <help>Preço contratado se o produto tiver negociado o preço para a conta da oportunidade.</help>
+        <label><!-- Contracted Price --></label>
+        <name>SBQQ__ContractedPrice__c</name>
+        <relationshipLabel>Linhas de Cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifica se o custo pode ser editado nesse item de linha.</help>
+        <label><!-- Cost Editable --></label>
+        <name>SBQQ__CostEditable__c</name>
+    </fields>
+    <fields>
+        <help>Registro de custo usado para calcular o custo desse item de linha.</help>
+        <label><!-- Cost --></label>
+        <name>SBQQ__Cost__c</name>
+        <relationshipLabel>Linhas de cotação na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Preço unitário do cliente para o produto cotado por esse item de linha. Esse é o preço unitário líquido, excluindo quaisquer descontos de parceiros.</help>
+        <label><!-- Customer Unit Price --></label>
+        <name>SBQQ__CustomerPrice__c</name>
+    </fields>
+    <fields>
+        <help>Preço total do cliente para esse item da cotação. Esse é o total líquido, excluindo quaisquer descontos de parceiros.</help>
+        <label>O total do cliente</label>
+        <name>SBQQ__CustomerTotal__c</name>
+    </fields>
+    <fields>
+        <help>Duração do prazo da assinatura, que só se aplica se o produto for uma assinatura. Ele é copiado do Termo de Assinatura do produto relacionado quando o item de linha é gerado pela primeira vez.</help>
+        <label>Prazo de assinatura padrão</label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Descrição desse item de linha.</help>
+        <label><!-- Description --></label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help>Para produtos MDQ, cada segmento será precificado de forma independente.</help>
+        <label>Dimensão do preço</label>
+        <name>SBQQ__Dimension__c</name>
+        <relationshipLabel>Linhas de cotação na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Tipo de programação de descontos. Copiado do campo Tipo de programação de descontos.associado.</help>
+        <label>Tipo de programação de descontos.</label>
+        <name>SBQQ__DiscountScheduleType__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>Faixa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation>Slab</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Tabela de descontos a ser usada no cálculo do preço unitário do volume. Esse campo é copiado do produto correspondente.</help>
+        <label>Tabela de descontos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Linhas de cotação na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nível de desconto usado por esse item de linha. Esse campo só é preenchido se um desconto por volume tiver sido aplicado e a tabela de descontos for do tipo &quot;Range&quot;.</help>
+        <label><!-- Discount Tier --></label>
+        <name>SBQQ__DiscountTier__c</name>
+        <relationshipLabel>Linhas de Cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Desconto adicional do cliente estendido a esse item de linha, expresso na forma de uma porcentagem.</help>
+        <label>Disco adicional. (%)</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto de distribuidor aplicado a essa linha.</help>
+        <label>Desconto para distribuidores</label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Data final efetiva para essa assinatura.</help>
+        <label>Data de término efetiva</label>
+        <name>SBQQ__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Quantidade efetiva usada no cálculo de totais. Igual à quantidade, a menos que o produto tenha preço de bloco ou seja coberto pela tabela de descontos &quot;Slab&quot;.</help>
+        <label><!-- Effective Quantity --></label>
+        <name>SBQQ__EffectiveQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Data de início efetiva para essa assinatura.</help>
+        <label>Data de início efetiva</label>
+        <name>SBQQ__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Data de término do serviço representado por esse item de linha (aplicável somente se o produto for uma assinatura).</help>
+        <label><!-- End Date --></label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção se o cliente já possui esse produto. Isso é normalmente usado para produtos com opções durante a cotação de complementos. O produto está na cotação apenas para acionar o Configurator.</help>
+        <label><!-- Existing --></label>
+        <name>SBQQ__Existing__c</name>
+    </fields>
+    <fields>
+        <help>Valor do lucro bruto nesse item de linha.</help>
+        <label><!-- Gross Profit --></label>
+        <name>SBQQ__GrossProfit__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para ocultar esse item de linha do PDF gerado.</help>
+        <label><!-- Hidden --></label>
+        <name>SBQQ__Hidden__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a caixa de seleção para aplicar a lógica interna do aplicativo, que controla quando as regras, como as regras de validação, são acionadas. NÃO adicione ao layout da página ou atualize de outra forma.</help>
+        <label><!-- Incomplete --></label>
+        <name>SBQQ__Incomplete__c</name>
+    </fields>
+    <fields>
+        <help>Preço unitário de lista para o produto cotado por esse item de linha.</help>
+        <label><!-- List Unit Price --></label>
+        <name>SBQQ__ListPrice__c</name>
+    </fields>
+    <fields>
+        <help>Preço total da lista para esse item da cotação.</help>
+        <label>Lista Total</label>
+        <name>SBQQ__ListTotal__c</name>
+    </fields>
+    <fields>
+        <help>Markup nesse item de linha na forma de um valor absoluto.</help>
+        <label>Marcação (valor)</label>
+        <name>SBQQ__MarkupAmount__c</name>
+    </fields>
+    <fields>
+        <help>Markup nesse item de linha na forma de uma porcentagem.</help>
+        <label>Markup (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help>Valor da margem de lucro desse item. Esse valor é calculado automaticamente pela aplicação da taxa de markup ou do valor absoluto, o que for especificado.</help>
+        <label>Markup</label>
+        <name>SBQQ__Markup__c</name>
+    </fields>
+    <fields>
+        <help>Preço unitário máximo para esse produto. Usado para impor um teto de preço para produtos com preços calculados dinamicamente.</help>
+        <label><!-- Maximum Unit Price --></label>
+        <name>SBQQ__MaximumPrice__c</name>
+    </fields>
+    <fields>
+        <help>Preço unitário mínimo para esse produto. Usado para impor um piso de preço para produtos com preços calculados dinamicamente.</help>
+        <label><!-- Minimum Unit Price --></label>
+        <name>SBQQ__MinimumPrice__c</name>
+    </fields>
+    <fields>
+        <help>Preço unitário de lista para o produto cotado por esse item de linha.</help>
+        <label><!-- Net Unit Price --></label>
+        <name>SBQQ__NetPrice__c</name>
+    </fields>
+    <fields>
+        <help>Preço total líquido para esse item da cotação.</help>
+        <label>Net Total</label>
+        <name>SBQQ__NetTotal__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para indicar se os descontos são permitidos nesse item de linha.</help>
+        <label>Sem desconto</label>
+        <name>SBQQ__NonDiscountable__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para tornar esse item de linha não passível de desconto para parceiros.</help>
+        <label>Desconto para não parceiros</label>
+        <name>SBQQ__NonPartnerDiscountable__c</name>
+    </fields>
+    <fields>
+        <help>Número que indica a posição dessa linha em seu grupo ou cotação</help>
+        <label>Número</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help>Desconto estendido para este produto porque ele faz parte de um pacote.</help>
+        <label>Desconto da opção (valor)</label>
+        <name>SBQQ__OptionDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Se essa linha for para uma SKU opcional, esse campo capturará qualquer desconto concedido ao pacote e estendido à opção.</help>
+        <label>Desconto da opção (%)</label>
+        <name>SBQQ__OptionDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Indica o nível do nicho dessa opção (aplica-se somente a linhas geradas a partir de opções).</help>
+        <label><!-- Option Level --></label>
+        <name>SBQQ__OptionLevel__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de opção copiado da opção de produto relacionada. Determina como a quantidade é calculada.</help>
+        <label><!-- Option Type --></label>
+        <name>SBQQ__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation>Acessório</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation>Componente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para tornar essa linha opcional. Os itens de linha opcionais não contribuem para os totais da cotação e não são transferidos para a oportunidade.</help>
+        <label><!-- Optional --></label>
+        <name>SBQQ__Optional__c</name>
+    </fields>
+    <fields>
+        <help>Custo total desse pacote, incluindo o custo de seus componentes.</help>
+        <label><!-- Package Cost --></label>
+        <name>SBQQ__PackageCost__c</name>
+    </fields>
+    <fields>
+        <help>Preço total de lista desse pacote, incluindo seus componentes.</help>
+        <label>Lista de pacotes Total</label>
+        <name>SBQQ__PackageListTotal__c</name>
+    </fields>
+    <fields>
+        <help>Lista de códigos de produto gerada automaticamente para cada componente deste pacote.</help>
+        <label>Embalagem Código do produto</label>
+        <name>SBQQ__PackageProductCode__c</name>
+    </fields>
+    <fields>
+        <help>Preço total desse pacote, incluindo seus componentes.</help>
+        <label><!-- Package Total --></label>
+        <name>SBQQ__PackageTotal__c</name>
+    </fields>
+    <fields>
+        <help>Os descontos para parceiros são aplicados após todos os descontos automáticos e discricionários. O desconto de parceiro é levado em conta no Preço de Parceiro.</help>
+        <label>Desconto para parceiros</label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Preço unitário do parceiro. Preço após o desconto do parceiro, mas antes do desconto do distribuidor.</help>
+        <label><!-- Partner Unit Price --></label>
+        <name>SBQQ__PartnerPrice__c</name>
+    </fields>
+    <fields>
+        <help>Total do parceiro</help>
+        <label>Total Parceiro</label>
+        <name>SBQQ__PartnerTotal__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para indicar que o preço desse item de linha é editável.</help>
+        <label><!-- Price Editable --></label>
+        <name>SBQQ__PriceEditable__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para especificar que o método de determinação de preços pode ser editado nesse item de linha.</help>
+        <label><!-- Pricing Method Editable --></label>
+        <name>SBQQ__PricingMethodEditable__c</name>
+    </fields>
+    <fields>
+        <help>Indica como o preço desse item de linha é calculado: Lista, subtraindo o desconto do preço de lista ou Custo, adicionando a margem de lucro ao custo.</help>
+        <label><!-- Pricing Method --></label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation>Bloqueio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation>Custo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Quantidade combinada deste produto de compras anteriores.</help>
+        <label><!-- Prior Quantity --></label>
+        <name>SBQQ__PriorQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Código do produto referenciado por essa linha.</help>
+        <label><!-- Product Code --></label>
+        <name>SBQQ__ProductCode__c</name>
+    </fields>
+    <fields>
+        <help>Família de produtos para o produto referenciado por esse item de linha.</help>
+        <label><!-- Product Family --></label>
+        <name>SBQQ__ProductFamily__c</name>
+    </fields>
+    <fields>
+        <help>Nome do produto referenciado por esse item de linha.</help>
+        <label><!-- Product Name --></label>
+        <name>SBQQ__ProductName__c</name>
+    </fields>
+    <fields>
+        <help>Opção de produto que gerou essa linha (se houver).</help>
+        <label><!-- Product Option --></label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel>Linhas de Cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Produto cotado por esse item de linha.</help>
+        <label><!-- Product --></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Linhas de cotação na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Proporção calculada usada para calcular o preço rateado.</help>
+        <label>Multiplicador de rateio</label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help>Preço unitário de lista rateado.</help>
+        <label>Preço de lista rateado</label>
+        <name>SBQQ__ProratedListPrice__c</name>
+    </fields>
+    <fields>
+        <help>Preço proporcional para o produto cotado por esse item de linha. Esse preço só será diferente do Preço Especial se o produto for uma assinatura e o item de linha estiver sendo rateado.</help>
+        <label>Preço unitário rateado</label>
+        <name>SBQQ__ProratedPrice__c</name>
+    </fields>
+    <fields>
+        <help>Quantidade do item de linha que está sendo cotado.</help>
+        <label><!-- Quantity --></label>
+        <name>SBQQ__Quantity__c</name>
+    </fields>
+    <fields>
+        <help>Registro de cotação matriz</help>
+        <label>Orçamento</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Linhas de Cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Preço unitário antes da aplicação de descontos adicionais.</help>
+        <label><!-- Regular Unit Price --></label>
+        <name>SBQQ__RegularPrice__c</name>
+    </fields>
+    <fields>
+        <label>Regular Total</label>
+        <name>SBQQ__RegularTotal__c</name>
+    </fields>
+    <fields>
+        <help>Indica que esse item de linha representa um produto que está sendo renovado. Esse campo não deve ser modificado.</help>
+        <label><!-- Renewal --></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help>Ativo que está sendo renovado se esse item de linha representar uma renovação de produto.</help>
+        <label><!-- Renewed Asset --></label>
+        <name>SBQQ__RenewedAsset__c</name>
+        <relationshipLabel>Linhas de Cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A assinatura está sendo renovada por essa linha de cotação.</help>
+        <label><!-- Renewed Subscription --></label>
+        <name>SBQQ__RenewedSubscription__c</name>
+        <relationshipLabel>Linhas de cotação na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica qual outro produto nessa cotação exige isso.</help>
+        <label>Requerido por</label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel>Linhas de Cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Para produtos com vários segmentos, o índice que representa a posição dessa linha de cotação na tabela de segmentos.</help>
+        <label><!-- Segment Index --></label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help>Isso representa o segmento que contém um valor exclusivo.</help>
+        <label><!-- Segment Key --></label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <help>Esse é o rótulo do cabeçalho da coluna associado a essa linha.</help>
+        <label><!-- Segment Label --></label>
+        <name>SBQQ__SegmentLabel__c</name>
+    </fields>
+    <fields>
+        <help>Item da cotação de origem do item da cotação clonado, se houver.</help>
+        <label>Fonte</label>
+        <name>SBQQ__Source__c</name>
+        <relationshipLabel>Linhas de cotação da Web (fonte)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nome do nível de desconto ou preço contatado aplicado para obter o preço especial para esse item de linha.</help>
+        <label>Descrição do preço especial</label>
+        <name>SBQQ__SpecialPriceDescription__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de preço especial estendido.</help>
+        <label><!-- Special Price Type --></label>
+        <name>SBQQ__SpecialPriceType__c</name>
+        <picklistValues>
+            <masterLabel>Contracted Price</masterLabel>
+            <translation>Preço contratado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renovação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume Discount</masterLabel>
+            <translation>Desconto por volume</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Preço unitário especial para esse item de linha, como desconto por volume ou preço contratado.</help>
+        <label><!-- Special Price --></label>
+        <name>SBQQ__SpecialPrice__c</name>
+    </fields>
+    <fields>
+        <help>A data de início da assinatura desse produto.</help>
+        <label>Data de início</label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Lista de ativos cobertos por esse item de linha de assinatura. Não atualize a menos que seja instruído.</help>
+        <label>IDs de ativos subscritos</label>
+        <name>SBQQ__SubscribedAssetIds__c</name>
+    </fields>
+    <fields>
+        <help>Indica se o preço da assinatura usa preço de lista, do cliente ou líquido.</help>
+        <label>Base de Assinatura</label>
+        <name>SBQQ__SubscriptionBase__c</name>
+    </fields>
+    <fields>
+        <help>Categoria definida no produto para limitar os cálculos de porcentagem do total a determinados produtos.</help>
+        <label><!-- Subscription Category --></label>
+        <name>SBQQ__SubscriptionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation>Hardware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation>Software</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Porcentagem do total do produto sem assinatura a ser usada no cálculo do preço desse item de linha.</help>
+        <label>Porcentagem de assinatura</label>
+        <name>SBQQ__SubscriptionPercent__c</name>
+    </fields>
+    <fields>
+        <help>Determina como o preço da assinatura é calculado. Se estiver em branco, os itens de linha não são um produto de assinatura.</help>
+        <label>Preços de assinatura</label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Price</masterLabel>
+            <translation>Preço fixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation>Porcentagem do total</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Determina como os preços de assinatura dinâmica são calculados: Quote (Cotação) usa todos os produtos sem assinatura na cotação, enquanto Group (Grupo) usa apenas produtos sem assinatura no mesmo grupo.</help>
+        <label>Escopo da assinatura</label>
+        <name>SBQQ__SubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>Grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Preço do produto-alvo da assinatura sobre o qual a manutenção deve ser calculada.</help>
+        <label>Preço-alvo da assinatura</label>
+        <name>SBQQ__SubscriptionTargetPrice__c</name>
+    </fields>
+    <fields>
+        <help>Prazo para o produto de assinatura nessa linha. Se o produto não for uma assinatura, esse valor não terá efeito.</help>
+        <label>Prazo da assinatura</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para indicar que o item de linha é tributável.</help>
+        <label><!-- Taxable --></label>
+        <name>SBQQ__Taxable__c</name>
+    </fields>
+    <fields>
+        <help>Programe-se para obter descontos com base no prazo da assinatura.</help>
+        <label>Tabela de descontos por prazo</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>Linhas de cotação na Web (com desconto no prazo)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nível dentro da programação de desconto por prazo usado para descontar esse item de linha.</help>
+        <label>Nível de desconto por prazo</label>
+        <name>SBQQ__TermDiscountTier__c</name>
+        <relationshipLabel>Linhas de cotação na Web (com desconto no prazo)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Desconto calculado pela aplicação do prazo de assinatura em relação ao cronograma de descontos do prazo.</help>
+        <label>Desconto por prazo</label>
+        <name>SBQQ__TermDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto total para esse item de linha, incluindo desconto por volume, desconto contratado e desconto adicional.</help>
+        <label>Desconto total (valor)</label>
+        <name>SBQQ__TotalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Custo de uma unidade de produto cotada nesse item de linha.</help>
+        <label><!-- Unit Cost --></label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields>
+    <fields>
+        <help>Ativo atualizado por essa linha de cotação. Quando a cotação for contratada, a Data de término de uso desse ativo será preenchida para indicar que ele foi retirado.</help>
+        <label><!-- Upgraded Asset --></label>
+        <name>SBQQ__UpgradedAsset__c</name>
+        <relationshipLabel>Linhas de cotação na Web (upgrade)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Assinatura atualizada por essa linha de citação. Quando a cotação for contratada, o campo Data de término da assinatura será preenchido.</help>
+        <label>Assinatura com upgrade</label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel>Linhas de cotação na Web (upgrade)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Isso é medido como um valor monetário.</help>
+        <label>Elevação (Montante)</label>
+        <name>SBQQ__UpliftAmount__c</name>
+    </fields>
+    <fields>
+        <help>Insira isso como uma porcentagem.</help>
+        <label>Elevação</label>
+        <name>SBQQ__Uplift__c</name>
+    </fields>
+    <fields>
+        <help>Valor do desconto por volume aplicado a esse item de linha.</help>
+        <label><!-- Volume Discount --></label>
+        <name>SBQQ__VolumeDiscount__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da linha de cotação</nameFieldLabel>
+</CustomObjectTranslation>

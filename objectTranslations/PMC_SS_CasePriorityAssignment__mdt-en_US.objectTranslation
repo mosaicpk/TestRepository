@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMC SS Case Priority Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMC SS Case Priority Assignments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Issue Reason --></label>
+        <name>PMC_SS_IssueReason__c</name>
+        <picklistValues>
+            <masterLabel>Account Issues</masterLabel>
+            <translation><!-- Account Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amendment</masterLabel>
+            <translation><!-- Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Article Request</masterLabel>
+            <translation><!-- Article Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call by Date</masterLabel>
+            <translation><!-- Call by Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation><!-- Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change to loading priorities</masterLabel>
+            <translation><!-- Change to loading priorities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consignment</masterLabel>
+            <translation><!-- Consignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Validity Dates</masterLabel>
+            <translation><!-- Contract Validity Dates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Request</masterLabel>
+            <translation><!-- Credit Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credits</masterLabel>
+            <translation><!-- Credits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Entry</masterLabel>
+            <translation><!-- Data Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debits</masterLabel>
+            <translation><!-- Debits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Delay</masterLabel>
+            <translation><!-- Delivery Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demurrage</masterLabel>
+            <translation><!-- Demurrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destination Change</masterLabel>
+            <translation><!-- Destination Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion</masterLabel>
+            <translation><!-- Diversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Request</masterLabel>
+            <translation><!-- Document Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver Verification/Change</masterLabel>
+            <translation><!-- Driver Verification/Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Failure</masterLabel>
+            <translation><!-- Equipment Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange Closing</masterLabel>
+            <translation><!-- Exchange Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export prioritization</masterLabel>
+            <translation><!-- Export prioritization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Solution</masterLabel>
+            <translation><!-- Financial Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Order Updates</masterLabel>
+            <translation><!-- General Order Updates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IncoTerms</masterLabel>
+            <translation><!-- IncoTerms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Destination</masterLabel>
+            <translation><!-- Incorrect Destination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Label</masterLabel>
+            <translation><!-- Incorrect Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Product</masterLabel>
+            <translation><!-- Incorrect Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect UOM</masterLabel>
+            <translation><!-- Incorrect UOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Vehicle ID</masterLabel>
+            <translation><!-- Incorrect Vehicle ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntelliTrans</masterLabel>
+            <translation><!-- IntelliTrans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Adjustments</masterLabel>
+            <translation><!-- Invoice Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDM Verification</masterLabel>
+            <translation><!-- MDM Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Cargo</masterLabel>
+            <translation><!-- Missing Cargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mode of transportation</masterLabel>
+            <translation><!-- Mode of transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Date</masterLabel>
+            <translation><!-- Order Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Origin Change</masterLabel>
+            <translation><!-- Origin Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Reason</masterLabel>
+            <translation><!-- Other Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payer Change</masterLabel>
+            <translation><!-- Payer Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Terms</masterLabel>
+            <translation><!-- Payment Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Concern</masterLabel>
+            <translation><!-- Product Concern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Request</masterLabel>
+            <translation><!-- Product Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate</masterLabel>
+            <translation><!-- Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclaim rates (mechanical breakdown/lower than typical rates)</masterLabel>
+            <translation><!-- Reclaim rates (mechanical breakdown/lower than typical rates) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Route / Directions</masterLabel>
+            <translation><!-- Route / Directions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Date / Scheduling</masterLabel>
+            <translation><!-- Ship Date / Scheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Out / Plant Outage</masterLabel>
+            <translation><!-- Stock Out / Plant Outage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unblock Contract</masterLabel>
+            <translation><!-- Unblock Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume Change</masterLabel>
+            <translation><!-- Volume Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weight Discrepancy</masterLabel>
+            <translation><!-- Weight Discrepancy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>PMC_SS_Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Segmentation --></label>
+        <name>PMC_SS_Segmentation__c</name>
+        <picklistValues>
+            <masterLabel>Base</masterLabel>
+            <translation><!-- Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canal - KAM</masterLabel>
+            <translation><!-- Canal - KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU - KAM Mega Farmer</masterLabel>
+            <translation><!-- EU - KAM Mega Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farmers</masterLabel>
+            <translation><!-- Farmers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow</masterLabel>
+            <translation><!-- Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key</masterLabel>
+            <translation><!-- Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mega Farmers</masterLabel>
+            <translation><!-- Mega Farmers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Farmers</masterLabel>
+            <translation><!-- Mid Farmers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prime</masterLabel>
+            <translation><!-- Prime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Farmers</masterLabel>
+            <translation><!-- Small Farmers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic</masterLabel>
+            <translation><!-- Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top Farmers</masterLabel>
+            <translation><!-- Top Farmers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trader - KAM</masterLabel>
+            <translation><!-- Trader - KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultra</masterLabel>
+            <translation><!-- Ultra --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>PMC_SS_Type__c</name>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Direct</masterLabel>
+            <translation><!-- Mosaic Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transactions</masterLabel>
+            <translation><!-- Transactions --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

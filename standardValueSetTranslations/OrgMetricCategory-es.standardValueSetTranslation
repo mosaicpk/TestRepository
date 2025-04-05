@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Custom Code</masterLabel>
+        <translation>Código personalizado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Custom Layouts</masterLabel>
+        <translation>Layouts personalizados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fields</masterLabel>
+        <translation>Campos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Improve Org Security</masterLabel>
+        <translation>Mejorar la seguridad de la organización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Improve User Experience</masterLabel>
+        <translation>Mejorar la experiencia del usuario</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Increase User Adoption</masterLabel>
+        <translation>Aumentar la adopción de los usuarios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Object Limits</masterLabel>
+        <translation>Límites del objeto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Org Limits</masterLabel>
+        <translation>Límites Org</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reports And Dashboards</masterLabel>
+        <translation>Informes y Dashboards</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Usage</masterLabel>
+        <translation>Utilización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Management</masterLabel>
+        <translation>Gestión de usuarios</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Workflow</masterLabel>
+        <translation><!-- Workflow --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

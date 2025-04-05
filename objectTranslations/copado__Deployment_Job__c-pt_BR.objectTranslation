@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Deployment Job --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Deployment Job --></value>
+    </caseValues>
+    <fields>
+        <label>ID do trabalho assíncrono</label>
+        <name>copado__Async_Job_ID__c</name>
+    </fields>
+    <fields>
+        <label>% implantado</label>
+        <name>copado__Deployed__c</name>
+    </fields>
+    <fields>
+        <help>Campo somente leitura usado internamente para substituição de propriedades do sistema.</help>
+        <label>ID do destino</label>
+        <name>copado__Destination_Id__c</name>
+    </fields>
+    <fields>
+        <label>Credencial de destino</label>
+        <name>copado__Destination_Org__c</name>
+        <relationshipLabel>Empregos de implantação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status de conclusão antecipada</label>
+        <name>copado__Early_Completion_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Identificação externa</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Status externo</label>
+        <name>copado__External_Status__c</name>
+    </fields>
+    <fields>
+        <help>Campo somente leitura usado internamente para substituição de propriedades do sistema.</help>
+        <label>Id do repositório</label>
+        <name>copado__Git_Repository__c</name>
+    </fields>
+    <fields>
+        <help>Resultado mais recente com mais detalhes da execução do trabalho.</help>
+        <label>Último resultado</label>
+        <name>copado__Last_Result__c</name>
+        <relationshipLabel>Empregos de implantação</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo somente leitura usado internamente para substituição de propriedades do sistema.</help>
+        <label><!-- Pipeline Id --></label>
+        <name>copado__Pipeline_Id__c</name>
+    </fields>
+    <fields>
+        <help>Campo somente leitura usado internamente para substituição de propriedades do sistema.</help>
+        <label>Id Fonte</label>
+        <name>copado__Source_Id__c</name>
+    </fields>
+    <fields>
+        <label>Bandeira de status</label>
+        <name>copado__Status_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Etapa</label>
+        <name>copado__Step__c</name>
+        <relationshipLabel>Empregos de implantação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Para Nome da credencial</label>
+        <name>copado__To_Org_Name__c</name>
+    </fields>
+    <fields>
+        <help>Para ser usado em implementações rápidas. Disponível desde a api de metadados v33 (Spring 15)</help>
+        <label>ID de validação</label>
+        <name>copado__Validation_ID__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Deployment Job Name --></nameFieldLabel>
+</CustomObjectTranslation>

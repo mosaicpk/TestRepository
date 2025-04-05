@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailServicesFunction xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apexClass xsi:nil="true"/>
+    <attachmentOption>All</attachmentOption>
+    <authenticationFailureAction>Bounce</authenticationFailureAction>
+    <authorizationFailureAction>Discard</authorizationFailureAction>
+    <emailServicesAddresses>
+        <developerName>china_accountdatareques</developerName>
+        <isActive>true</isActive>
+        <localPart>china_accountdatarequests</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>china_productdatareques</developerName>
+        <isActive>true</isActive>
+        <localPart>china_productdatarequests</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>india_accountdatareques</developerName>
+        <isActive>true</isActive>
+        <localPart>india_accountdatarequests</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>india_productdatareques</developerName>
+        <isActive>true</isActive>
+        <localPart>india_productdatarequests</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>mosaic_customersupport</developerName>
+        <isActive>true</isActive>
+        <localPart>mosaic.customersupport</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>testmosaiccsbrazil</developerName>
+        <isActive>true</isActive>
+        <localPart>testmosaiccsbrazil</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>vedasfdc9</developerName>
+        <isActive>true</isActive>
+        <localPart>vedasfdc9</localPart>
+        <runAsUser>automatedcase@00ddt000000bzj52ac</runAsUser>
+    </emailServicesAddresses>
+    <functionInactiveAction>Bounce</functionInactiveAction>
+    <functionName>EmailToCase</functionName>
+    <isActive>true</isActive>
+    <isAuthenticationRequired>false</isAuthenticationRequired>
+    <isErrorRoutingEnabled>false</isErrorRoutingEnabled>
+    <isTextAttachmentsAsBinary>true</isTextAttachmentsAsBinary>
+    <isTlsRequired>false</isTlsRequired>
+    <overLimitAction>Bounce</overLimitAction>
+</EmailServicesFunction>

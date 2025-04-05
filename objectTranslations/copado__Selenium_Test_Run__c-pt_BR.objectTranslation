@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Test Run --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Test Run --></value>
+    </caseValues>
+    <fields>
+        <help>URL base opcional onde esse teste será executado, se as credenciais não forem especificadas.</help>
+        <label>URL de base</label>
+        <name>copado__Base_URL__c</name>
+    </fields>
+    <fields>
+        <label>Número do lote</label>
+        <name>copado__Batch_No__c</name>
+    </fields>
+    <fields>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+    </fields>
+    <fields>
+        <label>ID externa</label>
+        <name>copado__External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Data do último status</label>
+        <name>copado__Last_Status_Date__c</name>
+    </fields>
+    <fields>
+        <label>Último ícone de status</label>
+        <name>copado__Last_Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label>Último status</label>
+        <name>copado__Last_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed successfully</masterLabel>
+            <translation>Concluído com sucesso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation>Concluído com erros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Failure</masterLabel>
+            <translation>Falha do provedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>Em fila</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starting</masterLabel>
+            <translation>Início</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O Copado fará login no Salesforce usando essa credencial.  Não há necessidade de registrar o nome de usuário e a senha da página de login do Salesforce.</help>
+        <label>Credencial</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>Execuções de teste do Selenium</relationshipLabel>
+    </fields>
+    <fields>
+        <help>O Copado executará os conjuntos de teste para cada uma das plataformas selecionadas nessas configurações.</help>
+        <label>Configurações do Selenium</label>
+        <name>copado__Selenium_Settings__c</name>
+        <relationshipLabel>Execuções de teste do Selenium</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Esse campo não deve ser preenchido.  O valor é mantido automaticamente.</help>
+        <label>Grupo de teste Selenium</label>
+        <name>copado__Selenium_Test_Group__c</name>
+        <relationshipLabel>Execuções de teste do Selenium</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Suíte de testes Selenium</label>
+        <name>copado__Selenium_Test_Suite__c</name>
+        <relationshipLabel>Execuções de teste do Selenium</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Selenium Test Run Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Teste um aplicativo da Web genérico</description>
+        <label>Aplicativo Web genérico</label>
+        <name>copado__Generic_Web_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Testar uma organização do Salesforce usando a autenticação OAuth</description>
+        <label><!-- Salesforce --></label>
+        <name>copado__Salesforce</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>O URL de base não pode ser preenchido se Credentials tiver sido selecionado.</errorMessage>
+        <name>copado__Credentials_or_BaseURL</name>
+    </validationRules>
+    <webLinks>
+        <label>Adicionar seleção a um grupo de teste</label>
+        <name>copado__Add_Selection_to_a_Test_Group</name>
+    </webLinks>
+    <webLinks>
+        <label>Executar teste</label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+    <webLinks>
+        <label>Atualizar resultados</label>
+        <name>copado__Refresh_Results</name>
+    </webLinks>
+    <webLinks>
+        <label>Mostrar URL em gancho</label>
+        <name>copado__Show_Hook_URL</name>
+    </webLinks>
+</CustomObjectTranslation>

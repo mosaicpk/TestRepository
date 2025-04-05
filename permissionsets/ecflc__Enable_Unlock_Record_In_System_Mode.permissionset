@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>ecflc__Enable_Unlock_Record_In_System_Mode</name>
+    </customPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Enable Unlock Record In System Mode</label>
+</PermissionSet>

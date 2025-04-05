@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Jornada MC CDC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jornadas MC CDC</value>
+    </caseValues>
+    <fields>
+        <label>Tipo de alteração</label>
+        <name>et4ae5__ChangeType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity Name --></label>
+        <name>et4ae5__EntityName__c</name>
+    </fields>
+    <fields>
+        <label>Chave de definição de evento</label>
+        <name>et4ae5__EventDefinitionKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fields --></label>
+        <name>et4ae5__Fields__c</name>
+    </fields>
+    <fields>
+        <label>Campos de filtro</label>
+        <name>et4ae5__FilterFields__c</name>
+    </fields>
+    <fields>
+        <label>Proprietário MID</label>
+        <name>et4ae5__OwnerMid__c</name>
+    </fields>
+    <fields>
+        <label>ID do registro</label>
+        <name>et4ae5__RecordId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Número da jornada</nameFieldLabel>
+</CustomObjectTranslation>

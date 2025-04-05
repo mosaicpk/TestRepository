@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>true</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <customEmailContent>&lt;p&gt;One of your user is blocked from exporting a report containing sensitive field.&lt;/p&gt;&lt;p&gt;Policy ID - {{policy.Id}}&lt;/p&gt;&lt;p&gt;Event Name - {{policy.EventName}}&lt;/p&gt;&lt;p&gt;Name of Column - {{event.ColumnHeaders}}&lt;/p&gt;&lt;p&gt;Name of Grouped Columns - {{event.GroupedColumnHeaders}}&lt;/p&gt;&lt;p&gt;Operation - {{event.Operation}}&lt;/p&gt;&lt;p&gt;Username - {{event.Username}}&lt;/p&gt;</customEmailContent>
+    <description>Block a user from exporting a report with sensitive fields that has over 1,000  records unless they have a specific permission set</description>
+    <developerName>ApprovedUsersDownloadingR</developerName>
+    <eventName>ReportEvent</eventName>
+    <flow>PolicyCondition_mYLglLaddagmWmDyouVr</flow>
+    <masterLabel>Approved Users Downloading Reports with sensitive fields over 1000 records</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <description>End date of the period. The system picks transactions between start date and end date of the period for rebate calculations.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastCalculationDate</fullName>
+        <description>Last date on which the rebate amount calculation for that period for all the relevant aggregate records was completed successfully.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MemberPayoutCount</fullName>
+        <description>Used to track total number of payouts that happened in a period for a particular rebate program.</description>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <description>Name of the rebate program.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PayoutCalculationDate</fullName>
+        <description>Date on or after which the payout calculation for this period is set to Closed.</description>
+        <inlineHelpText>The date when the payout is closed.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RebateProgramId</fullName>
+        <description>Rebate program identifier.</description>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <description>Start date of the period.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <description>Used to track if a payout period is active or inactive.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalApprovedAmount</fullName>
+        <description>Total approved member payout amount.</description>
+    </fields>
+    <fields>
+        <fullName>TotalRejectedAmount</fullName>
+        <description>Total rejected amount.</description>
+    </fields>
+    <fields>
+        <fullName>TransactionGracePeriodDate</fullName>
+        <description>Cut-off date before which the transactions are accepted for the period.</description>
+        <inlineHelpText>The date until when transactions can be submitted.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>All_RebateProgramPayoutPeriods</fullName>
+        <filterScope>Everything</filterScope>
+        <label>AllRebateProgramPayoutPeriods</label>
+    </listViews>
+    <listViews>
+        <fullName>My_RebateProgramPayoutPeriods</fullName>
+        <filterScope>Mine</filterScope>
+        <label>MyRebateProgramPayoutPeriods</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>RebateProgram</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TransactionGracePeriodDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PayoutCalculationDate</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>RebateProgram</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TransactionGracePeriodDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PayoutCalculationDate</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_RestrictPayoutPeriodEdit</fullName>
+        <active>true</active>
+        <description>This validation rule is used to restrict the user from editing or creating Payout Period for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND( 
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT(
+OR(
+AND(
+ISCHANGED(  Status ) ,
+ISPICKVAL( Status , &apos;Active&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+),
+AND(
+ISCHANGED(  Status ) ,
+ISPICKVAL( Status , &apos;Inactive&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;)
+)
+)
+),
+NOT(ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR( ISPICKVAL(  RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c  , &apos;Approved&apos;), 
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c, &apos;Under Revision&apos;)  )
+)</errorConditionFormula>
+        <errorMessage>Payout Periods can’t be created/edited at this stage. Please Amend the Sales Agreement to make revisions to Payout Periods.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictPayoutPeriodEditTEST</fullName>
+        <active>false</active>
+        <description>This validation rule is used to restrict the user from editing or creating Payout Period for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND( 
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT(
+AND(
+ISCHANGED(  Status ) ,
+ISPICKVAL( Status , &apos;Active&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+)
+),
+NOT(ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR( ISPICKVAL(  RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c  , &apos;Approved&apos;), 
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c, &apos;Under Revision&apos;)  )
+)</errorConditionFormula>
+        <errorMessage>TEST Payout Periods can’t be edited at this stage. Please Amend the Sales Agreement to make revisions to Payout Periods.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictPayoutPeriodModification</fullName>
+        <active>true</active>
+        <description>This Validation rule will not allow create/update on Rebate Program Payout Period once the Rebate Program is Inactive.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+OR(
+ISPICKVAL( PRIORVALUE( Status ) , &apos;Inactive&apos;),
+ISNEW()
+),
+ISPICKVAL( RebateProgram.Status , &apos;Inactive&apos;)
+)</errorConditionFormula>
+        <errorMessage>Cannot create/update Rebate Program Payout Period once Rebate Program is Inactive</errorMessage>
+    </validationRules>
+</CustomObject>

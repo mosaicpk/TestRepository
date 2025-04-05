@@ -1,0 +1,8 @@
+<template>
+    <c-file-upload-element is-multiple={isMultiple} accepted-formats={acceptedFormats}
+        onuploadcomplete={handleFileUpload}>
+    </c-file-upload-element>
+    <div class="slds-m-top_medium">
+        <lightning-button label="Clear Files" onclick={clearFiles} variant="brand"></lightning-button>
+    </div>
+</template>

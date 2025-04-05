@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>DO NOT USE!!!</description>
+    <flowDefinition>POC_Sales_Agreement_Rebate_Create_Update_Integration_Flow</flowDefinition>
+    <label>Invoke CPI Callout</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

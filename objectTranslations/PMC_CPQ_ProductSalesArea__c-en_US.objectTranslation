@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Sales Area</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Sales Areas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Inactive --></label>
+        <name>PMC_CPQ_Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Sales Area SAP Identifier --></label>
+        <name>PMC_CPQ_ProductSalesAreaSAPIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>PMC_CPQ_Product__c</name>
+        <relationshipLabel><!-- Product Sales Areas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>PMC_CPQ_Sales_Area__c</name>
+        <relationshipLabel><!-- Product Sales Areas --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

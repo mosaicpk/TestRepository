@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Modelo da DocuSign Gen</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Modelos da DocuSign Gen</value>
+    </caseValues>
+    <fields>
+        <label>Metadados do contrato</label>
+        <name>dfsle__AgreementMetadata__c</name>
+    </fields>
+    <fields>
+        <label>Aplicar o fluxo de trabalho do CLM</label>
+        <name>dfsle__ApplyCLMWorkflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>dfsle__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Target Location --></label>
+        <name>dfsle__DocumentTargetLocation__c</name>
+        <picklistValues>
+            <masterLabel>clm</masterLabel>
+            <translation>clm</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>salesforce</masterLabel>
+            <translation>salesforce</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>A configuração usada para gerar esse envelope.</help>
+        <label><!-- Envelope Template --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel>Modelos de geração DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nome do arquivo</label>
+        <name>dfsle__FileName__c</name>
+    </fields>
+    <fields>
+        <label>Sufixo do arquivo</label>
+        <name>dfsle__FileSuffix__c</name>
+    </fields>
+    <fields>
+        <label>Pré-visualizou documentos</label>
+        <name>dfsle__HasPreviewedDocuments__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamentos de faturas</label>
+        <name>dfsle__InvoiceMappings__c</name>
+    </fields>
+    <fields>
+        <label>É automatizar a fatura</label>
+        <name>dfsle__IsAutomateInvoice__c</name>
+    </fields>
+    <fields>
+        <label>É uma amostra</label>
+        <name>dfsle__IsSample__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamentos de objetos 2</label>
+        <name>dfsle__ObjectMappings2__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamentos de objetos 3</label>
+        <name>dfsle__ObjectMappings3__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamentos de objetos 4</label>
+        <name>dfsle__ObjectMappings4__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamentos de objetos</label>
+        <name>dfsle__ObjectMappings__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamentos de signatários</label>
+        <name>dfsle__SignerMappings__c</name>
+    </fields>
+    <fields>
+        <label>Objeto de origem</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Steps Completed --></label>
+        <name>dfsle__StepsCompleted__c</name>
+    </fields>
+    <fields>
+        <label>Id do modelo</label>
+        <name>dfsle__TemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Type --></label>
+        <name>dfsle__TemplateType__c</name>
+        <picklistValues>
+            <masterLabel>DocuSign Agreement Cloud Editor</masterLabel>
+            <translation>Editor de nuvem do contrato DocuSign</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Word</masterLabel>
+            <translation>Microsoft Word</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Use All Templates --></label>
+        <name>dfsle__UseAllTemplates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Current Record --></label>
+        <name>dfsle__UseCurrentRecord__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

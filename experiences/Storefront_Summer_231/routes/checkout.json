@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "97d78ef6-ab57-487d-a77d-2ec2a2cba61d",
+  "appPageId" : "ef96a703-457f-424f-adbc-b94e3652ba98",
+  "configurationTags" : [ ],
+  "devName" : "Current_Checkout",
+  "id" : "54edc8e9-c894-4e33-bbec-c9e05a0ab7f7",
+  "label" : "Checkout",
+  "routeType" : "current-checkout",
+  "type" : "route",
+  "urlPrefix" : "checkout"
+}

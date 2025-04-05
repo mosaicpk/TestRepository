@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Nosotros",
+  "contentBody" : {
+    "activeViewId" : "Nosotros",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-nosotros",
+    "urlPrefix" : "nosotros"
+  },
+  "urlName" : "nosotros"
+}

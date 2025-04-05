@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Template Section --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Template Section --></value>
+    </caseValues>
+    <fields>
+        <help><!-- Select the checkbox to apply document language formatting. Only applies to sections pointing to template content of type &quot;HTML&quot;. --></help>
+        <label><!-- Apply Document Language Formatting --></label>
+        <name>SBQQ__ApplyDocumentLanguageFormatting__c</name>
+    </fields>
+    <fields>
+        <help>Color de los bordes de la tabla expresado en valor hexadecimal.</help>
+        <label>Color del borde</label>
+        <name>SBQQ__BorderColor__c</name>
+    </fields>
+    <fields>
+        <help>Margen izquierdo en la parte inferior de esta sección.</help>
+        <label>Margen inferior</label>
+        <name>SBQQ__BottomMargin__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Seleccione la casilla para ocultar la cabecera de la columna. Sólo se aplica a las secciones que apuntan a contenido de modelo de tipo &quot;ítems de línea&quot;.&quot;</help>
+        <label>Ocultar cabecera de columna</label>
+        <name>SBQQ__ColumnHeaderHidden__c</name>
+    </fields>
+    <fields>
+        <help>Campo del objeto de presupuesto que controla si esta sección se imprime en los documentos PDF generados.</help>
+        <label>Campo de impresión condicional</label>
+        <name>SBQQ__ConditionalPrintField__c</name>
+        <picklistValues>
+            <masterLabel>Group Line Items</masterLabel>
+            <translation>Grupo de ítems de líneas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Principal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione el contenido del modelo que se mostrará en esta sección del modelo.</help>
+        <label>Contenido</label>
+        <name>SBQQ__Content__c</name>
+        <relationshipLabel>Secciones del modelo</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifique el orden (de arriba abajo) en el que se muestra esta sección en relación con otras secciones del modelo.</help>
+        <label>Orden de visualización</label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help>Campo utilizado para filtrar los registros mostrados por esta sección.</help>
+        <label>Campo de filtro</label>
+        <name>SBQQ__FilterField__c</name>
+        <picklistValues>
+            <masterLabel>Optional</masterLabel>
+            <translation>Opcional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Operador utilizado para filtrar los registros generados por esta sección.</help>
+        <label>Operador de filtro</label>
+        <name>SBQQ__FilterOperator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>contiene</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>termina con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>mayor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>superior a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>no es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>comienza con</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Valor utilizado en el filtrado de los registros presentados por esta sección.</help>
+        <label>Valor de filtro</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help>Especifique el campo utilizado en la agrupación de líneas representadas por esta sección. Sólo aplicable a la sección ítems de línea.</help>
+        <label>Campo Grupo</label>
+        <name>SBQQ__GroupField__c</name>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation>Familia de productos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription Category</masterLabel>
+            <translation>Categoría de suscripción</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica si se debe intentar mantener los contenidos juntos en la misma página.</help>
+        <label>Mantener juntos</label>
+        <name>SBQQ__KeepTogether__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica si se debe intentar mantener el contenido junto en la misma página con el siguiente bloque de contenido.</help>
+        <label>Mantener con Siguiente</label>
+        <name>SBQQ__KeepWithNext__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica si se debe intentar mantener el contenido junto en la misma página con el bloque de contenido anterior.</help>
+        <label>Mantener con el anterior</label>
+        <name>SBQQ__KeepWithPrevious__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Especifica si el salto de página debe insertarse antes, después o ambos antes/después de este contenido.&quot;</help>
+        <label>Salto de página</label>
+        <name>SBQQ__PageBreak__c</name>
+        <picklistValues>
+            <masterLabel>After</masterLabel>
+            <translation>Después</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation>Antes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation>Ambos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla para imprimir los totales de los presupuestos después de esta sección. Sólo aplicable a las secciones de ítems de línea.</help>
+        <label>Imprimir totales de presupuesto</label>
+        <name>SBQQ__QuoteTotalsPrinted__c</name>
+    </fields>
+    <fields>
+        <help>Campo de línea de presupuesto utilizado para el roll-up. Todas las líneas en las que este campo devuelva el mismo valor se acumularán en la primera línea en la que aparezca el valor.</help>
+        <label>Campo Roll-Up</label>
+        <name>SBQQ__RollUpField__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>Producto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Elija &quot;Siempre&quot; para mostrar el subtotal, los descuentos y el total general independientemente de cualquier otra configuración. Elija &quot;Nunca&quot; para que no se muestre nunca, independientemente de otros ajustes. Si deja este campo en blanco, se mostrará el resumen definido por los campos del modelo.&quot;</help>
+        <label>Pantalla resumen</label>
+        <name>SBQQ__SummaryDisplay__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>Nunca</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Modelo de presupuesto que utiliza esta sección de modelo.</help>
+        <label>Modelo</label>
+        <name>SBQQ__Template__c</name>
+        <relationshipLabel>Secciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Margen izquierdo en la parte superior de esta sección.</help>
+        <label>Margen superior</label>
+        <name>SBQQ__TopMargin__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Section Name --></nameFieldLabel>
+    <webLinks>
+        <label>Incluir documento</label>
+        <name>SBQQ__IncludeDocument</name>
+    </webLinks>
+</CustomObjectTranslation>

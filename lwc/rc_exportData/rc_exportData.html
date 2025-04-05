@@ -1,0 +1,26 @@
+<template>
+  <div class="slds-box slds-theme--default">
+    <div class=" slds-grid slds-grid_vertical slds-scrollable_y slds-size_3-of-4">
+      <lightning-datatable
+          data={conatctData}
+          columns={columnHeader}
+          key-field="Id">
+      </lightning-datatable>
+    </div>
+    <br/><br/>
+    Click on the link Below to Export data as csv/xls.
+    <p class="slds-m-top--large">
+      <!-- <a onclick={exportContactData}>Export Contact Data</a> -->
+      <lightning-button variant="brand" label="Export Data (.xlsx)" title="Export Data (.xlsx)"
+        onclick={exportContactDataExcel}></lightning-button>
+      <lightning-button variant="brand" label="Export Data (.csv)" title="Export Data (.csv)"
+        onclick={exportContactDataCsv}></lightning-button>
+    </p>
+  </div>
+  
+  <lightning-datatable
+    key-field="id"
+    data={data}
+    columns={columns2}>
+  </lightning-datatable>
+</template>

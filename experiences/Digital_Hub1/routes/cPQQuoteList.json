@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "5e6d6e1b-feee-4f2d-809b-1ce158ce3db8",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "CPQ_Quote_List__c",
+  "id" : "a38afbab-ca00-4721-b589-935202bd58cf",
+  "label" : "CPQ Quote List",
+  "objectApiName" : "SBQQ__Quote__c",
+  "routeType" : "list-a3C",
+  "type" : "route",
+  "urlPrefix" : "quote"
+}

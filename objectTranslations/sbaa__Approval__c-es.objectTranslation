@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aprovação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aprovações</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- RequestFields --></label>
+        <name>sbaa__RequestFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Approvals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OrderItem --></label>
+        <name>OrderItem__c</name>
+        <relationshipLabel><!-- Approvals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Line Approval --></label>
+        <name>Order_Line_Approval__c</name>
+        <relationshipLabel><!-- Approvals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assign to Quote Owner --></label>
+        <name>PMC_CPQ_AssigntoQuoteOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight --></label>
+        <name>PMC_CPQ_EstFreightPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- FPD List Price --></label>
+        <name>PMC_CPQ_FPDPricefromPriceFx__c</name>
+    </fields>
+    <fields>
+        <label>Aprobación del presupuesto FPD</label>
+        <name>PMC_CPQ_FPDQuoteApproval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Agreed Price --></label>
+        <name>PMC_CPQ_FinalAgreedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price + Freight --></label>
+        <name>PMC_CPQ_Floorplusfreight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>PMC_CPQ_Floorprice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms --></label>
+        <name>PMC_CPQ_Incoterms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Reminder Time --></label>
+        <name>PMC_CPQ_LastReminderTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>PMC_CPQ_Order__c</name>
+    </fields>
+    <fields>
+        <label>Precio/Volumen</label>
+        <name>PMC_CPQ_PriceVolume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Location --></label>
+        <name>PMC_CPQ_ProductLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>PMC_CPQ_Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>PMC_CPQ_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>PMC_CPQ_Quantity__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de expiración del presupuesto</label>
+        <name>PMC_CPQ_QuoteExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label>Presupuesto en caliente</label>
+        <name>PMC_CPQ_QuoteHotQuote__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia del recordatorio</label>
+        <name>PMC_CPQ_ReminderFrequency__c</name>
+        <picklistValues>
+            <masterLabel>0.083333 hrs(5 mins)</masterLabel>
+            <translation><!-- 0.083333 hrs(5 mins) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.166667 hrs(10 mins)</masterLabel>
+            <translation><!-- 0.166667 hrs(10 mins) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Hour</masterLabel>
+            <translation>1 hora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Hours</masterLabel>
+            <translation>2 horas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Hours</masterLabel>
+            <translation>4 horas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 Hours</masterLabel>
+            <translation>8 horas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reminder Set Check --></label>
+        <name>PMC_CPQ_ReminderSetCheck2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reminder Set Check --></label>
+        <name>PMC_CPQ_ReminderSetCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold to --></label>
+        <name>PMC_CPQ_SoldtoAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter Comments --></label>
+        <name>PMC_CPQ_SubmitterComments__c</name>
+    </fields>
+    <fields>
+        <label>Comprobación de la fórmula de la tarea</label>
+        <name>PMC_CPQ_TaskFormulaCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line --></label>
+        <name>QuoteLine__c</name>
+        <relationshipLabel>Aprobaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Presupuesto</label>
+        <name>Quote__c</name>
+        <relationshipLabel>Aprobaciones (Presupuesto)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- creation time --></label>
+        <name>creation_time__c</name>
+    </fields>
+    <fields>
+        <label>Acciones</label>
+        <name>sbaa__Actions__c</name>
+    </fields>
+    <fields>
+        <help>Cadena de aprobación a la que pertenece esta aprobación</help>
+        <label>Cadena de aprobación</label>
+        <name>sbaa__ApprovalChain__c</name>
+        <relationshipLabel>Aprobaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Paso (nivel) en el que se requiere esta aprobación.</help>
+        <label>Paso de aprobación</label>
+        <name>sbaa__ApprovalStep__c</name>
+    </fields>
+    <fields>
+        <help>ID del modelo de email asociado a la aprobación</help>
+        <label>Id de modelo de aprobación</label>
+        <name>sbaa__ApprovalTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>Usuario que aprobó esta Aprobación</help>
+        <label>Aprobado por</label>
+        <name>sbaa__ApprovedBy__c</name>
+        <relationshipLabel>Aprobaciones (Aprobado por)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se utiliza con aprobadores dinámicos para capturar el nombre del campo que contiene el valor del aprobador.</help>
+        <label>Campo del aprobador</label>
+        <name>sbaa__ApproverField__c</name>
+        <picklistValues>
+            <masterLabel>Created By</masterLabel>
+            <translation>Creado por</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Búsqueda del Aprobador asociado a esta Aprobación.</help>
+        <label>Aprobador</label>
+        <name>sbaa__Approver__c</name>
+        <relationshipLabel>Aprobaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Si la opción Aprobaciones archivadas está activada, indica que esta aprobación está archivada.&quot;</help>
+        <label>Archivado</label>
+        <name>sbaa__Archived__c</name>
+    </fields>
+    <fields>
+        <help>&quot;ID del Grupo al que está asignada la Aprobación, si procede.&quot;</help>
+        <label>Id. del grupo asignado</label>
+        <name>sbaa__AssignedGroupId__c</name>
+    </fields>
+    <fields>
+        <help>True si el usuario actual es también el Usuario asignado a</help>
+        <label>Asignado a mí</label>
+        <name>sbaa__AssignedToMe__c</name>
+    </fields>
+    <fields>
+        <help>Búsqueda del usuario al que está asignada la aprobación</help>
+        <label>Asignado a</label>
+        <name>sbaa__AssignedTo__c</name>
+        <relationshipLabel>Aprobaciones (asignadas a)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Comentarios del aprobador</help>
+        <label>Comentarios</label>
+        <name>sbaa__CommentsLong__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si está activada la opción de Aprobaciones delegadas, se buscará al Aprobador delegado.&quot;</help>
+        <label>Aprobador delegado</label>
+        <name>sbaa__DelegatedApprover__c</name>
+        <relationshipLabel>Aprobaciones delegadas</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Oportunidad en vías de aprobación</help>
+        <label>Oportunidad</label>
+        <name>sbaa__Opportunity__c</name>
+        <relationshipLabel>Aprobaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID del modelo de email asociado a las retiradas</help>
+        <label>ID del modelo de recall</label>
+        <name>sbaa__RecallTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de la API del campo de aprobación que busca el registro que se está aprobando</help>
+        <label>Campo de registro</label>
+        <name>sbaa__RecordField__c</name>
+    </fields>
+    <fields>
+        <help>Usuario que ha rechazado esta Aprobación</help>
+        <label>Rechazado por</label>
+        <name>sbaa__RejectedBy__c</name>
+        <relationshipLabel>Aprobaciones (Rechazados por)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID de modelo de email asociado al rechazo</help>
+        <label>Id de modelo de rechazo</label>
+        <name>sbaa__RejectionTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>ID de modelo de email asociado a las solicitudes de aprobación</help>
+        <label>Id de modelo de solicitud</label>
+        <name>sbaa__RequestTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Por defecto, la aprobación de cualquier Aprobación autoaprobará todas las demás Aprobaciones asignadas al mismo Usuario. Si esta casilla se encuentra marcada, una Aprobación originada por esta Regla no será auto-aprobada y deberá ser explícitamente aprobada.&quot;</help>
+        <label>Exigir aprobación explícita</label>
+        <name>sbaa__RequireExplicitApproval__c</name>
+    </fields>
+    <fields>
+        <help>Regla de aprobación que generó esta aprobación.</help>
+        <label>Regla</label>
+        <name>sbaa__Rule__c</name>
+        <relationshipLabel>Aprobaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Status de esta aprobación.</help>
+        <label><!-- Status --></label>
+        <name>sbaa__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation>Asignado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation>Solicitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revoked</masterLabel>
+            <translation>Revocado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Si el aprobador es un Grupo, compruebe si todos los miembros deben aprobar la aprobación para que se considere aprobada.&quot;</help>
+        <label>Por unanimidad</label>
+        <name>sbaa__Unanimous__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- Approval # --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Go to edit lines and enter freight value --></errorMessage>
+        <name>FRTest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Submit Quote for Approval after Friday 5 PM !!! --></errorMessage>
+        <name>PMC_CPQ_QuoteSubmissionNoBeyondFriday5PM</name>
+    </validationRules>
+    <webLinks>
+        <label>Aprobar</label>
+        <name>sbaa__Approve</name>
+    </webLinks>
+    <webLinks>
+        <label>Reasignar</label>
+        <name>sbaa__Reassign</name>
+    </webLinks>
+    <webLinks>
+        <label>Rechazar</label>
+        <name>sbaa__Reject</name>
+    </webLinks>
+    <webLinks>
+        <label>Reenviar solicitud</label>
+        <name>sbaa__ResendRequestEmail</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Sales Area</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Sales Areas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Tolerance Group --></label>
+        <name>PMC_APARToleranceGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Assignment Group --></label>
+        <name>PMC_AccountAssignmentGroup__c</name>
+        <picklistValues>
+            <masterLabel>Z1</masterLabel>
+            <translation><!-- Z1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CSA Auto Number --></label>
+        <name>PMC_CSA_Auto_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning Group --></label>
+        <name>PMC_CashPlanningGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Pricing Procedure --></label>
+        <name>PMC_CustomerPricingProcedure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Tax Category --></label>
+        <name>PMC_CustomerTaxCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Tax Classification --></label>
+        <name>PMC_CustomerTaxClassification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>PMC_DG_Account_Name__c</name>
+        <relationshipLabel><!-- Account Sales Areas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel --></label>
+        <name>PMC_DistributionChannel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>PMC_Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>PMC_InvoiceDate__c</name>
+        <picklistValues>
+            <masterLabel>BR</masterLabel>
+            <translation><!-- BR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice List Schedule --></label>
+        <name>PMC_InvoiceListSchedule__c</name>
+        <picklistValues>
+            <masterLabel>BR</masterLabel>
+            <translation><!-- BR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sort Key --></label>
+        <name>PMC_LayoutSortingRule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Combination Allowed --></label>
+        <name>PMC_OrderCombination__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Probability --></label>
+        <name>PMC_OrderProbability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overdelivery Tolerance --></label>
+        <name>PMC_OverdelivTolrtdLmtRatioInPct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciliation Account --></label>
+        <name>PMC_ReconciliationAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Payment History --></label>
+        <name>PMC_RecordPaymentHistoryIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organization --></label>
+        <name>PMC_SalesOrganization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Conditions --></label>
+        <name>PMC_ShippingCondition__c</name>
+        <picklistValues>
+            <masterLabel>Barge</masterLabel>
+            <translation><!-- Barge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN-Inland/Intermodal</masterLabel>
+            <translation><!-- IN-Inland/Intermodal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Transport Req</masterLabel>
+            <translation><!-- No Transport Req --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road / Rail Auto Sch</masterLabel>
+            <translation><!-- Road / Rail Auto Sch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation><!-- Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sold-to partner related --></label>
+        <name>PMC_SoldToAccount__c</name>
+        <relationshipLabel><!-- Account Sales Areas (Sold-to partner related) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Underdelivery Tolerance --></label>
+        <name>PMC_UnderdelivTolrtdLmtRatioInPct__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Bulk</masterLabel>
+        <translation>A granel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Packed</masterLabel>
+        <translation>Embalado</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

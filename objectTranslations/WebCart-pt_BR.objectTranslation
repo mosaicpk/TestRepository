@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Conta</label>
+        <name>PMC_DH_Account__c</name>
+        <relationshipLabel>Carrinhos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>B2B_B2C_INDICADOR</label>
+        <name>PMC_DH_B2B_B2C_INDICATOR__c</name>
+    </fields>
+    <fields>
+        <label>Contagem de itens do carrinho</label>
+        <name>PMC_DH_CartItem_Count__c</name>
+    </fields>
+    <fields>
+        <help>Número de referência do carrinho SAP Interface 203</help>
+        <label><!-- CartReferenceNumber --></label>
+        <name>PMC_DH_CartReferenceNumber__c</name>
+    </fields>
+    <fields>
+        <label>Número do carrinho</label>
+        <name>PMC_DH_Cart_Number__c</name>
+    </fields>
+    <fields>
+        <label>Data de término do contrato</label>
+        <name>PMC_DH_ContractEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Data de início do contrato</label>
+        <name>PMC_DH_ContractStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Moeda</label>
+        <name>PMC_DH_Currency__c</name>
+        <picklistValues>
+            <masterLabel>BRL</masterLabel>
+            <translation><!-- BRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EMPTYCONST --></label>
+        <name>PMC_DH_EMPTYCONST__c</name>
+    </fields>
+    <fields>
+        <label>Obter preço de call completo</label>
+        <name>PMC_DH_GetPriceCallComplete__c</name>
+    </fields>
+    <fields>
+        <help>recebe a mensagem de resposta de integração</help>
+        <label>Mensagem de integração</label>
+        <name>PMC_DH_IntegrationMessage__c</name>
+    </fields>
+    <fields>
+        <help>Indica o status geral da integração</help>
+        <label>Status de integração</label>
+        <name>PMC_DH_IntegrationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Pronto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Advertência</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Oportunidade</label>
+        <name>PMC_DH_Opportunity__c</name>
+        <relationshipLabel>Carrinhos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Método de pagamento</label>
+        <name>PMC_DH_PaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation><!-- ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boletos</masterLabel>
+            <translation><!-- Boletos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation>Cartão de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Credit</masterLabel>
+            <translation>Crédito aberto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Condições de pagamento</label>
+        <name>PMC_DH_PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>05 Days - Document Lock Date</masterLabel>
+            <translation>05 dias - Data de bloqueio do documento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Invoicing Date</masterLabel>
+            <translation>2 parcelas a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Next Month Invoicing Date</masterLabel>
+            <translation>2 parcelas a partir do próximo mês da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Invoicing Date</masterLabel>
+            <translation>3 parcelas a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Next Month Invoicing Date</masterLabel>
+            <translation>3 parcelas a partir do próximo mês da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Installments From Invoicing Date</masterLabel>
+            <translation>4 parcelas a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Doc - 60 Days From BL</masterLabel>
+            <translation>Cash Against Doc - 60 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents</masterLabel>
+            <translation>Pagamento contra documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 10 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 10 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 15 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 15 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 30 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 30 dias a partir do BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 45 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 45 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 5 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 5 dias a partir do BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 7 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 7 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 90 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 90 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents-120 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 120 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents-180 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 180 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C At Sight</masterLabel>
+            <translation>CONFIRMADO L/C À VISTA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 10th Of Following Quarter</masterLabel>
+            <translation>Vencimento no dia 10 do trimestre seguinte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 1st Of Following Month</masterLabel>
+            <translation>Vencimento no dia 1º do mês seguinte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day - Next 3rd Month</masterLabel>
+            <translation>Primeiro dia - Próximo 3º mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Date</masterLabel>
+            <translation>Data fixa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 1 Day - From Invoicing Date</masterLabel>
+            <translation>Prazo líquido de 1 dia - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days - From Invoicing Date</masterLabel>
+            <translation>10 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days From First Day Next Month</masterLabel>
+            <translation>Líquido 10 dias a partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 105 Days - From Invoicing Date</masterLabel>
+            <translation>105 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days - From Invoicing Date</masterLabel>
+            <translation>120 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 14 Days - From Invoicing Date</masterLabel>
+            <translation>14 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 Days - From Invoicing Date</masterLabel>
+            <translation>15 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 From First Day Next Month</masterLabel>
+            <translation>Líquido 15 a partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 150 Days - From Invoicing Date</masterLabel>
+            <translation>150 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 17 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 17 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 180 Days - From Invoicing Date</masterLabel>
+            <translation>180 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 2 Days - From Invoicing Date</masterLabel>
+            <translation>2 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 20 From First Day Next Month</masterLabel>
+            <translation>Líquido 20 a partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 21 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 21 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 210 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 210 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 270 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 270 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 28 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 28 dias - A partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 29 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 29 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 3 Days - From Invoicing Date</masterLabel>
+            <translation>3 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 Days - From Invoicing Date</masterLabel>
+            <translation>30 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 From First Day Next Month</masterLabel>
+            <translation>Líquido 30 A partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 31 Days - From Invoicing Date</masterLabel>
+            <translation>31 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 35 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 35 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 42 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 42 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45 Days - From Invoicing Date</masterLabel>
+            <translation>45 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60 Days - From Invoicing Date</masterLabel>
+            <translation>60 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 7 Days - From Invoicing Date</masterLabel>
+            <translation>7 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 70 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 70 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 75 Days - From Invoicing Date</masterLabel>
+            <translation>75 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 80 Days - From Invoicing Date</masterLabel>
+            <translation>80 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 84 Days - From Invoicing Date</masterLabel>
+            <translation>84 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days - From Invoicing Date</masterLabel>
+            <translation>90 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation>Pagamento antecipado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Data de pagamento antecipado</label>
+        <name>PMC_DH_PrepaymentDate__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de negócio principal</label>
+        <name>PMC_DH_PrimaryBusinessType__c</name>
+    </fields>
+    <fields>
+        <label>Nome adequado para orçamento</label>
+        <name>PMC_DH_QuoteFriendlyName__c</name>
+    </fields>
+    <fields>
+        <label>CONSTANTE NO SAP</label>
+        <name>PMC_DH_SAP_CONSTANT__c</name>
+    </fields>
+    <fields>
+        <label>CONTRATO PROGRAMADO</label>
+        <name>PMC_DH_SCHED_AGREEMENT__c</name>
+    </fields>
+    <fields>
+        <label>Data de término do contrato de vendas</label>
+        <name>PMC_DH_SalesAgreementEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Data de início do contrato de venda</label>
+        <name>PMC_DH_SalesAgreementStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Contrato de vendas</label>
+        <name>PMC_DH_SalesAgreement__c</name>
+        <relationshipLabel>Carrinhos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Área de vendas</label>
+        <name>PMC_DH_SalesArea__c</name>
+        <relationshipLabel>Carrinhos</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

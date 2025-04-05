@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pull Request --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Pull Request --></value>
+    </caseValues>
+    <fields>
+        <label>Cessionários</label>
+        <name>copado__Assignees__c</name>
+    </fields>
+    <fields>
+        <label>Arquivos alterados</label>
+        <name>copado__Changed_Files__c</name>
+    </fields>
+    <fields>
+        <label>Fechado em</label>
+        <name>copado__Closed_At__c</name>
+    </fields>
+    <fields>
+        <label>Compromissos</label>
+        <name>copado__Commits__c</name>
+    </fields>
+    <fields>
+        <label>Identificação externa</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Mesclável</label>
+        <name>copado__Mergeable__c</name>
+    </fields>
+    <fields>
+        <label>Mesclado em</label>
+        <name>copado__Merged_At__c</name>
+    </fields>
+    <fields>
+        <label>Mesclado por</label>
+        <name>copado__Merged_By__c</name>
+    </fields>
+    <fields>
+        <label>Mesclado</label>
+        <name>copado__Merged__c</name>
+    </fields>
+    <fields>
+        <label>Número da solicitação</label>
+        <name>copado__Request_Number__c</name>
+    </fields>
+    <fields>
+        <label>Revisores solicitados</label>
+        <name>copado__Requested_Reviewers__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>copado__State__c</name>
+    </fields>
+    <fields>
+        <label>Filial Alvo</label>
+        <name>copado__Target_Branch__c</name>
+    </fields>
+    <fields>
+        <label>Link de URL</label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label>Url do avatar do usuário</label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label>Avatar do usuário</label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Solicitações de pull</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nome de usuário</label>
+        <name>copado__Username__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Pull Request Name --></nameFieldLabel>
+</CustomObjectTranslation>

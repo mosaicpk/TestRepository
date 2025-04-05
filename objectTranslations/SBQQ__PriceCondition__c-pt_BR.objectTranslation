@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condição de preço</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condições de preços</value>
+    </caseValues>
+    <fields>
+        <help>Escolha um campo no objeto de destino.</help>
+        <label><!-- Field --></label>
+        <name>SBQQ__Field__c</name>
+        <picklistValues>
+            <masterLabel>PMC_CLM_Region__c</masterLabel>
+            <translation><!-- PMC_CLM_Region__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_AccountCountry__c</masterLabel>
+            <translation><!-- PMC_CPQ_AccountCountry__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_CustomerOfferedPrice__c</masterLabel>
+            <translation><!-- PMC_CPQ_CustomerOfferedPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_CustomerPrice__c</masterLabel>
+            <translation><!-- PMC_CPQ_CustomerPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_CustomerTotalInventory__c</masterLabel>
+            <translation><!-- PMC_CPQ_CustomerTotalInventory__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_Discount__c</masterLabel>
+            <translation><!-- PMC_CPQ_Discount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_OpportunityQuantity__c</masterLabel>
+            <translation><!-- PMC_CPQ_OpportunityQuantity__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_OriginalQuantity__c</masterLabel>
+            <translation><!-- PMC_CPQ_OriginalQuantity__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PreviousSalesPrice__c</masterLabel>
+            <translation><!-- PMC_CPQ_PreviousSalesPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocation__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocatorInd__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocatorInd__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductName__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductName__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_QuoteApproved__c</masterLabel>
+            <translation><!-- PMC_CPQ_QuoteApproved__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_QuoteClassification__c</masterLabel>
+            <translation><!-- PMC_CPQ_QuoteClassification__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_QuoteRegion__c</masterLabel>
+            <translation><!-- PMC_CPQ_QuoteRegion__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_RecordTypeName__c</masterLabel>
+            <translation><!-- PMC_CPQ_RecordTypeName__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_Region__c</masterLabel>
+            <translation><!-- PMC_CPQ_Region__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SalesAgreement__c</masterLabel>
+            <translation><!-- PMC_CPQ_SalesAgreement__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ShipToAccount__c</masterLabel>
+            <translation><!-- PMC_CPQ_ShipToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ShipTo__c</masterLabel>
+            <translation><!-- PMC_CPQ_ShipTo__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SoldToAccount__c</masterLabel>
+            <translation><!-- PMC_CPQ_SoldToAccount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_VCOQuotation__c</masterLabel>
+            <translation><!-- PMC_CPQ_VCOQuotation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation>Código do produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProductLocation_Location__c</masterLabel>
+            <translation><!-- ProductLocation_Location__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Account__c</masterLabel>
+            <translation><!-- SBQQ__Account__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__CustomerDiscount__c</masterLabel>
+            <translation><!-- SBQQ__CustomerDiscount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__ListPrice__c</masterLabel>
+            <translation><!-- SBQQ__ListPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Product__c</masterLabel>
+            <translation>SBQQ__Produto__c</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quantity__c</masterLabel>
+            <translation><!-- SBQQ__Quantity__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Status__c</masterLabel>
+            <translation><!-- SBQQ__Status__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Insira uma fórmula com operadores, funções e campos disponíveis na cotação e no objeto de destino. Não é compatível com a calculadora antiga.</help>
+        <label>Fórmula de filtro</label>
+        <name>SBQQ__FilterFormula__c</name>
+    </fields>
+    <fields>
+        <help>Selecione Variável para avaliar essa condição em relação a uma Variável de resumo; case contrário, selecione Valor.</help>
+        <label><!-- Filter Type --></label>
+        <name>SBQQ__FilterType__c</name>
+        <picklistValues>
+            <masterLabel>Formula</masterLabel>
+            <translation>Fórmula</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation>Valor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation>Variável</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Selecione a variável de resumo que você deseja que essa condição use como filtro.</help>
+        <label>Variável de filtro</label>
+        <name>SBQQ__FilterVariable__c</name>
+        <relationshipLabel><!-- Filtered Price Conditions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Atribua um número exclusivo a essa condição para fazer referência a ela na condição avançada da regra de preço.</help>
+        <label><!-- Index --></label>
+        <name>SBQQ__Index__c</name>
+    </fields>
+    <fields>
+        <help>Objeto em relação ao qual a condição é avaliada.</help>
+        <label><!-- Object --></label>
+        <name>SBQQ__Object__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attribute</masterLabel>
+            <translation>Atributo de configuração</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation>Localização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Option</masterLabel>
+            <translation>Opção de produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product2</masterLabel>
+            <translation><!-- Product2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation>Linha de cotação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary Variable</masterLabel>
+            <translation>Variável de resumo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Selecione o operador a ser aplicado ao comparar o campo com o valor.</help>
+        <label><!-- Operator --></label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>contém</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>termina com</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>iguais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>maior ou igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>maior que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor ou igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>não é igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>começa com</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ParentRuleIsActive --></label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- RuleTargetsCalculator --></label>
+        <name>SBQQ__RuleTargetsCalculator__c</name>
+    </fields>
+    <fields>
+        <help>Regra de preço que executa essa condição.</help>
+        <label><!-- Price Rule --></label>
+        <name>SBQQ__Rule__c</name>
+        <relationshipLabel><!-- Price Conditions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Insira uma fórmula com operadores, funções e campos disponíveis na cotação e no objeto de destino. Não é compatível com a calculadora antiga.</help>
+        <label>Fórmula testada</label>
+        <name>SBQQ__TestedFormula__c</name>
+    </fields>
+    <fields>
+        <help>Variável de resumo testada por essa condição de preço.</help>
+        <label><!-- Tested Variable --></label>
+        <name>SBQQ__TestedVariable__c</name>
+        <relationshipLabel>Condições de preço (variável testada)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Digite o valor que deseja corresponder no campo selecionado usando o operador escolhido.</help>
+        <label><!-- Filter Value --></label>
+        <name>SBQQ__Value__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da condição</nameFieldLabel>
+    <validationRules>
+        <errorMessage>O Atributo de configuração como um objeto testado só é permitido em Regras de preço com escopo do Configurador.</errorMessage>
+        <name>SBQQ__Config_attr_config_scoped_price_rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O atributo de configuração como um objeto testado não pode ser avaliado em relação a uma fórmula.</errorMessage>
+        <name>SBQQ__Config_attr_tested_object_with_formula</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se o Tipo de filtro for Fórmula, a Fórmula do filtro não poderá estar vazia.</errorMessage>
+        <name>SBQQ__Filter_formula_field_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Você deve especificar o campo ou a variável testada.</errorMessage>
+        <name>SBQQ__Tested_field_or_variable</name>
+    </validationRules>
+</CustomObjectTranslation>

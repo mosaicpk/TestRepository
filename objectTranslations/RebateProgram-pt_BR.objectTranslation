@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Pedido de programa de rebate</label>
+        <name>PMC_CLM_RebateProgramOrder__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo projetado</label>
+        <name>PMC_SS_Projected_Incentive__c</name>
+    </fields>
+    <fields>
+        <label>Contrato de vendas</label>
+        <name>PMC_SS_SalesAgreement__c</name>
+        <relationshipLabel>Programas de descontos</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Exclusive Space --></label>
+        <name>Exclusive_Space</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Rebate Program --></label>
+        <name>Rebate_Program</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Os programas de bônus não podem ser criados/editados nesse estágio. Altere o Contrato de Vendas para fazer revisões nos Programas de Rebate.</errorMessage>
+        <name>PMC_SS_RestrictRebateProgramEdit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- TEST &gt;&gt;&gt;!!! --></errorMessage>
+        <name>PMC_SS_RestrictTest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Programas de bônus inativos não podem ser atualizados.</errorMessage>
+        <name>PMC_SS_RestrictUpdateOnInactiveRebPrg</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é possível ativar o programa de descontos até que o contrato de vendas esteja ativo</errorMessage>
+        <name>PMC_SS_RestrictUpdateWhenStatusActive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Adicione um programa de bônus que tenha duração dentro do período de duração do contrato de vendas.</errorMessage>
+        <name>PMC_SS_ValidateStartAndEndDates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- STOP! --></errorMessage>
+        <name>PMC_SS_test1</name>
+    </validationRules>
+</CustomObjectTranslation>

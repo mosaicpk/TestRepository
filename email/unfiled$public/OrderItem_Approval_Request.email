@@ -1,0 +1,22 @@
+<messaging:emailTemplate subject="FPD Called Price Approval Request - Order {!relatedTo.OrderItem__r.OrderItemNumber}" recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:htmlEmailBody >
+
+<html>
+<head>
+
+<meta content="text/css;charset=utf-8" http-equiv="Content-Type"/>
+<meta name="Template" content="Response"/>
+
+</head>
+<body>
+
+<c:PMC_CPQ_OrderItemQuoteDesApprovalRequest quote="{!relatedTo.Order_Line_Approval__r.OrderItem__r.Order.SBQQ__Quote__c}" userrole="{!relatedTo.CreatedBy.Name}" approverName="{!relatedTo.sbaa__Approver__r.sbaa__User__r.Name}" orderid="{!relatedTo.Order_Line_Approval__r.OrderItem__r.OrderId}" ordernumber="{!relatedTo.Order_Line_Approval__r.OrderItem__r.OrderItemNumber}"/>
+<c:PMC_CPQ_OrderItemApprovalRequest orderitem="{!relatedTo.Order_Line_Approval__r.OrderItem__c}" />
+
+<p style="color:pink"><apex:outputText value="{!relatedTo.Id}"/></p>
+
+</body>
+</html>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

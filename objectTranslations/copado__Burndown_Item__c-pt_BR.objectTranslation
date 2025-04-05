@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Burndown Item --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Burndown Item --></value>
+    </caseValues>
+    <fields>
+        <label>Data</label>
+        <name>copado__Date__c</name>
+    </fields>
+    <fields>
+        <label>Ponto esperado da história</label>
+        <name>copado__Expected_Story_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint --></label>
+        <name>copado__Sprint__c</name>
+        <relationshipLabel>Itens de Burndown</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Total de pontos da história</label>
+        <name>copado__Total_Story_Point__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Burndown Item  Name --></nameFieldLabel>
+</CustomObjectTranslation>

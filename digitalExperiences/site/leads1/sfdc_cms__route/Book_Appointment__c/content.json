@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Book Appointment",
+  "contentBody" : {
+    "activeViewId" : "Book_Appointment",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-book-appointment",
+    "urlPrefix" : "book-appointment"
+  },
+  "urlName" : "book-appointment"
+}

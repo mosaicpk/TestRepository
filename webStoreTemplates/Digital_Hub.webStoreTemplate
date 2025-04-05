@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebStoreTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoFacetingEnabled>false</autoFacetingEnabled>
+    <cartAsyncProcessingEnabled>false</cartAsyncProcessingEnabled>
+    <cartCalculateEnabled>false</cartCalculateEnabled>
+    <cartToOrderAutoCustomFieldMapping>true</cartToOrderAutoCustomFieldMapping>
+    <checkoutTimeToLive>2880</checkoutTimeToLive>
+    <commerceEinsteinActivitiesTracked>false</commerceEinsteinActivitiesTracked>
+    <commerceEinsteinDeployed>false</commerceEinsteinDeployed>
+    <country>US</country>
+    <defaultCurrency>USD</defaultCurrency>
+    <defaultLanguage>en_US</defaultLanguage>
+    <defaultTaxLocaleType>Net</defaultTaxLocaleType>
+    <description>The Mosaic Company - Digital Hub Store</description>
+    <duplicateCartItemsEnabled>false</duplicateCartItemsEnabled>
+    <guestBrowsingEnabled>false</guestBrowsingEnabled>
+    <guestCartEnabled>false</guestCartEnabled>
+    <guestCartTimeToLive>10080</guestCartTimeToLive>
+    <guestCheckoutEnabled>false</guestCheckoutEnabled>
+    <masterLabel>Digital Hub</masterLabel>
+    <maxValuesPerFacet>100</maxValuesPerFacet>
+    <orderLifeCycleType>MANAGED</orderLifeCycleType>
+    <paginationSize>24</paginationSize>
+    <preserveGuestCartEnabled>false</preserveGuestCartEnabled>
+    <pricingStrategy>LowestPrice</pricingStrategy>
+    <productGrouping>NoGrouping</productGrouping>
+    <skipAdditionalEntitlementCheckForSearch>true</skipAdditionalEntitlementCheckForSearch>
+    <skuDetectionEnabled>false</skuDetectionEnabled>
+    <splitShipmentEnabled>false</splitShipmentEnabled>
+    <supportedCurrencies>USD</supportedCurrencies>
+    <supportedLanguages>en_US;pt_BR</supportedLanguages>
+    <supportedShipToCountries>US</supportedShipToCountries>
+    <type>B2B</type>
+</WebStoreTemplate>

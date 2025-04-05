@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC CPQ Integration Settings --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC CPQ Integration Settings --></value>
+    </caseValues>
+    <fields>
+        <label>Descripción</label>
+        <name>PMC_CPQ_Description__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del ajuste</label>
+        <name>PMC_CPQ_SettingName__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMC_CPQ_SettingTwoValueNumber__c --></label>
+        <name>PMC_CPQ_SettingTwoValueNumber_c__c</name>
+    </fields>
+    <fields>
+        <label>Valor de ajuste Área de texto largo</label>
+        <name>PMC_CPQ_SettingValueLongTextArea__c</name>
+    </fields>
+    <fields>
+        <label>Valor de ajuste Número</label>
+        <name>PMC_CPQ_SettingValueNumber__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

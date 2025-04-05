@@ -1,0 +1,139 @@
+:host {
+    --sds-c-icon-color-foreground-default: #ffffff;
+}
+
+.stepper {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.stepper__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.stepper__link:first-child {
+    padding-left: 20px;
+}
+
+.stepper__link:last-child {
+    padding-right: 20px;
+}
+
+.stepper__link {
+    background-color: #e9efee !important;
+    min-width: 180px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 0 8px 40px;
+    position: relative;
+}
+
+.stepper__link::after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 28px solid #e9efee;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+}
+
+.stepper__link::before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #ffff;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 2px;
+    left: 100%;
+    z-index: 1;
+}
+
+.stepper_text {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Barlow-Regular";
+    font-weight: 400;
+}
+
+.stepper .slds-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.stepper__link--active .stepper_icon,
+.stepper__link .stepper_icon {
+    display: none;
+}
+
+.stepper__link[data-status="active"] .stepper_text {
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Barlow-SemiBold";
+}
+
+.stepper__link[data-status="active"]::after {
+    border-left-color: #1d625c;
+}
+
+.stepper__link[data-status="active"] {
+    background-color: #1d625c !important;
+    border: 1px solid #1d625c !important;
+}
+
+.stepper__link[data-status="done"] .stepper_text {
+    display: none;
+}
+
+.stepper__link[data-status="done"] .stepper_icon {
+    display: block;
+}
+
+.stepper__link[data-status="done"]::after {
+    border-left-color: #a0b1b0;
+}
+
+.stepper__link[data-status="done"] {
+    background-color: #a0b1b0 !important;
+    border: 1px solid #a0b1b0 !important;
+}
+
+@media (max-width: 1023px) {
+    .stepper_text {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+    }
+
+    .stepper__link[data-status="active"] .stepper_text {
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Barlow-Medium";
+    }
+
+    .stepper__link {
+        min-width: 120px;
+    }
+}

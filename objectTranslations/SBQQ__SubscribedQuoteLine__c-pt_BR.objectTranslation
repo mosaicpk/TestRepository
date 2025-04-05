@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Linha de cotação assinada</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Linhas de cotação assinadas</value>
+    </caseValues>
+    <fields>
+        <help>Indica se o registro do ativo subscrito está ativo.</help>
+        <label><!-- Active --></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Quantidade cotada na linha de cotação do ativo.</help>
+        <label>Quantidade da linha de cotação do ativo</label>
+        <name>SBQQ__AssetQuoteLineQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Linha de cotação de ativos sendo coberta por uma linha de cotação de assinatura.</help>
+        <label><!-- Asset Quote Line --></label>
+        <name>SBQQ__AssetQuoteLine__c</name>
+        <relationshipLabel><!-- Asset Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Identifica a cotação para as quoteLines.</help>
+        <label>Orçamento</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Orçamento</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Preço unitário usado no cálculo da porcentagem do total.</help>
+        <label><!-- Subscription Base Price --></label>
+        <name>SBQQ__SubscriptionBasePrice__c</name>
+    </fields>
+    <fields>
+        <help>Total líquido da linha de cotação de assinatura.</help>
+        <label>Total líquido de assinaturas</label>
+        <name>SBQQ__SubscriptionNetTotal__c</name>
+    </fields>
+    <fields>
+        <help>Linha de cotação de assinatura que cobre a linha de cotação do ativo.</help>
+        <label>Linha de cotação de assinatura</label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel>Linhas de cotação subscritas (Subscription Quote Line)</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Linha de cotação assinada#</nameFieldLabel>
+</CustomObjectTranslation>

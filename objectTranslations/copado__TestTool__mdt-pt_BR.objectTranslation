@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Test Tool --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Test Tool --></value>
+    </caseValues>
+    <fields>
+        <help>Se marcado, os registros de teste criados no objeto Teste ou como um portão de qualidade são automaticamente marcados como Pronto para executar. Nenhuma configuração manual é necessária antes de sua execução.</help>
+        <label>Automatizar a preparação do teste</label>
+        <name>copado__Automate_Test_Readiness__c</name>
+    </fields>
+    <fields>
+        <label>Modelo de trabalho</label>
+        <name>copado__JobTemplate__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de teste</label>
+        <name>copado__TestType__c</name>
+    </fields>
+    <fields>
+        <help>API Nome da classe apex que valida se a configuração do teste está completa e pronta para ser executada. Essa validação é acionada quando um usuário tenta marcar o teste como Pronto para ser executado. Se a validação falhar, o teste não poderá ser marcado como Pronto para executar até que o usuário conclua a configuração que falta. A classe apex deve herdar a interface com o nome &quot;TestReadinessInterface&quot;.</help>
+        <label>Lógica de prontidão para testes</label>
+        <name>copado__Test_Readiness_Logic__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

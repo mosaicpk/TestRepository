@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Quote_Line_Item1</dataset>
+    <dates>
+        <alias>Opportunity.CloseDate</alias>
+        <firstDayOfWeek>0</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Opportunity CloseDate</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Name</label>
+        <linkTemplate>/{{row.Account.Id}}</linkTemplate>
+        <linkTooltip>Open Account</linkTooltip>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Opportunity.Name</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity Name</label>
+        <linkTemplate>/{{row.Opportunity.Id}}</linkTemplate>
+        <linkTooltip>Open Opportunity</linkTooltip>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Quote.Name</field>
+        <isDerived>false</isDerived>
+        <label>Quote Name</label>
+        <linkTemplate>/{{row.Quote.Id}}</linkTemplate>
+        <linkTooltip>Open Quote</linkTooltip>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Line Item Name</label>
+        <linkTemplate>/{{row.Id}}</linkTemplate>
+        <linkTooltip>Open Line Item</linkTooltip>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Owner.UniqueUserName</field>
+        <isDerived>false</isDerived>
+        <label>Opportunity owner</label>
+        <linkTemplate>/{{row.Owner.Id}}</linkTemplate>
+        <linkTooltip>Open User Record</linkTooltip>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Quote.SBQQ__Primary__c</field>
+        <isDerived>false</isDerived>
+        <label>Is Primary Quote?</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Quote.SBQQ__Status__c</field>
+        <isDerived>false</isDerived>
+        <label>Quote Status</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <measures>
+        <field>SBQQ__CustomerTotal__c</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>DaysAllQuoteClosed</field>
+        <formatCustomFormat>[&quot;#,### Days&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__AdditionalDiscount__c</field>
+        <formatCustomFormat>[&quot;$#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>DaysWonQuoteClosed</field>
+        <formatCustomFormat>[&quot;#,### Days&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>SBQQ__Discount__c</field>
+        <formatCustomFormat>[&quot;#%&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>DaysLostQuoteClosed</field>
+        <formatCustomFormat>[&quot;#,### Days&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+</WaveXmd>

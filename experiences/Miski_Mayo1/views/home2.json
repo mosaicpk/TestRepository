@@ -1,0 +1,270 @@
+{
+  "appPageId" : "a9be1a74-3dcc-403a-95df-0301d24784e0",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "408320ba-cb6e-4494-8cea-b2929f5eefac",
+  "label" : "Home2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4e5a060d-3837-443d-a32f-6648329c7450",
+          "columns" : [ {
+            "UUID" : "c223a61a-f8e1-4e23-baec-65966caef618",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "4687e2e2-71ee-43e5-9303-f6a3943c49bf",
+            "columnKey" : "e6a96",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4e5a060d-3837-443d-a32f-6648329c7450",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><span style=\"color: rgb(43, 22, 27); font-size: 60px;\">Somos&nbsp;</span><span style=\"color: rgb(226, 35, 26); font-size: 60px;\">Miski Mayo</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b5ae54fb-839a-4d2b-819e-302898d01f02",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<ul><li><span style=\"color: rgb(0, 0, 0);\">Iniciamos nuestra operación un 10 de julio de 2010.&nbsp;</span></li><li><span style=\"color: rgb(0, 0, 0);\">Pertenecemos al corporativo Mosaic Company, nuestro accionista mayoritario.&nbsp;</span></li><li><span style=\"color: rgb(0, 0, 0);\">Cumplimos nuestros compromisos contractuales con el Estado y la Comunidad, habiendo aportado 1,529.5 millones de soles hasta julio del 2024.&nbsp;</span></li></ul>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "de45711d-d7e7-419c-ae93-bdbfcb4b0d2c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 10px; color: rgb(0, 0, 0);\">&nbsp;&nbsp;</span><span style=\"font-size: 11px; color: rgb(0, 0, 0); background-color: rgb(230, 0, 0);\">CONÓCENOS&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a36228ce-005b-4531-9391-97e6e3c190de",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c223a61a-f8e1-4e23-baec-65966caef618",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "4687e2e2-71ee-43e5-9303-f6a3943c49bf",
+        "regionLabel" : "Column 2",
+        "regionName" : "e6a96",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(238,49,35)",
+        "backgroundOverlay" : "rgb(238, 49, 35)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f0e40e58-fce8-48a9-b763-1bc460cf0eb7",
+          "columns" : [ {
+            "UUID" : "dc0afedd-ee61-46e9-b7a5-f760effe8921",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 93
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f0e40e58-fce8-48a9-b763-1bc460cf0eb7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 72px; font-family: arial; color: rgb(255, 255, 255);\">Conoce nuestro proceso productivo</span></h1><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "050ca17f-3640-4b7c-954d-8c47b7e79d45",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dc0afedd-ee61-46e9-b7a5-f760effe8921",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0ee2bd09-dd73-4858-84cc-901237910954",
+          "columns" : [ {
+            "UUID" : "b032bad7-b766-4052-bd68-c5f628e44eb3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0ee2bd09-dd73-4858-84cc-901237910954",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerBackgroundColor" : "",
+            "bannerPosition" : "top",
+            "bannerSizePercent" : 35,
+            "borderRadius" : 20,
+            "boxShadow" : true,
+            "haveBanner" : false,
+            "iconBackgroundColor" : "rgb(255,255,255)",
+            "iconSize" : "medium",
+            "noImageColor" : "rgb(116,116,116)",
+            "overlay" : "rgba(0,0,0,0.01)",
+            "templateType" : "full",
+            "tileMenuEditor" : "Proceso_productivo",
+            "titleColor" : "",
+            "titleFontSize" : "medium",
+            "titleHorizontalAlign" : "center"
+          },
+          "componentName" : "community_navigation:tileMenu",
+          "id" : "f53eafcd-f9ac-450a-82c0-73ae82a293f9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b032bad7-b766-4052-bd68-c5f628e44eb3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0d12ddae-84cf-4a9c-9bb2-3f9875d14a9c",
+          "columns" : [ {
+            "UUID" : "902e653e-4ea2-4198-8627-bbc4bafdf71a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0d12ddae-84cf-4a9c-9bb2-3f9875d14a9c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><span style=\"font-size: 50px; color: rgb(43, 22, 27);\">Últimas noticias</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "fc3ac7d7-551d-47c8-bb9e-652ef7f24e48",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "902e653e-4ea2-4198-8627-bbc4bafdf71a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d55d116b-9201-420b-a4fa-21b89247256a",
+          "columns" : [ {
+            "UUID" : "f55a0db7-68f7-47a3-acfc-9ede009242df",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d55d116b-9201-420b-a4fa-21b89247256a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : { }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "55a780f9-8bc3-470a-83b4-bf750486550e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f55a0db7-68f7-47a3-acfc-9ede009242df",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "77c614e4-2949-4fb6-99bb-4bd853e5904f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "91c962be-21f2-4455-9732-58b10acf14f7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fb41f79-5651-4609-be16-f0caac574e61",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

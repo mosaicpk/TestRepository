@@ -1,0 +1,4 @@
+<apex:page standardController="Order" extensions="TestVignesh" sidebar="false" showHeader="false" showQuickActionVfHeader="false">
+  <!--{!gen3}-->
+  This is VF Page {!$CurrentPage.Url}
+</apex:page>

@@ -1,0 +1,3017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bypass Assignment Rule --></label>
+        <name>Bypass_Assignment_Rule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Record --></label>
+        <name>Duplicate_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsManager Login --></label>
+        <name>IsManager_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Sub-Reason --></label>
+        <name>Issue_Sub_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Adulteration / Cargo Theft</masterLabel>
+            <translation><!-- Adulteration / Cargo Theft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blocks</masterLabel>
+            <translation><!-- Blocks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caking from Humidity</masterLabel>
+            <translation><!-- Caking from Humidity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Additive</masterLabel>
+            <translation><!-- Chemical Additive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Deficiency</masterLabel>
+            <translation><!-- Chemical Deficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coarse</masterLabel>
+            <translation><!-- Coarse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Color</masterLabel>
+            <translation><!-- Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contamination</masterLabel>
+            <translation><!-- Contamination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damaged Cargo</masterLabel>
+            <translation><!-- Damaged Cargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Delay</masterLabel>
+            <translation><!-- Delivery Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dust</masterLabel>
+            <translation><!-- Dust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granulometric Uniformity</masterLabel>
+            <translation><!-- Granulometric Uniformity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humidity</masterLabel>
+            <translation><!-- Humidity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impurity</masterLabel>
+            <translation><!-- Impurity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Documentation</masterLabel>
+            <translation><!-- Incorrect Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Product</masterLabel>
+            <translation><!-- Incorrect Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil</masterLabel>
+            <translation><!-- Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing</masterLabel>
+            <translation><!-- Packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Label Discrepancy</masterLabel>
+            <translation><!-- Product Label Discrepancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Spillage on Truck</masterLabel>
+            <translation><!-- Product Spillage on Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stay Extension Fee</masterLabel>
+            <translation><!-- Stay Extension Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stones</masterLabel>
+            <translation><!-- Stones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport Issue</masterLabel>
+            <translation><!-- Transport Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weight Discrepancy</masterLabel>
+            <translation><!-- Weight Discrepancy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Test --></label>
+        <name>Lead_Test__c</name>
+        <relationshipLabel><!-- Cases (Lead Test) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manager Id --></label>
+        <name>Manager_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Product Name --></label>
+        <name>OrderProductName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Quantity --></label>
+        <name>OrderQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Record --></label>
+        <name>PMC_CPQ_DuplicateRecord__c</name>
+    </fields>
+    <fields>
+        <label><!-- 24 Hour Notice --></label>
+        <name>PMC_SS_24HourNotice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accessorial Costs Detail --></label>
+        <name>PMC_SS_AccessorialCostDetail__c</name>
+        <picklistValues>
+            <masterLabel>Equipment Rental</masterLabel>
+            <translation><!-- Equipment Rental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Costs</masterLabel>
+            <translation><!-- Insurance Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Costs</masterLabel>
+            <translation><!-- Legal Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samples Shipped</masterLabel>
+            <translation><!-- Samples Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation Costs/Labor</masterLabel>
+            <translation><!-- Transportation Costs/Labor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Expenses</masterLabel>
+            <translation><!-- Travel Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse Cost/Labor</masterLabel>
+            <translation><!-- Warehouse Cost/Labor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To total the Accessorial Cost on Parent Quality and Non-Quality --></help>
+        <label><!-- Accessorial Level 1 Costs --></label>
+        <name>PMC_SS_AccessorialLevel1Costs__c</name>
+    </fields>
+    <fields>
+        <help><!-- To total the Accessorial Cost on Child Quality and Non-Quality --></help>
+        <label><!-- Accessorial Level 2 Costs --></label>
+        <name>PMC_SS_AccessorialLevel2Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accessorial Level 3 Costs --></label>
+        <name>PMC_SS_AccessorialLevel3Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>PMC_SS_AccountManager__c</name>
+        <relationshipLabel><!-- Cases (Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>PMC_SS_AccountType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Sales Office --></label>
+        <name>PMC_SS_Account_Owner_Sales_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Reason --></label>
+        <name>PMC_SS_ActionReason__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation><!-- Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebill</masterLabel>
+            <translation><!-- Rebill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reverse Shipment</masterLabel>
+            <translation><!-- Reverse Shipment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action Token --></label>
+        <name>PMC_SS_ActionToken__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation><!-- Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebill</masterLabel>
+            <translation><!-- Rebill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actions To Resolve --></label>
+        <name>PMC_SS_ActionsToResolve__c</name>
+        <picklistValues>
+            <masterLabel>Cancel/Rebill</masterLabel>
+            <translation><!-- Cancel/Rebill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation><!-- Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dismissed</masterLabel>
+            <translation><!-- Dismissed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion</masterLabel>
+            <translation><!-- Diversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Quality Action Required</masterLabel>
+            <translation><!-- No Quality Action Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Mitigation Performed</masterLabel>
+            <translation><!-- Quality Mitigation Performed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconsignment</masterLabel>
+            <translation><!-- Reconsignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reship</masterLabel>
+            <translation><!-- Reship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Affected Part of Load --></label>
+        <name>PMC_SS_AffectedPartofLoad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>PMC_SS_ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Auto Approved</masterLabel>
+            <translation><!-- Auto Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Approved</masterLabel>
+            <translation><!-- Final Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level 1 Approved</masterLabel>
+            <translation><!-- Level 1 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level 2 Approved</masterLabel>
+            <translation><!-- Level 2 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level 3 Approved</masterLabel>
+            <translation><!-- Level 3 Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Article Type --></label>
+        <name>PMC_SS_ArticleType__c</name>
+        <picklistValues>
+            <masterLabel>FAQ</masterLabel>
+            <translation><!-- FAQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procedure</masterLabel>
+            <translation><!-- Procedure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Bulletin/Notice</masterLabel>
+            <translation><!-- Technical Bulletin/Notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Document</masterLabel>
+            <translation><!-- Training Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transition Document</masterLabel>
+            <translation><!-- Transition Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assist Customer --></label>
+        <name>PMC_SS_AssistCustomer__c</name>
+    </fields>
+    <fields>
+        <label><!-- At Fault Party --></label>
+        <name>PMC_SS_AtFaultParty__c</name>
+        <picklistValues>
+            <masterLabel>Carrier</masterLabel>
+            <translation><!-- Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics Planning</masterLabel>
+            <translation><!-- Logistics Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant / Operations</masterLabel>
+            <translation><!-- Plant / Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Planning</masterLabel>
+            <translation><!-- Supply Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System</masterLabel>
+            <translation><!-- System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bad Order --></label>
+        <name>PMC_SS_BadOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Delta Cancel --></label>
+        <name>PMC_SS_CancelAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Age --></label>
+        <name>PMC_SS_CaseAge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Record --></label>
+        <name>PMC_SS_CaseRecord__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Status --></label>
+        <name>PMC_SS_CaseStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Payment Amount --></label>
+        <name>PMC_SS_ClaimPaymentAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Denied --></label>
+        <name>PMC_SS_ClientDenied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>PMC_SS_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Information On-site --></label>
+        <name>PMC_SS_ContactInformationOnSite_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Amendment Justification --></label>
+        <name>PMC_SS_ContractAmendmentJustificationVal__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Input Error</masterLabel>
+            <translation><!-- Commercial Input Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request</masterLabel>
+            <translation><!-- Customer Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing Capacity Restriction</masterLabel>
+            <translation><!-- Manufacturing Capacity Restriction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Restriction</masterLabel>
+            <translation><!-- Quality Restriction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Material / Product Restriction</masterLabel>
+            <translation><!-- Raw Material / Product Restriction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Restriction</masterLabel>
+            <translation><!-- Truck Restriction --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Amendment Type --></label>
+        <name>PMC_SS_ContractAmendmentType__c</name>
+        <picklistValues>
+            <masterLabel>Agent Code</masterLabel>
+            <translation><!-- Agent Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent’s Commission</masterLabel>
+            <translation><!-- Agent’s Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract End Date</masterLabel>
+            <translation><!-- Contract End Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Start Date</masterLabel>
+            <translation><!-- Contract Start Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Culture</masterLabel>
+            <translation><!-- Culture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date</masterLabel>
+            <translation><!-- Due Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freight Cost</masterLabel>
+            <translation><!-- Freight Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoterm</masterLabel>
+            <translation><!-- Incoterm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing</masterLabel>
+            <translation><!-- Packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Terms</masterLabel>
+            <translation><!-- Payment Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant/Origin</masterLabel>
+            <translation><!-- Plant/Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price List</masterLabel>
+            <translation><!-- Price List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Exchange;(Different Composition)</masterLabel>
+            <translation><!-- Product Exchange;(Different Composition) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Office</masterLabel>
+            <translation><!-- Sales Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship To</masterLabel>
+            <translation><!-- Ship To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation><!-- Unit Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume Change</masterLabel>
+            <translation><!-- Volume Change --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Cancellation Sub Reason --></label>
+        <name>PMC_SS_ContractCancellationSubReason__c</name>
+        <picklistValues>
+            <masterLabel>Factory Problems</masterLabel>
+            <translation><!-- Factory Problems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of Raw Materials</masterLabel>
+            <translation><!-- Lack of Raw Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistic Problems</masterLabel>
+            <translation><!-- Logistic Problems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Problems</masterLabel>
+            <translation><!-- Quality Problems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreleased Credit - Constitution of Guarantee</masterLabel>
+            <translation><!-- Unreleased Credit - Constitution of Guarantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreleased Credit - Delinquency</masterLabel>
+            <translation><!-- Unreleased Credit - Delinquency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreleased Credit - Surety</masterLabel>
+            <translation><!-- Unreleased Credit - Surety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreleased Credit - Unauthorized term</masterLabel>
+            <translation><!-- Unreleased Credit - Unauthorized term --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Cancellation --></label>
+        <name>PMC_SS_ContractCancellation__c</name>
+        <picklistValues>
+            <masterLabel>Cancellation Due to Customer Death</masterLabel>
+            <translation><!-- Cancellation Due to Customer Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Input Error</masterLabel>
+            <translation><!-- Commercial Input Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Cancellation</masterLabel>
+            <translation><!-- Customer Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Loading Balance</masterLabel>
+            <translation><!-- Insufficient Loading Balance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic’s Failure</masterLabel>
+            <translation><!-- Mosaic’s Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Digital Signature &gt; 15 Days</masterLabel>
+            <translation><!-- No Digital Signature &gt; 15 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unapproved Credit Limit</masterLabel>
+            <translation><!-- Unapproved Credit Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume Reduction Due to Agronomic Adjustment</masterLabel>
+            <translation><!-- Volume Reduction Due to Agronomic Adjustment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>PMC_SS_Contract__c</name>
+        <relationshipLabel><!-- Cases (Contract) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Corrected Weight --></label>
+        <name>PMC_SS_CorrectedWeight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Per Day --></label>
+        <name>PMC_SS_CostPerDay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit/Debit Amount --></label>
+        <name>PMC_SS_CreditDebitAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Memo Number --></label>
+        <name>PMC_SS_CreditMemoNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Destination(Location) --></label>
+        <name>PMC_SS_CurrentDestinationLocation__c</name>
+        <relationshipLabel><!-- Cases (Current Destination(Location)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Destination(Ship To) --></label>
+        <name>PMC_SS_CurrentDestinationShipTo__c</name>
+        <relationshipLabel><!-- Cases (Current Destination(Ship To)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Location --></label>
+        <name>PMC_SS_CurrentLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Credits Detail --></label>
+        <name>PMC_SS_CustomerCreditsDetail__c</name>
+        <picklistValues>
+            <masterLabel>Demurrage</masterLabel>
+            <translation><!-- Demurrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Credit</masterLabel>
+            <translation><!-- Quality Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Credit</masterLabel>
+            <translation><!-- Service Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation Credit</masterLabel>
+            <translation><!-- Transportation Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse Credit</masterLabel>
+            <translation><!-- Warehouse Credit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Customer Credits&apos; for Parent Quality and Non-Quality --></help>
+        <label><!-- Customer Credits Level 1 --></label>
+        <name>PMC_SS_CustomerCreditsLevel1__c</name>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Customer Credits&apos; for Child Quality and Non-Quality --></help>
+        <label><!-- Customer Credits Level 2 --></label>
+        <name>PMC_SS_CustomerCreditsLevel2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Credits Level 3 --></label>
+        <name>PMC_SS_CustomerCreditsLevel3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Impact --></label>
+        <name>PMC_SS_CustomerImpact__c</name>
+        <picklistValues>
+            <masterLabel>Minor impact to customer’s supply / operations / safety / health</masterLabel>
+            <translation><!-- Minor impact to customer’s supply / operations / safety / health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No impact to customer’s supply / operations / safety / health</masterLabel>
+            <translation><!-- No impact to customer’s supply / operations / safety / health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejection / Loss of Cargo and/or risk of losing a customer</masterLabel>
+            <translation><!-- Rejection / Loss of Cargo and/or risk of losing a customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Significant impact to customer’s supply / operations / safety / health</masterLabel>
+            <translation><!-- Significant impact to customer’s supply / operations / safety / health --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Impacted --></label>
+        <name>PMC_SS_CustomerImpacted__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Incurred Costs Detail --></label>
+        <name>PMC_SS_CustomerIncurredCostsDetail__c</name>
+        <picklistValues>
+            <masterLabel>Demurrage</masterLabel>
+            <translation><!-- Demurrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion Fee</masterLabel>
+            <translation><!-- Diversion Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconsignment Fee</masterLabel>
+            <translation><!-- Reconsignment Fee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Customer Incurred Cost&apos; for Parent Quality and Non-Quality --></help>
+        <label><!-- Customer Incurred Level 1 Cost --></label>
+        <name>PMC_SS_CustomerIncurredLevel1Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Customer Incurred Cost&apos; for Child Quality and Non-Quality --></help>
+        <label><!-- Customer Incurred Level 2 Cost --></label>
+        <name>PMC_SS_CustomerIncurredLevel2Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Incurred Level 3 Cost --></label>
+        <name>PMC_SS_CustomerIncurredLevel3Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Waived Costs Details --></label>
+        <name>PMC_SS_CustomerWaivedCostsDetails__c</name>
+        <picklistValues>
+            <masterLabel>Demurrage</masterLabel>
+            <translation><!-- Demurrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Despatch</masterLabel>
+            <translation><!-- Despatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion Fee</masterLabel>
+            <translation><!-- Diversion Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconsignment Fee</masterLabel>
+            <translation><!-- Reconsignment Fee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Customer Waived Costs&apos; for Parent Quality and Non-Quality --></help>
+        <label><!-- Customer Waived Level 1 Cost --></label>
+        <name>PMC_SS_CustomerWaivedLevel1Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Customer Waived Costs&apos; for Child Quality and Non-Quality --></help>
+        <label><!-- Customer Waived Level 2 Cost --></label>
+        <name>PMC_SS_CustomerWaivedLevel2Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Waived Level 3 Cost --></label>
+        <name>PMC_SS_CustomerWaivedLevel3Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Investigation Sent to CS --></label>
+        <name>PMC_SS_Date_Investigation_Sent_to_CS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days of Demurrage --></label>
+        <name>PMC_SS_DaysOfDemurrage_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debit Amount --></label>
+        <name>PMC_SS_DebitAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery --></label>
+        <name>PMC_SS_Delivery__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Document --></label>
+        <name>PMC_SS_Document__c</name>
+        <picklistValues>
+            <masterLabel>BOL</masterLabel>
+            <translation><!-- BOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COA</masterLabel>
+            <translation><!-- COA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COO</masterLabel>
+            <translation><!-- COO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COW</masterLabel>
+            <translation><!-- COW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Sheet</masterLabel>
+            <translation><!-- Data Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazmat Label</masterLabel>
+            <translation><!-- Hazmat Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDS</masterLabel>
+            <translation><!-- SDS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dollar Amount --></label>
+        <name>PMC_SS_DollarAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Easy Checklist Sent? --></label>
+        <name>PMC_SS_Easy_Checklist_Sent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Equipment Inspected? --></label>
+        <name>PMC_SS_EquipmentInspected__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Level Approval --></label>
+        <name>PMC_SS_FirstLevelApproval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiori Connection --></label>
+        <name>PMC_SS_HyperLinkFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- HyperLink --></label>
+        <name>PMC_SS_HyperLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Date --></label>
+        <name>PMC_SS_IncidentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Frequency --></label>
+        <name>PMC_SS_IncidentFrequency__c</name>
+        <picklistValues>
+            <masterLabel>1st Occurrence</masterLabel>
+            <translation><!-- 1st Occurrence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Occurrence</masterLabel>
+            <translation><!-- 2nd Occurrence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 2 Occurrences</masterLabel>
+            <translation><!-- More than 2 Occurrences --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident Probability --></label>
+        <name>PMC_SS_IncidentProbability__c</name>
+        <picklistValues>
+            <masterLabel>Likely</masterLabel>
+            <translation><!-- Likely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Likely</masterLabel>
+            <translation><!-- Not Likely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Likely</masterLabel>
+            <translation><!-- Very Likely --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident Quantity --></label>
+        <name>PMC_SS_IncidentQuantity__c</name>
+        <picklistValues>
+            <masterLabel>0 – 100 tons</masterLabel>
+            <translation><!-- 0 – 100 tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100 – 300 tons</masterLabel>
+            <translation><!-- 100 – 300 tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000 – 3000 tons</masterLabel>
+            <translation><!-- 1000 – 3000 tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater than 3000 tons</masterLabel>
+            <translation><!-- Greater than 3000 tons --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident Severity --></label>
+        <name>PMC_SS_IncidentSeverity__c</name>
+        <picklistValues>
+            <masterLabel>$0 - $1,000</masterLabel>
+            <translation><!-- $0 - $1,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$1,001 - $5,000</masterLabel>
+            <translation><!-- $1,001 - $5,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$15,001 - $25,000</masterLabel>
+            <translation><!-- $15,001 - $25,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$25,001 - $50,000</masterLabel>
+            <translation><!-- $25,001 - $50,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$5,001 - $15,000</masterLabel>
+            <translation><!-- $5,001 - $15,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than $50,000</masterLabel>
+            <translation><!-- More than $50,000 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident Tons K1% / K2% --></label>
+        <name>PMC_SS_IncidentTonsK1K2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal / External Impact --></label>
+        <name>PMC_SS_InternalExternalImpact__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Delta --></label>
+        <name>PMC_SS_InvoiceDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>PMC_SS_Invoice__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Case Owner Manager --></label>
+        <name>PMC_SS_IsCaseOwnerManager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Product Usable? --></label>
+        <name>PMC_SS_IsProductUsable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Cancellation, Product request, Credit Request, Financial Solution and Anticipated Billing are for Brazil users ONLY --></help>
+        <label><!-- Issue Reason --></label>
+        <name>PMC_SS_IssueReason__c</name>
+        <picklistValues>
+            <masterLabel>Account Issues</masterLabel>
+            <translation><!-- Account Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amendment</masterLabel>
+            <translation><!-- Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Article Request</masterLabel>
+            <translation><!-- Article Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call by Date</masterLabel>
+            <translation><!-- Call by Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambio Exhange</masterLabel>
+            <translation><!-- Cambio Exhange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change to loading priorities</masterLabel>
+            <translation><!-- Change to loading priorities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consignment</masterLabel>
+            <translation><!-- Consignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Cancellation</masterLabel>
+            <translation><!-- Contract Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Note Request</masterLabel>
+            <translation><!-- Credit Note Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Request</masterLabel>
+            <translation><!-- Credit Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Entry</masterLabel>
+            <translation><!-- Data Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit Note Request</masterLabel>
+            <translation><!-- Debit Note Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Delay</masterLabel>
+            <translation><!-- Delivery Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demurrage</masterLabel>
+            <translation><!-- Demurrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion</masterLabel>
+            <translation><!-- Diversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Request</masterLabel>
+            <translation><!-- Document Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donation Order/Bonus</masterLabel>
+            <translation><!-- Donation Order/Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver Verification/Change</masterLabel>
+            <translation><!-- Driver Verification/Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Failure</masterLabel>
+            <translation><!-- Equipment Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export Documentation</masterLabel>
+            <translation><!-- Export Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export prioritization</masterLabel>
+            <translation><!-- Export prioritization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Solution</masterLabel>
+            <translation><!-- Financial Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Include Script CIF</masterLabel>
+            <translation><!-- Include Script CIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Destination</masterLabel>
+            <translation><!-- Incorrect Destination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Label</masterLabel>
+            <translation><!-- Incorrect Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Product</masterLabel>
+            <translation><!-- Incorrect Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect UOM</masterLabel>
+            <translation><!-- Incorrect UOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Vehicle ID</masterLabel>
+            <translation><!-- Incorrect Vehicle ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntelliTrans</masterLabel>
+            <translation><!-- IntelliTrans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Adjustments</masterLabel>
+            <translation><!-- Invoice Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue of Advance Invoicing (FA)</masterLabel>
+            <translation><!-- Issue of Advance Invoicing (FA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDM Verification</masterLabel>
+            <translation><!-- MDM Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Cargo</masterLabel>
+            <translation><!-- Missing Cargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mode of transportation</masterLabel>
+            <translation><!-- Mode of transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Concern</masterLabel>
+            <translation><!-- Product Concern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Request</masterLabel>
+            <translation><!-- Product Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate</masterLabel>
+            <translation><!-- Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclaim rates (mechanical breakdown/lower than typical rates)</masterLabel>
+            <translation><!-- Reclaim rates (mechanical breakdown/lower than typical rates) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Route / Directions</masterLabel>
+            <translation><!-- Route / Directions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Returns (SADM)</masterLabel>
+            <translation><!-- Sales Returns (SADM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales order changes</masterLabel>
+            <translation><!-- Sales order changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Date / Scheduling</masterLabel>
+            <translation><!-- Ship Date / Scheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Split sales order</masterLabel>
+            <translation><!-- Split sales order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Out / Plant Outage</masterLabel>
+            <translation><!-- Stock Out / Plant Outage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unblock Contract</masterLabel>
+            <translation><!-- Unblock Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weight Discrepancy</masterLabel>
+            <translation><!-- Weight Discrepancy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>PMC_SS_Lead__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Loading Date --></label>
+        <name>PMC_SS_LoadingDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>PMC_SS_Location__c</name>
+        <relationshipLabel><!-- Cases (Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lost Revenue Detail --></label>
+        <name>PMC_SS_LostRevenueDetail__c</name>
+        <picklistValues>
+            <masterLabel>Cancel &amp; Rebill Delta</masterLabel>
+            <translation><!-- Cancel &amp; Rebill Delta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed Delivery</masterLabel>
+            <translation><!-- Failed Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed Orders</masterLabel>
+            <translation><!-- Missed Orders --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To total Lost Revenue to Parent Quality and Non-Quality --></help>
+        <label><!-- Lost Revenue Level 1 --></label>
+        <name>PMC_SS_LostRevenueLevel1__c</name>
+    </fields>
+    <fields>
+        <help><!-- To total Lost Revenue to Child Quality and Non-Quality --></help>
+        <label><!-- Lost Revenue Level 2 --></label>
+        <name>PMC_SS_LostRevenueLevel2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Revenue Level 3 --></label>
+        <name>PMC_SS_LostRevenueLevel3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot --></label>
+        <name>PMC_SS_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- MDM Status --></label>
+        <name>PMC_SS_MDMStatus__c</name>
+        <picklistValues>
+            <masterLabel>Waiting for Customer Form Completion</masterLabel>
+            <translation><!-- Waiting for Customer Form Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Master Data Management</masterLabel>
+            <translation><!-- Waiting for Master Data Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Product Costing Setup</masterLabel>
+            <translation><!-- Waiting for Product Costing Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Product Form Completion</masterLabel>
+            <translation><!-- Waiting for Product Form Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Product Routing Creation and Assignment</masterLabel>
+            <translation><!-- Waiting for Product Routing Creation and Assignment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mode of Transportation --></label>
+        <name>PMC_SS_MOT__c</name>
+        <picklistValues>
+            <masterLabel>Barge</masterLabel>
+            <translation><!-- Barge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation><!-- Container --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation><!-- Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Master Data Rejection Details --></label>
+        <name>PMC_SS_MasterDataRejectionDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Milestone Is Nearby --></label>
+        <name>PMC_SS_MilestoneIsNearby__c</name>
+    </fields>
+    <fields>
+        <label><!-- Milestone Is Violated --></label>
+        <name>PMC_SS_MilestoneIsViolated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mode of Transportation Do Not Use --></label>
+        <name>PMC_SS_ModeofTransportation__c</name>
+        <picklistValues>
+            <masterLabel>Barge</masterLabel>
+            <translation><!-- Barge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation><!-- Container --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Transfer</masterLabel>
+            <translation><!-- Inventory Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation><!-- Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- National Director --></label>
+        <name>PMC_SS_NationalDirector__c</name>
+        <relationshipLabel><!-- Cases (National Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Contract --></label>
+        <name>PMC_SS_NewContract__c</name>
+        <relationshipLabel><!-- Cases (New Contract) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Destination(Location) --></label>
+        <name>PMC_SS_NewDestinationLocation__c</name>
+        <relationshipLabel><!-- Cases (New Destination(Location)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Destination(Ship To) --></label>
+        <name>PMC_SS_NewDestinationShipTo__c</name>
+        <relationshipLabel><!-- Cases (New Destination(Ship To)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nitrogen % --></label>
+        <name>PMC_SS_Nitrogen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offspec Sale --></label>
+        <name>PMC_SS_Offspec_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations Reportable? --></label>
+        <name>PMC_SS_OperationsReportable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field indicates whether a New Order was created in SAP or if the existing Order in SAP was updated. --></help>
+        <label><!-- Order Classification --></label>
+        <name>PMC_SS_OrderClassification__c</name>
+        <picklistValues>
+            <masterLabel>New Order</masterLabel>
+            <translation><!-- New Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Order Change</masterLabel>
+            <translation><!-- No Order Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated Order</masterLabel>
+            <translation><!-- Updated Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Link to Order Product --></label>
+        <name>PMC_SS_OrderProduct__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Summary --></label>
+        <name>PMC_SS_OrderSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>PMC_SS_Order__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Contract --></label>
+        <name>PMC_SS_OriginalContract__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Invoice Amount --></label>
+        <name>PMC_SS_OriginalInvoiceAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Weight --></label>
+        <name>PMC_SS_OriginalWeight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other At Fault Party --></label>
+        <name>PMC_SS_OtherAtFaultParty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Issue Reason --></label>
+        <name>PMC_SS_OtherIssueReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Re-Open Reason --></label>
+        <name>PMC_SS_OtherReOpenReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner OOO --></label>
+        <name>PMC_SS_OwnerOOO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner’s Country --></label>
+        <name>PMC_SS_OwnersCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- PGI Date --></label>
+        <name>PMC_SS_PGIDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packing Sent to Analysis? --></label>
+        <name>PMC_SS_Packing_Sent_to_Analysis__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Request Type --></label>
+        <name>PMC_SS_PaymentRequestType__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation><!-- ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Request</masterLabel>
+            <translation><!-- Check Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Account</masterLabel>
+            <translation><!-- On Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire</masterLabel>
+            <translation><!-- Wire --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phosphorous % --></label>
+        <name>PMC_SS_Phosphorous__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plant --></label>
+        <name>PMC_SS_Plant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Point of Failure Sub-Category --></label>
+        <name>PMC_SS_PointofFailureSubCategory__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dismissed or None</masterLabel>
+            <translation><!-- Dismissed or None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Material Handling</masterLabel>
+            <translation><!-- Operations Material Handling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Production</masterLabel>
+            <translation><!-- Operations Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain Warehousing</masterLabel>
+            <translation><!-- Supply Chain Warehousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation Mosaic</masterLabel>
+            <translation><!-- Transportation Mosaic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation Vendor</masterLabel>
+            <translation><!-- Transportation Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Investigation Cause --></label>
+        <name>PMC_SS_PostInvestigationCause__c</name>
+        <picklistValues>
+            <masterLabel>Adulteration</masterLabel>
+            <translation><!-- Adulteration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bagging Issue</masterLabel>
+            <translation><!-- Bagging Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Dismissed</masterLabel>
+            <translation><!-- Complaint Dismissed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crust</masterLabel>
+            <translation><!-- Crust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Caused</masterLabel>
+            <translation><!-- Customer Caused --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dust</masterLabel>
+            <translation><!-- Dust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure to Meet Specification</masterLabel>
+            <translation><!-- Failure to Meet Specification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fines</masterLabel>
+            <translation><!-- Fines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Contamination</masterLabel>
+            <translation><!-- Foreign Contamination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lumps</masterLabel>
+            <translation><!-- Lumps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple Factors</masterLabel>
+            <translation><!-- Multiple Factors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Reason</masterLabel>
+            <translation><!-- Other Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set-up</masterLabel>
+            <translation><!-- Set-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temperature</masterLabel>
+            <translation><!-- Temperature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment</masterLabel>
+            <translation><!-- Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wet Product</masterLabel>
+            <translation><!-- Wet Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Product</masterLabel>
+            <translation><!-- Wrong Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Potassium % --></label>
+        <name>PMC_SS_Potassium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior_OwnerId --></label>
+        <name>PMC_SS_Prior_OwnerId__c</name>
+        <relationshipLabel><!-- Cases (Prior_OwnerId) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>PMC_SS_ProductDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a more specific problem you are facing with the product. --></help>
+        <label><!-- Product Issue --></label>
+        <name>PMC_SS_ProductIssue__c</name>
+        <picklistValues>
+            <masterLabel>Adulteration</masterLabel>
+            <translation><!-- Adulteration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bagging Issue</masterLabel>
+            <translation><!-- Bagging Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Dismissed</masterLabel>
+            <translation><!-- Complaint Dismissed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crust</masterLabel>
+            <translation><!-- Crust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dust</masterLabel>
+            <translation><!-- Dust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure to Meet Specifications</masterLabel>
+            <translation><!-- Failure to Meet Specifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fines</masterLabel>
+            <translation><!-- Fines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Contamination</masterLabel>
+            <translation><!-- Foreign Contamination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lumps</masterLabel>
+            <translation><!-- Lumps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple Factors</masterLabel>
+            <translation><!-- Multiple Factors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Reason</masterLabel>
+            <translation><!-- Other Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set-up</masterLabel>
+            <translation><!-- Set-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temperature</masterLabel>
+            <translation><!-- Temperature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment</masterLabel>
+            <translation><!-- Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wet Product</masterLabel>
+            <translation><!-- Wet Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Product</masterLabel>
+            <translation><!-- Wrong Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Location --></label>
+        <name>PMC_SS_ProductLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Number --></label>
+        <name>PMC_SS_ProductNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Segregated --></label>
+        <name>PMC_SS_ProductSegregated__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>PMC_SS_ProductType__c</name>
+        <picklistValues>
+            <masterLabel>AFI</masterLabel>
+            <translation><!-- AFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commodity</masterLabel>
+            <translation><!-- Commodity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conventional</masterLabel>
+            <translation><!-- Conventional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Materials</masterLabel>
+            <translation><!-- Raw Materials --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Production Facility --></label>
+        <name>PMC_SS_ProductionFacility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality Action Summary --></label>
+        <name>PMC_SS_QualityActionSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality Findings Summary --></label>
+        <name>PMC_SS_QualityFindingsSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality Status --></label>
+        <name>PMC_SS_QualityStatus__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Pricing / Costs (NA)</masterLabel>
+            <translation><!-- Awaiting Pricing / Costs (NA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Release of Claims (NA)</masterLabel>
+            <translation><!-- Awaiting Release of Claims (NA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Samples / Analysis / Inspection (NA)</masterLabel>
+            <translation><!-- Awaiting Samples / Analysis / Inspection (NA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Shipment / Regulatory Information (NA)</masterLabel>
+            <translation><!-- Awaiting Shipment / Regulatory Information (NA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checklist &amp; Sample Delivery (SA)</masterLabel>
+            <translation><!-- Checklist &amp; Sample Delivery (SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Committee Judgement (SA)</masterLabel>
+            <translation><!-- Committee Judgement (SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedback &amp; Agreement (SA)</masterLabel>
+            <translation><!-- Feedback &amp; Agreement (SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation (NA / SA)</masterLabel>
+            <translation><!-- Investigation (NA / SA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitigation (NA)</masterLabel>
+            <translation><!-- Mitigation (NA) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>PMC_SS_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Customer Satisfaction --></label>
+        <name>PMC_SS_QuickCustomerSatisfaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Re-Open Reason --></label>
+        <name>PMC_SS_ReOpenReason__c</name>
+        <picklistValues>
+            <masterLabel>New information</masterLabel>
+            <translation><!-- New information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Not Accurate</masterLabel>
+            <translation><!-- Resolution Not Accurate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Not Complete</masterLabel>
+            <translation><!-- Resolution Not Complete --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ready For Deletion --></label>
+        <name>PMC_SS_ReadyForDeletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For MDM --></label>
+        <name>PMC_SS_ReadyForMDM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Rebill Amount --></label>
+        <name>PMC_SS_RebillAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Director --></label>
+        <name>PMC_SS_RegionalDirector__c</name>
+        <relationshipLabel><!-- Cases (Regional Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager --></label>
+        <name>PMC_SS_RegionalManager__c</name>
+        <relationshipLabel><!-- Cases (Regional Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Return Amount --></label>
+        <name>PMC_SS_ReturnAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Quantity --></label>
+        <name>PMC_SS_ReturnQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause Analysis --></label>
+        <name>PMC_SS_RootCauseAnalysis__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Route to Quality --></label>
+        <name>PMC_SS_RouteToQuality__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should capture information such as: SAP invoice ID, order ID’s etc. --></help>
+        <label><!-- SAP ID --></label>
+        <name>PMC_SS_SAPID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Invoice Number --></label>
+        <name>PMC_SS_SAPInvoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Order Number --></label>
+        <name>PMC_SS_SAPOrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>PMC_SS_SAP_CustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt-out --></label>
+        <name>PMC_SS_SMSOptOut__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abatement Contract Number --></label>
+        <name>PMC_SS_SNOW_AbatementContractNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>PMC_SS_SNOW_Business__c</name>
+        <picklistValues>
+            <masterLabel>Bahamas</masterLabel>
+            <translation><!-- Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation><!-- Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fospar</masterLabel>
+            <translation><!-- Fospar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IFC</masterLabel>
+            <translation><!-- IFC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jupiter</masterLabel>
+            <translation><!-- Jupiter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay Mosaic</masterLabel>
+            <translation><!-- Paraguay Mosaic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potássio Mineração</masterLabel>
+            <translation><!-- Potássio Mineração --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terras Brasil</masterLabel>
+            <translation><!-- Terras Brasil --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CPR --></label>
+        <name>PMC_SS_SNOW_CPR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Center to be Expanded --></label>
+        <name>PMC_SS_SNOW_CenterToBeExpanded__c</name>
+        <relationshipLabel><!-- Cases (Center to be expanded) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Circularization Letter Details --></label>
+        <name>PMC_SS_SNOW_CircularizationLetterDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Circularization Letter Name --></label>
+        <name>PMC_SS_SNOW_CircularizationLetterName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Value --></label>
+        <name>PMC_SS_SNOW_ContractValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Code --></label>
+        <name>PMC_SS_SNOW_CustomerCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Endorsement Value --></label>
+        <name>PMC_SS_SNOW_EndorsementValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exact Date To Be Paid --></label>
+        <name>PMC_SS_SNOW_ExactDateToBePaid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Date --></label>
+        <name>PMC_SS_SNOW_FinalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Operation Value --></label>
+        <name>PMC_SS_SNOW_FinancialOperationValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Date --></label>
+        <name>PMC_SS_SNOW_InitialDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Request Period --></label>
+        <name>PMC_SS_SNOW_InitialRequestPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mortage --></label>
+        <name>PMC_SS_SNOW_Mortage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mortgage --></label>
+        <name>PMC_SS_SNOW_Mortgage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mosaic Paying / Receiving Company --></label>
+        <name>PMC_SS_SNOW_MosaicPayingReceivingCompany__c</name>
+        <picklistValues>
+            <masterLabel>4090 - Mosaic Distribuição</masterLabel>
+            <translation><!-- 4090 - Mosaic Distribuição --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4110 - Fospar</masterLabel>
+            <translation><!-- 4110 - Fospar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4115 - Bahamas</masterLabel>
+            <translation><!-- 4115 - Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4350 - Paraguay Mosaic</masterLabel>
+            <translation><!-- 4350 - Paraguay Mosaic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4460 - IFC</masterLabel>
+            <translation><!-- 4460 - IFC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4550 - Mosaic Potássio</masterLabel>
+            <translation><!-- 4550 - Mosaic Potássio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4560 - Mosaic P&amp;K</masterLabel>
+            <translation><!-- 4560 - Mosaic P&amp;K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4570 - Terras Brasil</masterLabel>
+            <translation><!-- 4570 - Terras Brasil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4690 - Jupiter</masterLabel>
+            <translation><!-- 4690 - Jupiter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Number or Contract Number --></label>
+        <name>PMC_SS_SNOW_OrderNumberorContractNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payee Name --></label>
+        <name>PMC_SS_SNOW_PayeeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>PMC_SS_SNOW_Program__c</name>
+        <picklistValues>
+            <masterLabel>Grow Crops</masterLabel>
+            <translation><!-- Grow Crops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>PMC_SS_SNOW_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bonus/Rebate</masterLabel>
+            <translation><!-- Bonus/Rebate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractual Fine</masterLabel>
+            <translation><!-- Contractual Fine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incident</masterLabel>
+            <translation><!-- Incident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation><!-- Intercompany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judicial Proceedings</masterLabel>
+            <translation><!-- Judicial Proceedings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursement of Expenses</masterLabel>
+            <translation><!-- Reimbursement of Expenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes and Fees</masterLabel>
+            <translation><!-- Taxes and Fees --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recipients of Circularization Letter --></label>
+        <name>PMC_SS_SNOW_RecipientsofCirLetter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>PMC_SS_SNOW_RequestType__c</name>
+        <picklistValues>
+            <masterLabel>Advance Reports</masterLabel>
+            <translation><!-- Advance Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking Intervention</masterLabel>
+            <translation><!-- Banking Intervention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billed and billable portfolio report</masterLabel>
+            <translation><!-- Billed and billable portfolio report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRA</masterLabel>
+            <translation><!-- CRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing of Services Exchange</masterLabel>
+            <translation><!-- Closing of Services Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compensation reports</masterLabel>
+            <translation><!-- Compensation reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complementary Note</masterLabel>
+            <translation><!-- Complementary Note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Registration</masterLabel>
+            <translation><!-- Core Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit note</masterLabel>
+            <translation><!-- Credit note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Registration</masterLabel>
+            <translation><!-- Customer Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit note</masterLabel>
+            <translation><!-- Debit note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demurrage / Dispatch Closing</masterLabel>
+            <translation><!-- Demurrage / Dispatch Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discharge Receipt</masterLabel>
+            <translation><!-- Discharge Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empty Factory</masterLabel>
+            <translation><!-- Empty Factory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enlargement of Registration to Another Centerv</masterLabel>
+            <translation><!-- Enlargement of Registration to Another Centerv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export Exchange Closing</masterLabel>
+            <translation><!-- Export Exchange Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generate Billet</masterLabel>
+            <translation><!-- Generate Billet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Import Exchange Closing</masterLabel>
+            <translation><!-- Import Exchange Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Login and Password Unlock</masterLabel>
+            <translation><!-- Login and Password Unlock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRO Exchange Closing</masterLabel>
+            <translation><!-- MRO Exchange Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NDA Renewal</masterLabel>
+            <translation><!-- NDA Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New NDA</masterLabel>
+            <translation><!-- New NDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Product Registration</masterLabel>
+            <translation><!-- New Product Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Products</masterLabel>
+            <translation><!-- Premium Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Registration in MIC</masterLabel>
+            <translation><!-- Product Registration in MIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Composition</masterLabel>
+            <translation><!-- Receipt Composition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registration Change</masterLabel>
+            <translation><!-- Registration Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replan</masterLabel>
+            <translation><!-- Replan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return of Values</masterLabel>
+            <translation><!-- Return of Values --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrap Order</masterLabel>
+            <translation><!-- Scrap Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sharing Risk</masterLabel>
+            <translation><!-- Sharing Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplementary Invoice Report</masterLabel>
+            <translation><!-- Supplementary Invoice Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck in Factory</masterLabel>
+            <translation><!-- Truck in Factory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck in the Factory</masterLabel>
+            <translation><!-- Truck in the Factory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update of Registration Forms</masterLabel>
+            <translation><!-- Update of Registration Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use of the balance in another contract</masterLabel>
+            <translation><!-- Use of the balance in another contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallet Lock</masterLabel>
+            <translation><!-- Wallet Lock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Incident Number --></label>
+        <name>PMC_SS_SNOW_SalesforceIncidentNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment Manager --></label>
+        <name>PMC_SS_SNOW_SegmentManager__c</name>
+        <relationshipLabel><!-- Cases (Segment Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ServiceNow Ticket Number --></label>
+        <name>PMC_SS_SNOW_ServiceNowTicketNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceNow Ticket Sync Id --></label>
+        <name>PMC_SS_SNOW_ServiceNowTicketSyncId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Now Status Label --></label>
+        <name>PMC_SS_SNOW_StatusLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceNow Status Value --></label>
+        <name>PMC_SS_SNOW_StatusValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Now Status --></label>
+        <name>PMC_SS_SNOW_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Agronomic and Legal Opinion</masterLabel>
+            <translation>Aguardando Parecer Agronómico e Legal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Analysis of credit</masterLabel>
+            <translation>Aguardando análise de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Approval</masterLabel>
+            <translation>Aguardando aprovação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Area Evaluation</masterLabel>
+            <translation>Aguardando Avaliação da Área</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Commercial Approval</masterLabel>
+            <translation>Aguardando aprovação comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Draft and Power of Attorney</masterLabel>
+            <translation>Aguardando minuta e procuração</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Legal Communication</masterLabel>
+            <translation>Aguardando comunicação jurídica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Legal Validation</masterLabel>
+            <translation>Aguardando Validação Legal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Mortgage Protocol</masterLabel>
+            <translation>Aguardando protocolo de hipoteca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Protocol Drafting</masterLabel>
+            <translation>Aguardando elaboração do protocolo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Protocol Signature</masterLabel>
+            <translation>Aguardando Assinatura do Protocolo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Registration</masterLabel>
+            <translation>Aguardando registro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Requester Information</masterLabel>
+            <translation>Aguardando informações do solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Signature</masterLabel>
+            <translation>Aguardando Assinatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Stock Valuation</masterLabel>
+            <translation>Aguardando avaliação de estoque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Treatment</masterLabel>
+            <translation>Awaiting Treatment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Value Approval</masterLabel>
+            <translation>Aguardando aprovação de valor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting analysis of acquittance</masterLabel>
+            <translation>Aguardando análise de quitação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Complete</masterLabel>
+            <translation>Fechado Concluído</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Validation</masterLabel>
+            <translation>Validação de Documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Analysis</masterLabel>
+            <translation>Em análise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Credit Analysis</masterLabel>
+            <translation>Em Análise de Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Execution</masterLabel>
+            <translation>Em execução</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Validation of Documents</masterLabel>
+            <translation>Na Validação de Documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Warranty Validation</masterLabel>
+            <translation>Na validação da garantia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request of Notary Documents</masterLabel>
+            <translation>Solicitação de Documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Legal Analysis</masterLabel>
+            <translation>Sob análise jurídica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Approval in SAP</masterLabel>
+            <translation>Aguardando aprovação no SAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Execution</masterLabel>
+            <translation>Aguardando Execução</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Inclusion in SAP</masterLabel>
+            <translation>Aguardando inclusão no SAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Limit Approval</masterLabel>
+            <translation>Aguardando aprovação de limite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Limit Release</masterLabel>
+            <translation>Aguardando liberação de limite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for New Registration</masterLabel>
+            <translation>Aguardando Novo Cadastro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Requester Information</masterLabel>
+            <translation>Aguardando informações do solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Requester Information - In Execution</masterLabel>
+            <translation>Aguardando Informações do Solicitante - Em Execução</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Requestor Information</masterLabel>
+            <translation>Aguardando informações do solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Responsible Team</masterLabel>
+            <translation>Aguardando equipe responsável</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Risk Analysis</masterLabel>
+            <translation>Aguardando Análise de Risco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Signature Collection</masterLabel>
+            <translation>Aguardando coleta de assinatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Treatment</masterLabel>
+            <translation>Esperando pelo tratamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Update in SAP</masterLabel>
+            <translation>Aguardando atualização no SAP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Warranty Analysis</masterLabel>
+            <translation>Aguardando análise de garantia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for additional Information</masterLabel>
+            <translation>Aguardando adicional Informação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for signature correction</masterLabel>
+            <translation>Aguardando correção de assinatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting via Registered</masterLabel>
+            <translation>Aguardando via Cadastrado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ServiceNow Ticket Link --></label>
+        <name>PMC_SS_SNOW_TicketLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measurement Conversion? --></label>
+        <name>PMC_SS_SNOW_UnitofMeasurementConversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Type --></label>
+        <name>PMC_SS_SNOW_WarrantyType__c</name>
+        <picklistValues>
+            <masterLabel>Bail</masterLabel>
+            <translation><!-- Bail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPR</masterLabel>
+            <translation><!-- CPR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPR Endorsement</masterLabel>
+            <translation><!-- CPR Endorsement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposal</masterLabel>
+            <translation><!-- Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiduciary Sale</masterLabel>
+            <translation><!-- Fiduciary Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation><!-- Mortgage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge</masterLabel>
+            <translation><!-- Pledge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample Post Office Code --></label>
+        <name>PMC_SS_Sample_Post_Office_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Samples Available? --></label>
+        <name>PMC_SS_SamplesAvailable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Second Level Approval --></label>
+        <name>PMC_SS_SecondLevelApproval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Now Ticket Type --></label>
+        <name>PMC_SS_ServiceNowTicketType__c</name>
+        <picklistValues>
+            <masterLabel>Circularization Letters – Clients</masterLabel>
+            <translation><!-- Circularization Letters – Clients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collections Portal</masterLabel>
+            <translation><!-- Collections Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Credit Analysis</masterLabel>
+            <translation><!-- Customer Credit Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit or Credit Notes</masterLabel>
+            <translation><!-- Debit or Credit Notes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform Warranty</masterLabel>
+            <translation><!-- Perform Warranty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release of Paid Contracts</masterLabel>
+            <translation><!-- Release of Paid Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use of Credits, Return, Receipt of Discharge and Reports</masterLabel>
+            <translation><!-- Use of Credits, Return, Receipt of Discharge and Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Formalization</masterLabel>
+            <translation><!-- Warranty Formalization --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ship From --></label>
+        <name>PMC_SS_ShipFrom__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship To --></label>
+        <name>PMC_SS_ShipToAccount__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- STO Ship To --></label>
+        <name>PMC_SS_ShipTo__c</name>
+        <relationshipLabel><!-- Cases (Ship To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipment Date --></label>
+        <name>PMC_SS_ShipmentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To --></label>
+        <name>PMC_SS_SoldToAccount__c</name>
+        <relationshipLabel><!-- Cases (Sold To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Solution Type --></label>
+        <name>PMC_SS_SolutionType__c</name>
+        <picklistValues>
+            <masterLabel>Cargo Rejection / Exchange</masterLabel>
+            <translation><!-- Cargo Rejection / Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distressed Tonnage Moved to Scrap</masterLabel>
+            <translation><!-- Distressed Tonnage Moved to Scrap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Quality Mitigation Required</masterLabel>
+            <translation><!-- No Quality Mitigation Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Site Remediation</masterLabel>
+            <translation><!-- On Site Remediation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Credit</masterLabel>
+            <translation><!-- Sales Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Price Adjustment</masterLabel>
+            <translation><!-- Sales Price Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Information Provided</masterLabel>
+            <translation><!-- Technical Information Provided --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stock out/Plant Outage Contracts --></label>
+        <name>PMC_SS_StockOutPlantOutageContracts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock out/Plant Outage End Date --></label>
+        <name>PMC_SS_StockOutPlantOutageEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock out/Plant Outage Orders --></label>
+        <name>PMC_SS_StockOutPlantOutageOrders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock out/Plant Outage Start Date --></label>
+        <name>PMC_SS_StockOutPlantOutageStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock - Out Reason --></label>
+        <name>PMC_SS_StockOutReason__c</name>
+        <picklistValues>
+            <masterLabel>Facility</masterLabel>
+            <translation><!-- Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forecast</masterLabel>
+            <translation><!-- Forecast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shrink/Inventory</masterLabel>
+            <translation><!-- Shrink/Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather</masterLabel>
+            <translation><!-- Weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Suboptimal Costs Details --></label>
+        <name>PMC_SS_SuboptimalCostsDetails__c</name>
+        <picklistValues>
+            <masterLabel>Additional Freight</masterLabel>
+            <translation><!-- Additional Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demurrage</masterLabel>
+            <translation><!-- Demurrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversion Fee</masterLabel>
+            <translation><!-- Diversion Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconsignment Fee</masterLabel>
+            <translation><!-- Reconsignment Fee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Suboptimal Costs&apos; for Parent Quality and Non-Quality --></help>
+        <label><!-- Suboptimal Level 1 Costs --></label>
+        <name>PMC_SS_SuboptimalLevel1Costs__c</name>
+    </fields>
+    <fields>
+        <help><!-- To total &apos;Suboptimal Costs&apos; for Child Quality and Non-Quality --></help>
+        <label><!-- Suboptimal Level 2 Costs --></label>
+        <name>PMC_SS_SuboptimalLevel2Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suboptimal Level 3 Costs --></label>
+        <name>PMC_SS_SuboptimalLevel3Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tons --></label>
+        <name>PMC_SS_Ton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>PMC_SS_TotalCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Score --></label>
+        <name>PMC_SS_TotalScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tonnage Impacted --></label>
+        <name>PMC_SS_TotalTonnageImpacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost to Satisfy --></label>
+        <name>PMC_SS_Total_Cost_to_Satisfy__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>PMC_SS_UOM__c</name>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation><!-- Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Item</masterLabel>
+            <translation><!-- Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTN</masterLabel>
+            <translation><!-- MTN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STN</masterLabel>
+            <translation><!-- STN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Validation Rule Bypass --></label>
+        <name>PMC_SS_ValidationRuleBypass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Id --></label>
+        <name>PMC_SS_VehicleId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Delta --></label>
+        <name>PMC_SS_WeightDelta__c</name>
+    </fields>
+    <fields>
+        <label><!-- POC Approved --></label>
+        <name>POC_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue Name --></label>
+        <name>Queue_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted Date --></label>
+        <name>SubmittedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted User --></label>
+        <name>SubmittedUser__c</name>
+        <relationshipLabel><!-- Cases (Submitted User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test hyperlink --></label>
+        <name>Test_hyperlink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing --></label>
+        <name>Testing__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Case General --></label>
+        <name>PMC_SS_CaseGeneral</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quality --></label>
+        <name>Quality</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Duplicate Request created for NPK --></errorMessage>
+        <name>Duplicate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Location is required when At Fault Party is &apos;Plant / Operations&apos; or &apos;Warehouse&apos;. --></errorMessage>
+        <name>LocationRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User can&apos;t update the Case Status field. --></errorMessage>
+        <name>PMC_DH_StatusNotEditable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is no Account Manager for this Case. Please add the Account Manager to send the Case for Approval --></errorMessage>
+        <name>PMC_SS_AccountMangerCannotbeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Action Reason cannot be empty. --></errorMessage>
+        <name>PMC_SS_ActionReasonCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The field “Contract Amendment Justification” should be required to close the case --></errorMessage>
+        <name>PMC_SS_CheckAmendmentValuesOnCaseClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact information on site cannot be empty --></errorMessage>
+        <name>PMC_SS_ContactInfoOnSiteToCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select contact --></errorMessage>
+        <name>PMC_SS_ContactMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Corrected Weight cannot be empty --></errorMessage>
+        <name>PMC_SS_CorrectedWeightCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Corrected weight --></errorMessage>
+        <name>PMC_SS_CorrectedWeightCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cost per day cannot be empty --></errorMessage>
+        <name>PMC_SS_CostPerDayCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only fill either one of them, Current Destination Location or Current Destination Ship To --></errorMessage>
+        <name>PMC_SS_CurrentDestinationSelectOneValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Impacted cannot be empty --></errorMessage>
+        <name>PMC_SS_CustomerImpactedCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Days of demurrage cannot be empty --></errorMessage>
+        <name>PMC_SS_DaysOfDemurrageCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At Fault Party is Mandatory to Close the Case --></errorMessage>
+        <name>PMC_SS_FaultPartyCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invoice Number cannot be empty --></errorMessage>
+        <name>PMC_SS_InvoiceNumberCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the issue reason before closing the case. --></errorMessage>
+        <name>PMC_SS_IssueReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Issue reason is required for ‘Internal’ Case Type --></errorMessage>
+        <name>PMC_SS_IssueReasonBlankForInternalCase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Location cannot be blank --></errorMessage>
+        <name>PMC_SS_LocationCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select right value --></errorMessage>
+        <name>PMC_SS_MDMStatusCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mode Of Transportation cannot be blank --></errorMessage>
+        <name>PMC_SS_MOTCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Master Data Rejection Details are required in order to reject a Case. --></errorMessage>
+        <name>PMC_SS_MasterDataRejectionBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is no National DirectorTeam Members for this Account. Please add the members to send the Case for Approval --></errorMessage>
+        <name>PMC_SS_NationalDirectorCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only fill either one of them, New Destination Location or New Destination Ship To --></errorMessage>
+        <name>PMC_SS_NewDestinationSelectOneValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Operations Reportable cannot be empty --></errorMessage>
+        <name>PMC_SS_OperationsReportableCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An Order Classification must be selected before Closing the Case. --></errorMessage>
+        <name>PMC_SS_OrderClassificationCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP Order Number must be entered for the New Order before Closing the Case. --></errorMessage>
+        <name>PMC_SS_OrderNumberCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Original Invoice Amount cannot be blank or 0 --></errorMessage>
+        <name>PMC_SS_OriginaInvoiceNumberCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The newly selected user is out of office. Please select a different user. --></errorMessage>
+        <name>PMC_SS_OwnerChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Post Investigation Cause cannot be empty --></errorMessage>
+        <name>PMC_SS_PostInvestigationCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product number is required when closing this type of case --></errorMessage>
+        <name>PMC_SS_ProdNumCaseStatusValidationRule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product cannot be empty. --></errorMessage>
+        <name>PMC_SS_ProductCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product Location cannot be empty --></errorMessage>
+        <name>PMC_SS_ProductLocationCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity cannot be empty. --></errorMessage>
+        <name>PMC_SS_QuantityCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Re-Open reason is required in order to re-open a Case. --></errorMessage>
+        <name>PMC_SS_ReOpenReasonBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please create the Case and upload the file before sending the Case to the MDM team --></errorMessage>
+        <name>PMC_SS_ReadyForMDMCannotBeChecked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rebill Amount cannot be blank or 0 --></errorMessage>
+        <name>PMC_SS_RebilleInvoiceNumberCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is no Regional Director Team Members for this Account. Please add the members to send the Case for Approval --></errorMessage>
+        <name>PMC_SS_RegionalDirectorCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is no Regional Manager  for this Case. Please add the Regional Manager to send the Case for Approval --></errorMessage>
+        <name>PMC_SS_RegionalManagerCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter The SAP Invoice Number --></errorMessage>
+        <name>PMC_SS_SAPInvoicenumberCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the SAP Number before closing the Case --></errorMessage>
+        <name>PMC_SS_SAPNumberCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is no Segment Manger Team Members for this Account. Please add the members to send the Case for Approval --></errorMessage>
+        <name>PMC_SS_SegmentManagerCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipment Date cannot be empty. --></errorMessage>
+        <name>PMC_SS_ShipmentDateCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solution Type cannot be empty --></errorMessage>
+        <name>PMC_SS_SolutionTypeCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Tonnage Impacted cannot be empty --></errorMessage>
+        <name>PMC_SS_TotalTonnageImpactedCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot re-open a Case that has not been closed. --></errorMessage>
+        <name>PMC_SS_ValidateCaseStatusBeforeReOpen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the issue reason before closing the case. --></errorMessage>
+        <name>PMC_SS_ValidateForBlankIssueReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill SAP Customer Number before closing the Case. --></errorMessage>
+        <name>PMC_SS_ValidateSAPNumberOnCaseClose</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vehicle Id cannot be empty. --></errorMessage>
+        <name>PMC_SS_VehicleIDCannotBeEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before closing this case, you must send this investigation to Customer Service. Please indicate the date that you sent the investigation to the team. --></errorMessage>
+        <name>Require_Date_Investigation_For_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please indicate whether the packing was sent for analysis. --></errorMessage>
+        <name>Require_Packing_Sent_to_Analysis</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_RoC_Test --></label>
+        <name>Generate_RoC_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PMC_CLM_GenerateRoC --></label>
+        <name>PMC_CLM_GenerateRoC</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview_Approval --></label>
+        <name>Preview_Approval</name>
+    </webLinks>
+</CustomObjectTranslation>

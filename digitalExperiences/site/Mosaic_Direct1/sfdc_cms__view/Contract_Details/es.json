@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Contratos",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "pageTitle" : " Contratos"
+        },
+        "id" : "c5fe61e7-ca95-4557-8f4e-ef6696d87944"
+      } ]
+    }
+  },
+  "urlName" : "contract-details"
+}

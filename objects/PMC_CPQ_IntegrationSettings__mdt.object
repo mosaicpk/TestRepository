@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This contains settings with respect to Integration.</description>
+    <fields>
+        <fullName>PMC_CPQ_Description__c</fullName>
+        <description>Provides a description of a particular record in custom metadata.</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Description</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SettingName__c</fullName>
+        <description>This will contain the name of the setting.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Setting Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SettingTwoValueNumber_c__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PMC_CPQ_SettingTwoValueNumber__c</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SettingValueLongTextArea__c</fullName>
+        <description>This is to store setting values that store long text area values.</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Setting Value Long Text Area</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_CPQ_SettingValueNumber__c</fullName>
+        <description>This is to store setting values that are in number format.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Setting Value Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>PMC CPQ Integration Settings</label>
+    <pluralLabel>PMC CPQ Integration Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

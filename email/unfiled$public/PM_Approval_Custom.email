@@ -1,0 +1,56 @@
+<style>
+th, td {
+  border:1px solid black;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<body>
+
+<b>FPD Called Price Approval Request</b></br></br>
+
+Net unit price is bellow the Floor Price OR over 10,000 ST </br></br>
+
+Hello {!Recipient.name} </br></br>
+
+A order for {!OrderItem.Order} has been submitted for your approval by </br>{!OrderItem.Order}.
+The order is {!Order.Link} </br></br>
+
+<b>Quote Summary</b> </br></br>
+
+<b>Customer Name:</b> {!OrderItem.Order} </br>
+<b>Quote Description: </b> {!OrderItem.Order} </br>
+<b>Quote Issue Date:</b> {!OrderItem.Order} </br>
+<b>Contract Validity: </b>{!OrderItem.Order} </br>
+<b>Currency: </b>{!OrderItem.Order} </br></br>
+
+<b>Submitter Comments: </b> {!OrderItem.Order} </br> </br>
+
+<b>Quote Line Information</b> </br> </br>
+
+<table style="width:100%">
+  <tr>
+    <th>Order Line</th>
+    <th>Order Number</th>
+    <th>SAP Order Number</th>
+    <th>Contract Number</th>
+    <th>Customer</th>
+    <th>Ship To</th>
+    <th>Account Name</th>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Price by date</th>
+    <th>List Price</th>
+    <th>Agreed Final Price</th>
+    <th>Status</th>
+    <th>Integration Message</th>
+  </tr>
+  <tr>
+    <td>{!OrderItem.LineNumber}</td>
+    <td>data</td>
+    <td>data</td>
+  </tr>
+</table>
+</body>

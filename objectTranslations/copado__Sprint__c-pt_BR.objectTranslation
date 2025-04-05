@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Sprint --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Sprint --></value>
+    </caseValues>
+    <fields>
+        <help>Calculado pela soma dos pontos das histórias de usuário com base nas mudanças de status para Concluído. Isso pode ser alterado no tipo de metadados personalizados &quot;Actual Velocity Statuses&quot;. Consulte os documentos do Copado para obter mais informações.</help>
+        <label>Velocidade real</label>
+        <name>copado__ActualVelocity__c</name>
+    </fields>
+    <fields>
+        <label>Dias em sprint</label>
+        <name>copado__Days_in_sprint__c</name>
+    </fields>
+    <fields>
+        <label>Data final</label>
+        <name>copado__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Recursos em tempo integral no sprint</label>
+        <name>copado__Full_time_resources_in_sprint__c</name>
+    </fields>
+    <fields>
+        <help>Calculado quando o status do Sprint é alterado para Em andamento, somando os pontos atribuídos a todas aos Stories de Usuário no Sprint. Esse valor é calculado apenas uma vez no início de um Sprint.</help>
+        <label>Velocidade inicial planejada</label>
+        <name>copado__InitialPlannedVelocity__c</name>
+    </fields>
+    <fields>
+        <label>Meta do Sprint</label>
+        <name>copado__Objective__c</name>
+    </fields>
+    <fields>
+        <help>Recalculado a cada alteração feita nos pontos atribuídos a todas as User Stories no Sprint. Ele também é recalculado quando novas User Stories são adicionadas.</help>
+        <label>Velocidade planejada</label>
+        <name>copado__PlannedVelocity__c</name>
+    </fields>
+    <fields>
+        <label>Projeto</label>
+        <name>copado__Project__c</name>
+        <relationshipLabel><!-- Sprints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Liberação</label>
+        <name>copado__Release__c</name>
+        <relationshipLabel><!-- Sprints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data de início</label>
+        <name>copado__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Concluído</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>Em andamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation>Planejado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Capacidade total (pontos)</label>
+        <name>copado__Story_points__c</name>
+    </fields>
+    <fields>
+        <label>Equipe</label>
+        <name>copado__Team__c</name>
+        <relationshipLabel><!-- Sprints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dias úteis restantes</label>
+        <name>copado__Working_Days_Left__c</name>
+    </fields>
+    <fields>
+        <label>Dias úteis no sprint</label>
+        <name>copado__Working_days_in_sprint__c</name>
+    </fields>
+    <fields>
+        <label>Registro de conexão</label>
+        <name>copadoconnect__Connect_log__c</name>
+    </fields>
+    <fields>
+        <label>ID externa</label>
+        <name>copadoconnect__External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Data da última sincronização</label>
+        <name>copadoconnect__Last_Synced_Date__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Sprint Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Você deve introduzir uma Data de término maior que a Data de início.</errorMessage>
+        <name>copado__EndDate_Should_be_Greater_than_StartDate</name>
+    </validationRules>
+</CustomObjectTranslation>

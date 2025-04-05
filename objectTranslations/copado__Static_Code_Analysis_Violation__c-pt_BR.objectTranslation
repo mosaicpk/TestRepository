@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Static Code Analysis Violation --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Static Code Analysis Violation --></value>
+    </caseValues>
+    <fields>
+        <label>Arquivo</label>
+        <name>copado__File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Info URL --></label>
+        <name>copado__Info_URL_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Info URL --></label>
+        <name>copado__Info_URL__c</name>
+    </fields>
+    <fields>
+        <label>Linha</label>
+        <name>copado__Line__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <label>Prioridade</label>
+        <name>copado__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Resolução</label>
+        <name>copado__Resolution__c</name>
+        <picklistValues>
+            <masterLabel>False Positive</masterLabel>
+            <translation>Falso positivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removed</masterLabel>
+            <translation>Removido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresolved</masterLabel>
+            <translation>Não resolvido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won&apos;t fix</masterLabel>
+            <translation>Não conserta</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Regra</label>
+        <name>copado__Rule__c</name>
+    </fields>
+    <fields>
+        <label>Pontuação</label>
+        <name>copado__Score__c</name>
+    </fields>
+    <fields>
+        <label>Gravidade</label>
+        <name>copado__Severity__c</name>
+        <picklistValues>
+            <masterLabel>Blocker</masterLabel>
+            <translation>Bloqueador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Crítico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info</masterLabel>
+            <translation>Informações</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation>Principal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation>Minoritário</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Resultado da análise estática do código</label>
+        <name>copado__Static_Code_Analysis_Result__c</name>
+        <relationshipLabel>Violações da análise estática de código</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Fechado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation>Confirmado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Aberto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation>Reaberto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>Resolvido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Smell</masterLabel>
+            <translation>Código Smell</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulnerability</masterLabel>
+            <translation>Vulnerabilidade</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Static Code Analysis Violation Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Tipo de registro para integração com o CodeScan. Requer licenciamento do CodeScan.</description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Tipo de registro para integração gratuita do PMD</description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+</CustomObjectTranslation>

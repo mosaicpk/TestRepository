@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Team Member --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Team Member --></value>
+    </caseValues>
+    <fields>
+        <label>Membro</label>
+        <name>copado__Member__c</name>
+        <relationshipLabel>Membros da equipe</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Função</label>
+        <name>copado__Role__c</name>
+        <picklistValues>
+            <masterLabel>Analyst</masterLabel>
+            <translation>Analista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Architect</masterLabel>
+            <translation>Arquiteto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSA</masterLabel>
+            <translation><!-- BSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Owner</masterLabel>
+            <translation>Proprietário da empresa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacity Planner</masterLabel>
+            <translation>Planejador de capacidade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DBA</masterLabel>
+            <translation><!-- DBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Center Engineer</masterLabel>
+            <translation>Engenheiro de data center</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev Manager</masterLabel>
+            <translation><!-- Dev Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developer</masterLabel>
+            <translation>Desenvolvedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Editor</masterLabel>
+            <translation>Editor de documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Manager</masterLabel>
+            <translation>Gerente de documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Engineer</masterLabel>
+            <translation>Engenheiro de rede</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Engineer</masterLabel>
+            <translation>Engenheiro de desempenho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Owner</masterLabel>
+            <translation>Proprietário do produto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Manager</masterLabel>
+            <translation>Gerente de programas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provisioning Specialist / Asset Manager</masterLabel>
+            <translation>Especialista em provisionamento / Gerente de ativos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Engineer</masterLabel>
+            <translation><!-- QA Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Manager</masterLabel>
+            <translation><!-- QA Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Engineer</masterLabel>
+            <translation>Engenheiro de lançamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Manager</masterLabel>
+            <translation>Gerente de lançamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrum Master</masterLabel>
+            <translation><!-- Scrum Master --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security Engineer</masterLabel>
+            <translation>Engenheiro de segurança</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Reliability Engineer</masterLabel>
+            <translation>Engenheiro de confiabilidade do site</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SysAdmin</masterLabel>
+            <translation><!-- SysAdmin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SysAdmin Linux</masterLabel>
+            <translation><!-- SysAdmin Linux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SysAdmin Storage</masterLabel>
+            <translation>Armazenamento SysAdmin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SysAdmin Win</masterLabel>
+            <translation>Administrador de sistema Win</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechOps Manager</masterLabel>
+            <translation>Gerente de TechOps</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Writer</masterLabel>
+            <translation>Escritor técnico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust Engineer</masterLabel>
+            <translation>Engenheiro de confiança</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UE</masterLabel>
+            <translation><!-- UE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UE Manager</masterLabel>
+            <translation>Gerente de UE</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Equipe</label>
+        <name>copado__Team__c</name>
+        <relationshipLabel>Membros da equipe</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Team Member Name --></nameFieldLabel>
+</CustomObjectTranslation>

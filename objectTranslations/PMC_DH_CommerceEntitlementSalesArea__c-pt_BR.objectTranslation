@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Commerce Entitlement Sales Area --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Commerce Entitlement Sales Area --></value>
+    </caseValues>
+    <fields>
+        <label>Conta</label>
+        <name>PMC_DH_Account__c</name>
+        <relationshipLabel>Áreas de vendas de direitos comerciais</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produto</label>
+        <name>PMC_DH_Product__c</name>
+        <relationshipLabel>Áreas de vendas de direitos comerciais</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Área de vendas</label>
+        <name>PMC_DH_SalesArea__c</name>
+        <relationshipLabel>Áreas de vendas de direitos comerciais</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vendido Para SKU Id da Área de Vendas</label>
+        <name>PMC_DH_SoldTo_SKU_SaleAreaId__c</name>
+    </fields>
+    <fields>
+        <label>Chave Combinada Única</label>
+        <name>PMC_DH_UniqueCombinedKey__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- CommerceEntSalesArea --></nameFieldLabel>
+</CustomObjectTranslation>

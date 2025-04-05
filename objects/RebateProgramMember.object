@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddMember</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddMember</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddMember</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CumulativePayoutAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsPayoutCalcSkipped</fullName>
+        <inlineHelpText>Determines whether payouts are calculated for the member. In an account hierarchy, the calculation can be skipped for the member subaccounts, and the payout is calculated for the parent account.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastActivationDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastDeactivationDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>MemberStatus</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RebateProgramId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShipToAccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>All_RebateProgramMembers</fullName>
+        <filterScope>Everything</filterScope>
+        <label>AllRebateProgramMembers</label>
+    </listViews>
+    <listViews>
+        <fullName>My_RebateProgramMembers</fullName>
+        <filterScope>Mine</filterScope>
+        <label>MyRebateProgramMembers</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>RebateProgram</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MemberStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastActivationDate</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>RebateProgram</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MemberStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastActivationDate</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_RestrictMemberModification</fullName>
+        <active>true</active>
+        <description>This Validation rule will not allow create/update on Rebate Program Member once the Rebate program is Inactive.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+OR(
+ISPICKVAL(  PRIORVALUE(MemberStatus)  , &apos;Inactive&apos;),
+ISNEW()
+), 
+ISPICKVAL( RebateProgram.Status , &apos;Inactive&apos;) 
+)</errorConditionFormula>
+        <errorMessage>Cannot create/update Rebate Program Member once Rebate Program is Inactive</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictRebTest</fullName>
+        <active>false</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Program Member for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND( 
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT(
+AND(
+ISCHANGED(  MemberStatus ) ,
+ISPICKVAL(  MemberStatus , &apos;Active&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+
+)
+),
+NOT(ISPICKVAL(  RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR( ISPICKVAL(  RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c  , &apos;Approved&apos;), 
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Under Revision&apos;)  )
+)</errorConditionFormula>
+        <errorMessage>TEST Rebate Program Members can’t be edited at this stage. Please Amend the Sales Agreement to make revisions to Rebate Program Members.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictRebateProgramMemberEdit</fullName>
+        <active>true</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Program Member for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND( 
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT(
+OR(
+AND(
+ISCHANGED(  MemberStatus ) ,
+ISPICKVAL(  MemberStatus , &apos;Active&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+),
+AND(
+ISCHANGED(  MemberStatus ) ,
+ISPICKVAL(  MemberStatus , &apos;Inactive&apos;) ,
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;)
+)
+)
+),
+NOT(ISPICKVAL(  RebateProgram.PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR( ISPICKVAL(  RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c  , &apos;Approved&apos;), 
+ISPICKVAL( RebateProgram.PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Under Revision&apos;)  )
+)</errorConditionFormula>
+        <errorDisplayField>AccountId</errorDisplayField>
+        <errorMessage>Rebate Program Members can’t be created/edited at this stage. Please Amend the Sales Agreement to make revisions to Rebate Program Members.</errorMessage>
+    </validationRules>
+</CustomObject>

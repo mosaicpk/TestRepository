@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Producto alternativo/sustitutivo</label>
+        <name>PMC_CPQ_AlternateSubstituteProduct__c</name>
+        <picklistValues>
+            <masterLabel>Alternate Product,</masterLabel>
+            <translation>Producto alternativo,</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Substitute Product</masterLabel>
+            <translation>Producto sustitutivo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status de confirmación</label>
+        <name>PMC_CPQ_ConfirmationStatus__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación actual</label>
+        <name>PMC_CPQ_CurrentLocation__c</name>
+    </fields>
+    <fields>
+        <label>Precio acordado con el cliente (FPD)</label>
+        <name>PMC_CPQ_CustomerAgreedPriceFPD__c</name>
+    </fields>
+    <fields>
+        <label>ID de posición de entrega SAP</label>
+        <name>PMC_CPQ_DeliveryItemID__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del artículo de Entrega</label>
+        <name>PMC_CPQ_DeliveryItemName__c</name>
+    </fields>
+    <fields>
+        <label>Status de la línea de entrega</label>
+        <name>PMC_CPQ_DeliveryLineStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completely Shipped</masterLabel>
+            <translation>Completamente enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Shipped</masterLabel>
+            <translation>Aún no se ha enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Shipped</masterLabel>
+            <translation>Enviado parcialmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cantidad de entrega</label>
+        <name>PMC_CPQ_DeliveryQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Status de la entrega</label>
+        <name>PMC_CPQ_DeliveryStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completely Shipped</masterLabel>
+            <translation>Completamente enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Shipped</masterLabel>
+            <translation>Aún no enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Shipped</masterLabel>
+            <translation>Parcialmente enviado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Destino</label>
+        <name>PMC_CPQ_Destination__c</name>
+        <relationshipLabel>Artículos de entrega</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ETA</label>
+        <name>PMC_CPQ_ETA__c</name>
+    </fields>
+    <fields>
+        <label>Descripción Status salida mercancías</label>
+        <name>PMC_CPQ_GoodsIssueStatusDescription__c</name>
+        <picklistValues>
+            <masterLabel>Completely Processed</masterLabel>
+            <translation>Completamente procesado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not yet processed</masterLabel>
+            <translation>Aún no procesado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Processed</masterLabel>
+            <translation>Procesado parcialmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nº de pedido del cliente</label>
+        <name>PMC_CPQ_LinePONumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the appropriate mode from the available options to track and manage logistics effectively --></help>
+        <label><!-- MOT --></label>
+        <name>PMC_CPQ_ModeofTransportation__c</name>
+    </fields>
+    <fields>
+        <label>Documento del pedido</label>
+        <name>PMC_CPQ_OrderDocument__c</name>
+        <picklistValues>
+            <masterLabel>Bill of Lading</masterLabel>
+            <translation>Conocimiento de embarque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis</masterLabel>
+            <translation>Certificado de An�lisis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation>Factura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ítem del pedido</label>
+        <name>PMC_CPQ_OrderProduct__c</name>
+        <relationshipLabel>Artículos de entrega</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Origen</label>
+        <name>PMC_CPQ_Origin__c</name>
+    </fields>
+    <fields>
+        <label>Propietario</label>
+        <name>PMC_CPQ_OwnerId__c</name>
+        <relationshipLabel>Líneas de entrega</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de la Planta</label>
+        <name>PMC_CPQ_PlantID__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación del producto</label>
+        <name>PMC_CPQ_ProductLocation__c</name>
+        <relationshipLabel>Líneas de entrega</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ferrocarril</label>
+        <name>PMC_CPQ_RailCarNumber__c</name>
+    </fields>
+    <fields>
+        <label>ID de entrega SAP</label>
+        <name>PMC_CPQ_SAPDeliveryID__c</name>
+    </fields>
+    <fields>
+        <label>ID de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderID__c</name>
+    </fields>
+    <fields>
+        <label>ID de línea de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderlineID__c</name>
+    </fields>
+    <fields>
+        <label>Precio de venta</label>
+        <name>PMC_CPQ_SalesPrice__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de envío</label>
+        <name>PMC_CPQ_ShippedDate__c</name>
+    </fields>
+    <fields>
+        <label>Número del camión</label>
+        <name>PMC_CPQ_TruckNumber__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de peso</label>
+        <name>PMC_CPQ_UnitOfWeight__c</name>
+    </fields>
+    <fields>
+        <help>Especifique la unidad en la que se medirá el valor de este campo.</help>
+        <label>UoM Unidad de medida</label>
+        <name>PMC_CPQ_UnitofMeasure__c</name>
+    </fields>
+    <fields>
+        <label>ID del vehículo</label>
+        <name>PMC_CPQ_VehicleID__c</name>
+    </fields>
+    <fields>
+        <label>ID del buque</label>
+        <name>PMC_CPQ_VesselID__c</name>
+    </fields>
+    <fields>
+        <label>Peso</label>
+        <name>PMC_CPQ_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account UOM Converted Quantity --></label>
+        <name>PMC_SS_AccountUOMConvertedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Planned PGI Date --></label>
+        <name>PMC_SS_DeliveryplannedPGIdate__c</name>
+    </fields>
+    <fields>
+        <label>Familia de productos</label>
+        <name>PMC_SS_ProductFamily__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product List Price --></label>
+        <name>PMC_SS_ProductListPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity (Account’s UoM) --></label>
+        <name>PMC_SS_QuantityAccountsUoM__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_SS_UnitOfMeasure__c</name>
+        <relationshipLabel>Líneas de entrega</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label>Por defecto</label>
+        <name>PMC_CPQ_Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Ferrocarril</label>
+        <name>PMC_CPQ_Rail</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot update the quantity field when the Delivery Status
+is Completely Shipped --></errorMessage>
+        <name>Restrict_Deliveryitem_Quantity</name>
+    </validationRules>
+</CustomObjectTranslation>

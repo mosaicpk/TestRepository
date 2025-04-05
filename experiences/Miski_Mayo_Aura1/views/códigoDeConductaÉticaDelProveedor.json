@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "4601e00e-bb06-476e-a6c6-082118908d1d",
+  "label" : "Código de conducta ética del proveedor",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "eab451fb-6fe1-43d6-9f8d-49925284e530",
+          "columns" : [ {
+            "UUID" : "4ae15c73-fff8-4a7e-8f7c-2678541404e2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "eab451fb-6fe1-43d6-9f8d-49925284e530",
+      "regions" : [ {
+        "id" : "4ae15c73-fff8-4a7e-8f7c-2678541404e2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a336cdba-b163-408e-9c10-dea6df587889",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Código de conducta ética del proveedor"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c4731384-b1d2-4d4e-a52e-0318a6f2b1d6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2169f64b-c8c0-437e-aa9d-5a83f83d7cdc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cdigo-de-conducta-tica-del-proveedor"
+}

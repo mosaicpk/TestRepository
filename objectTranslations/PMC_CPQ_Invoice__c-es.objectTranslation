@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Factura</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Facturas</value>
+    </caseValues>
+    <fields>
+        <help><!-- This field is to capture the SAP NF number. --></help>
+        <label><!-- Nota Fiscal Number --></label>
+        <name>Nota_Fiscal_Number__c</name>
+    </fields>
+    <fields>
+        <label>Facturar a cuenta</label>
+        <name>PMC_CPQ_BillToAccount__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Facturar a ID SAP</label>
+        <name>PMC_CPQ_BillToSAPID__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de facturación</label>
+        <name>PMC_CPQ_BillingDate__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de documento de facturación</label>
+        <name>PMC_CPQ_BillingDocType__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de vencimiento de la factura</label>
+        <name>PMC_CPQ_BillingDueDate__c</name>
+    </fields>
+    <fields>
+        <label>Cancelado</label>
+        <name>PMC_CPQ_Cancelled__c</name>
+    </fields>
+    <fields>
+        <label>Comentarios</label>
+        <name>PMC_CPQ_Comments__c</name>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>PMC_CPQ_Contact__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contrato</label>
+        <name>PMC_CPQ_Contract__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Código de moneda</label>
+        <name>PMC_CPQ_CurrencyCode__c</name>
+    </fields>
+    <fields>
+        <label>Número de pedido del cliente</label>
+        <name>PMC_CPQ_CustomerPONumber__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de vencimiento</label>
+        <name>PMC_CPQ_DateDue__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de emisión</label>
+        <name>PMC_CPQ_DateIssued__c</name>
+    </fields>
+    <fields>
+        <label>Entrega</label>
+        <name>PMC_CPQ_Delivery__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Comentarios sobre la factura EXT</label>
+        <name>PMC_CPQ_EXTInvoiceComments__c</name>
+    </fields>
+    <fields>
+        <label>Id de factura</label>
+        <name>PMC_CPQ_InvoiceId__c</name>
+    </fields>
+    <fields>
+        <label>Número SAP de la factura</label>
+        <name>PMC_CPQ_InvoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad neta facturada</label>
+        <name>PMC_CPQ_NetInvoicedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Producto del pedido</label>
+        <name>PMC_CPQ_OrderProduct__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pedido</label>
+        <name>PMC_CPQ_Order__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Importe original</label>
+        <name>PMC_CPQ_OriginalAmount__c</name>
+    </fields>
+    <fields>
+        <label>Factura principal</label>
+        <name>PMC_CPQ_ParentInvoice__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pagador</label>
+        <name>PMC_CPQ_Payer__c</name>
+        <relationshipLabel>Facturas (Pagador)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cantidad</label>
+        <name>PMC_CPQ_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>PMC_CPQ_Region__c</name>
+    </fields>
+    <fields>
+        <label>Importe restante</label>
+        <name>PMC_CPQ_RemainingAmount__c</name>
+    </fields>
+    <fields>
+        <label>ID de entrega SAP</label>
+        <name>PMC_CPQ_SAPDeliveryID__c</name>
+    </fields>
+    <fields>
+        <label>Vendido a cuenta</label>
+        <name>PMC_CPQ_SoldToAccount__c</name>
+        <relationshipLabel>Facturas (Vendidas a)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vendido a ID SAP</label>
+        <name>PMC_CPQ_SoldToSAPID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>PMC_CPQ_Status__c</name>
+    </fields>
+    <fields>
+        <label>Escaparate</label>
+        <name>PMC_CPQ_Storefront__c</name>
+    </fields>
+    <fields>
+        <label>Términos</label>
+        <name>PMC_CPQ_Terms__c</name>
+    </fields>
+    <fields>
+        <label>Valor total de la factura</label>
+        <name>PMC_CPQ_TotalInvoiceValue__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>PMC_CPQ_Type__c</name>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>PMC_CPQ_User__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de creación factura SAP</label>
+        <name>PMC_DH_SAPInvoiceCreatedDate__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- Invoice Name --></nameFieldLabel>
+</CustomObjectTranslation>

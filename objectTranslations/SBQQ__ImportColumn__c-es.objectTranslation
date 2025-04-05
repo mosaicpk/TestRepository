@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Import Column --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Import Column --></value>
+    </caseValues>
+    <fields>
+        <help>Introduzca un valor de índice numérico que represente la ubicación de la columna. El índice de columna debe empezar por 1.</help>
+        <label>Índice de columnas</label>
+        <name>SBQQ__ColumnIndex__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el nombre de la API.</help>
+        <label>Nombre del campo</label>
+        <name>SBQQ__FieldName__c</name>
+        <picklistValues>
+            <masterLabel>Discount (%)</masterLabel>
+            <translation>Descuento (%)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (Amt)</masterLabel>
+            <translation>Descuento (importe)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Price</masterLabel>
+            <translation>Precio de catálogo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Discount</masterLabel>
+            <translation>Descuento para socios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation>Código del producto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation>Cantidad</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione el formato en el que se importarán sus registros.</help>
+        <label>Importar formato</label>
+        <name>SBQQ__ImportFormat__c</name>
+        <relationshipLabel>Importar columnas</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione si esta columna debe ser una columna de clave única.</help>
+        <label>Clave</label>
+        <name>SBQQ__Key__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Column Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>El índice de columna debe empezar por 1.</errorMessage>
+        <name>SBQQ__Column_index_must_start_from_1</name>
+    </validationRules>
+</CustomObjectTranslation>

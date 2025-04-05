@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- System Property --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- System Property --></value>
+    </caseValues>
+    <fields>
+        <help>Esse é o nome exclusivo da propriedade do sistema que é usada como referência em expressões dinâmicas.</help>
+        <label>Nome da API</label>
+        <name>copado__API_Name__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para o ambiente que está vinculado à propriedade do sistema.</help>
+        <label>Ambiente</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Propriedades do sistema</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção se quiser compartilhar a Propriedade do sistema entre vários pipelines e ambientes.</help>
+        <label>É global?</label>
+        <name>copado__Is_Global__c</name>
+    </fields>
+    <fields>
+        <help>Selecione essa caixa de seleção para ocultar as informações confidenciais.</help>
+        <label>Ocultar valor</label>
+        <name>copado__Is_Sensitive__c</name>
+    </fields>
+    <fields>
+        <help>Esse valor é preenchido automaticamente ao selecionar um pipeline, ambiente ou usuário. Se nenhum for selecionado, o registro Id a que essa propriedade está vinculada deverá ser inserido manualmente.</help>
+        <label>ID Matriz</label>
+        <name>copado__ParentId__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para o pipeline vinculado à propriedade do sistema.</help>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel>Propriedades do sistema</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo somente leitura usado internamente para substituição de propriedades do sistema.</help>
+        <label><!-- UID --></label>
+        <name>copado__UID__c</name>
+    </fields>
+    <fields>
+        <help>Campo de pesquisa para o usuário vinculado à propriedade do sistema.</help>
+        <label>Usuário</label>
+        <name>copado__User__c</name>
+        <relationshipLabel>Propriedades do sistema</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Esse é o valor da propriedade do sistema.</help>
+        <label>Valor</label>
+        <name>copado__Value__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Property Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>O nome da API não pode conter espaços em branco.</errorMessage>
+        <name>copado__API_Name_Cannot_Contain_Spaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>As pesquisas de ambiente, pipeline e usuário devem estar vazias se a caixa de seleção &quot;Is Global&quot; estiver marcada.</errorMessage>
+        <name>copado__Lookups_empty_for_Global_Property</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Uma propriedade não global só pode estar relacionada a uma das matrizes: Ambiente, pipeline ou usuário.</errorMessage>
+        <name>copado__Only_One_Parent_Is_Allowed</name>
+    </validationRules>
+</CustomObjectTranslation>

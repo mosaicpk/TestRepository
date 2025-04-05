@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Destinatário</label>
+        <name>PMC_DH_AccountPartnerRelationship__c</name>
+        <relationshipLabel>Itens do carrinho (destinatário)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Número do pedido básico</label>
+        <name>PMC_DH_BasePONumber__c</name>
+    </fields>
+    <fields>
+        <label>Contrato</label>
+        <name>PMC_DH_Contract__c</name>
+        <relationshipLabel>Itens do carrinho</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PMC DH Customer Name --></label>
+        <name>PMC_DH_CustomerName__c</name>
+    </fields>
+    <fields>
+        <label>Instruções de entrega</label>
+        <name>PMC_DH_DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Modo de entrega</label>
+        <name>PMC_DH_DeliveryMode__c</name>
+        <picklistValues>
+            <masterLabel>Barge</masterLabel>
+            <translation>Balsa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation>Contêineres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Transfer</masterLabel>
+            <translation>Transferência de estoque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation>Ferrovia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation>Caminh&amp;#227;o</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation>Embarcação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número do pedido de entrega</label>
+        <name>PMC_DH_DeliveryPONumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMPTYCONST1 --></label>
+        <name>PMC_DH_EMPTYCONST1__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMPTYCONST --></label>
+        <name>PMC_DH_EMPTYCONST__c</name>
+    </fields>
+    <fields>
+        <label>Frequência</label>
+        <name>PMC_DH_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de referência do grupo</label>
+        <name>PMC_DH_GroupReferenceNumber__c</name>
+    </fields>
+    <fields>
+        <label>Período de colheita</label>
+        <name>PMC_DH_HarvestPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms2 --></label>
+        <name>PMC_DH_Incoterms2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms --></label>
+        <name>PMC_DH_Incoterms__c</name>
+    </fields>
+    <fields>
+        <label>É Reordenar</label>
+        <name>PMC_DH_IsReorder__c</name>
+    </fields>
+    <fields>
+        <label>Número do item PMC DH</label>
+        <name>PMC_DH_ItemNumber__c</name>
+    </fields>
+    <fields>
+        <label>PMC DH Data da Nota Fiscal</label>
+        <name>PMC_DH_NotaFiscalDate__c</name>
+    </fields>
+    <fields>
+        <label>Número da nota fiscal PMC DH</label>
+        <name>PMC_DH_NotaFiscalNumber__c</name>
+    </fields>
+    <fields>
+        <label>Número</label>
+        <name>PMC_DH_Number__c</name>
+    </fields>
+    <fields>
+        <label>Incremento de PO por</label>
+        <name>PMC_DH_POIncrementBy__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de pacote</label>
+        <name>PMC_DH_PackType__c</name>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation>A granel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packed</masterLabel>
+            <translation>Embalado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de embalagem</label>
+        <name>PMC_DH_PackageType__c</name>
+        <picklistValues>
+            <masterLabel>1000 KG Bags</masterLabel>
+            <translation>Bags de 1000 KG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25KG Bags</masterLabel>
+            <translation>Bags de 25KG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50KG Bags</masterLabel>
+            <translation>Bags de 50KG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bag ONE-Way-Liner Urea 99x99x1,40</masterLabel>
+            <translation>Bag com Liner Ureia 99x99x1,40</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bag One Way Liner 500kg Liner 90X</masterLabel>
+            <translation>Bag com Liner 500kg Liner 90X</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BagOneWay 500Kg</masterLabel>
+            <translation><!-- BagOneWay 500Kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BagOneWay 90x90x1,30</masterLabel>
+            <translation><!-- BagOneWay 90x90x1,30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BagOneWay Liner 1,40</masterLabel>
+            <translation><!-- BagOneWay Liner 1,40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BagOneWayLiner 750kg</masterLabel>
+            <translation><!-- BagOneWayLiner 750kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Bag 1000 Kg</masterLabel>
+            <translation>Saco grande de 1000 kg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Bag 1350 Kg</masterLabel>
+            <translation><!-- Big Bag 1350 Kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Bag 1500 Kg</masterLabel>
+            <translation><!-- Big Bag 1500 Kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big BagOneWay Liner</masterLabel>
+            <translation>Big Bag com Liner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Braided   Valved</masterLabel>
+            <translation>Trançado Valvulado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation>A granel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk - Mosaic Production</masterLabel>
+            <translation>A granel - Produção da Mosaic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saco 25 Kg</masterLabel>
+            <translation>Saco 25 kg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saco 25 Kg - Paletizado</masterLabel>
+            <translation><!-- Saco 25 Kg - Paletizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saco 30 Kg</masterLabel>
+            <translation>Saco 30 kg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saco 30 Kg - Paletizado</masterLabel>
+            <translation><!-- Saco 30 Kg - Paletizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saco 50 Kg</masterLabel>
+            <translation><!-- Saco 50 Kg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saco 50 Kg - Paletizado</masterLabel>
+            <translation><!-- Saco 50 Kg - Paletizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sifted Bulk</masterLabel>
+            <translation>Granel peneirado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transp. Valved NPK</masterLabel>
+            <translation>Transp. NPK valvulado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transp. Valved Urea</masterLabel>
+            <translation>Transp. Ureia valvulada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tranç. Nitrog. Laminated</masterLabel>
+            <translation><!-- Tranç. Nitrog. Laminated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tranç. Urea Laminated</masterLabel>
+            <translation><!-- Tranç. Urea Laminated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trançada com Liner</masterLabel>
+            <translation><!-- Trançada com Liner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Condições de pagamento</label>
+        <name>PMC_DH_PaymentTerms__c</name>
+    </fields>
+    <fields>
+        <label>Envio de</label>
+        <name>PMC_DH_PlantShipFrom__c</name>
+        <relationshipLabel>Itens do carrinho (envio de)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pagamento antecipado</label>
+        <name>PMC_DH_Prepay__c</name>
+    </fields>
+    <fields>
+        <label>Número do protocolo</label>
+        <name>PMC_DH_ProtocolNumber__c</name>
+    </fields>
+    <fields>
+        <label>Data de remessa solicitada pela PMC DH</label>
+        <name>PMC_DH_RequestedShipmentDate__c</name>
+    </fields>
+    <fields>
+        <label>Número de referência da solicitação SAP</label>
+        <name>PMC_DH_SAPRequestReferenceNumber__c</name>
+    </fields>
+    <fields>
+        <label>NÚMERO CONSTANTE SAP</label>
+        <name>PMC_DH_SAP_CT_CONSTANT_NUMBER__c</name>
+    </fields>
+    <fields>
+        <label>VALOR CONSTANTE SAP</label>
+        <name>PMC_DH_SAP_CT_CONSTANT_VALUE__c</name>
+    </fields>
+    <fields>
+        <label>CONSTANTE NO SAP</label>
+        <name>PMC_DH_SAP_CT_CONSTANT__c</name>
+    </fields>
+    <fields>
+        <label>Preço de venda da PMC DH</label>
+        <name>PMC_DH_SellOutPrice__c</name>
+    </fields>
+    <fields>
+        <label>Enviar para</label>
+        <name>PMC_DH_ShipTo__c</name>
+        <relationshipLabel>Itens do carrinho</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ShipmentReferenceNumber --></label>
+        <name>PMC_DH_ShipmentReferenceNumber__c</name>
+    </fields>
+    <fields>
+        <label>Fonte</label>
+        <name>PMC_DH_Source__c</name>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTD</masterLabel>
+            <translation><!-- RTD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Assinatura</label>
+        <name>PMC_DH_Subscription__c</name>
+        <relationshipLabel>Itens do carrinho</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Unidade de medida</label>
+        <name>PMC_DH_UnitofMeasure__c</name>
+        <picklistValues>
+            <masterLabel>MTN</masterLabel>
+            <translation><!-- MTN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STN</masterLabel>
+            <translation><!-- STN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ShippingType --></label>
+        <name>ShippingType__c</name>
+    </fields>
+</CustomObjectTranslation>

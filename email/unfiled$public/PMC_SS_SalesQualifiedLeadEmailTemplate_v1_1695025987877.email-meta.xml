@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>You Have a New Potential Lead</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PMC_SS_SalesQualifiedLeadEmailTemplate_v1</name>
+    <pageDevName>PMC_SS_SalesQualifiedLeadEmailTemplate_v1</pageDevName>
+    <relatedEntityType>Lead</relatedEntityType>
+    <style>none</style>
+    <subject>You Have a New Potential Lead</subject>
+    <textOnly>{labels.PMC_SS_RetailerLeadEmailTemplate_HelloText} {{{Recipient.PMC_SS_OwnerFullName__c}}}
+
+{labels.PMC_SS_RetailerLeadEmailTemplate_LeadInformation}
+
+{labels.PMC_SS_RetailerLeadEmailTemplate_LeadName} {{{Recipient.FirstName}}} {{{Recipient.LastName}}}
+
+{labels.PMC_SS_RetailerLeadEmailTemplate_LeadProdInterest} {{{Recipient.PMC_SS_LatestProductInterests__c}}}
+
+{labels.PMC_SS_RetailerLeadEmailTemplate_LeadReviewText} {labels.PMC_SS_MosaicDirect_SiteName} &lt; {labels.PMC_SS_MosaicDirect_SiteBaseURL}{labels.PMC_SS_MosaicDirect_SiteURLPath} &gt; 
+
+{labels.PMC_SS_RetailerLeadEmailTemplate_ThankYouText} 
+
+{labels.PMC_SS_RetailerLeadEmailTemplate_SalesforceTeamText}</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

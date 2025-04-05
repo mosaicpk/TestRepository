@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote Management Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote Management Statuses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Progress Indicator Status --></label>
+        <name>PMC_DH_Progress_Indicator_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMC_DH_StatusLabel --></label>
+        <name>PMC_DH_StatusLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Status --></label>
+        <name>PMC_DH_Summary_Status__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

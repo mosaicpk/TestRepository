@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>SalesAgreement</joinTable>
+        </blockInfo>
+        <columns>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$Name</field>
+        </columns>
+        <columns>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$PMC_SS_SAPConditionContractNumber__c</field>
+        </columns>
+        <columns>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$PMC_SS_Product__c</field>
+        </columns>
+        <columns>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$PMC_SS_AccrualsCurrency__c</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$PMC_SS_AccrualsTotal__c</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$PMC_SS_AccrualsOpen__c</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>SalesAgreement.PMC_SS_IncentivesEarnedSA__r$PMC_SS_AccrualsReversed__c</field>
+        </columns>
+        <format>Summary</format>
+        <name>Sales Agreements With Incentive block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>PMC_SS_SalesAgreementIncentiveEarned__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>SalesAgreement$ActivatedDate</dateColumn>
+            <interval>INTERVAL_CURRENT</interval>
+        </timeFrameFilter>
+    </block>
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>SalesAgreement</joinTable>
+        </blockInfo>
+        <columns>
+            <field>SalesAgreement.Actual_Payments__r$Name</field>
+        </columns>
+        <columns>
+            <field>SalesAgreement.Actual_Payments__r$PMC_SS_ConditionContractNumber__c</field>
+        </columns>
+        <columns>
+            <field>SalesAgreement.Actual_Payments__r$PMC_SS_ProductId__c</field>
+        </columns>
+        <columns>
+            <field>SalesAgreement.Actual_Payments__r$CurrencyIsoCode</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>SalesAgreement.Actual_Payments__r$PMC_SS_NetPriceinDocumentCurrency__c</field>
+        </columns>
+        <format>Summary</format>
+        <name>Sales Agreements With Actual Pay block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>PMC_SS_SalesAgreementsWithActualPayments__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>SalesAgreement$ActivatedDate</dateColumn>
+            <interval>INTERVAL_CURRENT</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>SalesAgreement</joinTable>
+    </blockInfo>
+    <description>This report provides a clear overview of the Settlements compared to Incentives Earned.
+GDASF-20206</description>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SalesAgreement$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Summary Report For Earned Vs Settled</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>PMC_SS_SalesAgreementIncentiveEarned__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

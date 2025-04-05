@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Actual Payment --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Actual Payment --></value>
+    </caseValues>
+    <fields>
+        <label>Línea de dirección del pagador</label>
+        <name>PMC_SS_AddressLineOfPayer__c</name>
+    </fields>
+    <fields>
+        <label>Número de contrato de la condición</label>
+        <name>PMC_SS_ConditionContractNumber__c</name>
+    </fields>
+    <fields>
+        <label>Creado el</label>
+        <name>PMC_SS_CreatedOn__c</name>
+    </fields>
+    <fields>
+        <label>Fecha del documento en el documento</label>
+        <name>PMC_SS_DocumentDateinDocument__c</name>
+    </fields>
+    <fields>
+        <label>Ítem del documento</label>
+        <name>PMC_SS_DocumentItem__c</name>
+    </fields>
+    <fields>
+        <label>Identificador acuerdo de venta externa</label>
+        <name>PMC_SS_ExternalSalesAgreementIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Importe net ítem en moneda del doc</label>
+        <name>PMC_SS_ItemNetAmtforCustInDocCurrency__c</name>
+    </fields>
+    <fields>
+        <label>Importe del impuesto en moneda doc</label>
+        <name>PMC_SS_ItemTaxAmtofCustInDocCurrency__c</name>
+    </fields>
+    <fields>
+        <label>Precio neto en moneda del doc</label>
+        <name>PMC_SS_NetPriceinDocumentCurrency__c</name>
+    </fields>
+    <fields>
+        <label>Pagador</label>
+        <name>PMC_SS_Payer__c</name>
+        <relationshipLabel>Pagos actuales</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de publicación</label>
+        <name>PMC_SS_PostingDate__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de precio del doc de liquidación</label>
+        <name>PMC_SS_PriceUnitofSettlementDocumentItem__c</name>
+    </fields>
+    <fields>
+        <label>Familia de productos</label>
+        <name>PMC_SS_ProductFamily__c</name>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>PMC_SS_ProductId__c</name>
+        <relationshipLabel>Pagos actuales</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ctd ítem del doc de gestión de liquid.</label>
+        <name>PMC_SS_QtyofSettlementManagementDocItem__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de programa de rebaja</label>
+        <name>PMC_SS_RebateProgramType__c</name>
+        <picklistValues>
+            <masterLabel>Blended Rebate</masterLabel>
+            <translation>Rebaja combinada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Rebate</masterLabel>
+            <translation>Rebaja por crecimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Rebate</masterLabel>
+            <translation>Rebaja individual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Rebate</masterLabel>
+            <translation>Rebaja por Portfolio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Documento invertido</label>
+        <name>PMC_SS_ReversedDocument__c</name>
+    </fields>
+    <fields>
+        <label>Acuerdo de Venta</label>
+        <name>PMC_SS_SalesAgreement__c</name>
+        <relationshipLabel>Pagos actuales</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de liquidación</label>
+        <name>PMC_SS_SettlementDate__c</name>
+    </fields>
+    <fields>
+        <label>Número de doc de liquidación</label>
+        <name>PMC_SS_SettlementDocumentNumber__c</name>
+    </fields>
+    <fields>
+        <label>Descrip. del tipo de doc de liquidación</label>
+        <name>PMC_SS_SettlementDocumentTypeDescription__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de documento de liquidación</label>
+        <name>PMC_SS_SettlementDocumentType__c</name>
+        <picklistValues>
+            <masterLabel>Sales Manual Rebate Reversal</masterLabel>
+            <translation>Reversión manual de rebajas de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate</masterLabel>
+            <translation>Rebaja de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate Delta Accruals</masterLabel>
+            <translation>Acumulaciones Delta de rebajas de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate Delta Accruals Reversal</masterLabel>
+            <translation>Reversión de Acumulaciones delta de rebaja de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate Manual</masterLabel>
+            <translation>Rebaja manual de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate Manual Delta Accruals</masterLabel>
+            <translation>Acumulaciones Delta manuales de rebajas sobre ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate Manual Delta Accruals Rev</masterLabel>
+            <translation>Revisión de Acumulaciones Delta manuales de rebajas sobre ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rebate Reversal</masterLabel>
+            <translation>Reversión de rebajas de ventas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Texto corto</label>
+        <name>PMC_SS_ShortText__c</name>
+    </fields>
+    <fields>
+        <label>UM ctd ítem del doc de liquid.</label>
+        <name>PMC_SS_UnitofMeasureofSettlemntDocItemQt__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Actual Payment Name --></nameFieldLabel>
+</CustomObjectTranslation>

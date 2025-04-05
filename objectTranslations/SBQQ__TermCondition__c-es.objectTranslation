@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Term Condition --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Term Condition --></value>
+    </caseValues>
+    <fields>
+        <help>Asigne un número único a esta Condición para referenciar-la en la Condición Avanzada del Término de presupuesto.</help>
+        <label>Índice</label>
+        <name>SBQQ__Index__c</name>
+    </fields>
+    <fields>
+        <help>Elija el operador para el campo.</help>
+        <label>Operador</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>contiene</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>termina con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>mayor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>superior a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>no es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>comienza con</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Término principal para este término.</help>
+        <label>Término de presupuesto</label>
+        <name>SBQQ__QuoteTerm__c</name>
+        <relationshipLabel>Condiciones del término</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo del objeto de presupuesto utilizado para comprobar esta condición.</help>
+        <label>Campo probado</label>
+        <name>SBQQ__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Customer Amount</masterLabel>
+            <translation>Importe del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Amount</masterLabel>
+            <translation>Importe de la lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Amount</masterLabel>
+            <translation>Importe neto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Amount</masterLabel>
+            <translation>Importe regular</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Variable resumen utilizada para probar esta condición.</help>
+        <label>Variable probada</label>
+        <name>SBQQ__TestedVariable__c</name>
+        <relationshipLabel>Condiciones del término</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Valor con el que realizar la prueba.</help>
+        <label>Valor</label>
+        <name>SBQQ__Value__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Condition # --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>No puede seleccionar tanto el campo como la variable a probar. Cree condiciones separadas para comprobar el campo y la variable.</errorMessage>
+        <name>SBQQ__Field_and_Variable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debe seleccionar el campo o la variable que desea comprobar.</errorMessage>
+        <name>SBQQ__Field_or_Variable</name>
+    </validationRules>
+</CustomObjectTranslation>

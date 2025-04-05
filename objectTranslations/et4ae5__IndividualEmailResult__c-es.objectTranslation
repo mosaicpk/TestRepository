@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resultado de correo electrónico individual</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resultados de correos electrónicos individuales</value>
+    </caseValues>
+    <fields>
+        <label><!-- BatchID --></label>
+        <name>et4ae5__BatchId__c</name>
+    </fields>
+    <fields>
+        <label>ID de miembro de la campaña</label>
+        <name>et4ae5__CampaignMemberId__c</name>
+    </fields>
+    <fields>
+        <label>Clicado</label>
+        <name>et4ae5__Clicked__c</name>
+    </fields>
+    <fields>
+        <label>ID del Contacto</label>
+        <name>et4ae5__Contact_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>et4ae5__Contact__c</name>
+        <relationshipLabel>Resultados individuales por email</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DM Tracking ID --></label>
+        <name>et4ae5__DMTrackingId__c</name>
+    </fields>
+    <fields>
+        <help>La fecha y hora en la que la dirección de email de este suscriptor rebotó</help>
+        <label>Fecha de rebote</label>
+        <name>et4ae5__DateBounced__c</name>
+    </fields>
+    <fields>
+        <help>La fecha y hora en que el suscriptor abrió el email</help>
+        <label><!-- Date Opened --></label>
+        <name>et4ae5__DateOpened__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent --></label>
+        <name>et4ae5__DateSent__c</name>
+    </fields>
+    <fields>
+        <help>Fecha y hora en que el suscriptor se dio de baja</help>
+        <label>Fecha de baja</label>
+        <name>et4ae5__DateUnsubscribed__c</name>
+    </fields>
+    <fields>
+        <label>ID Email del activo</label>
+        <name>et4ae5__Email_Asset_ID__c</name>
+    </fields>
+    <fields>
+        <label>ID del email</label>
+        <name>et4ae5__Email_ID__c</name>
+    </fields>
+    <fields>
+        <label>Correo electr�nico</label>
+        <name>et4ae5__Email__c</name>
+    </fields>
+    <fields>
+        <label>Email remitente</label>
+        <name>et4ae5__FromAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Name --></label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <help>&quot;El email enviado a este suscriptor fue rechazado debido a condiciones permanentes (esto suele ocurrir cuando se producen errores de &quot;usuario desconocido&quot; o &quot;dominio no encontrado&quot;)&quot;</help>
+        <label>Rebote duro</label>
+        <name>et4ae5__HardBounce__c</name>
+    </fields>
+    <fields>
+        <label><!-- JobID --></label>
+        <name>et4ae5__JobId__c</name>
+    </fields>
+    <fields>
+        <label>ID de lead</label>
+        <name>et4ae5__Lead_ID__c</name>
+    </fields>
+    <fields>
+        <label>Lead</label>
+        <name>et4ae5__Lead__c</name>
+        <relationshipLabel>Resultados individuales por email</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ListID --></label>
+        <name>et4ae5__ListId__c</name>
+    </fields>
+    <fields>
+        <label>Fusionar Id</label>
+        <name>et4ae5__MergeId__c</name>
+    </fields>
+    <fields>
+        <help>Número total de veces que este suscriptor ha hecho clic en los enlaces de este email</help>
+        <label>Número de clics totales</label>
+        <name>et4ae5__NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si el valor es 0, el suscriptor individual no hizo clic en los enlaces del email. Si el valor es 1, el suscriptor individual hizo clic en los enlaces del email.&quot;</help>
+        <label>Enlaces clicados</label>
+        <name>et4ae5__NumberOfUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <help>Indica si el suscriptor ha abierto o no el email</help>
+        <label>Abierto</label>
+        <name>et4ae5__Opened__c</name>
+    </fields>
+    <fields>
+        <help>El identificador único del envío de email. Es posible que se le pida que haga referencia a este número cuando llame al servicio de asistencia de Marketing Cloud si surge la necesidad.</help>
+        <label>Enviar Definición</label>
+        <name>et4ae5__SendDefinition__c</name>
+        <relationshipLabel>Resultados individuales por email</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;El email enviado fue rechazado debido a una condición aparentemente temporal, como una bandeja de entrada llena, después de que el sistema reintentara sin éxito enviar el email cada 15 minutos durante 72 horas. Un suscriptor pasará al status Retenido después de tres rebotes suaves&quot;</help>
+        <label>Rebote suave</label>
+        <name>et4ae5__SoftBounce__c</name>
+    </fields>
+    <fields>
+        <label>Asunto</label>
+        <name>et4ae5__SubjectLine__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubscriberID --></label>
+        <name>et4ae5__SubscriberId__c</name>
+    </fields>
+    <fields>
+        <help>Fecha y hora en que Salesforce recibió la última actualización de seguimiento.</help>
+        <label>Seguimiento a partir de</label>
+        <name>et4ae5__Tracking_As_Of__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Si este email fue generado automáticamente por un Envío Activado, el nombre del Envío Activado que generó el email se mostrará aquí.&quot;</help>
+        <label>Disparado Enviar Nombre</label>
+        <name>et4ae5__TriggeredSendDefinitionName__c</name>
+    </fields>
+    <fields>
+        <label>Envío disparado</label>
+        <name>et4ae5__TriggeredSendDefinition__c</name>
+        <relationshipLabel>Resultados individuales por email</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de correo electrónico</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Se debe asignar una definición de envío de email o de envío activado (pero no ambas) a un resultado de email individual.</errorMessage>
+        <name>et4ae5__Prevent_Email_and_Triggered_Send_link</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Request_Tracking_Immediately --></label>
+        <name>et4ae5__Request_Tracking_Immediately</name>
+    </webLinks>
+</CustomObjectTranslation>

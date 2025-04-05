@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Error Condition --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Error Condition --></value>
+    </caseValues>
+    <fields>
+        <help>&quot;Elija Variable para evaluar esta regla con respecto a una Variable de resumen; de lo contrario, elija Valor.&quot;</help>
+        <label>Tipo de filtro</label>
+        <name>SBQQ__FilterType__c</name>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation>Valor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca el valor con el que desea que se evalúe la variable comprobada. El valor de la fecha debe utilizar este formato: YYYY-MM-DD 00:00:00</help>
+        <label>Valor de filtro</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help>Elija la variable de resumen que desea que evalúe esta regla.</help>
+        <label>Filtrar variable</label>
+        <name>SBQQ__FilterVariable__c</name>
+        <relationshipLabel>Condiciones de error (variable de filtro)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Asigne un número único a esta condición para hacer referencia a ella en la condición avanzada de la regla de producto.</help>
+        <label>Índice</label>
+        <name>SBQQ__Index__c</name>
+    </fields>
+    <fields>
+        <help>Elija el operador que utilizará al evaluar su selección probada.</help>
+        <label>Operador</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation>contiene</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation>termina con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation>es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation>mayor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation>superior a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation>menor o igual que</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation>menos de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation>no es igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation>comienza con</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ParentRuleIsActive --></label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- RuleTargetsQuote --></label>
+        <name>SBQQ__RuleTargetsQuote__c</name>
+    </fields>
+    <fields>
+        <help>Regla principal para esta condición (que ejecuta esta condición).</help>
+        <label>Regla</label>
+        <name>SBQQ__Rule__c</name>
+        <relationshipLabel>Condiciones de error</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se utiliza para identificar el atributo específico si el Campo Comprobado es un campo de Atributo de Configuración global.</help>
+        <label>Atributo probado</label>
+        <name>SBQQ__TestedAttribute__c</name>
+        <relationshipLabel>Condiciones de error</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo del objeto presupuesto que debe utilizarse para comprobar esta condición.</help>
+        <label>Campo probado</label>
+        <name>SBQQ__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Group Line Items</masterLabel>
+            <translation>Grupo de ítems de líneas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_CropType__c</masterLabel>
+            <translation><!-- PMC_CPQ_CropType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_CustomerPrice__c</masterLabel>
+            <translation><!-- PMC_CPQ_CustomerPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_IntegrationMessage__c</masterLabel>
+            <translation><!-- PMC_CPQ_IntegrationMessage__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PackType__c</masterLabel>
+            <translation><!-- PMC_CPQ_PackType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PackageType__c</masterLabel>
+            <translation><!-- PMC_CPQ_PackageType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PriceValidityDiffrence__c</masterLabel>
+            <translation><!-- PMC_CPQ_PriceValidityDiffrence__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_PrimaryBusinessType__c</masterLabel>
+            <translation><!-- PMC_CPQ_PrimaryBusinessType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductPackTypeIndicator__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductPackTypeIndicator__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductPackageTypeIndicator__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductPackageTypeIndicator__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_QuoteRecordSubType__c</masterLabel>
+            <translation><!-- PMC_CPQ_QuoteRecordSubType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_Region__c</masterLabel>
+            <translation><!-- PMC_CPQ_Region__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SalesOrg__c</masterLabel>
+            <translation><!-- PMC_CPQ_SalesOrg__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_SecondaryBusinessType__c</masterLabel>
+            <translation><!-- PMC_CPQ_SecondaryBusinessType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProductLocation_Location__c</masterLabel>
+            <translation><!-- ProductLocation_Location__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecordTypeId</masterLabel>
+            <translation><!-- RecordTypeId --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation>Precio unitario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique el objeto que contiene el campo examinado.</help>
+        <label>Objeto probado</label>
+        <name>SBQQ__TestedObject__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attributes</masterLabel>
+            <translation>Atributos de configuración</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Option</masterLabel>
+            <translation>Opción de producto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product2</masterLabel>
+            <translation>Producto2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Presupuesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation>Línea de presupuesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line Group</masterLabel>
+            <translation>Grupo de líneas de presupuesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgraded Asset</masterLabel>
+            <translation>Activo actualizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione la Variable de resumen que desea que evalúe esta regla.</help>
+        <label>Variable probada</label>
+        <name>SBQQ__TestedVariable__c</name>
+        <relationshipLabel>Condiciones de error (variable probada)</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Condition # --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>&quot;Un tipo de filtro &quot;Variable&quot; debe tener una variable de filtro.&quot;</errorMessage>
+        <name>SBQQ__FilterCombinationValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Esta combinación de ProductRule.Scope y ErrorCondition.TestedObject no es válida.</errorMessage>
+        <name>SBQQ__ScopeAndErrorConditionTestedObject</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Atributo Probado requerido ya que el Campo Probado es un campo de Atributo de Configuración global.</errorMessage>
+        <name>SBQQ__Tested_attr_required_if_global_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debe especificar o bien Campo comprobado o bien Variable comprobada.</errorMessage>
+        <name>SBQQ__Tested_field_or_variable_required</name>
+    </validationRules>
+</CustomObjectTranslation>

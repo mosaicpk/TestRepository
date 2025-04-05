@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDashboard xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>App_for_Manufacturing_Analytics</application>
+    <dateVersion>1</dateVersion>
+    <masterLabel>Manufacturing Home (Forecast, Targets, and Sales Agreements) - Embedded</masterLabel>
+    <templateAssetSourceName>Embedded_Manufacturing_Home_Page_w_Forecast_Targets_SalesAgreement_tp</templateAssetSourceName>
+</WaveDashboard>

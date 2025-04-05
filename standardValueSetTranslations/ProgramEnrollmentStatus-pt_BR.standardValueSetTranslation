@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Applied</masterLabel>
+        <translation>Aplicado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Completed</masterLabel>
+        <translation>Concluído</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Denied</masterLabel>
+        <translation>Negado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Progress</masterLabel>
+        <translation>Em andamento</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waitlisted</masterLabel>
+        <translation>Em lista de espera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Withdrawn</masterLabel>
+        <translation>Retirado</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

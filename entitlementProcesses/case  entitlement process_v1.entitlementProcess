@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>false</active>
+    <businessHours>Default</businessHours>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Transactions</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Order Date, Destination Change, Amendment, Origin Change, Payer Change, Payment Terms, IncoTerms, Contract Validity Dates, Call by Date</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Resolution</milestoneName>
+        <minutesToComplete>1620</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Invoice, Mosaic Direct, Internal</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Account Issues, Other, Document Request, Data Entry, MDM Verification, Incorrect Vehicle ID, Invoice Adjustments, Cultivar Rebate</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Resolution</milestoneName>
+        <minutesToComplete>1620</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Shipping, Product, Other</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Delivery Delay, Missing Cargo, Incorrect Destination, Ship Date / Scheduling, Equipment Failure, Diversion, Demurrage, Incorrect UOM, Warehouse, Weight Discrepancy, Incorrect Product, Product Concern, Incorrect Label, Product Request, Other</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Resolution</milestoneName>
+        <minutesToComplete>1620</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Mosaic Direct</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Account Issues, Other</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Contact</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Document Request, Other Reason</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Other, Mosaic Direct</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Contact</milestoneName>
+        <minutesToComplete>240</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <criteriaBooleanFilter>1 AND 2 AND (3 OR 4 OR 5)</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Data Entry, Incorrect Vehicle ID, Invoice Adjustments, Cultivar Rebate, Order Date, Destination Change, Amendment, Origin Change, Payer Change, Payment Terms, IncoTerms, Contract Validity Dates, Call by Date, Credits, Debits</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Transactions</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Invoice</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Internal</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Contact</milestoneName>
+        <minutesToComplete>240</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <criteriaBooleanFilter>1 AND 2 AND (3 OR 4)</criteriaBooleanFilter>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.PMC_SS_IssueReason__c</field>
+            <operation>equals</operation>
+            <value>Delivery Delay, Missing Cargo, Incorrect Destination, Ship Date / Scheduling, Equipment Failure, Diversion, Demurrage, Incorrect UOM, Warehouse, Weight Discrepancy, Incorrect Product, Product Concern, Incorrect Label, Product Request</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Shipping</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Product</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Contact</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <name>case  Entitlement Process</name>
+    <versionMaster>552DT0000012MYi</versionMaster>
+    <versionNumber>1</versionNumber>
+</EntitlementProcess>

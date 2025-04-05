@@ -1,0 +1,33 @@
+<template>
+    <div class="slds-grid temp-box" onclick={userAccountClickHandler} onkeydown={userAccountKeypressHandler}
+        tabindex="0">
+        <div
+            class="slds-col slds-grow-none slds-grid slds-grid_vertical slds-show_large slds-var-p-horizontal_x-small user-account">
+            <lightning-formatted-text value={userName} class="user-name user-account-detail"></lightning-formatted-text>
+            <lightning-formatted-text value={accountName}
+                class="account-name user-account-detail"></lightning-formatted-text>
+        </div>
+        <div class="slds-col slds-grow-none slds-grid slds-show_large slds-align_absolute-center">
+            <lightning-icon icon-name='utility:user' alternative-text='account' size='small'
+                title='account'></lightning-icon>
+        </div>
+        <div if:true={showAccountMenuOption} class="accounts-menu">
+            <ul>
+                <li class="account-menu-li slds-p-left_medium slds-p-right_x-large slds-var-p-vertical_small slds-show_large"
+                    onclick={accountMenuFirstItemClickHandler}>
+                    <div class="slds-grid slds-grid_vertical">
+                        <lightning-formatted-text value={userName}
+                            class="user-name user-account-detail"></lightning-formatted-text>
+                        <lightning-formatted-text value={accountName}
+                            class="account-name user-account-detail"></lightning-formatted-text>
+                    </div>
+                </li>
+                <li for:each={_userAccountOptions} for:item="option" key={option} onclick={accountMenuClickHandler}
+                    ontouchend={accountMenuClickHandler} onkeydown={accountMenuKeydownHandler} tabindex="0"
+                    class="slds-grid slds-grid_vertical-align-end slds-p-left_medium slds-p-right_x-large slds-var-p-vertical_small accounts-menu-item">
+                    <span class="account-option">{option.strLabel}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</template>

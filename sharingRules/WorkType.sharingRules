@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>PMC_Work_Type_Sharing_Rule_Mosaic</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Work Type Sharing Rule_Mosaic</label>
+        <sharedTo>
+            <guestUser>Mosaic_Scheduler</guestUser>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>DurationType</field>
+            <operation>equals</operation>
+            <value>Hours</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>DurationType</field>
+            <operation>equals</operation>
+            <value>Minutes</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Work_Type_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Work Type Sharing Rule</label>
+        <sharedTo>
+            <guestUser>leads</guestUser>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>DurationType</field>
+            <operation>equals</operation>
+            <value>Hours</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>DurationType</field>
+            <operation>equals</operation>
+            <value>Minutes</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Work_Type_Sharing_Rule_N</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Work Type Sharing Rule N</label>
+        <sharedTo>
+            <guestUser>leadInfo</guestUser>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>DurationType</field>
+            <operation>equals</operation>
+            <value>Hours</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>DurationType</field>
+            <operation>equals</operation>
+            <value>Minutes</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

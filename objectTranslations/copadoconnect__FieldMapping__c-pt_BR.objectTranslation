@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Field Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Field Mapping --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Mapeamentos de objetos e campos</label>
+        <name>copadoconnect__Objects_and_Fields_Mappings</name>
+    </fieldSets>
+    <fields>
+        <label>Integração do Copado</label>
+        <name>copadoconnect__Copado_Integration__c</name>
+        <relationshipLabel>Mapeamentos de campo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>É criável</label>
+        <name>copadoconnect__Copado_Is_Creatable__c</name>
+    </fields>
+    <fields>
+        <label>É atualizável</label>
+        <name>copadoconnect__Copado_Is_Updatable__c</name>
+    </fields>
+    <fields>
+        <label>Direção</label>
+        <name>copadoconnect__Direction__c</name>
+    </fields>
+    <fields>
+        <label>Campo do provedor</label>
+        <name>copadoconnect__External_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de campo do provedor</label>
+        <name>copadoconnect__External_Field_Type__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de provedor</label>
+        <name>copadoconnect__External_Object_Record_Type_Label__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de provedor</label>
+        <name>copadoconnect__External_Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>Objeto do provedor</label>
+        <name>copadoconnect__External_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound --></label>
+        <name>copadoconnect__Inbound__c</name>
+    </fields>
+    <fields>
+        <label>Credencial nomeada</label>
+        <name>copadoconnect__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamento de objetos</label>
+        <name>copadoconnect__Object_Mapping__c</name>
+        <relationshipLabel>Mapeamentos de campo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Saída</label>
+        <name>copadoconnect__Outbound__c</name>
+    </fields>
+    <fields>
+        <label>Provedor</label>
+        <name>copadoconnect__Provider__c</name>
+    </fields>
+    <fields>
+        <label>Campo de Copado</label>
+        <name>copadoconnect__Salesforce_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de campo Copado</label>
+        <name>copadoconnect__Salesforce_Field_Type__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de registro Copado</label>
+        <name>copadoconnect__Salesforce_Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>Objeto Copado</label>
+        <name>copadoconnect__Salesforce_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copadoconnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapped</masterLabel>
+            <translation>Mapeado</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Field Mapping Name --></nameFieldLabel>
+</CustomObjectTranslation>

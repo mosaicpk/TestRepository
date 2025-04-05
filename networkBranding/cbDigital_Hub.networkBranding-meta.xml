@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetworkBranding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <loginBackgroundImageUrl>https://globaldigitalacceleration--devp1--c.sandbox.vf.force.com/resource/1684843029000/PMC_emailBackgroundImg?</loginBackgroundImageUrl>
+    <loginFooterText>Copyright © 2023 Mosaic.</loginFooterText>
+    <loginLogo>Experiences_Shared_Document_Folder/logo_mosaic_png.png</loginLogo>
+    <loginLogoName>logo-mosaic.png</loginLogoName>
+    <loginPrimaryColor>#1D625C</loginPrimaryColor>
+    <loginQuaternaryColor>#B1BAC1</loginQuaternaryColor>
+    <network>Digital Hub</network>
+    <primaryColor>#1797C0</primaryColor>
+    <primaryComplementColor>#FFFFFF</primaryComplementColor>
+    <quaternaryColor>#B1BAC1</quaternaryColor>
+    <quaternaryComplementColor>#222222</quaternaryComplementColor>
+    <secondaryColor>#51606E</secondaryColor>
+    <tertiaryColor>#DDE4E9</tertiaryColor>
+    <tertiaryComplementColor>#222222</tertiaryComplementColor>
+    <zeronaryColor>#51606E</zeronaryColor>
+    <zeronaryComplementColor>#FFFFFF</zeronaryComplementColor>
+</NetworkBranding>

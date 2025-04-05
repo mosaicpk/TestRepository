@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Price Tier --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Price Tier --></value>
+    </caseValues>
+    <fields>
+        <help>Importe del descuento aplicado cuando la cantidad cae en este nivel.</help>
+        <label>Descuento ({0})</label>
+        <name>SBQQ__DiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Porcentaje de descuento aplicado cuando la cantidad cae en este nivel.</help>
+        <label>Descuento (%)</label>
+        <name>SBQQ__DiscountPercentage__c</name>
+    </fields>
+    <fields>
+        <help>Límite inferior del intervalo de cantidades para este nivel.</help>
+        <label>Límite inferior</label>
+        <name>SBQQ__LowerBound__c</name>
+    </fields>
+    <fields>
+        <help>Número que indica la posición de este nivel dentro de la programación.</help>
+        <label>N�mero</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help>El precio del bloque del que procede este nivel de precios.</help>
+        <label>Precio original en bloque</label>
+        <name>SBQQ__OriginalBlockPrice__c</name>
+        <relationshipLabel>Niveles de precios</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El nivel de descuento del que procede este nivel de precios.</help>
+        <label>Nivel de descuento original</label>
+        <name>SBQQ__OriginalDiscountTier__c</name>
+        <relationshipLabel>Niveles de precios</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El modelo de precios que determina cómo se calculan los precios.</help>
+        <label>Modelo de precios</label>
+        <name>SBQQ__PriceModel__c</name>
+    </fields>
+    <fields>
+        <help>Programa de precios al que pertenece este nivel.</help>
+        <label>Cronograma</label>
+        <name>SBQQ__PriceSchedule__c</name>
+        <relationshipLabel>Niveles de precios</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El precio real de este Nivel de precios. Este campo se rellenará cuando se cree un nuevo conjunto de Programación de Precios para un nuevo registro de Pedido.</help>
+        <label>Precio</label>
+        <name>SBQQ__Price__c</name>
+    </fields>
+    <fields>
+        <help>El descuento total por Término aplicado a este nivel.</help>
+        <label>Descuento por término</label>
+        <name>SBQQ__TermDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Límite superior del intervalo de cantidades para este nivel.</help>
+        <label>Límite superior</label>
+        <name>SBQQ__UpperBound__c</name>
+    </fields>
+    <fields>
+        <help>El descuento por volumen total aplicado a este nivel.</help>
+        <label>Descuento por volumen</label>
+        <name>SBQQ__VolumnDiscount__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Tier Name --></nameFieldLabel>
+</CustomObjectTranslation>

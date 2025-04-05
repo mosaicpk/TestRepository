@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Formula Field --></label>
+        <name>Formula_Field__c</name>
+    </fields>
+    <fields>
+        <label>Gestor de cuentas</label>
+        <name>PMC_SS_AccountManager__c</name>
+        <relationshipLabel>Datos avanzados sobre la previsión de cuentas</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accuracy % --></label>
+        <name>PMC_SS_Accuracy__c</name>
+    </fields>
+    <fields>
+        <label>Contratos activos</label>
+        <name>PMC_SS_ActiveContracts__c</name>
+    </fields>
+    <fields>
+        <label>Plan de demanda consensuado</label>
+        <name>PMC_SS_ConsensusDemandPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Sales Plan (MTN) --></label>
+        <name>PMC_SS_CurrentSalesPlanMTN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Sales Plan (STN) --></label>
+        <name>PMC_SS_CurrentSalesPlanSTN__c</name>
+    </fields>
+    <fields>
+        <label>Plan de ventas actual</label>
+        <name>PMC_SS_CurrentSalesPlan__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación</label>
+        <name>PMC_SS_Location__c</name>
+        <relationshipLabel>Datos avanzados sobre la previsión de cuentas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pedidos pendientes</label>
+        <name>PMC_SS_OpenOrders__c</name>
+    </fields>
+    <fields>
+        <label>Presupuestos abiertos</label>
+        <name>PMC_SS_OpenQuotes__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad enviada</label>
+        <name>PMC_SS_ShippedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Previsión estadística de referencia</label>
+        <name>PMC_SS_StatisticalBaselineForecast__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure Name --></label>
+        <name>PMC_SS_UnitOfMeasureName__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_SS_UnitofMeasure__c</name>
+        <relationshipLabel>Datos avanzados sobre la previsión de cuentas</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Prebuilt_Dashboards</application>
+    <masterLabel>Quote History</masterLabel>
+    <templateAssetSourceName>Quote_History</templateAssetSourceName>
+    <type>default</type>
+</WaveDataset>

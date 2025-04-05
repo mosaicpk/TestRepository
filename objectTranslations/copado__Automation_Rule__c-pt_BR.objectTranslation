@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Automation Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Automation Rule --></value>
+    </caseValues>
+    <fields>
+        <label>Está ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API do fluxo usado para executar operações mais específicas, como atualizar o status dos registros, criar outros registros etc.</help>
+        <label>Chamada de retorno de ação automatizada</label>
+        <name>copado__Automated_Action_Callback__c</name>
+    </fields>
+    <fields>
+        <help>Ação que será executada com base na ação de origem e em seu resultado.</help>
+        <label>Ação automatizada</label>
+        <name>copado__Automated_Action__c</name>
+    </fields>
+    <fields>
+        <help>Conector que mapeia o payload e os parâmetros entre a origem e as ações automatizadas. Selecione &quot;Custom&quot; se quiser especificar uma classe de conector personalizada</help>
+        <label>Conector de automação</label>
+        <name>copado__Automation_Connector__c</name>
+    </fields>
+    <fields>
+        <help>Você pode usar o site www.cronmaker.com para criar expressões cron mais sofisticadas. Lembre-se de que determinadas expressões do cron podem não ser compatíveis com o Salesforce.</help>
+        <label>Expressão Cron</label>
+        <name>copado__Cron_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Nome da API da classe Apex usada para mapear as cargas úteis e os parâmetros das ações automatizadas e de origem</help>
+        <label>Conector de automação personalizado</label>
+        <name>copado__Custom_Automation_Connector__c</name>
+    </fields>
+    <fields>
+        <help>Esse campo é usado para fornecer uma descrição da finalidade dessa automação</help>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <help>Lista de ambientes em que a ação de origem será avaliada. Você pode selecionar até 13 ambientes.</help>
+        <label>Ambientes selecionados</label>
+        <name>copado__Environment__c</name>
+    </fields>
+    <fields>
+        <help>Lista de ambientes a serem excluídos quando um estágio é selecionado. Você pode selecionar até 13 ambientes.</help>
+        <label>Ambientes excluídos</label>
+        <name>copado__Excluded_Environments__c</name>
+    </fields>
+    <fields>
+        <help>Indique se a ação automatizada deve ser executada imediatamente ou se será agendada</help>
+        <label>Execução</label>
+        <name>copado__Execution__c</name>
+        <picklistValues>
+            <masterLabel>Immediate</masterLabel>
+            <translation>Imediato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Data da última execução Hora</label>
+        <name>copado__Last_Execution_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help>Pipeline em que essa automação será executada. Se nenhum estágio ou ambiente for definido, essa automação será aplicada a todo o pipeline e poderá ser considerada a regra padrão</help>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel>Regras de automação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID do trabalho programado</label>
+        <name>copado__Scheduled_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help>Defina se a automação deve ser acionada após uma execução bem-sucedida ou com falha da ação de origem</help>
+        <label>Fonte Status da ação</label>
+        <name>copado__Source_Action_Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Successful</masterLabel>
+            <translation>Bem-sucedido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ação que acionará a automação</help>
+        <label>Ação de origem</label>
+        <name>copado__Source_Action__c</name>
+    </fields>
+    <fields>
+        <help>Lista de estágios em que a ação de origem será avaliada. Você pode selecionar até 13 estágios.</help>
+        <label>Estágios selecionados</label>
+        <name>copado__Stage__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Automation Rule Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Os campos Environment e Stage não podem ser selecionados ao mesmo tempo. Defina os filtros mais granulares usando Environments ou filtros mais amplos usando Stage.</errorMessage>
+        <name>copado__Stage_and_Environment_both_populated</name>
+    </validationRules>
+</CustomObjectTranslation>

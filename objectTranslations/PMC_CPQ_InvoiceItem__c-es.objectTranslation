@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ítems de Factura</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ítems de Factura</value>
+    </caseValues>
+    <fields>
+        <label>Cantidad facturada</label>
+        <name>PMC_CPQ_BilledQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billed Quantity1 --></label>
+        <name>PMC_CPQ_Billed_Quantity__c</name>
+    </fields>
+    <fields>
+        <label>Artículo de entrega</label>
+        <name>PMC_CPQ_DeliveryItem__c</name>
+        <relationshipLabel>Elementos de la factura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status de la línea de facturas</label>
+        <name>PMC_CPQ_InvoiceLineStatus__c</name>
+    </fields>
+    <fields>
+        <label>Factura</label>
+        <name>PMC_CPQ_Invoice__c</name>
+        <relationshipLabel>Elementos de la factura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nº del pedido de compra del cliente</label>
+        <name>PMC_CPQ_LinePONumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOT --></label>
+        <name>PMC_CPQ_MOT__c</name>
+    </fields>
+    <fields>
+        <label>Valor neto del artículo de la factura</label>
+        <name>PMC_CPQ_NetInvoiceItemValue__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad neta facturada</label>
+        <name>PMC_CPQ_NetInvoicedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Producto del pedido</label>
+        <name>PMC_CPQ_OrderProduct__c</name>
+        <relationshipLabel>Elementos de la factura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ubicación del producto</label>
+        <name>PMC_CPQ_ProductLocation__c</name>
+        <relationshipLabel>Artículos de la factura (Ubicación del producto)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>PMC_CPQ_Product__c</name>
+        <relationshipLabel>Elementos de la factura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de entrega SAP</label>
+        <name>PMC_CPQ_SAPDeliveryID__c</name>
+    </fields>
+    <fields>
+        <label>ID de línea de entrega SAP</label>
+        <name>PMC_CPQ_SAPDeliveryLineID__c</name>
+    </fields>
+    <fields>
+        <label>Número de posición de la factura SAP</label>
+        <name>PMC_CPQ_SAPInvoiceItemNumber__c</name>
+    </fields>
+    <fields>
+        <label>Línea de factura SAP</label>
+        <name>PMC_CPQ_SAPInvoiceLine__c</name>
+    </fields>
+    <fields>
+        <label>Factura SAP</label>
+        <name>PMC_CPQ_SAPInvoice__c</name>
+    </fields>
+    <fields>
+        <label>ID de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderID__c</name>
+    </fields>
+    <fields>
+        <label>ID de línea de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderLineID__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de envío</label>
+        <name>PMC_CPQ_ShipDate__c</name>
+    </fields>
+    <fields>
+        <label>Destinatario</label>
+        <name>PMC_CPQ_ShipTo__c</name>
+        <relationshipLabel>Elementos de la factura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Suscripción</label>
+        <name>PMC_CPQ_Subscription__c</name>
+        <relationshipLabel>Artículos de la factura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Unidad de medida</label>
+        <name>PMC_CPQ_UnitOfMeasure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Quantity (SA UoM) --></label>
+        <name>PMC_SS_InvoiceQuantitySAUoM__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- Invoice Item Name --></nameFieldLabel>
+</CustomObjectTranslation>

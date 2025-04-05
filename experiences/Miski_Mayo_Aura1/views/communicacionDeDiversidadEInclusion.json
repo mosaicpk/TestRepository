@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "2d33e1aa-bf06-4e63-9fcd-5d57cccedaed",
+  "label" : "Communicacion de Diversidad e Inclusion",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "42fab975-31b2-48bb-86e7-2657b6f9a4ef",
+          "columns" : [ {
+            "UUID" : "06ddd8f7-c19d-4d54-9893-b5891d53b1c2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "42fab975-31b2-48bb-86e7-2657b6f9a4ef",
+      "regions" : [ {
+        "id" : "06ddd8f7-c19d-4d54-9893-b5891d53b1c2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5706f6da-5a8a-4029-922a-d90613744bcb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Communicacion de Diversidad e Inclusion"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7fcbe10c-997e-47f0-a8f1-969ee60a3eff",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "93140912-5408-4ec2-88cd-e4821d91e8b8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-communicacion-de-diversidad-e-inclusion"
+}

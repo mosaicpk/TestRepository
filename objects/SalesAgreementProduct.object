@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ActualMarginPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>CostPrice</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DiscountPercentage</fullName>
+        <description>States the Discount Percentage</description>
+        <inlineHelpText>The discount percentage applies to the sales price for this product.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DisplayName</fullName>
+        <inlineHelpText>Enter the name of the product that’s shown in the sales agreement table. Leave it blank to show the default product name.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InitialPlannedAmount</fullName>
+        <description>States the Initial Planned Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InitialPlannedQtyValue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InitialPlannedQuantity</fullName>
+        <description>States the Initial Total Quantity</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsActualsCalculationProduct</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsQuantityInDecimals</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+        <description>States the List Price</description>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <description>States the Name</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_ProductSubFamily__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PricebookEntry.Product2.PMC_CPQ_ProductSubFamily__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Sub Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Annual_Tons__c</fullName>
+        <description>States the Annual Tons for Agreement year</description>
+        <externalId>false</externalId>
+        <label>Annual Tons</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Bin_Space_Tons__c</fullName>
+        <description>States the Total Bin Space Tons for Agreement year</description>
+        <externalId>false</externalId>
+        <label>Bin Space Tons</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Individual_Incentive__c</fullName>
+        <description>This field states the Total Individual Incentive received from a Product.</description>
+        <label>Individual Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_MaterialGroup__c</fullName>
+        <description>States the Material Group of the Product</description>
+        <externalId>false</externalId>
+        <formula>TEXT(PricebookEntry.Product2.PMC_CPQ_MaterialGroup__c)</formula>
+        <label>Material Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Portfolio_Incentive__c</fullName>
+        <description>This field states the Total Portfolio Incentive received from a product</description>
+        <label>Portfolio Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_PotentialGrowthIncentive__c</fullName>
+        <description>This field states the Growth Incentive received from a product.</description>
+        <label>Potential Growth Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Potential_Ex_space_Incentive__c</fullName>
+        <description>This field States the Growth Incentive received from a product</description>
+        <label>Potential Ex-space Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Potential_Volume_Incentive__c</fullName>
+        <description>This field States the Total Volume Incentive received from a product.</description>
+        <label>Potential Volume Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Target__c</fullName>
+        <description>States the Target set for a Product for this year.</description>
+        <externalId>false</externalId>
+        <label>Target</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PlannedMarginPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>PricebookEntryId</fullName>
+        <description>States the Pricebook Entry</description>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCategoryId</fullName>
+        <description>States the Category</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductId</fullName>
+        <description>States the Product</description>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SalesAgreementId</fullName>
+        <description>States the Sales Agreement</description>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>SalesPrice</fullName>
+        <description>States the Sales Price</description>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualAmount</fullName>
+        <description>States the Total Actual Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualCostAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualMarginAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualQuantity</fullName>
+        <description>States the Total Actual Quantity</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualQuantityValue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalActualShipmentQuantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalForecastedAmount</fullName>
+        <description>States the Total Forecasted Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalForecastedQtyValue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalForecastedQuantity</fullName>
+        <description>States the Total Forecasted Quantity</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedAmount</fullName>
+        <description>States the Total Planned Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedCostAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedMarginAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedQuantity</fullName>
+        <description>States the Total Planned Quantity</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedQuantityValue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPlannedShipmentQuantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProposedPlannedAmount</fullName>
+        <description>States the Total Proposed Planned Amount</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProposedPlannedQuantity</fullName>
+        <description>States the Total Proposed Planned Quantity</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProposedPlnQtyValue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalUnallocatedOrderQuantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalUnallocatedOrderRevenue</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalUnallocatedPlannedQty</fullName>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>SalesPrice</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>SalesPrice</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_RestrictionSalesAgreementProducts</fullName>
+        <active>true</active>
+        <description>This validation rule will restrict user from adding Sales Agreement Product to Sales Agreement if Sales Agreement Status is other than Draft</description>
+        <errorConditionFormula>AND(
+NOT($Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),
+$User.LastName &lt;&gt; &apos;Platform Integration User&apos;, 
+NOT(
+ISPICKVAL(SalesAgreement.Status , &quot;Draft&quot;))
+)</errorConditionFormula>
+        <errorMessage>Sales Agreement Product cannot be added or updated at this stage. Please Amend this Sales Agreement</errorMessage>
+    </validationRules>
+</CustomObject>

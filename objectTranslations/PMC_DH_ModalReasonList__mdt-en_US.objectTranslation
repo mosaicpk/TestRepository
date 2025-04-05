@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMC_DH_ModalReasonList</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMC_DH_ModalReasonLists</value>
+    </caseValues>
+    <fields>
+        <label><!-- PMC DH Custom Label --></label>
+        <name>PMC_DH_Custom_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>PMC_DH_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>PMC_DH_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>PMC_DH_Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

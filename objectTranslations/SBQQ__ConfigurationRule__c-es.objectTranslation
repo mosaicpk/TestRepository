@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuration Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Configuration Rule --></value>
+    </caseValues>
+    <fields>
+        <help>Indica si esta regla debe utilizarse en la validación de configuraciones.</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Incluir la configuración del paquete principal con el nivel especificado al evaluar las condiciones de esta regla en el configurador de reglas de alerta, validación y selección.&quot;</help>
+        <label>Nivel de condición del paquete principal</label>
+        <name>SBQQ__AscendingNestedLevel__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Permitir que las configuraciones de paquetes secundarios hasta el nivel especificado sean objeto de las acciones de esta regla al ejecutarse en el configurador sólo para reglas de selección.</help>
+        <label>Nivel de acción del paquete secundario</label>
+        <name>SBQQ__DescendingActionNesting__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Incluir configuraciones de paquetes secundarios hasta el nivel especificado al evaluar las condiciones de esta regla en el configurador para reglas de alerta, validación y selección.&quot;</help>
+        <label>Condición paquete: ID</label>
+        <name>SBQQ__DescendingNestedLevel__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione la característica del producto que desea que valide esta regla.</help>
+        <label>Característica del producto</label>
+        <name>SBQQ__ProductFeature__c</name>
+        <relationshipLabel>Reglas de configuración</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione la regla de producto que contiene la lógica para validar las configuraciones de sus productos.</help>
+        <label>Regla del producto</label>
+        <name>SBQQ__ProductRule__c</name>
+        <relationshipLabel>Reglas de configuración</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione el producto configurado que desea que valide esta regla.</help>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Reglas de configuración</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifique cuándo debe evaluarse esta regla.</help>
+        <label>Evento de evaluación de reglas</label>
+        <name>SBQQ__RuleEvaluationEvent__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de regla de producto a la que hace referencia esta regla de configuración.</help>
+        <label>Tipo de regla</label>
+        <name>SBQQ__RuleType__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Rule # --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>&quot;El nivel de condición sólo se admite para las reglas de producto de validación, alerta y selección.&quot;</errorMessage>
+        <name>SBQQ__Ensure_rule_type_nested_level</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El nivel de acción sólo se admite para las reglas de productos de selección.</errorMessage>
+        <name>SBQQ__Ensure_rule_type_nested_level_actions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El nivel de paquete máximo admitido es 1.</errorMessage>
+        <name>SBQQ__Ensure_supported_nested_level</name>
+    </validationRules>
+</CustomObjectTranslation>

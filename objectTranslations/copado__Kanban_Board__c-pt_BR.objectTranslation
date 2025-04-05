@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Kanban Board --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Kanban Board --></value>
+    </caseValues>
+    <fieldSets>
+        <label>Editar</label>
+        <name>copado__Edit</name>
+    </fieldSets>
+    <fields>
+        <help>Consulta SOQL para recuperar as colunas. Os campos Id e Name serão usados para gerar a lista.</help>
+        <label>Colunas do SOQL</label>
+        <name>copado__Columns_SOQL__c</name>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <help>Campo a ser lido/atualizado para cada item. No formato &quot;object.field</help>
+        <label>Campo para ler/atualizar</label>
+        <name>copado__Field_to_read_update__c</name>
+    </fields>
+    <fields>
+        <label>Configurações JSON</label>
+        <name>copado__JSON_Settings__c</name>
+    </fields>
+    <fields>
+        <help>Consulta SOQL para recuperar cada Id, Title (segundo campo na consulta) e o campo &quot;Status&quot;, conforme definido em Field to read/update (Campo para leitura/atualização). Todos os outros campos serão exibidos como o conteúdo de texto do item.</help>
+        <label>Consulta SOQL</label>
+        <name>copado__SOQL_Query__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint --></label>
+        <name>copado__Sprint__c</name>
+        <relationshipLabel>Quadros Kanban</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Kanban Board Name --></nameFieldLabel>
+</CustomObjectTranslation>

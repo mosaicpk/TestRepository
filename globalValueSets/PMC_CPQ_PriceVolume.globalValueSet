@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Volume</fullName>
+        <default>false</default>
+        <label>Volume</label>
+    </customValue>
+    <customValue>
+        <fullName>Price and Volume</fullName>
+        <default>false</default>
+        <label>Price and Volume</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Term</fullName>
+        <default>false</default>
+        <label>Payment Term</label>
+    </customValue>
+    <description>This Global picklist is created as part of User Story to store/handle type of Approval record i.e. whether Price or Volume</description>
+    <masterLabel>Price/Volume</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

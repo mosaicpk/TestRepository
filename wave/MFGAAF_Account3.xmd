@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>MFGAAF_Account3</dataset>
+    <dimensions>
+        <field>Owner.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Owner</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account_Owner_Name</field>
+        <isDerived>true</isDerived>
+        <label>Account Owner</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Account</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Actual_Revenue</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastedAmount</field>
+        <formatCustomFormat>[&quot;$#,###.0&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Forecast_Attainment</field>
+        <isDerived>true</isDerived>
+        <label>Forecasted Attainment</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Forecast_Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Quantity_Attainment</field>
+        <formatCustomFormat>[&quot;#,###.00%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Quantity Attainment</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Revenue_Attainment</field>
+        <formatCustomFormat>[&quot;#,###.00%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Revenue Attainment</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </measures>
+</WaveXmd>

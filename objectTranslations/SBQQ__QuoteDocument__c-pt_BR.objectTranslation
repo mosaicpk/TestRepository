@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento de cotação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos de cotação</value>
+    </caseValues>
+    <fields>
+        <help>ID do registro de anexo gerado para esse documento.</help>
+        <label>Id do anexo</label>
+        <name>SBQQ__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <help>Valor do cliente na cotação no momento em que esse documento foi gerado.</help>
+        <label><!-- Customer Amount --></label>
+        <name>SBQQ__CustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help>ID do registro do documento que contém o PDF gerado.</help>
+        <label>Identificação do documento</label>
+        <name>SBQQ__DocumentId__c</name>
+    </fields>
+    <fields>
+        <help>Campo para que o documento seja assinado eletronicamente.</help>
+        <label><!-- Electronic Signature --></label>
+        <name>SBQQ__ElectronicSignature__c</name>
+    </fields>
+    <fields>
+        <help>Chave usada para garantir uma combinação exclusiva de ID de cotação e número de versão.</help>
+        <label><!-- Key --></label>
+        <name>SBQQ__Key__c</name>
+    </fields>
+    <fields>
+        <help>Liste o valor da cotação no momento em que esse documento foi gerado.</help>
+        <label>Quantidade da lista</label>
+        <name>SBQQ__ListAmount__c</name>
+    </fields>
+    <fields>
+        <help>Valor líquido da cotação no momento em que esse documento foi gerado.</help>
+        <label><!-- Net Amount --></label>
+        <name>SBQQ__NetAmount__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a Oportunidade que gera a Cotação para esse documento.</help>
+        <label><!-- Opportunity --></label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel><!-- Quote Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Escolha o formato de saída para esse documento.</help>
+        <label><!-- Output Format --></label>
+        <name>SBQQ__OutputFormat__c</name>
+        <picklistValues>
+            <masterLabel>MS Word</masterLabel>
+            <translation>MS Word</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation>PDF</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Escolha o tamanho do papel para esse documento.</help>
+        <label><!-- Paper Size --></label>
+        <name>SBQQ__PaperSize__c</name>
+    </fields>
+    <fields>
+        <help>Faz referência ao contato principal para a cotação a ser usada no botão E-mail, que usa o campo Para como padrão.</help>
+        <label>ID do contato principal</label>
+        <name>SBQQ__PrimaryContactId__c</name>
+    </fields>
+    <fields>
+        <help>Modelo de cotação que gerou este documento.</help>
+        <label><!-- Quote Template --></label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel><!-- Quote Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cotação à qual este Documento de Cotação pertence.</help>
+        <label>Orçamento</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Quote Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Status da assinatura eletrônica.</help>
+        <label><!-- Signature Status --></label>
+        <name>SBQQ__SignatureStatus__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expirado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revoked</masterLabel>
+            <translation>Revogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation>Assinado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Nome do modelo usado para gerar esse documento.</help>
+        <label><!-- Template --></label>
+        <name>SBQQ__Template__c</name>
+    </fields>
+    <fields>
+        <help>Número de versão incrementado sequencialmente.</help>
+        <label><!-- Version --></label>
+        <name>SBQQ__Version__c</name>
+    </fields>
+    <fields>
+        <help>Permite que o usuário visualize o ID do registro do documento de cotação.</help>
+        <label>Exibir ID do registro</label>
+        <name>SBQQ__ViewRecordId__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do documento</nameFieldLabel>
+    <webLinks>
+        <label>E-mail</label>
+        <name>SBQQ__Email</name>
+    </webLinks>
+    <webLinks>
+        <label>Ver</label>
+        <name>SBQQ__View</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendWithDocuSign --></label>
+        <name>SendWithDocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "e2a72719-69ca-463c-8440-8d2d1b6823b0",
+  "label" : "Trabaja con Nosotros",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "7373ad63-ef65-4fa8-b408-b6116cc4479a",
+          "columns" : [ {
+            "UUID" : "bdcb5a0a-279c-4c76-8731-4bc029421a7e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7373ad63-ef65-4fa8-b408-b6116cc4479a",
+      "regions" : [ {
+        "id" : "bdcb5a0a-279c-4c76-8731-4bc029421a7e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "79eba687-8b2c-468b-b3f5-c6f2ffd2d38d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Trabaja con Nosotros"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d9a64cb9-a5b4-4b85-9a09-d77cd05dc988",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f682c199-442b-4b8e-b8f5-70f75f759cad",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-trabaja-con-nosotros"
+}

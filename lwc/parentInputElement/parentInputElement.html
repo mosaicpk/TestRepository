@@ -1,0 +1,27 @@
+<template>
+  <div class="slds-grid slds-gutters slds-wrap slds-p-around_medium">
+    <div class="slds-col slds-size_1-of-3 slds-small-size_1-of-1">
+      <c-input-element
+        text-label="First Name"
+        data-id="firstName"
+        parent-name="firstName"
+        default-value={pageObject.firstName}
+        is-required
+        oninputdatachange={handleDataChange}
+      ></c-input-element>
+    </div>
+    <div class="slds-col slds-size_1-of-3 slds-small-size_1-of-1">
+      <c-input-element
+        text-label="Start Date"
+        type="date"
+        data-id="startDate"
+        default-value={pageObject.startDate}
+        is-required
+        parent-name="startDate"
+        min-value={today}
+        oninputdatachange={handleDataChange}
+      >
+      </c-input-element>
+    </div>
+  </div>
+</template>

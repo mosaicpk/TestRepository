@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Install Processor Log --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Install Processor Log --></value>
+    </caseValues>
+    <fields>
+        <help>Nombre del método que se ejecuta en el script de instalación</help>
+        <label>Nombre del método</label>
+        <name>SBQQ__MethodName__c</name>
+    </fields>
+    <fields>
+        <help>Hora de ejecución del método</help>
+        <label>Tiempo</label>
+        <name>SBQQ__Time__c</name>
+    </fields>
+    <fields>
+        <help>Versión del paquete en el momento de ejecutar el método</help>
+        <label>Versión</label>
+        <name>SBQQ__Version__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Install Processor Log Name --></nameFieldLabel>
+</CustomObjectTranslation>

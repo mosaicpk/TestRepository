@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <enforcementType>Scoping</enforcementType>
+    <masterLabel>Share With Account Managers</masterLabel>
+    <recordFilter>PMC_CPQ_AccountManager__c=$User.Id</recordFilter>
+    <targetEntity>SBQQ__Quote__c</targetEntity>
+    <userCriteria>$User.ProfileId=&apos;00eDT000000ugzB&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>

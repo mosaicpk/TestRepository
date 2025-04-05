@@ -1,0 +1,13 @@
+<apex:page standardController="sbaa__Approval__c" extensions="CommentExtension" showHeader="false" sidebar="false" contentType="text/html">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                <apex:outputLabel value="Approver's Comment:"/>
+                <apex:inputTextarea value="{!comment}" rows="4" cols="50"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Submit Comment" action="{!submitComment}"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

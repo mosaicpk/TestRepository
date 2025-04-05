@@ -1,0 +1,65 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Book Appointment",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"3f0da078-5835-4867-a48e-e9d43c0e16be\",\"columns\":[{\"UUID\":\"91025a51-f103-4748-aaa9-af91295835af\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "flowArguments" : "[]",
+                "flowName" : "{\"flowName\":\"Inbound_new_Test\",\"flowLabel\":\"Inbound new -Test\"}"
+              },
+              "definition" : "dxp_flow:flow",
+              "id" : "a5921042-39e0-469e-8b7c-bbc8151e3ca6",
+              "type" : "component"
+            } ],
+            "id" : "91025a51-f103-4748-aaa9-af91295835af",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3f0da078-5835-4867-a48e-e9d43c0e16be",
+          "type" : "component"
+        } ],
+        "id" : "847def0c-8261-41b6-956f-3ced4d67e436",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Book Appointment",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "f224d4b5-248b-422b-b723-ca98512c9816",
+          "type" : "component"
+        } ],
+        "id" : "0082a5be-9f71-4bf6-97a4-3b168593364d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "60da4618-92af-445a-930b-245f6f8aa29d",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-book-appointment"
+  },
+  "urlName" : "book-appointment"
+}

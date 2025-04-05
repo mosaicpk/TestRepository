@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>In The Office</masterLabel>
+        <translation>Disponível no escritório</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Out Of Office</masterLabel>
+        <translation>Período de ausência do escritório</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Out Sick</masterLabel>
+        <translation>Ausência por motivo de doença</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PTO</masterLabel>
+        <translation>Folga</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Volunteering Time Off</masterLabel>
+        <translation>Tempo de folga voluntário</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Working Remotely</masterLabel>
+        <translation>Trabalhando remotamente</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

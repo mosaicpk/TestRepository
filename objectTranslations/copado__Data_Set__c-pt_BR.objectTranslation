@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Data Set --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Data Set --></value>
+    </caseValues>
+    <fields>
+        <help>O Data Template selecionado será usado como base para relacionamentos de objetos, campos relacionados e filtragem.</help>
+        <label>Modelo de dados</label>
+        <name>copado__Data_Template__c</name>
+        <relationshipLabel>Conjuntos de dados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>Trabalho de execução</label>
+        <name>copado__Execution_Job__c</name>
+        <relationshipLabel>Conjuntos de dados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status de execução do arquivo</label>
+        <name>copado__Execution_Status__c</name>
+    </fields>
+    <fields>
+        <help>Essa data é atualizada automaticamente pelo Copado ao gerar os arquivos CSV do conjunto de dados a partir de um ambiente de origem. Atualize esse valor ao gerar os arquivos CSV a partir de um banco de dados ou processo externo.</help>
+        <label>Data da última geração</label>
+        <name>copado__Last_Generated_Date__c</name>
+    </fields>
+    <fields>
+        <help>O ambiente de onde os dados foram extraídos na última geração de conjuntos de dados.</help>
+        <label>Ambiente de fonte de dados</label>
+        <name>copado__Source_Org__c</name>
+        <relationshipLabel>Conjuntos de dados</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Data Set Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não é permitido alterar o modelo de dados depois que o conjunto de dados tiver sido criado. Crie um novo conjunto de dados.</errorMessage>
+        <name>copado__Prevent_change_Data_Template</name>
+    </validationRules>
+</CustomObjectTranslation>

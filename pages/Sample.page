@@ -1,0 +1,6 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+ <c:PMC_DH_AccessReviewEmailComponent />
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

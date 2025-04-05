@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Locator --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Locator --></value>
+    </caseValues>
+    <fields>
+        <label>ID externa</label>
+        <name>copado__External_ID__c</name>
+    </fields>
+    <fields>
+        <help>Esse valor é definido pelo usuário. Ao definir um ID de localizador, isso pode ser usado nos scripts de cases de teste do Selenium como {!Locator.ID}, por exemplo: {!Locator.ACCOUNT_SAVE_BUTTON}</help>
+        <label>ID do localizador</label>
+        <name>copado__Locator_ID__c</name>
+    </fields>
+    <fields>
+        <help>Localizador do Selenium que identifica o elemento na página.</help>
+        <label>Localizador</label>
+        <name>copado__Locator__c</name>
+    </fields>
+    <fields>
+        <help>Usado para dar contexto ao localizador. Pode ser qualquer texto.
+O Copado Recorder definirá automaticamente o título da página durante a gravação.</help>
+        <label>Página</label>
+        <name>copado__Page__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Selenium Locator Name --></nameFieldLabel>
+</CustomObjectTranslation>

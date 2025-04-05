@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Delivery</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deliveries</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Delivery History</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Delivery Histories</value>
+        </caseValues>
+        <name>shipment_history</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Delivery ID</value>
+        </caseValues>
+        <name>shipment_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Delivery Number</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Delivery Numbers</value>
+        </caseValues>
+        <name>shipment_name</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Only CoA approved records must be displayed --></help>
+        <label><!-- Insp. Lot Usage Decision --></label>
+        <name>Insp_Lot_Usage_Decision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>PMC_CPQ_Account__c</name>
+        <relationshipLabel><!-- Deliveries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Alternate/Substitute Product --></label>
+        <name>PMC_CPQ_AlternateSubstituteProduct__c</name>
+        <picklistValues>
+            <masterLabel>Alternate Product</masterLabel>
+            <translation><!-- Alternate Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Substitute Product</masterLabel>
+            <translation><!-- Substitute Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>PMC_CPQ_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Number --></label>
+        <name>PMC_CPQ_ContractNumber__c</name>
+        <relationshipLabel><!-- Deliveries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Carrier --></label>
+        <name>PMC_CPQ_CurrentCarrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Coordinates --></label>
+        <name>PMC_CPQ_CurrentCoordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Location --></label>
+        <name>PMC_CPQ_CurrentLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Agreed Price (FPD) --></label>
+        <name>PMC_CPQ_CustomerAgreedPriceFPD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Past Shipped --></label>
+        <name>PMC_CPQ_DaysPastShipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Actual GI Date --></label>
+        <name>PMC_CPQ_DeliveryActualGIDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Created By Name --></label>
+        <name>PMC_CPQ_DeliveryCreatedByName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Item ID --></label>
+        <name>PMC_CPQ_DeliveryItemID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Item Name --></label>
+        <name>PMC_CPQ_DeliveryItemName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Planned GI Date --></label>
+        <name>PMC_CPQ_DeliveryPlannedGIDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Planned vs Actual GI --></label>
+        <name>PMC_CPQ_DeliveryPlannedvsActualGI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Quantity --></label>
+        <name>PMC_CPQ_DeliveryQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Status --></label>
+        <name>PMC_CPQ_DeliveryStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completely Shipped</masterLabel>
+            <translation><!-- Completely Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Shipped</masterLabel>
+            <translation><!-- Not Yet Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Shipped</masterLabel>
+            <translation><!-- Partially Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Destination --></label>
+        <name>PMC_CPQ_Destination__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA --></label>
+        <name>PMC_CPQ_ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Delivery Date --></label>
+        <name>PMC_CPQ_EstimatedDeliveryDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goods Issue Status --></label>
+        <name>PMC_CPQ_GoodsIssueStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loading Date --></label>
+        <name>PMC_CPQ_LoadingDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the appropriate mode from the available options to track and manage logistics effectively. --></help>
+        <label><!-- MOT --></label>
+        <name>PMC_CPQ_ModeofTransportation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Document --></label>
+        <name>PMC_CPQ_OrderDocument__c</name>
+        <picklistValues>
+            <masterLabel>Bill of Lading</masterLabel>
+            <translation><!-- Bill of Lading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Analysis</masterLabel>
+            <translation><!-- Certificate of Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO</masterLabel>
+            <translation><!-- PO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Status --></label>
+        <name>PMC_CPQ_OrderStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>PMC_CPQ_Order__c</name>
+        <relationshipLabel><!-- Deliveries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Origin Location --></label>
+        <name>PMC_CPQ_OriginLocation__c</name>
+        <relationshipLabel><!-- Deliveries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>PMC_CPQ_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Purchase Order # --></label>
+        <name>PMC_CPQ_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plant ID --></label>
+        <name>PMC_CPQ_PlantID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>PMC_CPQ_Product__c</name>
+        <relationshipLabel><!-- Deliveries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rail Car Number (IntelliTrans) --></label>
+        <name>PMC_CPQ_RailCarNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Route --></label>
+        <name>PMC_CPQ_Route__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Delivery ID --></label>
+        <name>PMC_CPQ_SAPDeliveryID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Order ID --></label>
+        <name>PMC_CPQ_SAPOrderID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Order line ID --></label>
+        <name>PMC_CPQ_SAPOrderlineID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Price --></label>
+        <name>PMC_CPQ_SalesPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Account --></label>
+        <name>PMC_CPQ_ShipToAccount__c</name>
+        <relationshipLabel><!-- Deliveries (Ship To Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship To --></label>
+        <name>PMC_CPQ_ShipTo__c</name>
+        <relationshipLabel><!-- Deliveries (Ship To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipped Date --></label>
+        <name>PMC_CPQ_ShippedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Point --></label>
+        <name>PMC_CPQ_ShippingPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tow Name --></label>
+        <name>PMC_CPQ_TowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Planning Date --></label>
+        <name>PMC_CPQ_TransportationPlanningDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Truck Number --></label>
+        <name>PMC_CPQ_TruckNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the unit in which the value of this field will be measured --></help>
+        <label><!-- UoM Unit of Measure --></label>
+        <name>PMC_CPQ_UoMUnitofMeasure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle ID --></label>
+        <name>PMC_CPQ_VehicleID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vessel ID --></label>
+        <name>PMC_CPQ_VesselID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>PMC_CPQ_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Delivery Created Date --></label>
+        <name>PMC_DH_SAPDeliveryCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Activation Date --></label>
+        <name>PMC_SS_OrderActivationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Status Code --></label>
+        <name>PMC_SS_OrderStatusCode__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>PMC_CPQ_Default</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Restriction to edit the shipment quantity after &apos;Completely shipped&apos; --></errorMessage>
+        <name>Restrict_Quantity_Edit</name>
+    </validationRules>
+</CustomObjectTranslation>

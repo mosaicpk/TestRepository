@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>App_for_Manufacturing_Analytics</application>
+    <masterLabel>MFG_TargetActuals</masterLabel>
+    <templateAssetSourceName>MFG_TargetActuals_tp</templateAssetSourceName>
+    <type>default</type>
+</WaveDataset>

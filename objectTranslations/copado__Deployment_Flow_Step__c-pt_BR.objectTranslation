@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pipeline Connection --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Pipeline Connection --></value>
+    </caseValues>
+    <fields>
+        <label>Mesclar e implantar automaticamente</label>
+        <name>copado__Automatically_Merge_and_Deploy__c</name>
+    </fields>
+    <fields>
+        <help>Ramo do Git vinculado ao ambiente de origem.</help>
+        <label>Ramo</label>
+        <name>copado__Branch__c</name>
+    </fields>
+    <fields>
+        <label>Compromissos futuros</label>
+        <name>copado__Commits_Ahead__c</name>
+    </fields>
+    <fields>
+        <label>Compromissos Anteriores</label>
+        <name>copado__Commits_Behind__c</name>
+    </fields>
+    <fields>
+        <label>Substituição do comportamento da conexão</label>
+        <name>copado__Connection_Behavior_Override__c</name>
+        <relationshipLabel>Conexões de pipeline</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Comportamento da conexão</label>
+        <name>copado__Connection_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>copado__Deployment_Flow__c</name>
+        <relationshipLabel>Conexões de pipeline</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Valor atualizado automaticamente pela Copado. Isso é definido na etapa do fluxo de implantação do ambiente de destino.</help>
+        <label>Filial de destino</label>
+        <name>copado__Destination_Branch__c</name>
+    </fields>
+    <fields>
+        <label>Ambiente de destino</label>
+        <name>copado__Destination_Environment__c</name>
+        <relationshipLabel>Conexões de pipeline (ambiente de destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Enable as Scratch Org Target --></label>
+        <name>copado__Enable_as_Scratch_Org_Destination__c</name>
+        <picklistValues>
+            <masterLabel>DX Patch Target</masterLabel>
+            <translation>Alvo do DX Patch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DX Target</masterLabel>
+            <translation>Alvo DX</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default DX Target</masterLabel>
+            <translation>Alvo DX padrão</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Última data e hora em que o ramo de origem e o ramo de destino estavam em sincronia (sem commits adiantados ou atrasados).</help>
+        <label>Última base de mesclagem</label>
+        <name>copado__Last_Merge_Base__c</name>
+    </fields>
+    <fields>
+        <help>Última data e hora em que o botão CBM Sync foi clicado para mesclar e implantar alterações no ambiente de destino.</help>
+        <label>Última mesclagem Sincronização de CBM</label>
+        <name>copado__Last_Merge_CBM_Sync__c</name>
+    </fields>
+    <fields>
+        <help>Última data e hora em que o botão CBM Sync foi clicado para mesclar e implementar alterações no ambiente de origem.</help>
+        <label>Sincronização do CBM do last pull</label>
+        <name>copado__Last_Pull_CBM_Sync__c</name>
+    </fields>
+    <fields>
+        <help>Lista de arquivos conflitantes resolvidos automaticamente pelo Copado ao mesclar o ramo de origem com o ramo de destino.</help>
+        <label><!-- Merge Auto Resolved Files --></label>
+        <name>copado__Merge_Auto_Resolved_Files__c</name>
+    </fields>
+    <fields>
+        <label>Próxima etapa</label>
+        <name>copado__Next_Stage__c</name>
+    </fields>
+    <fields>
+        <help>Lista de arquivos conflitantes resolvidos automaticamente pelo Copado ao mesclar o ramo de destino com o ramo de origem.</help>
+        <label><!-- Pull Auto Resolved Files --></label>
+        <name>copado__Pull_Auto_Resolved_Files__c</name>
+    </fields>
+    <fields>
+        <label>Fonte Ambiente</label>
+        <name>copado__Source_Environment__c</name>
+        <relationshipLabel>Conexões de pipeline (ambiente de origem)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Estágio Conexão à qual pertence o ambiente de origem.</help>
+        <label>Conexão de estágio</label>
+        <lookupFilter>
+            <errorMessage>Você só pode selecionar conexões de estágio que pertençam ao mesmo pipeline.</errorMessage>
+        </lookupFilter>
+        <name>copado__Stage_Connection__c</name>
+        <relationshipLabel>Conexões de pipeline</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Estágio ao qual pertence o ambiente de origem.</help>
+        <label>Estágio</label>
+        <name>copado__Stage__c</name>
+    </fields>
+    <fields>
+        <label>Estado da mesclagem de sincronização</label>
+        <name>copado__Sync_Merge_State__c</name>
+        <picklistValues>
+            <masterLabel>In sync</masterLabel>
+            <translation>Em sincronia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs recalculating</masterLabel>
+            <translation>Precisa ser recalculado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalculating</masterLabel>
+            <translation>Recálculo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syncing</masterLabel>
+            <translation>Sincronização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation>Validado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation errors</masterLabel>
+            <translation>Erros de validação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado do Sync Pull</label>
+        <name>copado__Sync_Pull_State__c</name>
+        <picklistValues>
+            <masterLabel>In sync</masterLabel>
+            <translation>Em sincronia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs recalculating</masterLabel>
+            <translation>Precisa ser recalculado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalculating</masterLabel>
+            <translation>Recálculo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syncing</masterLabel>
+            <translation>Sincronização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation>Validado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation errors</masterLabel>
+            <translation>Erros de validação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Nível de teste recomendado: &quot;Run Local Tests&quot; (Executar testes locais)</help>
+        <label>Nível de teste</label>
+        <name>copado__Test_Level__c</name>
+        <picklistValues>
+            <masterLabel>No Test Run</masterLabel>
+            <translation>Sem execução de teste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run All Tests In Org</masterLabel>
+            <translation>Executar todos os testes na organização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run Local Tests</masterLabel>
+            <translation>Executar testes locais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run Specified Tests</masterLabel>
+            <translation>Executar testes especificados</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Pipeline Connection Reference --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>A plataforma para o pipeline e o ambiente devem corresponder</errorMessage>
+        <name>copado__EnvironmentAndPipelinePlatformMustBeSame</name>
+    </validationRules>
+    <webLinks>
+        <label>Selecionar filial</label>
+        <name>copado__Select_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

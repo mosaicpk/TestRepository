@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Action Required</masterLabel>
+        <translation>Acción necesaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Immediate Action Required</masterLabel>
+        <translation>Acción inmediata necesaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>No Action Required</masterLabel>
+        <translation>No se requiere ninguna acción</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Currently Enabled</masterLabel>
+        <translation>No habilitado actualmente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Review Required</masterLabel>
+        <translation>Revisión obligatoria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unable to Analyze</masterLabel>
+        <translation>Incapaz de analizar</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

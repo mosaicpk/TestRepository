@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>SendOpportunityApproachingCloseDate5DaysBeforeCloseEmailAlertStep</name>
+        <label>Send Opportunity Approaching Close Date 5 Days Before Close Email Alert Step</label>
+        <locationX>308</locationX>
+        <locationY>276</locationY>
+        <actionName>Opportunity.PMC_SS_OpportunityApproachingCloseDate5DaysBeforeCloseEmailAlert</actionName>
+        <actionType>emailAlert</actionType>
+        <faultConnector>
+            <targetReference>FaultErrorLogCreate</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.PMC_SS_OpportunityApproachingCloseDate5DaysBeforeCloseEmailAlert</nameSegment>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>PMC SS Opportunity Close Date Before 5 Days Del {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PMC SS Opportunity Approaching Close Date 5 Days Before Close Email Flow Del</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>FaultErrorLogCreate</name>
+        <label>Fault Error Log Create</label>
+        <locationX>572</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>PMC_ExternalId__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PMC_FlowName__c</field>
+            <value>
+                <stringValue>PMC_SS_OpportunityApproachingCloseDate5DaysBeforeCloseEmailFlow</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PMC_Message__c</field>
+            <value>
+                <stringValue>Error received while sending Email Alert </stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PMC_Type__c</field>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputAssignments>
+        <object>PMC_ErrorLog__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Setup.PMC_ProcessSwitches__c.PMC_BypassFlow__c} = False &amp;&amp; Text({!$Record.StageName}) != &apos;Closed/Won&apos; &amp;&amp; Text({!$Record.StageName}) != &apos;Closed/Lost&apos; &amp;&amp; {!$Record.CloseDate} != null</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>SendEmailAlert5DaysBeforeClosedDateStep</name>
+            <connector>
+                <targetReference>SendOpportunityApproachingCloseDate5DaysBeforeCloseEmailAlertStep</targetReference>
+            </connector>
+            <label>Send Email Alert 5 Days Before Closed Date Step</label>
+            <offsetNumber>-5</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>CloseDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

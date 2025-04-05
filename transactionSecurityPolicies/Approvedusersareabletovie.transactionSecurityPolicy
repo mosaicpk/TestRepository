@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionSecurityPolicy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>
+        <block>true</block>
+        <endSession>false</endSession>
+        <freezeUser>false</freezeUser>
+        <notifications>
+            <inApp>true</inApp>
+            <sendEmail>true</sendEmail>
+            <user>grant.dick1@mosaicco.com</user>
+        </notifications>
+        <twoFactorAuthentication>false</twoFactorAuthentication>
+    </action>
+    <active>false</active>
+    <blockMessage>You are blocked from further action as this listview have sensitive information</blockMessage>
+    <customEmailContent>&lt;p&gt;A user of yours tried to access a listview that is regarded as Sensitive.&lt;/p&gt;&lt;p&gt;Event Name - {{policy.EventName}}&lt;/p&gt;&lt;p&gt;Listview ID - {{event.ListViewId}}&lt;/p&gt;&lt;p&gt;Name of the Columns - {{event.ColumnHeaders}}&lt;/p&gt;&lt;p&gt;Username - {{event.Username}}&lt;/p&gt;&lt;p&gt;Rows Processed - {{event.RowsProcessed}}&lt;/p&gt;</customEmailContent>
+    <description>Block a user who tries to access a list view of 5,000 sensitive data records unless they have a specific permission set</description>
+    <developerName>Approvedusersareabletovie</developerName>
+    <eventName>ListViewEvent</eventName>
+    <flow>PolicyCondition_hLaxfuJmMunGIcWAylBN</flow>
+    <masterLabel>Approved users are able to view and interact with a list View of Sensitive Data</masterLabel>
+    <type>CustomConditionBuilderPolicy</type>
+</TransactionSecurityPolicy>

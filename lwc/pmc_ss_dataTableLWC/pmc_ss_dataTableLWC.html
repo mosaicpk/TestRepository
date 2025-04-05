@@ -1,0 +1,10 @@
+<template>
+    <h2> Forecast Datatable</h2>
+    <template if:true={forecastList}>
+        <lightning-datatable data={forecastList} columns={columns} key-field="Id">
+        </lightning-datatable>
+    </template>
+    <template if:true={error}>
+        {error}
+    </template>
+</template>

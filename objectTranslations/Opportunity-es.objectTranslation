@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Deal Desk --></label>
+        <name>sbaa__DealDesk</name>
+    </fieldSets>
+    <fields>
+        <label>Fondos confirmados</label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Competitor --></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descubrimiento finalizado</label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Purchase Order # --></label>
+        <name>PMC_CPQ_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Comments --></label>
+        <name>PMC_CPQ_ProductComments__c</name>
+    </fields>
+    <fields>
+        <label>Método de contacto</label>
+        <name>PMC_DH_ContactMethod__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Correo electr�nico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person</masterLabel>
+            <translation>En persona</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Teléfono</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WhatsApp/SMS</masterLabel>
+            <translation><!-- WhatsApp/SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Preferencia de contacto</label>
+        <name>PMC_DH_ContactPreference__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Correo electr�nico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WhatsApp</masterLabel>
+            <translation><!-- WhatsApp --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fecha del último contacto</label>
+        <name>PMC_DH_LastContactedDate__c</name>
+    </fields>
+    <fields>
+        <label>Perdido Otro motivo</label>
+        <name>PMC_DH_LostOtherReason__c</name>
+    </fields>
+    <fields>
+        <label>Gestor de cuentas</label>
+        <name>PMC_SS_AccountManager__c</name>
+        <relationshipLabel>Oportunidades (Gestor de cuentas)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de cierre real</label>
+        <name>PMC_SS_ActualCloseDate__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de la Fase de análisis</label>
+        <name>PMC_SS_AnalysisStageDate__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del competidor</label>
+        <name>PMC_SS_CompetitorName__c</name>
+    </fields>
+    <fields>
+        <label>Producto de la competencia</label>
+        <name>PMC_SS_CompetitorProduct__c</name>
+    </fields>
+    <fields>
+        <label>Cultivos</label>
+        <name>PMC_SS_Crop__c</name>
+    </fields>
+    <fields>
+        <label>Cultivos</label>
+        <name>PMC_SS_Crops__c</name>
+    </fields>
+    <fields>
+        <label>Días de apertura</label>
+        <name>PMC_SS_DaysOpen__c</name>
+    </fields>
+    <fields>
+        <label>Región de entrega</label>
+        <name>PMC_SS_DeliveredRegion__c</name>
+    </fields>
+    <fields>
+        <label>Más información</label>
+        <name>PMC_SS_Details__c</name>
+    </fields>
+    <fields>
+        <label>Descuento</label>
+        <name>PMC_SS_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de lead</label>
+        <name>PMC_SS_LeadType__c</name>
+        <picklistValues>
+            <masterLabel>Crop Consultant</masterLabel>
+            <translation>Consultor de cultivos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower</masterLabel>
+            <translation>Cultivador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer - Agrnomist</masterLabel>
+            <translation>Minorista - Agrnomist</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer - Decision Maker</masterLabel>
+            <translation>Minorista - Responsable de la toma de decisiones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student</masterLabel>
+            <translation>Estudiante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Perdido por</label>
+        <name>PMC_SS_LostTo__c</name>
+    </fields>
+    <fields>
+        <label>Principales competidores</label>
+        <name>PMC_SS_MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de finalización de Necesidades</label>
+        <name>PMC_SS_NeedsEndsDate__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de inicio de Necesidades</label>
+        <name>PMC_SS_NeedsStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Fuente de oportunidades</label>
+        <name>PMC_SS_OpportunitySource__c</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation><!-- Cold Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Inbox</masterLabel>
+            <translation>Inbox de la empresa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross-Sellin - Rental</masterLabel>
+            <translation>Venta cruzada - Alquiler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross-Selling - Aftermarket</masterLabel>
+            <translation>Venta cruzada - Posventa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation>Interno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Visit</masterLabel>
+            <translation>Visita personal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation>Llamada telefónica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relation</masterLabel>
+            <translation>Relaciones públicas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation</masterLabel>
+            <translation>Recomendación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation>Feria de muestras</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>Página web</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Precio</label>
+        <name>PMC_SS_Price__c</name>
+    </fields>
+    <fields>
+        <help>Este campo sólo mostrará los contactos ACTIVOS. Se puede acceder a los contactos inactivos desde la Búsqueda global.</help>
+        <label>Contacto principal</label>
+        <name>PMC_SS_PrimaryContact__c</name>
+        <relationshipLabel>Oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Familias de productos</label>
+        <name>PMC_SS_ProductFamilies__c</name>
+    </fields>
+    <fields>
+        <label>Razón perdida</label>
+        <name>PMC_SS_ReasonLost__c</name>
+        <picklistValues>
+            <masterLabel>Delivery Timing</masterLabel>
+            <translation>Plazos de entrega</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desired Product Unavailable</masterLabel>
+            <translation>Producto deseado no disponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation>Descubrimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Season</masterLabel>
+            <translation>Temporada incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Customer Credit</masterLabel>
+            <translation>Crédito insuficiente del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation>Perdida ante el competidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misexecution</masterLabel>
+            <translation>Ejecución incorrecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation>Sin fondos / Financiación perdida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation>Sin decisión / Sin respuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer Interested</masterLabel>
+            <translation>Ya no lo interesa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Quotation</masterLabel>
+            <translation>Sin presupuesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Ready For Purchase</masterLabel>
+            <translation>No listo para la compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Precio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Unable to Meet Customer Needs</masterLabel>
+            <translation>El producto no satisface las necesidades del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will Consider Next Season</masterLabel>
+            <translation>Considerará la próxima temporada</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Director regional</label>
+        <name>PMC_SS_RegionalManager__c</name>
+        <relationshipLabel>Oportunidades (Director Regional)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Exclusión de SMS</label>
+        <name>PMC_SS_SMSOptOut__c</name>
+    </fields>
+    <fields>
+        <label>Acuerdo de venta</label>
+        <name>PMC_SS_SalesAgreement__c</name>
+        <relationshipLabel>Oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Temporada</label>
+        <name>PMC_SS_Season__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Cuando se marca este campo, la Oportunidad se considera una Compra no Planificada&quot;</help>
+        <label>Compra no planificada</label>
+        <name>PMC_SS_UnplannedPurchase__c</name>
+    </fields>
+    <fields>
+        <label>Análisis del ROI completado</label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <help>Consulte su contrato modificado.</help>
+        <label>Contrato modificado</label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel>Oportunidades de Modificación</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Salesforce CPQ utiliza este campo para convertir automáticamente activos y suscripciones.</help>
+        <label>Contratado</label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla para crear Precios Contratados sin crear un Contrato.</help>
+        <label>Crear precios contratados</label>
+        <name>SBQQ__CreateContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>&quot;El identificador único de la transacción Amend:Re-Quote, que es el ID del presupuesto primario original.&quot;</help>
+        <label>ID de grupo de pedidos</label>
+        <name>SBQQ__OrderGroupID__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla para crear automáticamente una orden a partir del presupuesto primario.</help>
+        <label>Pedido</label>
+        <name>SBQQ__Ordered__c</name>
+    </fields>
+    <fields>
+        <help>Salesforce CPQ lo utiliza para apuntar al presupuesto principal de esta oportunidad.</help>
+        <label>Presupuesto principal</label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel>Oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Id de presupuesto de libro de precios</label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Indica que se trata de una oportunidad de renovación.</help>
+        <label>Renovación</label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Contrato que se renueva mediante esta oportunidad de renovación. Si los varios contratos se enrollan en esta oportunidad, esto apunta al contrato principal.&quot;</help>
+        <label>Contrato renovado</label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel>Oportunidades de renovación</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Status general de aprobación de esta oportunidad</help>
+        <label>Status de aprobación</label>
+        <name>sbaa__ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>Retirado del mercado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se utiliza con las aprobaciones nativas para indicar el paso del proceso de aprobación en el que se encuentra esta oportunidad.</help>
+        <label>Paso de aprobación</label>
+        <name>sbaa__ApprovalStep__c</name>
+    </fields>
+    <fields>
+        <help>Se utiliza con Aprobadores nativos; indica qué Aprobador es responsable de aprobar la Oportunidad.</help>
+        <label>Aprobador</label>
+        <name>sbaa__Approver__c</name>
+        <relationshipLabel>Oportunidades (Aprobador)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se utiliza con las aprobaciones nativas; para indicar si el paso ha sido aprobado</help>
+        <label>Paso Aprobado</label>
+        <name>sbaa__StepApproved__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de presentación del expediente para su aprobación</help>
+        <label>Fecha de envío</label>
+        <name>sbaa__SubmittedDate__c</name>
+    </fields>
+    <fields>
+        <help>Usuario que solicita la aprobación de la Oportunidad.</help>
+        <label>Usuario enviado</label>
+        <name>sbaa__SubmittedUser__c</name>
+        <relationshipLabel>Oportunidades (Usuario Enviado)</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <description>Tipo de registro de oportunidad por defecto</description>
+        <label>Oportunidad</label>
+        <name>PMC_SS_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>&quot;Indique el motivo por el que se ha perdido esta oportunidad en el campo &quot;Motivo de la pérdida&quot;.&quot;</errorMessage>
+        <name>PMC_SS_ReasonLostRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Sold-to Accounts can have Opportunities. Please select a Sold-to Account to create an Opportunity. --></errorMessage>
+        <name>PMC_SS_RestrictOppForNonSoldToAccounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Las cuentas potenciales no pueden optar a la etapa que está seleccionando. Inicie el proceso de verificación de crédito para convertir esta cuenta en una cuenta de cliente.</errorMessage>
+        <name>PMC_SS_RestrictOpportunityStageUpdate</name>
+    </validationRules>
+    <webLinks>
+        <label>Modificar activos</label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label>Modificar el contrato</label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label>Crear pedido</label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label>Incluir documento</label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Docs --></label>
+        <name>SDOC__Email_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label>Vista previa de las aprobaciones</label>
+        <name>sbaa__PreviewApprovals</name>
+    </webLinks>
+    <webLinks>
+        <label>Aprobaciones de retirada</label>
+        <name>sbaa__RecallApprovals</name>
+    </webLinks>
+    <webLinks>
+        <label>Reenviar solicitud</label>
+        <name>sbaa__ResendRequestEmail</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar para aprobación</label>
+        <name>sbaa__SubmitForApproval</name>
+    </webLinks>
+</CustomObjectTranslation>

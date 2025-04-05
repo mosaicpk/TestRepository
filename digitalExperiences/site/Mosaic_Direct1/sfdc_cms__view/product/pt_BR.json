@@ -1,0 +1,25 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "productDetailDataContentMapping" : "[{\"name\":\"PMC_DH_ProductComposition__c\",\"label\":\"Composição\",\"type\":\"STRING\"},{\"name\":\"PMC_CPQ_BusinessApplication__c\",\"label\":\"Aplicação\",\"type\":\"PICKLIST\"},{\"name\":\"PMC_CPQ_CropType__c\",\"label\":\"Crop Type\",\"type\":\"PICKLIST\"},{\"name\":\"PMC_CPQ_Seasonality__c\",\"label\":\"Sazonalidade\",\"type\":\"STRING\"}]"
+        },
+        "id" : "681ba6b7-e799-426f-938f-de61df4f0638"
+      }, {
+        "id" : "de1b08d3-d471-4693-ac07-6664cbd85285",
+        "attributes" : {
+          "productDetailSummaryFieldMapping" : "[{\"name\":\"Description\",\"label\":\"Descrição do Produto\",\"type\":\"TEXTAREA\"},{\"name\":\"PMC_CPQ_Seasonality__c\",\"label\":\"Sazonalidade\",\"type\":\"STRING\"}]"
+        }
+      }, {
+        "id" : "3bbf2cbc-db4f-4fc3-831c-03bdb77a0076",
+        "attributes" : {
+          "text" : "Composição Geral"
+        }
+      } ]
+    }
+  },
+  "urlName" : "product"
+}

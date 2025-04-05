@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveComponent xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>App_for_Manufacturing_Analytics</application>
+    <dateVersion>1</dateVersion>
+    <masterLabel>Agreement_Performance_Component</masterLabel>
+    <templateAssetSourceName>Agreement_Performance_Component_tp</templateAssetSourceName>
+</WaveComponent>

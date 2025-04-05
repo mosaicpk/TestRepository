@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Commercial</masterLabel>
+        <translation>Comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee</masterLabel>
+        <translation>Funcionário</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Executive</masterLabel>
+        <translation>Executivo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Material</masterLabel>
+        <translation><!-- Material --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

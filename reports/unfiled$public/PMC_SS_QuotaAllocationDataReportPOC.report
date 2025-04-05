@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>PMC_SS_Allocation__c$PMC_SS_Product__c</field>
+    </columns>
+    <columns>
+        <field>PMC_SS_Allocation__c$PMC_SS_AccountManagerName__c</field>
+    </columns>
+    <columns>
+        <field>PMC_SS_Allocation__c$PMC_SS_AllocatedActualQuantity__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>poc</description>
+    <format>Tabular</format>
+    <name>Quota Allocation Data Report POC</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Quota_Allocation_Data_POC__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>PMC_SS_Allocation__c$PMC_SS_AllocatedActualQuantity__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>PMC_SS_Allocation__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

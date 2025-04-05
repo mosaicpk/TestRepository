@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Cart",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "text" : "Limpar carrinho"
+        },
+        "id" : "6bbf1dbf-877b-4f1d-8622-9a8a14f4967f"
+      } ]
+    }
+  },
+  "urlName" : "cart"
+}

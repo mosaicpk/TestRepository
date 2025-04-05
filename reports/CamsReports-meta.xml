@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>carljoseph@deloitte.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>sseshabhattar@deloitte.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>Cam&apos;s Reports</name>
+</ReportFolder>

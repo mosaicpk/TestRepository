@@ -1,0 +1,4544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CPQ_Lookup --></label>
+        <name>CPQ_Lookup</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Assignment Group --></label>
+        <name>Account_Assignment_Group__c</name>
+        <picklistValues>
+            <masterLabel>01 - Domestic Revenues</masterLabel>
+            <translation><!-- 01 - Domestic Revenues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 - Foreign Revenues</masterLabel>
+            <translation><!-- 02 - Foreign Revenues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 - Affiliat Comp Revenu</masterLabel>
+            <translation><!-- 03 - Affiliat Comp Revenu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P2 - PY - Serviço Limpiez</masterLabel>
+            <translation><!-- P2 - PY - Serviço Limpiez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P3 - PY - Enfermería</masterLabel>
+            <translation><!-- P3 - PY - Enfermería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PY - Serviço Buffet</masterLabel>
+            <translation><!-- PY - Serviço Buffet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1 - Mosaic Domestic Rev</masterLabel>
+            <translation><!-- Z1 - Mosaic Domestic Rev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2 - Mosaic Foreign Rev</masterLabel>
+            <translation><!-- Z2 - Mosaic Foreign Rev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3 - Mosaic Inter-Company</masterLabel>
+            <translation><!-- Z3 - Mosaic Inter-Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4 - Cargill Domestic</masterLabel>
+            <translation><!-- Z4 - Cargill Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z6 - Mosaic Affl Domestic</masterLabel>
+            <translation><!-- Z6 - Mosaic Affl Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z7 - Mosaic Affl Foreign</masterLabel>
+            <translation><!-- Z7 - Mosaic Affl Foreign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z8 - CargillAffl Domestic</masterLabel>
+            <translation><!-- Z8 - CargillAffl Domestic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+        <relationshipLabel><!-- Accounts (Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bill-to partner related --></label>
+        <name>Bill_to_partner_related__c</name>
+        <relationshipLabel><!-- Accounts (Bill-to partner related) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commissions agent --></label>
+        <name>Commissions_agent_account__c</name>
+        <relationshipLabel><!-- Accounts (Commissions agent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country Region – Attribute 6 --></label>
+        <name>Country_Region_Attribute_6__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation><!-- Afghanistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aland Islands</masterLabel>
+            <translation><!-- Aland Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation><!-- Albania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation><!-- Algeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amer.Virgin Is.</masterLabel>
+            <translation><!-- Amer.Virgin Is. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra</masterLabel>
+            <translation><!-- Andorra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola</masterLabel>
+            <translation><!-- Angola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anguilla</masterLabel>
+            <translation><!-- Anguilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antarctica</masterLabel>
+            <translation><!-- Antarctica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua/Barbuda</masterLabel>
+            <translation><!-- Antigua/Barbuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation><!-- Armenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aruba</masterLabel>
+            <translation><!-- Aruba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Pacific</masterLabel>
+            <translation><!-- Asia/Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attribute 06A</masterLabel>
+            <translation><!-- Attribute 06A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attribute 06B</masterLabel>
+            <translation><!-- Attribute 06B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azerbaijan</masterLabel>
+            <translation><!-- Azerbaijan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas</masterLabel>
+            <translation><!-- Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation><!-- Bahrain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation><!-- Bangladesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation><!-- Barbados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation><!-- Belarus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation><!-- Belize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin</masterLabel>
+            <translation><!-- Benin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda</masterLabel>
+            <translation><!-- Bermuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation><!-- Bhutan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia</masterLabel>
+            <translation><!-- Bolivia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonaire, Saba</masterLabel>
+            <translation><!-- Bonaire, Saba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia-Herz.</masterLabel>
+            <translation><!-- Bosnia-Herz. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bouvet Islands</masterLabel>
+            <translation><!-- Bouvet Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brit.Ind.Oc.Ter</masterLabel>
+            <translation><!-- Brit.Ind.Oc.Ter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brit.Virgin Is.</masterLabel>
+            <translation><!-- Brit.Virgin Is. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei Daruss.</masterLabel>
+            <translation><!-- Brunei Daruss. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso</masterLabel>
+            <translation><!-- Burkina Faso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma</masterLabel>
+            <translation><!-- Burma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi</masterLabel>
+            <translation><!-- Burundi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAR</masterLabel>
+            <translation><!-- CAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation><!-- Cambodia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon</masterLabel>
+            <translation><!-- Cameroon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada and US</masterLabel>
+            <translation><!-- Canada and US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde</masterLabel>
+            <translation><!-- Cape Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman Islands</masterLabel>
+            <translation><!-- Cayman Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central America</masterLabel>
+            <translation><!-- Central America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad</masterLabel>
+            <translation><!-- Chad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christmas Islnd</masterLabel>
+            <translation><!-- Christmas Islnd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coconut Islands</masterLabel>
+            <translation><!-- Coconut Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation><!-- Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros</masterLabel>
+            <translation><!-- Comoros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo</masterLabel>
+            <translation><!-- Congo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation><!-- Cook Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&apos;Ivoire</masterLabel>
+            <translation><!-- Cote d&apos;Ivoire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba</masterLabel>
+            <translation><!-- Cuba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curaçao</masterLabel>
+            <translation><!-- Curaçao --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation><!-- Cyprus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dem. Rep. Congo</masterLabel>
+            <translation><!-- Dem. Rep. Congo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation><!-- Djibouti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation><!-- Dominica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Rep.</masterLabel>
+            <translation><!-- Dominican Rep. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dutch Antilles</masterLabel>
+            <translation><!-- Dutch Antilles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor - TL</masterLabel>
+            <translation><!-- East Timor - TL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor - TP</masterLabel>
+            <translation><!-- East Timor - TP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation><!-- Ecuador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation><!-- Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation><!-- El Salvador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guin</masterLabel>
+            <translation><!-- Equatorial Guin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea</masterLabel>
+            <translation><!-- Eritrea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia</masterLabel>
+            <translation><!-- Ethiopia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falkland Islnds</masterLabel>
+            <translation><!-- Falkland Islnds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faroe Islands</masterLabel>
+            <translation><!-- Faroe Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji</masterLabel>
+            <translation><!-- Fiji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frenc.Polynesia</masterLabel>
+            <translation><!-- Frenc.Polynesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guayana</masterLabel>
+            <translation><!-- French Guayana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French S.Territ</masterLabel>
+            <translation><!-- French S.Territ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon</masterLabel>
+            <translation><!-- Gabon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia</masterLabel>
+            <translation><!-- Gambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation><!-- Ghana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation><!-- Gibraltar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation><!-- Greenland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada</masterLabel>
+            <translation><!-- Grenada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation><!-- Guadeloupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guam</masterLabel>
+            <translation><!-- Guam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation><!-- Guatemala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guernsey</masterLabel>
+            <translation><!-- Guernsey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea</masterLabel>
+            <translation><!-- Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau</masterLabel>
+            <translation><!-- Guinea-Bissau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation><!-- Guyana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti</masterLabel>
+            <translation><!-- Haiti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heard/McDon.Isl</masterLabel>
+            <translation><!-- Heard/McDon.Isl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation><!-- Honduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iran</masterLabel>
+            <translation><!-- Iran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraq</masterLabel>
+            <translation><!-- Iraq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of Man</masterLabel>
+            <translation><!-- Isle of Man --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation><!-- Israel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation><!-- Jamaica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jersey</masterLabel>
+            <translation><!-- Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation><!-- Jordan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kazakhstan</masterLabel>
+            <translation><!-- Kazakhstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya</masterLabel>
+            <translation><!-- Kenya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation><!-- Kiribati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation><!-- Kuwait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan</masterLabel>
+            <translation><!-- Kyrgyzstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos</masterLabel>
+            <translation><!-- Laos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation><!-- Lebanon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho</masterLabel>
+            <translation><!-- Lesotho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation><!-- Liberia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libya</masterLabel>
+            <translation><!-- Libya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation><!-- Liechtenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macau</masterLabel>
+            <translation><!-- Macau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia</masterLabel>
+            <translation><!-- Macedonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation><!-- Madagascar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation><!-- Malawi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation><!-- Maldives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation><!-- Mali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marshall Islnds</masterLabel>
+            <translation><!-- Marshall Islnds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation><!-- Martinique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauirtania</masterLabel>
+            <translation><!-- Mauirtania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauretania</masterLabel>
+            <translation><!-- Mauretania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation><!-- Mauritius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayotte</masterLabel>
+            <translation><!-- Mayotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micronesia</masterLabel>
+            <translation><!-- Micronesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor Outl.Isl.</masterLabel>
+            <translation><!-- Minor Outl.Isl. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova</masterLabel>
+            <translation><!-- Moldova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco</masterLabel>
+            <translation><!-- Monaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation><!-- Mongolia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montenegro</masterLabel>
+            <translation><!-- Montenegro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation><!-- Morocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N.Mariana Islnd</masterLabel>
+            <translation><!-- N.Mariana Islnd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation><!-- Nauru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation><!-- Nepal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Caledonia</masterLabel>
+            <translation><!-- New Caledonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation><!-- Nicaragua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger</masterLabel>
+            <translation><!-- Niger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation><!-- Nigeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niue</masterLabel>
+            <translation><!-- Niue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norfolk Islands</masterLabel>
+            <translation><!-- Norfolk Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Korea</masterLabel>
+            <translation><!-- North Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman</masterLabel>
+            <translation><!-- Oman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation><!-- Pakistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palau</masterLabel>
+            <translation><!-- Palau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palestine</masterLabel>
+            <translation><!-- Palestine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation><!-- Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pap. New Guinea</masterLabel>
+            <translation><!-- Pap. New Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation><!-- Paraguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitcairn Islnds</masterLabel>
+            <translation><!-- Pitcairn Islnds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation><!-- Qatar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reunion</masterLabel>
+            <translation><!-- Reunion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian Fed.</masterLabel>
+            <translation><!-- Russian Fed. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S. Sandwich Ins</masterLabel>
+            <translation><!-- S. Sandwich Ins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S.Tome,Principe</masterLabel>
+            <translation><!-- S.Tome,Principe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Barthelem</masterLabel>
+            <translation><!-- Saint Barthelem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Martin</masterLabel>
+            <translation><!-- Saint Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation><!-- Samoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa, America</masterLabel>
+            <translation><!-- Samoa, America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino</masterLabel>
+            <translation><!-- San Marino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation><!-- Saudi Arabia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal</masterLabel>
+            <translation><!-- Senegal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia &amp;Mtnegro</masterLabel>
+            <translation><!-- Serbia &amp;Mtnegro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia/Monten.</masterLabel>
+            <translation><!-- Serbia/Monten. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles</masterLabel>
+            <translation><!-- Seychelles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone</masterLabel>
+            <translation><!-- Sierra Leone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sint Maarten</masterLabel>
+            <translation><!-- Sint Maarten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation><!-- Solomon Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia</masterLabel>
+            <translation><!-- Somalia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Korea</masterLabel>
+            <translation><!-- South Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation><!-- Sri Lanka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St Kitts&amp;Nevis</masterLabel>
+            <translation><!-- St Kitts&amp;Nevis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Helena</masterLabel>
+            <translation><!-- St. Helena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Lucia</masterLabel>
+            <translation><!-- St. Lucia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Vincent</masterLabel>
+            <translation><!-- St. Vincent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St.Pier,Miquel.</masterLabel>
+            <translation><!-- St.Pier,Miquel. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan</masterLabel>
+            <translation><!-- Sudan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation><!-- Suriname --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Svalbard</masterLabel>
+            <translation><!-- Svalbard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland</masterLabel>
+            <translation><!-- Swaziland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syria</masterLabel>
+            <translation><!-- Syria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation><!-- Taiwan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan</masterLabel>
+            <translation><!-- Tajikistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation><!-- Tanzania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo</masterLabel>
+            <translation><!-- Togo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokelau Islands</masterLabel>
+            <translation><!-- Tokelau Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation><!-- Tonga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad,Tobago</masterLabel>
+            <translation><!-- Trinidad,Tobago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia</masterLabel>
+            <translation><!-- Tunisia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan</masterLabel>
+            <translation><!-- Turkmenistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turksh Caicosin</masterLabel>
+            <translation><!-- Turksh Caicosin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu</masterLabel>
+            <translation><!-- Tuvalu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation><!-- Uganda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation><!-- Ukraine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation><!-- Uruguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utd.Arab Emir.</masterLabel>
+            <translation><!-- Utd.Arab Emir. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan</masterLabel>
+            <translation><!-- Uzbekistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation><!-- Vanuatu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vatican City</masterLabel>
+            <translation><!-- Vatican City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela</masterLabel>
+            <translation><!-- Venezuela --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallis,Futuna</masterLabel>
+            <translation><!-- Wallis,Futuna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Sahara</masterLabel>
+            <translation><!-- West Sahara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen</masterLabel>
+            <translation><!-- Yemen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation><!-- Zambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation><!-- Zimbabwe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cust Serv Rep --></label>
+        <name>Cust_Serv_Rep_Account__c</name>
+        <relationshipLabel><!-- Accounts (Cust Serv Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cust Serv Rep --></label>
+        <name>Cust_Serv_Rep__c</name>
+        <relationshipLabel><!-- Accounts (Cust Serv Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Group --></label>
+        <name>Customer_Group__c</name>
+        <picklistValues>
+            <masterLabel>01 - Industry</masterLabel>
+            <translation><!-- 01 - Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 - Canal - Basic / Grow</masterLabel>
+            <translation><!-- 02 - Canal - Basic / Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 - Dealers</masterLabel>
+            <translation><!-- 03 - Dealers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 - Commissioner</masterLabel>
+            <translation><!-- 04 - Commissioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 - Customer Group 05</masterLabel>
+            <translation><!-- 05 - Customer Group 05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 - Exports</masterLabel>
+            <translation><!-- 06 - Exports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07 - Direct Sale</masterLabel>
+            <translation><!-- 07 - Direct Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08 - Sale Retail</masterLabel>
+            <translation><!-- 08 - Sale Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09 - Elevator</masterLabel>
+            <translation><!-- 09 - Elevator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Store e-Commerce</masterLabel>
+            <translation><!-- 10 - Store e-Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Other Accounts</masterLabel>
+            <translation><!-- 11 - Other Accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Buying Group</masterLabel>
+            <translation><!-- 12 - Buying Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Co-operative</masterLabel>
+            <translation><!-- 13 - Co-operative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 - Livestock Farmer</masterLabel>
+            <translation><!-- 14 - Livestock Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 - EU - KAM Mega Farmer</masterLabel>
+            <translation><!-- 15 - EU - KAM Mega Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 - Blender</masterLabel>
+            <translation><!-- 16 - Blender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 - EU -Farmer/Mid/Small</masterLabel>
+            <translation><!-- 17 - EU -Farmer/Mid/Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 - Farmer cof/citr/pere</masterLabel>
+            <translation><!-- 18 - Farmer cof/citr/pere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 - EU - Mega Farmer</masterLabel>
+            <translation><!-- 19 - EU - Mega Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 - Premix Industry</masterLabel>
+            <translation><!-- 21 - Premix Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 - Supplement Industry</masterLabel>
+            <translation><!-- 22 - Supplement Industry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 - Independent Farm</masterLabel>
+            <translation><!-- 23 - Independent Farm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 - Coop w/o Integration</masterLabel>
+            <translation><!-- 24 - Coop w/o Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 - Distributor</masterLabel>
+            <translation><!-- 25 - Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 - Long Tail</masterLabel>
+            <translation><!-- 26 - Long Tail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27 - Key Account</masterLabel>
+            <translation><!-- 27 - Key Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 - Promissors</masterLabel>
+            <translation><!-- 28 - Promissors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29 - Standard</masterLabel>
+            <translation><!-- 29 - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 - EU - Top Farmer</masterLabel>
+            <translation><!-- 30 - EU - Top Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31 - Canal - Prime</masterLabel>
+            <translation><!-- 31 - Canal - Prime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32 - Canal - KAM</masterLabel>
+            <translation><!-- 32 - Canal - KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33 - Trader - KAM</masterLabel>
+            <translation><!-- 33 - Trader - KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34 - Top Key Account</masterLabel>
+            <translation><!-- 34 - Top Key Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35 - Export</masterLabel>
+            <translation><!-- 35 - Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36 - Canal - Ultra</masterLabel>
+            <translation><!-- 36 - Canal - Ultra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37 - Mid Cooperativa</masterLabel>
+            <translation><!-- 37 - Mid Cooperativa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38 - Domestic</masterLabel>
+            <translation><!-- 38 - Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB - CN-B2N Producer</masterLabel>
+            <translation><!-- CB - CN-B2N Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC - CN-Corporate farm</masterLabel>
+            <translation><!-- CC - CN-Corporate farm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD - CN-Distributor</masterLabel>
+            <translation><!-- CD - CN-Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR - CN-Retailer</masterLabel>
+            <translation><!-- CR - CN-Retailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CW - CN-Wholesaler</masterLabel>
+            <translation><!-- CW - CN-Wholesaler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1 - USD Price-BRL Contr</masterLabel>
+            <translation><!-- Z1 - USD Price-BRL Contr --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer buys via intercompany VCO? --></label>
+        <name>Customer_buys_via_intercompany_VCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- District --></label>
+        <name>District__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inform only numbers with maximum 7 characters --></help>
+        <label><!-- Domestic Broker --></label>
+        <name>Domestic_Broker_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic Broker --></label>
+        <name>Domestic_Broker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic Broker --></label>
+        <name>Domestic_Broker_account__c</name>
+        <relationshipLabel><!-- Accounts (Domestic Broker) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Click Calculat&apos; --></label>
+        <name>EvergageAction_Click_Calculate_Your_R__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Click Choose R&apos; --></label>
+        <name>EvergageAction_Click_Choose_Region_an__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Click Download&apos; --></label>
+        <name>EvergageAction_Click_Download_PDF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Click Register&apos; --></label>
+        <name>EvergageAction_Click_Register_Now__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Click Register&apos; --></label>
+        <name>EvergageAction_Click_Register_Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Homepage&apos; --></label>
+        <name>EvergageAction_Homepage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Paused Video&apos; --></label>
+        <name>EvergageAction_Paused_Video__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Played Video&apos; --></label>
+        <name>EvergageAction_Played_Video__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Submit Calcula&apos; --></label>
+        <name>EvergageAction_Submit_Calculator_Requ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Submit Form&apos; --></label>
+        <name>EvergageAction_Submit_Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;Use Dealer Loc&apos; --></label>
+        <name>EvergageAction_Use_Dealer_Locator_For__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View ACN Insig&apos; --></label>
+        <name>EvergageAction_View_ACN_Insights_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View AG Colleg&apos; --></label>
+        <name>EvergageAction_View_AG_College_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Article D&apos; --></label>
+        <name>EvergageAction_View_Article_Download__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Article P&apos; --></label>
+        <name>EvergageAction_View_Article_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Aspire RO&apos; --></label>
+        <name>EvergageAction_View_Aspire_ROI_Calcul__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Dealer Lo&apos; --></label>
+        <name>EvergageAction_View_Dealer_Locator_Pa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Microesse&apos; --></label>
+        <name>EvergageAction_View_Microessentials_R__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Nutrient &apos; --></label>
+        <name>EvergageAction_View_Nutrient_Removal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Product P&apos; --></label>
+        <name>EvergageAction_View_Product_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Speak Wit&apos; --></label>
+        <name>EvergageAction_View_Speak_With_a_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View TR Trial &apos; --></label>
+        <name>EvergageAction_View_TR_Trial_Data_Pag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Uses of Action &apos;View Video Pag&apos; --></label>
+        <name>EvergageAction_View_Video_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Active Users --></label>
+        <name>EvergageActiveUsers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Eng. Trend --></label>
+        <name>EvergageEngagementTrend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Engagement --></label>
+        <name>EvergageEngagement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Filters --></label>
+        <name>EvergageFilters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage First Visit --></label>
+        <name>EvergageFirstActivity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Last Visit --></label>
+        <name>EvergageLastActivity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evergage Link --></label>
+        <name>EvergageLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geocode --></label>
+        <name>Geocode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Hold Status Reason --></label>
+        <name>PMC_CLM_LegalHoldStatusReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Hold Status --></label>
+        <name>PMC_CLM_LegalHoldStatus__c</name>
+        <picklistValues>
+            <masterLabel>Legal Hold Active</masterLabel>
+            <translation><!-- Legal Hold Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Hold Inactive</masterLabel>
+            <translation><!-- Legal Hold Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PMC CPI IntegrationMessage --></label>
+        <name>PMC_CPI_IntegrationMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMC CPI IntegrationStatus --></label>
+        <name>PMC_CPI_IntegrationStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow Account VR ByPassToggle --></label>
+        <name>PMC_CPQ_FlowAccountVRByPassToggle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>PMC_CPQ_PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>02 Installmments (30/45) days</masterLabel>
+            <translation><!-- 02 Installmments (30/45) days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 Installmments (30/60) days</masterLabel>
+            <translation><!-- 02 Installmments (30/60) days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Installment (30/60/90) days</masterLabel>
+            <translation><!-- 03 Installment (30/60/90) days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 Installmments (30/60/90) days</masterLabel>
+            <translation><!-- 03 Installmments (30/60/90) days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 Installmment (30/60/90/120) days</masterLabel>
+            <translation><!-- 04 Installmment (30/60/90/120) days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Days - Document Lock Date</masterLabel>
+            <translation><!-- 05 Days - Document Lock Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Days 2%, 30 Net</masterLabel>
+            <translation><!-- 14 Days 2%, 30 Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Days 2%, 30/1,5%, 45 Net</masterLabel>
+            <translation><!-- 14 Days 2%, 30/1,5%, 45 Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Days 3%, 20/2%, 30 Net</masterLabel>
+            <translation><!-- 14 Days 3%, 20/2%, 30 Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15th/31st Subs. Month 2%, ...</masterLabel>
+            <translation><!-- 15th/31st Subs. Month 2%, ... --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2% discount if paid in 10days net 45</masterLabel>
+            <translation><!-- 2% discount if paid in 10days net 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5th. of Subs. Month - Doc Date - DETRACTION</masterLabel>
+            <translation><!-- 5th. of Subs. Month - Doc Date - DETRACTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As of End of Month</masterLabel>
+            <translation><!-- As of End of Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents</masterLabel>
+            <translation><!-- Cash Against Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 120 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 120 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 15 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 15 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 180 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 180 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 30 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 30 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 45 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 45 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 5 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 5 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 60 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 60 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 7 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 7 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 90 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents - 90 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents- 10 Days From BL</masterLabel>
+            <translation><!-- Cash Against Documents- 10 Days From BL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C At Sight</masterLabel>
+            <translation><!-- Confirmed L/C At Sight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C-45 Days</masterLabel>
+            <translation><!-- Confirmed L/C-45 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C-90 Days</masterLabel>
+            <translation><!-- Confirmed L/C-90 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 10th Of Following Quarter</masterLabel>
+            <translation><!-- Due 10th Of Following Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 15th of following month</masterLabel>
+            <translation><!-- Due 15th of following month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 1st Of Following Month</masterLabel>
+            <translation><!-- Due 1st Of Following Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Immediately (Invoice Date)</masterLabel>
+            <translation><!-- Due Immediately (Invoice Date) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Month 4%, Mid-Month 2%</masterLabel>
+            <translation><!-- End of Month 4%, Mid-Month 2% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD Advice - No Invoice</masterLabel>
+            <translation><!-- FPD Advice - No Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day - Next 3rd Month</masterLabel>
+            <translation><!-- First Day - Next 3rd Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Date</masterLabel>
+            <translation><!-- Fixed Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freight - fixed 5 or 20</masterLabel>
+            <translation><!-- Freight - fixed 5 or 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>From the 10th of Subs. Month</masterLabel>
+            <translation><!-- From the 10th of Subs. Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loans/industrialization</masterLabel>
+            <translation><!-- Loans/industrialization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 1 Day - From Invoicing Date</masterLabel>
+            <translation><!-- Net 1 Day - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 10 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days From First Day Next Month</masterLabel>
+            <translation><!-- Net 10 Days From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 105 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 105 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days With Interest</masterLabel>
+            <translation><!-- Net 120 Days With Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days- From Invoicing Date</masterLabel>
+            <translation><!-- Net 120 Days- From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 days - Document Date</masterLabel>
+            <translation><!-- Net 120 days - Document Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 14 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 14 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 15 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 From First Day Next Month</masterLabel>
+            <translation><!-- Net 15 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 150 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 150 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 17 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 17 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 180 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 180 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 2 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 2 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 20 From First Day Next Month</masterLabel>
+            <translation><!-- Net 20 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 21 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 21 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 210 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 210 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 270 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 270 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 28 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 28 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 29 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 29 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 3 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 3 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 30 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 From First Day Next Month</masterLabel>
+            <translation><!-- Net 30 From First Day Next Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 31 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 31 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 35 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 35 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 42 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 42 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 45 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 60 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 7 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 7 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 70 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 70 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 75 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 75 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 80 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 80 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 84 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 84 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days - From Invoicing Date</masterLabel>
+            <translation><!-- Net 90 Days - From Invoicing Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days With Interest</masterLabel>
+            <translation><!-- Net 90 Days With Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Due in 15 Days</masterLabel>
+            <translation><!-- Net Due in 15 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Due in 30 Days</masterLabel>
+            <translation><!-- Net Due in 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Due in 45 Days</masterLabel>
+            <translation><!-- Net Due in 45 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Due in 60 Days</masterLabel>
+            <translation><!-- Net Due in 60 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Due in 8 Days</masterLabel>
+            <translation><!-- Net Due in 8 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay immediately w/o deduction</masterLabel>
+            <translation><!-- Pay immediately w/o deduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payable in 3 Installments</masterLabel>
+            <translation><!-- Payable in 3 Installments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment in Advance (100%)</masterLabel>
+            <translation><!-- Payment in Advance (100%) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation><!-- Prepayment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>PMC_CPQ_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office (deprecated) --></label>
+        <name>PMC_CPQ_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Sub - Region --></label>
+        <name>PMC_CPQ_SalesSubRegion__c</name>
+        <picklistValues>
+            <masterLabel>AL03</masterLabel>
+            <translation><!-- AL03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MG05</masterLabel>
+            <translation><!-- MG05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP06</masterLabel>
+            <translation><!-- SP06 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Status --></label>
+        <name>PMC_DH_Account_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid</masterLabel>
+            <translation><!-- Invalid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Delivery Instructions --></label>
+        <name>PMC_DH_Delivery_Instruction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>PMC_DH_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Number --></label>
+        <name>PMC_DH_StreetNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Processed --></label>
+        <name>PMC_DH_isProcessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account External ID --></label>
+        <name>PMC_SS_AccountExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Full Name --></label>
+        <name>PMC_SS_AccountOwnerFullName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>PMC_SS_ActionPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address District --></label>
+        <name>PMC_SS_AddressDistrict__c</name>
+    </fields>
+    <fields>
+        <help><!-- If there is no number, fill in the text “SN” --></help>
+        <label><!-- Address Number --></label>
+        <name>PMC_SS_AddressNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Coordinates --></label>
+        <name>PMC_SS_Address_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advanced Account Forecast Set Use --></label>
+        <name>PMC_SS_AdvancedAccountForecastSetUse__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent Code --></label>
+        <name>PMC_SS_AgentCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is the Agent related to this Account? --></help>
+        <label><!-- Agent --></label>
+        <lookupFilter>
+            <errorMessage><!-- Please select an Agent Account. --></errorMessage>
+        </lookupFilter>
+        <name>PMC_SS_Agent__c</name>
+        <relationshipLabel><!-- Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bill-to Account --></label>
+        <name>PMC_SS_BillToAccount__c</name>
+        <relationshipLabel><!-- Sold-tos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Buyer Visa --></label>
+        <name>PMC_SS_BuyerVisa__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIF Script --></label>
+        <name>PMC_SS_CIFScript__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID or CPF --></label>
+        <name>PMC_SS_CPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care of --></label>
+        <name>PMC_SS_Careof__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>PMC_SS_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Agriculture/Fertilizer</masterLabel>
+            <translation><!-- Agriculture/Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative</masterLabel>
+            <translation><!-- Cooperative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End-Users</masterLabel>
+            <translation><!-- End-Users --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feed</masterLabel>
+            <translation><!-- Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Sales</masterLabel>
+            <translation><!-- International Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailers</masterLabel>
+            <translation><!-- Retailers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation><!-- Seller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty/Co-Products</masterLabel>
+            <translation><!-- Specialty/Co-Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trading</masterLabel>
+            <translation><!-- Trading --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City, State --></label>
+        <name>PMC_SS_CityState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Code --></label>
+        <name>PMC_SS_ClientCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Denied --></label>
+        <name>PMC_SS_ClientDenied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Group --></label>
+        <name>PMC_SS_ClientGroup__c</name>
+        <picklistValues>
+            <masterLabel>Pool de Compra</masterLabel>
+            <translation><!-- Pool de Compra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top Cooperativa</masterLabel>
+            <translation><!-- Top Cooperativa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top Revenda</masterLabel>
+            <translation><!-- Top Revenda --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>PMC_SS_CompanyCode__c</name>
+        <picklistValues>
+            <masterLabel>1002 - Mosaic Global Sales LLC</masterLabel>
+            <translation><!-- 1002 - Mosaic Global Sales LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1003 - Mosaic Crop Nutrition LLC</masterLabel>
+            <translation><!-- 1003 - Mosaic Crop Nutrition LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1004 - Mosaic Fertilizer LLC</masterLabel>
+            <translation><!-- 1004 - Mosaic Fertilizer LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1005 - Mosaic Potash Carlsbad</masterLabel>
+            <translation><!-- 1005 - Mosaic Potash Carlsbad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1025 - Tampa Port Services LLC</masterLabel>
+            <translation><!-- 1025 - Tampa Port Services LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1026 - MOS Ag Innovation Sol LLC</masterLabel>
+            <translation><!-- 1026 - MOS Ag Innovation Sol LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1030 - Gulf Sulphur Service, LTD</masterLabel>
+            <translation><!-- 1030 - Gulf Sulphur Service, LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1310 - Company Code CN</masterLabel>
+            <translation><!-- 1310 - Company Code CN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1410 - Company Code BR</masterLabel>
+            <translation><!-- 1410 - Company Code BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1710 - Company Code US</masterLabel>
+            <translation><!-- 1710 - Company Code US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1810 - Company Code IN</masterLabel>
+            <translation><!-- 1810 - Company Code IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2000 - Mosaic CAN Crop Nutr LP</masterLabel>
+            <translation><!-- 2000 - Mosaic CAN Crop Nutr LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2001 - Mosaic Potash COL ULC</masterLabel>
+            <translation><!-- 2001 - Mosaic Potash COL ULC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2002 - Mosaic Potash EST LP</masterLabel>
+            <translation><!-- 2002 - Mosaic Potash EST LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2003 - Mosaic Canada ULC (BP)</masterLabel>
+            <translation><!-- 2003 - Mosaic Canada ULC (BP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2910 - Company Code CA</masterLabel>
+            <translation><!-- 2910 - Company Code CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000 - Mosaic Fert Brasil Ltda</masterLabel>
+            <translation><!-- 4000 - Mosaic Fert Brasil Ltda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4001 - Fospar SA</masterLabel>
+            <translation><!-- 4001 - Fospar SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4004 - Mosaic Potássio Mineração</masterLabel>
+            <translation><!-- 4004 - Mosaic Potássio Mineração --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4005 - Mosaic Fert P&amp;K Ltda</masterLabel>
+            <translation><!-- 4005 - Mosaic Fert P&amp;K Ltda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4600 - Mosaic Fert Bahamas Ltd</masterLabel>
+            <translation><!-- 4600 - Mosaic Fert Bahamas Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4620 - Mosaic Fert Paraguay SRL</masterLabel>
+            <translation><!-- 4620 - Mosaic Fert Paraguay SRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4680 - Co Minera Miski Mayo SRL</masterLabel>
+            <translation><!-- 4680 - Co Minera Miski Mayo SRL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Language --></label>
+        <name>PMC_SS_ContractLanguage__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation><!-- Portuguese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Counterparty Contact 2 --></label>
+        <name>PMC_SS_CounterpartyContact2__c</name>
+        <relationshipLabel><!-- Accounts (Counterparty Contact 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Counterparty Contact  --></label>
+        <name>PMC_SS_CounterpartyContact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- County Code (US Sold-to only) --></label>
+        <name>PMC_SS_CountyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Expiration Date --></label>
+        <name>PMC_SS_CreditExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>PMC_SS_CreditLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crops --></label>
+        <name>PMC_SS_Crops__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Credit Amount --></label>
+        <name>PMC_SS_CustomerCreditAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person or Organization --></label>
+        <name>PMC_SS_CustomerType__c</name>
+        <picklistValues>
+            <masterLabel>B2B</masterLabel>
+            <translation><!-- B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C</masterLabel>
+            <translation><!-- B2C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For domestic sales, select “Domestic”. For international sales, select “Export”. For transfers between centers or warehouses, select “Intercompany”. --></help>
+        <label><!-- Division --></label>
+        <name>PMC_SS_Division__c</name>
+        <picklistValues>
+            <masterLabel>Domestic</masterLabel>
+            <translation><!-- Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation><!-- Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation><!-- Intercompany --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fiori Link --></label>
+        <name>PMC_SS_FioriLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- GLN Number --></label>
+        <name>PMC_SS_GLN__c</name>
+    </fields>
+    <fields>
+        <label><!-- HQ --></label>
+        <name>PMC_SS_HQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hierarchy Approval Status --></label>
+        <name>PMC_SS_HierarchyApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Account Approved</masterLabel>
+            <translation><!-- Account Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Rejected</masterLabel>
+            <translation><!-- Account Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account submitted for Approval</masterLabel>
+            <translation><!-- Account submitted for Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Interaction Date --></label>
+        <name>PMC_SS_LastInteractionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link a Commissions Agent - sold --></label>
+        <name>PMC_SS_LinkCommissionsAgent__c</name>
+        <picklistValues>
+            <masterLabel>4001629 - Buffalo-Warren Company LLC</masterLabel>
+            <translation><!-- 4001629 - Buffalo-Warren Company LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4001632 - Cerne Calucium Company</masterLabel>
+            <translation><!-- 4001632 - Cerne Calucium Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4002905 - Progression Agro Trade Co</masterLabel>
+            <translation><!-- 4002905 - Progression Agro Trade Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4008572 - Terramecan S.A.</masterLabel>
+            <translation><!-- 4008572 - Terramecan S.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4008593 - Serv Fertil S.C.</masterLabel>
+            <translation><!-- 4008593 - Serv Fertil S.C. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4062464 - Global Value Sales SRL</masterLabel>
+            <translation><!-- 4062464 - Global Value Sales SRL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- US &amp; CA - by Postal Code --></help>
+        <label><!-- Lockbox --></label>
+        <name>PMC_SS_Lockbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- MDM Sync Status --></label>
+        <name>PMC_SS_MDMSyncStatus__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MDM Verified --></label>
+        <name>PMC_SS_MDMVerified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Municipal Tax Number --></label>
+        <name>PMC_SS_MunicipalTaxNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name 2 --></label>
+        <name>PMC_SS_Name2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name 4 --></label>
+        <name>PMC_SS_Name4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offerings --></label>
+        <name>PMC_SS_Offerings__c</name>
+        <picklistValues>
+            <masterLabel>Complaint Resolution - &lt; 15 days</masterLabel>
+            <translation><!-- Complaint Resolution - &lt; 15 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Resolution - &lt; 20 days</masterLabel>
+            <translation><!-- Complaint Resolution - &lt; 20 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Resolution - &lt; 30 days</masterLabel>
+            <translation><!-- Complaint Resolution - &lt; 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Resolution - &lt; 45 days</masterLabel>
+            <translation><!-- Complaint Resolution - &lt; 45 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Resolution - &lt;30 days</masterLabel>
+            <translation><!-- Complaint Resolution - &lt;30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts / BPAs - Custom</masterLabel>
+            <translation><!-- Contracts / BPAs - Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts / BPAs - Custom Offered</masterLabel>
+            <translation><!-- Contracts / BPAs - Custom Offered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts / BPAs - None</masterLabel>
+            <translation><!-- Contracts / BPAs - None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts / BPAs - Standard</masterLabel>
+            <translation><!-- Contracts / BPAs - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Account Management - Account Team</masterLabel>
+            <translation><!-- Dedicated Account Management - Account Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Account Management - Dedicated</masterLabel>
+            <translation><!-- Dedicated Account Management - Dedicated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Account Management - Select</masterLabel>
+            <translation><!-- Dedicated Account Management - Select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Account Management - Shared</masterLabel>
+            <translation><!-- Dedicated Account Management - Shared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Customer Service - Dedicated</masterLabel>
+            <translation><!-- Dedicated Customer Service - Dedicated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Customer Service - Online</masterLabel>
+            <translation><!-- Dedicated Customer Service - Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dedicated Customer Service - Shared</masterLabel>
+            <translation><!-- Dedicated Customer Service - Shared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusive Space - Available</masterLabel>
+            <translation><!-- Exclusive Space - Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusive Space - None</masterLabel>
+            <translation><!-- Exclusive Space - None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusive Space - Select</masterLabel>
+            <translation><!-- Exclusive Space - Select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - Available</masterLabel>
+            <translation><!-- Incentives - Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - Limited</masterLabel>
+            <translation><!-- Incentives - Limited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - Limited/None</masterLabel>
+            <translation><!-- Incentives - Limited/None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - Offered</masterLabel>
+            <translation><!-- Incentives - Offered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - Select</masterLabel>
+            <translation><!-- Incentives - Select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - X1</masterLabel>
+            <translation><!-- Incentives - X1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - X2</masterLabel>
+            <translation><!-- Incentives - X2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentives - X3</masterLabel>
+            <translation><!-- Incentives - X3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - Directionally Advantaged</masterLabel>
+            <translation><!-- Pricing - Directionally Advantaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - Directionally Discounted</masterLabel>
+            <translation><!-- Pricing - Directionally Discounted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - Directionally Market</masterLabel>
+            <translation><!-- Pricing - Directionally Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prioritized Supply/ Delivery - Priority 1</masterLabel>
+            <translation><!-- Prioritized Supply/ Delivery - Priority 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prioritized Supply/ Delivery - Priority 2</masterLabel>
+            <translation><!-- Prioritized Supply/ Delivery - Priority 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prioritized Supply/ Delivery - Priority 3</masterLabel>
+            <translation><!-- Prioritized Supply/ Delivery - Priority 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Consulation - Priority 1</masterLabel>
+            <translation><!-- Technical Consulation - Priority 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Consulation - Priority 2</masterLabel>
+            <translation><!-- Technical Consulation - Priority 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Consulation - Priority 3</masterLabel>
+            <translation><!-- Technical Consulation - Priority 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly Scheduling Delivery - Priority 1</masterLabel>
+            <translation><!-- Weekly Scheduling Delivery - Priority 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly Scheduling Delivery - Priority 2</masterLabel>
+            <translation><!-- Weekly Scheduling Delivery - Priority 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly Scheduling Delivery - Priority 3</masterLabel>
+            <translation><!-- Weekly Scheduling Delivery - Priority 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunities (Plan) --></label>
+        <name>PMC_SS_OpportunitiesPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overdel. Tolerance --></label>
+        <name>PMC_SS_OverdelTolerance__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Box --></label>
+        <name>PMC_SS_POBox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent’s SAP Customer Number --></label>
+        <name>PMC_SS_Parents_SAP_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payer Contact --></label>
+        <name>PMC_SS_PayerContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Term --></label>
+        <name>PMC_SS_PaymentTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Property/farm name --></label>
+        <name>PMC_SS_Property_farm_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RUC --></label>
+        <name>PMC_SS_RUC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciliation Account --></label>
+        <name>PMC_SS_ReconciliationAccount__c</name>
+        <picklistValues>
+            <masterLabel>A/R Non-Trade - External Receivables</masterLabel>
+            <translation><!-- A/R Non-Trade - External Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A/R Rec Account - Affiliate Trade Receivables</masterLabel>
+            <translation><!-- A/R Rec Account - Affiliate Trade Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A/R Rec Account - External Trade Receivables</masterLabel>
+            <translation><!-- A/R Rec Account - External Trade Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A/R Rec Account - Intercompany Trade Receivables</masterLabel>
+            <translation><!-- A/R Rec Account - Intercompany Trade Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR Intercompany Other</masterLabel>
+            <translation><!-- AR Intercompany Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downpayments from Customers</masterLabel>
+            <translation><!-- Downpayments from Customers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downpayments from Customers for Contracts</masterLabel>
+            <translation><!-- Downpayments from Customers for Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inter State AR Clearing A/C</masterLabel>
+            <translation><!-- Inter State AR Clearing A/C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Load A/R Non-Trade - Affiliate Receivables</masterLabel>
+            <translation><!-- Load A/R Non-Trade - Affiliate Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notes Rec - External LT</masterLabel>
+            <translation><!-- Notes Rec - External LT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>PMC_SS_RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Manager --></label>
+        <name>PMC_SS_RegionalManager__c</name>
+        <relationshipLabel><!-- Accounts (Regional Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>PMC_SS_SAPCustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Director --></label>
+        <name>PMC_SS_SalesDirector__c</name>
+        <relationshipLabel><!-- Accounts (Sales Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales District --></label>
+        <name>PMC_SS_SalesDistrict__c</name>
+        <picklistValues>
+            <masterLabel>BR0001 - Northern Brazil</masterLabel>
+            <translation><!-- BR0001 - Northern Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BR0002 - Southern Brazil</masterLabel>
+            <translation><!-- BR0002 - Southern Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BR0003 - Southeastern Brazil</masterLabel>
+            <translation><!-- BR0003 - Southeastern Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BR0004 - Northeastern Brazil</masterLabel>
+            <translation><!-- BR0004 - Northeastern Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BR0005 - Central West Brazil</masterLabel>
+            <translation><!-- BR0005 - Central West Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA0001 - Pacific Canada</masterLabel>
+            <translation><!-- CA0001 - Pacific Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA0002 - Alberta</masterLabel>
+            <translation><!-- CA0002 - Alberta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA0003 - Southeast Canada</masterLabel>
+            <translation><!-- CA0003 - Southeast Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA0004 - Ontario</masterLabel>
+            <translation><!-- CA0004 - Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA0005 - Quebec</masterLabel>
+            <translation><!-- CA0005 - Quebec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA0006 - Maritimes</masterLabel>
+            <translation><!-- CA0006 - Maritimes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CENTRE - Lower North Island</masterLabel>
+            <translation><!-- CENTRE - Lower North Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN0001 - Northern China</masterLabel>
+            <translation><!-- CN0001 - Northern China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN0002 - Southern China</masterLabel>
+            <translation><!-- CN0002 - Southern China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN0003 - Western China</masterLabel>
+            <translation><!-- CN0003 - Western China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN0004 - Eastern China</masterLabel>
+            <translation><!-- CN0004 - Eastern China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN0005 - Middle China</masterLabel>
+            <translation><!-- CN0005 - Middle China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0001 - Northern Indian</masterLabel>
+            <translation><!-- IN0001 - Northern Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0002 - Southern Indian</masterLabel>
+            <translation><!-- IN0002 - Southern Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0003 - Western Indian</masterLabel>
+            <translation><!-- IN0003 - Western Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0004 - Eastern Indian</masterLabel>
+            <translation><!-- IN0004 - Eastern Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0005 - Middle Indian</masterLabel>
+            <translation><!-- IN0005 - Middle Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH - Upper North Island</masterLabel>
+            <translation><!-- NORTH - Upper North Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOUTH - South Island</masterLabel>
+            <translation><!-- SOUTH - South Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US0001 - Pacific Northwest</masterLabel>
+            <translation><!-- US0001 - Pacific Northwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US0002 - Southwest</masterLabel>
+            <translation><!-- US0002 - Southwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US0003 - Southeast US</masterLabel>
+            <translation><!-- US0003 - Southeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US0004 - Northeast</masterLabel>
+            <translation><!-- US0004 - Northeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US0005 - Rockies</masterLabel>
+            <translation><!-- US0005 - Rockies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US0006 - Midwest</masterLabel>
+            <translation><!-- US0006 - Midwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00001 - AG MBP</masterLabel>
+            <translation><!-- Z00001 - AG MBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00002 - AG Non – MBP</masterLabel>
+            <translation><!-- Z00002 - AG Non – MBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00003 - Feed Strategic</masterLabel>
+            <translation><!-- Z00003 - Feed Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00004 - Feed Key</masterLabel>
+            <translation><!-- Z00004 - Feed Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00005 - Feed Opportunistic</masterLabel>
+            <translation><!-- Z00005 - Feed Opportunistic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00006 - Industrial Tier I</masterLabel>
+            <translation><!-- Z00006 - Industrial Tier I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00007 - Industrial Tier II</masterLabel>
+            <translation><!-- Z00007 - Industrial Tier II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00008 - Industrial Tier III</masterLabel>
+            <translation><!-- Z00008 - Industrial Tier III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00020 - Other</masterLabel>
+            <translation><!-- Z00020 - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00021 - India</masterLabel>
+            <translation><!-- Z00021 - India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00030 - Corn belt</masterLabel>
+            <translation><!-- Z00030 - Corn belt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00031 - Eastern Corn Belt</masterLabel>
+            <translation><!-- Z00031 - Eastern Corn Belt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00032 - Delta</masterLabel>
+            <translation><!-- Z00032 - Delta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00033 - Northern Plains</masterLabel>
+            <translation><!-- Z00033 - Northern Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00034 - Eastern Canada</masterLabel>
+            <translation><!-- Z00034 - Eastern Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00035 - Western Canada</masterLabel>
+            <translation><!-- Z00035 - Western Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00036 - Southeast</masterLabel>
+            <translation><!-- Z00036 - Southeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00037 - Northwest</masterLabel>
+            <translation><!-- Z00037 - Northwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00038 - Pacific</masterLabel>
+            <translation><!-- Z00038 - Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00039 - Southern Plains</masterLabel>
+            <translation><!-- Z00039 - Southern Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00040 - East Coast</masterLabel>
+            <translation><!-- Z00040 - East Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00041 - N Latin America</masterLabel>
+            <translation><!-- Z00041 - N Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00042 - Southern Cone</masterLabel>
+            <translation><!-- Z00042 - Southern Cone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00043 - Asia</masterLabel>
+            <translation><!-- Z00043 - Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z00044 - Australia</masterLabel>
+            <translation><!-- Z00044 - Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR001 - Marcio Tortorelli</masterLabel>
+            <translation><!-- ZBR001 - Marcio Tortorelli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR002 - João Sampaio</masterLabel>
+            <translation><!-- ZBR002 - João Sampaio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR003 - Renato Costa</masterLabel>
+            <translation><!-- ZBR003 - Renato Costa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR004 - Fospar BR</masterLabel>
+            <translation><!-- ZBR004 - Fospar BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR005 - OffShore BR</masterLabel>
+            <translation><!-- ZBR005 - OffShore BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR006 - Mosaic BR</masterLabel>
+            <translation><!-- ZBR006 - Mosaic BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR007 - Leandro Dotto</masterLabel>
+            <translation><!-- ZBR007 - Leandro Dotto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR008 - Frederico Seckler</masterLabel>
+            <translation><!-- ZBR008 - Frederico Seckler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR009 - Troy Hobbs</masterLabel>
+            <translation><!-- ZBR009 - Troy Hobbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR010 - Renato Costa</masterLabel>
+            <translation><!-- ZBR010 - Renato Costa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR011 - Renato Costa</masterLabel>
+            <translation><!-- ZBR011 - Renato Costa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR012 - Renato Costa</masterLabel>
+            <translation><!-- ZBR012 - Renato Costa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR013 - Renato Costa</masterLabel>
+            <translation><!-- ZBR013 - Renato Costa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZBR014 - Renato Costa</masterLabel>
+            <translation><!-- ZBR014 - Renato Costa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN001 - NE-DA</masterLabel>
+            <translation><!-- ZCN001 - NE-DA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN002 - NW</masterLabel>
+            <translation><!-- ZCN002 - NW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN003 - HB-HN</masterLabel>
+            <translation><!-- ZCN003 - HB-HN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN004 - SD</masterLabel>
+            <translation><!-- ZCN004 - SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN005 - ma001</masterLabel>
+            <translation><!-- ZCN005 - ma001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN006 - NE-B2B</masterLabel>
+            <translation><!-- ZCN006 - NE-B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN008 - Export</masterLabel>
+            <translation><!-- ZCN008 - Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN009 - Other3</masterLabel>
+            <translation><!-- ZCN009 - Other3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN010 - Bend</masterLabel>
+            <translation><!-- ZCN010 - Bend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN011 - ma005</masterLabel>
+            <translation><!-- ZCN011 - ma005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN012 - South</masterLabel>
+            <translation><!-- ZCN012 - South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN013 - JS-AH</masterLabel>
+            <translation><!-- ZCN013 - JS-AH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN014 - Tolling</masterLabel>
+            <translation><!-- ZCN014 - Tolling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN015 - East-B2B</masterLabel>
+            <translation><!-- ZCN015 - East-B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN016 - WFSS</masterLabel>
+            <translation><!-- ZCN016 - WFSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN017 - Strategic</masterLabel>
+            <translation><!-- ZCN017 - Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN018 - ma006</masterLabel>
+            <translation><!-- ZCN018 - ma006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN019 - ma007</masterLabel>
+            <translation><!-- ZCN019 - ma007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN020 - ma008</masterLabel>
+            <translation><!-- ZCN020 - ma008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN021 - ma011</masterLabel>
+            <translation><!-- ZCN021 - ma011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN022 - ma012</masterLabel>
+            <translation><!-- ZCN022 - ma012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN023 - ma013</masterLabel>
+            <translation><!-- ZCN023 - ma013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN024 - ma014</masterLabel>
+            <translation><!-- ZCN024 - ma014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN025 - ma015</masterLabel>
+            <translation><!-- ZCN025 - ma015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN026 - ma016</masterLabel>
+            <translation><!-- ZCN026 - ma016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN027 - ma017</masterLabel>
+            <translation><!-- ZCN027 - ma017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN028 - ma018</masterLabel>
+            <translation><!-- ZCN028 - ma018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN029 - mb001</masterLabel>
+            <translation><!-- ZCN029 - mb001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN030 - ma020</masterLabel>
+            <translation><!-- ZCN030 - ma020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN031 - mb002</masterLabel>
+            <translation><!-- ZCN031 - mb002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN032 - mb003</masterLabel>
+            <translation><!-- ZCN032 - mb003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN033 - mb004</masterLabel>
+            <translation><!-- ZCN033 - mb004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN034 - ma002</masterLabel>
+            <translation><!-- ZCN034 - ma002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN035 - ma025</masterLabel>
+            <translation><!-- ZCN035 - ma025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN036 - ma026</masterLabel>
+            <translation><!-- ZCN036 - ma026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN037 - B2B AG</masterLabel>
+            <translation><!-- ZCN037 - B2B AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN038 - mc001</masterLabel>
+            <translation><!-- ZCN038 - mc001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN039 - mc002</masterLabel>
+            <translation><!-- ZCN039 - mc002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN040 - mc003</masterLabel>
+            <translation><!-- ZCN040 - mc003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN041 - mc004</masterLabel>
+            <translation><!-- ZCN041 - mc004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN042 - mc005</masterLabel>
+            <translation><!-- ZCN042 - mc005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN043 - mc006</masterLabel>
+            <translation><!-- ZCN043 - mc006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN044 - mc007</masterLabel>
+            <translation><!-- ZCN044 - mc007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN045 - mc008</masterLabel>
+            <translation><!-- ZCN045 - mc008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN046 - mc009</masterLabel>
+            <translation><!-- ZCN046 - mc009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN047 - mc010</masterLabel>
+            <translation><!-- ZCN047 - mc010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN048 - mc011</masterLabel>
+            <translation><!-- ZCN048 - mc011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN049 - mc012</masterLabel>
+            <translation><!-- ZCN049 - mc012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN050 - mc013</masterLabel>
+            <translation><!-- ZCN050 - mc013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN051 - mc014</masterLabel>
+            <translation><!-- ZCN051 - mc014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN052 - mc015</masterLabel>
+            <translation><!-- ZCN052 - mc015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN053 - mc016</masterLabel>
+            <translation><!-- ZCN053 - mc016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN054 - mc017</masterLabel>
+            <translation><!-- ZCN054 - mc017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN055 - mc018</masterLabel>
+            <translation><!-- ZCN055 - mc018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN056 - mc019</masterLabel>
+            <translation><!-- ZCN056 - mc019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN057 - mc020</masterLabel>
+            <translation><!-- ZCN057 - mc020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN058 - mc021</masterLabel>
+            <translation><!-- ZCN058 - mc021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN059 - mc022</masterLabel>
+            <translation><!-- ZCN059 - mc022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN060 - mc023</masterLabel>
+            <translation><!-- ZCN060 - mc023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN061 - mc024</masterLabel>
+            <translation><!-- ZCN061 - mc024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN062 - mc025</masterLabel>
+            <translation><!-- ZCN062 - mc025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN063 - mc026</masterLabel>
+            <translation><!-- ZCN063 - mc026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN064 - mc027</masterLabel>
+            <translation><!-- ZCN064 - mc027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN065 - mc028</masterLabel>
+            <translation><!-- ZCN065 - mc028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN066 - mc029</masterLabel>
+            <translation><!-- ZCN066 - mc029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN067 - mc030</masterLabel>
+            <translation><!-- ZCN067 - mc030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN068 - mc031</masterLabel>
+            <translation><!-- ZCN068 - mc031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN069 - mc032</masterLabel>
+            <translation><!-- ZCN069 - mc032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN070 - mc033</masterLabel>
+            <translation><!-- ZCN070 - mc033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN071 - mc034</masterLabel>
+            <translation><!-- ZCN071 - mc034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN072 - mc035</masterLabel>
+            <translation><!-- ZCN072 - mc035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN073 - mc036</masterLabel>
+            <translation><!-- ZCN073 - mc036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN074 - mc037</masterLabel>
+            <translation><!-- ZCN074 - mc037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN075 - mc038</masterLabel>
+            <translation><!-- ZCN075 - mc038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN076 - mc039</masterLabel>
+            <translation><!-- ZCN076 - mc039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN077 - mc040</masterLabel>
+            <translation><!-- ZCN077 - mc040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN078 - mc041</masterLabel>
+            <translation><!-- ZCN078 - mc041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN079 - mc042</masterLabel>
+            <translation><!-- ZCN079 - mc042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN080 - mc043</masterLabel>
+            <translation><!-- ZCN080 - mc043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN081 - mc044</masterLabel>
+            <translation><!-- ZCN081 - mc044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN082 - mc045</masterLabel>
+            <translation><!-- ZCN082 - mc045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN083 - mc046</masterLabel>
+            <translation><!-- ZCN083 - mc046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN084 - mc047</masterLabel>
+            <translation><!-- ZCN084 - mc047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN085 - mc048</masterLabel>
+            <translation><!-- ZCN085 - mc048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN086 - mc049</masterLabel>
+            <translation><!-- ZCN086 - mc049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN087 - mc050</masterLabel>
+            <translation><!-- ZCN087 - mc050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN088 - mc051</masterLabel>
+            <translation><!-- ZCN088 - mc051 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN089 - mc052</masterLabel>
+            <translation><!-- ZCN089 - mc052 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN090 - mc053</masterLabel>
+            <translation><!-- ZCN090 - mc053 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN091 - mc054</masterLabel>
+            <translation><!-- ZCN091 - mc054 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN092 - mc055</masterLabel>
+            <translation><!-- ZCN092 - mc055 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZCN093 - B2B</masterLabel>
+            <translation><!-- ZCN093 - B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZPY001 - Paraguay General</masterLabel>
+            <translation><!-- ZPY001 - Paraguay General --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>PMC_SS_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Brazil, select option “Mosaic Fert Brasil Ltda” for distribution or select option “Mosaic Fert P&amp;K Ltda” for P&amp;K. For Paraguay, select the option “Mosaic Fert Paraguay”. For Canada, select “Mosaic CAN Crop Nutr LP”. For US, select “Mosaic Global Sales, LLC”. For Ammonia, select “Tampa Port Services LLC” --></help>
+        <label><!-- Sales Organization --></label>
+        <name>PMC_SS_SalesOrg__c</name>
+        <picklistValues>
+            <masterLabel>1002 - Mosaic Global Sales LLC</masterLabel>
+            <translation><!-- 1002 - Mosaic Global Sales LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1003 - Mosaic Crop Nutrition LLC</masterLabel>
+            <translation><!-- 1003 - Mosaic Crop Nutrition LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1004 - Mosaic Fertilizer LLC</masterLabel>
+            <translation><!-- 1004 - Mosaic Fertilizer LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1005 - Mosaic Potash Carlsbad</masterLabel>
+            <translation><!-- 1005 - Mosaic Potash Carlsbad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1025 - Tampa Port Services LLC</masterLabel>
+            <translation><!-- 1025 - Tampa Port Services LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1026 - MOS Ag Innovation Sol LLC</masterLabel>
+            <translation><!-- 1026 - MOS Ag Innovation Sol LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1030 - Gulf Sulphur Service, LTD</masterLabel>
+            <translation><!-- 1030 - Gulf Sulphur Service, LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1310 - Dom. Sales Org CN</masterLabel>
+            <translation><!-- 1310 - Dom. Sales Org CN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1410 - Dom. Sales Org BR</masterLabel>
+            <translation><!-- 1410 - Dom. Sales Org BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1710 - Dom. Sales Org US</masterLabel>
+            <translation><!-- 1710 - Dom. Sales Org US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1810 - Dom. Sales Org IN</masterLabel>
+            <translation><!-- 1810 - Dom. Sales Org IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2000 - Mosaic CAN Crop Nutr LP</masterLabel>
+            <translation><!-- 2000 - Mosaic CAN Crop Nutr LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2001 - Mosaic Potash COL ULC</masterLabel>
+            <translation><!-- 2001 - Mosaic Potash COL ULC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2002 - Mosaic Potash EST LP</masterLabel>
+            <translation><!-- 2002 - Mosaic Potash EST LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2003 - Mosaic Canada ULC (BP)</masterLabel>
+            <translation><!-- 2003 - Mosaic Canada ULC (BP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2910 - Dom. Sales Org CA</masterLabel>
+            <translation><!-- 2910 - Dom. Sales Org CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000 - Mosaic Fert Brasil Ltda</masterLabel>
+            <translation><!-- 4000 - Mosaic Fert Brasil Ltda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4001 - Fospar SA</masterLabel>
+            <translation><!-- 4001 - Fospar SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4004 - Mosaic Potássio Mineração</masterLabel>
+            <translation><!-- 4004 - Mosaic Potássio Mineração --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4005 - Mosaic Fert P&amp;K Ltda</masterLabel>
+            <translation><!-- 4005 - Mosaic Fert P&amp;K Ltda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4600 - Mosaic Fert Bahamas Ltd</masterLabel>
+            <translation><!-- 4600 - Mosaic Fert Bahamas Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4620 - Mosaic Fert Paraguay SRL</masterLabel>
+            <translation><!-- 4620 - Mosaic Fert Paraguay SRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4680 - Co Minera Miski Mayo SRL</masterLabel>
+            <translation><!-- 4680 - Co Minera Miski Mayo SRL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Region --></label>
+        <name>PMC_SS_SalesRegion__c</name>
+        <picklistValues>
+            <masterLabel>Alfenas</masterLabel>
+            <translation><!-- Alfenas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Almirante Tamandaré</masterLabel>
+            <translation><!-- Almirante Tamandaré --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alto Araguaia</masterLabel>
+            <translation><!-- Alto Araguaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alto Parnaíba</masterLabel>
+            <translation><!-- Alto Parnaíba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alvorada</masterLabel>
+            <translation><!-- Alvorada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anápolis</masterLabel>
+            <translation><!-- Anápolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aparecida de Goiania</masterLabel>
+            <translation><!-- Aparecida de Goiania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Araguaina</masterLabel>
+            <translation><!-- Araguaina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Araguari</masterLabel>
+            <translation><!-- Araguari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Araucária</masterLabel>
+            <translation><!-- Araucária --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Araxá</masterLabel>
+            <translation><!-- Araxá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arraias</masterLabel>
+            <translation><!-- Arraias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atibaia</masterLabel>
+            <translation><!-- Atibaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Açailândia</masterLabel>
+            <translation><!-- Açailândia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baixa Grande do Ribeiro</masterLabel>
+            <translation><!-- Baixa Grande do Ribeiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balsas</masterLabel>
+            <translation><!-- Balsas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barcarena</masterLabel>
+            <translation><!-- Barcarena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barra do Garça</masterLabel>
+            <translation><!-- Barra do Garça --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barra dos Coqueiros</masterLabel>
+            <translation><!-- Barra dos Coqueiros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barreiras</masterLabel>
+            <translation><!-- Barreiras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barretos</masterLabel>
+            <translation><!-- Barretos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barueri</masterLabel>
+            <translation><!-- Barueri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Betim</masterLabel>
+            <translation><!-- Betim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bom Jesus</masterLabel>
+            <translation><!-- Bom Jesus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bom Jesus de Goiás</masterLabel>
+            <translation><!-- Bom Jesus de Goiás --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camaçari</masterLabel>
+            <translation><!-- Camaçari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambé</masterLabel>
+            <translation><!-- Cambé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campinas</masterLabel>
+            <translation><!-- Campinas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campo Grande</masterLabel>
+            <translation><!-- Campo Grande --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campo Limpo Paulista</masterLabel>
+            <translation><!-- Campo Limpo Paulista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campo Novo do Parecis</masterLabel>
+            <translation><!-- Campo Novo do Parecis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campo Verde</masterLabel>
+            <translation><!-- Campo Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campos Lindos</masterLabel>
+            <translation><!-- Campos Lindos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canarana</masterLabel>
+            <translation><!-- Canarana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candeias</masterLabel>
+            <translation><!-- Candeias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canitar</masterLabel>
+            <translation><!-- Canitar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carmo do Rio Claro</masterLabel>
+            <translation><!-- Carmo do Rio Claro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cascavel</masterLabel>
+            <translation><!-- Cascavel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caseara</masterLabel>
+            <translation><!-- Caseara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalão</masterLabel>
+            <translation><!-- Catalão --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catanduva</masterLabel>
+            <translation><!-- Catanduva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caxias</masterLabel>
+            <translation><!-- Caxias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerqueira Cesar</masterLabel>
+            <translation><!-- Cerqueira Cesar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chapadinha</masterLabel>
+            <translation><!-- Chapadinha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chapadão do Sul</masterLabel>
+            <translation><!-- Chapadão do Sul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comodoro</masterLabel>
+            <translation><!-- Comodoro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conceição do Araguaia</masterLabel>
+            <translation><!-- Conceição do Araguaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conceição do Jacuipe</masterLabel>
+            <translation><!-- Conceição do Jacuipe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confresa</masterLabel>
+            <translation><!-- Confresa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congonhal</masterLabel>
+            <translation><!-- Congonhal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correntina</masterLabel>
+            <translation><!-- Correntina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corumbá</masterLabel>
+            <translation><!-- Corumbá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cristalina</masterLabel>
+            <translation><!-- Cristalina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cubatão</masterLabel>
+            <translation><!-- Cubatão --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curitiba</masterLabel>
+            <translation><!-- Curitiba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deciolandia</masterLabel>
+            <translation><!-- Deciolandia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diamantino</masterLabel>
+            <translation><!-- Diamantino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dourados</masterLabel>
+            <translation><!-- Dourados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feira de Santana</masterLabel>
+            <translation><!-- Feira de Santana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formosa</masterLabel>
+            <translation><!-- Formosa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formosa do Rio Preto</masterLabel>
+            <translation><!-- Formosa do Rio Preto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaucha do Norte</masterLabel>
+            <translation><!-- Gaucha do Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goiatuba</masterLabel>
+            <translation><!-- Goiatuba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grajaú</masterLabel>
+            <translation><!-- Grajaú --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantã do Norte</masterLabel>
+            <translation><!-- Guarantã do Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaxupé</masterLabel>
+            <translation><!-- Guaxupé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurupi</masterLabel>
+            <translation><!-- Gurupi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ibatiba</masterLabel>
+            <translation><!-- Ibatiba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ibaté</masterLabel>
+            <translation><!-- Ibaté --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ibiá</masterLabel>
+            <translation><!-- Ibiá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Igarapava</masterLabel>
+            <translation><!-- Igarapava --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iguatama</masterLabel>
+            <translation><!-- Iguatama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itacoatiara</masterLabel>
+            <translation><!-- Itacoatiara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itapetininga</masterLabel>
+            <translation><!-- Itapetininga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itiquira</masterLabel>
+            <translation><!-- Itiquira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Itumbiara</masterLabel>
+            <translation><!-- Itumbiara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaboatão dos Guararapes</masterLabel>
+            <translation><!-- Jaboatão dos Guararapes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaciara</masterLabel>
+            <translation><!-- Jaciara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jardinópolis</masterLabel>
+            <translation><!-- Jardinópolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jataí</masterLabel>
+            <translation><!-- Jataí --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaú</masterLabel>
+            <translation><!-- Jaú --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jundiaí</masterLabel>
+            <translation><!-- Jundiaí --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lagoa da Confusão</masterLabel>
+            <translation><!-- Lagoa da Confusão --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laranjeiras</masterLabel>
+            <translation><!-- Laranjeiras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limeira</masterLabel>
+            <translation><!-- Limeira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucas do Rio Verde</masterLabel>
+            <translation><!-- Lucas do Rio Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luis Eduardo Magalhães</masterLabel>
+            <translation><!-- Luis Eduardo Magalhães --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luz</masterLabel>
+            <translation><!-- Luz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maceió</masterLabel>
+            <translation><!-- Maceió --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machado</masterLabel>
+            <translation><!-- Machado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manhuaçú</masterLabel>
+            <translation><!-- Manhuaçú --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martins Soares</masterLabel>
+            <translation><!-- Martins Soares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maruim</masterLabel>
+            <translation><!-- Maruim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matozinhos</masterLabel>
+            <translation><!-- Matozinhos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mogi das Cruzes</masterLabel>
+            <translation><!-- Mogi das Cruzes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nova Mutum</masterLabel>
+            <translation><!-- Nova Mutum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nova Santa Rosa</masterLabel>
+            <translation><!-- Nova Santa Rosa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nova Xavantina</masterLabel>
+            <translation><!-- Nova Xavantina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osasco</masterLabel>
+            <translation><!-- Osasco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ourinhos</masterLabel>
+            <translation><!-- Ourinhos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palmas</masterLabel>
+            <translation><!-- Palmas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palmeira Piaui</masterLabel>
+            <translation><!-- Palmeira Piaui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paragominas</masterLabel>
+            <translation><!-- Paragominas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paranaguá</masterLabel>
+            <translation><!-- Paranaguá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paranatinga</masterLabel>
+            <translation><!-- Paranatinga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patos de Minas</masterLabel>
+            <translation><!-- Patos de Minas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patrocínio</masterLabel>
+            <translation><!-- Patrocínio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paulínia</masterLabel>
+            <translation><!-- Paulínia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pedro Afonso</masterLabel>
+            <translation><!-- Pedro Afonso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placas</masterLabel>
+            <translation><!-- Placas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ponta Grossa</masterLabel>
+            <translation><!-- Ponta Grossa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posse</masterLabel>
+            <translation><!-- Posse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pouso Alegre</masterLabel>
+            <translation><!-- Pouso Alegre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poços de Caldas</masterLabel>
+            <translation><!-- Poços de Caldas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primavera Leste</masterLabel>
+            <translation><!-- Primavera Leste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Querência</masterLabel>
+            <translation><!-- Querência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recife</masterLabel>
+            <translation><!-- Recife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redenção</masterLabel>
+            <translation><!-- Redenção --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Riachão das Neves</masterLabel>
+            <translation><!-- Riachão das Neves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rib Gonçalves</masterLabel>
+            <translation><!-- Rib Gonçalves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ribeirão Cascalheira</masterLabel>
+            <translation><!-- Ribeirão Cascalheira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ribeirão Preto</masterLabel>
+            <translation><!-- Ribeirão Preto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rio Grande</masterLabel>
+            <translation><!-- Rio Grande --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rio Verde</masterLabel>
+            <translation><!-- Rio Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rondonópolis</masterLabel>
+            <translation><!-- Rondonópolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rosário do Catete</masterLabel>
+            <translation><!-- Rosário do Catete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Filomena</masterLabel>
+            <translation><!-- Santa Filomena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santarem</masterLabel>
+            <translation><!-- Santarem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santo Antonio do Leste</masterLabel>
+            <translation><!-- Santo Antonio do Leste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sapezal</masterLabel>
+            <translation><!-- Sapezal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serra</masterLabel>
+            <translation><!-- Serra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serrana</masterLabel>
+            <translation><!-- Serrana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silvanópolis</masterLabel>
+            <translation><!-- Silvanópolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinop</masterLabel>
+            <translation><!-- Sinop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorriso</masterLabel>
+            <translation><!-- Sorriso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sumaré</masterLabel>
+            <translation><!-- Sumaré --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suzano</masterLabel>
+            <translation><!-- Suzano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Desidério</masterLabel>
+            <translation><!-- São Desidério --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Francisco do Sul</masterLabel>
+            <translation><!-- São Francisco do Sul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Félix do Xingu</masterLabel>
+            <translation><!-- São Félix do Xingu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Gabriel do Oeste</masterLabel>
+            <translation><!-- São Gabriel do Oeste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Joaquim da Barra</masterLabel>
+            <translation><!-- São Joaquim da Barra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São José do Xingu</masterLabel>
+            <translation><!-- São José do Xingu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Luis</masterLabel>
+            <translation><!-- São Luis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>São Tiago</masterLabel>
+            <translation><!-- São Tiago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tasso Fragoso</masterLabel>
+            <translation><!-- Tasso Fragoso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Três Corações</masterLabel>
+            <translation><!-- Três Corações --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Três Pontas</masterLabel>
+            <translation><!-- Três Pontas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uberaba</masterLabel>
+            <translation><!-- Uberaba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uberlândia</masterLabel>
+            <translation><!-- Uberlândia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ubá</masterLabel>
+            <translation><!-- Ubá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruçui</masterLabel>
+            <translation><!-- Uruçui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varginha</masterLabel>
+            <translation><!-- Varginha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viana</masterLabel>
+            <translation><!-- Viana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vila Rica</masterLabel>
+            <translation><!-- Vila Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vitória</masterLabel>
+            <translation><!-- Vitória --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Água Boa</masterLabel>
+            <translation><!-- Água Boa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Search Term --></label>
+        <name>PMC_SS_SearchTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmentation --></label>
+        <name>PMC_SS_Segmentation__c</name>
+        <picklistValues>
+            <masterLabel>10 - Canal - KAM</masterLabel>
+            <translation><!-- 10 - Canal - KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Trader - KAM</masterLabel>
+            <translation><!-- 11 - Trader - KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Strategic</masterLabel>
+            <translation><!-- 12 - Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Core</masterLabel>
+            <translation><!-- 13 - Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 - Base</masterLabel>
+            <translation><!-- 14 - Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - EU - KAM Mega Farmer</masterLabel>
+            <translation><!-- 3 - EU - KAM Mega Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - EU - Mega Farmer</masterLabel>
+            <translation><!-- 4 - EU - Mega Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - EU - Top Farmer</masterLabel>
+            <translation><!-- 5 - EU - Top Farmer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - EU - Farmer/Mid/Small</masterLabel>
+            <translation><!-- 6 - EU - Farmer/Mid/Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Canal - Prime</masterLabel>
+            <translation><!-- 7 - Canal - Prime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 - Canal - Ultra</masterLabel>
+            <translation><!-- 8 - Canal - Ultra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - Canal - Basic / Grow</masterLabel>
+            <translation><!-- 9 - Canal - Basic / Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A - Customer</masterLabel>
+            <translation><!-- A - Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - Customer</masterLabel>
+            <translation><!-- B - Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Customer</masterLabel>
+            <translation><!-- C - Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seller Visa --></label>
+        <name>PMC_SS_SellerVisa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Conditions --></label>
+        <name>PMC_SS_ShippingCondition__c</name>
+        <picklistValues>
+            <masterLabel>Barge</masterLabel>
+            <translation><!-- Barge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN-Inland/Intermodal</masterLabel>
+            <translation><!-- IN-Inland/Intermodal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Transport  Req</masterLabel>
+            <translation><!-- No Transport  Req --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road / Rail Auto Sch</masterLabel>
+            <translation><!-- Road / Rail Auto Sch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation><!-- Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Provide the Sold-to customer for linking --></help>
+        <label><!-- Sold-to partner related --></label>
+        <name>PMC_SS_SoldToAccount__c</name>
+        <relationshipLabel><!-- Sold-to partner related --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State Registration Number --></label>
+        <name>PMC_SS_StateRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Tax Number --></label>
+        <name>PMC_SS_StateTaxNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strengths (Plan) --></label>
+        <name>PMC_SS_StrengthsPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID or CNPJ or SSN --></label>
+        <name>PMC_SS_TaxIDOrCNPJOrCPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threats (Plan) --></label>
+        <name>PMC_SS_ThreatsPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tonnage Taxable --></label>
+        <name>PMC_SS_TonnageTaxable__c</name>
+    </fields>
+    <fields>
+        <help><!-- *Please use SAP t-code OVR1 --></help>
+        <label><!-- Transportation Zone --></label>
+        <name>PMC_SS_TransportationZone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Zone --></label>
+        <name>PMC_SS_Transportation_Zone__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Underdel. Tolerance --></label>
+        <name>PMC_SS_Underdeltolerance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>PMC_SS_UnitofMeasure__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Veson Customer --></label>
+        <name>PMC_SS_Veson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weaknesses (Plan) --></label>
+        <name>PMC_SS_WeaknessesPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Status --></label>
+        <name>Partner_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payer partner related --></label>
+        <name>Payer_partner_related__c</name>
+        <relationshipLabel><!-- Accounts (Payer partner related) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Products Sold --></label>
+        <name>Products_Sold__c</name>
+    </fields>
+    <fields>
+        <help><!-- Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated. --></help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable to combine assets and subscriptions from multiple co-termed contracts. By default, each co-termed contract generates a separate group on renewal quote. --></help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines when contracts are co-terminated. --></help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation><!-- Always --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation><!-- Prompt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines how service and subscription contracts for this customer are co-terminated. --></help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation><!-- Always --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation><!-- Prompt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Default opportunity for this account used by an e-Commerce module to obtain the customer&apos;s price book and associate with &quot;shopping cart&quot; quotes. --></help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select if contracted prices should not be inherited from the parent account. --></help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select checkbox to maintain bundle hierarchy on renewal quotes and amendments. --></help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter date until which the prices must be held. --></help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose Asset Based to make renewals based off of an account&apos;s assets, or choose Contract Based to make renewals based off of contracts created from a quote. --></help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation><!-- Asset Based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation><!-- Contract Based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use &quot;Same&quot; to keep the same price paid last time. Use &quot;List&quot; to use current list price. Use &quot;Uplift&quot; to use the price paid last time plus some uplift. --></help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation><!-- Same --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation><!-- Uplift --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Selected if this account has active certificates --></help>
+        <label><!-- Tax-Exempt --></label>
+        <name>SBQQ__TaxExempt__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel – Attribute 5 --></label>
+        <name>Sales_Channel_Attribute_5__c</name>
+        <picklistValues>
+            <masterLabel>10 – NAM</masterLabel>
+            <translation><!-- 10 – NAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 – IS</masterLabel>
+            <translation><!-- 11 – IS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 – ID</masterLabel>
+            <translation><!-- 12 – ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 – Canpotex</masterLabel>
+            <translation><!-- 13 – Canpotex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5A – Attribute 5A</masterLabel>
+            <translation><!-- 5A – Attribute 5A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5B – Attribute 5B</masterLabel>
+            <translation><!-- 5B – Attribute 5B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5C – Wet ton invoice</masterLabel>
+            <translation><!-- 5C – Wet ton invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5D – Dry ton invoice</masterLabel>
+            <translation><!-- 5D – Dry ton invoice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Group --></label>
+        <name>Sales_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Potential --></label>
+        <name>Sales_Potential__c</name>
+        <picklistValues>
+            <masterLabel>0 a 2 thousand tons</masterLabel>
+            <translation><!-- 0 a 2 thousand tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 a 4 thousand tons</masterLabel>
+            <translation><!-- 2 a 4 thousand tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 a 9 thousand tons</masterLabel>
+            <translation><!-- 4 a 9 thousand tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 a 15 thousand tons</masterLabel>
+            <translation><!-- 9 a 15 thousand tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>more than 15 thousand tons</masterLabel>
+            <translation><!-- more than 15 thousand tons --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Region – Attribute 7 --></label>
+        <name>Sales_Region_Attribute_7__c</name>
+        <picklistValues>
+            <masterLabel>07A – Attribute 07A</masterLabel>
+            <translation><!-- 07A – Attribute 07A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08B – Attribute 07B</masterLabel>
+            <translation><!-- 08B – Attribute 07B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 – DOM</masterLabel>
+            <translation><!-- 10 – DOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Export</masterLabel>
+            <translation><!-- 11 - Export --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ship-to partner related --></label>
+        <name>Shipto_partner_related__c</name>
+        <relationshipLabel><!-- Accounts (Ship-to partner related) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TSM Manager --></label>
+        <name>TSM_Manager_Account__c</name>
+        <relationshipLabel><!-- Accounts (TSM Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TSM Manager --></label>
+        <name>TSM_Manager__c</name>
+        <relationshipLabel><!-- Accounts (TSM Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team Accounts – Attribute 4 --></label>
+        <name>Team_Accounts_Attribute_4__c</name>
+        <picklistValues>
+            <masterLabel>05 – Team Accounts</masterLabel>
+            <translation><!-- 05 – Team Accounts --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- This record type will be used to create Account records of Agent record types --></description>
+        <label><!-- Agent --></label>
+        <name>PMC_SS_Agent</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type will be used to create Account records of Customer record types --></description>
+        <label><!-- Customer --></label>
+        <name>PMC_SS_Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type will be used to create Account records of Prospect record types --></description>
+        <label><!-- Prospect --></label>
+        <name>PMC_SS_Prospect</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type will be used to create Account records of Retailer record types --></description>
+        <label><!-- Retailer --></label>
+        <name>Retailer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for the Legacy Ship to - Transition --></description>
+        <label><!-- Ship-to Customer Legacy --></label>
+        <name>Ship_to_Customer_Legacy</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Create a ship-to customer to register a customer to receive goods (where the goods will be delivered) --></description>
+        <label><!-- Ship-to Customer --></label>
+        <name>Z002</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit accounts. --></errorMessage>
+        <name>PMC_CPQ_SSAAccountEditaccess</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CNPJ - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditCNPJ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditCPF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditCustomerType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Industry - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditIndustry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Municipal Tax Number - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditMunicipalTaxNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Overdel Tolerance - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditOverdelTolerance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RUC - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditRUC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping Conditions - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditShippingConditions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- StateTaxNumber - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditStateTaxNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Transportation Zone - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditTransportationZone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Group - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Underdel Tolerance - Only Master Data or System Administrator team members can edit this field --></errorMessage>
+        <name>PMC_SS_BlockEditUnderdelTolerance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Provide only numbers for Domestic Broker --></errorMessage>
+        <name>PMC_SS_PreventLettersDomBroker</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;The Email field cannot start or end with a dot (.)&quot; --></errorMessage>
+        <name>PMC_SS_Prevent_Dot_In_Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- City Name should not exceed 40 characters. --></errorMessage>
+        <name>PMC_SS_ValidateAddressCityLenght</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill all Address Fields --></errorMessage>
+        <name>PMC_SS_ValidateAddressFieldsPopulated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Postal Code should not exceed 10 characters. For Brazil, please adjust ZIP/Postal Code format to: 00000-000 --></errorMessage>
+        <name>PMC_SS_ValidateAddressPostalCodeFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Complete this field --></errorMessage>
+        <name>PMC_SS_ValidateAddressStatePupuated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Address Street should not exceed 60 characters. --></errorMessage>
+        <name>PMC_SS_ValidateAddressStreetLenght</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agent accounts are standalone accounts and cannot have parents --></errorMessage>
+        <name>PMC_SS_ValidateAgentAccountParent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please inform CNPJ by using only numbers (14 numbers). --></errorMessage>
+        <name>PMC_SS_ValidateCNPJFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please inform CPF by using only numbers (11 numbers). --></errorMessage>
+        <name>PMC_SS_ValidateCPFFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email Address should not exceed 60 characters. --></errorMessage>
+        <name>PMC_SS_ValidateEmailLenght</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fax number should not exceed 30 characters. --></errorMessage>
+        <name>PMC_SS_ValidateFaxLenght</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- State Tax Number should not exceed 20 characteres and cannot contain special carachters (no dot, no comma, no hifen). --></errorMessage>
+        <name>PMC_SS_ValidateIEFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Name should not exceed 35 characters. --></errorMessage>
+        <name>PMC_SS_ValidateNameLenght</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Parent Account association is invalid, please add a valid Sold-to/Ship-to Account for Other Account or Sold-to/Other for a Sold-to Account as Parent Account. --></errorMessage>
+        <name>PMC_SS_ValidateParentAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone Number lenght should not exceed 11 digits. For Brazil, please adjust Phone format to: (00) 00000-0000 --></errorMessage>
+        <name>PMC_SS_ValidatePhoneFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the phone number in the correct format: (XXX) XXX-XXXX or XXX-XXX-XXXX for US --></errorMessage>
+        <name>PMC_SS_ValidatePhoneFormatUS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only numbers are accepted for RUC --></errorMessage>
+        <name>PMC_SS_ValidateRUCFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Account you’re on is not a Sold-to/Other Account. Only Sold-to/Other accounts can use the Parent Account field. --></errorMessage>
+        <name>PMC_SS_ValidateSoldToAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the City --></errorMessage>
+        <name>RequireBillingCity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Zip/Postal Code --></errorMessage>
+        <name>RequireBillingPostalCode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide the Street Name --></errorMessage>
+        <name>RequireBillingStreet</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Legal_Hold --></label>
+        <name>Generate_Legal_Hold</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PMC_CLM_ActivateLegalHold --></label>
+        <name>PMC_CLM_ActivateLegalHold</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PMC_CLM_DeactivateLegalHold --></label>
+        <name>PMC_CLM_DeactivateLegalHold</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Docs --></label>
+        <name>SDOC__Email_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

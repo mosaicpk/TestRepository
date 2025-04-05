@@ -1,0 +1,480 @@
+{
+  "version" : "58.0",
+  "nodes" : {
+    "EDIT_ATTRIBUTES0" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "LastModifiedDate_formula",
+          "newProperties" : {
+            "label" : "User.UniqueUserName",
+            "name" : "User.UniqueUserName"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA0" ]
+    },
+    "EDIT_ATTRIBUTES1" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "User.UniqueUserName_formula",
+          "newProperties" : {
+            "label" : "User.Name",
+            "name" : "User.Name"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA1" ]
+    },
+    "EDIT_ATTRIBUTES15" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Owner.Role.RoleNames",
+          "newProperties" : {
+            "label" : "RoleNames",
+            "name" : "User.Role.RoleNames"
+          }
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES9" ]
+    },
+    "EDIT_ATTRIBUTES16" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "LastModifiedDate_formula",
+          "newProperties" : {
+            "label" : "Username",
+            "name" : "User.Username"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA6" ]
+    },
+    "EDIT_ATTRIBUTES2" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "LastModifiedDate_formula",
+          "newProperties" : {
+            "label" : "User.SmallPhotoUrl",
+            "name" : "User.SmallPhotoUrl"
+          }
+        } ]
+      },
+      "sources" : [ "FORMULA2" ]
+    },
+    "EDIT_ATTRIBUTES9" : {
+      "action" : "schema",
+      "parameters" : {
+        "fields" : [ {
+          "name" : "LastModifiedDate_formula",
+          "newProperties" : {
+            "label" : "User.Role.Name",
+            "name" : "User.Role.Name"
+          }
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES2" ]
+    },
+    "FILTER2" : {
+      "action" : "filter",
+      "parameters" : {
+        "filterExpressions" : [ {
+          "field" : "Id",
+          "operands" : [ ],
+          "operator" : "IS_NOT_NULL",
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "JOIN0" ]
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Owner.UniqueUserName\"",
+          "label" : "User.UniqueUserName",
+          "name" : "LastModifiedDate_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "LOAD_DATASET0" ]
+    },
+    "FORMULA1" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Owner.Name\"",
+          "label" : "User.Name",
+          "name" : "User.UniqueUserName_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES0" ]
+    },
+    "FORMULA2" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Owner.SmallPhotoUrl\"",
+          "label" : "User.SmallPhotoUrl",
+          "name" : "LastModifiedDate_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES1" ]
+    },
+    "FORMULA3" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "test",
+          "formulaExpression" : "case when char_length(OwnerId) > 0 then 'internal' else 'donotremove' end",
+          "label" : "apid",
+          "name" : "apid",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "FILTER2" ]
+    },
+    "FORMULA6" : {
+      "action" : "formula",
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "defaultValue" : "",
+          "formulaExpression" : "\"Owner.Username\"",
+          "label" : "Username",
+          "name" : "LastModifiedDate_formula",
+          "precision" : 255,
+          "type" : "TEXT"
+        } ]
+      },
+      "sources" : [ "EDIT_ATTRIBUTES15" ]
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "Id" ],
+        "rightKeys" : [ "WhatId" ],
+        "rightQualifier" : "Activity"
+      },
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "EDIT_ATTRIBUTES16", "LOAD_DATASET1" ]
+    },
+    "JOIN33" : {
+      "action" : "join",
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Username" ],
+        "rightKeys" : [ "Username" ],
+        "rightQualifier" : "User"
+      },
+      "schema" : {
+        "slice" : {
+          "fields" : [ ],
+          "ignoreMissingFields" : true,
+          "mode" : "DROP"
+        }
+      },
+      "sources" : [ "LOAD_DATASET19", "LOAD_DATASET12" ]
+    },
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "label" : "Opportunity",
+          "name" : "Opportunity2",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET1" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "label" : "Activity",
+          "name" : "Activity2",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ "WhatId", "ActivityCount" ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET12" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "label" : "UserRole",
+          "name" : "userrole_revinsights",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "sampleDetails" : {
+          "sortBy" : [ ],
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "LOAD_DATASET19" : {
+      "action" : "load",
+      "parameters" : {
+        "dataset" : {
+          "label" : "quota",
+          "name" : "quota1",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ "StartDate", "OwnerName", "Username", "QuotaAmount" ],
+        "sampleDetails" : {
+          "type" : "TopN"
+        }
+      },
+      "sources" : [ ]
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "Opportunity RevInsights",
+          "name" : "opportunity_revinsights",
+          "rowLevelSecurityFilter" : "'Owner.Roles.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\" || 'Account.OwnerId' == \"$User.Id\" || 'apid' == \"$User.Id\"",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ],
+        "measuresToCurrencies" : [ ]
+      },
+      "sources" : [ "FORMULA3" ]
+    },
+    "OUTPUT9" : {
+      "action" : "save",
+      "parameters" : {
+        "dataset" : {
+          "folderName" : "Revenue_Operations_Analytics",
+          "label" : "Quota with Roles",
+          "name" : "quota_with_roles",
+          "type" : "analyticsDataset"
+        },
+        "fields" : [ ]
+      },
+      "sources" : [ "JOIN33" ]
+    }
+  },
+  "ui" : {
+    "connectors" : [ {
+      "source" : "LOAD_DATASET0",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET1",
+      "target" : "JOIN0"
+    }, {
+      "source" : "FILTER2",
+      "target" : "TRANSFORM2"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "JOIN0",
+      "target" : "FILTER2"
+    }, {
+      "source" : "LOAD_DATASET19",
+      "target" : "JOIN33"
+    }, {
+      "source" : "LOAD_DATASET12",
+      "target" : "JOIN33"
+    }, {
+      "source" : "JOIN33",
+      "target" : "OUTPUT9"
+    } ],
+    "hiddenColumns" : [ ],
+    "nodes" : {
+      "FILTER2" : {
+        "description" : "",
+        "label" : "FilterOpps",
+        "left" : 532,
+        "top" : 250.3,
+        "type" : "FILTER"
+      },
+      "JOIN0" : {
+        "description" : "",
+        "label" : "Join Activity onto Opportunity",
+        "left" : 392,
+        "top" : 250.3,
+        "type" : "JOIN"
+      },
+      "JOIN33" : {
+        "description" : "",
+        "label" : "Join UserRole on CSV Quota",
+        "left" : 252,
+        "top" : 1932,
+        "type" : "JOIN"
+      },
+      "LOAD_DATASET0" : {
+        "description" : "",
+        "label" : "Opportunity",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 250.3,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET1" : {
+        "description" : "",
+        "label" : "Activity",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 390.3,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET12" : {
+        "label" : "UserRole",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 810.3,
+        "type" : "LOAD_DATASET"
+      },
+      "LOAD_DATASET19" : {
+        "label" : "quota",
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        },
+        "top" : 1932,
+        "type" : "LOAD_DATASET"
+      },
+      "OUTPUT0" : {
+        "description" : "",
+        "label" : "Save Opportunity",
+        "left" : 1232,
+        "top" : 250.3,
+        "type" : "OUTPUT"
+      },
+      "OUTPUT9" : {
+        "description" : "",
+        "label" : "Save Quota with Roles",
+        "left" : 1232.1,
+        "top" : 1932,
+        "type" : "OUTPUT"
+      },
+      "TRANSFORM0" : {
+        "connectors" : [ {
+          "source" : "FORMULA0",
+          "target" : "EDIT_ATTRIBUTES0"
+        }, {
+          "source" : "EDIT_ATTRIBUTES0",
+          "target" : "FORMULA1"
+        }, {
+          "source" : "FORMULA1",
+          "target" : "EDIT_ATTRIBUTES1"
+        }, {
+          "source" : "EDIT_ATTRIBUTES1",
+          "target" : "FORMULA2"
+        }, {
+          "source" : "FORMULA2",
+          "target" : "EDIT_ATTRIBUTES2"
+        }, {
+          "source" : "EDIT_ATTRIBUTES9",
+          "target" : "EDIT_ATTRIBUTES15"
+        }, {
+          "source" : "EDIT_ATTRIBUTES15",
+          "target" : "FORMULA6"
+        }, {
+          "source" : "FORMULA6",
+          "target" : "EDIT_ATTRIBUTES16"
+        }, {
+          "source" : "EDIT_ATTRIBUTES2",
+          "target" : "EDIT_ATTRIBUTES9"
+        } ],
+        "graph" : {
+          "EDIT_ATTRIBUTES0" : null,
+          "EDIT_ATTRIBUTES1" : null,
+          "EDIT_ATTRIBUTES15" : null,
+          "EDIT_ATTRIBUTES16" : null,
+          "EDIT_ATTRIBUTES2" : null,
+          "EDIT_ATTRIBUTES9" : null,
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA1" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA2" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          },
+          "FORMULA6" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Transform",
+        "left" : 252,
+        "top" : 250.3,
+        "type" : "TRANSFORM"
+      },
+      "TRANSFORM2" : {
+        "connectors" : [ ],
+        "description" : "",
+        "graph" : {
+          "FORMULA3" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            }
+          }
+        },
+        "label" : "Allow Auto-Install User access to ED Models",
+        "left" : 1092,
+        "top" : 252.10000000000002,
+        "type" : "TRANSFORM"
+      }
+    }
+  },
+  "runMode" : "full"
+}

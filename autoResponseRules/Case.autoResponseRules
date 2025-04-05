@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>PMC SS Case Auto Response Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <booleanFilter>1  AND (2 OR 3)AND 4</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.Email</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>notEqual</operation>
+                <value>Internal</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>testmosaiccs@mosaicco.com</replyToEmail>
+            <senderEmail>noreply.testmosaiccs@mosaicco.com</senderEmail>
+            <senderName>Mosaic Support</senderName>
+            <template>PMC_emails/PMC_SS_CaseAutoResponse</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

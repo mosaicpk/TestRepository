@@ -1,0 +1,644 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "c81c1087-4830-473b-8373-36bba2bc4939",
+  "label" : "Proceso productivo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "909e4f13-b07d-4391-8dae-93e1c38f67ed",
+          "columns" : [ {
+            "UUID" : "8952d526-c9d7-456a-8a8f-a89fb3ff8f46",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "909e4f13-b07d-4391-8dae-93e1c38f67ed",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "collectionLayoutDefinition" : {
+                "attributes" : {
+                  "contentIndicatorSpacing" : "none",
+                  "limitItems" : 5,
+                  "pauseButtonPlacement" : "left",
+                  "progressionPace" : 5,
+                  "shouldAutoScroll" : false,
+                  "showPauseButton" : true,
+                  "showProgressArrows" : true,
+                  "showProgressIndicator" : true,
+                  "transitionSpeed" : 600,
+                  "transitionType" : "slide"
+                },
+                "componentName" : "forceCommunity:dynamicCollectionCarousel"
+              },
+              "dataProviderDefinition" : {
+                "attributes" : {
+                  "dataProviderInfo" : {
+                    "apiName" : "Banner_Test"
+                  },
+                  "dataProviderType" : "NamedCollection"
+                },
+                "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+              },
+              "itemLayoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "cover",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : "100",
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "bottom center",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "",
+                  "imageUrl" : "{!CurrentItem.source.url}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(0, 0, 0, 0.4)",
+                  "showButton" : false,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "bottom center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "{!CurrentItem.altText}",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "h1",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:dynamicCollection",
+          "id" : "26a4e561-7c75-4f67-b106-d5443c21f200",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8952d526-c9d7-456a-8a8f-a89fb3ff8f46",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1e458a44-bf42-4415-b271-9205d9cedead",
+          "columns" : [ {
+            "UUID" : "b4f921c9-a0b1-4e6c-91e4-97a62a215f09",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 143
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1e458a44-bf42-4415-b271-9205d9cedead",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 48px; color: rgb(230, 0, 0);\">Proceso productivo</span></h1><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e89c2769-c47f-4135-99d5-aecc94db3e44",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(72, 72, 72); font-size: 16px;\">Tenemos una operación amigable con el medio ambiente, ya que durante todo nuestro proceso productivo realizamos acciones que reflejan nuestro sincero compromiso con el cuidado del planeta. A continuación, te contamos cada una de las partes de nuestro proceso de producción.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "9128468d-f2f6-41b1-9f9e-a3ceed80478d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b4f921c9-a0b1-4e6c-91e4-97a62a215f09",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ea93a022-48b8-420d-94b1-9582cefcd27a",
+          "columns" : [ {
+            "UUID" : "35f077ba-ea34-4433-9c4c-e3ef771df305",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1c75a267-4b3e-4cf7-88d3-8460d1b78015",
+            "columnKey" : "da221",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ea93a022-48b8-420d-94b1-9582cefcd27a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Proceso en mina</h2><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2b46c149-88bc-4028-9613-770b9be212b3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(72, 72, 72);\">Nuestra mina está dividida en 39 módulos de explotación y de cada uno de ellos se extrae roca fosfórica, en forma secuencial. No necesitamos usar explosivos. A través de un proceso mecánico simple, se excava la tierra utilizando palas hidráulicas para obtener la roca fosfórica.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "58465b63-d17f-4ac2-961a-e95b6f59b9d6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "35f077ba-ea34-4433-9c4c-e3ef771df305",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/i2__UVAiCZI\" src=\"https://www.youtube.com/embed/i2__UVAiCZI\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "02cd836b-67f5-453b-b1f2-956a85c37d6f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1c75a267-4b3e-4cf7-88d3-8460d1b78015",
+        "regionLabel" : "Column 2",
+        "regionName" : "da221",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f37797b2-c651-447e-b373-78e04c54aa2b",
+          "columns" : [ {
+            "UUID" : "1b3f6c53-1825-4402-9063-255a9f084f3e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "cc799d64-a9f3-4b49-ab5c-0059e3097525",
+            "columnKey" : "f2e1a",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f37797b2-c651-447e-b373-78e04c54aa2b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Proceso en Planta Concentradora</h2><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8f71db18-d840-4c64-a58a-5ac0560fcaa4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(72, 72, 72);\">En la Planta Concentradora se realiza la separación del fosfato de otros minerales considerados residuales para lograr su concentración mediante procesos netamente mecánicos como: lavado de la roca con agua de mar, tamizado e hidrociclonado.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "088eb41a-3707-4f12-a7e2-9eb1f3639131",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1b3f6c53-1825-4402-9063-255a9f084f3e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/blt3fEtFZew\" src=\"https://www.youtube.com/embed/blt3fEtFZew\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e3439c0c-696a-40f3-8bf2-53a780422efe",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cc799d64-a9f3-4b49-ab5c-0059e3097525",
+        "regionLabel" : "Column 2",
+        "regionName" : "f2e1a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1729cc14-9c20-4f02-b1f1-9d2e4edae4cc",
+          "columns" : [ {
+            "UUID" : "682bea1a-9186-452e-94a0-64a69546bb56",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b9e40998-1964-4e13-8b58-4b4f4ab0c9f9",
+            "columnKey" : "1d7c3",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1729cc14-9c20-4f02-b1f1-9d2e4edae4cc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Proceso en Descarga y Secado</h2><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e1be4c06-a30d-46d2-802b-d5250a905ace",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(72, 72, 72);\">Cuando el concentrado de Planta llega a la zona de Descarga, los camiones tritrenes descargan el concentrado a una faja transportadora de 5 kilómetros de longitud que se dirige a la zona de Secado, aquí es donde se reduce el porcentaje de humedad del concentrado al 3% en promedio a través de hornos secadores</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "986a768e-4d81-46e4-ad56-25bb9221e9f6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "682bea1a-9186-452e-94a0-64a69546bb56",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/7HOe8SLL5Dk\" src=\"https://www.youtube.com/embed/7HOe8SLL5Dk\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0dc6bc7f-ce86-442e-a54e-d87ffda7d0b5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b9e40998-1964-4e13-8b58-4b4f4ab0c9f9",
+        "regionLabel" : "Column 2",
+        "regionName" : "1d7c3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "dd0d578a-40f7-4582-b32f-6f490c91e598",
+          "columns" : [ {
+            "UUID" : "934e00c7-8973-4414-8891-45cdf1680e0a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "324f03c8-ac0f-4e29-bdee-aa716beff380",
+            "columnKey" : "f094a",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "dd0d578a-40f7-4582-b32f-6f490c91e598",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2>Puerto</h2><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "90bdc027-83ea-49df-8bbb-d6c2386ceccc",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px; color: rgb(72, 72, 72);\">El fosfato seco, como producto final, se entrega a los clientes en los barcos y para transportarlo de nuestros silos de almacenamiento a los navíos se usa una faja tubular cerrada que impide el derrame del fosfato al mar.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "10f2957c-2e1a-44af-8f0d-f7883a0af7df",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "934e00c7-8973-4414-8891-45cdf1680e0a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/K03LXc0314o\" src=\"https://www.youtube.com/embed/K03LXc0314o\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0abc9926-84df-471f-b5b7-f3fb102a43fe",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "324f03c8-ac0f-4e29-bdee-aa716beff380",
+        "regionLabel" : "Column 2",
+        "regionName" : "f094a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(245,17,17)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "65d21867-8720-4675-b49b-2864f808ed37",
+          "columns" : [ {
+            "UUID" : "98da7495-8a2a-45c6-a42e-b39d6ed52049",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "65d21867-8720-4675-b49b-2864f808ed37",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">¿Quieres conocer más detalles de nuestro proceso productivo?</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "19728ed8-4332-4799-8aee-c202cde460c7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 18px; color: rgb(255, 255, 255);\">Revisa nuestro video completo de “Minería verde” en nuestro </span></p><p style=\"text-align: center;\"><span style=\"font-size: 18px; color: rgb(255, 255, 255);\">canal de YouTube o descarga nuestra infografía.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5f190f8c-8573-40c7-8b06-7569bbe6facb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "98da7495-8a2a-45c6-a42e-b39d6ed52049",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "5afa4947-039b-4f20-9293-2faf67d8801b",
+          "columns" : [ {
+            "UUID" : "87dd1689-0ac6-4a74-91f0-82a527a96d1b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a5b588a8-bbb7-4222-9db5-04470ab42880",
+            "columnKey" : "c0595",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 339
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5afa4947-039b-4f20-9293-2faf67d8801b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"sfdcCbVideoContainer\"><iframe class=\"sfdcCbVideo\" allowfullscreen=\"true\" width=\"100%\" title=\"Video from https://www.youtube.com/embed/xtPgTFHt2fA\" src=\"https://www.youtube.com/embed/xtPgTFHt2fA\"></iframe></div><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3c2a64a3-295a-4b86-bb7d-6fbd96de7e66",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "white",
+            "borderColor" : "white",
+            "borderRadius" : "6",
+            "borderThickness" : "1",
+            "fontSize" : "1.2",
+            "label" : "VER VIDEO",
+            "textColor" : "red",
+            "url" : "https://www.youtube.com/watch?v=xtPgTFHt2fA"
+          },
+          "componentName" : "c:miskiMayoReusableButton",
+          "id" : "403df050-a9ab-4403-9cdf-838ba7c352be",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "87dd1689-0ac6-4a74-91f0-82a527a96d1b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.mineri_verd.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3fb1c1c8-4609-4809-ad9f-3cda7b699d54",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "white",
+            "borderColor" : "white",
+            "borderRadius" : "6",
+            "borderThickness" : "1",
+            "fontSize" : "1.2",
+            "label" : "DESCARGAR",
+            "textColor" : "red",
+            "url" : "https://enfoquedigitalweb.com/wp-content/uploads/2023/01/proceso-productivo-1.pdf"
+          },
+          "componentName" : "c:miskiMayoReusableButton",
+          "id" : "3976ed5c-f0ee-4521-9f1c-017dca5c670b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a5b588a8-bbb7-4222-9db5-04470ab42880",
+        "regionLabel" : "Column 2",
+        "regionName" : "c0595",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3a70a961-40cd-4e6a-a12f-34a713f64759",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Proceso productivo"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c81820da-64b9-446d-bd34-d5f44c9fe113",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7f878c73-e100-43f1-ae33-6fc5d4b38ad0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-proceso-productivo"
+}

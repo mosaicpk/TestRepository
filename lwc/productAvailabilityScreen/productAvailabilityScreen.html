@@ -1,0 +1,92 @@
+<template>
+    <lightning-card>
+        <div slot="title" class="slds-c-button-text-color-destructive"><h1 slot="title"><lightning-icon icon-name="standard:product_transfer" size="small" slot="title"></lightning-icon>Product Availability</h1></div>
+            <!-- <lightning-button onclick={handleBackToCart} label="Back to Cart"></lightning-button> -->
+            <lightning-button variant="brand" class="slds-c-button-text-color-destructive" label="Pull Quantity" slot="actions"></lightning-button>
+        <div>
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover">
+                <thead>
+                    <tr>
+                        <th class="slds-text-title_caps">Product</th>
+                        <th class="slds-text-title_caps">Ship To</th>
+                        <th class="slds-text-title_caps">Delivery Information</th>
+                        <th class="slds-text-title_caps">Ship From</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{quoteLineProductName}</td>
+                        <td>{quoteLineShipTo}</td>
+                        <td>{quoteLineDeliveryInformation}</td>
+                        <td>{quoteLineShipFrom}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover">
+                <thead>
+                    <tr>
+                        <th class="slds-text-title_caps">Contracted Quantity</th>
+                        <th class="slds-text-title_caps">Validity Period</th>
+                        <th class="slds-text-title_caps">Frequency</th>
+                        <th class="slds-text-title_caps"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{totalQuoteLineQuantity}</td>
+                        <td>{quoteLineValidityPeriod}</td>
+                        <td>Monthly</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer small-font">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="slds-text-title_caps">Requested Date</th>
+                    <th class="slds-text-title_caps">Requested Quantity</th>
+                    <th class="slds-text-title_caps">Confirmed Date</th>
+                    <th class="slds-text-title_caps">Confirmed Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={availabilityData} for:item="row" for:index="rowIndex">
+                    <tr key={row.id}>
+                        <td><lightning-input type="date" 
+                            value={row.date} 
+                            min={minDate} 
+                            max={maxDate} 
+                            onchange={handleDateChange}
+                            required></lightning-input></td>
+                        <td>
+                            <lightning-input type="number"
+                            value={row.quantity}
+                            onchange={handleQuantityChange}
+                            required
+                            name = {rowIndex}></lightning-input>
+                            <div class="slds-text-color_error">{quantitySumError}</div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+        <template if:true={totalQuantityLeft} > 0>
+            <div class="slds-box slds-m-top_medium">
+                <h3 class="slds-text-body_small">Still have <span class="slds-text-body_small slds-text-color_destructive">{totalQuantityLeft}</span> Tons to be added</h3>
+            </div>
+        </template>
+        <div class="slds-grid slds-grid_align-spread">
+            <button class="slds-button slds-button_icon slds-button_icon-large" onclick={handlePreviousClick}>
+                <lightning-icon icon-name="utility:left" size="large"></lightning-icon>
+            </button>
+            <button class="slds-button slds-button_icon slds-button_icon-large" onclick={handleNextClick}>
+                <lightning-icon icon-name="utility:right" size="large"></lightning-icon>
+            </button>
+        </div>
+    </lightning-card>
+</template>

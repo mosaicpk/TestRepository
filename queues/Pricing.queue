@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Queue to validade Sold-to Accounts Extensions for 4004 and 4005 Sales Orgs</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Pricing</name>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

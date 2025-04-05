@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Product Option --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Product Option --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- OptionConfiguration --></label>
+        <name>SBQQ__OptionConfiguration</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OptionLookup --></label>
+        <name>SBQQ__OptionLookup</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filtros de búsqueda</label>
+        <name>SBQQ__SearchFilters</name>
+    </fieldSets>
+    <fields>
+        <help>&quot;“Aplicar inmediatamente al seleccionar” aplica los cambios inmediatamente al seleccionar el producto, mientras que &quot;Aplicar inmediatamente al cambiar la cantidad&quot; lo hace al cambiar la cantidad. “Siempre” se aplica tanto a los cambios de producto como a los cambios de cantidad.&quot;</help>
+        <label>Contexto de aplicar inmediatamente</label>
+        <name>SBQQ__AppliedImmediatelyContext__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Quantity Change</masterLabel>
+            <translation>Sobre el cambio de cantidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Selection</masterLabel>
+            <translation>Sobre la selección</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla para aplicar inmediatamente los cambios a esta opción. Utilícelo con moderación para evitar una experiencia de usuario lenta.</help>
+        <label>Aplicar inmediatamente</label>
+        <name>SBQQ__AppliedImmediately__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Marque la casilla para indicar que el producto relacionado está incluido en el producto principal. Las opciones agrupadas tienen cantidad fija y precio cero, ya que el precio está incluido en el producto principal. Déjelo sin marcar si el precio debe añadirse a la opción.&quot;</help>
+        <label>Agrupado</label>
+        <name>SBQQ__Bundled__c</name>
+    </fields>
+    <fields>
+        <help>Posición de este componente en el código de producto generado para la configuración.</help>
+        <label>Posición del Componente en el Código</label>
+        <name>SBQQ__ComponentCodePosition__c</name>
+    </fields>
+    <fields>
+        <help>Código del componente representado por esta opción.</help>
+        <label>Código de componente</label>
+        <name>SBQQ__ComponentCode__c</name>
+    </fields>
+    <fields>
+        <help>Posición de este componente en la descripción del producto generada para la configuración.</help>
+        <label>Posición componente Descripción</label>
+        <name>SBQQ__ComponentDescriptionPosition__c</name>
+    </fields>
+    <fields>
+        <help>Descripción del componente representado por esta opción. Se utiliza junto con el campo Patrón de descripción configurado del objeto Producto.</help>
+        <label>Descripción del componente</label>
+        <name>SBQQ__ComponentDescription__c</name>
+    </fields>
+    <fields>
+        <help>&quot;SKU del producto del paquete que se está configurando con esta opción. Si crea la opción desde la página de detalles del producto, ya debería estar rellenada.&quot;</help>
+        <label>SKU configurado</label>
+        <name>SBQQ__ConfiguredSKU__c</name>
+        <relationshipLabel>Opciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione la tabla de precios en la que este producto debe aparecer por defecto cuando se definen las dimensiones de los precios.</help>
+        <label>Tabla de precios por defecto</label>
+        <name>SBQQ__DefaultPricingTable__c</name>
+        <picklistValues>
+            <masterLabel>Segmented</masterLabel>
+            <translation>Segmentado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Estándar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Descuento (Imt), basado en el campo, cuando el producto referenciado para esta opción se ofrece de forma independiente. Pero, usted tendrá que extender un descuento si se compra una parte de este producto en agrupado.&quot;</help>
+        <label>Descuento (importe)</label>
+        <name>SBQQ__DiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Busque el programa de descuentos que se aplicará al producto seleccionado por esta opción. Este programa de descuentos anula el programa de descuentos seleccionado en el producto o función.</help>
+        <label>Programa de descuentos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Opciones de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Introduzca un Descuento (%), basado en el campo, cuando el producto referenciado para esta opción se ofrezca de forma independiente. Pero, usted tendrá que extender un descuento si se compra una parte de este producto en agrupado.&quot;</help>
+        <label>Descuento (%)</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta casilla para aplicar automáticamente el descuento adicional del paquete principal a este componente. Sólo se puede aplicar un descuento porcentual.</help>
+        <label>Descuento por paquete</label>
+        <name>SBQQ__DiscountedByPackage__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad existente de este producto. Se calcula a partir de los activos adscritos a la cuenta.</help>
+        <label>Cantidad existente</label>
+        <name>SBQQ__ExistingQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca o busque la función que incluye esta opción. Esto dependerá de la SKU configurada.</help>
+        <label>Característica</label>
+        <name>SBQQ__Feature__c</name>
+        <relationshipLabel>Opciones de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cantidad máxima permitida para esta opción.</help>
+        <label>Cantidad máxima</label>
+        <name>SBQQ__MaxQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad mínima permitida para esta opción.</help>
+        <label>Cantidad mínima</label>
+        <name>SBQQ__MinQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Establece el orden de visualización de esta opción dentro de la función a la que está asignada.</help>
+        <label>N�mero</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca o busque el SKU del producto que debe añadirse cuando se seleccione este producto.</help>
+        <label>SKU opcional</label>
+        <name>SBQQ__OptionalSKU__c</name>
+        <relationshipLabel>Opcional para</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Seleccione esta opción para marcar el precio como editable, permitiendo a los usuarios realizar cambios en los precios de las opciones.&quot;</help>
+        <label>Precio editable</label>
+        <name>SBQQ__PriceEditable__c</name>
+    </fields>
+    <fields>
+        <help>Código de producto para el SKU del producto opcional.</help>
+        <label>Código del producto</label>
+        <name>SBQQ__ProductCode__c</name>
+    </fields>
+    <fields>
+        <help>Extrae el valor de Tipo de configuración en el objeto Producto para evitar cargar el registro de producto relacionado.</help>
+        <label>Tipo de configuración del producto</label>
+        <name>SBQQ__ProductConfigurationType__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de la SKU opcional.</help>
+        <label>Descripción del Producto</label>
+        <name>SBQQ__ProductDescription__c</name>
+    </fields>
+    <fields>
+        <help>Familia de productos para el SKU del producto opcional.</help>
+        <label>Familia de productos</label>
+        <name>SBQQ__ProductFamily__c</name>
+    </fields>
+    <fields>
+        <help>Nombre para la SKU opcional.</help>
+        <label>Nombre del producto</label>
+        <name>SBQQ__ProductName__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el número de decimales utilizados en el campo Cantidad.</help>
+        <label>Escala de cantidad de productos</label>
+        <name>SBQQ__ProductQuantityScale__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Tipo de precio que se utilizará para esta suscripción. &quot;Ninguno&quot; significa que este producto no es una suscripción.&quot;</help>
+        <label>Precios de suscripción a productos</label>
+        <name>SBQQ__ProductSubscriptionPricing__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta opción para permitir que se edite la cantidad aunque esté especificada en la opción.</help>
+        <label>Cantidad Editable</label>
+        <name>SBQQ__QuantityEditable__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad del producto relacionado que debe añadirse al presupuesto.</help>
+        <label>Cantidad</label>
+        <name>SBQQ__Quantity__c</name>
+    </fields>
+    <fields>
+        <help>Configure la visibilidad de la línea de presupuesto generada por esta opción.</help>
+        <label>Visibilidad de la línea de presupuesto</label>
+        <name>SBQQ__QuoteLineVisibility__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Only</masterLabel>
+            <translation>Sólo documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Editor Only</masterLabel>
+            <translation>Sólo editor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>Nunca</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Opción de producto que sustituye a esta opción de producto en la renovación. Utilícelo para indicar un SKU diferente al renovar.</help>
+        <label>Opción de producto de renovación</label>
+        <name>SBQQ__RenewalProductOption__c</name>
+        <relationshipLabel>Opciones de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque la casilla si este producto es necesario en el paquete.</help>
+        <label>Requerido</label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help>Marque la casilla si esta opción de producto debe seleccionarse automáticamente por defecto.</help>
+        <label>Seleccionado</label>
+        <name>SBQQ__Selected__c</name>
+    </fields>
+    <fields>
+        <help>Elija cómo se calcula esta opción de porcentaje del producto total. El envase es específico del producto principal. Componentes es específico de los componentes hermanos. Toda la jerarquía abarca todas las líneas de la configuración.</help>
+        <label>Porcentaje del Alcance total</label>
+        <name>SBQQ__SubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Components</masterLabel>
+            <translation>Componentes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entire Hierarchy</masterLabel>
+            <translation>Toda la jerarquía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package</masterLabel>
+            <translation>Paquete</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package &amp; Components</masterLabel>
+            <translation>Paquete y componentes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Seleccione la casilla para indicar que esta opción está gestionada por el sistema, lo que hace que no esté disponible para la selección del usuario.&quot;</help>
+        <label>Sistema</label>
+        <name>SBQQ__System__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Utilice &quot;Componente&quot; si esta opción, incluida la cantidad, depende del principal. Utilice &quot;Accesorio&quot; si esta opción depende del principal pero la cantidad es independiente. Utilice &quot;Producto relacionado&quot; para productos relacionados pero totalmente independientes.&quot;</help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation>Accesorio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation>Componente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation>Productos relacionados</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Precio unitario para esta opción. Esto anulará el valor del libro de precios.</help>
+        <label>Precio unitario</label>
+        <name>SBQQ__UnitPrice__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta casilla para aplicar automáticamente el Uplift del paquete principal a este componente. Sólo se aplica a los componentes que son productos multi-segmentados.</help>
+        <label>Uplift al paquete</label>
+        <name>SBQQ__UpliftedByPackage__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Option Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>&quot;El campo &quot;Aplicar inmediatamente&quot; debe estar marcado antes de proporcionar un &quot;Contexto de aplicación inmediata&quot;. En caso contrario, cambie el campo &quot;Aplicar inmediatamente el contexto&quot; a &quot;Ninguno&quot;.&quot;</errorMessage>
+        <name>SBQQ__Apply_Immediately_Context_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se pueden incluir productos perennes y renovables en el mismo paquete.</errorMessage>
+        <name>SBQQ__Cannot_Bundle_Evergreen_Renewable_SKUs</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se pueden incluir productos perennes y renovables en el mismo paquete.</errorMessage>
+        <name>SBQQ__Cannot_Have_RenewableEvergreen_In_Bundle</name>
+    </validationRules>
+    <webLinks>
+        <label>Traducir</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

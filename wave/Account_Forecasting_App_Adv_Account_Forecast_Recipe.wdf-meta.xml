@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataflow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <application>Account_Forecasting_App</application>
+    <dataflowType>RecipeV3</dataflowType>
+    <description>Recipe Account Forecasting App Adv Account Forecast Recipe_recipe</description>
+    <masterLabel>Account Forecasting App Adv Account Forecast Recipe_recipe</masterLabel>
+</WaveDataflow>

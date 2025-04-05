@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- PMC DH PersonaPermissionSetGroup --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- PMC DH PersonaPermissionSetGroup --></value>
+    </caseValues>
+    <fields>
+        <label>Orden de visualización</label>
+        <name>intDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label>Nombre (Etiqueta Personalizada API)</label>
+        <name>strDisplayNameCustomLabelApiName__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de conjuntos de permisos</label>
+        <name>strPermissionSetGroup__c</name>
+    </fields>
+    <fields>
+        <label>Perfil</label>
+        <name>strProfile__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

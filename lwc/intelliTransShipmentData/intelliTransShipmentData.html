@@ -1,0 +1,28 @@
+<template>
+    <template lwc:if={shipmentData}>
+        <lightning-datatable
+            key-field="DELIVERYNUMBER"
+            data={paginatedShipments}
+            columns={columns}>
+        </lightning-datatable>
+        <lightning-button
+            label="Load More"
+            onclick={loadMoreData}
+            class="slds-m-top_medium"
+        >
+        </lightning-button>
+    </template>
+
+    <template lwc:if={hasError}>
+        <p>There was an error retrieving the Shipment data</p>
+        <br>
+        <div>Error message: {errorMessage}</div>
+    </template>
+    
+    <template lwc:if={isLoading}>
+        <div class="exampleHolder">
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+    </template>
+    
+</template>

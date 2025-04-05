@@ -1,0 +1,3187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cotação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cotações</value>
+    </caseValues>
+    <fieldSets>
+        <label>Editor de linha BR</label>
+        <name>PMC_CPQ_LineEditorBR</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor BR Amendment --></label>
+        <name>PMC_CPQ_LineEditorBRAmendment</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Editor de linha NA</label>
+        <name>PMC_CPQ_LineEditorNA</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Editor de linha Distribuição NA</label>
+        <name>PMC_CPQ_LineEditorNADist</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Cálculo de campos</label>
+        <name>SBQQ__CalculatingFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor --></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Campos bloqueados de cotações não correntes</label>
+        <name>SBQQ__NonCurrentQuoteLockedFields</name>
+    </fieldSets>
+    <fields>
+        <label>Status de aprovação</label>
+        <name>ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>Recuperado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Block/Replace Original Contract ID --></label>
+        <name>Block_Replace_Original_Contract_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Blocked --></label>
+        <name>Contract_Blocked__c</name>
+        <relationshipLabel><!-- CPQ Quotes (Contract Blocked) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dummmy Text &amp; Conditions --></label>
+        <name>Dummmy_Text_Conditions__c</name>
+    </fields>
+    <fields>
+        <label>Cabeçalhos QLE Condicionalidade</label>
+        <name>EditLinesFieldSetName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOB Plant City --></label>
+        <name>FOB_Plant_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOB Plant Name --></label>
+        <name>FOB_Plant_Name__c</name>
+    </fields>
+    <fields>
+        <label>Campo infos cotação condicional</label>
+        <name>HeaderFieldSetName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is FPD order --></label>
+        <name>Is_FPD_order__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOT_Shipping_TypePOC --></label>
+        <name>MOT_Shipping_TypePOC__c</name>
+        <picklistValues>
+            <masterLabel>Barge FCA</masterLabel>
+            <translation><!-- Barge FCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barge FOB</masterLabel>
+            <translation><!-- Barge FOB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck CFR</masterLabel>
+            <translation><!-- Truck CFR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Moved to Draft Stage Time --></label>
+        <name>Moved_to_Draft_Stage_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Quote replacement margin --></label>
+        <name>Original_Quote_replacement_margin__c</name>
+    </fields>
+    <fields>
+        <label>Comentários adicionais</label>
+        <name>PMC_AdditionalComments__c</name>
+    </fields>
+    <fields>
+        <label>Garantia acordada</label>
+        <name>PMC_CLM_Agreed_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label>Itinerário CIF</label>
+        <name>PMC_CLM_CIF_ITINERARY__c</name>
+    </fields>
+    <fields>
+        <label>Contrato criado</label>
+        <name>PMC_CLM_ContractCreated__c</name>
+    </fields>
+    <fields>
+        <label>URL do contrato</label>
+        <name>PMC_CLM_ContractURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Counterparty Logo --></label>
+        <name>PMC_CLM_CounterpartyLogo__c</name>
+    </fields>
+    <fields>
+        <label>Status da assinatura do cliente</label>
+        <name>PMC_CLM_CustomerSignatureStatus__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation>Feito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Prazo para formalização da Garantia</label>
+        <name>PMC_CLM_DeadlineForFormalizingGuarantee__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de entrega</label>
+        <name>PMC_CLM_DeliveryType__c</name>
+        <picklistValues>
+            <masterLabel>Auto Acceptance</masterLabel>
+            <translation>Aceitação automática</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign</masterLabel>
+            <translation>Sinal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Entrega</label>
+        <name>PMC_CLM_Delivery__c</name>
+    </fields>
+    <fields>
+        <label>Nº do documento</label>
+        <name>PMC_CLM_DocumentNumber__c</name>
+    </fields>
+    <fields>
+        <label>Contrato Evergreen</label>
+        <name>PMC_CLM_Evergreen_Contract__c</name>
+    </fields>
+    <fields>
+        <label>ExpirationTimeMinutesHour</label>
+        <name>PMC_CLM_ExpirationTimeMinutesHour__c</name>
+    </fields>
+    <fields>
+        <label>Credenciamento FOB</label>
+        <name>PMC_CLM_FOB_ACCREDITATION__c</name>
+    </fields>
+    <fields>
+        <label>Garantia</label>
+        <name>PMC_CLM_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label>Outro motivo de cancelamento</label>
+        <name>PMC_CLM_OtherRejectionReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Freight Terms --></label>
+        <name>PMC_CLM_Other_Freight_Terms__c</name>
+    </fields>
+    <fields>
+        <label>Identificação do documento de cotação</label>
+        <name>PMC_CLM_QuoteDocumentId__c</name>
+    </fields>
+    <fields>
+        <label>Nome do documento de cotação</label>
+        <name>PMC_CLM_QuoteDocumentName__c</name>
+    </fields>
+    <fields>
+        <label>E-mail do destinatário ou da assinatura</label>
+        <name>PMC_CLM_RecipientorSignatureEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nome do destinatário ou da assinatura</label>
+        <name>PMC_CLM_RecipientorSignatureName__c</name>
+    </fields>
+    <fields>
+        <label>Região</label>
+        <name>PMC_CLM_Region__c</name>
+    </fields>
+    <fields>
+        <label>Reenviar documento do contrato</label>
+        <name>PMC_CLM_ResendContractDocument__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Serviços</label>
+        <name>PMC_CLM_Services__c</name>
+    </fields>
+    <fields>
+        <label>E-mail do assinante adicional</label>
+        <name>PMC_CLM_Signer2Email__c</name>
+    </fields>
+    <fields>
+        <label>Nome do signatário adicional</label>
+        <name>PMC_CLM_Signer2Name__c</name>
+    </fields>
+    <fields>
+        <label>Estatísticas</label>
+        <name>PMC_CLM_Statistic__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalPotashDiscount --></label>
+        <name>PMC_CLM_TotalPotashDiscount__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de garantia</label>
+        <name>PMC_CLM_TypeOfGuarantee__c</name>
+    </fields>
+    <fields>
+        <label>País da conta</label>
+        <name>PMC_CPQ_AccountCountry__c</name>
+    </fields>
+    <fields>
+        <label>Status de crédito da conta</label>
+        <name>PMC_CPQ_AccountCreditStatus__c</name>
+    </fields>
+    <fields>
+        <help>Indica o gerente da conta para a cotação</help>
+        <label>Gerente de contas</label>
+        <name>PMC_CPQ_AccountManager__c</name>
+        <relationshipLabel>Cotações de CPQ (gerente de contas)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Adendo</label>
+        <name>PMC_CPQ_Addendum__c</name>
+    </fields>
+    <fields>
+        <label>Faturamento antecipado</label>
+        <name>PMC_CPQ_AdvanceBilling__c</name>
+    </fields>
+    <fields>
+        <label>Backend de aprovação de alterações</label>
+        <name>PMC_CPQ_AmendmentApprovalBackend__c</name>
+    </fields>
+    <fields>
+        <label>Indicador de alteração</label>
+        <name>PMC_CPQ_AmendmentIndicator__c</name>
+    </fields>
+    <fields>
+        <label>Condição de aprovação</label>
+        <name>PMC_CPQ_ApprovalCondition__c</name>
+        <picklistValues>
+            <masterLabel>Approvals received via Email</masterLabel>
+            <translation><!-- Approvals received via Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approvals received via Phone/Call</masterLabel>
+            <translation><!-- Approvals received via Phone/Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approvals received via Text</masterLabel>
+            <translation><!-- Approvals received via Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Submission Date --></label>
+        <name>PMC_CPQ_ApprovalSubmissionDate__c</name>
+    </fields>
+    <fields>
+        <label>Status aprovado Duração</label>
+        <name>PMC_CPQ_ApprovedStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Alternância de aprovação automática</label>
+        <name>PMC_CPQ_AutoApprovedToggle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Reject Update --></label>
+        <name>PMC_CPQ_AutoRejectUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- B2B/B2C Indicator --></label>
+        <name>PMC_CPQ_B2BB2CIndicator__c</name>
+    </fields>
+    <fields>
+        <label>Nível 1 desconto em commodity BR</label>
+        <name>PMC_CPQ_BRCommodityDiscountLevel1__c</name>
+    </fields>
+    <fields>
+        <label>Nível 2 desconto em commodity BR</label>
+        <name>PMC_CPQ_BRCommodityDiscountLevel2__c</name>
+    </fields>
+    <fields>
+        <label>Nível 3 desconto em commodity BR</label>
+        <name>PMC_CPQ_BRCommodityDiscountLevel3__c</name>
+    </fields>
+    <fields>
+        <label>Nível 1 de desconto por desempenho BR</label>
+        <name>PMC_CPQ_BRPerformanceDiscountLevel1__c</name>
+    </fields>
+    <fields>
+        <label>Nível 2 de desconto por desempenho BR</label>
+        <name>PMC_CPQ_BRPerformanceDiscountLevel2__c</name>
+    </fields>
+    <fields>
+        <label>Nível 3 de desconto por desempenho BR</label>
+        <name>PMC_CPQ_BRPerformanceDiscountLevel3__c</name>
+    </fields>
+    <fields>
+        <label><!-- BR Quote Line Concatenated Payment Terms --></label>
+        <name>PMC_CPQ_BRQuoteLineConcatenatedPaymentT__c</name>
+    </fields>
+    <fields>
+        <label>Piso inferior Piso alto</label>
+        <name>PMC_CPQ_BelowFloorHighFloor__c</name>
+    </fields>
+    <fields>
+        <label>Piso inferior NUP alto</label>
+        <name>PMC_CPQ_BelowFloorHighNUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Below Floor High  Volume --></label>
+        <name>PMC_CPQ_BelowFloorHighVolume__c</name>
+    </fields>
+    <fields>
+        <label>Piso inferior Piso baixo</label>
+        <name>PMC_CPQ_BelowFloorLowFloor__c</name>
+    </fields>
+    <fields>
+        <label>Piso inferior NUP baixo</label>
+        <name>PMC_CPQ_BelowFloorLowNUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Below Floor Low Volume --></label>
+        <name>PMC_CPQ_BelowFloorLowVolume__c</name>
+    </fields>
+    <fields>
+        <label>Entre T e C NUP alto</label>
+        <name>PMC_CPQ_BetweenTCHighNUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Between T &amp; C High Volume --></label>
+        <name>PMC_CPQ_BetweenTCHighVolume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Between T &amp; F High Floor --></label>
+        <name>PMC_CPQ_BetweenTFHighFloor__c</name>
+    </fields>
+    <fields>
+        <label>Entre T e F NUP alto</label>
+        <name>PMC_CPQ_BetweenTFHighNUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Between T &amp; F High Target --></label>
+        <name>PMC_CPQ_BetweenTFHighTarget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Between T &amp; F High Volume --></label>
+        <name>PMC_CPQ_BetweenTFHighVolume__c</name>
+    </fields>
+    <fields>
+        <label>Entre T e F NUP baixo</label>
+        <name>PMC_CPQ_BetweenTFLowNUP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Between T &amp; F Low Volume --></label>
+        <name>PMC_CPQ_BetweenTFLowVolume__c</name>
+    </fields>
+    <fields>
+        <help>Conta para a qual esse valor será cobrado</help>
+        <label>Faturamento para conta</label>
+        <name>PMC_CPQ_BillToAccount__c</name>
+        <relationshipLabel>Cotações (fatura para conta)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Expiração do Bypass</label>
+        <name>PMC_CPQ_BypassExpiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bypass Validation --></label>
+        <name>PMC_CPQ_BypassValidation_del__c</name>
+    </fields>
+    <fields>
+        <label>Status do contrato do CLM</label>
+        <name>PMC_CPQ_CLMContractStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ceiling Price (Maximum Difference) --></label>
+        <name>PMC_CPQ_CeilingPriceMaximumDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cloned Quote Flow Bypass Logic(Backend) --></label>
+        <name>PMC_CPQ_ClonedQuoteFlowBypassLogic__c</name>
+    </fields>
+    <fields>
+        <label>Cotação comercial/negociação</label>
+        <name>PMC_CPQ_CommercialTradingQuote__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trading Quote</masterLabel>
+            <translation>Cotação de negociação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Comissionista</label>
+        <name>PMC_CPQ_CommissionAgent__c</name>
+        <relationshipLabel>Cotações CPQ (Comissionista)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Comissão %</label>
+        <name>PMC_CPQ_Commission__c</name>
+    </fields>
+    <fields>
+        <label>Produto do concorrente</label>
+        <name>PMC_CPQ_CompetitorProduct__c</name>
+    </fields>
+    <fields>
+        <label>Concorrente</label>
+        <name>PMC_CPQ_Competitor__c</name>
+    </fields>
+    <fields>
+        <label>Consignação</label>
+        <name>PMC_CPQ_Consignment__c</name>
+    </fields>
+    <fields>
+        <label>E-mail de contato</label>
+        <name>PMC_CPQ_ContactEmail__c</name>
+    </fields>
+    <fields>
+        <label>Telefone para contato</label>
+        <name>PMC_CPQ_ContactPhone__c</name>
+    </fields>
+    <fields>
+        <help>Data final da cotação</help>
+        <label>Contrato válido até</label>
+        <name>PMC_CPQ_ContractEnd__c</name>
+    </fields>
+    <fields>
+        <label>Idioma da proposta de cotação</label>
+        <name>PMC_CPQ_ContractLanguage__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Inglês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation>Portugu�s</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Espanhol</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Período do contrato</label>
+        <name>PMC_CPQ_ContractPeriod__c</name>
+    </fields>
+    <fields>
+        <label>Instruções de envio</label>
+        <name>PMC_CPQ_ContractShippingInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Status do documento do contrato</label>
+        <name>PMC_CPQ_ContractStageName__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Executed</masterLabel>
+            <translation>Parcialmente executada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Signature</masterLabel>
+            <translation>Assinatura pendente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Data de início da cotação</help>
+        <label>Contrato válido a partir de</label>
+        <name>PMC_CPQ_ContractStart__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de contrato</label>
+        <name>PMC_CPQ_ContractType__c</name>
+        <picklistValues>
+            <masterLabel>CCC</masterLabel>
+            <translation><!-- CCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FPD</masterLabel>
+            <translation><!-- FPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced</masterLabel>
+            <translation>Preço</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Contrato</label>
+        <name>PMC_CPQ_Contract__c</name>
+        <relationshipLabel>Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contratado</label>
+        <name>PMC_CPQ_Contracted__c</name>
+    </fields>
+    <fields>
+        <label>Valor do crédito Total</label>
+        <name>PMC_CPQ_CreditAmountTotal__c</name>
+    </fields>
+    <fields>
+        <label>Exposição de crédito</label>
+        <name>PMC_CPQ_CreditExposure__c</name>
+    </fields>
+    <fields>
+        <label>Limite de crédito</label>
+        <name>PMC_CPQ_CreditLimit__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de cultura</label>
+        <name>PMC_CPQ_CropType__c</name>
+    </fields>
+    <fields>
+        <label>Moeda</label>
+        <name>PMC_CPQ_Currency__c</name>
+        <picklistValues>
+            <masterLabel>BRL</masterLabel>
+            <translation><!-- BRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Data de criação personalizada</label>
+        <name>PMC_CPQ_CustomCreatedDate__c</name>
+    </fields>
+    <fields>
+        <help>Meio pelo qual o cliente se comunicou</help>
+        <label>Método de aceitação do cliente</label>
+        <name>PMC_CPQ_CustomerAcceptanceMethod__c</name>
+        <picklistValues>
+            <masterLabel>Accepted by DH Customer</masterLabel>
+            <translation>Aceito pelo cliente DH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocuSign</masterLabel>
+            <translation><!-- DocuSign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>E-mail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person</masterLabel>
+            <translation>Pessoalmente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation>Chamada telefônica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text/Whatsapp</masterLabel>
+            <translation>Texto/Whatsapp</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Preço oferecido ao cliente</label>
+        <name>PMC_CPQ_CustomerOfferedPrice__c</name>
+    </fields>
+    <fields>
+        <label>Segmento de clientes</label>
+        <name>PMC_CPQ_CustomerSegment__c</name>
+    </fields>
+    <fields>
+        <label>Setor do cliente</label>
+        <name>PMC_CPQ_CustomersIndustry__c</name>
+    </fields>
+    <fields>
+        <label>Data final da entrega</label>
+        <name>PMC_CPQ_DeliveryEndDate__c</name>
+    </fields>
+    <fields>
+        <help>A região de entrega é habilitada para ser preenchida somente quando a cotação é uma cotação VCO</help>
+        <label>Região de entrega</label>
+        <name>PMC_CPQ_DeliveryRegion__c</name>
+    </fields>
+    <fields>
+        <label>Data de início da entrega</label>
+        <name>PMC_CPQ_DeliveryStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Ano de entrega</label>
+        <name>PMC_CPQ_DeliveryYear__c</name>
+    </fields>
+    <fields>
+        <label>Desdobro</label>
+        <name>PMC_CPQ_Desdobro__c</name>
+    </fields>
+    <fields>
+        <label>Comentários sobre o destino</label>
+        <name>PMC_CPQ_DestinationComments__c</name>
+    </fields>
+    <fields>
+        <label>Destino</label>
+        <name>PMC_CPQ_Destination__c</name>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation>Austrália</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation><!-- Bangladesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation><!-- Belize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>Brasil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma</masterLabel>
+            <translation>Birmânia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation>Camboja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation>Canad&amp;#193;</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation>Colômbia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Rep</masterLabel>
+            <translation>República Dominicana</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation>Equador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation><!-- El Salvador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation>Guadalupe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation><!-- Guatemala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation><!-- Honduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation>Índia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation>Indonésia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation><!-- Jamaica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation>Japão</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos</masterLabel>
+            <translation><!-- Laos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation>Malásia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation>Martinica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation>México</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation>Marrocos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation>Nicarágua</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation>Panamá</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation>Filipinas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian Fed</masterLabel>
+            <translation>Fed russo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Korea</masterLabel>
+            <translation>Coreia do Sul</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation>Espanha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation><!-- Taiwan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation>Tailândia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>EUA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation>Uruguai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation>Vietnã</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Porta de descarga</label>
+        <name>PMC_CPQ_DischargePort__c</name>
+    </fields>
+    <fields>
+        <label>Ajuste de preço</label>
+        <name>PMC_CPQ_DiscountMarkup__c</name>
+    </fields>
+    <fields>
+        <label>ID do documento</label>
+        <name>PMC_CPQ_Document_ID__c</name>
+    </fields>
+    <fields>
+        <label>Documentos necessários Comentários</label>
+        <name>PMC_CPQ_DocumentsRequiredComments__c</name>
+    </fields>
+    <fields>
+        <label>Status do rascunho Duração</label>
+        <name>PMC_CPQ_DraftStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Frete</label>
+        <name>PMC_CPQ_EstFreightPrice__c</name>
+    </fields>
+    <fields>
+        <label>Taxa de câmbio negociada</label>
+        <name>PMC_CPQ_ExchangeRate__c</name>
+    </fields>
+    <fields>
+        <label>Data de expiração</label>
+        <name>PMC_CPQ_ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help>Quando o status da cotação não for aceito ou rejeitado, esse campo indicará a duração em que a cotação expirará</help>
+        <label>Duração da expiração</label>
+        <name>PMC_CPQ_ExpirationDuration__c</name>
+    </fields>
+    <fields>
+        <label>Tempo de expiração</label>
+        <name>PMC_CPQ_ExpirationTime__c</name>
+    </fields>
+    <fields>
+        <help>Indica a data e a hora em que essa cotação expirará</help>
+        <label>Data/hora de expiração</label>
+        <name>PMC_CPQ_ExpiresOn__c</name>
+    </fields>
+    <fields>
+        <label>Comentários da FPD</label>
+        <name>PMC_CPQ_FPDComments__c</name>
+    </fields>
+    <fields>
+        <label>1ª linha de cotação: estado para envio</label>
+        <name>PMC_CPQ_FirstQuoteLineShipToState__c</name>
+    </fields>
+    <fields>
+        <label>Alternância de bypass de VR de fluxo</label>
+        <name>PMC_CPQ_FlowVRByPassToggle__c</name>
+    </fields>
+    <fields>
+        <label>Termos condições carregamento FoB</label>
+        <name>PMC_CPQ_FoBLoadingTermsConditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast --></label>
+        <name>PMC_CPQ_Forecast__c</name>
+    </fields>
+    <fields>
+        <label>Comentários gerais</label>
+        <name>PMC_CPQ_GeneralComments__c</name>
+    </fields>
+    <fields>
+        <label>Termos e condições gerais</label>
+        <name>PMC_CPQ_GeneralTermsAndConditions__c</name>
+    </fields>
+    <fields>
+        <label>Obter preço de call completo</label>
+        <name>PMC_CPQ_GetPriceCallComplete__c</name>
+    </fields>
+    <fields>
+        <help>Cotação priorizada para a AM enviar ao cliente</help>
+        <label>Cotação quente</label>
+        <name>PMC_CPQ_HotQuote__c</name>
+    </fields>
+    <fields>
+        <label>IS BR</label>
+        <name>PMC_CPQ_ISBR__c</name>
+    </fields>
+    <fields>
+        <label>Incoterm2</label>
+        <name>PMC_CPQ_Incoterms2__c</name>
+        <picklistValues>
+            <masterLabel>SAP/Supply chain</masterLabel>
+            <translation><!-- SAP/Supply chain --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Incoterms</label>
+        <name>PMC_CPQ_Incoterms__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de negócio industrial</label>
+        <name>PMC_CPQ_IndustrialBusinessType__c</name>
+    </fields>
+    <fields>
+        <label>Remessa industrial</label>
+        <name>PMC_CPQ_IndustrialShipment__c</name>
+    </fields>
+    <fields>
+        <help>recebe a mensagem de resposta de integração</help>
+        <label>Mensagem de integração</label>
+        <name>PMC_CPQ_IntegrationMessage__c</name>
+    </fields>
+    <fields>
+        <help>Indica o status geral da integração</help>
+        <label>Status de integração</label>
+        <name>PMC_CPQ_IntegrationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Pronto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Advertência</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Contrato anual internacional</label>
+        <name>PMC_CPQ_InternationalAnnualContract__c</name>
+    </fields>
+    <fields>
+        <label>IsCloned</label>
+        <name>PMC_CPQ_IsCloned__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsContractDateChanged --></label>
+        <name>PMC_CPQ_IsContractDateChanged__c</name>
+    </fields>
+    <fields>
+        <label>O período do contrato foi alterado?</label>
+        <name>PMC_CPQ_IsContractPeriodChanged__c</name>
+    </fields>
+    <fields>
+        <label>Eliminado</label>
+        <name>PMC_CPQ_IsDeleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is KAM --></label>
+        <name>PMC_CPQ_IsKAM__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsSubmissionReady --></label>
+        <name>PMC_CPQ_IsSubmissionReady__c</name>
+    </fields>
+    <fields>
+        <help>Indica a data em que qualquer atividade foi realizada nessa cotação.</help>
+        <label>Data da última atividade</label>
+        <name>PMC_CPQ_LastActivityDate__c</name>
+    </fields>
+    <fields>
+        <label>Último contrato válido até</label>
+        <name>PMC_CPQ_LastContractEnd__c</name>
+    </fields>
+    <fields>
+        <label>Último contrato válido desde</label>
+        <name>PMC_CPQ_LastContractStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Priced Date --></label>
+        <name>PMC_CPQ_LastPricedDate__c</name>
+    </fields>
+    <fields>
+        <label>Data da última referência</label>
+        <name>PMC_CPQ_LastReferencedDate__c</name>
+    </fields>
+    <fields>
+        <label>Data da última visualização</label>
+        <name>PMC_CPQ_LastViewedDate__c</name>
+    </fields>
+    <fields>
+        <label>Data final do Laycan</label>
+        <name>PMC_CPQ_LaycanEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Data de início do Laycan</label>
+        <name>PMC_CPQ_LaycanStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Liquidação de tempo de espera</label>
+        <name>PMC_CPQ_LaytimeSettlement__c</name>
+    </fields>
+    <fields>
+        <label>Contrato Original SAP</label>
+        <name>PMC_CPQ_LegacyQuoteID__c</name>
+    </fields>
+    <fields>
+        <label>Comentários do Loadport</label>
+        <name>PMC_CPQ_LoadportComments__c</name>
+    </fields>
+    <fields>
+        <label>Loadport</label>
+        <name>PMC_CPQ_Loadport__c</name>
+        <picklistValues>
+            <masterLabel>1 - Berth Bayovar, Peru</masterLabel>
+            <translation><!-- 1 - Berth Bayovar, Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Berth Donaldsonville, LA</masterLabel>
+            <translation><!-- 1 Berth Donaldsonville, LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Berth Galveston, TX</masterLabel>
+            <translation><!-- 1 Berth Galveston, TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Berth Tampa, FL range (including Port Manatee)</masterLabel>
+            <translation><!-- 1 Berth Tampa, FL range (including Port Manatee) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1- Berth Ras Al Khair (RAK), KSA</masterLabel>
+            <translation><!-- 1- Berth Ras Al Khair (RAK), KSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1-2 Berth Tampa, FL range (including Port Manatee)</masterLabel>
+            <translation><!-- 1-2 Berth Tampa, FL range (including Port Manatee) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1-2 Berth Tampa, FL range (including Port Manatee) and/or 1 Berth Donaldsonville, LA at Sellers Option</masterLabel>
+            <translation><!-- 1-2 Berth Tampa, FL range (including Port Manatee) and/or 1 Berth Donaldsonville, LA at Sellers Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Berth Tampa, FL range (including Port Manatee)</masterLabel>
+            <translation><!-- 2 Berth Tampa, FL range (including Port Manatee) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-3 Berth Tampa, FL range (including Port Manatee)</masterLabel>
+            <translation><!-- 2-3 Berth Tampa, FL range (including Port Manatee) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Berth Tampa, FL range (including Port Manatee)</masterLabel>
+            <translation><!-- 3 Berth Tampa, FL range (including Port Manatee) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-4 Berth Tampa, FL range (including Port Manatee)</masterLabel>
+            <translation><!-- 3-4 Berth Tampa, FL range (including Port Manatee) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carlsbad, New Mexico</masterLabel>
+            <translation><!-- Carlsbad, New Mexico --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>PMC_CPQ_Location__c</name>
+        <relationshipLabel><!-- CPQ Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Maintain Quote Origin --></label>
+        <name>PMC_CPQ_MaintainQuoteOrigin__c</name>
+    </fields>
+    <fields>
+        <label>Meio de Transporte</label>
+        <name>PMC_CPQ_ModeOfTransportation__c</name>
+    </fields>
+    <fields>
+        <label>E-mail do signatário da Mosaic</label>
+        <name>PMC_CPQ_MosaicSignatoryEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nome do signatário da Mosaic</label>
+        <name>PMC_CPQ_MosaicSignatoryName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mot&amp;PrePay --></label>
+        <name>PMC_CPQ_MotPrePay__c</name>
+    </fields>
+    <fields>
+        <label>Preço líquido</label>
+        <name>PMC_CPQ_NetPrice__c</name>
+    </fields>
+    <fields>
+        <label>OAP</label>
+        <name>PMC_CPQ_OAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Value Primary --></label>
+        <name>PMC_CPQ_Old_Value_Primary__c</name>
+    </fields>
+    <fields>
+        <label>Quantidade de oportunidades</label>
+        <name>PMC_CPQ_OpportunityQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Outros termos</label>
+        <name>PMC_CPQ_OtherTerms__c</name>
+    </fields>
+    <fields>
+        <label>AR excepcional</label>
+        <name>PMC_CPQ_OutstandingAR__c</name>
+        <relationshipLabel>Cotações (AR pendente)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PMC_CPQ_POC_Paymenterm --></label>
+        <name>PMC_CPQ_POC_Paymenterm__c</name>
+    </fields>
+    <fields>
+        <help>Digite o código de identificação exclusivo atribuído a esse pedido de compra.</help>
+        <label>Número do pedido de compra do cliente</label>
+        <name>PMC_CPQ_PO__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de pacote</label>
+        <name>PMC_CPQ_PackType__c</name>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation>A granel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packed</masterLabel>
+            <translation>Embalado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de embalagem</label>
+        <name>PMC_CPQ_PackageType__c</name>
+    </fields>
+    <fields>
+        <label>Empacotamento</label>
+        <name>PMC_CPQ_Packaging__c</name>
+    </fields>
+    <fields>
+        <label>Registro de Tempo da Cotação Principal</label>
+        <name>PMC_CPQ_ParentQuoteTimeStamp__c</name>
+    </fields>
+    <fields>
+        <label>ID da transação matriz</label>
+        <name>PMC_CPQ_ParentTransactionId__c</name>
+    </fields>
+    <fields>
+        <label>Comentários sobre o pagamento</label>
+        <name>PMC_CPQ_PaymentComments__c</name>
+    </fields>
+    <fields>
+        <label>Data de pagamento</label>
+        <name>PMC_CPQ_PaymentDate__c</name>
+    </fields>
+    <fields>
+        <label>Back-end da condição de pagamento</label>
+        <name>PMC_CPQ_PaymentTermBackend__c</name>
+    </fields>
+    <fields>
+        <label>Condições pagamento Aprovação neces.</label>
+        <name>PMC_CPQ_PaymentTermsApprovalRequired__c</name>
+    </fields>
+    <fields>
+        <label>Código de regra de condições de pag.</label>
+        <name>PMC_CPQ_PaymentTermsRuleIndicator__c</name>
+    </fields>
+    <fields>
+        <label>Forma física</label>
+        <name>PMC_CPQ_PhysicalForm__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de negócio Potássio</label>
+        <name>PMC_CPQ_PotashBusinessType__c</name>
+    </fields>
+    <fields>
+        <label>Pré-pago</label>
+        <name>PMC_CPQ_Prepay__c</name>
+    </fields>
+    <fields>
+        <label>Duração Status apresentado</label>
+        <name>PMC_CPQ_PresentedStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous List Price --></label>
+        <name>PMC_CPQ_PreviousListPrice__c</name>
+    </fields>
+    <fields>
+        <label>Preço Tipo de livro</label>
+        <name>PMC_CPQ_PriceBookType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price change Flag --></label>
+        <name>PMC_CPQ_PriceChangeFlag__c</name>
+    </fields>
+    <fields>
+        <label>Cotação de verificação de preço</label>
+        <name>PMC_CPQ_PriceCheckQuote__c</name>
+    </fields>
+    <fields>
+        <label>Data da lista de preços</label>
+        <name>PMC_CPQ_PriceListDate__c</name>
+    </fields>
+    <fields>
+        <label>Msg. erro de dif. de validade de preço</label>
+        <name>PMC_CPQ_PriceValidityDiffrenceError__c</name>
+    </fields>
+    <fields>
+        <label>Diferença de validade de preço</label>
+        <name>PMC_CPQ_PriceValidityDiffrence__c</name>
+    </fields>
+    <fields>
+        <label>Comentários sobre preços</label>
+        <name>PMC_CPQ_PricingComments__c</name>
+    </fields>
+    <fields>
+        <label>Extrator de Tipo de negócio principal</label>
+        <name>PMC_CPQ_PrimaryBusinessType__c</name>
+    </fields>
+    <fields>
+        <label>Contato principal</label>
+        <name>PMC_CPQ_PrimaryContact__c</name>
+        <relationshipLabel>Cotações de CPQ (contato principal1)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Duração Status de aprovação prévia</label>
+        <name>PMC_CPQ_PriorApprovedStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Duração Status do rascunho anterior</label>
+        <name>PMC_CPQ_PriorDraftStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Duração Status apresentado anteriormente</label>
+        <name>PMC_CPQ_PriorPresentedStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Duração Status da solicitação anterior</label>
+        <name>PMC_CPQ_PriorRequestStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Filtro de classe de produto</label>
+        <name>PMC_CPQ_ProductClassFilter__c</name>
+    </fields>
+    <fields>
+        <label>Comentários sobre o produto</label>
+        <name>PMC_CPQ_ProductComments__c</name>
+    </fields>
+    <fields>
+        <label>Filtro mistura da família de produtos</label>
+        <name>PMC_CPQ_ProductFamilyBlendFilter__c</name>
+    </fields>
+    <fields>
+        <label>Filtro da família de produtos</label>
+        <name>PMC_CPQ_ProductFamilyFilter__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de produtos</label>
+        <name>PMC_CPQ_ProductGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Location --></label>
+        <name>PMC_CPQ_ProductLocation__c</name>
+        <relationshipLabel><!-- CPQ Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produto do concorrente</label>
+        <name>PMC_CPQ_ProductOfCompetitor__c</name>
+    </fields>
+    <fields>
+        <label>URL DO QLE</label>
+        <name>PMC_CPQ_QLEURL__c</name>
+    </fields>
+    <fields>
+        <label>Contagem de quantidade alterada</label>
+        <name>PMC_CPQ_QuantityChangedCount__c</name>
+    </fields>
+    <fields>
+        <label>Quantidade Comentários</label>
+        <name>PMC_CPQ_QuantityComments__c</name>
+    </fields>
+    <fields>
+        <label>Termos de quantidade e qualidade</label>
+        <name>PMC_CPQ_QuantityQualityTerms__c</name>
+    </fields>
+    <fields>
+        <label>Quantidade e qualidade</label>
+        <name>PMC_CPQ_QuantityQuality__c</name>
+        <picklistValues>
+            <masterLabel>Draft survey / Hold Cleanliness</masterLabel>
+            <translation>Rascunho da pesquisa / Manter a limpeza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft survey / Hold Cleanliness / No Release</masterLabel>
+            <translation>Rascunho da pesquisa / Manter a limpeza / Sem liberação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft survey / No Hold Cleanliness</masterLabel>
+            <translation>Rascunho da pesquisa / Sem retenção Limpeza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Draft survey / No Hold cleanliness</masterLabel>
+            <translation>Não há pesquisa de rascunho / Não há limpeza de retenção</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Outros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Railcar</masterLabel>
+            <translation>Vagão ferroviário</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Quantidade</label>
+        <name>PMC_CPQ_Quantity__c</name>
+    </fields>
+    <fields>
+        <label>Cotação aprovada</label>
+        <name>PMC_CPQ_QuoteApproved__c</name>
+    </fields>
+    <fields>
+        <label>Classificação dos Orçamentos</label>
+        <name>PMC_CPQ_QuoteClassification__c</name>
+        <picklistValues>
+            <masterLabel>Bid</masterLabel>
+            <translation>Proposta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deal</masterLabel>
+            <translation>Negócio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indica a hora em que essa cotação foi criada</help>
+        <label>Tempo de criação da cotação</label>
+        <name>PMC_CPQ_QuoteCreationTime__c</name>
+    </fields>
+    <fields>
+        <label>Cotação em tempo de status aprovado</label>
+        <name>PMC_CPQ_QuoteInApprovedStatusTime__c</name>
+    </fields>
+    <fields>
+        <label>Tempo de status da cotação em rascunho</label>
+        <name>PMC_CPQ_QuoteInDraftStatusTime__c</name>
+    </fields>
+    <fields>
+        <label>Cotação em tempo de status apresentado</label>
+        <name>PMC_CPQ_QuoteInPresentedStatusTime__c</name>
+    </fields>
+    <fields>
+        <label>Cotação em status de solicitação Tempo</label>
+        <name>PMC_CPQ_QuoteInRequestStatusTime__c</name>
+    </fields>
+    <fields>
+        <label>Identificador do número da cotação</label>
+        <name>PMC_CPQ_QuoteNumberIdentifier__c</name>
+    </fields>
+    <fields>
+        <help>Indica se a origem foi o Mosaic Direct ou não</help>
+        <label>Cotação Origem</label>
+        <name>PMC_CPQ_QuoteOrigin__c</name>
+    </fields>
+    <fields>
+        <label>Função do responsável pela cotação</label>
+        <name>PMC_CPQ_QuoteOwnerRole__c</name>
+    </fields>
+    <fields>
+        <help>Segmentação da área de negócios.</help>
+        <label>Tipo de negócio</label>
+        <name>PMC_CPQ_QuoteRecordSubType__c</name>
+        <picklistValues>
+            <masterLabel>B2B - Feed</masterLabel>
+            <translation>B2B - Alimentação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B - Fertilizer</masterLabel>
+            <translation>B2B - Fertilizantes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B - Potash</masterLabel>
+            <translation>B2B - Potássio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B - Specialties</masterLabel>
+            <translation>B2B - Especialidades</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C - Fertilizer</masterLabel>
+            <translation>B2C - Fertilizantes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C - Paraguay</masterLabel>
+            <translation>B2C - Paraguai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Products</masterLabel>
+            <translation>Coprodutos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feed</masterLabel>
+            <translation>Alimentação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fertilizer</masterLabel>
+            <translation>Fertilizante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation>Internacional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Material</masterLabel>
+            <translation>Matéria-prima</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de Registro de Cotação</label>
+        <name>PMC_CPQ_QuoteRecordType__c</name>
+        <picklistValues>
+            <masterLabel>Domestic BR</masterLabel>
+            <translation><!-- Domestic BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic NA</masterLabel>
+            <translation><!-- Domestic NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Distribution</masterLabel>
+            <translation><!-- International Distribution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indica que o Save aconteceu de dentro do QLE ou não. Se estiver marcado, o Save foi do QLE.</help>
+        <label>Cotação salva do QLE</label>
+        <name>PMC_CPQ_QuoteSavedFromQLE__c</name>
+    </fields>
+    <fields>
+        <label>Descrição resumida da cotação</label>
+        <name>PMC_CPQ_QuoteShortNameDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Source_Delete --></label>
+        <name>PMC_CPQ_QuoteSource__c</name>
+        <relationshipLabel><!-- CPQ Quotes (Quote Source) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Termos e condições do vagão ferroviário</label>
+        <name>PMC_CPQ_RailCarTermsConditions__c</name>
+    </fields>
+    <fields>
+        <label>Fim do período de embarque ferroviário</label>
+        <name>PMC_CPQ_RailShipmentPeriodEnd__c</name>
+    </fields>
+    <fields>
+        <label>Início período transporte ferro.</label>
+        <name>PMC_CPQ_RailShipmentPeriodStart__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 10 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial10ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 10 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial10SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 1 Lista média de CFR</label>
+        <name>PMC_CPQ_RawMaterial1ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 1 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial1SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 2 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial2ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 2 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial2SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 3 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial3ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 3 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial3SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 4 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial4ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 4 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial4SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 5 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial5ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 5 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial5SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 6 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial6ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 6 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial6SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 7 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial7ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 7 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial7SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 8 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial8ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 8 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial8SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 9 Lista média CFR</label>
+        <name>PMC_CPQ_RawMaterial9ListCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 9 médio vendido CFR</label>
+        <name>PMC_CPQ_RawMaterial9SoldCFR__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 10 Nome</label>
+        <name>PMC_CPQ_RawMaterialName10__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 1 Nome</label>
+        <name>PMC_CPQ_RawMaterialName1__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 2 Nome</label>
+        <name>PMC_CPQ_RawMaterialName2__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 3 Nome</label>
+        <name>PMC_CPQ_RawMaterialName3__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 4 Nome</label>
+        <name>PMC_CPQ_RawMaterialName4__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 5 Nome</label>
+        <name>PMC_CPQ_RawMaterialName5__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 6 Nome</label>
+        <name>PMC_CPQ_RawMaterialName6__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 7 Nome</label>
+        <name>PMC_CPQ_RawMaterialName7__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 8 Nome</label>
+        <name>PMC_CPQ_RawMaterialName8__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 9 Nome</label>
+        <name>PMC_CPQ_RawMaterialName9__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 10 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity10__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 1 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity1__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 2 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity2__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 3 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity3__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 4 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity4__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 5 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity5__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 6 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity6__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 7 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity7__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 8 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity8__c</name>
+    </fields>
+    <fields>
+        <label>Matéria-prima 9 Quantidade</label>
+        <name>PMC_CPQ_RawMaterialQuantity9__c</name>
+    </fields>
+    <fields>
+        <label>Registro bloqueado</label>
+        <name>PMC_CPQ_RecordLocked__c</name>
+    </fields>
+    <fields>
+        <label>Nome do tipo de registro</label>
+        <name>PMC_CPQ_RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label>Região Grupo estrutural</label>
+        <name>PMC_CPQ_RegionStructuralGroup__c</name>
+    </fields>
+    <fields>
+        <label>Região</label>
+        <name>PMC_CPQ_Region__c</name>
+    </fields>
+    <fields>
+        <label>Rejeitado pelo motivo:</label>
+        <name>PMC_CPQ_RejectedReason__c</name>
+    </fields>
+    <fields>
+        <help>Motivo pelo qual a cotação foi rejeitada</help>
+        <label>Motivo da rejeição</label>
+        <name>PMC_CPQ_RejectionReason__c</name>
+    </fields>
+    <fields>
+        <help>Campo para manter a Região de Remessa</help>
+        <label>Região de remessas</label>
+        <name>PMC_CPQ_RemittanceRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement margin --></label>
+        <name>PMC_CPQ_ReplacementMargin__c</name>
+    </fields>
+    <fields>
+        <label>Duração Status da solicitação</label>
+        <name>PMC_CPQ_RequestStatusDuration__c</name>
+    </fields>
+    <fields>
+        <label>Número da data de vencimento solicitada</label>
+        <name>PMC_CPQ_RequestedExpirationDateNumber__c</name>
+    </fields>
+    <fields>
+        <label>Data/hora de expiração solicitada</label>
+        <name>PMC_CPQ_RequestedExpirationDateTime__c</name>
+    </fields>
+    <fields>
+        <label>Pontos Seedz acumulados</label>
+        <name>PMC_CPQ_RollupSeedzPoints__c</name>
+    </fields>
+    <fields>
+        <label>Referência do contrato SAP</label>
+        <name>PMC_CPQ_SAPContractReference__c</name>
+    </fields>
+    <fields>
+        <label>Data de término do contrato de vendas</label>
+        <name>PMC_CPQ_SalesAgreementEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Data de início do contrato de vendas</label>
+        <name>PMC_CPQ_SalesAgreementStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Contrato de vendas</label>
+        <name>PMC_CPQ_SalesAgreement__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Combinação de áreas de vendas</label>
+        <name>PMC_CPQ_SalesAreaCombination__c</name>
+    </fields>
+    <fields>
+        <label>Área de vendas</label>
+        <name>PMC_CPQ_SalesArea__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Escritório de vendas</label>
+        <name>PMC_CPQ_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label>Organização de vendas</label>
+        <name>PMC_CPQ_SalesOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Business Type --></label>
+        <name>PMC_CPQ_SecondaryBusinessType__c</name>
+    </fields>
+    <fields>
+        <label>Preço de venda (concorrente)</label>
+        <name>PMC_CPQ_SellingPriceCompetitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Director User --></label>
+        <name>PMC_CPQ_ServiceDirectorUser__c</name>
+        <relationshipLabel><!-- CPQ Quotes (Service Director User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Enviar para</label>
+        <name>PMC_CPQ_ShipTo__c</name>
+        <relationshipLabel>Cotações CPQ (enviar para)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Assinatura Data de envio</label>
+        <name>PMC_CPQ_SignatureDateSent__c</name>
+    </fields>
+    <fields>
+        <label>Assinatura Hora de envio</label>
+        <name>PMC_CPQ_SignatureTimeSent__c</name>
+    </fields>
+    <fields>
+        <label>Enviar para</label>
+        <name>PMC_CPQ_SoldToShipToJunction__c</name>
+        <relationshipLabel>Cotações do CPQ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data de envio</label>
+        <name>PMC_CPQ_SubmissionDate__c</name>
+    </fields>
+    <fields>
+        <label>Soma do preço total da linha</label>
+        <name>PMC_CPQ_SumOfLineTotalPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- System User Backend --></label>
+        <name>PMC_CPQ_SystemUserBackend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Price (Maximum Diffrence)) --></label>
+        <name>PMC_CPQ_TargetPriceMaximumDiffrence__c</name>
+    </fields>
+    <fields>
+        <label>Verificação de tempo</label>
+        <name>PMC_CPQ_TimeCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Zone Offset --></label>
+        <name>PMC_CPQ_TimeZoneOffset__c</name>
+    </fields>
+    <fields>
+        <label>Desconto total</label>
+        <name>PMC_CPQ_TotalDiscount__c</name>
+    </fields>
+    <fields>
+        <label>Quantidade total</label>
+        <name>PMC_CPQ_TotalQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Soma da linha de cotação</help>
+        <label>Valor total da cotação</label>
+        <name>PMC_CPQ_TotalQuoteValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger new --></label>
+        <name>PMC_CPQ_TriggerNew__c</name>
+    </fields>
+    <fields>
+        <label>Unidade de medida</label>
+        <name>PMC_CPQ_UnitOfMeasure__c</name>
+    </fields>
+    <fields>
+        <label>Cotação de VCO</label>
+        <name>PMC_CPQ_VCOQuotation__c</name>
+    </fields>
+    <fields>
+        <label>PMC_DH_FilterStatus</label>
+        <name>PMC_DH_FilterStatus__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de pagamento que o cliente usará para pagar</help>
+        <label>Método de pagamento</label>
+        <name>PMC_DH_PaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help>Nome curto de fácil utilização pelo cliente</help>
+        <label>Nome adequado para orçamento</label>
+        <name>PMC_DH_QuoteFriendlyName__c</name>
+    </fields>
+    <fields>
+        <label>Tempo inativo da cotação</label>
+        <name>PMC_DH_QuoteInactiveTime__c</name>
+    </fields>
+    <fields>
+        <label>Tempo apresentado para a cotação</label>
+        <name>PMC_DH_QuotePresentedTime__c</name>
+    </fields>
+    <fields>
+        <label>Rasão do Resumo</label>
+        <name>PMC_DH_Summary_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Notas do vendedor</label>
+        <name>PMC_SellerNotes__c</name>
+    </fields>
+    <fields>
+        <label>Enviar para assinatura</label>
+        <name>PMC_SendForSignature__c</name>
+    </fields>
+    <fields>
+        <label>Instruções especiais</label>
+        <name>PMC_SpecialInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Testemunha - 1 e-mail</label>
+        <name>PMC_WitnessSigner1Email__c</name>
+    </fields>
+    <fields>
+        <label>Testemunha - 1 nome</label>
+        <name>PMC_WitnessSigner1Name__c</name>
+    </fields>
+    <fields>
+        <label>Testemunha - 2 E-mail</label>
+        <name>PMC_WitnessSigner2Email__c</name>
+    </fields>
+    <fields>
+        <label>Testemunha - 2 Nome</label>
+        <name>PMC_WitnessSigner2Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Status value --></label>
+        <name>Prior_Status_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- CPQ Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RequestStageBypass --></label>
+        <name>RequestStage__c</name>
+    </fields>
+    <fields>
+        <help>Conta para a qual essa cotação foi criada.</help>
+        <label><!-- Account --></label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Insira o valor adicionalmente descontado nessa cotação.</help>
+        <label>Addl. Disc. Valor</label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto médio do cliente (em porcentagem) para essa cotação.</help>
+        <label>Avg. Disc. do cliente (%)</label>
+        <name>SBQQ__AverageCustomerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto médio do parceiro (em porcentagem) para essa cotação.</help>
+        <label>Avg. Disc. do parceiro (%)</label>
+        <name>SBQQ__AveragePartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Cidade do endereço de cobrança para essa cotação.</help>
+        <label>Fatura para a cidade</label>
+        <name>SBQQ__BillingCity__c</name>
+    </fields>
+    <fields>
+        <help>País da conta Para o endereço dessa cotação.</help>
+        <label>Fatura para o país</label>
+        <name>SBQQ__BillingCountry__c</name>
+    </fields>
+    <fields>
+        <help>Indica a frequência com que o cliente será cobrado por essa cotação.</help>
+        <label><!-- Billing Frequency --></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help>Nome para o endereço Bill To.</help>
+        <label>Fatura para nome</label>
+        <name>SBQQ__BillingName__c</name>
+    </fields>
+    <fields>
+        <help>Código postal do endereço de cobrança para essa cotação.</help>
+        <label>Fatura para Código postal</label>
+        <name>SBQQ__BillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help>Estado/Província do endereço de entrega da fatura para essa cotação.</help>
+        <label>Fatura para o estado</label>
+        <name>SBQQ__BillingState__c</name>
+    </fields>
+    <fields>
+        <help>Parte da rua do endereço de cobrança para essa cotação.</help>
+        <label>Fatura para Rua</label>
+        <name>SBQQ__BillingStreet__c</name>
+    </fields>
+    <fields>
+        <help>Indicador somente de leitura para mostrar se uma cotação contém taxas de consumo predominantes.</help>
+        <label><!-- Consumption Rate Override --></label>
+        <name>SBQQ__ConsumptionRateOverride__c</name>
+    </fields>
+    <fields>
+        <help>Por Data de Término da Assinatura cria um Contrato separado para cada Data de Término da Assinatura exclusiva, contendo apenas essas Assinaturas. &quot;Contrato Único&quot; cria um Contrato que contém todas as Assinaturas, independentemente de suas Datas de Término.</help>
+        <label><!-- Contracting Method --></label>
+        <name>SBQQ__ContractingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Single Contract</masterLabel>
+            <translation>Contrato único</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Esse é um campo de resumo de roll-up.</help>
+        <label><!-- Customer Amount --></label>
+        <name>SBQQ__CustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto adicional concedido ao cliente nessa cotação. Esse valor pode ser substituído no nível do item de linha individual. Todos os itens de linha que não tiverem um desconto adicional explicitamente especificado terão esse valor como padrão.</help>
+        <label>Disco adicional. (%)</label>
+        <name>SBQQ__CustomerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Número de dias em que a cotação foi aberta.</help>
+        <label><!-- Days Quote Open --></label>
+        <name>SBQQ__DaysQuoteOpen__c</name>
+    </fields>
+    <fields>
+        <help>Modelo que deve ser usado com essa cotação. O Salesforce CPQ seleciona automaticamente o modelo especificado aqui quando você clica em &quot;Gerar documento&quot;</help>
+        <label><!-- Default Template --></label>
+        <name>SBQQ__DefaultTemplate__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Método usado para entregar produtos nessa cotação.</help>
+        <label><!-- Delivery Method --></label>
+        <name>SBQQ__DeliveryMethod__c</name>
+        <picklistValues>
+            <masterLabel>Download</masterLabel>
+            <translation>Baixar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship</masterLabel>
+            <translation>Envio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Desconto do distribuidor que se aplica a essa cotação, a menos que seja substituído no nível do item de linha.</help>
+        <label>Desconto para distribuidores</label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Link para a conta do canal de distribuição para cotação.</help>
+        <label><!-- Distributor --></label>
+        <name>SBQQ__Distributor__c</name>
+        <relationshipLabel>Cotações para distribuidores</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica o status do documento de cotação gerado.</help>
+        <label><!-- Document Status --></label>
+        <name>SBQQ__DocumentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se você tiver um modelo de e-mail específico a ser usado para documentos gerados e enviados por e-mail a partir dessa cotação, insira o ID do modelo de e-mail aqui.</help>
+        <label>ID do modelo de e-mail</label>
+        <name>SBQQ__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>Data de término das assinaturas desse grupo.</help>
+        <label><!-- End Date --></label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Data após a qual a cotação não é mais válida</help>
+        <label><!-- Expires On --></label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help>Para produtos de vários segmentos, insira a data final para ratear o primeiro segmento.</help>
+        <label>Término prazo primeiro segmento</label>
+        <name>SBQQ__FirstSegmentTermEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Gerará um preço contratado com base em todas as linhas de cotação ajustadas na cotação, se sinalizadas.</help>
+        <label><!-- Generate Contracted Price --></label>
+        <name>SBQQ__GenerateContractedPrice__c</name>
+        <picklistValues>
+            <masterLabel>Discount Schedule</masterLabel>
+            <translation>Tabela de descontos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Generate</masterLabel>
+            <translation>Não gerar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Preço</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introdução que pode ser impressa no documento PDF gerado.</help>
+        <label><!-- Introduction --></label>
+        <name>SBQQ__Introduction__c</name>
+    </fields>
+    <fields>
+        <help>Chave interna exclusiva usada para identificar orçamentos de &quot;carrinho de compras&quot; sem depender de IDs internas</help>
+        <label><!-- Key --></label>
+        <name>SBQQ__Key__c</name>
+    </fields>
+    <fields>
+        <help>A data e a hora em que essa cotação foi calculada pela última vez.</help>
+        <label>Último cálculo em</label>
+        <name>SBQQ__LastCalculatedOn__c</name>
+    </fields>
+    <fields>
+        <help>A data e a hora em que essa cotação foi salva pela última vez.</help>
+        <label>Salvo pela última vez em</label>
+        <name>SBQQ__LastSavedOn__c</name>
+    </fields>
+    <fields>
+        <help>Número de itens de linha nessa cotação.</help>
+        <label><!-- Line Item Count --></label>
+        <name>SBQQ__LineItemCount__c</name>
+    </fields>
+    <fields>
+        <help>Selecione essa opção para usar o SolutionGroups(TM) ou adicionar seus próprios grupos na página Edit Lines (Editar linhas) para categorizar e subtotalizar itens de linha de cotação.</help>
+        <label>Itens de linha do grupo</label>
+        <name>SBQQ__LineItemsGrouped__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para imprimir itens de linha individuais no documento de cotação em PDF gerado para cotações de grupo.</help>
+        <label>Imprimir itens de linha</label>
+        <name>SBQQ__LineItemsPrinted__c</name>
+    </fields>
+    <fields>
+        <help>Valor total da lista de cada item de linha não opcional nesta cotação.</help>
+        <label>Quantidade da lista</label>
+        <name>SBQQ__ListAmount__c</name>
+    </fields>
+    <fields>
+        <help>Taxa de majoração padrão aplicada a itens de linha nessa cotação. Você poderá substituir esse valor no nível do grupo e do item de linha.</help>
+        <label>Markup (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help>Contrato principal com o qual os produtos de assinatura desta cotação devem ser rescindidos.</help>
+        <label>Contrato principal</label>
+        <name>SBQQ__MasterContract__c</name>
+        <relationshipLabel>Cotações de co-terminados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Designe esse contrato como o contrato principal perene para a cotação.</help>
+        <label>Contrato Master Evergreen</label>
+        <name>SBQQ__MasterEvergreenContract__c</name>
+        <relationshipLabel>Cotações co-terminadas (Contrato Principal Evergreen)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Valor líquido total de cada item de linha não opcional nesta cotação.</help>
+        <label><!-- Net Amount --></label>
+        <name>SBQQ__NetAmount__c</name>
+    </fields>
+    <fields>
+        <help>As notas seriam exibidas no documento de cotação gerado.</help>
+        <label>Notas</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <help>Oportunidade associada a essa cotação.</help>
+        <label><!-- Opportunity --></label>
+        <name>SBQQ__Opportunity2__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se for sinalizado ao definir a cotação como &quot;Ordered&quot;, será criado um pedido para cada grupo de linhas de cotação com suas linhas de cotação associadas.</help>
+        <label>Pedido por grupo de linhas de cotação</label>
+        <name>SBQQ__OrderByQuoteLineGroup__c</name>
+    </fields>
+    <fields>
+        <help>O campo Quote Line usado para determinar o agrupamento de pedidos.</help>
+        <label>Pedido por</label>
+        <name>SBQQ__OrderBy__c</name>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ModeofTransportation__c</masterLabel>
+            <translation><!-- PMC_CPQ_ModeofTransportation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_MotPrePay__c</masterLabel>
+            <translation><!-- PMC_CPQ_MotPrePay__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O identificador exclusivo da alteração: Transação de nova cotação, que é o ID da cotação primária original.</help>
+        <label>ID do grupo de pedidos</label>
+        <name>SBQQ__OrderGroupID__c</name>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção para criar automaticamente um pedido a partir dessa cotação, se ela for uma cotação primária.</help>
+        <label><!-- Ordered --></label>
+        <name>SBQQ__Ordered__c</name>
+    </fields>
+    <fields>
+        <help>Se esse registro de cotação representar uma alteração: Re-Quote (Re-cotação), use esse campo para criar um link para a cotação original.</help>
+        <label><!-- Original Quote --></label>
+        <name>SBQQ__OriginalQuote__c</name>
+        <relationshipLabel>Alterar: Re-Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Escolha o tamanho do papel para esse documento.</help>
+        <label><!-- Paper Size --></label>
+        <name>SBQQ__PaperSize__c</name>
+    </fields>
+    <fields>
+        <help>Desconto estendido ao parceiro nessa oportunidade.</help>
+        <label>Desconto para parceiros</label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Parceiro principal nessa transação (se houver). O padrão desse campo é o parceiro marcado como principal na lista relacionada Parceiros da oportunidade.</help>
+        <label><!-- Partner --></label>
+        <name>SBQQ__Partner__c</name>
+        <relationshipLabel>Orçamentos de parceiros</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica os Termos que regem o pagamento dos itens deste orçamento.</help>
+        <label>Condições de pagamento</label>
+        <name>SBQQ__PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>05 Days - Document Lock Date</masterLabel>
+            <translation>05 dias - Data de bloqueio do documento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Invoicing Date</masterLabel>
+            <translation>2 parcelas a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Installments From Next Month Invoicing Date</masterLabel>
+            <translation>2 parcelas a partir da data de faturamento do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Invoicing Date</masterLabel>
+            <translation>3 parcelas a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Installments From Next Month Invoicing Date</masterLabel>
+            <translation>3 parcelas a partir da data de faturamento do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Installments From Invoicing Date</masterLabel>
+            <translation>4 parcelas a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Doc - 60 Days From BL</masterLabel>
+            <translation>Cash Against Doc - 60 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents</masterLabel>
+            <translation>Dinheiro contra documentos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 10 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 10 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 120 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 120 dias a partir do BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 15 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 15 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 180 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 180 dias a partir do BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 30 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 30 dias a partir do BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 45 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 45 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 5 Days From BL</masterLabel>
+            <translation>Pagamento contra documentos - 5 dias a partir do BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 7 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 7 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Against Documents - 90 Days From BL</masterLabel>
+            <translation>Dinheiro contra documentos - 90 dias a partir de BL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed L/C At Sight</masterLabel>
+            <translation>CONFIRMADO L/C À VISTA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 10th Of Following Quarter</masterLabel>
+            <translation>Vencimento no dia 10 do trimestre seguinte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due 1st Of Following Month</masterLabel>
+            <translation>Vencimento no dia 1º do mês seguinte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Day - Next 3rd Month</masterLabel>
+            <translation>Primeiro dia - Próximo 3º mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Date</masterLabel>
+            <translation>Data fixa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 1 Day - From Invoicing Date</masterLabel>
+            <translation>1 dia líquido - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days - From Invoicing Date</masterLabel>
+            <translation>10 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10 Days From First Day Next Month</masterLabel>
+            <translation>Líquido 10 dias a partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 105 Days - From Invoicing Date</masterLabel>
+            <translation>105 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 120 Days - From Invoicing Date</masterLabel>
+            <translation>120 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 14 Days - From Invoicing Date</masterLabel>
+            <translation>14 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 Days - From Invoicing Date</masterLabel>
+            <translation>15 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15 From First Day Next Month</masterLabel>
+            <translation>Líquido 15 a partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 150 Days - From Invoicing Date</masterLabel>
+            <translation>150 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 17 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 17 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 180 Days - From Invoicing Date</masterLabel>
+            <translation>180 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 2 Days - From Invoicing Date</masterLabel>
+            <translation>2 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 20 From First Day Next Month</masterLabel>
+            <translation>Líquido 20 a partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 21 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 21 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 210 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 210 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 270 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 270 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 28 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 28 dias - A partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 29 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 29 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 3 Days - From Invoicing Date</masterLabel>
+            <translation>3 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 Days - From Invoicing Date</masterLabel>
+            <translation>30 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30 From First Day Next Month</masterLabel>
+            <translation>Líquido 30 A partir do primeiro dia do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 31 Days -  From Invoicing Date</masterLabel>
+            <translation>31 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 35 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 35 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 42 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 42 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45 Days - From Invoicing Date</masterLabel>
+            <translation>45 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60 Days - From Invoicing Date</masterLabel>
+            <translation>60 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 7 Days - From Invoicing Date</masterLabel>
+            <translation>7 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 70 Days - From Invoicing Date</masterLabel>
+            <translation>Líquido 70 dias - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 75 Days - From Invoicing Date</masterLabel>
+            <translation>75 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 80 Days -  From Invoicing Date</masterLabel>
+            <translation>80 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 84 Days - From Invoicing Date</masterLabel>
+            <translation>84 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90 Days - From Invoicing Date</masterLabel>
+            <translation>90 dias líquidos - a partir da data de faturamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation>Pagamento antecipado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Livro de preços associado a esta cotação.</help>
+        <label>Livro de preços</label>
+        <name>SBQQ__PriceBook__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID do Registro de Preços usado por essa cotação.</help>
+        <label>ID do registro de preços</label>
+        <name>SBQQ__PricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Contato principal para a cotação. O nome dessa pessoa aparecerá no documento de cotação gerado.</help>
+        <label>Contato principal</label>
+        <name>SBQQ__PrimaryContact__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque essa caixa de seleção para designar essa cotação como a principal da oportunidade e sincronizar os itens de linha da cotação com os itens de linha da oportunidade.</help>
+        <label><!-- Primary --></label>
+        <name>SBQQ__Primary__c</name>
+    </fields>
+    <fields>
+        <help>Quando um pedido é criado a partir dessa cotação, o valor desse campo é copiado para o campo Billing Day of Month do pedido.</help>
+        <label>Dia do mês do rateio</label>
+        <name>SBQQ__ProrationDayOfMonth__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>10</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation>13</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation>14</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation>15</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation>16</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation>17</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation>18</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation>19</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation>20</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation>21</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation>22</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation>23</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation>24</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation>25</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation>26</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation>27</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation>28</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation>29</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation>30</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation>31</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>6</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>7</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>8</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>9</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Idioma usado para essa cotação ao gerar documentos de cotação em massa</help>
+        <label>Linguagem da Cotação</label>
+        <name>SBQQ__QuoteLanguage__c</name>
+        <picklistValues>
+            <masterLabel>Chinese (Simplified)</masterLabel>
+            <translation>Chinês (simplificado)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Traditional)</masterLabel>
+            <translation>Chinês (tradicional)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danish</masterLabel>
+            <translation>Dinamarquês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dutch</masterLabel>
+            <translation>Holandês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Inglês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finnish</masterLabel>
+            <translation>Finlandês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Francês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation>Alemão</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation>Italiano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation>Japonês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation>Coreano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation>Norueguês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese (Brazilian)</masterLabel>
+            <translation>Português (brasileiro)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation>Russo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Espanhol</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish (Mexican)</masterLabel>
+            <translation>Espanhol (mexicano)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish</masterLabel>
+            <translation>Sueco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thai</masterLabel>
+            <translation>Tailandês</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ID do processo de venda guiada a ser usado com essa cotação, se houver.</help>
+        <label>Id do processo de cotação</label>
+        <name>SBQQ__QuoteProcessId__c</name>
+    </fields>
+    <fields>
+        <help>Armazena um ID de modelo de cotação se for especificado um para ser usado ao gerar documentos PDF de cotação.</help>
+        <label>Id do modelo de orçamento</label>
+        <name>SBQQ__QuoteTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>Valor total de tempos de linha não opcionais antes da aplicação de descontos adicionais.</help>
+        <label><!-- Regular Amount --></label>
+        <name>SBQQ__RegularAmount__c</name>
+    </fields>
+    <fields>
+        <help>Especifique o prazo da renovação. Por padrão, ele corresponde ao prazo original do contrato.</help>
+        <label>Prazo de renovação</label>
+        <name>SBQQ__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <help>Taxa de aumento dos preços de renovação.</help>
+        <label>Aumento da renovação (%)</label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help>Representante de vendas responsável por essa cotação, se diferente do usuário que possui o registro da cotação.</help>
+        <label>Representante de vendas</label>
+        <name>SBQQ__SalesRep__c</name>
+        <relationshipLabel>Cotações CPQ (representante de vendas)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cidade no endereço de entrega para essa cotação.</help>
+        <label>Cidade de destino</label>
+        <name>SBQQ__ShippingCity__c</name>
+    </fields>
+    <fields>
+        <help>País no endereço de entrega para essa cotação.</help>
+        <label>País de destino</label>
+        <name>SBQQ__ShippingCountry__c</name>
+    </fields>
+    <fields>
+        <help>Nome no endereço de entrega para essa cotação.</help>
+        <label>Nome do destinatário</label>
+        <name>SBQQ__ShippingName__c</name>
+    </fields>
+    <fields>
+        <help>Código postal no endereço de entrega para essa cotação.</help>
+        <label>Código postal do destinatário</label>
+        <name>SBQQ__ShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help>Estado/Província no endereço de entrega para essa cotação.</help>
+        <label>Estado de destino</label>
+        <name>SBQQ__ShippingState__c</name>
+    </fields>
+    <fields>
+        <help>Rua no endereço de entrega para essa cotação.</help>
+        <label>Rua de destino</label>
+        <name>SBQQ__ShippingStreet__c</name>
+    </fields>
+    <fields>
+        <help>Fonte da cotação clonada. Se clonado, faz referência à cotação original clonada.</help>
+        <label>Fonte</label>
+        <name>SBQQ__Source__c</name>
+        <relationshipLabel>Orçamentos (Fonte)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Data de início das assinaturas nessa cotação.</help>
+        <label>Data de início</label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Status que indica onde a cotação está em seu ciclo de vida.</help>
+        <label><!-- Status --></label>
+        <name>SBQQ__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expirado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presented</masterLabel>
+            <translation>Apresentado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation>Solicitação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Termo de assinatura usado para ratear os produtos elegíveis por dia ou mês.  Isso foi definido por seu administrador.</help>
+        <label>Prazo da assinatura</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Insira o valor desejado do cliente para calcular automaticamente o desconto adicional em itens de linha com desconto.</help>
+        <label>Valor do cliente-alvo</label>
+        <name>SBQQ__TargetCustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help>Valor total do desconto do cliente. Isso inclui qualquer contrato, volume, taxa composta e descontos adicionais.</help>
+        <label>Total de discos de clientes. Valor</label>
+        <name>SBQQ__TotalCustomerDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Indica o tipo de cotação (nova, alteração, renovação).</help>
+        <label><!-- Type --></label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Amendment</masterLabel>
+            <translation>Emenda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Quote</masterLabel>
+            <translation>Re-cotação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renovação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se estiver selecionado, a cotação ainda não foi calculada.</help>
+        <label>Não calculado</label>
+        <name>SBQQ__Uncalculated__c</name>
+    </fields>
+    <fields>
+        <help>Indica se a cotação já foi aberta para determinar se é uma nova cotação.</help>
+        <label>Não aberto</label>
+        <name>SBQQ__Unopened__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para exibir a marca d&apos;água no documento de cotação.</help>
+        <label><!-- Watermark Shown --></label>
+        <name>SBQQ__WatermarkShown__c</name>
+    </fields>
+    <fields>
+        <label><!-- SaveSourceQuote --></label>
+        <name>SaveSourceQuote__c</name>
+    </fields>
+    <fields>
+        <label>Data de envio</label>
+        <name>SubmittedDate__c</name>
+    </fields>
+    <fields>
+        <label>Usuário enviado</label>
+        <name>SubmittedUser__c</name>
+        <relationshipLabel>CPQ Quotes (Usuário enviado)</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test field --></label>
+        <name>Test_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- User time zone --></label>
+        <name>User_time_zone__c</name>
+    </fields>
+    <fields>
+        <label><!-- V Test Diff Dates --></label>
+        <name>V_Test_Diff_Dates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vignesh Boolean --></label>
+        <name>Vignesh_Boolean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vignesh Formula Test --></label>
+        <name>Vignesh_Formula_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vignesh RichTest Test --></label>
+        <name>Vignesh_RichTest_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vignesh Test --></label>
+        <name>Vignesh_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- hasExpired --></label>
+        <name>hasExpired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Line --></label>
+        <name>quoteLine__c</name>
+        <relationshipLabel><!-- CPQ Quotes --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Número da cotação</nameFieldLabel>
+    <recordTypes>
+        <label>Doméstico SA</label>
+        <name>PMC_CPQ_DomesticBR</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Doméstico NA</label>
+        <name>PMC_CPQ_DomesticNA</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Internacional</label>
+        <name>PMC_CPQ_International</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Tipo de registro para acompanhar a cotação de vendas de distribuição internacional para NA</description>
+        <label>Distribuição internacional</label>
+        <name>PMC_CPQ_InternationalDistribution</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please populate fields pertaining to Witness Name and Email in the Contract Information Section --></errorMessage>
+        <name>PMC_CLM_BrazilContractMandatories</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O status do documento do contrato pode ser atualizado manualmente apenas na cotação internacional de matéria-prima</errorMessage>
+        <name>PMC_CLM_RestricContractDocStatusUpdate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Favor aprovar ou rejeitar a solicitação de cotação para prosseguir.</errorMessage>
+        <name>PMC_CPQ_AMReadOnlyfieldsonRequestStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O método de aceitação do cliente é obrigatório</errorMessage>
+        <name>PMC_CPQ_AcceptanceConditionMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Oops! you don&apos;t have privilege to access this record --></errorMessage>
+        <name>PMC_CPQ_AccountManagerEditAccess</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é possível alterar o valor da conta na cotação</errorMessage>
+        <name>PMC_CPQ_AccountNameValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Approval Condition is Mandatory for manual Approval --></errorMessage>
+        <name>PMC_CPQ_ApprovalConditionMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Exclua o produto do carrinho para fazer alterações no tipo de negócio ou criar uma nova cotação para outro tipo de negócio.</errorMessage>
+        <name>PMC_CPQ_BRBusinessTypeChangeException</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Unable to set quote as primary due to an existing contracted quote within the same opportunity; consider creating a new opportunity for this quote or deselect the &apos;Primary&apos; checkbox. --></errorMessage>
+        <name>PMC_CPQ_ClosedOpportunityValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Contract valid from and Contract valid to details --></errorMessage>
+        <name>PMC_CPQ_ContractDateMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A data &quot;Contract Valid From&quot; não pode estar no passado.</errorMessage>
+        <name>PMC_CPQ_ContractValidFromValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A data do &quot;Contrato válido até&quot; não pode ser anterior à data do &quot;Contrato válido a partir de&quot;.</errorMessage>
+        <name>PMC_CPQ_ContractValidToBeforeValidFrom</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Certifique-se de que a duração entre as datas de Início da validade do contrato e Fim da validade do contrato seja superior a 30 dias</errorMessage>
+        <name>PMC_CPQ_ContractValidToFromValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A data de &quot;Contrato válido até&quot; não pode exceder 1 ano e 6 meses a partir da data de criação da cotação.</errorMessage>
+        <name>PMC_CPQ_ContractValidToValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Selecione uma moeda válida com base em sua localidade atribuída.</errorMessage>
+        <name>PMC_CPQ_CurrencyChangeforQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivery Start Date should not be before the Delivery Start Date. --></errorMessage>
+        <name>PMC_CPQ_DeliveryStartDateBeforeEndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivery Start Date cannot be in the past. --></errorMessage>
+        <name>PMC_CPQ_DeliveryStartDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Siga o caminho cronológico da cotação e, por favor, envie a cotação para aprovação antes de ser apresentada ou aceita</errorMessage>
+        <name>PMC_CPQ_DraftStatusValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The quote has expired based on the expiration date/time. If you wish to continue with the quote, please click the ‘Clone with Related’ button. --></errorMessage>
+        <name>PMC_CPQ_ExpiredQuoteValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Kindly populate both Laycan Start and Laycan End Date. --></errorMessage>
+        <name>PMC_CPQ_LaycanDateMissing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laycan End Date should not be before the Laycan Start Date --></errorMessage>
+        <name>PMC_CPQ_LaycanStartDateBeforeEndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laycan Start Date cannot be in the past. --></errorMessage>
+        <name>PMC_CPQ_LaycanStartDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nível de acesso insuficiente para criar cotações alteradas. Somente SSA ou SSR podem atuar.</errorMessage>
+        <name>PMC_CPQ_NAAmendmentQuoteCreation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Escolha a data de pagamento como um dia útil</errorMessage>
+        <name>PMC_CPQ_PaymentBusinessDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Por favor, preencha a Data de pagamento se o Método de pagamento for escolhido como Pré-pagamento ou Data fixa, e a Data de pagamento não pode ser no passado.</errorMessage>
+        <name>PMC_CPQ_PaymentDateBlankValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Preencha o valor do contato para prosseguir com a cotação</errorMessage>
+        <name>PMC_CPQ_PrimaryContactBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A cotação deve ser definida como a principal na fase de aceitação</errorMessage>
+        <name>PMC_CPQ_PrimaryMandatoryAtAcceptance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity is greater than what is allowed. --></errorMessage>
+        <name>PMC_CPQ_QuantityForQuoteLine</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Quote Sub-Type Selected is inaccurate please check path guidance for accurate Sub-Type --></errorMessage>
+        <name>PMC_CPQ_QuoteSubTypeForSalesOrg</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Submit Quote for Approval after Friday 5 PM !!! --></errorMessage>
+        <name>PMC_CPQ_QuoteSubmissionDeadline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A cotação foi enviada para aprovação e está sendo analisada no momento. Se você quiser fazer outras modificações, clique no botão &quot;Recall Approvals&quot;.</errorMessage>
+        <name>PMC_CPQ_QuoteSubmittedForApproval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rail Shipment Period Start Date cannot be in the past. --></errorMessage>
+        <name>PMC_CPQ_RailShipmentPeriodStart</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rail Shipment Period End should not be before the Rail Shipment Period Start. --></errorMessage>
+        <name>PMC_CPQ_RailShipmentStartBeforeEndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Quote Record Type Selected and Opportunity&apos;s Distribution Channel are incorrectly mapped. --></errorMessage>
+        <name>PMC_CPQ_RecordTypeForDistributionChannel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Preencha o campo de texto &quot;Outro motivo de rejeição&quot; antes de selecionar &quot;Motivo de rejeição&quot; como &quot;Outro&quot;.</errorMessage>
+        <name>PMC_CPQ_RejectedReasonBlankOther</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A cotação foi rejeitada. Se desejar continuar com a cotação, clique no botão &quot;Clone with Related&quot;.</errorMessage>
+        <name>PMC_CPQ_RejectedValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Selecione o motivo da rejeição antes de rejeitar a cotação</errorMessage>
+        <name>PMC_CPQ_RequestQuoteRejectionReasonBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A cotação só pode ser editada no status Rascunho. Defina o Status da cotação como Rascunho para editar.</errorMessage>
+        <name>PMC_CPQ_RestrictAMonApprovedandAccepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O Sold to Account ainda não está registrado no SAP, aguarde para que o Sold to Account seja registrado</errorMessage>
+        <name>PMC_CPQ_RestrictQuoteCreationSAPIDBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Envie a cotação para aprovação aos respectivos aprovadores.</errorMessage>
+        <name>PMC_CPQ_RestrictUserToApproveQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nível de acesso insuficiente para criar cotações alteradas. Somente o SSA está autorizado a realizar alterações.</errorMessage>
+        <name>PMC_CPQ_SAAmendmentQuoteCreation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O analista de suporte de vendas pode criar somente cotações de lista e emenda</errorMessage>
+        <name>PMC_CPQ_SSAAccessForQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O usuário do Serviço de Vendas só pode criar Lista e Cotações de Alteração.</errorMessage>
+        <name>PMC_CPQ_SSRAccessForQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Oops! you don&apos;t have privilege to access this record --></errorMessage>
+        <name>PMC_CPQ_SalesDirectorEditAccess</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Oops! you don&apos;t have privilege to access this record --></errorMessage>
+        <name>PMC_CPQ_SalesManagerEditAccess</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Esse campo não pode ser editado, pois o status da cotação foi Rejeitado.</errorMessage>
+        <name>PMC_CPQ_ShortDescriptionForRejectedState</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Start or Laycan Start or Rail Shipment Start or Delivery Start cannot be less than today. --></errorMessage>
+        <name>PMC_CPQ_StartDateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivery region is Mandatory for VCO Quotes --></errorMessage>
+        <name>PMC_CPQ_VCOQuoteDeliveryRegion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User cannot change the approved quote field value --></errorMessage>
+        <name>Quote_is_approved_field_cannot_be_edited</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A data de término deve ser posterior à data de início.</errorMessage>
+        <name>SBQQ__End_Date_Before_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Data de Término do Primeiro Segmento deve estar entre a Data de Início da Cotação e a Data de Término da Cotação</errorMessage>
+        <name>SBQQ__Invalid_First_Segment_Term_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O prazo da assinatura deve ser um número positivo.</errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Submit Quote for Approval after Friday 5 PM !!! --></errorMessage>
+        <name>Test_Quote_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vignesh Integration Test error --></errorMessage>
+        <name>Vignesh_Test_validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_Amendment_Contract --></label>
+        <name>Generate_Amendment_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Contract_Test --></label>
+        <name>Generate_Contract_Test</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar documento de proposta</label>
+        <name>PMC_CLM_GenerateProposalDocument</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar contrato</label>
+        <name>PMC_CLM_Generate_Contract_Brazil</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar contrato</label>
+        <name>PMC_CLM_Generate_Contract_Intl</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar contrato</label>
+        <name>PMC_CLM_Generate_Contract_NorthAmerica</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PMC_CLM_Generate_Contract_RM --></label>
+        <name>PMC_CLM_Generate_Contract_RM</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar contrato</label>
+        <name>PMC_CLM_Generate_Contract_Spanish</name>
+    </webLinks>
+    <webLinks>
+        <label>Pré-visualização da aprovação</label>
+        <name>PMC_CPQ_PreviewApproval</name>
+    </webLinks>
+    <webLinks>
+        <label>Aprovação de recall</label>
+        <name>PMC_CPQ_RecallApproval</name>
+    </webLinks>
+    <webLinks>
+        <label>Agendar pedidos</label>
+        <name>PMC_CPQ_ScheduleOrders</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar para aprovação</label>
+        <name>PMC_CPQ_SubmitForApproval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PMC_CPQ_TestPreviewApproval --></label>
+        <name>PMC_CPQ_TestPreviewApproval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateQuote --></label>
+        <name>SBQQ__CalculateQuote</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar com o Related</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar com relacionados</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateOrderFromQuote --></label>
+        <name>SBQQ__CreateOrderFromQuote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EditLines --></label>
+        <name>SBQQ__EditLines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocument --></label>
+        <name>SBQQ__GenerateDocument</name>
+    </webLinks>
+    <webLinks>
+        <label>Linhas de importação</label>
+        <name>SBQQ__ImportLines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- IncludeDocument --></label>
+        <name>SBQQ__IncludeDocument</name>
+    </webLinks>
+    <webLinks>
+        <label>Modificar os termos da cotação</label>
+        <name>SBQQ__ModifyQuoteTerms</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PreviewDocument --></label>
+        <name>SBQQ__PreviewDocument</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RefreshMultiplePrices --></label>
+        <name>SBQQ__RefreshMultiplePrices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RefreshPrices --></label>
+        <name>SBQQ__RefreshPrices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendWithDocuSign --></label>
+        <name>SendWithDocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Generate_Contract --></label>
+        <name>Test_Generate_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- test_button --></label>
+        <name>test_button</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,91 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <template if:true={isShowModal}>
+    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+        <div class="slds-modal__container">
+         <!-- modal header start -->
+           <header class="slds-modal__header">
+              <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={hideModalBox}>
+                 <lightning-icon icon-name="utility:close"
+                    alternative-text="close"
+                    variant="inverse"
+                    size="small" ></lightning-icon>
+                 <span class="slds-assistive-text">Close</span>
+              </button>
+              <template if:true={showNew}>   
+              <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">New Business Volume Selection Criteria</h2>
+              </template>
+              <template if:false={showNew}>   
+                <h2 id="modal-heading-02" class="slds-text-heading_medium slds-hyphenate">Edit Business Volume Selection Criteria</h2>
+                </template>
+           </header>
+       
+           <!-- modal body start -->
+           <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+     <template if:true={showNew}>   
+    <lightning-record-edit-form object-api-name="PMC_SS_BusinessVolumeSelectionCriteria__c" onsuccess={handleSuccess}  >
+        <lightning-messages></lightning-messages>
+        <lightning-input-field data-name="rb" field-name="PMC_SS_RebateProgram__c" value={recordId}> </lightning-input-field>
+        <lightning-input-field data-name="fc" value='' field-name="PMC_SS_FieldCombination__c" onchange={handleChange}> </lightning-input-field>
+        <lightning-input-field data-name="ch" value='' field-name="PMC_SS_CustomerHierarchy__c" disabled = {customerHierarchyEnable}> </lightning-input-field>
+        <lightning-input-field data-name="cu" value='' field-name="PMC_SS_Customer__c" disabled = {customerEnable}></lightning-input-field>
+        <lightning-input-field data-name="mg" value='' field-name="PMC_SS_MaterialGroup__c" disabled = {materialGrpEnable}></lightning-input-field>
+        <lightning-input-field data-name="ma" value='' field-name="PMC_SS_Material__c" disabled = {materialEnable}></lightning-input-field>
+        <lightning-input-field data-name="ph" value='' field-name="PMC_SS_ProductHierarchy__c" disabled = {productHierarchyEnable}></lightning-input-field>
+        <lightning-input-field data-name="ie" value='' field-name="PMC_SS_InclExcl__c" disabled = {inclExclEnable}></lightning-input-field>
+        <!--<lightning-input-field data-name="so" value='' field-name="PMC_SS_SalesOrg__c" disabled = true></lightning-input-field>-->
+        <lightning-input-field data-name="sh" value='' field-name="PMC_SS_Shipto__c" disabled = {shipToEnable}></lightning-input-field>
+       <div class="button-container-inner slds-float_right">
+        <lightning-button
+        onclick={hideModalBox}
+        label="Cancel"
+    > </lightning-button>&nbsp;&nbsp;
+    <lightning-button
+    type="submit"
+        name="submit1"
+        data-id="sn"
+        label="Save & New"
+    > </lightning-button>&nbsp;&nbsp;
+    <lightning-button
+    type="submit"
+    data-name="submit"
+    data-id="sa"
+    onclick={openNew}
+    label="Save" variant="brand"
+> </lightning-button></div><br/><br/><br/>
+    </lightning-record-edit-form></template>
+    <template if:false={showNew}>     
+        
+        <lightning-record-edit-form object-api-name="PMC_SS_BusinessVolumeSelectionCriteria__c" onsuccess={handleSuccess}  record-id={recordId}>
+            <lightning-messages></lightning-messages>
+            <lightning-input-field field-name="PMC_SS_RebateProgram__c" > </lightning-input-field>
+            <lightning-input-field data-name="fce" field-name="PMC_SS_FieldCombination__c" onchange={handleChangeEdit}> </lightning-input-field>
+            <lightning-input-field data-name="che" field-name="PMC_SS_CustomerHierarchy__c" disabled = {customerHierarchyEnable}> </lightning-input-field>
+            <lightning-input-field data-name="cue" field-name="PMC_SS_Customer__c" disabled = {customerEnable}></lightning-input-field>
+            <lightning-input-field data-name="mge" field-name="PMC_SS_MaterialGroup__c" disabled = {materialGrpEnable}></lightning-input-field>
+            <lightning-input-field data-name="mae" field-name="PMC_SS_Material__c" disabled = {materialEnable}></lightning-input-field>
+            <lightning-input-field data-name="phe"  field-name="PMC_SS_ProductHierarchy__c" disabled = {productHierarchyEnable}></lightning-input-field>
+            <lightning-input-field data-name="iee"  field-name="PMC_SS_InclExcl__c" disabled = {inclExclEnable}></lightning-input-field>
+            <!--<lightning-input-field data-name="soe" value='' field-name="PMC_SS_SalesOrg__c" disabled = true></lightning-input-field>-->
+            <lightning-input-field data-name="she" field-name="PMC_SS_Shipto__c" disabled = {shipToEnable}></lightning-input-field>
+            <div class="button-container-inner slds-float_right">
+                <lightning-button
+                onclick={hideModalBox}
+                label="Cancel"
+            > </lightning-button>&nbsp;&nbsp;
+           <lightning-button
+            type="submit"
+            data-name="submitOnEdit"
+            onclick={openNew}
+            label="Save" variant="brand"> </lightning-button></div><br/><br/><br/>
+        </lightning-record-edit-form></template>
+    </div>
+
+    <!-- modal footer start-->
+   
+ </div>
+</section>
+<div class="slds-backdrop slds-backdrop_open"></div>
+   </template>  
+   
+</template>

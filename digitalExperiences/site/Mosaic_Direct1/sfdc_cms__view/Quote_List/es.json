@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "pageTitle" : "Cotizaciones"
+        },
+        "id" : "c64eb791-b6b5-4dc4-a59a-24dd83d633ff"
+      } ]
+    }
+  },
+  "urlName" : "quote-list"
+}

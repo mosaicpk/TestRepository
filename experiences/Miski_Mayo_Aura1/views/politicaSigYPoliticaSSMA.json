@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8de3b261-3bde-428d-80cd-b4508b07dcea",
+  "label" : "Politica Sig y Politica SSMA",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "34a4854d-90cc-4a38-917e-8624ab4ce381",
+          "columns" : [ {
+            "UUID" : "f59157e5-1cb3-4fae-a531-70e7d5fbd6c6",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "34a4854d-90cc-4a38-917e-8624ab4ce381",
+      "regions" : [ {
+        "id" : "f59157e5-1cb3-4fae-a531-70e7d5fbd6c6",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "df198179-2a4a-41ac-a5d1-6b1919666af1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Politica Sig y Politica SSMA"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c5cadc72-45d8-4a8a-9a4d-cebc7b9ad95d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "74d55f5e-a24a-4f35-bc6c-99295d9e2365",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-politica-sig-y-politica-ssma"
+}

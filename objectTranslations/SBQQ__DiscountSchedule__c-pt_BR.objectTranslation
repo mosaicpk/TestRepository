@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agenda de desconto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agendas de desconto</value>
+    </caseValues>
+    <fields>
+        <help>Conta à qual essa tabela de descontos se aplica. Usado somente em combinação com a Substituição da tabela de descontos na interface do usuário do Quote Line Editor.</help>
+        <label><!-- Account --></label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especifique como agregar quantidades de linhas de cotação para produtos que usam essa programação. Por padrão, a quantidade de cada linha (mesmo para o mesmo produto) é considerada de forma independente.</help>
+        <label><!-- Aggregation Scope --></label>
+        <name>SBQQ__AggregationScope__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>Grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Selecione o campo que você deseja comparar com o mesmo campo na cotação.</help>
+        <label><!-- Constraint Field --></label>
+        <name>SBQQ__ConstraintField__c</name>
+        <picklistValues>
+            <masterLabel>Account__c</masterLabel>
+            <translation>Account__c</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção se quiser estender os descontos por volume ao volume total de propriedade do cliente (ou seja, quantidade cotada mais compras anteriores).</help>
+        <label>Ordens cruzadas</label>
+        <name>SBQQ__CrossOrders__c</name>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para agregar as quantidades de todos os produtos que usam essa programação para fins de cálculo do desconto por volume. Os descontos em placas não podem ser usados para descontos em produtos cruzados.</help>
+        <label>Produtos Cruzados</label>
+        <name>SBQQ__CrossProducts__c</name>
+    </fields>
+    <fields>
+        <help>Descrição para essa tabela de descontos.</help>
+        <label><!-- Description --></label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help>Especifique a unidade de desconto: Valor ou porcentagem.</help>
+        <label>Unidade de desconto</label>
+        <name>SBQQ__DiscountUnit__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation>Valor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation>Porcentagem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Preço</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Insira uma lista de IDs de catálogos de preços separados por vírgulas que não devem ser aplicados a essa tabela de descontos.</help>
+        <label>IDs de catálogos de preços excluídos</label>
+        <name>SBQQ__ExcludedPricebookIds__c</name>
+    </fields>
+    <fields>
+        <help>Se marcada, as Quantidades de Opções de Produtos Agrupados serão incluídas no Escopo de Agregação</help>
+        <label>Incluir quantidades agrupadas</label>
+        <name>SBQQ__IncludeBundledProducts__c</name>
+    </fields>
+    <fields>
+        <help>Solicitar o produto ao qual essa tabela de descontos se aplica.</help>
+        <label>Pedido de produto</label>
+        <lookupFilter>
+            <errorMessage>Selecione Order Products do pedido associado.</errorMessage>
+        </lookupFilter>
+        <name>SBQQ__OrderProduct__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Pedido ao qual essa tabela de descontos se aplica.</help>
+        <label>Pedido</label>
+        <name>SBQQ__Order__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A tabela de descontos original que foi substituída para criar essa tabela de descontos.</help>
+        <label>Tabela de descontos original</label>
+        <name>SBQQ__OriginalDiscountSchedule__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Determina se o nível de desconto atual no qual o produto se enquadra é editável, se todos os níveis de desconto são editáveis ou nenhum.</help>
+        <label><!-- Override Behavior --></label>
+        <name>SBQQ__OverrideBehavior__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Tier Only</masterLabel>
+            <translation>Somente a camada atual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Casas decimais para preços produzidos por essa tabela de descontos.</help>
+        <label>Escala de preços</label>
+        <name>SBQQ__PriceScale__c</name>
+    </fields>
+    <fields>
+        <help>Livro de preços ao qual essa tabela de descontos se aplica. Usado somente em combinação com a pesquisa de produto para atribuir uma programação específica de produto/carteira de preços.</help>
+        <label>Livro de preços</label>
+        <name>SBQQ__Pricebook__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Produto ao qual essa tabela de descontos se aplica. Usado somente em combinação com a pesquisa do catálogo de preços para atribuir uma programação específica de produto/ catálogo de preços.</help>
+        <label><!-- Product --></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Campo usado para calcular o preço da tabela de descontos.</help>
+        <label>Campo Quantidade da linha de cotação</label>
+        <name>SBQQ__QuoteLineQuantityField__c</name>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation>Quantidade</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Citar a linha à qual essa tabela de descontos se aplica. Usado somente em combinação com a Substituição da tabela de descontos na interface do usuário do Quote Line Editor.</help>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cotação à qual essa tabela de descontos se aplica. Usado somente em combinação com a Substituição da tabela de descontos na interface do usuário do Quote Line Editor.</help>
+        <label>Orçamento</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Programações de descontos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Escolha o tipo de desconto que determina como o valor ou as porcentagens serão subtraídos do preço.</help>
+        <label><!-- Type --></label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>Faixa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation>Slab</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se marcada, a unidade de desconto da tabela de descontos definida pelo usuário será definida como Preço.</help>
+        <label>Usar preço como valor</label>
+        <name>SBQQ__UsePriceForAmount__c</name>
+    </fields>
+    <fields>
+        <help>Identifica se essa agenda foi criada por um usuário final ou por um administrador.</help>
+        <label><!-- User Defined --></label>
+        <name>SBQQ__UserDefined__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome do cronograma</nameFieldLabel>
+    <webLinks>
+        <label><!-- EditTiers --></label>
+        <name>SBQQ__EditTiers</name>
+    </webLinks>
+</CustomObjectTranslation>

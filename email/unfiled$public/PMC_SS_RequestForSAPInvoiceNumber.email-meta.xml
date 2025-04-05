@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Request For SAP Invoice Number</name>
+    <style>none</style>
+    <subject>Invoice Number needed for Case {!Case.CaseNumber}</subject>
+    <textOnly>Billing Team,  A credit memo has been submitted by {!Case.OwnerFullName}  and the SAP Invoice Number is needed in order to proceed.  Please reply to this email with the  SAP Invoice Number, so the CSR can enter that information on the case. For any questions, please reach out to XXYYZZ  Details: Account: {!Case.Account} Case: {!Case.CaseNumber}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

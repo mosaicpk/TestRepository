@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Test Case --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Test Case --></value>
+    </caseValues>
+    <fields>
+        <help>Abrir com o Copado Recorder</help>
+        <label>Abrir com o Copado Recorder</label>
+        <name>copado__Open_with_Copado_Recorder__c</name>
+    </fields>
+    <fields>
+        <label>Versão anterior</label>
+        <name>copado__Previous_Version__c</name>
+        <relationshipLabel>Próxima versão</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Versão</label>
+        <name>copado__Version__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Selenium Test Case Name --></nameFieldLabel>
+    <webLinks>
+        <label>Nova versão</label>
+        <name>copado__New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>Promover para esta versão</label>
+        <name>copado__Promote_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>execução rápida</label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+    <webLinks>
+        <label>Reversão para a versão anterior</label>
+        <name>copado__Rollback_to_Previous_Version</name>
+    </webLinks>
+</CustomObjectTranslation>

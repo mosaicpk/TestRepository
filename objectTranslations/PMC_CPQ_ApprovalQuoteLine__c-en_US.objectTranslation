@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Approval QuoteLine</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Approval QuoteLines</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Rule --></label>
+        <name>PMC_CPQ_ApprovalRule__c</name>
+        <relationshipLabel><!-- Approval QuoteLines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval --></label>
+        <name>PMC_CPQ_Approval__c</name>
+        <relationshipLabel><!-- Approval QuoteLines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Line --></label>
+        <name>PMC_CPQ_QuoteLine__c</name>
+        <relationshipLabel><!-- Approval QuoteLines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote --></label>
+        <name>PMC_CPQ_Quote__c</name>
+        <relationshipLabel><!-- Approval QuoteLines --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<template>
+    <c-custom-tabs ontabclick={tabClickHandler}></c-custom-tabs>
+
+    <template if:true={contentSelector.tab1}>
+        tab1 Content
+    </template>
+    <template if:true={contentSelector.tab2}>
+        tab2 Content
+    </template>
+    <template if:true={contentSelector.tab3}>
+        tab3 Content
+    </template>
+    <template if:true={contentSelector.tab4}>
+        tab4 Content
+    </template>
+    <template if:true={contentSelector.tab5}>
+        tab5 Content
+    </template>
+</template>

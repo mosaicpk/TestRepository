@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipment Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- BOLNUMBER --></label>
+        <name>PMC_BOLNUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- BOL --></label>
+        <name>PMC_BOL__c</name>
+    </fields>
+    <fields>
+        <label><!-- COMMENTS --></label>
+        <name>PMC_COMMENTS__c</name>
+    </fields>
+    <fields>
+        <label><!-- CurrentCoordinates --></label>
+        <name>PMC_CPQ_CurrentCoordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Number --></label>
+        <name>PMC_CPQ_SAPDeliveryID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Number --></label>
+        <name>PMC_CPQ_ShipmentNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment PO --></label>
+        <name>PMC_CPQ_Shipment_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- CURRENTCARRIER --></label>
+        <name>PMC_CURRENTCARRIER__c</name>
+    </fields>
+    <fields>
+        <label><!-- CURRENTLOCATION --></label>
+        <name>PMC_CURRENTLOCATION__c</name>
+    </fields>
+    <fields>
+        <label><!-- CUSTORDERNO --></label>
+        <name>PMC_CUSTORDERNO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DELIVERYNUMBER --></label>
+        <name>PMC_DELIVERYNUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- DESTINATIONCARRIER --></label>
+        <name>PMC_DESTINATIONCARRIER__c</name>
+    </fields>
+    <fields>
+        <label><!-- DESTINATIONMM --></label>
+        <name>PMC_DESTINATIONMM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliveries Updated --></label>
+        <name>PMC_Deliveries_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- EQUIPMENTID --></label>
+        <name>PMC_EQUIPMENTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA --></label>
+        <name>PMC_ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- FLEETTOWNAME --></label>
+        <name>PMC_FLEETTOWNAME__c</name>
+    </fields>
+    <fields>
+        <label><!-- LATESTINTERNALCOMMENT --></label>
+        <name>PMC_LATESTINTERNALCOMMENT__c</name>
+    </fields>
+    <fields>
+        <label><!-- LATESTTRIPSIGHTINGID --></label>
+        <name>PMC_LATESTTRIPSIGHTINGID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PONUMBER --></label>
+        <name>PMC_PONUMBER__c</name>
+    </fields>
+    <fields>
+        <label><!-- SHIPMENTNUMBER_CNTORDER --></label>
+        <name>PMC_SHIPMENTNUMBER_CNTORDER__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIGHTINGDESTINATION --></label>
+        <name>PMC_SIGHTINGDESTINATION__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIGHTINGLOADOREMPTY --></label>
+        <name>PMC_SIGHTINGLOADOREMPTY__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

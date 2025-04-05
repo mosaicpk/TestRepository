@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Alfalfa</masterLabel>
+        <translation><!-- Alfalfa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Artichoke</masterLabel>
+        <translation>Alcachofra</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Banana</masterLabel>
+        <translation><!-- Banana --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Barley</masterLabel>
+        <translation>Cevada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bean</masterLabel>
+        <translation>Grão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Beans Safrinha</masterLabel>
+        <translation>Feijão Safrinha</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cane</masterLabel>
+        <translation>Cana</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carrot</masterLabel>
+        <translation>Cenoura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cassava</masterLabel>
+        <translation>Mandioca</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Castor bean</masterLabel>
+        <translation>Mamona</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Citrus</masterLabel>
+        <translation>Cítrico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cocoa</masterLabel>
+        <translation>Cacau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coconut</masterLabel>
+        <translation>Coco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coffee</masterLabel>
+        <translation>Café</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coffee-Irrigant</masterLabel>
+        <translation>Café-Irrigado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corn</masterLabel>
+        <translation>Milho</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corn Safrinha</masterLabel>
+        <translation>Milho Safrinha</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corn silage</masterLabel>
+        <translation>Silagem de milho</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corn-Irrigant</masterLabel>
+        <translation>Milho-Irrigado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cotton</masterLabel>
+        <translation>Algodão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cotton-Irrigant</masterLabel>
+        <translation>Algodão-Irrigado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cucumber</masterLabel>
+        <translation>Pepino</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Eucalyptus</masterLabel>
+        <translation>Eucalipto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frijoles-Riego</masterLabel>
+        <translation>Feijões-Riego</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fruits</masterLabel>
+        <translation>Frutas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Garlic</masterLabel>
+        <translation>Alho</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Grape</masterLabel>
+        <translation>Uva</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Millet silage</masterLabel>
+        <translation>Silagem de painço</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mulberry</masterLabel>
+        <translation>Amora</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA-Beef cattle</masterLabel>
+        <translation>América do Norte - Bovinos de corte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA-Birds</masterLabel>
+        <translation>América do Norte - Aves</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA-Dairy cattle</masterLabel>
+        <translation>América do Norte - Bovinos leiteiros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA-Other animals</masterLabel>
+        <translation>América do Norte - Outros Animais</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA-Other industrial purposes</masterLabel>
+        <translation>América do Norte - Outros fins industriais</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA-Pigs</masterLabel>
+        <translation>América do Norte - Porcos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Onion</masterLabel>
+        <translation>Cebola</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Outro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Papaya</masterLabel>
+        <translation>Mamão</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture Bov. Cutting</masterLabel>
+        <translation>Bovinos de Pasto Corte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture Bov. Milk</masterLabel>
+        <translation>Bovinos de Pasto Leite</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture Goats</masterLabel>
+        <translation>Cabras de pasto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture Horses</masterLabel>
+        <translation>Cavalos de pasto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture ILP/ICLF</masterLabel>
+        <translation>Pasto ILP/ICLF</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture Seed</masterLabel>
+        <translation>Semente de pasto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture Sheep</masterLabel>
+        <translation>Ovelhas de pasto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pasture silage</masterLabel>
+        <translation>Silagem de pasto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pastures</masterLabel>
+        <translation>Pastos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pea</masterLabel>
+        <translation>Ervilha</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Peach</masterLabel>
+        <translation>Pêssego</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Peanut</masterLabel>
+        <translation>Amendoim</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Persimmon</masterLabel>
+        <translation>Caqui</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pineapple</masterLabel>
+        <translation>Abacaxi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Potato</masterLabel>
+        <translation>Batata</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Potato-Irrigant</masterLabel>
+        <translation>Batata - Irrigada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pumpkin</masterLabel>
+        <translation>Abóbora</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rami</masterLabel>
+        <translation><!-- Rami --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rice</masterLabel>
+        <translation>Arroz</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rice-Irrigant</masterLabel>
+        <translation>Arroz - Irrigado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Safrinha Soybeans</masterLabel>
+        <translation>Soja Safrinha</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Smoke</masterLabel>
+        <translation>Fumo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Soca Cane</masterLabel>
+        <translation>Cana soca</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sorghum silage</masterLabel>
+        <translation>Silagem de sorgo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sorgo</masterLabel>
+        <translation><!-- Sorgo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sorgo Safrinha</masterLabel>
+        <translation><!-- Sorgo Safrinha --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Soy</masterLabel>
+        <translation>Soja</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Soybeans-Irrigant</masterLabel>
+        <translation>Soja-Irrigada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Straw Pasture/Agriculture</masterLabel>
+        <translation>Palha Pasto/Agricultura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Strawberry</masterLabel>
+        <translation>Morango</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sugarcane-Plant</masterLabel>
+        <translation>Planta de cana-de-açúcar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sunflower</masterLabel>
+        <translation>Girassol</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sweet Potato</masterLabel>
+        <translation>Batata doce</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tea</masterLabel>
+        <translation>Chá</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tomato</masterLabel>
+        <translation>Tomate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vegetable</masterLabel>
+        <translation>Vegetais</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vegetables-Irrigant</masterLabel>
+        <translation>Vegetais - Irrigados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Watermelon</masterLabel>
+        <translation>Melancia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wheat</masterLabel>
+        <translation>Trigo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wheat silage</masterLabel>
+        <translation>Silagem de trigo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wheat-Irrigant</masterLabel>
+        <translation>Trigo-irrigado</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

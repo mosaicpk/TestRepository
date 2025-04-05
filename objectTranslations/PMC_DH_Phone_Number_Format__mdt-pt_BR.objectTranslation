@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Phone Number Format --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Phone Number Format --></value>
+    </caseValues>
+    <fields>
+        <label>Comprimento de Código</label>
+        <name>PMC_DH_Code_Length__c</name>
+    </fields>
+    <fields>
+        <label>Código do país</label>
+        <name>PMC_DH_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label>País</label>
+        <name>PMC_DH_Country__c</name>
+    </fields>
+    <fields>
+        <label>Formato</label>
+        <name>PMC_DH_Format__c</name>
+    </fields>
+    <fields>
+        <label>Comprimento Número de telefone</label>
+        <name>PMC_DH_Phone_Number_Length__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

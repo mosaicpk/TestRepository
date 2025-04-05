@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>service-1-18.ungvlrckbtwz@mosaicco.com</submitter>
+        <type>user</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_AccountManager__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval For Contract Cancellation When Volume Is
+&lt;1 - &gt;=35</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ContractCancellation__c</field>
+                <operation>equals</operation>
+                <value>Cancellation Due to Customer Death,Commercial Input Error,Customer Cancellation,Insufficient Loading Balance,Mosaic’s Failure,Unapproved Credit Limit,Volume Reduction Due to Agronomic Adjustment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_Ton__c</field>
+                <operation>greaterThan</operation>
+                <value>1</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_Ton__c</field>
+                <operation>lessOrEqual</operation>
+                <value>35</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Approval For Contract Cancellation When Volume Is &lt;1 - &gt;=35</label>
+        <name>PMC_SS_ApprovalForContractCancellationWhenVolumeGraterthen1andLessthenorEqual35</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_RegionalManager__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval For Contract Cancellation When Volume Is &lt;100 - &gt;=1000</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ContractCancellation__c</field>
+                <operation>equals</operation>
+                <value>Cancellation Due to Customer Death,Commercial Input Error,Customer Cancellation,Insufficient Loading Balance,Mosaic’s Failure,Unapproved Credit Limit,Volume Reduction Due to Agronomic Adjustment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_Ton__c</field>
+                <operation>greaterThan</operation>
+                <value>100</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_Ton__c</field>
+                <operation>lessOrEqual</operation>
+                <value>1000</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Approval For Contract Cancellation When Volume Is &lt;100 - &gt;=1000</label>
+        <name>PMC_SS_ApprovalForContractCancellationWhenVolumeIsGreaterthen100AndLessthenEqual</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Contract Cancellation Approval</label>
+    <processOrder>4</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

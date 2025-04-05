@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Quality Gate Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Quality Gate Rule --></value>
+    </caseValues>
+    <fields>
+        <label>Lista de ações do Copado</label>
+        <name>copado__ActionsList__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a Ação do Copado à qual essa Regra do Quality Gate será aplicada.</help>
+        <label>Ações do Copado</label>
+        <name>copado__Actions__c</name>
+    </fields>
+    <fields>
+        <help>Defina quando, durante o tempo de execução, uma regra de controle de qualidade deve ser avaliada para a ação selecionada.</help>
+        <label>Sequência de execução</label>
+        <name>copado__Execution_sequence__c</name>
+        <picklistValues>
+            <masterLabel>After</masterLabel>
+            <translation>Depois de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation>Antes de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>When branch is ready</masterLabel>
+            <translation>Quando a filial estiver pronta</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inativo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ferramenta usada para executar testes se as condições relacionadas forem atendidas. Esse valor será comparado com a ferramenta do registro de teste.</help>
+        <label>Ferramenta</label>
+        <name>copado__Tool__c</name>
+    </fields>
+    <fields>
+        <help>Identifica o tipo de portão de qualidade relacionado à ferramenta selecionada.</help>
+        <label>Tipo</label>
+        <name>copado__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- dataJson --></label>
+        <name>copado__dataJson__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Quality Gate Rule Name --></nameFieldLabel>
+</CustomObjectTranslation>

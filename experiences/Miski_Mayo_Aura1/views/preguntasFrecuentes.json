@@ -1,0 +1,60 @@
+{
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b94c0a58-fa98-44da-b8a0-dd05f8d0f35a",
+  "label" : "Preguntas Frecuentes",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3e350e16-f26b-4607-b532-8ffc33301d1d",
+          "columns" : [ {
+            "UUID" : "8e482204-feb0-4446-990b-690fd40a3f01",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3e350e16-f26b-4607-b532-8ffc33301d1d",
+      "regions" : [ {
+        "id" : "8e482204-feb0-4446-990b-690fd40a3f01",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b28a85de-32c5-416d-ae46-0d145201a896",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Preguntas Frecuentes"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ac52c26f-3c6c-4500-8156-007d7a41a7a9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ab2e544c-f4d4-470e-a17f-1ddd8cf95fa9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-preguntas-frecuentes"
+}

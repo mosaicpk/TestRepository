@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>410A</fullName>
+        <default>false</default>
+        <label>BR BA B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>411A</fullName>
+        <default>false</default>
+        <label>BR Canais MT B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>412A</fullName>
+        <default>false</default>
+        <label>BR GO B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>413A</fullName>
+        <default>false</default>
+        <label>BR KAM MEGA FARMER B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>414A</fullName>
+        <default>false</default>
+        <label>BR KAM RETAIL NORTE B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>415A</fullName>
+        <default>false</default>
+        <label>BR KAM RETAIL SUL B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>416A</fullName>
+        <default>false</default>
+        <label>BR KAM Trader GO+MT B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>417A</fullName>
+        <default>false</default>
+        <label>BR KAM Trader INT B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>418A</fullName>
+        <default>false</default>
+        <label>BR KAM Trader MS B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>419A</fullName>
+        <default>false</default>
+        <label>BR MATOPIPA B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>420A</fullName>
+        <default>false</default>
+        <label>BR MG Norte B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>421A</fullName>
+        <default>false</default>
+        <label>BR MG Sul B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>422A</fullName>
+        <default>false</default>
+        <label>BR MOS OPERAÇÕES B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>423A</fullName>
+        <default>false</default>
+        <label>BR MS B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>424A</fullName>
+        <default>false</default>
+        <label>BR MT NORTE B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>425A</fullName>
+        <default>false</default>
+        <label>BR MT OESTE B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>426A</fullName>
+        <default>false</default>
+        <label>BR MT SUL B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>427A</fullName>
+        <default>false</default>
+        <label>BR PASTAGEM B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>428A</fullName>
+        <default>false</default>
+        <label>BR PR/SC 1 B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>429A</fullName>
+        <default>false</default>
+        <label>BR PR/SC 2 B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>430A</fullName>
+        <default>false</default>
+        <label>BR RS B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>431A</fullName>
+        <default>false</default>
+        <label>BR SP Norte B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>432A</fullName>
+        <default>false</default>
+        <label>BR SP Sul B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>433B</fullName>
+        <default>false</default>
+        <label>BR Feed B2B</label>
+    </customValue>
+    <customValue>
+        <fullName>434C</fullName>
+        <default>false</default>
+        <label>BR Fertilizer B2B1</label>
+    </customValue>
+    <customValue>
+        <fullName>435C</fullName>
+        <default>false</default>
+        <label>BR Fertilizer B2B2</label>
+    </customValue>
+    <customValue>
+        <fullName>436F</fullName>
+        <default>false</default>
+        <label>BR Espec Agricolas B2B Specialties</label>
+    </customValue>
+    <customValue>
+        <fullName>437F</fullName>
+        <default>false</default>
+        <label>BR Espec Industriais  B2B Specialties</label>
+    </customValue>
+    <customValue>
+        <fullName>438A</fullName>
+        <default>false</default>
+        <label>PY KAM Trader PY B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>439L</fullName>
+        <default>false</default>
+        <label>BR Fospar</label>
+    </customValue>
+    <customValue>
+        <fullName>640C</fullName>
+        <default>false</default>
+        <label>IN Andhra Pradesh</label>
+    </customValue>
+    <customValue>
+        <fullName>641C</fullName>
+        <default>false</default>
+        <label>IN Haryana</label>
+    </customValue>
+    <customValue>
+        <fullName>642C</fullName>
+        <default>false</default>
+        <label>IN Punjab</label>
+    </customValue>
+    <customValue>
+        <fullName>643C</fullName>
+        <default>false</default>
+        <label>IN Maharashthra</label>
+    </customValue>
+    <customValue>
+        <fullName>644C</fullName>
+        <default>false</default>
+        <label>IN Rajasthan</label>
+    </customValue>
+    <customValue>
+        <fullName>645C</fullName>
+        <default>false</default>
+        <label>IN Madyapradesh</label>
+    </customValue>
+    <customValue>
+        <fullName>646C</fullName>
+        <default>false</default>
+        <label>IN Uttar Pradesh</label>
+    </customValue>
+    <customValue>
+        <fullName>647C</fullName>
+        <default>false</default>
+        <label>IN Gujarat</label>
+    </customValue>
+    <customValue>
+        <fullName>648C</fullName>
+        <default>false</default>
+        <label>IN Chhattishgarh</label>
+    </customValue>
+    <customValue>
+        <fullName>649C</fullName>
+        <default>false</default>
+        <label>IN Telangana</label>
+    </customValue>
+    <customValue>
+        <fullName>650C</fullName>
+        <default>false</default>
+        <label>IN Bihar</label>
+    </customValue>
+    <customValue>
+        <fullName>651C</fullName>
+        <default>false</default>
+        <label>IN Karnataka</label>
+    </customValue>
+    <customValue>
+        <fullName>652C</fullName>
+        <default>false</default>
+        <label>IN Tamil Nadu</label>
+    </customValue>
+    <customValue>
+        <fullName>653C</fullName>
+        <default>false</default>
+        <label>IN Orrisa</label>
+    </customValue>
+    <customValue>
+        <fullName>654C</fullName>
+        <default>false</default>
+        <label>IN West Bengal</label>
+    </customValue>
+    <customValue>
+        <fullName>655C</fullName>
+        <default>false</default>
+        <label>IN Delhi</label>
+    </customValue>
+    <customValue>
+        <fullName>656C</fullName>
+        <default>false</default>
+        <label>IN Himachal Pradesh</label>
+    </customValue>
+    <customValue>
+        <fullName>657C</fullName>
+        <default>false</default>
+        <label>IN Kerala</label>
+    </customValue>
+    <customValue>
+        <fullName>458C</fullName>
+        <default>false</default>
+        <label>PE Latam</label>
+    </customValue>
+    <customValue>
+        <fullName>459C</fullName>
+        <default>false</default>
+        <label>PE Itermediate Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>460C</fullName>
+        <default>false</default>
+        <label>Iris Milane PY</label>
+    </customValue>
+    <customValue>
+        <fullName>461C</fullName>
+        <default>false</default>
+        <label>Vago PY</label>
+    </customValue>
+    <customValue>
+        <fullName>662C</fullName>
+        <default>false</default>
+        <label>CN HLJ</label>
+    </customValue>
+    <customValue>
+        <fullName>663C</fullName>
+        <default>false</default>
+        <label>CN JL</label>
+    </customValue>
+    <customValue>
+        <fullName>664C</fullName>
+        <default>false</default>
+        <label>CN LNWN-TSM</label>
+    </customValue>
+    <customValue>
+        <fullName>665C</fullName>
+        <default>false</default>
+        <label>CN NW</label>
+    </customValue>
+    <customValue>
+        <fullName>666C</fullName>
+        <default>false</default>
+        <label>CN Northeast B2B</label>
+    </customValue>
+    <customValue>
+        <fullName>667C</fullName>
+        <default>false</default>
+        <label>CN SD</label>
+    </customValue>
+    <customValue>
+        <fullName>668C</fullName>
+        <default>false</default>
+        <label>CN SDW</label>
+    </customValue>
+    <customValue>
+        <fullName>669C</fullName>
+        <default>false</default>
+        <label>CN JS</label>
+    </customValue>
+    <customValue>
+        <fullName>670C</fullName>
+        <default>false</default>
+        <label>CN HB</label>
+    </customValue>
+    <customValue>
+        <fullName>671C</fullName>
+        <default>false</default>
+        <label>CN HN</label>
+    </customValue>
+    <customValue>
+        <fullName>672C</fullName>
+        <default>false</default>
+        <label>CN Other</label>
+    </customValue>
+    <customValue>
+        <fullName>673C</fullName>
+        <default>false</default>
+        <label>CN Export</label>
+    </customValue>
+    <customValue>
+        <fullName>674C</fullName>
+        <default>false</default>
+        <label>CN LN</label>
+    </customValue>
+    <customValue>
+        <fullName>675C</fullName>
+        <default>false</default>
+        <label>CN NM</label>
+    </customValue>
+    <customValue>
+        <fullName>676C</fullName>
+        <default>false</default>
+        <label>CN Bend</label>
+    </customValue>
+    <customValue>
+        <fullName>677C</fullName>
+        <default>false</default>
+        <label>CN South</label>
+    </customValue>
+    <customValue>
+        <fullName>678C</fullName>
+        <default>false</default>
+        <label>CN Tolling-N</label>
+    </customValue>
+    <customValue>
+        <fullName>679C</fullName>
+        <default>false</default>
+        <label>CN Tolling-S</label>
+    </customValue>
+    <customValue>
+        <fullName>680C</fullName>
+        <default>false</default>
+        <label>CN East-B2B</label>
+    </customValue>
+    <customValue>
+        <fullName>681C</fullName>
+        <default>false</default>
+        <label>CN White potassium</label>
+    </customValue>
+    <customValue>
+        <fullName>682C</fullName>
+        <default>false</default>
+        <label>CN Strategic</label>
+    </customValue>
+    <customValue>
+        <fullName>683C</fullName>
+        <default>false</default>
+        <label>CN MrM-SD01</label>
+    </customValue>
+    <customValue>
+        <fullName>684C</fullName>
+        <default>false</default>
+        <label>CN MrM-LN01</label>
+    </customValue>
+    <customValue>
+        <fullName>685C</fullName>
+        <default>false</default>
+        <label>CN MrM-SX01</label>
+    </customValue>
+    <customValue>
+        <fullName>690C</fullName>
+        <default>false</default>
+        <label>HK All Fertilizer</label>
+    </customValue>
+    <description>States the Sales Office</description>
+    <masterLabel>Sales Office TO BE DELETED</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

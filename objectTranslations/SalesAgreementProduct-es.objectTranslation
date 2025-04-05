@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Subfamilia de productos</label>
+        <name>PMC_CLM_ProductSubFamily__c</name>
+    </fields>
+    <fields>
+        <label>Toneladas anuales</label>
+        <name>PMC_SS_Annual_Tons__c</name>
+    </fields>
+    <fields>
+        <label>Toneladas de espacio de almacenamiento</label>
+        <name>PMC_SS_Bin_Space_Tons__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo individual</label>
+        <name>PMC_SS_Individual_Incentive__c</name>
+    </fields>
+    <fields>
+        <label>Grupo del material</label>
+        <name>PMC_SS_MaterialGroup__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo de cartera</label>
+        <name>PMC_SS_Portfolio_Incentive__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo potencial de crecimiento</label>
+        <name>PMC_SS_PotentialGrowthIncentive__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo potencial Ex-space</label>
+        <name>PMC_SS_Potential_Ex_space_Incentive__c</name>
+    </fields>
+    <fields>
+        <label>Incentivo potencial por volumen</label>
+        <name>PMC_SS_Potential_Volume_Incentive__c</name>
+    </fields>
+    <fields>
+        <label>Objetivo</label>
+        <name>PMC_SS_Target__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Acuerdo de venta El producto no puede añadirse o actualizarse en esta fase. Modifique este contrato de venta</errorMessage>
+        <name>PMC_SS_RestrictionSalesAgreementProducts</name>
+    </validationRules>
+</CustomObjectTranslation>

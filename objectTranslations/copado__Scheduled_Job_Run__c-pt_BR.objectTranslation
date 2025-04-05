@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Scheduled Job Run --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Scheduled Job Run --></value>
+    </caseValues>
+    <fields>
+        <help>Se você tiver ativado a configuração Mask API Key, verá um espaço reservado {USER_API_KEY} em vez da chave de API do usuário após o parâmetro api_key</help>
+        <label>URL chamado</label>
+        <name>copado__Called_URL__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <label>Executar como usuário</label>
+        <name>copado__Run_as_User__c</name>
+        <relationshipLabel>Execuções de trabalhos programados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Trabalho programado</label>
+        <name>copado__Scheduled_Job__c</name>
+        <relationshipLabel>Execuções de trabalhos programados</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation>Falha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Sucesso</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Scheduled Job Result Name --></nameFieldLabel>
+</CustomObjectTranslation>

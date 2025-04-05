@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- User Story Selenium Test --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- User Story Selenium Test --></value>
+    </caseValues>
+    <fields>
+        <label>Identificação externa</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Grupo de teste Selenium</label>
+        <name>copado__Selenium_Test_Group__c</name>
+        <relationshipLabel>Testes do Selenium da história do usuário</relationshipLabel>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Testes do Selenium da história do usuário</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- User Story Selenium Test Name --></nameFieldLabel>
+</CustomObjectTranslation>

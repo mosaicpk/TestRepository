@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Destinatário personalizado do DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Destinatários personalizados do DocuSign</value>
+    </caseValues>
+    <fields>
+        <help>Código de acesso</help>
+        <label><!-- Access Code --></label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem de e-mail</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Assunto do e-mail</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>E-mail</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Envelope Configuration --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel>Destinatários personalizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Primeiro nome</label>
+        <name>dfsle__FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host Email --></label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nome do host</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastName --></label>
+        <name>dfsle__LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Private Message --></label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Relationship --></label>
+        <name>dfsle__Relationship__c</name>
+    </fields>
+    <fields>
+        <help>Função</help>
+        <label><!-- DocuSign Role --></label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help>Ordem de roteamento</help>
+        <label>Ordem de roteamento</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>Assine agora</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help>ID do grupo de assinatura</help>
+        <label><!-- Signing Group ID --></label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signing Group Name --></label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Phone Number --></label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help>Tipo</help>
+        <label><!-- Type --></label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation>Permitir a edição</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation>Assinatura em pessoa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation>Precisa assinar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation>Necessidades de visualização</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation>Recebe uma cópia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation>Especificar destinatários</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation>Atualizar destinatários</translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSAFromNASalesManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Manager role to users in NA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To NA SSA From NA Sales Manager</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_NA_SalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSAFromNASalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Team role to users in NA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To NA SSA From NA Sales Team</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_NA_SalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSAFromNaSSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Service Representative (SSR) to users in NA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To NA SSA From NA SSR</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSAFromOtherNaSSA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Service Analyst (SSA) to other users in NA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To NA SSA From Other NA SSA</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSAFromSalesDirector</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in Sales Director role to users in NA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To NA SSA From Sales Director</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_CPQ_SalesDirector</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSRFromNASalesManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Manager role to users in NA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To NA SSR From NA Sales Manager</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_NA_SalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSRFromNASalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Team role to users in NA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To NA SSR From NA Sales Team</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_NA_SalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSRFromNaSSA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Service Analyst (SSA) to users in NA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To NA SSR From NA SSA</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_NASalesServiceAnalystSSA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSRFromOtherNaSSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in NA Sales Service Representative (SSR) to other users in NA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To NA SSR From Other NA SSR</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToNaSSRFromSalesDirector</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in Sales Director role to users in NA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To NA SSR From Sales Director</label>
+        <sharedTo>
+            <role>PMC_SS_NASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_CPQ_SalesDirector</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSAFromOtherSaSSA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA Sales Service Analyst (SSA) role to other users in SA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To SA SSA From Other SA SSA</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSAFromSAB2BSalesManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2B Sales Manager role to users in SA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To SA SSA From SA B2B Sales Manager</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2BSalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSAFromSAB2BSalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2B Sales Team role to users in SA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To SA SSA From SA B2B Sales Team</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2BSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSAFromSAB2CSalesManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2C Sales Manager role to users in SA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To SA SSA From SA B2C Sales Manager</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2CSalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSAFromSAB2CSalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2C Sales Team role to users in SA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To SA SSA From SA B2C Sales Team</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2CSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSAFromSaSSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA Sales Service Representative (SSR) role to users in SA Sales Service Analyst (SSA) role with Read/Write Access</description>
+        <label>RW Access To SA SSA From SA SSR</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSRFromOtherSaSSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA Sales Service Representative (SSR) role to other users in SA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To SA SSR From Other SA SSR</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSRFromSAB2BSalesManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2B Sales Manager role to users in SA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To SA SSR From SA B2B Sales Manager</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2BSalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSRFromSAB2BSalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2B Sales Team role to users in SA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To SA SSR From SA B2B Sales Team</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2BSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSRFromSAB2CSalesManager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2C Sales Manager role to users in SA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To SA SSR From SA B2C Sales Manager</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2CSalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSRFromSAB2CSalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA B2C Sales Team role to users in SA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To SA SSR From SA B2C Sales Team</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SA_B2CSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMC_SS_RWAccessToSaSSRFromSaSSA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares the Opportunity records created by users in SA Sales Service Analyst (SSA) role to users in SA Sales Service Representative (SSR) role with Read/Write Access</description>
+        <label>RW Access To SA SSR From SA SSA</label>
+        <sharedTo>
+            <role>PMC_SS_SASalesServiceRepresentativeSSR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>PMC_SS_SASalesServiceAnalystSSA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

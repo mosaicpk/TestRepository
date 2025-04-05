@@ -1,0 +1,77 @@
+<template>
+    <div class="header-container slds-grid slds-gutters_direct slds-show_medium">
+        <div class="slds-col slds-size_2-of-12 slds-grid slds-grid_align-spread slds-p-around_none">
+            <!-- <a href="javascript:void(0)">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatfAxSJz5LYhap6gH53kOq5_cn9Zl7afUyA&usqp=CAU"
+                    alt="Header Logo" class="brand-logo" />
+            </a> -->
+            <h1 class="slds-align--absolute-center"><a href="javascript:void(0)">Company Logo</a></h1>
+        </div>
+        <div class="slds-col slds-size_4-of-12">
+            <c-search-bar-flyout></c-search-bar-flyout>
+        </div>
+        <div
+            class="slds-col slds-size_6-of-12 slds-grid slds-gutters_direct slds-grid_vertical-align-center slds-grid_align-end">
+            <div class="slds-col slds-grid slds-grid_vertical-align-center">
+                <c-language-dropdown></c-language-dropdown>
+            </div>
+            <div class="slds-col slds-p-left_none">
+                <c-account-details-menu></c-account-details-menu>
+            </div>
+            <div class="slds-col slds-grid slds-grid_vertical-align-center slds-p-horizontal_none">
+                <div class="header-icons slds-var-p-right_small">
+                    <lightning-icon icon-name='utility:notification' alternative-text='notification' size='small'
+                        title='notification'></lightning-icon>
+                </div>
+                <div class="header-icons cart-icon">
+                    <c-mini-cart-modal></c-mini-cart-modal>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slds-grid slds-wrap page-container slds-hide_medium">
+        <div class="slds-col slds-grow-none">
+            <a href="javascript:void(0)">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatfAxSJz5LYhap6gH53kOq5_cn9Zl7afUyA&usqp=CAU"
+                    alt="Header Logo" tabindex="0" class="brand-logo" />
+            </a>
+        </div>
+        <div class="slds-col slds-grow-none slds-col_bump-left slds-grid">
+            <div class="mobile-icon">
+                <lightning-icon icon-name='utility:search' alternative-text='search' size='small' title='search'
+                    onclick={notificationClickHandler}></lightning-icon>
+            </div>
+            <div class="mobile-icon">
+                <lightning-icon icon-name='utility:notification' alternative-text='notification' size='small'
+                    title='notification'></lightning-icon>
+            </div>
+            <div class="mobile-icon cart-icon">
+                <c-mini-cart-modal></c-mini-cart-modal>
+            </div>
+            <div class="mobile-icon">
+                <lightning-icon icon-name='utility:apps' alternative-text='action_list_component' size='small'
+                    title='action_list_component' onclick={hanburgerClickHandler}></lightning-icon>
+            </div>
+        </div>
+        <div class="slds-col slds-size_12-of-12 search-bar-mobile slds-hide">
+            <c-search-bar-flyout></c-search-bar-flyout>
+        </div>
+    </div>
+
+    <div class="slds-grid slds-grid_align-center slds-p-bottom_x-small">
+        <nav class="mobile-nav slds-show_large">
+            <ul class="slds-grid mobile-menu-item">
+                <li class="slds-col item" tabindex="0" for:each={navItems} for:item="item" key={item.option}>
+                    <a href="javascript:void(0)" class="main-menu">
+                        {item.option}
+                    </a>
+                </li>
+            </ul>
+            <div class="slds-hide_medium">
+                <c-account-details-menu></c-account-details-menu>
+                <c-language-dropdown></c-language-dropdown>
+            </div>
+        </nav>
+    </div>
+</template>

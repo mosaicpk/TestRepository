@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Rebate_Program_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Rebate_Program_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <description>Specifies the description of the rebate program</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <description>Specifies the end date of the Rebate Program</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Frequency</fullName>
+        <description>Specifies frequency of rebate program</description>
+        <inlineHelpText>The basis for the number of rebate program payout periods generated.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GracePeriodDayCount</fullName>
+        <description>Number of days from end date of an instance of a payout period. Transactions submitted until this day are considered for rebate calculation.</description>
+        <inlineHelpText>The number of days after the program end date that transactions can be submitted.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <description>Specifies name of the Rebate Program</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <description>Specifies the owner of the Rebate Program</description>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMC_CLM_RebateProgramOrder__c</fullName>
+        <description>Number indicating the position within its group or sales agreement.</description>
+        <externalId>false</externalId>
+        <label>Rebate Program Order</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Projected_Incentive__c</fullName>
+        <label>Projected Incentive</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_SalesAgreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Sales Agreement</description>
+        <label>Sales Agreement</label>
+        <referenceTo>SalesAgreement</referenceTo>
+        <relationshipLabel>Rebate Programs</relationshipLabel>
+        <relationshipName>Rebate_Programs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PayoutCalculationDayCount</fullName>
+        <description>Number of days from period end date. The payment will be calculated after this date. For example, a payout calculation day count of 14 means 14 days after period end date.</description>
+        <inlineHelpText>The number of days after the payout period end date that the payout is calculated.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProgramReferenceNumber</fullName>
+        <description>The reference number assigned to this rebate program. This field is unique within the organization. This field is available in API version 52.0 and later.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RebateProgramUrl</fullName>
+        <description>URL of the rebate program</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <description>Specifies start date of rebate program.</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <description>Possible states of Rebate Program. Possible values are: Active, Draft, Inactive</description>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>All_RebatePrograms</fullName>
+        <filterScope>Everything</filterScope>
+        <label>AllRebatePrograms</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Activated_Rebates</fullName>
+        <columns>Name</columns>
+        <columns>StartDate</columns>
+        <columns>EndDate</columns>
+        <columns>Frequency</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </filters>
+        <label>My Activated Rebates</label>
+    </listViews>
+    <listViews>
+        <fullName>My_RebatePrograms</fullName>
+        <columns>Name</columns>
+        <columns>Status</columns>
+        <columns>StartDate</columns>
+        <columns>EndDate</columns>
+        <columns>Owner</columns>
+        <columns>CreatedDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Rebate Programs</label>
+    </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Exclusive_Space</fullName>
+        <active>true</active>
+        <label>Exclusive Space</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Rebate_Program</fullName>
+        <active>true</active>
+        <label>Rebate Program</label>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>PMC_SS_RestrictRebateProgramEdit</fullName>
+        <active>true</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Program for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT( ISCHANGED( PMC_CLM_RebateProgramOrder__c ) ),
+
+OR(
+AND(
+NOT(
+OR(
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Active&apos;) ,
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+
+),
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Inactive&apos;) ,
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;)
+
+)
+)
+),
+NOT(ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR(
+ISPICKVAL( PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Approved&apos;),
+ISPICKVAL(PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c, &apos;Under Revision&apos;)
+)
+),
+AND(
+ISNEW(),
+OR( ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Archived&apos;),
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;),
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;) )
+)
+),
+
+OR((PRIORVALUE( PMC_SS_Projected_Incentive__c ) = PMC_SS_Projected_Incentive__c) ,ISBLANK(PMC_SS_Projected_Incentive__c))
+
+
+)</errorConditionFormula>
+        <errorMessage>Rebate Programs can’t be created/edited at this stage. Please Amend the Sales Agreement to make revisions to Rebate Programs.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictTest</fullName>
+        <active>false</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Program for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT( ISCHANGED( PMC_CLM_RebateProgramOrder__c ) ),
+
+OR(
+AND(
+NOT(
+OR(
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Active&apos;) ,
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Activated&apos;)
+
+),
+AND(
+ISCHANGED( Status ) ,
+ISPICKVAL( Status , &apos;Inactive&apos;) ,
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;)
+
+)
+)
+),
+NOT(ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;)),
+OR(
+ISPICKVAL( PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c , &apos;Approved&apos;),
+ISPICKVAL(PMC_SS_SalesAgreement__r.PMC_SS_ApprovalStatus__c, &apos;Under Revision&apos;)
+)
+),
+AND(
+ISNEW(),
+OR( ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Archived&apos;),
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;),
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;) )
+)
+),
+
+OR((PRIORVALUE( PMC_SS_Projected_Incentive__c ) = PMC_SS_Projected_Incentive__c) ,ISNEW())
+
+
+)</errorConditionFormula>
+        <errorMessage>TEST &gt;&gt;&gt;!!!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictUpdateOnInactiveRebPrg</fullName>
+        <active>true</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Program for Under Revision or Approved Sales Agreement.</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+OR(
+ISPICKVAL( PRIORVALUE(Status) , &apos;Inactive&apos;),
+AND(
+ISPICKVAL( Status, &apos;Inactive&apos;),
+NOT(
+OR( 
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Archived&apos;), 
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Expired&apos;), 
+ISPICKVAL( PMC_SS_SalesAgreement__r.Status , &apos;Cancelled&apos;) )
+)
+)
+)
+)</errorConditionFormula>
+        <errorMessage>Inactive Rebate Programs cannot be updated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_RestrictUpdateWhenStatusActive</fullName>
+        <active>true</active>
+        <description>This validation rule is used to restrict the user from editing or creating Rebate Program when in Active status.</description>
+        <errorConditionFormula>AND( 
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+NOT( ISNULL(PMC_SS_SalesAgreement__c  ) ),
+NOT( ISPICKVAL(PMC_SS_SalesAgreement__r.Status, &apos;Activated&apos;) ),
+ISPICKVAL( Status , &apos;Active&apos;)
+)</errorConditionFormula>
+        <errorMessage>Cannot activate the Rebate Program until the Sales Agreement is Active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_ValidateStartAndEndDates</fullName>
+        <active>true</active>
+        <description>Rule to ensure that Rebate Program Start Date &amp; End Date are within Sales Agreement Dates.</description>
+        <errorConditionFormula>IF(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),
+OR(
+StartDate &lt; PMC_SS_SalesAgreement__r.StartDate,
+EndDate &gt; PMC_SS_SalesAgreement__r.EndDate
+),
+false
+)</errorConditionFormula>
+        <errorMessage>Please add a Rebate Program that has time duration within the Sales Agreement&apos;s time duration.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_test1</fullName>
+        <active>false</active>
+        <description>Restrict</description>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c ) ,
+
+ISPICKVAL(  Status, &apos;Active&apos;),
+
+ISCHANGED(PMC_SS_Projected_Incentive__c),
+NOT(PRIORVALUE(PMC_SS_Projected_Incentive__c) = NULL)
+)</errorConditionFormula>
+        <errorMessage>STOP!</errorMessage>
+    </validationRules>
+</CustomObject>

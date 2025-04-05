@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Driver</masterLabel>
+        <translation>Motorista</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maintenance Associate</masterLabel>
+        <translation>Associado de manutenção</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manager</masterLabel>
+        <translation>Gerente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Operations Manager</masterLabel>
+        <translation>Gerente de operações</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

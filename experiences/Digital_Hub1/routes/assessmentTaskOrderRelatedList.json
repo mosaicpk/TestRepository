@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "5fd0709d-903a-4f97-aa35-67156d8b5dcc",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "Assessment_Task_Order_Related_List__c",
+  "id" : "4c0d4ae2-1169-44e6-8656-cfd2825c7e5c",
+  "label" : "Assessment Task Order Related List",
+  "routeType" : "relatedlist-0es",
+  "type" : "route",
+  "urlPrefix" : "assessmenttaskorder"
+}

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Sales Org Metadata --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Sales Org Metadata --></value>
+    </caseValues>
+    <fields>
+        <label>Nome da organização de vendas</label>
+        <name>PMC_CPQ_SalesOrgName__c</name>
+        <picklistValues>
+            <masterLabel>Domestic Sales Org CN</masterLabel>
+            <translation><!-- Domestic Sales Org CN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Ag Innov Sol</masterLabel>
+            <translation><!-- Mosaic Ag Innov Sol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Colonsay</masterLabel>
+            <translation><!-- Mosaic CA Colonsay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Crop Nutri</masterLabel>
+            <translation><!-- Mosaic CA Crop Nutri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA Esterhazy</masterLabel>
+            <translation><!-- Mosaic CA Esterhazy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CA ULC (BP)</masterLabel>
+            <translation><!-- Mosaic CA ULC (BP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic CN Fertilizer</masterLabel>
+            <translation><!-- Mosaic CN Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert BMF</masterLabel>
+            <translation><!-- Mosaic Fert BMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert Bahamas</masterLabel>
+            <translation><!-- Mosaic Fert Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert Brasil</masterLabel>
+            <translation><!-- Mosaic Fert Brasil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert P&amp;K</masterLabel>
+            <translation><!-- Mosaic Fert P&amp;K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert Paraguay</masterLabel>
+            <translation><!-- Mosaic Fert Paraguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert QMF</masterLabel>
+            <translation><!-- Mosaic Fert QMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fert YMF</masterLabel>
+            <translation><!-- Mosaic Fert YMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizer</masterLabel>
+            <translation><!-- Mosaic Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Fertilizers (HK)</masterLabel>
+            <translation><!-- Mosaic Fertilizers (HK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Global Sales LLC</masterLabel>
+            <translation><!-- Mosaic Global Sales LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic India Pvt Ltd</masterLabel>
+            <translation><!-- Mosaic India Pvt Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potash Carlsb</masterLabel>
+            <translation><!-- Mosaic Potash Carlsb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Potássio Mine</masterLabel>
+            <translation><!-- Mosaic Potássio Mine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosaic Sulphur Partner</masterLabel>
+            <translation><!-- Mosaic Sulphur Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Org. 001</masterLabel>
+            <translation><!-- Sales Org. 001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tampa Port Services</masterLabel>
+            <translation><!-- Tampa Port Services --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número da organização de vendas</label>
+        <name>PMC_CPQ_SalesOrgNumber__c</name>
+        <picklistValues>
+            <masterLabel>1002</masterLabel>
+            <translation><!-- 1002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1003</masterLabel>
+            <translation><!-- 1003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1004</masterLabel>
+            <translation><!-- 1004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1005</masterLabel>
+            <translation><!-- 1005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1025</masterLabel>
+            <translation><!-- 1025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1026</masterLabel>
+            <translation><!-- 1026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1030</masterLabel>
+            <translation><!-- 1030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2000</masterLabel>
+            <translation><!-- 2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2001</masterLabel>
+            <translation><!-- 2001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2002</masterLabel>
+            <translation><!-- 2002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2003</masterLabel>
+            <translation><!-- 2003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation><!-- 4000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4001</masterLabel>
+            <translation><!-- 4001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4004</masterLabel>
+            <translation><!-- 4004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4005</masterLabel>
+            <translation><!-- 4005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4600</masterLabel>
+            <translation><!-- 4600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4620</masterLabel>
+            <translation><!-- 4620 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4680</masterLabel>
+            <translation><!-- 4680 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6000</masterLabel>
+            <translation><!-- 6000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6001</masterLabel>
+            <translation><!-- 6001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6002</masterLabel>
+            <translation><!-- 6002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6400</masterLabel>
+            <translation><!-- 6400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6500</masterLabel>
+            <translation><!-- 6500 --></translation>
+        </picklistValues>
+    </fields>
+    
+</CustomObjectTranslation>

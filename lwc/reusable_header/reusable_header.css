@@ -1,0 +1,125 @@
+.header-container {
+    background: white;
+    margin: 0 0 12px 0;
+}
+
+.brand-logo {
+    width: 206px;
+    height: auto;
+}
+
+.header-icons img {
+    min-width: 36px;
+    min-height: 36px;
+    cursor: pointer;
+}
+
+.header-icons:last-child {
+    padding-right: 0px;
+}
+
+
+@media (max-width: 1023px) {
+    .brand-logo {
+        min-width: 60px;
+        width: 60px;
+    }
+
+    .mobile-menu-item {
+        flex-direction: column;
+    }
+
+    .page-container {
+        padding: 8px 16px;
+        margin: 0;
+    }
+
+    .mobile-icon {
+        height: 16px;
+        width: 16px;
+        margin-right: 16px;
+    }
+
+    .mobile-nav {
+        width: 325px;
+        z-index: 10;
+        box-shadow: 0px 0px 10px rgba(9, 53, 50, 0.1);
+        position: absolute;
+        background-color: white;
+        padding: 16px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .brand-logo {
+        min-width: 96px;
+        width: 96px;
+    }
+}
+
+/* Menu Items */
+@media (max-width: 1023px) {
+    .mobile-menu-item {
+        flex-direction: column;
+    }
+
+    .item:last-child {
+        border-bottom: 1px solid;
+    }
+}
+
+li a.main-menu {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+li a.main-menu:hover,
+li a.main-menu:focus {
+    border: none;
+    outline: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    font-family: Sans-Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: darkgreen;
+}
+
+li .main-menu.active {
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: darkgreen;
+}
+
+.item {
+    margin-right: 60px;
+    position: relative;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 600px) {
+
+    .main-menu-icon {
+        display: inline-block;
+        align-self: inherit;
+        padding: 0px;
+    }
+
+    .item {
+        margin: 0;
+        width: 100%;
+        padding: 8px;
+    }
+}

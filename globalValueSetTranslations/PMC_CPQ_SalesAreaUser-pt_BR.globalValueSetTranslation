@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Fospar SA Domestic Common</masterLabel>
+        <translation>Fospar SA Doméstica Comum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fospar SA Export Common</masterLabel>
+        <translation>Fospar SA Exportação Comum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fospar SA Intercompany Common</masterLabel>
+        <translation>Fospar SA Comum entre empresas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minera Miski Mayo Domestic Common</masterLabel>
+        <translation>Minera Miski Mayo Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minera Miski Mayo Export Common</masterLabel>
+        <translation>Minera Miski Mayo Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Minera Miski Mayo Intercompany Common</masterLabel>
+        <translation>Minera Miski Mayo Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Ag Innov Sol Domestic Common</masterLabel>
+        <translation>Mosaic Ag Innov Sol Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Ag Innov Sol Export Common</masterLabel>
+        <translation>Mosaic Ag Innov Sol Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Ag Innov Sol Intercompany Common</masterLabel>
+        <translation>Mosaic Ag Innov Sol Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Colonsay Domestic Common</masterLabel>
+        <translation>Mosaic CA Colonsay Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Colonsay Export Common</masterLabel>
+        <translation>Mosaic CA Colonsay Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Colonsay Intercompany Common</masterLabel>
+        <translation>Mosaic CA Colonsay Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Crop Nutri Domestic Common</masterLabel>
+        <translation>Mosaic CA Crop Nutri Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Crop Nutri Export Common</masterLabel>
+        <translation>Mosaic CA Crop Nutri Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Crop Nutri Intercompany Common</masterLabel>
+        <translation>Mosaic CA Crop Nutri Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Esterhazy Domestic Common</masterLabel>
+        <translation>Mosaic CA Esterhazy Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Esterhazy Export Common</masterLabel>
+        <translation>Mosaic CA Esterhazy Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA Esterhazy Intercompany Common</masterLabel>
+        <translation>Mosaic CA Esterhazy Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA ULC (BP) Domestic Common</masterLabel>
+        <translation>Mosaic CA ULC (BP) Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA ULC (BP) Export Common</masterLabel>
+        <translation>Mosaic CA ULC (BP) Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CA ULC (BP) Intercompany Common</masterLabel>
+        <translation>Mosaic CA ULC (BP) Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CN Fertilizer Domestic Common</masterLabel>
+        <translation>Mosaic CN Fertilizer Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CN Fertilizer Export Common</masterLabel>
+        <translation>Mosaic CN Fertilizer Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic CN Fertilizer Intercompany Common</masterLabel>
+        <translation>Mosaic CN Fertilizer Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert BMF Domestic Common</masterLabel>
+        <translation>Mosaic Fert BMF Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert BMF Export Common</masterLabel>
+        <translation>Mosaic Fert BMF Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert BMF Intercompany Common</masterLabel>
+        <translation>Mosaic Fert BMF Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Bahamas Domestic Common</masterLabel>
+        <translation>Mosaic Fert Bahamas Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Bahamas Export Common</masterLabel>
+        <translation>Mosaic Fert Bahamas Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Bahamas Intercompany Common</masterLabel>
+        <translation>Mosaic Fert Bahamas Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Brasil Domestic Common</masterLabel>
+        <translation>Mosaic Fert Brasil Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Brasil Export Common</masterLabel>
+        <translation>Mosaic Fert Brasil Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Brasil Intercompany Common</masterLabel>
+        <translation>Mosaic Fert Brasil Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert P&amp;K Domestic Common</masterLabel>
+        <translation>Mosaic Fert P&amp;K Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert P&amp;K Export Common</masterLabel>
+        <translation>Mosaic Fert P&amp;K Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert P&amp;K Intercompany Common</masterLabel>
+        <translation>Mosaic Fert P&amp;K Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Paraguay Domestic Common</masterLabel>
+        <translation>Mosaic Fert Paraguai Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Paraguay Export Common</masterLabel>
+        <translation>Mosaic Fert Paraguai Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert Paraguay Intercompany Common</masterLabel>
+        <translation>Mosaic Fert Paraguai Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert QMF Domestic Common</masterLabel>
+        <translation>Mosaic Fert QMF Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert QMF Export Common</masterLabel>
+        <translation>Mosaic Fert QMF Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert QMF Intercompany Common</masterLabel>
+        <translation>Mosaic Fert QMF Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert YMF Domestic Common</masterLabel>
+        <translation>Mosaic Fert YMF Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert YMF Export Common</masterLabel>
+        <translation>Mosaic Fert YMF Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert YMF Intercompany Common</masterLabel>
+        <translation>Mosaic Fert YMF Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert. (HK) Domestic Common</masterLabel>
+        <translation>Mosaic Fert. (HK) Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert. (HK) Export Common</masterLabel>
+        <translation>Mosaic Fert. (HK) Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fert. (HK) Intercompany Common</masterLabel>
+        <translation>Mosaic Fert. (HK) Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fertilizer Domestic Common</masterLabel>
+        <translation>Mosaic Fertilizer Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fertilizer Export Common</masterLabel>
+        <translation>Mosaic Fertilizer Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Fertilizer Intercompany Common</masterLabel>
+        <translation>Mosaic Fertilizer Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Global Sales Domestic Common</masterLabel>
+        <translation>Mosaic Vendas Globais Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Global Sales Export Common</masterLabel>
+        <translation>Mosaic Vendas Globais Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Global Sales Intercompany Common</masterLabel>
+        <translation>Mosaic Vendas Globais Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic India Pvt Ltd Domestic Common</masterLabel>
+        <translation>Mosaic India Pvt Ltd Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic India Pvt Ltd Export Common</masterLabel>
+        <translation>Mosaic India Pvt Ltd Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic India Pvt Ltd Intercompany Common</masterLabel>
+        <translation>Mosaic India Pvt Ltd Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Potash Carlsb Domestic Common</masterLabel>
+        <translation>Mosaic Potash Carlsb Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Potash Carlsb Export Common</masterLabel>
+        <translation>Mosaic Potash Carlsb Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Potash Carlsb Intercompany Common</masterLabel>
+        <translation>Mosaic Potash Carlsb Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Potássio Mine Domestic Common</masterLabel>
+        <translation>Mosaic Mina de Potássio Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Potássio Mine Export Common</masterLabel>
+        <translation>Mosaic Mina de Potássio Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Potássio Mine Intercompany Common</masterLabel>
+        <translation>Mosaic Mina de Potássio Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Sulphur Partner Domestic Common</masterLabel>
+        <translation>Mosaic Sulphur Partner Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Sulphur Partner Export Common</masterLabel>
+        <translation>Mosaic Sulphur Partner Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mosaic Sulphur Partner Intercompany Common</masterLabel>
+        <translation>Mosaic Parceiro de Enxofre Intercompanhia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tampa Port Services Domestic Common</masterLabel>
+        <translation>Serviços Portuários de Tampa - Doméstico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tampa Port Services Export Common</masterLabel>
+        <translation>Serviços Portuários de Tampa - Exportação</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tampa Port Services Intercompany Common</masterLabel>
+        <translation>Serviços Portuários de Tampa - Intercompanhia</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

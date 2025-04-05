@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>GroupMember-QueuePublicGroupMembership$GroupMember-Group.DeveloperName</field>
+    </columns>
+    <columns>
+        <field>GroupMember-QueuePublicGroupMembership$GroupMember-Group.Type</field>
+    </columns>
+    <columns>
+        <field>GroupMember-QueuePublicGroupMembership$GroupMember-User</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11)</booleanFilter>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group.Type</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Q</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Product Management</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer Service Leadership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Product Management Leadership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Quality Leadership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Supply Chain</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Service</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Quality</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Billing Manager</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Sales Director</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GroupMember-QueuePublicGroupMembership$Group</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Commercial Performance Manager Queue</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>GroupMember-QueuePublicGroupMembership$Group.Type</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>GroupMember-QueuePublicGroupMembership$Group</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>GroupMember-QueuePublicGroupMembership$Group.Id</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Case Approval Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>GroupMember__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>GroupMember-QueuePublicGroupMembership$Group.CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

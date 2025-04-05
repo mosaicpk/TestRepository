@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Compliance Rule Group Item --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Compliance Rule Group Item --></value>
+    </caseValues>
+    <fields>
+        <label>Grupo de regras de conformidade</label>
+        <name>copado__Compliance_Rule_Group__c</name>
+        <relationshipLabel>Itens do grupo de regras de conformidade</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Regra de conformidade</label>
+        <name>copado__Compliance_Rule__c</name>
+        <relationshipLabel>Itens do grupo de regras de conformidade</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Compliance Rule Group Item Reference --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Essa regra de conformidade não tem nenhum critério. Uma regra de conformidade precisa de pelo menos uma linha de critérios válidos para ser adicionada a um grupo de regras de conformidade.</errorMessage>
+        <name>copado__RuleNeedsValidCriteriaToBeAddedToGroup</name>
+    </validationRules>
+</CustomObjectTranslation>

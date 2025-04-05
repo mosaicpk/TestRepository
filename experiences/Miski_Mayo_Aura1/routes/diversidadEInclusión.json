@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f9e829ea-aa48-4ed4-ba26-4d4a62e6559d",
+  "appPageId" : "66553694-485b-43eb-9164-fec47431c7fd",
+  "configurationTags" : [ ],
+  "devName" : "custom_diversidad_e_inclusin__c",
+  "id" : "6e2bcc7d-456c-4961-a6a7-6918fafdcc63",
+  "label" : "Diversidad e inclusión",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-diversidad-e-inclusin",
+  "type" : "route",
+  "urlPrefix" : "diversidad-e-inclusin"
+}

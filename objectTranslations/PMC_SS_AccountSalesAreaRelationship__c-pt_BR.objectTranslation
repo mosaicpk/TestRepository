@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Account Sales Area Relationship --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Account Sales Area Relationship --></value>
+    </caseValues>
+    <fields>
+        <label>Canal de distribuição</label>
+        <name>PMC_CPQ_DistributionChannel__c</name>
+    </fields>
+    <fields>
+        <label>Divisão</label>
+        <name>PMC_CPQ_Division__c</name>
+    </fields>
+    <fields>
+        <label>Organização de Vendas</label>
+        <name>PMC_CPQ_SalesOrganization__c</name>
+    </fields>
+    <fields>
+        <label>Conta</label>
+        <name>PMC_SS_Account__c</name>
+        <relationshipLabel>Áreas de vendas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identificador externo exclusivo</label>
+        <name>PMC_SS_ExternalUniqueIdentifier__c</name>
+    </fields>
+    <fields>
+        <help>Quando marcada, essa relação de junção está ativa</help>
+        <label>Ativo?</label>
+        <name>PMC_SS_IsActive__c</name>
+    </fields>
+    <fields>
+        <label>Área de vendas</label>
+        <name>PMC_SS_SalesArea__c</name>
+        <relationshipLabel>Relacionamento com a área de vendas de contas</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

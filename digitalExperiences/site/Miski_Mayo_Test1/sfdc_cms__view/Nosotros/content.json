@@ -1,0 +1,91 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Nosotros",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"45c80782-33a8-46cb-ace4-5827cb47e174\",\"columns\":[{\"UUID\":\"f6989666-e2cf-45b1-94e9-3b26e6c5b145\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"e142859c-4e69-4c2d-856a-35e706d2cdaf\",\"columns\":[{\"UUID\":\"7e02811a-22d9-49b8-8ebc-8b2d82bf6959\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7b2c7294-bce6-4c91-8ad5-e43496f726ae\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "id" : "7e02811a-22d9-49b8-8ebc-8b2d82bf6959",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "id" : "7b2c7294-bce6-4c91-8ad5-e43496f726ae",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "e142859c-4e69-4c2d-856a-35e706d2cdaf",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:miskiMayoGetToKnowUsCustomFirstCarouselWrapper",
+              "id" : "70ef5995-d594-40a6-b705-e5507fa22546",
+              "type" : "component"
+            } ],
+            "id" : "f6989666-e2cf-45b1-94e9-3b26e6c5b145",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "45c80782-33a8-46cb-ace4-5827cb47e174",
+          "type" : "component"
+        } ],
+        "id" : "5f8b190a-f857-46ac-b44a-1da30ab63078",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Nosotros",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "80b17c1b-cfd6-4b1d-bcc3-bc910407c6c2",
+          "type" : "component"
+        } ],
+        "id" : "e0dd7eeb-07a0-4be6-aeab-3aa6ad9f67ee",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "935ccb7b-534b-4ed4-ba1a-357e33b4007d",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-nosotros"
+  },
+  "urlName" : "nosotros"
+}

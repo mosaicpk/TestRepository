@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Copado Smart Help --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Copado Smart Help --></value>
+    </caseValues>
+    <fields>
+        <label>Ativo</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <label>Página de base</label>
+        <name>copado__Base_Page__c</name>
+        <picklistValues>
+            <masterLabel>GitCommitChanges</masterLabel>
+            <translation><!-- GitCommitChanges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitCommitMain</masterLabel>
+            <translation><!-- GitCommitMain --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Insira o URL de uma página de documentação ou artigo para ajudar os usuários a entender mais sobre essa dica. Digite o URL no formato https:// completo. Exemplo https://www.copado.com/</help>
+        <label>URL do texto de ajuda</label>
+        <name>copado__Help_Text_Url__c</name>
+    </fields>
+    <fields>
+        <help>Esse é o texto que aparecerá na mensagem pop-up de dica. Tente ser assertivo e claro com sua dica.</help>
+        <label>Texto de ajuda</label>
+        <name>copado__Help_Text__c</name>
+    </fields>
+    <fields>
+        <help>Selecione se você deseja que a dica seja exibida imediatamente ou somente quando a ação de acionamento for cumprida</help>
+        <label>Ação de acionamento</label>
+        <name>copado__Triggering_Action__c</name>
+        <picklistValues>
+            <masterLabel>Always show</masterLabel>
+            <translation>Sempre mostrar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado Metadata Grid selection</masterLabel>
+            <translation>Seleção da grade de metadados do Copado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Esse é um campo não obrigatório. Você pode usá-lo para complementar o Triggering Metadata Type case queira que itens de metadados específicos acionem as dicas. Os itens de metadados podem ser separados por &quot;;&quot;. Exemplo: standard-Account; standard-AppLauncher.</help>
+        <label>Acionamento de itens de metadados</label>
+        <name>copado__Triggering_Metadata_Items__c</name>
+    </fields>
+    <fields>
+        <help>Especifique o tipo de metadados que acionará a exibição da dica</help>
+        <label>Tipo de metadados de acionamento</label>
+        <name>copado__Triggering_Value__c</name>
+    </fields>
+    
+    <validationRules>
+        <errorMessage>Insira o tipo de metadados de acionamento para preencher os itens de metadados de acionamento</errorMessage>
+        <name>copado__Validate_triggering_metadata_type</name>
+    </validationRules>
+</CustomObjectTranslation>

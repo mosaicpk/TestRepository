@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This Custom Setting is for implementing bypass framework for triggers, flows, integrations and validation rules.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>PMC_BypassFlow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to bypass the flows.</description>
+        <label>Bypass Flow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_BypassIntegration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to bypass integrations</description>
+        <label>Bypass Integration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_BypassTrigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to bypass trigger framework</description>
+        <label>Bypass Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PMC_BypassValidationRule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to bypass the validation rules</description>
+        <label>Bypass Validation Rule</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Process Switches</label>
+    <visibility>Public</visibility>
+</CustomObject>

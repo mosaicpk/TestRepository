@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Status de ATP</label>
+        <name>PMC_CPQ_ATPStatus__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation>Confirmado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Confirmed</masterLabel>
+            <translation>No confirmado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Confirmed</masterLabel>
+            <translation>Confirmado parcialmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Factura a cuenta del pedido.</help>
+        <label>Facturar a cuenta</label>
+        <name>PMC_CPQ_BillToAccount__c</name>
+        <relationshipLabel>Pedidos (Facturar a cuenta)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Exposición crediticia</label>
+        <name>PMC_CPQ_CreditExposure__c</name>
+    </fields>
+    <fields>
+        <label>Límite de crédito</label>
+        <name>PMC_CPQ_CreditLimit__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de vencimiento de pago fijada para esta orden.</help>
+        <label>Fecha fija de vencimiento del pago</label>
+        <name>PMC_CPQ_FixedPaymentDueDate__c</name>
+    </fields>
+    <fields>
+        <label>Mantener Sub Status</label>
+        <name>PMC_CPQ_HoldSubStatus__c</name>
+        <picklistValues>
+            <masterLabel>Billing Block</masterLabel>
+            <translation>Bloque de facturación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Block</masterLabel>
+            <translation>Bloque de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Block</masterLabel>
+            <translation>Bloque de entrega</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The rules and terms used in international and domestic trade contracts. --></help>
+        <label><!-- Incoterms --></label>
+        <name>PMC_CPQ_Incoterms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Is FPD --></label>
+        <name>PMC_CPQ_IsFPD__c</name>
+    </fields>
+    <fields>
+        <label>ID de pedido legacy</label>
+        <name>PMC_CPQ_LegacyOrderID__c</name>
+    </fields>
+    <fields>
+        <label>Mensaje de integración</label>
+        <name>PMC_CPQ_OrderIntegrationMessage__c</name>
+    </fields>
+    <fields>
+        <label>Status de la integración</label>
+        <name>PMC_CPQ_OrderIntegrationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Listo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Éxito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Advertencia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Motivo del pedido</label>
+        <name>PMC_CPQ_OrderReason__c</name>
+    </fields>
+    <fields>
+        <help>Número de pedido de compra para este pedido.</help>
+        <label>Nº de pedido del cliente</label>
+        <name>PMC_CPQ_PO__c</name>
+    </fields>
+    <fields>
+        <help>Cuenta pagadora del pedido.</help>
+        <label>Pagador</label>
+        <name>PMC_CPQ_Payer__c</name>
+        <relationshipLabel>Pedidos (Pagador)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Fecha del pedido de compra para este pedido.</help>
+        <label>Fecha del pedido</label>
+        <name>PMC_CPQ_PurchaseOrderDate__c</name>
+    </fields>
+    <fields>
+        <label>Región</label>
+        <name>PMC_CPQ_Region__c</name>
+    </fields>
+    <fields>
+        <label>Número de Referencia de contrato SAP</label>
+        <name>PMC_CPQ_SAPContractReference__c</name>
+    </fields>
+    <fields>
+        <help>Número de orden de referencia en SAP.</help>
+        <label>Número de pedido SAP</label>
+        <name>PMC_CPQ_SAPOrderNumber__c</name>
+    </fields>
+    <fields>
+        <label>Acuerdo de venta</label>
+        <name>PMC_CPQ_SalesAgreement__c</name>
+        <relationshipLabel>Pedidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Área de ventas</label>
+        <name>PMC_CPQ_SalesArea__c</name>
+        <relationshipLabel>Pedidos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cuenta de destino del pedido.</help>
+        <label>Cuenta de destino</label>
+        <name>PMC_CPQ_ShipToAccount__c</name>
+        <relationshipLabel>Pedidos (Cuenta de destino)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Vendido a cuenta del pedido.</help>
+        <label>Vendido a cuenta</label>
+        <name>PMC_CPQ_SoldToAccount__c</name>
+        <relationshipLabel>Pedidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cesta</label>
+        <name>PMC_DH_Cart__c</name>
+        <relationshipLabel>Pedidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>PMC DH Fecha finalización contrato</label>
+        <name>PMC_DH_ContractEndDate__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de inicio del contrato</label>
+        <name>PMC_DH_ContractStartDate__c</name>
+    </fields>
+    <fields>
+        <label>Canal de Ventas</label>
+        <name>PMC_DH_OrderChannel__c</name>
+    </fields>
+    <fields>
+        <label>Pedido realizado por</label>
+        <name>PMC_DH_OrderCreatedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type Code --></label>
+        <name>PMC_DH_OrderTypeCode__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de creación del pedido SAP</label>
+        <name>PMC_DH_SAPOrderCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label>Canal de ventas</label>
+        <name>PMC_DH_SalesChannel__c</name>
+        <picklistValues>
+            <masterLabel>Mosaic Direct</masterLabel>
+            <translation><!-- Mosaic Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>Otros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Precio total</label>
+        <name>PMC_DH_TotalPrice__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad total</label>
+        <name>PMC_DH_TotalQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Indica si el pedido está contratado.</help>
+        <label>Contratado</label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Por fecha de finalización de suscripción crea un contrato separado para cada fecha de finalización de suscripción única, que contiene sólo esas suscripciones. &quot;Contrato único&quot; crea un Contrato que contiene todas las Suscripciones, independientemente de sus Fechas de finalización.&quot;</help>
+        <label>Método de contratación</label>
+        <name>SBQQ__ContractingMethod__c</name>
+    </fields>
+    <fields>
+        <help>Importe total de todas las reservas de productos del pedido.</help>
+        <label>Reserva de pedidos</label>
+        <name>SBQQ__OrderBookings__c</name>
+    </fields>
+    <fields>
+        <help>El término de pago de este pedido.</help>
+        <label>Término de pago</label>
+        <name>SBQQ__PaymentTerm__c</name>
+    </fields>
+    <fields>
+        <help>Mensaje de status del cálculo de precios</help>
+        <label>Mensaje status determinación precio</label>
+        <name>SBQQ__PriceCalcStatusMessage__c</name>
+    </fields>
+    <fields>
+        <help>Indica el status del Job de cálculo del precio del pedido.  Lo fija el sistema.</help>
+        <label>Status del cálculo de precios</label>
+        <name>SBQQ__PriceCalcStatus__c</name>
+    </fields>
+    <fields>
+        <help>El presupuesto desde el que se crea el pedido.</help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Pedidos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>&quot;Especifique el término de la renovación. Por defecto, coincide con el Término del contrato original.&quot;</help>
+        <label>Término de renovación</label>
+        <name>SBQQ__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <help>Tasa de aumento de los precios de renovación.</help>
+        <label>Uplift de renovación (%)</label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help>El importe estimado del impuesto</help>
+        <label>Impuesto estimado</label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShefaliTest --></label>
+        <name>ShefaliTest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Exchange Rate --></label>
+        <name>Test_Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Order Reason --></label>
+        <name>Test_Order_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Purchase Order Date --></label>
+        <name>Test_Purchase_Order_Date__c</name>
+    </fields>
+    <recordTypes>
+        <label>Doméstico</label>
+        <name>PMC_CPQ_Domestic</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>El pedido está bloqueado y no se puede editar.</errorMessage>
+        <name>PMC_CPQ_OrdersReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede contratar el pedido. Active el pedido e inténtelo de nuevo.</errorMessage>
+        <name>SBQQ__Cannot_Contract_New_Order</name>
+    </validationRules>
+    <webLinks>
+        <label>Editar productos del pedido</label>
+        <name>SBQQ__EditOrderProducts</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>AH_Logopng2</masterLabel>
+    <relationships>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Account_Forecasting_App</name>
+        </insightsApplication>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>images/AH_Logo.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

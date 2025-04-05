@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Nível de orientação de precificação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Níveis de orientação de precificação</value>
+    </caseValues>
+    <fields>
+        <help>Alto desconto para preços excepcionais com base em vendas anteriores. Se um representante de vendas quiser usar esse preço, ele deverá descontar a linha de cotação manualmente. Esse desconto pode exigir aprovações com base nas configurações de aprovação de sua organização.</help>
+        <label>Desconto do piso (%)</label>
+        <name>SBQQ__FloorDiscount__c</name>
+    </fields>
+    <fields>
+        <help>A quantidade mais baixa da linha de cotação que se aplica a esse nível. Esse número deve corresponder ao limite superior da camada anterior.</help>
+        <label><!-- Lower Bound --></label>
+        <name>SBQQ__LowerBound__c</name>
+    </fields>
+    <fields>
+        <help>Desconto intermediário com base em vendas anteriores. Se um representante de vendas quiser usar esse preço, ele deverá descontar a linha de cotação manualmente. Esse desconto pode exigir aprovações com base nas configurações de aprovação de sua organização.</help>
+        <label>Norma Desconto (%)</label>
+        <name>SBQQ__NormDiscount__c</name>
+    </fields>
+    <fields>
+        <help>A orientação de preços que contém essa camada.</help>
+        <label>Orientação sobre preços</label>
+        <name>SBQQ__PricingGuidance__c</name>
+        <relationshipLabel>Níveis de orientação de preços</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Desconto ideal de baixo alcance com base em vendas anteriores. Se os representantes de vendas aceitarem essa orientação de preço, o Salesforce CPQ aplicará um desconto para chegar a esse preço.</help>
+        <label>Desconto alvo (%)</label>
+        <name>SBQQ__TargetDiscount__c</name>
+    </fields>
+    <fields>
+        <help>A quantidade mais alta da linha de cotação que se aplica a esse nível. Esse número deve ser um número acima da quantidade mais alta que você deseja que essa camada inclua.</help>
+        <label><!-- Upper Bound --></label>
+        <name>SBQQ__UpperBound__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

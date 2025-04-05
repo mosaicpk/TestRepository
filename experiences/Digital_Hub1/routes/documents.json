@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a6fb220f-a0f0-4854-be69-9e6a568f41f0",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "Documents__c",
+  "id" : "2a0e92f6-2e43-49da-a35c-2ee74c3069e3",
+  "label" : "Documents",
+  "routeType" : "custom-documents",
+  "type" : "route",
+  "urlPrefix" : "documents"
+}

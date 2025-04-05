@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay>
+    <compactLayoutAssignment>PMC_SS_Knowledge_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PMC_SS_Knowledge_Compact_Layout</fullName>
+        <fields>Title</fields>
+        <fields>RecordTypeId</fields>
+        <fields>ArticleNumber</fields>
+        <fields>VersionNumber</fields>
+        <fields>PublishStatus</fields>
+        <fields>ValidationStatus</fields>
+        <fields>Language</fields>
+        <fields>OwnerId</fields>
+        <fields>LastPublishedDate</fields>
+        <label>PMC_SS Knowledge Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Recommended_Compact_Layout</fullName>
+        <fields>Title</fields>
+        <fields>ArticleNumber</fields>
+        <fields>RecordTypeId</fields>
+        <fields>VersionNumber</fields>
+        <fields>PublishStatus</fields>
+        <fields>ValidationStatus</fields>
+        <fields>LastModifiedDate</fields>
+        <label>Recommended Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Use this field to document the answer to the question discussed in the Knowledge Article.</inlineHelpText>
+        <label>Answer</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_EndDateNoUse__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>End Date No Use</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_EndDate__c</fullName>
+        <formula>IF( ISPICKVAL( PublishStatus , &apos;Online&apos;) , LastPublishedDate +  PMC_SS_NumberOfDisplayDays__c
+, null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_NumberOfDisplayDays__c</fullName>
+        <externalId>false</externalId>
+        <label>Number Of Display Days</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_Region__c</fullName>
+        <label>Region</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>North America</fullName>
+                    <default>false</default>
+                    <label>North America</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PMC_SS_ReviewDate__c</fullName>
+        <formula>IF( ISPICKVAL(PublishStatus, &apos;Online&apos;) , IF((MONTH( DATEVALUE(LastPublishedDate) )==2 &amp;&amp; DAY( DATEVALUE(LastPublishedDate) ) == 29),DATE(YEAR( DATEVALUE(LastPublishedDate) )+1,MONTH( DATEVALUE(LastPublishedDate) ),28),DATE(YEAR( DATEVALUE(LastPublishedDate) )+1,MONTH( DATEVALUE(LastPublishedDate) ),DAY( DATEVALUE(LastPublishedDate) ))) , null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Review Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Procedure_Audience__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Use this field to identify who should follow or execute this procedure.  If you have a set list of people or groups, you could convert it to a pre-defined picklist.</inlineHelpText>
+        <label>Audience</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Procedure_Purpose__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Use this field to describe the purpose of this procedure.</inlineHelpText>
+        <label>Purpose</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Procedure_Steps__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Use this field to track the ordered procedure steps.</inlineHelpText>
+        <label>Steps</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Procedure_Warnings__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Use this field to capture warnings and caveats that a user should know before following this procedure.  For example, you may want to include potential impacts or preparation needed before following this procedure.</inlineHelpText>
+        <label>Warnings</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Use this field to document the question being answered by this article.  Include important keywords to help users find this article.</inlineHelpText>
+        <label>Question</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>test_date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>test date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>test_review_date__c</fullName>
+        <formula>IF((MONTH( test_date__c )==2 &amp;&amp; DAY( test_date__c ) == 29),DATE(YEAR( test_date__c )+1,MONTH( test_date__c ),28),DATE(YEAR( test_date__c )+1,MONTH( test_date__c ),DAY( test_date__c )))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>test review date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <label>Knowledge</label>
+    <listViews>
+        <fullName>All_Articles</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>PMC_SS_ReviewDate__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>FAQ</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.FAQ</value>
+        </filters>
+        <label>FAQ</label>
+    </listViews>
+    <listViews>
+        <fullName>Procedure</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.Procedure</value>
+        </filters>
+        <label>Procedure</label>
+    </listViews>
+    <listViews>
+        <fullName>Technical_Bulletin_Notice</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.PMC_SS_TechnicalBulletinNotice</value>
+        </filters>
+        <label>Technical Bulletin/Notice</label>
+    </listViews>
+    <listViews>
+        <fullName>Training_Document</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.PMC_SS_TrainingDocument</value>
+        </filters>
+        <label>Training Document</label>
+    </listViews>
+    <listViews>
+        <fullName>Transition_Document</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Knowledge__kav.PMC_SS_TransitionDocument</value>
+        </filters>
+        <label>Transition Document</label>
+    </listViews>
+    <listViews>
+        <fullName>archived_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Archived Articles</label>
+        <sharedTo>
+            <role>Admin</role>
+            <role>PMC_SS_NACustomerServiceLead</role>
+            <role>PMC_SS_SACustomerServiceLead</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>draft_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Draft Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>published_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Published Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>test_visiblity</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Mine</filterScope>
+        <label>test visiblity</label>
+        <sharedTo>
+            <role>PMC_SS_SACustomerServiceManager</role>
+        </sharedTo>
+    </listViews>
+    <pluralLabel>Knowledge</pluralLabel>
+    <recordTypes>
+        <fullName>FAQ</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Recommended_Compact_Layout</compactLayoutAssignment>
+        <description>Quick answers to general questions about day-to-day operations.</description>
+        <label>FAQ</label>
+        <picklistValues>
+            <picklist>PMC_SS_Region__c</picklist>
+            <values>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North America</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_TechnicalBulletinNotice</fullName>
+        <active>true</active>
+        <description>Technical document informing users about important events (e.g. System Issues, Planned down times).</description>
+        <label>Technical Bulletin/Notice</label>
+        <picklistValues>
+            <picklist>PMC_SS_Region__c</picklist>
+            <values>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North America</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_TrainingDocument</fullName>
+        <active>true</active>
+        <description>Document to inform users about processes within the Salesforce platform.</description>
+        <label>Training Document</label>
+        <picklistValues>
+            <picklist>PMC_SS_Region__c</picklist>
+            <values>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North America</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_TransitionDocument</fullName>
+        <active>true</active>
+        <description>Document to inform team members of ongoing activities prior to a leave of absence.</description>
+        <label>Transition Document</label>
+        <picklistValues>
+            <picklist>PMC_SS_Region__c</picklist>
+            <values>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North America</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PMC_SS_UserGuide</fullName>
+        <active>false</active>
+        <description>This can be used to create and upload User Guides to the Knowledge Management Database so that relevant parties are able to access User Guides when needed</description>
+        <label>User Guide</label>
+        <picklistValues>
+            <picklist>PMC_SS_Region__c</picklist>
+            <values>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North America</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Procedure</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Recommended_Compact_Layout</compactLayoutAssignment>
+        <description>Standard procedures related to order and customer management.</description>
+        <label>Procedure</label>
+        <picklistValues>
+            <picklist>PMC_SS_Region__c</picklist>
+            <values>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>North America</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>MassPublishKnowledgeArticleVersion</excludedStandardButtons>
+        <excludedStandardButtons>MassAssignKnowledgeArticleVersion</excludedStandardButtons>
+        <excludedStandardButtons>MassArchiveKnowledgeArticleVersion</excludedStandardButtons>
+        <excludedStandardButtons>MassDeleteArchiveKnowledgeArticleVersion</excludedStandardButtons>
+        <excludedStandardButtons>MassDeleteDraftKnowledgeArticleVersion</excludedStandardButtons>
+        <excludedStandardButtons>MassRestoreKnowledgeArticleVersion</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwnerKnowledgeArticleVersion</excludedStandardButtons>
+    </searchLayouts>
+    <validationRules>
+        <fullName>PMC_SS_ValidateEndDateForBulletinNotice</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+	NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),NOT(CONTAINS( $Profile.Name , &apos;Digital Hub&apos; )),
+	 RecordType.DeveloperName = $Label.PMC_SS_KnowledgeArticle_BulletinRecordType ,ISNULL( PMC_SS_NumberOfDisplayDays__c ) 
+	
+)</errorConditionFormula>
+        <errorMessage>Please provide number of days bulletin needs to be displayed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PMC_SS_ValidateNegativeNoOfDisplayDays</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT( $Setup.PMC_ProcessSwitches__c.PMC_BypassValidationRule__c),NOT(CONTAINS( $Profile.Name , &apos;Digital Hub&apos; )),
+RecordType.DeveloperName =$Label.PMC_SS_KnowledgeArticle_BulletinRecordType,NOT(ISNULL( PMC_SS_NumberOfDisplayDays__c )),PMC_SS_NumberOfDisplayDays__c&lt;0
+
+)</errorConditionFormula>
+        <errorMessage>Please input positive value for &apos;Number Of Display Days&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PublishValidationRule</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISCHANGED( PublishStatus ) ,OR(ISPICKVAL(PublishStatus, &quot;Published&quot;),ISPICKVAL(PublishStatus, &quot;Online&quot;)))</errorConditionFormula>
+        <errorMessage>Empty summary</errorMessage>
+    </validationRules>
+</CustomObject>

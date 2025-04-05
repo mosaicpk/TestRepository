@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9d993d5a-d846-41ca-9839-457d1923924d",
+  "appPageId" : "156214d5-9eab-4660-9cfd-8eeaadd4dca2",
+  "configurationTags" : [ ],
+  "devName" : "reusable_header__c",
+  "id" : "a1563f45-6a2e-4e66-aaa0-43e616f7b443",
+  "label" : "reusable-header",
+  "routeType" : "custom-reusable-header",
+  "type" : "route",
+  "urlPrefix" : "reusable-header"
+}

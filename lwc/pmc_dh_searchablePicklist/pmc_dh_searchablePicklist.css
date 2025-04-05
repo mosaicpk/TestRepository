@@ -1,0 +1,75 @@
+.search-section {
+    display: none;
+  }
+  .slds-dropdown-trigger.slds-is-open .search-section {
+    display: initial;
+    position: absolute;
+    width: 100%;
+    top: 34px;
+    left: 0px;
+  }
+  .slds-input_faux.slds-combobox__input,
+  .slds-input-has-icon--left-right .slds-input,
+  lightning-input input.slds-input {
+    padding: var(--tb-size-small_custom2);
+    border-radius: 0;
+  }
+  .slds-combobox__form-element {
+    margin-bottom: 5px;
+  }
+  .slds-dropdown-trigger_click .slds-icon_container.slds-input__icon {
+    padding-right: var(--tb-size-medium_custom2);
+    padding-left: 0;
+    background: url(/sfsites/c/resource/tb_globalAssets/icons/vectordown.svg) no-repeat !important;
+  }
+  
+  .slds-dropdown-trigger_click.slds-is-open .slds-icon_container.slds-input__icon {
+    background: url(/sfsites/c/resource/tb_globalAssets/icons/vectorup.svg) no-repeat !important;
+  }
+  .slds-dropdown-trigger_click.slds-is-open .slds-dropdown {
+    top: 65px;
+  }
+  .slds-dropdown-trigger_click .slds-input_faux.slds-combobox__input {
+    cursor: pointer;
+    border: 1px solid rgb(191, 208, 206);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 32px;
+    padding: 0 32px 0 12px;
+  }
+  .slds-combobox_container.disabled {
+    cursor: not-allowed;
+  }
+  .slds-combobox_container.disabled .slds-dropdown-trigger_click {
+    pointer-events: none;
+  }
+  .slds-combobox_container.disabled
+    .slds-dropdown-trigger_click
+    .slds-input_faux.slds-combobox__input {
+    border: none;
+    background-color: var(--tb-color_offWhite);
+  }
+  .slds-input_faux.slds-combobox__input .slds-truncate {
+    max-width: 92%;
+    line-height: 30px;
+  }
+  .slds-form-element__label {
+    font-size: var(--tb-size-medium_custom1);
+    color: var(--tb-color_blueGray);
+  }
+  .slds-form-element__label abbr {
+    float: right;
+  }
+  .search-section .search-box {
+    margin-bottom: 0;
+  }
+  .slds-form-element__help {
+    display: none;
+  }
+  .show-slds-error .slds-form-element__help {
+    display: block;
+    color: var(--tb-color_red);
+  }
+  .show-slds-error .slds-combobox__input {
+    border: var(--lwc-borderWidthThick) solid var(--tb-color_red);
+  }

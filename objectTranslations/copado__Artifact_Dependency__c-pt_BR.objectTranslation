@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Package Dependency --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Package Dependency --></value>
+    </caseValues>
+    <fields>
+        <help>O registro do artefato que não pode ser instalado ou gerenciado sem o artefato dependente</help>
+        <label>Pacote Dependente</label>
+        <name>copado__Dependent_Artifact__c</name>
+        <relationshipLabel>Dependências de pacotes (artefato dependente)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>A versão mínima ou exata do artefato dependente. Essa versão específica será usada durante as operações de criação e instalação de versões.</help>
+        <label>Dependendo da versão do pacote</label>
+        <lookupFilter>
+            <errorMessage>O valor não existe ou não corresponde aos critérios do filtro. A versão dependente deve ser selecionada entre as versões do artefato dependente.</errorMessage>
+        </lookupFilter>
+        <name>copado__Depending_Artifact_Version__c</name>
+        <relationshipLabel>Dependências de pacotes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>O artefato do pacote dependente que contém as dependências necessárias para os metadados do pacote dependente</help>
+        <label>Dependendo do pacote</label>
+        <name>copado__Depending_Artifact__c</name>
+        <relationshipLabel>Dependências de pacotes (artefato dependente)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se marcada, a versão mais recente do artefato dependente será usada para operações de criação e instalação de versões</help>
+        <label>Depende da versão mais recente</label>
+        <name>copado__Depends_on_the_latest_version__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Artifact Dependencies Name --></nameFieldLabel>
+</CustomObjectTranslation>

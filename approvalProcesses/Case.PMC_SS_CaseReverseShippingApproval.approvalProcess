@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_CustomerServiceLeadership</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Original Invoice Amount greater than 1000000</label>
+        <name>PMC_SS_OriginalInvoiceAmountGreaterThan1000000</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_AccountManager__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Customer,Sales,Service</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference Over 10000 to Account Manager</label>
+        <name>PMC_SS_InvoiceDifferenceOver10000ToAccountManager</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_SupplyChain</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Carrier,Logistics Planning,Supply Planning,Warehouse</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference Over 10000 to Supply Chain</label>
+        <name>PMC_SS_InvoiceDifferenceOver10000ToSupplyChain</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_ProductManagement</name>
+                <type>queue</type>
+            </approver>
+            <approver>
+                <name>PMC_SS_Quality</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Plant / Operations</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference Over 10000 to Product Management and Quality</label>
+        <name>PMC_SS_InvoiceDifferenceOver10000ToProductManagementAndQuality</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_Service</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>System</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference Over 10000 to Service</label>
+        <name>PMC_SS_InvoiceDifferenceOver10000ToService</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_Quality</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Quality</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference Over 10000 to Quality</label>
+        <name>PMC_SS_InvoiceDifferenceOver10000ToQuality</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_AccountManager__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Customer,Sales,Service</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference 1001 to 10000 for Account Manager</label>
+        <name>PMC_SS_InvoiceDifference1001To10000ForAccountManager</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_SupplyChain</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Carrier,Logistics Planning,Supply Planning,Warehouse</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference 1001 to 10000 Supply Chain</label>
+        <name>PMC_SS_InvoiceDifference1001To10000SupplyChain</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_ProductManagement</name>
+                <type>queue</type>
+            </approver>
+            <approver>
+                <name>PMC_SS_Quality</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Plant / Operations</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference 1001 to 10000 for Product Management and Quality</label>
+        <name>PMC_SS_InvoiceDifference1001To10000ForProductManagementAndQuality</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_Service</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>System</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference 1001 to 10000 for Service</label>
+        <name>PMC_SS_InvoiceDifference1001To10000ForService</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_Quality</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_AtFaultParty__c</field>
+                <operation>equals</operation>
+                <value>Quality</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;USD 1,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_InvoiceDifference__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 10,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Invoice Difference 1001 to 10000 for Quality</label>
+        <name>PMC_SS_InvoiceDifference1001To10000ForQuality</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PMC_SS_CustomerServiceLeadership</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.PMC_SS_OriginalInvoiceAmount__c</field>
+                <operation>lessOrEqual</operation>
+                <value>&quot;USD 1,000,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.PMC_SS_ActionReason__c</field>
+                <operation>equals</operation>
+                <value>Reverse Shipment</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Original Invoice Amount Under 1000000</label>
+        <name>PMC_SS_OriginalInvoiceAmountUnder1000000</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Approval process to route Cases to appropriate Queues for reverse shipping approval.</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Case Reverse Shipping Approval</label>
+    <processOrder>3</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

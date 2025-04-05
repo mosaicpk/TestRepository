@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Selenium Test Case per Suite --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Selenium Test Case per Suite --></value>
+    </caseValues>
+    <fields>
+        <label>Pedido</label>
+        <name>copado__Order__c</name>
+    </fields>
+    <fields>
+        <label>case de teste Selenium</label>
+        <name>copado__Selenium_Test_Case__c</name>
+        <relationshipLabel>cases de teste Selenium por suíte</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Suíte de testes Selenium</label>
+        <name>copado__Selenium_Test_Suite__c</name>
+        <relationshipLabel>cases de teste</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nome do conjunto de dados de teste</label>
+        <name>copado__Test_Dataset_Name__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Ref# --></nameFieldLabel>
+</CustomObjectTranslation>

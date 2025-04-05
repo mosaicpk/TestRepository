@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>MFG_OrderProduct</dataset>
+    <dates>
+        <alias>Order.EffectiveDate</alias>
+        <dateFieldDay>Order.EffectiveDate_Day</dateFieldDay>
+        <dateFieldEpochDay>Order.EffectiveDate_day_epoch</dateFieldEpochDay>
+        <dateFieldEpochSecond>Order.EffectiveDate_sec_epoch</dateFieldEpochSecond>
+        <dateFieldFullYear>Order.EffectiveDate</dateFieldFullYear>
+        <dateFieldHour>Order.EffectiveDate_Hour</dateFieldHour>
+        <dateFieldMinute>Order.EffectiveDate_Minute</dateFieldMinute>
+        <dateFieldMonth>Order.EffectiveDate_Month</dateFieldMonth>
+        <dateFieldQuarter>Order.EffectiveDate_Quarter</dateFieldQuarter>
+        <dateFieldSecond>Order.EffectiveDate_Second</dateFieldSecond>
+        <dateFieldWeek>Order.EffectiveDate_Week</dateFieldWeek>
+        <dateFieldYear>Order.EffectiveDate_Year</dateFieldYear>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Order Start Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Order.Name</field>
+        <isDerived>false</isDerived>
+        <label>Order</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Order.Status</field>
+        <isDerived>false</isDerived>
+        <label>Order Status</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Order.OrderNumber</field>
+        <isDerived>false</isDerived>
+        <label>Order Number</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Order.OrderNumber</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>OrderId</recordIdField>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Order.SalesAgreement.Name</field>
+        <isDerived>false</isDerived>
+        <label>Sales Agreement</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product.Name</field>
+        <isDerived>false</isDerived>
+        <label>Product Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordIdField>Product2Id</recordIdField>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Order.Account.Owner.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Owner Name</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product.Family</field>
+        <isDerived>false</isDerived>
+        <label>Product Family</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Order.SalesAgreement.Status</field>
+        <isDerived>false</isDerived>
+        <label>Sales Agreement State</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Order.Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Account Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Order.Account.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Order.Account.Id</recordIdField>
+        <salesforceActionsEnabled>true</salesforceActionsEnabled>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>false</isDerived>
+        <label>Quantity (Orders)</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>sum_TotalPrice</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Order Value</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Revenue</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Revenue (Orders)</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualRevenue</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Revenue (Orders)</label>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>% Demand Met</field>
+        <formatCustomFormat>[&quot;0.00%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Attainment</field>
+        <formatCustomFormat>[&quot;0.00%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Last_Year_Perc</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual vs Forecast Difference</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual (Orders) vs Forecasted Difference</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual Forecast Difference</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>DerivedActualAmount</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue (Orders)</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual_Revenue</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue (Orders)</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Forecast_Revenue</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecast Revenue</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualAmount</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Revenue (Orders)</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastedAmount</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Revenue</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>PlannedAmount</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Planned Revenue</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>DerivedForecastedAmount</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecast Revenue</label>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>ActualQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Quantity (Orders)</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>ForecastedQuantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Forecasted Quantity</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>sum_Forecast Demand</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>sum_Actual Demand</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>Actual Demand</field>
+        <formatCustomFormat>[&quot;#,###.00&quot;,1]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Actual Demand (Orders)</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>19</sortIndex>
+    </measures>
+</WaveXmd>

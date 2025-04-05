@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Static Code Analysis Result --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Static Code Analysis Result --></value>
+    </caseValues>
+    <fields>
+        <label>Bloqueador</label>
+        <name>copado__Blocker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bugs --></label>
+        <name>copado__Bugs__c</name>
+    </fields>
+    <fields>
+        <label>Fechado</label>
+        <name>copado__Closed__c</name>
+    </fields>
+    <fields>
+        <label>Código Smells</label>
+        <name>copado__Code_Smells__c</name>
+    </fields>
+    <fields>
+        <label>Confirmado</label>
+        <name>copado__Confirmed__c</name>
+    </fields>
+    <fields>
+        <label>Crítico</label>
+        <name>copado__Critical__c</name>
+    </fields>
+    <fields>
+        <label>Etapa de implantação</label>
+        <name>copado__Deployment_Step__c</name>
+        <relationshipLabel>Resultados da análise de código estático</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Detalhes</label>
+        <name>copado__Details__c</name>
+    </fields>
+    <fields>
+        <label>Falso positivo</label>
+        <name>copado__False_Positive__c</name>
+    </fields>
+    <fields>
+        <label>Fixo</label>
+        <name>copado__Fixed__c</name>
+    </fields>
+    <fields>
+        <label>Violação de prioridade mais alta</label>
+        <name>copado__Highest_Priority_Violation__c</name>
+    </fields>
+    <fields>
+        <label>Informações</label>
+        <name>copado__Info__c</name>
+    </fields>
+    <fields>
+        <label>Principal</label>
+        <name>copado__Major__c</name>
+    </fields>
+    <fields>
+        <label>Minoritário</label>
+        <name>copado__Minor__c</name>
+    </fields>
+    <fields>
+        <label>Número de violações</label>
+        <name>copado__Number_of_Violations__c</name>
+    </fields>
+    <fields>
+        <label>Aberto</label>
+        <name>copado__Open__c</name>
+    </fields>
+    <fields>
+        <label>Credencial</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>Resultados da análise de código estático</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Removido</label>
+        <name>copado__Removed__c</name>
+    </fields>
+    <fields>
+        <label>Reaberto</label>
+        <name>copado__Reopened__c</name>
+    </fields>
+    <fields>
+        <label>Resolvido</label>
+        <name>copado__Resolved__c</name>
+    </fields>
+    <fields>
+        <label>Pontuação</label>
+        <name>copado__Score_v11__c</name>
+    </fields>
+    <fields>
+        <label>Não resolvido</label>
+        <name>copado__Unresolved__c</name>
+    </fields>
+    <fields>
+        <label>História do usuário</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Resultados da análise de código estático</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vulnerabilidades</label>
+        <name>copado__Vulnerabilities__c</name>
+    </fields>
+    <fields>
+        <label>Não conserta</label>
+        <name>copado__Wont_fix__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- Static Code Analysis Result Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Tipo de registro para integração com o CodeScan. Requer licenciamento do CodeScan.</description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Tipo de registro para integração gratuita do PMD</description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+</CustomObjectTranslation>

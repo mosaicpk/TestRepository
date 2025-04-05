@@ -1,0 +1,315 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-29-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-quick-action-panel title="Update Case" class="slds-size_small">
+        <lightning-card title={screenTitle}>
+            <div class="slds-m-around_medium">
+                <div class="spinner">
+                    <template if:true={isLoading}>
+                        <lightning-spinner alternative-text="Loading" variant="brand" size="large">
+                        </lightning-spinner>
+                    </template>
+                </div>
+                <!-- Action Reason -->
+                <label class="slds-form-element__label" for="actionReason">
+                    <abbr class="slds-required" title="required">*</abbr>{labels.select_actionReason}
+                </label>
+                <select class="slds-select" id="actionReason" data-name="actionReason" name="actionReason"
+                    onchange={handleOnChange} required>
+                    <template for:each={actionReasonValues} for:item="option">
+                        <option key={option.label} class="uiInputSelectOption" value={option.value}>{option.label}</option>
+                    </template>
+                </select>
+            
+
+                <!-- Order -->
+                <label class="slds-form-element__label" for="order">
+                    <abbr class="slds-required" title="required">*</abbr>{labels.select_order}
+                </label>
+                <c-pmc_ss_custom-Lookup-With-Filter id="order" data-name="order" data-id="order" obj-name="Order" icon-name="standard:orders" search-placeholder="Search Order..."
+                    class="mandatory" onlookupselected={handleOnChange} onlookupremoved={handleOnChange} record-id={recordId}>
+                </c-pmc_ss_custom-Lookup-With-Filter>
+
+                <!-- Order Item -->
+                <label class="slds-form-element__label" for="orderItem">
+                    <abbr class="slds-required" title="required">*</abbr>{labels.select_orderItem}
+                </label>
+                <select class="slds-select" id="orderItem" data-name="orderItem" name="orderItem"
+                    onchange={handleOnChange}>
+                    <template for:each={orderItems} for:item="orderItem" for:index="index">
+                        <option key={orderItem.Id} value={orderItem.Id}>{orderItem.OrderItemNumber}</option>
+                    </template>
+                </select>
+
+                <template if:true={isReverseShipmentAction}>
+                    <!-- Delivery -->
+                    <label class="slds-form-element__label" for="delivery">
+                        <abbr class="slds-required" title="required">*</abbr>{labels.select_delivery}
+                    </label>
+                    <select class="slds-select" id="delivery" data-name="delivery" name="delivery"
+                        onchange={handleOnChange}>
+                        <template for:each={deliveries} for:item="delivery" for:index="index">
+                            <option key={delivery.Id} value={delivery.Id}>{delivery.ShipmentNumber}
+                            </option>
+                        </template>
+                    </select>
+                </template>
+
+
+                <template if:true={isReturnReverseShipmentAction}>
+
+                    <label class="slds-form-element__label" for="vehicle">
+                        <abbr class="slds-required" title="required">*</abbr>{customLabels.PMC_SS_SelectDeliveryItem_FieldLabel}
+                    </label>
+                    <select class="slds-select" id="deliveryItem" data-name="deliveryItem" name="deliveryItem"
+                        onchange={handleOnChange}>
+                        <template for:each={deliveryItems} for:item="deliveryItem" for:index="index">
+                            <option key={deliveryItem.Id} value={deliveryItem.Id}>{deliveryItem.ShipmentItemNumber}
+                            </option>
+                        </template>
+                    </select>
+
+                    <lightning-input type="text" id="VehicleId" disabled="true" label={customLabels.PMC_SS_VehicleId_FieldLabel} value={vehicleId}></lightning-input>    
+                    <!-- <label class="slds-form-element__label" for="vehicle">
+                        <abbr class="slds-required" title="required">*</abbr>{labels.select_vehicle}
+                    </label>
+                    <select class="slds-select" id="vehicle" data-name="vehicle" name="vehicle"
+                        onchange={handleOnChange}>
+                        <template for:each={deliveryItems} for:item="deliveryItem" for:index="index">
+                            <option key={deliveryItem.Id} value={deliveryItem.Id}>{deliveryItem.VehicleId}
+                            </option>
+                        </template>
+                    </select> -->
+                </template>
+
+                <template if:true={isReverseShipmentAction}>
+                    
+                    <!-- Delivery 
+                    <label class="slds-form-element__label" for="delivery">
+                        <abbr class="slds-required" title="required">*</abbr>{labels.select_delivery}
+                    </label>
+                    <select class="slds-select" id="delivery" data-name="delivery" name="delivery"
+                        onchange={handleOnChange}>
+                        <template for:each={deliveries} for:item="delivery" for:index="index">
+                            <option key={delivery.Id} value={delivery.Id}>{delivery.ShipmentNumber}
+                            </option>
+                        </template>
+                    </select>-->
+
+                    <!--
+                        Fields derived from Delivery
+                        First Date
+                    -->
+
+                    <!-- Product -->
+                    <lightning-input type="text" id="product" disabled="true" label={customLabels.PMC_SS_Product_FieldLabel} value={productName}></lightning-input>
+
+                    <!-- Tons -->
+                    <template if:true={deliveryQty}>
+                        <lightning-input type="text" id="tonsQty" disabled="true" label={customLabels.PMC_SS_Tons_FieldLabel} value={deliveryQty}></lightning-input>
+                    </template>
+
+                    <!-- UOM -->
+                    <template if:true={deliveryUoM}>
+                        <lightning-input type="text" id="uom" disabled="true" label={customLabels.PMC_SS_UOM_FieldLabel} value={deliveryUoM}></lightning-input>
+                    </template>
+
+                    <!-- Ship From -->
+                    <template if:true={objDelivery.ShipFrom}>
+                        <lightning-input type="text" id="shipFrom" disabled="true" label={customLabels.PMC_SS_ShipFrom_FieldLabel} value={objDelivery.ShipFrom}></lightning-input>
+                    </template>
+
+                    <!-- Ship To -->
+                    <template if:true={objDelivery.ShipTo}>
+                        <lightning-input type="text" id="shipTo" disabled="true" label={customLabels.PMC_SS_ShipTo_FieldLabel} value={objDelivery.ShipTo}></lightning-input>
+                    </template>
+
+                    <!-- Shipment Date -->
+                    <template if:true={objDelivery.ShippedDate}>
+                        <lightning-input type="text" id="shipmentDate" disabled="true" label={customLabels.PMC_SS_ShipmentDate_FieldLabel} value={objDelivery.ShippedDate}></lightning-input>
+                    </template>
+
+                </template>
+
+                <!-- Invoices -->
+                <template if:true={invoices}>
+                    <label class="slds-form-element__label" for="invoice">
+                        <!--abbr class="slds-required" title="required">*</abbr-->{labels.select_invoice}
+                    </label>
+                    <select class="slds-select" id="invoice" data-name="invoice" name="invoice"
+                        onchange={handleOnChange}>
+                        <template for:each={invoices} for:item="invoice">
+                            <option key={invoice.Id} value={invoice.Id}>{invoice.Name}</option>
+                        </template>
+                    </select>
+
+                    <!-- Original Invoice Amount -->
+                    <lightning-input type="number" step=".01" formatter="currency" id="originalInvoiceAmount"
+                        name="originalInvoiceAmount" label={customLabels.PMC_SS_OriginalInvoiceAmount_FieldLabel} disabled="true"
+                        value={originalInvoiceAmt}></lightning-input>
+                </template>
+
+                <template if:true={isCancelRebillReverseShipmentAction}>
+
+                    <!-- Cancel / Rebill -->
+                    <template if:true={isCancelRebillAction}>
+                        <!-- Cancel Amount -->
+                        <template if:true={cancelSelected}>
+                            <lightning-input type="number" step=".01" formatter="currency" id="cancelAmount" name="cancelAmount"
+                                label={customLabels.PMC_SS_CancelAmount_FieldLabel} required="true" onchange={handleOnChange}></lightning-input>
+                        </template>
+                    
+                        <!-- Rebill Amount -->
+                        <template if:true={rebillSelected}>
+                            <lightning-input type="number" step=".01" formatter="currency" id="rebillAmount" name="rebillAmount"
+                                label={customLabels.PMC_SS_RebillAmount_FieldLabel} required="true" onchange={handleOnChange}></lightning-input>
+                        </template>                    
+                    </template>
+
+
+                    <template if:true={isReverseShipmentAction}>
+                        <lightning-input type="number" step=".01" formatter="currency" id="dollarAmount" name="dollarAmount"
+                        label={customLabels.PMC_SS_DollarAmount_FieldLabel} required="true" onchange={handleOnChange}></lightning-input>
+                    </template>
+
+                    <!-- Invoice Difference -->
+                    <lightning-input type="number" step=".01" formatter="currency" id="invoiceDifference" name="invoiceDifference"
+                    disabled="true" label={customLabels.PMC_SS_InvoiceDifference_FieldLabel} value={invoiceDifference}></lightning-input>
+
+                    <template if:true={objOrderDetailsWrapper.objAccountWrapper}>
+                        <!-- Account -->
+                        <lightning-input label={customLabels.PMC_SS_Account_FieldLabel} name="" id="account" disabled="true"
+                            value={objOrderDetailsWrapper.objAccountWrapper.strRecordName}></lightning-input>
+                    </template>
+                    <!--GHOS-2258
+                    <template if:true={objContact.Name}>
+                        
+                        <lightning-input label={customLabels.PMC_SS_Contact_FieldLabel} name="" id="contact" disabled="true"
+                            value={objContact.Name}></lightning-input>
+                    </template>
+-->
+                </template>
+
+                <template if:true={isCancelRebillAction}>
+                    <template if:true={objOrderDetailsWrapper.objContractWrapper}>
+                        <!-- Contract -->
+                        <lightning-input label={customLabels.PMC_SS_OriginalContract_FieldLabel} name="" id="contract" disabled="true"
+                            value={objOrderDetailsWrapper.objContractWrapper.strRecordName}></lightning-input>
+
+                        <!-- New Contract -->
+                        <label class="slds-form-element__label" for="newContract">
+                            <!--abbr class="slds-required" title="required">*</abbr-->{labels.select_newContract}
+                        </label>
+                        <select class="slds-select" id="newContract" data-name="newContract" name="newContract"
+                            onchange={handleOnChange}>
+                            <template for:each={contracts} for:item="contract">
+                                <option key={contract.Id} value={contract.Id}>{contract.ContractNumber}</option>
+                            </template>
+                        </select>
+
+                    </template>
+                </template>
+
+                <template if:true={isCreditDebitReturnAction}>
+
+                    <!-- Credit / Debit -->
+                    <template if:true={isCreditDebitAction}>
+                        <lightning-input type="number" step=".01" formatter="currency" id="creditDebitAmount"
+                            name="creditDebitAmount" label={customLabels.PMC_SS_CreditDebitAmount_FieldLabel} required="true" onchange={handleOnChange}></lightning-input>
+                    </template>
+
+                    <!-- Return -->
+                    <template if:true={isReturnAction}>
+                        <!-- Return Quantity -->
+                        <lightning-input label={customLabels.PMC_SS_ReturnQuantity_FieldLabel} name="returnQuantity" id="returnQuantity" type="number"
+                            required="true" onchange={handleOnChange}></lightning-input>
+
+                        <!-- Return Amount -->
+                        <lightning-input type="number" step=".01" formatter="currency" id="returnAmount" disabled="true"
+                            label={customLabels.PMC_SS_ReturnAmount_FieldLabel} value={returnAmount}></lightning-input>
+                    </template>
+
+                    <template if:true={shipToAccountName}>
+                        <!-- Ship-To Account -->
+                        <lightning-input label={customLabels.PMC_SS_ShipToAccount_FieldLabel} name="" id="shipToAccount" disabled="true"
+                            value={shipToAccountName}></lightning-input>
+                    </template>
+
+                    <template if:true={objOrderDetailsWrapper.objSoldToAccountWrapper}>
+                        <!-- Sold-To Account -->
+                        <lightning-input label={customLabels.PMC_SS_SoldToAccount_FieldLabel} name="" id="soldToAccount" disabled="true"
+                            value={objOrderDetailsWrapper.objSoldToAccountWrapper.strRecordName}></lightning-input>
+                    </template>
+
+                    <template if:true={plantId}>
+                        <!-- Plant -->
+                        <lightning-input label={customLabels.PMC_SS_Plant_FieldLabel} name="" id="plant" type="text" disabled="true"
+                            value={plantId}></lightning-input>
+                    </template>
+
+                    <template if:true={isReturnAction}>
+                        <template if:true={modeOfTransportation}>
+                            <!-- Mode Of Transportation -->
+                            <lightning-input label={customLabels.PMC_SS_ModeOfTransportation_FieldLabel} name="" id="modeOfTransportation"
+                                type="text" disabled="true" value={modeOfTransportation}></lightning-input>
+                        </template>                        
+                    </template>
+                </template>
+
+                <template if:true={isReturnReverseShipmentAction}>
+                        <!-- PGI Date -->
+                        <template if:true={pgiDate}>
+                            <lightning-input label={customLabels.PMC_SS_PGIDate_FieldLabel} name="pgiDate" id="pgiDate" disabled="true"
+                                value={pgiDate}></lightning-input>
+                        </template>
+                </template>
+
+                <!-- Add Details Comment Box, File Upload - Reverse Shipment -->
+                <template if:true={isReverseShipmentAction}>
+                    <lightning-textarea id="comments" data-id="comments" data-name="comments" label={customLabels.PMC_SS_Comments_FieldLabel} max-length="255" onchange={handleOnChange}></lightning-textarea>
+                    <c-pmc_ss_custom-File-Uploader title={labels.uploadDoc} recordid={recordId} onfileuploaded={fileUploaded}></c-pmc_ss_custom-File-Uploader>
+                </template>
+
+                <!-- At Fault Party -->
+                <label class="slds-form-element__label" for="atFaultParty">
+                    <abbr class="slds-required" title="required">*</abbr>{labels.select_atFaultParty}
+                </label>
+                <select class="slds-select" id="atFaultParty" name="atFaultParty" data-name="atFaultParty"
+                    onchange={handleOnChange}>
+                    <template for:each={atFaultParty} for:item="option">
+                        <option key={option.label} class="uiInputSelectOption" value={option.value}>{option.label}
+                        </option>
+                    </template>
+                </select>
+
+                <!-- Payment Request Type -->
+                <label class="slds-form-element__label" for="paymentRequestType">
+                    <template if:false={isReverseShipmentAction}>
+                        <abbr class="slds-required" title="required">*</abbr>
+                    </template>
+                    {labels.select_paymentRequestType}
+                </label>
+                <select class="slds-select" id="paymentRequestType" name="paymentRequestType"
+                    data-name="paymentRequestType" onchange={handleOnChange}>
+                    <template for:each={paymentReqType} for:item="option">
+                        <option key={option.label} class="uiInputSelectOption" value={option.value}>{option.label}
+                        </option>
+                    </template>
+                </select>
+
+                <div class="footer">
+                    <lightning-button variant="neutral" label={customLabels.PMC_SS_SNOW_Cancel_Label} onclick={closeAction}></lightning-button> &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <lightning-button variant="brand" label={customLabels.PMC_SS_SNOW_Save_Label} onclick={saveAction}></lightning-button>
+                </div>
+
+            </div>
+        </lightning-card>
+    </lightning-quick-action-panel>
+</template>

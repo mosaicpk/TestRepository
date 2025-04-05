@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>PMC_CPQ_ApprovalRequestLetterHead</letterhead>
+    <name>Reminder Email</name>
+    <style>freeForm</style>
+    <subject>Reminder Email for Pending Approval</subject>
+    <textOnly>The Approval {!sbaa__Approval__c.Name} is still pending. Please take action.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

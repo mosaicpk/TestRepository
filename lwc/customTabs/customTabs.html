@@ -1,0 +1,14 @@
+<template>
+    <div class="menu-wrapper">
+        <lightning-button-icon icon-name="utility:chevronleft" alternative-text="previous" size="small"
+            disabled={prevDisabled} class="left-arrow arrow" if:true={isArrowNeeded}></lightning-button-icon>
+        <ul class="menu">
+            <li class="item dxp-text-body" for:each={tabsArray} for:item="item" for:index="index" key={item}
+                data-state={item.state} data-value={item.value} data-id={item.id} onclick={handleItemClickEvent}>
+                {item.value}
+            </li>
+        </ul>
+        <lightning-button-icon icon-name="utility:chevronright" alternative-text="next" size="small"
+            disabled={nextDisabled} class="right-arrow arrow" if:true={isArrowNeeded}></lightning-button-icon>
+    </div>
+</template>

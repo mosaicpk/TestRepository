@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cotação da Web</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cotações da Web</value>
+    </caseValues>
+    <fields>
+        <help>Conta do cliente para esta cotação. O padrão é a conta da oportunidade ao criar uma cotação.</help>
+        <label><!-- Account --></label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Valor adicionalmente descontado nessa cotação manualmente.</help>
+        <label>Addl. Disc. Valor</label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto médio do cliente (em porcentagem) para essa cotação.</help>
+        <label>Avg. Disc. do cliente (%)</label>
+        <name>SBQQ__AverageCustomerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto médio do parceiro (em porcentagem) para essa cotação.</help>
+        <label>Avg. Disc. do parceiro (%)</label>
+        <name>SBQQ__AveragePartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Indica a quantidade em cada lote se os produtos forem vendidos em lotes.</help>
+        <label><!-- Batch Quantity --></label>
+        <name>SBQQ__BatchQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Cidade do endereço de cobrança para essa cotação.</help>
+        <label>Fatura para a cidade</label>
+        <name>SBQQ__BillingCity__c</name>
+    </fields>
+    <fields>
+        <help>País da conta Para o endereço dessa cotação.</help>
+        <label>Fatura para o país</label>
+        <name>SBQQ__BillingCountry__c</name>
+    </fields>
+    <fields>
+        <help>Nome para o endereço Bill To.</help>
+        <label>Fatura para nome</label>
+        <name>SBQQ__BillingName__c</name>
+    </fields>
+    <fields>
+        <help>Código postal do endereço de cobrança para essa cotação.</help>
+        <label>Fatura para Código postal</label>
+        <name>SBQQ__BillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help>Estado/Província do endereço de entrega da fatura para essa cotação.</help>
+        <label>Fatura para o estado</label>
+        <name>SBQQ__BillingState__c</name>
+    </fields>
+    <fields>
+        <help>Parte da rua do endereço de cobrança para essa cotação.</help>
+        <label>Fatura para Rua</label>
+        <name>SBQQ__BillingStreet__c</name>
+    </fields>
+    <fields>
+        <help>Resumo do valor do cliente.</help>
+        <label><!-- Customer Amount --></label>
+        <name>SBQQ__CustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help>Desconto adicional concedido ao cliente nessa cotação. Você poderá substituir esse valor no nível do item de linha individual. Todos os itens de linha que não tiverem um desconto adicional explicitamente especificado terão esse valor como padrão.</help>
+        <label>Disco adicional. (%)</label>
+        <name>SBQQ__CustomerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Número de dias em que a cotação foi aberta.</help>
+        <label><!-- Days Quote Open --></label>
+        <name>SBQQ__DaysQuoteOpen__c</name>
+    </fields>
+    <fields>
+        <help>Modelo que deve ser usado com essa cotação. O Salesforce CPQ usará esse valor para a seleção do modelo padrão na tela &quot;Gerar documento&quot;.</help>
+        <label><!-- Default Template --></label>
+        <name>SBQQ__DefaultTemplate__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Método usado para entregar produtos nessa cotação.</help>
+        <label><!-- Delivery Method --></label>
+        <name>SBQQ__DeliveryMethod__c</name>
+        <picklistValues>
+            <masterLabel>Download</masterLabel>
+            <translation>Baixar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship</masterLabel>
+            <translation>Envio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Desconto do distribuidor que se aplica a essa cotação, a menos que seja substituído no nível do item de linha.</help>
+        <label>Desconto para distribuidores</label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help>ID do registro do documento que contém o documento gerado.</help>
+        <label>Identificação do documento</label>
+        <name>SBQQ__DocumentId__c</name>
+    </fields>
+    <fields>
+        <help>Se você tiver um modelo de e-mail específico a ser usado para documentos gerados e enviados por e-mail a partir dessa cotação, insira o ID do modelo de e-mail aqui.</help>
+        <label>ID do modelo de e-mail</label>
+        <name>SBQQ__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>Data de término das assinaturas desse grupo.</help>
+        <label><!-- End Date --></label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Data após a qual a cotação não é mais válida.</help>
+        <label><!-- Expires On --></label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help>Usado com produtos de vários segmentos para ratear o primeiro segmento.</help>
+        <label>Término prazo primeiro segmento</label>
+        <name>SBQQ__FirstSegmentTermEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Introdução que pode ser impressa no documento PDF gerado.</help>
+        <label><!-- Introduction --></label>
+        <name>SBQQ__Introduction__c</name>
+    </fields>
+    <fields>
+        <help>Número de itens de linha nessa cotação.</help>
+        <label><!-- Line Item Count --></label>
+        <name>SBQQ__LineItemCount__c</name>
+    </fields>
+    <fields>
+        <help>Valor total da lista de cada item de linha não opcional nesta cotação.</help>
+        <label>Quantidade da lista</label>
+        <name>SBQQ__ListAmount__c</name>
+    </fields>
+    <fields>
+        <help>Taxa de majoração padrão aplicada a itens de linha nessa cotação. Você poderá substituir esse valor no nível do grupo e do item de linha.</help>
+        <label>Markup (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help>Contrato principal com o qual os produtos de assinatura desta cotação devem ser rescindidos.</help>
+        <label>Contrato principal</label>
+        <name>SBQQ__MasterContract__c</name>
+        <relationshipLabel>Cotações de co-terminados</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Valor líquido total de cada item de linha não opcional nesta cotação.</help>
+        <label><!-- Net Amount --></label>
+        <name>SBQQ__NetAmount__c</name>
+    </fields>
+    <fields>
+        <help>Notas impressas no documento PDF gerado.</help>
+        <label>Notas</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <help>Oportunidade que está sendo citada.</help>
+        <label><!-- Opportunity --></label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se esse registro de cotação representar uma re-citação de alteração, use esse campo para criar um link para a cotação original.</help>
+        <label><!-- Original Quote --></label>
+        <name>SBQQ__OriginalQuote__c</name>
+        <relationshipLabel>WebAmend: Re-Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Desconto estendido ao parceiro nessa oportunidade.</help>
+        <label>Desconto para parceiros</label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help>Termos que regem o pagamento dos itens desta cotação.</help>
+        <label>Condições de pagamento</label>
+        <name>SBQQ__PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>Due on receipt</masterLabel>
+            <translation>Vencimento no recebimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15</masterLabel>
+            <translation>Líquido 15</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30</masterLabel>
+            <translation>Líquido 30</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45</masterLabel>
+            <translation>Líquido 45</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60</masterLabel>
+            <translation>Net 60</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90</masterLabel>
+            <translation>Net 90</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O Livro de Preços associado a esta cotação da web.</help>
+        <label>Livro de preços</label>
+        <name>SBQQ__PriceBook__c</name>
+        <relationshipLabel>Orçamentos na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se essa cotação não estiver vinculada a uma oportunidade com um registro de preços, isso armazenará o ID do registro de preços para a cotação.</help>
+        <label>ID Cotação de preços</label>
+        <name>SBQQ__PricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Contato principal para a cotação. O nome dessa pessoa aparecerá no documento de cotação gerado.</help>
+        <label>Contato principal</label>
+        <name>SBQQ__PrimaryContact__c</name>
+        <relationshipLabel>Orçamentos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID do processo de venda guiada a ser usado com essa cotação, se houver.</help>
+        <label>Id do processo de cotação</label>
+        <name>SBQQ__QuoteProcessId__c</name>
+    </fields>
+    <fields>
+        <help>Armazena um ID de modelo de cotação se for especificado um para ser usado ao gerar documentos PDF de cotação.</help>
+        <label>Id do modelo de orçamento</label>
+        <name>SBQQ__QuoteTemplateId__c</name>
+    </fields>
+    <fields>
+        <help>Valor total de tempos de linha não opcionais antes da aplicação de descontos adicionais.</help>
+        <label><!-- Regular Amount --></label>
+        <name>SBQQ__RegularAmount__c</name>
+    </fields>
+    <fields>
+        <help>Representante de vendas responsável por essa cotação, se diferente do usuário que possui o registro de cotação.</help>
+        <label>Representante de vendas</label>
+        <name>SBQQ__SalesRep__c</name>
+        <relationshipLabel>Orçamentos na Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica se essa cotação da Web é de autoatendimento.</help>
+        <label>Serviço Autônomo</label>
+        <name>SBQQ__SelfServiced__c</name>
+    </fields>
+    <fields>
+        <help>Cidade no endereço de entrega para essa cotação.</help>
+        <label>Cidade de destino</label>
+        <name>SBQQ__ShippingCity__c</name>
+    </fields>
+    <fields>
+        <help>País no endereço de entrega para essa cotação.</help>
+        <label>País de destino</label>
+        <name>SBQQ__ShippingCountry__c</name>
+    </fields>
+    <fields>
+        <help>Nome no endereço de entrega para essa cotação.</help>
+        <label>Nome do destinatário</label>
+        <name>SBQQ__ShippingName__c</name>
+    </fields>
+    <fields>
+        <help>Código postal no endereço de entrega para essa cotação.</help>
+        <label>Código postal do destinatário</label>
+        <name>SBQQ__ShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help>Estado/Província no endereço de entrega para essa cotação.</help>
+        <label>Estado de destino</label>
+        <name>SBQQ__ShippingState__c</name>
+    </fields>
+    <fields>
+        <help>Rua no endereço de entrega para essa cotação.</help>
+        <label>Rua de destino</label>
+        <name>SBQQ__ShippingStreet__c</name>
+    </fields>
+    <fields>
+        <help>Status da assinatura eletrônica.</help>
+        <label><!-- Signature Status --></label>
+        <name>SBQQ__SignatureStatus__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expirado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revoked</masterLabel>
+            <translation>Revogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation>Assinado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Data de início das assinaturas nessa cotação.</help>
+        <label>Data de início</label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Status que indica onde a cotação está em seu ciclo de vida.</help>
+        <label><!-- Status --></label>
+        <name>SBQQ__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprovado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation>Negado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Rascunho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Em análise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presented</masterLabel>
+            <translation>Apresentado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeitado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Termo de assinatura usado para ratear os produtos elegíveis.</help>
+        <label>Prazo da assinatura</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Insira o valor desejado do cliente para calcular automaticamente o desconto adicional em itens de linha com desconto.</help>
+        <label>Valor do cliente-alvo</label>
+        <name>SBQQ__TargetCustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help>Valor total do desconto do cliente. Isso inclui qualquer contrato, volume, taxa composta e descontos adicionais.</help>
+        <label>Total de discos de clientes. Valor</label>
+        <name>SBQQ__TotalCustomerDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de cotação.</help>
+        <label><!-- Type --></label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Amendment</masterLabel>
+            <translation>Emenda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Orçamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Quote</masterLabel>
+            <translation>Re-cotação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renovação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Marque a caixa de seleção para exibir a marca d&apos;água no documento de cotação.</help>
+        <label><!-- Watermark Shown --></label>
+        <name>SBQQ__WatermarkShown__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da cotação</nameFieldLabel>
+    <validationRules>
+        <errorMessage>A Data de Término do Primeiro Segmento deve estar entre a Data de Início da Cotação e a Data de Término da Cotação</errorMessage>
+        <name>SBQQ__Invalid_First_Segment_Term_End_Date_WQ</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Edit_Lines --></label>
+        <name>SBQQ__Edit_Lines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocument --></label>
+        <name>SBQQ__GenerateDocument</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RefreshMultiplePrices --></label>
+        <name>SBQQ__RefreshMultiplePrices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RefreshPrices --></label>
+        <name>SBQQ__RefreshPrices</name>
+    </webLinks>
+</CustomObjectTranslation>

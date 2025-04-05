@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Price Rule --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Price Rule --></value>
+    </caseValues>
+    <fields>
+        <help>Indica si esta regla está activa o no.</help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Sólo puede introducirse si las Condiciones cumplidas son Personalizadas. Introduzca una combinación de los números del índice de precios y condiciones, Y, O y paréntesis (por ejemplo (123 Y 124) Y 125).&quot;</help>
+        <label>Condición avanzada</label>
+        <name>SBQQ__AdvancedCondition__c</name>
+    </fields>
+    <fields>
+        <help>&quot;Elija el comportamiento para sus condiciones: Todo es Y, Cualquiera es O, Personalizado es una combinación de Y/O.&quot;</help>
+        <label>Condiciones cumplidas</label>
+        <name>SBQQ__ConditionsMet__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation>Cualquier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Personalizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Si se selecciona Ninguno o Guardar, las reglas de precios del Configurador se activarán al guardar.  Si se selecciona Editar, las reglas de precios del Configurador se activarán al editar y guardar.&quot;</help>
+        <label>Evento de evaluación del configurador</label>
+        <name>SBQQ__ConfiguratorEvaluationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation>Editar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation>Guardar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifique cuándo debe evaluarse esta regla. Sólo debe utilizarse cuando se dirige a la línea de presupuesto y no se admite en la calculadora anterior.</help>
+        <label>Evento de evaluación de calculadoras</label>
+        <name>SBQQ__EvaluationEvent__c</name>
+        <picklistValues>
+            <masterLabel>After Calculate</masterLabel>
+            <translation>Después de calcular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before Calculate</masterLabel>
+            <translation>Antes de calcular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Calculate</masterLabel>
+            <translation>En Calcular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Initialization</masterLabel>
+            <translation>En la inicialización</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>&quot;Especifique el orden de evaluación para esta regla de precios. Las reglas de orden superior se evalúan en último lugar, lo que significa que &quot;ganan&quot; en caso de conflicto.&quot;</help>
+        <label>Orden de evaluación</label>
+        <name>SBQQ__EvaluationOrder__c</name>
+    </fields>
+    <fields>
+        <help>Nombre API del objeto personalizado que almacena los datos de búsqueda.</help>
+        <label>Objeto de búsqueda</label>
+        <name>SBQQ__LookupObject__c</name>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation>Ubicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_CPQ_ProductLocation__c</masterLabel>
+            <translation><!-- PMC_CPQ_ProductLocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_AccountPartnerRelationships__c</masterLabel>
+            <translation><!-- PMC_SS_AccountPartnerRelationships__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMC_SS_Allocation__c</masterLabel>
+            <translation><!-- PMC_SS_Allocation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product2</masterLabel>
+            <translation><!-- Product2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__LookupData__c</masterLabel>
+            <translation><!-- SBQQ__LookupData__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__QuoteLine__c</masterLabel>
+            <translation><!-- SBQQ__QuoteLine__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Elija un producto para asociarlo a esta regla.</help>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Reglas de precios</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Evento durante el cual se evalúa esta regla.</help>
+        <label>Alcance de evaluación</label>
+        <name>SBQQ__TargetObject__c</name>
+        <picklistValues>
+            <masterLabel>Calculator</masterLabel>
+            <translation>Calculadora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configurator</masterLabel>
+            <translation>Configurador</translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Price Rule Name --></nameFieldLabel>
+    <webLinks>
+        <label>Clonar con relacionados</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar con relacionados</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+</CustomObjectTranslation>
